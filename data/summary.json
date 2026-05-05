@@ -1,18 +1,18 @@
 {
   "topOverall": [
     {
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "score": 77,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "CKN.L",
       "name": "Chemring Group",
       "score": 77,
       "market": "UK",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "OVV",
-      "name": "Ovintiv",
-      "score": 76,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "8058.T",
@@ -24,6 +24,13 @@
     {
       "ticker": "DVN",
       "name": "Devon Energy",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
       "score": 74,
       "market": "US",
       "capCategory": "Large"
@@ -50,23 +57,16 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CTRA",
-      "name": "Coterra Energy",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "4063.T",
-      "name": "Shin-Etsu Chemical",
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 73,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "COP",
-      "name": "ConocoPhillips",
-      "score": 72,
       "market": "US",
       "capCategory": "Large"
     }
@@ -80,25 +80,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "DASH",
       "name": "DoorDash",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "UPST",
-      "name": "Upstart",
       "score": 24,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "SOFI",
@@ -106,6 +92,13 @@
       "score": 24,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "VIV.PA",
@@ -129,11 +122,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
+      "ticker": "LCID",
+      "name": "Lucid Group",
       "score": 26,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "RMS.PA",
@@ -141,13 +134,20 @@
       "score": 27,
       "market": "FR",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "DJT",
+      "name": "Trump Media",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "OVV",
       "name": "Ovintiv",
-      "score": 76,
+      "score": 77,
       "market": "US"
     },
     {
@@ -159,6 +159,12 @@
     {
       "ticker": "DVN",
       "name": "Devon Energy",
+      "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
       "score": 74,
       "market": "US"
     },
@@ -175,8 +181,14 @@
       "market": "JP"
     },
     {
-      "ticker": "CTRA",
-      "name": "Coterra Energy",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 73,
       "market": "US"
     },
@@ -191,18 +203,6 @@
       "name": "ConocoPhillips",
       "score": 72,
       "market": "US"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "8002.T",
-      "name": "Marubeni",
-      "score": 72,
-      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -237,22 +237,16 @@
       "market": "UK"
     },
     {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 65,
+      "market": "US"
+    },
+    {
       "ticker": "PLUS.L",
       "name": "Plus500",
       "score": 65,
       "market": "UK"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 64,
-      "market": "US"
-    },
-    {
-      "ticker": "NNN",
-      "name": "NNN REIT",
-      "score": 64,
-      "market": "US"
     },
     {
       "ticker": "BBY.L",
@@ -263,6 +257,12 @@
     {
       "ticker": "HBR.L",
       "name": "Harbour Energy",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "WEIR.L",
+      "name": "Weir Group",
       "score": 63,
       "market": "UK"
     }
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 860,
-  "avgScore": 49,
-  "bearishAlertCount": 401
+  "avgScore": 50,
+  "bearishAlertCount": 396
 }
