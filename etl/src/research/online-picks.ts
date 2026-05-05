@@ -103,61 +103,91 @@ async function fetchStockTwitsTrending(knownTickers: Set<string>): Promise<Onlin
   }
 }
 
-// ─── Reddit Mentions ─────────────────────────────────────────────────────────
+// ─── ApeWisdom — aggregated Reddit mentions (US) ─────────────────────────────
+// ApeWisdom aggregates Reddit stock mentions across r/stocks, r/investing, WSB
+// and others. Much more reliable than hitting Reddit directly (no IP blocks).
+// API: https://apewisdom.io/api/v1.0/filter/all-stocks/page/N
 
-// US and UK subreddits only
-const SUBREDDITS = ['stocks', 'UKInvesting', 'Bogleheads', 'investing'];
+async function fetchApeWisdomMentions(knownUS: Set<string>): Promise<OnlinePick[]> {
+  try {
+    const res = await fetch('https://apewisdom.io/api/v1.0/filter/all-stocks/page/1', {
+      headers: { 'User-Agent': 'StockDashboard/1.0' },
+    });
+    if (!res.ok) {
+      console.warn(`ApeWisdom fetch failed: HTTP ${res.status}`);
+      return [];
+    }
+    const data = await res.json() as {
+      results: { rank: number; ticker: string; name: string; mentions: number; upvotes: number; rank_24h_ago: number; mentions_24h_ago: number }[];
+    };
 
-async function fetchRedditMentions(knownUS: Set<string>, knownUK: Set<string>): Promise<OnlinePick[]> {
+    const date = today();
+    const fetchedAt = new Date().toISOString();
+
+    const picks: OnlinePick[] = [];
+    for (const item of data.results ?? []) {
+      if (!knownUS.has(item.ticker)) continue;
+      if (item.mentions < 10) continue; // filter noise
+
+      const rankChange = item.rank_24h_ago - item.rank; // positive = moved up
+      const trendLabel = rankChange >= 5 ? ' · trending up' : rankChange <= -5 ? ' · fading' : '';
+      const headline = `Reddit buzz: ${item.mentions.toLocaleString()} mentions, ${item.upvotes.toLocaleString()} upvotes · #${item.rank} (was #${item.rank_24h_ago})${trendLabel}`;
+
+      picks.push({
+        id: makeId('apewisdom', item.ticker, date, `rank${item.rank}`),
+        ticker: item.ticker,
+        name: item.name || null,
+        market: 'US',
+        source: 'ApeWisdom (Reddit)',
+        sourceUrl: `https://apewisdom.io`,
+        sourceType: 'community',
+        date,
+        callType: 'Watch',
+        analyst: null,
+        priceTarget: null,
+        upside: null,
+        headline,
+        fetchedAt,
+      });
+    }
+
+    console.log(`ApeWisdom: ${picks.length} Reddit mentions matched from top 100`);
+    return picks;
+  } catch (err) {
+    console.warn('ApeWisdom fetch failed:', (err as Error).message);
+    return [];
+  }
+}
+
+// ─── Reddit r/UKInvesting (direct) ────────────────────────────────────────────
+// Only the UK subreddit — direct Reddit API, may fail on GitHub Actions IPs.
+
+async function fetchUKReddit(knownUK: Set<string>): Promise<OnlinePick[]> {
   const picks: OnlinePick[] = [];
   const date = today();
   const fetchedAt = new Date().toISOString();
 
-  for (const sub of SUBREDDITS) {
+  for (const sub of ['UKInvesting', 'UKPersonalFinance']) {
     try {
       const res = await fetch(`https://www.reddit.com/r/${sub}/hot.json?limit=50`, {
         headers: { 'User-Agent': 'StockDashboard/1.0 (educational project)' },
       });
-      if (!res.ok) { await delay(1000); continue; }
+      if (!res.ok) {
+        console.warn(`Reddit r/${sub}: HTTP ${res.status} — possibly blocked`);
+        await delay(1000);
+        continue;
+      }
       const data = await res.json();
-      const posts: { data: { title: string; url: string; score: number; selftext?: string } }[] =
+      const posts: { data: { title: string; url: string; score: number } }[] =
         data.data?.children ?? [];
 
+      let matched = 0;
       for (const { data: post } of posts) {
         if (post.score < 5) continue;
-        const text = post.title + ' ' + (post.selftext ?? '');
 
-        // US tickers: $TICK or standalone TICK (2-5 uppercase letters)
-        const usMatches = [...new Set([
-          ...(text.match(/\$([A-Z]{1,5})\b/g) ?? []).map(m => m.slice(1)),
-          ...(post.title.match(/\b([A-Z]{2,5})\b/g) ?? []).filter(t => knownUS.has(t)),
-        ])].filter(t => knownUS.has(t));
-
-        // UK tickers: base symbol without .L suffix
         const ukMatches = [...new Set(
           (post.title.match(/\b([A-Z]{2,5})\b/g) ?? []).filter(t => knownUK.has(t))
         )];
-
-        const headline = post.title.slice(0, 120);
-
-        for (const ticker of usMatches) {
-          picks.push({
-            id: makeId(`reddit-${sub}`, ticker, date, post.title),
-            ticker,
-            name: null,
-            market: 'US',
-            source: `Reddit r/${sub}`,
-            sourceUrl: post.url,
-            sourceType: 'community',
-            date,
-            callType: 'Watch',
-            analyst: null,
-            priceTarget: null,
-            upside: null,
-            headline: `[${post.score} upvotes] ${headline}`,
-            fetchedAt,
-          });
-        }
 
         for (const base of ukMatches) {
           picks.push({
@@ -173,14 +203,14 @@ async function fetchRedditMentions(knownUS: Set<string>, knownUK: Set<string>): 
             analyst: null,
             priceTarget: null,
             upside: null,
-            headline: `[${post.score} upvotes] ${headline}`,
+            headline: `[${post.score} upvotes] ${post.title.slice(0, 120)}`,
             fetchedAt,
           });
+          matched++;
         }
-
-        if (usMatches.length > 0 || ukMatches.length > 0) await delay(50);
       }
-      await delay(1500); // Reddit rate limit: ~1 req/sec
+      console.log(`Reddit r/${sub}: ${matched} UK picks`);
+      await delay(1500);
     } catch (err) {
       console.warn(`Reddit r/${sub} fetch failed:`, (err as Error).message);
     }
@@ -320,15 +350,17 @@ export async function fetchOnlinePicks(allTickers: string[]): Promise<OnlinePick
     allTickers.filter(t => t.endsWith('.L')).map(t => t.replace('.L', ''))
   );
 
-  const [stockTwits, reddit, marketBeat] = await Promise.allSettled([
+  const [stockTwits, apeWisdom, ukReddit, marketBeat] = await Promise.allSettled([
     fetchStockTwitsTrending(knownUS),
-    fetchRedditMentions(knownUS, knownUK),
+    fetchApeWisdomMentions(knownUS),
+    fetchUKReddit(knownUK),
     fetchMarketBeatRatings(knownUS),
   ]);
 
   const fresh: OnlinePick[] = [
     ...(stockTwits.status === 'fulfilled' ? stockTwits.value : []),
-    ...(reddit.status === 'fulfilled' ? reddit.value : []),
+    ...(apeWisdom.status === 'fulfilled' ? apeWisdom.value : []),
+    ...(ukReddit.status === 'fulfilled' ? ukReddit.value : []),
     ...(marketBeat.status === 'fulfilled' ? marketBeat.value : []),
   ];
 
