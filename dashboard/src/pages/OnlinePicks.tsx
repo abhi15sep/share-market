@@ -48,17 +48,53 @@ const YOUTUBE_CHANNELS = [
       { name: 'Couch Investor', url: 'https://www.youtube.com/@CouchInvestor', desc: 'Passive & long-term investing ideas' },
     ],
   },
+  {
+    market: 'Highly Recommended — US',
+    channels: [
+      { name: 'Andrei Jikh', url: 'https://www.youtube.com/@AndreiJikh', desc: '2.3M subs · Dividend & passive investing' },
+      { name: 'Graham Stephan', url: 'https://www.youtube.com/@GrahamStephan', desc: '4.7M subs · Personal finance, growth picks' },
+      { name: 'The Plain Bagel', url: 'https://www.youtube.com/@ThePlainBagel', desc: 'Evidence-based value investing & ETFs' },
+      { name: 'Patrick Boyle', url: 'https://www.youtube.com/@PatrickBoyleOnFinance', desc: 'Ex-hedge fund · institutional-quality analysis' },
+      { name: 'Ticker Symbol: You', url: 'https://www.youtube.com/@TickerSymbolYOU', desc: 'Long-term fundamental deep dives' },
+      { name: 'Tom Nash', url: 'https://www.youtube.com/@TomNashTV', desc: 'Value investing, Warren Buffett style' },
+      { name: 'InvestAnswers', url: 'https://www.youtube.com/@InvestAnswers', desc: 'Data-driven stock & macro analysis' },
+      { name: 'Aswath Damodaran', url: 'https://www.youtube.com/@AswathDamodaranonValuation', desc: 'NYU professor · gold standard on valuation' },
+      { name: 'Meet Kevin', url: 'https://www.youtube.com/@MeetKevin', desc: '2M subs · Growth stocks, market commentary' },
+      { name: 'Humphrey Yang', url: 'https://www.youtube.com/@HumphreyYang', desc: 'Beginner-friendly stock & ETF analysis' },
+    ],
+  },
+  {
+    market: 'Highly Recommended — UK',
+    channels: [
+      { name: 'Sasha Yanshin', url: 'https://www.youtube.com/@SashaYanshin', desc: 'UK & US stocks, ISA/SIPP strategies' },
+      { name: 'Damien Talks Money', url: 'https://www.youtube.com/@DamienTalksMoney', desc: 'UK personal finance, dividend investing' },
+      { name: 'Toby Newbatt', url: 'https://www.youtube.com/@TobyNewbatt', desc: 'UK dividend stocks, long-term portfolios' },
+      { name: 'James Shack', url: 'https://www.youtube.com/@JamesShack', desc: 'UK financial planning & FIRE investing' },
+    ],
+  },
 ];
 
 const OTHER_RESOURCES = [
-  { name: 'StockTwits Trending', url: 'https://stocktwits.com/rankings/trending', desc: 'Live trending US tickers' },
-  { name: 'ApeWisdom', url: 'https://apewisdom.io', desc: 'Reddit mention aggregator' },
-  { name: 'FinViz News', url: 'https://finviz.com/news.ashx', desc: 'Analyst upgrades/downgrades (US)' },
-  { name: 'Benzinga Ratings', url: 'https://www.benzinga.com/analyst-ratings/', desc: 'US analyst ratings & price targets' },
+  // Auto-fetched by ETL
+  { name: 'StockTwits Trending', url: 'https://stocktwits.com/rankings/trending', desc: 'Live trending US tickers · auto-fetched' },
+  { name: 'ApeWisdom', url: 'https://apewisdom.io', desc: 'Reddit mention aggregator · auto-fetched' },
+  { name: 'FinViz News', url: 'https://finviz.com/news.ashx', desc: 'Analyst upgrades/downgrades · auto-fetched' },
+  // Analyst ratings & picks
+  { name: 'TipRanks', url: 'https://www.tipranks.com/analysts/top', desc: 'Top analysts ranked by accuracy & returns' },
+  { name: 'MarketBeat Ratings', url: 'https://www.marketbeat.com/ratings/', desc: 'Daily analyst upgrades/downgrades + scores' },
+  { name: 'Benzinga Ratings', url: 'https://www.benzinga.com/analyst-ratings/', desc: 'Wall Street analyst ratings & price targets' },
+  { name: 'Seeking Alpha Top Picks', url: 'https://seekingalpha.com/stock-ideas/top-stocks', desc: 'Quant + analyst strong buy stocks' },
+  { name: 'Zacks #1 Rank', url: 'https://www.zacks.com/stocks/buy-list/', desc: 'Earnings estimate revision-driven picks' },
+  // Screeners & ideas
+  { name: 'FinViz Screener', url: 'https://finviz.com/screener.ashx?v=111&f=ta_rsi_os30', desc: 'RSI oversold + breakout screens (US)' },
   { name: 'Investing.com Ideas', url: 'https://www.investing.com/stock-ideas/', desc: 'Analyst + AI combined picks' },
-  { name: 'r/stocks', url: 'https://www.reddit.com/r/stocks/', desc: 'US stock discussion' },
-  { name: 'r/UKInvesting', url: 'https://www.reddit.com/r/UKInvesting/', desc: 'UK stock discussion' },
-  { name: 'Motley Fool UK', url: 'https://www.fool.co.uk/investing/', desc: 'UK stock recommendations' },
+  { name: 'Motley Fool US', url: 'https://www.fool.com/investing/stock-market/market-sectors/', desc: 'Stock Advisor picks & sector analysis' },
+  { name: 'Motley Fool UK', url: 'https://www.fool.co.uk/investing/', desc: 'UK-focused stock recommendations' },
+  // Community
+  { name: 'r/stocks', url: 'https://www.reddit.com/r/stocks/', desc: 'US stock discussion · auto-fetched' },
+  { name: 'r/UKInvesting', url: 'https://www.reddit.com/r/UKInvesting/', desc: 'UK stock discussion · auto-fetched' },
+  { name: 'r/investing', url: 'https://www.reddit.com/r/investing/', desc: 'Broad investing community · auto-fetched' },
+  { name: 'WallStreetBets', url: 'https://www.reddit.com/r/wallstreetbets/', desc: 'High-risk momentum & speculative plays' },
 ];
 
 interface Props {
@@ -383,24 +419,54 @@ function FilterGroup<T extends string>({
   );
 }
 
+const RESOURCE_GROUPS = [
+  {
+    label: 'Auto-Fetched by ETL',
+    accent: 'text-bullish',
+    items: OTHER_RESOURCES.filter(r => r.desc.includes('auto-fetched')),
+  },
+  {
+    label: 'Analyst Ratings & Price Targets',
+    accent: 'text-accent-light',
+    items: OTHER_RESOURCES.filter(r => ['TipRanks', 'MarketBeat Ratings', 'Benzinga Ratings', 'Seeking Alpha Top Picks', 'Zacks #1 Rank'].includes(r.name)),
+  },
+  {
+    label: 'Screeners & Stock Ideas',
+    accent: 'text-purple-400',
+    items: OTHER_RESOURCES.filter(r => ['FinViz Screener', 'Investing.com Ideas', 'Motley Fool US', 'Motley Fool UK'].includes(r.name)),
+  },
+  {
+    label: 'Community Discussion',
+    accent: 't-muted',
+    items: OTHER_RESOURCES.filter(r => r.name.startsWith('r/') || r.name === 'WallStreetBets'),
+  },
+];
+
 function ResourcesPanel({ showYouTube, onToggleYouTube }: { showYouTube: boolean; onToggleYouTube: () => void }) {
   return (
     <div className="space-y-3">
-      {/* Other online resources */}
+      {/* Online resources — grouped */}
       <div className="card p-4">
-        <h3 className="text-sm font-semibold t-primary mb-3">Other Online Resources</h3>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
-          {OTHER_RESOURCES.map(r => (
-            <a
-              key={r.url}
-              href={r.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col p-2.5 rounded-lg border border-surface-border hover:border-accent/30 hover:bg-surface-hover transition-all group"
-            >
-              <span className="text-xs font-medium t-secondary group-hover:text-accent-light transition-colors truncate">{r.name}</span>
-              <span className="text-xs t-muted mt-0.5 leading-relaxed">{r.desc}</span>
-            </a>
+        <h3 className="text-sm font-semibold t-primary mb-4">Online Resources</h3>
+        <div className="space-y-4">
+          {RESOURCE_GROUPS.map(group => (
+            <div key={group.label}>
+              <p className={`text-xs font-semibold uppercase tracking-wider mb-2 ${group.accent}`}>{group.label}</p>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
+                {group.items.map(r => (
+                  <a
+                    key={r.url}
+                    href={r.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-col p-2.5 rounded-lg border border-surface-border hover:border-accent/30 hover:bg-surface-hover transition-all group"
+                  >
+                    <span className="text-xs font-medium t-secondary group-hover:text-accent-light transition-colors truncate">{r.name}</span>
+                    <span className="text-xs t-muted mt-0.5 leading-relaxed">{r.desc.replace(' · auto-fetched', '')}</span>
+                  </a>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </div>
