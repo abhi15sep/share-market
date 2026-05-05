@@ -33,22 +33,19 @@ const SOURCE_TYPE_LABEL: Record<string, string> = {
 
 const YOUTUBE_CHANNELS = [
   {
-    market: 'US Markets',
+    market: 'Your Subscriptions',
     channels: [
-      { name: 'Andrei Jikh', url: 'https://www.youtube.com/@AndreiJikh', desc: 'Dividend investing, growth picks' },
-      { name: 'Joseph Carlson', url: 'https://www.youtube.com/@JosephCarlsonShow', desc: 'Dividend portfolio, fundamentals' },
-      { name: 'Meet Kevin', url: 'https://www.youtube.com/@MeetKevin', desc: 'Growth stocks, market news' },
-      { name: 'Everything Money', url: 'https://www.youtube.com/@EverythingMoney', desc: '8-pillar fundamental analysis' },
-      { name: 'Ticker Symbol: You', url: 'https://www.youtube.com/@TickerSymbolYOU', desc: 'Long-term fundamental deep dives' },
-      { name: 'Tom Nash', url: 'https://www.youtube.com/@TomNashTV', desc: 'Value investing, deep dive analysis' },
-    ],
-  },
-  {
-    market: 'UK Markets',
-    channels: [
-      { name: 'Sasha Yanshin', url: 'https://www.youtube.com/@SashaYanshin', desc: 'UK stocks, ISA investing' },
-      { name: 'Toby Newbatt', url: 'https://www.youtube.com/@TobyNewbatt', desc: 'UK & US dividend stocks' },
-      { name: 'James Shack', url: 'https://www.youtube.com/@JamesShack', desc: 'UK investing, financial independence' },
+      { name: 'Mark Roussin, CPA', url: 'https://www.youtube.com/@MarkRoussin', desc: 'CPA-led fundamental stock analysis' },
+      { name: 'Financial Education', url: 'https://www.youtube.com/@FinancialEducationJeremy', desc: 'Stock picking, growth investing' },
+      { name: 'Felix & Friends (Goat Academy)', url: 'https://www.youtube.com/@GoatAcademy', desc: 'Growth stocks, US market picks' },
+      { name: 'Jeremy Lefebvre Makes Money', url: 'https://www.youtube.com/@JeremyLeftebvreMakesMoney', desc: 'Portfolio updates, stock analysis' },
+      { name: 'ZipTrader', url: 'https://www.youtube.com/@ZipTrader', desc: 'Technical analysis, swing trading picks' },
+      { name: 'Fin Tek', url: 'https://www.youtube.com/@FinTekNeil', desc: 'Stock market analysis & picks' },
+      { name: 'Everything Money', url: 'https://www.youtube.com/@EverythingMoney', desc: '8-pillar fundamental analysis framework' },
+      { name: "Let's Talk Money! with Joseph Hogue, CFA", url: 'https://www.youtube.com/@josephhogue', desc: 'CFA-level dividend & value investing' },
+      { name: 'Everything Money Plus', url: 'https://www.youtube.com/@EverythingMoneyPlus', desc: 'Extended deep dives & live analysis' },
+      { name: 'Ross Givens', url: 'https://www.youtube.com/@RossGivens', desc: 'Options & momentum stock picks' },
+      { name: 'Couch Investor', url: 'https://www.youtube.com/@CouchInvestor', desc: 'Passive & long-term investing ideas' },
     ],
   },
 ];
