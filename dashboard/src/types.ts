@@ -1,3 +1,26 @@
+// Online Picks
+export interface OnlinePick {
+  id: string;
+  ticker: string;
+  name: string | null;
+  market: string;
+  source: string;
+  sourceUrl: string;
+  sourceType: 'analyst' | 'broker' | 'community' | 'screener' | 'news';
+  date: string;
+  callType: string;
+  analyst: string | null;
+  priceTarget: number | null;
+  upside: number | null;
+  headline: string;
+  fetchedAt: string;
+}
+
+export interface OnlinePicksData {
+  updatedAt: string;
+  picks: OnlinePick[];
+}
+
 // N23: Paper Trading
 export interface PaperTrade {
   id: string;

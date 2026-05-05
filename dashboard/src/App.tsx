@@ -41,6 +41,7 @@ const WidgetDashboard = lazy(() => import('./pages/WidgetDashboard'));
 const AICopilot = lazy(() => import('./pages/AICopilot'));
 const ChartReplay = lazy(() => import('./pages/ChartReplay'));
 const IndicatorBuilder = lazy(() => import('./pages/IndicatorBuilder'));
+const OnlinePicks = lazy(() => import('./pages/OnlinePicks'));
 
 const PageSpinner = () => (
   <div className="flex items-center justify-center py-20">
@@ -52,7 +53,7 @@ const PageSpinner = () => (
 );
 
 export default function App() {
-  const { stocks: rawStocks, summary, bearishAlerts, news, metadata, scoreHistory, financials, insiderTrades, aiResearchNotes, macroData, socialSentiment, loading } = useStockData();
+  const { stocks: rawStocks, summary, bearishAlerts, news, metadata, scoreHistory, financials, insiderTrades, aiResearchNotes, macroData, socialSentiment, onlinePicks, loading } = useStockData();
   const { theme, toggle } = useTheme();
   const offlineStatus = useOfflineStatus();
   const { pulling, pullDistance, threshold } = usePullToRefresh();
@@ -141,6 +142,7 @@ export default function App() {
             <Route path="/guide" element={<Guide />} />
             <Route path="/chart-replay" element={<ChartReplay stocks={stocks} />} />
             <Route path="/indicator-builder" element={<IndicatorBuilder stocks={stocks} />} />
+            <Route path="/online-picks" element={<OnlinePicks stocks={stocks} onlinePicks={onlinePicks} />} />
             <Route path="/alerts" element={<AlertSettings />} />
           </Routes>
         </Suspense>

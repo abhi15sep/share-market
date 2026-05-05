@@ -7,6 +7,7 @@ import type { InsiderSummary } from '../insider/edgar.js';
 import type { VolumeProfileData } from '../indicators/technical.js';
 import type { MacroData } from '../indicators/macro.js';
 import type { SocialSentiment } from '../news/social-sentiment.js';
+import type { OnlinePick, OnlinePicksOutput } from '../research/online-picks.js';
 import path from 'path';
 
 export interface StockRecord {
@@ -236,6 +237,7 @@ export function writeOutputs(
   aiResearchNotes?: Map<string, string[]>,
   macroData?: MacroData | null,
   redditSentimentMap?: Map<string, SocialSentiment>,
+  onlinePicks?: OnlinePick[],
 ) {
   const dataDir = CONFIG.dataDir;
   mkdirSync(dataDir, { recursive: true });
@@ -437,6 +439,19 @@ export function writeOutputs(
       );
     }
     console.log(`Wrote ${ohlcvData.length} chart files to ${chartsDir}`);
+  }
+
+  // online-picks.json — aggregated online stock recommendations
+  if (onlinePicks && onlinePicks.length > 0) {
+    const output: OnlinePicksOutput = {
+      updatedAt: new Date().toISOString(),
+      picks: onlinePicks,
+    };
+    writeFileSync(
+      path.join(dataDir, 'online-picks.json'),
+      JSON.stringify(output, null, 2)
+    );
+    console.log(`Wrote online-picks.json with ${onlinePicks.length} picks`);
   }
 
   // Score history — daily composite scores per ticker (last 90 days)
