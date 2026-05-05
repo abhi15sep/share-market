@@ -8,6 +8,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "score": 76,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "8058.T",
       "name": "Mitsubishi Corp",
       "score": 76,
@@ -15,9 +22,9 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OVV",
-      "name": "Ovintiv",
-      "score": 75,
+      "ticker": "DVN",
+      "name": "Devon Energy",
+      "score": 74,
       "market": "US",
       "capCategory": "Large"
     },
@@ -43,15 +50,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DVN",
-      "name": "Devon Energy",
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -64,62 +64,41 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HOLX",
-      "name": "Hologic",
+      "ticker": "COP",
+      "name": "ConocoPhillips",
       "score": 72,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 20,
-      "market": "US",
+      "ticker": "9626.HK",
+      "name": "Bilibili",
+      "score": 21,
+      "market": "HK",
       "capCategory": "Large"
     },
     {
       "ticker": "WING",
       "name": "Wingstop",
-      "score": 21,
+      "score": 22,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "DASH",
       "name": "DoorDash",
-      "score": 21,
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 22,
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "WDAY",
-      "name": "Workday",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "9626.HK",
-      "name": "Bilibili",
-      "score": 24,
-      "market": "HK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "SOFI",
@@ -129,21 +108,48 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "W",
-      "name": "Wayfair",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "VIV.PA",
       "name": "Vivendi",
       "score": 26,
       "market": "FR",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
+      "score": 26,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "W",
+      "name": "Wayfair",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RMS.PA",
+      "name": "Hermes",
+      "score": 27,
+      "market": "FR",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "score": 76,
+      "market": "US"
+    },
     {
       "ticker": "8058.T",
       "name": "Mitsubishi Corp",
@@ -151,9 +157,9 @@
       "market": "JP"
     },
     {
-      "ticker": "OVV",
-      "name": "Ovintiv",
-      "score": 75,
+      "ticker": "DVN",
+      "name": "Devon Energy",
+      "score": 74,
       "market": "US"
     },
     {
@@ -169,14 +175,8 @@
       "market": "JP"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "DVN",
-      "name": "Devon Energy",
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
       "score": 73,
       "market": "US"
     },
@@ -187,8 +187,14 @@
       "market": "JP"
     },
     {
-      "ticker": "CTRA",
-      "name": "Coterra Energy",
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 72,
       "market": "US"
     },
@@ -197,12 +203,6 @@
       "name": "Marubeni",
       "score": 72,
       "market": "JP"
-    },
-    {
-      "ticker": "COP",
-      "name": "ConocoPhillips",
-      "score": 71,
-      "market": "US"
     }
   ],
   "topMidCap": [
@@ -243,26 +243,26 @@
       "market": "UK"
     },
     {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 64,
+      "market": "US"
+    },
+    {
+      "ticker": "NNN",
+      "name": "NNN REIT",
+      "score": 64,
+      "market": "US"
+    },
+    {
       "ticker": "BBY.L",
       "name": "Balfour Beatty",
       "score": 64,
       "market": "UK"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 63,
-      "market": "US"
-    },
-    {
       "ticker": "HBR.L",
       "name": "Harbour Energy",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "WEIR.L",
-      "name": "Weir Group",
       "score": 63,
       "market": "UK"
     }
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 860,
   "avgScore": 49,
-  "bearishAlertCount": 411
+  "bearishAlertCount": 401
 }
