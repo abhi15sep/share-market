@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
+      "score": 77,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "8058.T",
       "name": "Mitsubishi Corp",
       "score": 76,
@@ -8,17 +15,17 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 75,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "OVV",
       "name": "Ovintiv",
-      "score": 74,
+      "score": 75,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TTE.PA",
+      "name": "TotalEnergies",
+      "score": 74,
+      "market": "FR",
       "capCategory": "Large"
     },
     {
@@ -33,13 +40,6 @@
       "name": "EOG Resources",
       "score": 73,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 73,
-      "market": "FR",
       "capCategory": "Large"
     },
     {
@@ -64,24 +64,24 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "8002.T",
-      "name": "Marubeni",
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
       "score": 72,
-      "market": "JP",
+      "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 19,
+      "ticker": "DASH",
+      "name": "DoorDash",
+      "score": 20,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "DASH",
-      "name": "DoorDash",
+      "ticker": "RBLX",
+      "name": "Roblox",
       "score": 20,
       "market": "US",
       "capCategory": "Large"
@@ -94,6 +94,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "UPST",
       "name": "Upstart",
       "score": 21,
@@ -101,32 +108,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 22,
-      "market": "FR",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "WING",
-      "name": "Wingstop",
+      "ticker": "WDAY",
+      "name": "Workday",
       "score": 22,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
+      "ticker": "PODD",
+      "name": "Insulet Corp",
       "score": 23,
       "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "MKS.L",
-      "name": "Marks & Spencer",
-      "score": 24,
-      "market": "UK",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "SOFI",
@@ -136,11 +129,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify",
+      "ticker": "PLTR",
+      "name": "Palantir",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "W",
+      "name": "Wayfair",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -153,8 +153,14 @@
     {
       "ticker": "OVV",
       "name": "Ovintiv",
-      "score": 74,
+      "score": 75,
       "market": "US"
+    },
+    {
+      "ticker": "TTE.PA",
+      "name": "TotalEnergies",
+      "score": 74,
+      "market": "FR"
     },
     {
       "ticker": "6971.T",
@@ -169,12 +175,6 @@
       "market": "US"
     },
     {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 73,
-      "market": "FR"
-    },
-    {
       "ticker": "4063.T",
       "name": "Shin-Etsu Chemical",
       "score": 73,
@@ -187,16 +187,16 @@
       "market": "US"
     },
     {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "8002.T",
       "name": "Marubeni",
       "score": 72,
       "market": "JP"
-    },
-    {
-      "ticker": "CTRA",
-      "name": "Coterra Energy",
-      "score": 71,
-      "market": "US"
     },
     {
       "ticker": "6367.T",
@@ -209,61 +209,61 @@
     {
       "ticker": "SDR.L",
       "name": "Schroders",
-      "score": 69,
+      "score": 72,
       "market": "UK"
     },
     {
       "ticker": "BEZ.L",
       "name": "Beazley",
-      "score": 67,
+      "score": 68,
       "market": "UK"
     },
     {
       "ticker": "BNZL.L",
       "name": "Bunzl",
-      "score": 64,
+      "score": 66,
       "market": "UK"
     },
     {
       "ticker": "PLUS.L",
       "name": "Plus500",
-      "score": 64,
+      "score": 65,
       "market": "UK"
     },
     {
       "ticker": "IGG.L",
       "name": "IG Group",
-      "score": 63,
+      "score": 64,
       "market": "UK"
     },
     {
       "ticker": "BBY.L",
       "name": "Balfour Beatty",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "HBR.L",
-      "name": "Harbour Energy",
-      "score": 62,
+      "score": 64,
       "market": "UK"
     },
     {
       "ticker": "ZION",
       "name": "Zions Bancorporation",
-      "score": 61,
+      "score": 63,
       "market": "US"
     },
     {
-      "ticker": "MUR",
-      "name": "Murphy Oil",
-      "score": 61,
-      "market": "US"
+      "ticker": "HBR.L",
+      "name": "Harbour Energy",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "PHP.L",
+      "name": "Primary Health Properties",
+      "score": 62,
+      "market": "UK"
     },
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
-      "score": 60,
+      "score": 61,
       "market": "US"
     }
   ],
@@ -271,7 +271,7 @@
     {
       "ticker": "CKN.L",
       "name": "Chemring Group",
-      "score": 75,
+      "score": 77,
       "market": "UK"
     },
     {
@@ -283,7 +283,7 @@
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 66,
+      "score": 67,
       "market": "UK"
     },
     {
@@ -293,43 +293,43 @@
       "market": "US"
     },
     {
-      "ticker": "TSTL.L",
-      "name": "Tristel",
-      "score": 60,
-      "market": "UK"
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 65,
+      "market": "DE"
     },
     {
-      "ticker": "RNWH.L",
-      "name": "Renew Holdings",
-      "score": 60,
+      "ticker": "FHN",
+      "name": "First Horizon",
+      "score": 64,
+      "market": "US"
+    },
+    {
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 62,
       "market": "UK"
     },
     {
       "ticker": "SNR.L",
       "name": "Senior plc",
-      "score": 60,
+      "score": 61,
       "market": "UK"
     },
     {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
       "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "ITM.L",
-      "name": "ITM Power",
-      "score": 59,
-      "market": "UK"
-    },
-    {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 57,
       "market": "UK"
     }
   ],
   "totalStocks": 860,
-  "avgScore": 48,
-  "bearishAlertCount": 406
+  "avgScore": 49,
+  "bearishAlertCount": 409
 }
