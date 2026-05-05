@@ -79,11 +79,10 @@ const YOUTUBE_CHANNELS = [
 
 const OTHER_RESOURCES = [
   { name: 'StockTwits Trending', url: 'https://stocktwits.com/rankings/trending', desc: 'Live trending US tickers · auto-fetched', group: 'auto' },
+  { name: 'ApeWisdom (Reddit)', url: 'https://apewisdom.io', desc: 'Reddit mention aggregator — r/stocks, WSB, r/investing · auto-fetched', group: 'auto' },
   { name: 'MarketBeat Upgrades', url: 'https://www.marketbeat.com/ratings/upgrades/', desc: 'Analyst upgrades · auto-fetched', group: 'auto' },
   { name: 'MarketBeat Initiations', url: 'https://www.marketbeat.com/ratings/initiations/', desc: 'New analyst coverage · auto-fetched', group: 'auto' },
-  { name: 'Reddit r/stocks', url: 'https://www.reddit.com/r/stocks/', desc: 'US stock discussion · auto-fetched', group: 'auto' },
   { name: 'Reddit r/UKInvesting', url: 'https://www.reddit.com/r/UKInvesting/', desc: 'UK stock discussion · auto-fetched', group: 'auto' },
-  { name: 'Reddit r/investing', url: 'https://www.reddit.com/r/investing/', desc: 'Broad investing community · auto-fetched', group: 'auto' },
   { name: 'TipRanks', url: 'https://www.tipranks.com/analysts/top', desc: 'Top analysts ranked by accuracy & returns', group: 'analyst' },
   { name: 'MarketBeat Ratings', url: 'https://www.marketbeat.com/ratings/', desc: 'Daily analyst upgrades/downgrades + scores', group: 'analyst' },
   { name: 'Benzinga Ratings', url: 'https://www.benzinga.com/analyst-ratings/', desc: 'Wall Street analyst ratings & price targets', group: 'analyst' },
