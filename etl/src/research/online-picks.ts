@@ -124,7 +124,7 @@ async function fetchRedditMentions(knownUS: Set<string>, knownUK: Set<string>): 
         data.data?.children ?? [];
 
       for (const { data: post } of posts) {
-        if (post.score < 20) continue;
+        if (post.score < 5) continue;
         const text = post.title + ' ' + (post.selftext ?? '');
 
         // US tickers: $TICK or standalone TICK (2-5 uppercase letters)
@@ -190,63 +190,95 @@ async function fetchRedditMentions(knownUS: Set<string>, knownUK: Set<string>): 
 }
 
 
-// ─── FinViz News Ratings ──────────────────────────────────────────────────────
-// Parses upgrade/downgrade/initiation headlines from FinViz news page.
-// Each item may contain ticker hints in the title or nearby context.
+// ─── MarketBeat Analyst Ratings ──────────────────────────────────────────────
+// Scrapes today's upgrades + initiations from MarketBeat's public ratings pages.
+// Rows contain ticker symbols directly (unlike news headline scrapers).
+// Row structure: [Ticker+Company | Action | Broker | Analyst | Price | Target]
 
-async function fetchFinvizRatings(knownUS: Set<string>): Promise<OnlinePick[]> {
+async function scrapeMarketBeatPage(url: string, knownUS: Set<string>): Promise<OnlinePick[]> {
+  const res = await fetch(url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+      'Accept': 'text/html,application/xhtml+xml',
+      'Accept-Language': 'en-US,en;q=0.9',
+    },
+  });
+  if (!res.ok) return [];
+  const html = await res.text();
+  const $ = cheerio.load(html);
+  const picks: OnlinePick[] = [];
+  const date = today();
+  const fetchedAt = new Date().toISOString();
+
+  $('table tbody tr').each((_, row) => {
+    const cells = $(row).find('td');
+    if (cells.length < 4) return;
+
+    // Cell[0]: company link like /stocks/NASDAQ/NVDA/ — ticker is in the href
+    const companyLink = $(cells[0]).find('a[href*="/stocks/"]').first();
+    const href = companyLink.attr('href') ?? '';
+    const tickerMatch = href.match(/\/stocks\/(?:NASDAQ|NYSE|AMEX|OTC)\/([A-Z]{1,6})\//);
+    if (!tickerMatch) return;
+    const ticker = tickerMatch[1];
+    if (!knownUS.has(ticker)) return;
+
+    // Cell[0] text: "NVDANvidia Corp" — ticker and name are concatenated
+    const cell0Text = $(cells[0]).text().trim();
+    const companyName = cell0Text.replace(ticker, '').trim() || null;
+
+    // Cell[1]: action text e.g. "Upgraded by"
+    const actionText = $(cells[1]).text().trim();
+
+    // Cell[2]: broker name — text before "Subscribe" noise
+    const brokerRaw = $(cells[2]).text().trim();
+    const broker = brokerRaw.split('Subscribe')[0].trim() || null;
+
+    // Cell[5]: price target — may be "$3.00 → $5.00" or just "$85.00"
+    const targetCell = $(cells[5] ?? cells[4]).text().trim();
+    // Take the last dollar amount (new target)
+    const targetMatches = targetCell.match(/\$([0-9]+(?:\.[0-9]+)?)/g);
+    const priceTarget = targetMatches?.length
+      ? parseFloat(targetMatches[targetMatches.length - 1].slice(1))
+      : null;
+
+    const callType = extractCallType(actionText);
+
+    picks.push({
+      id: makeId('marketbeat', ticker, date, (broker ?? '') + actionText),
+      ticker,
+      name: companyName,
+      market: 'US',
+      source: 'MarketBeat',
+      sourceUrl: `https://www.marketbeat.com${href}`,
+      sourceType: 'analyst',
+      date,
+      callType,
+      analyst: broker,
+      priceTarget,
+      upside: null,
+      headline: `${broker ?? 'Analyst'} — ${actionText}${priceTarget ? ` · Target $${priceTarget}` : ''}`,
+      fetchedAt,
+    });
+  });
+
+  return picks;
+}
+
+async function fetchMarketBeatRatings(knownUS: Set<string>): Promise<OnlinePick[]> {
   try {
-    const res = await fetch('https://finviz.com/news.ashx', {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-      },
-    });
-    if (!res.ok) return [];
-    const html = await res.text();
-    const $ = cheerio.load(html);
-    const picks: OnlinePick[] = [];
-    const date = today();
-    const fetchedAt = new Date().toISOString();
-
-    // FinViz news rows: each <tr> has title link + source
-    $('a.tab-link').each((_, el) => {
-      const title = $(el).text().trim();
-      if (!title) return;
-      if (!isBullishHeadline(title)) return;
-
-      const href = $(el).attr('href') ?? '';
-      const target = extractPriceTarget(title);
-      const callType = extractCallType(title);
-
-      // Try to extract ticker from title: "Goldman Initiates NVDA at Buy"
-      const tickerMatch = title.match(/\b([A-Z]{2,5})\b/g);
-      const tickers = (tickerMatch ?? []).filter(t => knownUS.has(t));
-      if (tickers.length === 0) return;
-
-      for (const ticker of tickers.slice(0, 2)) {
-        picks.push({
-          id: makeId('finviz', ticker, date, title),
-          ticker,
-          name: null,
-          market: 'US',
-          source: 'FinViz News',
-          sourceUrl: href.startsWith('http') ? href : `https://finviz.com/${href}`,
-          sourceType: 'analyst',
-          date,
-          callType,
-          analyst: null,
-          priceTarget: target,
-          upside: null,
-          headline: title.slice(0, 120),
-          fetchedAt,
-        });
-      }
-    });
-
+    const [upgrades, initiations] = await Promise.allSettled([
+      scrapeMarketBeatPage('https://www.marketbeat.com/ratings/upgrades/', knownUS),
+      scrapeMarketBeatPage('https://www.marketbeat.com/ratings/initiations/', knownUS),
+    ]);
+    const picks = [
+      ...(upgrades.status === 'fulfilled' ? upgrades.value : []),
+      ...(initiations.status === 'fulfilled' ? initiations.value : []),
+    ];
     await delay(500);
+    console.log(`MarketBeat: ${picks.length} analyst picks (upgrades + initiations)`);
     return picks;
   } catch (err) {
-    console.warn('FinViz ratings fetch failed:', (err as Error).message);
+    console.warn('MarketBeat ratings fetch failed:', (err as Error).message);
     return [];
   }
 }
@@ -288,16 +320,16 @@ export async function fetchOnlinePicks(allTickers: string[]): Promise<OnlinePick
     allTickers.filter(t => t.endsWith('.L')).map(t => t.replace('.L', ''))
   );
 
-  const [stockTwits, reddit, finviz] = await Promise.allSettled([
+  const [stockTwits, reddit, marketBeat] = await Promise.allSettled([
     fetchStockTwitsTrending(knownUS),
     fetchRedditMentions(knownUS, knownUK),
-    fetchFinvizRatings(knownUS),
+    fetchMarketBeatRatings(knownUS),
   ]);
 
   const fresh: OnlinePick[] = [
     ...(stockTwits.status === 'fulfilled' ? stockTwits.value : []),
     ...(reddit.status === 'fulfilled' ? reddit.value : []),
-    ...(finviz.status === 'fulfilled' ? finviz.value : []),
+    ...(marketBeat.status === 'fulfilled' ? marketBeat.value : []),
   ];
 
   // Load existing and merge
