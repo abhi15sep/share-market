@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-05T21:08:44.439Z",
+  "updatedAt": "2026-05-05T21:53:37.739Z",
   "picks": [
     {
       "id": "stocktwits:AMD:2026-05-05:trending",
@@ -14,8 +14,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 557,022 watchlists",
-      "fetchedAt": "2026-05-05T21:05:53.201Z"
+      "headline": "Trending on StockTwits — 557,057 watchlists",
+      "fetchedAt": "2026-05-05T21:50:51.685Z"
     },
     {
       "id": "stocktwits:ANET:2026-05-05:trending",
@@ -30,8 +30,88 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 18,321 watchlists",
-      "fetchedAt": "2026-05-05T21:05:53.201Z"
+      "headline": "Trending on StockTwits — 18,350 watchlists",
+      "fetchedAt": "2026-05-05T21:50:51.685Z"
+    },
+    {
+      "id": "marketbeat:CMG:2026-05-05:ArgusUpgradedby",
+      "ticker": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "market": "US",
+      "source": "MarketBeat",
+      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/CMG/forecast/",
+      "sourceType": "analyst",
+      "date": "2026-05-05",
+      "callType": "Upgrade",
+      "analyst": "Argus",
+      "priceTarget": 40,
+      "upside": null,
+      "headline": "Argus — Upgraded by · Target $40",
+      "fetchedAt": "2026-05-05T21:50:51.920Z"
+    },
+    {
+      "id": "marketbeat:DVN:2026-05-05:RaymondJamesFinancialUpgrade",
+      "ticker": "DVN",
+      "name": "Devon Energy",
+      "market": "US",
+      "source": "MarketBeat",
+      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/DVN/forecast/",
+      "sourceType": "analyst",
+      "date": "2026-05-05",
+      "callType": "Upgrade",
+      "analyst": "Raymond James Financial",
+      "priceTarget": 72,
+      "upside": null,
+      "headline": "Raymond James Financial — Upgraded by · Target $72",
+      "fetchedAt": "2026-05-05T21:50:51.920Z"
+    },
+    {
+      "id": "marketbeat:ETN:2026-05-05:ErsteGroupBankInitiatedby",
+      "ticker": "ETN",
+      "name": "Eaton",
+      "market": "US",
+      "source": "MarketBeat",
+      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/ETN/forecast/",
+      "sourceType": "analyst",
+      "date": "2026-05-05",
+      "callType": "Initiation",
+      "analyst": "Erste Group Bank",
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Erste Group Bank — Initiated by",
+      "fetchedAt": "2026-05-05T21:50:51.835Z"
+    },
+    {
+      "id": "marketbeat:GDDY:2026-05-05:UBSGroupInitiatedby",
+      "ticker": "GDDY",
+      "name": "GoDaddy",
+      "market": "US",
+      "source": "MarketBeat",
+      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/GDDY/forecast/",
+      "sourceType": "analyst",
+      "date": "2026-05-05",
+      "callType": "Initiation",
+      "analyst": "UBS Group",
+      "priceTarget": 100,
+      "upside": null,
+      "headline": "UBS Group — Initiated by · Target $100",
+      "fetchedAt": "2026-05-05T21:50:51.835Z"
+    },
+    {
+      "id": "marketbeat:HD:2026-05-05:BankofAmericaInitiatedby",
+      "ticker": "HD",
+      "name": "Home Depot",
+      "market": "US",
+      "source": "MarketBeat",
+      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/HD/forecast/",
+      "sourceType": "analyst",
+      "date": "2026-05-05",
+      "callType": "Initiation",
+      "analyst": "Bank of America",
+      "priceTarget": 374,
+      "upside": null,
+      "headline": "Bank of America — Initiated by · Target $374",
+      "fetchedAt": "2026-05-05T21:50:51.835Z"
     },
     {
       "id": "stocktwits:JOBY:2026-05-05:trending",
@@ -46,8 +126,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 27,942 watchlists",
-      "fetchedAt": "2026-05-05T21:05:53.201Z"
+      "headline": "Trending on StockTwits — 27,943 watchlists",
+      "fetchedAt": "2026-05-05T21:50:51.685Z"
     },
     {
       "id": "stocktwits:LCID:2026-05-05:trending",
@@ -62,8 +142,40 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 219,128 watchlists",
-      "fetchedAt": "2026-05-05T21:05:53.201Z"
+      "headline": "Trending on StockTwits — 219,130 watchlists",
+      "fetchedAt": "2026-05-05T21:50:51.685Z"
+    },
+    {
+      "id": "marketbeat:LOW:2026-05-05:BankofAmericaInitiatedby",
+      "ticker": "LOW",
+      "name": "Lowe's Companies",
+      "market": "US",
+      "source": "MarketBeat",
+      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/LOW/forecast/",
+      "sourceType": "analyst",
+      "date": "2026-05-05",
+      "callType": "Initiation",
+      "analyst": "Bank of America",
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Bank of America — Initiated by",
+      "fetchedAt": "2026-05-05T21:50:51.835Z"
+    },
+    {
+      "id": "marketbeat:MSFT:2026-05-05:TDCowenUpgradedby",
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "market": "US",
+      "source": "MarketBeat",
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/MSFT/forecast/",
+      "sourceType": "analyst",
+      "date": "2026-05-05",
+      "callType": "Upgrade",
+      "analyst": "TD Cowen",
+      "priceTarget": null,
+      "upside": null,
+      "headline": "TD Cowen — Upgraded by",
+      "fetchedAt": "2026-05-05T21:50:51.920Z"
     },
     {
       "id": "stocktwits:MSTR:2026-05-05:trending",
@@ -78,8 +190,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 79,415 watchlists",
-      "fetchedAt": "2026-05-05T21:05:53.201Z"
+      "headline": "Trending on StockTwits — 79,418 watchlists",
+      "fetchedAt": "2026-05-05T21:50:51.685Z"
     },
     {
       "id": "stocktwits:MU:2026-05-05:trending",
@@ -94,8 +206,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 188,887 watchlists",
-      "fetchedAt": "2026-05-05T21:05:53.201Z"
+      "headline": "Trending on StockTwits — 188,899 watchlists",
+      "fetchedAt": "2026-05-05T21:50:51.685Z"
     },
     {
       "id": "stocktwits:NVDA:2026-05-05:trending",
@@ -110,8 +222,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 644,095 watchlists",
-      "fetchedAt": "2026-05-05T21:05:53.201Z"
+      "headline": "Trending on StockTwits — 644,096 watchlists",
+      "fetchedAt": "2026-05-05T21:50:51.685Z"
     },
     {
       "id": "stocktwits:OXY:2026-05-05:trending",
@@ -130,6 +242,22 @@
       "fetchedAt": "2026-05-05T21:05:53.201Z"
     },
     {
+      "id": "stocktwits:PYPL:2026-05-05:trending",
+      "ticker": "PYPL",
+      "name": "PayPal Holdings Inc",
+      "market": "US",
+      "source": "StockTwits",
+      "sourceUrl": "https://stocktwits.com/symbol/PYPL",
+      "sourceType": "community",
+      "date": "2026-05-05",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Trending on StockTwits — 166,293 watchlists",
+      "fetchedAt": "2026-05-05T21:50:51.685Z"
+    },
+    {
       "id": "stocktwits:SHOP:2026-05-05:trending",
       "ticker": "SHOP",
       "name": "Shopify Inc",
@@ -142,8 +270,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 138,668 watchlists",
-      "fetchedAt": "2026-05-05T21:05:53.201Z"
+      "headline": "Trending on StockTwits — 138,671 watchlists",
+      "fetchedAt": "2026-05-05T21:50:51.685Z"
     },
     {
       "id": "stocktwits:SMCI:2026-05-05:trending",
@@ -158,8 +286,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 86,117 watchlists",
-      "fetchedAt": "2026-05-05T21:05:53.201Z"
+      "headline": "Trending on StockTwits — 86,159 watchlists",
+      "fetchedAt": "2026-05-05T21:50:51.685Z"
     },
     {
       "id": "stocktwits:TMDX:2026-05-05:trending",
@@ -174,8 +302,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 6,729 watchlists",
-      "fetchedAt": "2026-05-05T21:05:53.201Z"
+      "headline": "Trending on StockTwits — 6,731 watchlists",
+      "fetchedAt": "2026-05-05T21:50:51.685Z"
     },
     {
       "id": "stocktwits:UPST:2026-05-05:trending",
@@ -190,8 +318,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 47,771 watchlists",
-      "fetchedAt": "2026-05-05T21:05:53.201Z"
+      "headline": "Trending on StockTwits — 47,778 watchlists",
+      "fetchedAt": "2026-05-05T21:50:51.685Z"
     },
     {
       "id": "stocktwits:WOLF:2026-05-05:trending",
