@@ -105,12 +105,10 @@ async function fetchStockTwitsTrending(knownTickers: Set<string>): Promise<Onlin
 
 // ─── Reddit Mentions ─────────────────────────────────────────────────────────
 
-const SUBREDDITS = ['stocks', 'IndiaInvestments', 'IndianStockMarket', 'Bogleheads'];
+// US and UK subreddits only
+const SUBREDDITS = ['stocks', 'UKInvesting', 'Bogleheads', 'investing'];
 
-async function fetchRedditMentions(
-  knownUS: Set<string>,
-  knownIN: Set<string>,
-): Promise<OnlinePick[]> {
+async function fetchRedditMentions(knownUS: Set<string>, knownUK: Set<string>): Promise<OnlinePick[]> {
   const picks: OnlinePick[] = [];
   const date = today();
   const fetchedAt = new Date().toISOString();
@@ -129,19 +127,18 @@ async function fetchRedditMentions(
         if (post.score < 20) continue;
         const text = post.title + ' ' + (post.selftext ?? '');
 
-        // Match US tickers: $TICK or standalone TICK in title (2-5 uppercase)
+        // US tickers: $TICK or standalone TICK (2-5 uppercase letters)
         const usMatches = [...new Set([
           ...(text.match(/\$([A-Z]{1,5})\b/g) ?? []).map(m => m.slice(1)),
           ...(post.title.match(/\b([A-Z]{2,5})\b/g) ?? []).filter(t => knownUS.has(t)),
         ])].filter(t => knownUS.has(t));
 
-        // Match IN tickers by base name (without .NS)
-        const inMatches = [...new Set(
-          (post.title.match(/\b([A-Z]{3,15})\b/g) ?? []).filter(t => knownIN.has(t))
+        // UK tickers: base symbol without .L suffix
+        const ukMatches = [...new Set(
+          (post.title.match(/\b([A-Z]{2,5})\b/g) ?? []).filter(t => knownUK.has(t))
         )];
 
         const headline = post.title.slice(0, 120);
-        const isIndia = sub === 'IndiaInvestments' || sub === 'IndianStockMarket';
 
         for (const ticker of usMatches) {
           picks.push({
@@ -162,14 +159,12 @@ async function fetchRedditMentions(
           });
         }
 
-        for (const base of inMatches) {
-          const ticker = base + '.NS';
-          if (!knownIN.has(base)) continue;
+        for (const base of ukMatches) {
           picks.push({
-            id: makeId(`reddit-${sub}`, ticker, date, post.title),
-            ticker,
+            id: makeId(`reddit-${sub}`, base + '.L', date, post.title),
+            ticker: base + '.L',
             name: null,
-            market: 'IN',
+            market: 'UK',
             source: `Reddit r/${sub}`,
             sourceUrl: post.url,
             sourceType: 'community',
@@ -183,9 +178,7 @@ async function fetchRedditMentions(
           });
         }
 
-        if (isIndia ? inMatches.length > 0 : usMatches.length > 0) {
-          await delay(50);
-        }
+        if (usMatches.length > 0 || ukMatches.length > 0) await delay(50);
       }
       await delay(1500); // Reddit rate limit: ~1 req/sec
     } catch (err) {
@@ -196,76 +189,6 @@ async function fetchRedditMentions(
   return picks;
 }
 
-// ─── Moneycontrol Broker Recommendations ─────────────────────────────────────
-
-async function fetchMoneycontrolPicks(knownIN: Set<string>): Promise<OnlinePick[]> {
-  try {
-    const res = await fetch('https://www.moneycontrol.com/brokers-recommendation/', {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml',
-        'Accept-Language': 'en-US,en;q=0.9',
-      },
-    });
-    if (!res.ok) return [];
-    const html = await res.text();
-    const $ = cheerio.load(html);
-    const picks: OnlinePick[] = [];
-    const date = today();
-    const fetchedAt = new Date().toISOString();
-
-    // Moneycontrol broker recs table has rows with: stock name, broker, recommendation, target
-    $('table tr').each((_, row) => {
-      const cells = $(row).find('td');
-      if (cells.length < 3) return;
-
-      const stockName = $(cells[0]).text().trim();
-      const broker = $(cells[1]).text().trim();
-      const recText = $(cells[2]).text().trim().toLowerCase();
-      const targetText = $(cells[3] ?? cells[2]).text().trim();
-      const link = $(cells[0]).find('a').attr('href') ?? '';
-
-      if (!stockName || !broker) return;
-
-      // Only process buy-type recommendations
-      if (!recText.includes('buy') && !recText.includes('accumulate') && !recText.includes('outperform')) return;
-
-      // Try to find the ticker by matching stock name against known IN tickers (base names)
-      const target = extractPriceTarget(targetText) ?? null;
-      const callType = extractCallType(recText);
-
-      // Extract ticker from URL if available (moneycontrol URLs often have the symbol)
-      const symbolMatch = link.match(/\/([A-Z]+)(?:_|$)/);
-      const baseTicker = symbolMatch?.[1] ?? '';
-      const ticker = knownIN.has(baseTicker) ? baseTicker + '.NS' : null;
-
-      if (!ticker) return;
-
-      picks.push({
-        id: makeId('moneycontrol', ticker, date, stockName + broker),
-        ticker,
-        name: stockName,
-        market: 'IN',
-        source: 'Moneycontrol',
-        sourceUrl: link.startsWith('http') ? link : `https://www.moneycontrol.com${link}`,
-        sourceType: 'broker',
-        date,
-        callType,
-        analyst: broker,
-        priceTarget: target,
-        upside: null,
-        headline: `${broker}: ${callType}${target ? ` — Target ₹${target}` : ''}`,
-        fetchedAt,
-      });
-    });
-
-    await delay(1000);
-    return picks;
-  } catch (err) {
-    console.warn('Moneycontrol fetch failed:', (err as Error).message);
-    return [];
-  }
-}
 
 // ─── FinViz News Ratings ──────────────────────────────────────────────────────
 // Parses upgrade/downgrade/initiation headlines from FinViz news page.
@@ -328,70 +251,6 @@ async function fetchFinvizRatings(knownUS: Set<string>): Promise<OnlinePick[]> {
   }
 }
 
-// ─── Screener.in (Indian stocks) ─────────────────────────────────────────────
-// Fetch Golden Crossover screen — stocks where SMA 50 just crossed above SMA 200
-
-async function fetchScreenerInGoldenCross(knownIN: Set<string>): Promise<OnlinePick[]> {
-  try {
-    // Screener.in pre-built query: "Golden Crossover" screen
-    const res = await fetch(
-      'https://www.screener.in/screens/50/?sort=market-cap&order=desc',
-      {
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-          'Accept': 'text/html,application/xhtml+xml',
-          'Referer': 'https://www.screener.in/',
-        },
-      }
-    );
-    if (!res.ok) return [];
-    const html = await res.text();
-    const $ = cheerio.load(html);
-    const picks: OnlinePick[] = [];
-    const date = today();
-    const fetchedAt = new Date().toISOString();
-
-    // Screener.in company table rows
-    $('table.data-table tbody tr').each((_, row) => {
-      const nameLink = $(row).find('td:first-child a');
-      const name = nameLink.text().trim();
-      const href = nameLink.attr('href') ?? '';
-
-      if (!name || !href) return;
-
-      // Extract symbol from href like /company/RELIANCE/
-      const symbolMatch = href.match(/\/company\/([^/]+)\//);
-      if (!symbolMatch) return;
-
-      const base = symbolMatch[1].toUpperCase();
-      if (!knownIN.has(base)) return;
-
-      const ticker = base + '.NS';
-      picks.push({
-        id: makeId('screener-in-gc', ticker, date, name),
-        ticker,
-        name,
-        market: 'IN',
-        source: 'Screener.in',
-        sourceUrl: `https://www.screener.in${href}`,
-        sourceType: 'screener',
-        date,
-        callType: 'Buy',
-        analyst: null,
-        priceTarget: null,
-        upside: null,
-        headline: 'Golden Crossover — SMA 50 crossed above SMA 200',
-        fetchedAt,
-      });
-    });
-
-    await delay(1000);
-    return picks;
-  } catch (err) {
-    console.warn('Screener.in fetch failed:', (err as Error).message);
-    return [];
-  }
-}
 
 // ─── Merge & Prune ───────────────────────────────────────────────────────────
 
@@ -422,27 +281,23 @@ function mergeAndPrune(existing: OnlinePick[], fresh: OnlinePick[]): OnlinePick[
 // ─── Main Export ─────────────────────────────────────────────────────────────
 
 export async function fetchOnlinePicks(allTickers: string[]): Promise<OnlinePick[]> {
-  console.log('Fetching online stock picks...');
+  console.log('Fetching online stock picks (US + UK)...');
 
   const knownUS = new Set(allTickers.filter(t => !t.includes('.')));
-  const knownIN = new Set(
-    allTickers.filter(t => t.endsWith('.NS')).map(t => t.replace('.NS', ''))
+  const knownUK = new Set(
+    allTickers.filter(t => t.endsWith('.L')).map(t => t.replace('.L', ''))
   );
 
-  const [stockTwits, reddit, moneycontrol, finviz, screener] = await Promise.allSettled([
+  const [stockTwits, reddit, finviz] = await Promise.allSettled([
     fetchStockTwitsTrending(knownUS),
-    fetchRedditMentions(knownUS, knownIN),
-    fetchMoneycontrolPicks(knownIN),
+    fetchRedditMentions(knownUS, knownUK),
     fetchFinvizRatings(knownUS),
-    fetchScreenerInGoldenCross(knownIN),
   ]);
 
   const fresh: OnlinePick[] = [
     ...(stockTwits.status === 'fulfilled' ? stockTwits.value : []),
     ...(reddit.status === 'fulfilled' ? reddit.value : []),
-    ...(moneycontrol.status === 'fulfilled' ? moneycontrol.value : []),
     ...(finviz.status === 'fulfilled' ? finviz.value : []),
-    ...(screener.status === 'fulfilled' ? screener.value : []),
   ];
 
   // Load existing and merge

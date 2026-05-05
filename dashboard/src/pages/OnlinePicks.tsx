@@ -33,17 +33,6 @@ const SOURCE_TYPE_LABEL: Record<string, string> = {
 
 const YOUTUBE_CHANNELS = [
   {
-    market: 'Indian Markets',
-    channels: [
-      { name: 'Akshat Shrivastava', url: 'https://www.youtube.com/@AkshatShrivastava', desc: 'Long-term investing, wealth creation' },
-      { name: 'CA Rachana Ranade', url: 'https://www.youtube.com/@CARachanaRanade', desc: 'Fundamentals, IPOs, sector analysis' },
-      { name: 'Pranjal Kamra (Finology)', url: 'https://www.youtube.com/@PranjalKamra', desc: 'Stock picking, Finology 30 basket' },
-      { name: 'Vivek Bajaj', url: 'https://www.youtube.com/@VivekBajajStockEdge', desc: 'Technical + fundamental, StockEdge' },
-      { name: 'Nikhil Kamath', url: 'https://www.youtube.com/@nikhilkamathcio', desc: 'Macro + sectoral picks' },
-      { name: 'Parimal Ade', url: 'https://www.youtube.com/@ParimalAde', desc: 'QGLP fundamental methodology' },
-    ],
-  },
-  {
     market: 'US Markets',
     channels: [
       { name: 'Andrei Jikh', url: 'https://www.youtube.com/@AndreiJikh', desc: 'Dividend investing, growth picks' },
@@ -51,19 +40,28 @@ const YOUTUBE_CHANNELS = [
       { name: 'Meet Kevin', url: 'https://www.youtube.com/@MeetKevin', desc: 'Growth stocks, market news' },
       { name: 'Everything Money', url: 'https://www.youtube.com/@EverythingMoney', desc: '8-pillar fundamental analysis' },
       { name: 'Ticker Symbol: You', url: 'https://www.youtube.com/@TickerSymbolYOU', desc: 'Long-term fundamental deep dives' },
+      { name: 'Tom Nash', url: 'https://www.youtube.com/@TomNashTV', desc: 'Value investing, deep dive analysis' },
+    ],
+  },
+  {
+    market: 'UK Markets',
+    channels: [
+      { name: 'Sasha Yanshin', url: 'https://www.youtube.com/@SashaYanshin', desc: 'UK stocks, ISA investing' },
+      { name: 'Toby Newbatt', url: 'https://www.youtube.com/@TobyNewbatt', desc: 'UK & US dividend stocks' },
+      { name: 'James Shack', url: 'https://www.youtube.com/@JamesShack', desc: 'UK investing, financial independence' },
     ],
   },
 ];
 
 const OTHER_RESOURCES = [
-  { name: 'StockTwits Trending', url: 'https://stocktwits.com/rankings/trending', desc: 'Live trending tickers' },
+  { name: 'StockTwits Trending', url: 'https://stocktwits.com/rankings/trending', desc: 'Live trending US tickers' },
   { name: 'ApeWisdom', url: 'https://apewisdom.io', desc: 'Reddit mention aggregator' },
-  { name: 'FinViz News', url: 'https://finviz.com/news.ashx', desc: 'Analyst upgrades/downgrades' },
-  { name: 'Moneycontrol Recs', url: 'https://www.moneycontrol.com/brokers-recommendation/', desc: 'Indian broker recommendations' },
-  { name: 'Screener.in', url: 'https://www.screener.in/screens/50/', desc: 'Golden Crossover screen (India)' },
+  { name: 'FinViz News', url: 'https://finviz.com/news.ashx', desc: 'Analyst upgrades/downgrades (US)' },
+  { name: 'Benzinga Ratings', url: 'https://www.benzinga.com/analyst-ratings/', desc: 'US analyst ratings & price targets' },
   { name: 'Investing.com Ideas', url: 'https://www.investing.com/stock-ideas/', desc: 'Analyst + AI combined picks' },
   { name: 'r/stocks', url: 'https://www.reddit.com/r/stocks/', desc: 'US stock discussion' },
-  { name: 'r/IndiaInvestments', url: 'https://www.reddit.com/r/IndiaInvestments/', desc: 'Indian market discussion' },
+  { name: 'r/UKInvesting', url: 'https://www.reddit.com/r/UKInvesting/', desc: 'UK stock discussion' },
+  { name: 'Motley Fool UK', url: 'https://www.fool.co.uk/investing/', desc: 'UK stock recommendations' },
 ];
 
 interface Props {
@@ -88,7 +86,7 @@ function daysAgo(dateStr: string): number {
 }
 
 export default function OnlinePicks({ stocks, onlinePicks }: Props) {
-  const [market, setMarket] = useState<'All' | 'US' | 'IN' | 'UK' | 'Other'>('All');
+  const [market, setMarket] = useState<'All' | 'US' | 'UK'>('All');
   const [sourceType, setSourceType] = useState<'All' | 'analyst' | 'broker' | 'community' | 'screener'>('All');
   const [callFilter, setCallFilter] = useState<'All' | 'Strong' | 'Buy' | 'Watch'>('All');
   const [days, setDays] = useState<7 | 14>(7);
@@ -104,7 +102,7 @@ export default function OnlinePicks({ stocks, onlinePicks }: Props) {
 
     return picks
       .filter(p => p.date >= cutoffStr)
-      .filter(p => market === 'All' || p.market === market || (market === 'Other' && !['US', 'IN', 'UK'].includes(p.market)))
+      .filter(p => market === 'All' || p.market === market)
       .filter(p => sourceType === 'All' || p.sourceType === sourceType)
       .filter(p => {
         if (callFilter === 'All') return true;
@@ -140,8 +138,8 @@ export default function OnlinePicks({ stocks, onlinePicks }: Props) {
           <div className="text-4xl mb-3">🔍</div>
           <h3 className="text-lg font-semibold t-secondary mb-1">No picks fetched yet</h3>
           <p className="t-muted max-w-md mx-auto">
-            Run the ETL pipeline to fetch stock picks from StockTwits, Reddit, Moneycontrol,
-            FinViz, and Screener.in. Data updates hourly on weekdays.
+            Run the ETL pipeline to fetch stock picks from StockTwits trending,
+            Reddit (r/stocks, r/UKInvesting), and FinViz analyst ratings. Data updates hourly on weekdays.
           </p>
           <code className="mt-4 inline-block text-sm text-accent bg-accent/10 px-3 py-1.5 rounded-lg font-mono">
             npm run etl
@@ -194,7 +192,7 @@ export default function OnlinePicks({ stocks, onlinePicks }: Props) {
           <FilterGroup
             label="Market"
             value={market}
-            options={['All', 'US', 'IN', 'UK', 'Other']}
+            options={['All', 'US', 'UK']}
             onChange={v => setMarket(v as typeof market)}
           />
           {/* Source type */}
