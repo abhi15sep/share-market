@@ -22,13 +22,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "0016.HK",
-      "name": "Sun Hung Kai Properties",
-      "score": 76,
-      "market": "HK",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "UU.L",
       "name": "United Utilities",
       "score": 75,
@@ -41,6 +34,13 @@
       "score": 75,
       "market": "UK",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "0016.HK",
+      "name": "Sun Hung Kai Properties",
+      "score": 75,
+      "market": "HK",
+      "capCategory": "Large"
     },
     {
       "ticker": "EOG",
@@ -87,23 +87,23 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 25,
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "GPC",
       "name": "Genuine Parts",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
@@ -115,11 +115,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "LCID",
-      "name": "Lucid Group",
+      "ticker": "PLTR",
+      "name": "Palantir",
       "score": 27,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "VIV.PA",
@@ -163,16 +163,16 @@
       "market": "JP"
     },
     {
-      "ticker": "0016.HK",
-      "name": "Sun Hung Kai Properties",
-      "score": 76,
-      "market": "HK"
-    },
-    {
       "ticker": "UU.L",
       "name": "United Utilities",
       "score": 75,
       "market": "UK"
+    },
+    {
+      "ticker": "0016.HK",
+      "name": "Sun Hung Kai Properties",
+      "score": 75,
+      "market": "HK"
     },
     {
       "ticker": "EOG",
