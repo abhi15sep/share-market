@@ -8,17 +8,24 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 77,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "8058.T",
       "name": "Mitsubishi Corp",
       "score": 76,
       "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "0016.HK",
+      "name": "Sun Hung Kai Properties",
+      "score": 75,
+      "market": "HK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 74,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -36,31 +43,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "6971.T",
       "name": "Kyocera",
       "score": 74,
       "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "COP",
-      "name": "ConocoPhillips",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 73,
-      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -69,22 +55,29 @@
       "score": 73,
       "market": "JP",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "9626.HK",
       "name": "Bilibili",
-      "score": 21,
+      "score": 24,
       "market": "HK",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 21,
-      "market": "FR",
-      "capCategory": "Small"
     },
     {
       "ticker": "DASH",
@@ -94,11 +87,25 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "SOFI",
       "name": "SoFi Technologies",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
+      "score": 25,
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
       "ticker": "UPST",
@@ -108,8 +115,15 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "MKS.L",
-      "name": "Marks & Spencer",
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 26,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "ENT.L",
+      "name": "Entain",
       "score": 26,
       "market": "UK",
       "capCategory": "Mid"
@@ -122,22 +136,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZS",
-      "name": "Zscaler",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "RMS.PA",
-      "name": "Hermes",
+      "ticker": "EL.PA",
+      "name": "EssilorLuxottica",
       "score": 27,
       "market": "FR",
       "capCategory": "Large"
@@ -157,6 +157,18 @@
       "market": "JP"
     },
     {
+      "ticker": "0016.HK",
+      "name": "Sun Hung Kai Properties",
+      "score": 75,
+      "market": "HK"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 74,
+      "market": "US"
+    },
+    {
       "ticker": "DVN",
       "name": "Devon Energy",
       "score": 74,
@@ -173,18 +185,6 @@
       "name": "Kyocera",
       "score": 74,
       "market": "JP"
-    },
-    {
-      "ticker": "COP",
-      "name": "ConocoPhillips",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 73,
-      "market": "US"
     },
     {
       "ticker": "4063.T",
@@ -207,33 +207,15 @@
   ],
   "topMidCap": [
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 74,
-      "market": "UK"
-    },
-    {
       "ticker": "SDR.L",
       "name": "Schroders",
-      "score": 72,
+      "score": 69,
       "market": "UK"
     },
     {
       "ticker": "BEZ.L",
       "name": "Beazley",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "CWK.L",
-      "name": "Cranswick",
       "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 66,
       "market": "UK"
     },
     {
@@ -243,37 +225,49 @@
       "market": "US"
     },
     {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
       "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
+      "ticker": "GAW.L",
+      "name": "Games Workshop",
       "score": 64,
       "market": "UK"
     },
     {
-      "ticker": "HBR.L",
-      "name": "Harbour Energy",
+      "ticker": "PLUS.L",
+      "name": "Plus500",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
       "score": 63,
       "market": "UK"
     },
     {
-      "ticker": "WEIR.L",
-      "name": "Weir Group",
-      "score": 63,
-      "market": "UK"
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 62,
+      "market": "US"
+    },
+    {
+      "ticker": "MUR",
+      "name": "Murphy Oil",
+      "score": 62,
+      "market": "US"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 62,
+      "market": "US"
     }
   ],
   "topSmallCap": [
-    {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 77,
-      "market": "UK"
-    },
     {
       "ticker": "HOLX",
       "name": "Hologic",
@@ -281,15 +275,9 @@
       "market": "US"
     },
     {
-      "ticker": "RWE.DE",
-      "name": "RWE",
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
       "score": 72,
-      "market": "DE"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 67,
       "market": "UK"
     },
     {
@@ -299,37 +287,49 @@
       "market": "US"
     },
     {
-      "ticker": "SNR.L",
-      "name": "Senior plc",
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 62,
+      "market": "DE"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 61,
       "market": "UK"
     },
     {
       "ticker": "SUPR.L",
       "name": "Supermarket Income REIT",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "TSTL.L",
-      "name": "Tristel",
       "score": 61,
       "market": "UK"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
       "score": 61,
       "market": "UK"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 61,
+      "market": "FR"
+    },
+    {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
       "score": 60,
       "market": "UK"
     }
   ],
   "totalStocks": 860,
   "avgScore": 50,
-  "bearishAlertCount": 398
+  "bearishAlertCount": 393
 }
