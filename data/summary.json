@@ -1,9 +1,16 @@
 {
   "topOverall": [
     {
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "score": 79,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 76,
+      "score": 77,
       "market": "US",
       "capCategory": "Large"
     },
@@ -15,10 +22,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OVV",
-      "name": "Ovintiv",
-      "score": 75,
-      "market": "US",
+      "ticker": "0016.HK",
+      "name": "Sun Hung Kai Properties",
+      "score": 76,
+      "market": "HK",
       "capCategory": "Large"
     },
     {
@@ -43,6 +50,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "6971.T",
       "name": "Kyocera",
       "score": 74,
@@ -50,49 +64,14 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "0016.HK",
-      "name": "Sun Hung Kai Properties",
-      "score": 74,
-      "market": "HK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "4063.T",
-      "name": "Shin-Etsu Chemical",
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
       "score": 73,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "1113.HK",
-      "name": "CK Asset Holdings",
-      "score": 73,
-      "market": "HK",
+      "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "UPST",
-      "name": "Upstart",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "DASH",
-      "name": "DoorDash",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
     {
       "ticker": "9626.HK",
       "name": "Bilibili",
@@ -101,53 +80,80 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
-      "score": 24,
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CHWY",
-      "name": "Chewy",
+      "ticker": "DASH",
+      "name": "DoorDash",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
+      "ticker": "LCID",
+      "name": "Lucid Group",
       "score": 27,
       "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 28,
+      "market": "FR",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "SBILIFE.NS",
+      "name": "SBI Life Insurance",
+      "score": 28,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ENT.L",
+      "name": "Entain",
+      "score": 28,
+      "market": "UK",
       "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "score": 79,
+      "market": "US"
+    },
+    {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 76,
+      "score": 77,
       "market": "US"
     },
     {
@@ -157,10 +163,10 @@
       "market": "JP"
     },
     {
-      "ticker": "OVV",
-      "name": "Ovintiv",
-      "score": 75,
-      "market": "US"
+      "ticker": "0016.HK",
+      "name": "Sun Hung Kai Properties",
+      "score": 76,
+      "market": "HK"
     },
     {
       "ticker": "UU.L",
@@ -175,33 +181,27 @@
       "market": "US"
     },
     {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 74,
+      "market": "US"
+    },
+    {
       "ticker": "6971.T",
       "name": "Kyocera",
       "score": 74,
       "market": "JP"
     },
     {
-      "ticker": "0016.HK",
-      "name": "Sun Hung Kai Properties",
-      "score": 74,
-      "market": "HK"
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "score": 73,
+      "market": "US"
     },
     {
       "ticker": "4063.T",
       "name": "Shin-Etsu Chemical",
       "score": 73,
-      "market": "JP"
-    },
-    {
-      "ticker": "1113.HK",
-      "name": "CK Asset Holdings",
-      "score": 73,
-      "market": "HK"
-    },
-    {
-      "ticker": "8002.T",
-      "name": "Marubeni",
-      "score": 72,
       "market": "JP"
     }
   ],
@@ -239,6 +239,24 @@
     {
       "ticker": "FNB",
       "name": "F.N.B. Corp",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "NNN",
+      "name": "NNN REIT",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "MUR",
+      "name": "Murphy Oil",
       "score": 66,
       "market": "US"
     },
@@ -246,24 +264,6 @@
       "ticker": "PLUS.L",
       "name": "Plus500",
       "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 65,
-      "market": "US"
-    },
-    {
-      "ticker": "NNN",
-      "name": "NNN REIT",
-      "score": 65,
-      "market": "US"
-    },
-    {
-      "ticker": "SVT.L",
-      "name": "Severn Trent",
-      "score": 65,
       "market": "UK"
     }
   ],
@@ -293,6 +293,12 @@
       "market": "UK"
     },
     {
+      "ticker": "FHN",
+      "name": "First Horizon",
+      "score": 66,
+      "market": "US"
+    },
+    {
       "ticker": "FOUR.L",
       "name": "4imprint",
       "score": 66,
@@ -303,12 +309,6 @@
       "name": "Michelin",
       "score": 66,
       "market": "FR"
-    },
-    {
-      "ticker": "FHN",
-      "name": "First Horizon",
-      "score": 65,
-      "market": "US"
     },
     {
       "ticker": "EXAS",
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 860,
-  "avgScore": 50,
-  "bearishAlertCount": 393
+  "avgScore": 51,
+  "bearishAlertCount": 396
 }

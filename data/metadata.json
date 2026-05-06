@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-05-06T18:22:42.656Z",
+  "lastUpdated": "2026-05-06T20:28:27.158Z",
   "stockCount": 860,
-  "bearishAlerts": 393,
-  "newsCount": 500,
+  "bearishAlerts": 396,
+  "newsCount": 615,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
-      "price": 7352.4,
-      "sma50": 6845.41,
-      "sma200": 6743.01,
+      "price": 7365.12,
+      "sma50": 6845.67,
+      "sma200": 6743.07,
       "changeFromHigh": 0,
       "distributionDays": 0,
       "regime": "bull",
@@ -27,12 +27,12 @@
     "in": {
       "index": "Nifty 50",
       "price": 24330.95,
-      "sma50": 24049.71,
-      "sma200": 25081.81,
+      "sma50": 24077.6,
+      "sma200": 25086.93,
       "changeFromHigh": -7.59,
-      "distributionDays": 7,
+      "distributionDays": 5,
       "regime": "correction",
-      "signal": "7 distribution days in 25 sessions — selling pressure"
+      "signal": "Price below SMA200 — trend weakening"
     },
     "eu": {
       "index": "DAX 40",
