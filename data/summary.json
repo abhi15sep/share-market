@@ -8,6 +8,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "EDV.L",
+      "name": "Endeavour Mining",
+      "score": 76,
+      "market": "UK",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "CTRA",
       "name": "Coterra Energy",
       "score": 74,
@@ -15,11 +22,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
+      "ticker": "OVV",
+      "name": "Ovintiv",
       "score": 73,
-      "market": "UK",
-      "capCategory": "Small"
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "8316.T",
@@ -36,6 +43,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "0883.HK",
+      "name": "CNOOC",
+      "score": 73,
+      "market": "HK",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "HOLX",
       "name": "Hologic",
       "score": 72,
@@ -43,83 +57,48 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
       "score": 72,
-      "market": "IN",
-      "capCategory": "Large"
+      "market": "UK",
+      "capCategory": "Small"
     },
     {
-      "ticker": "8058.T",
-      "name": "Mitsubishi Corp",
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
       "score": 72,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "6971.T",
-      "name": "Kyocera",
-      "score": 72,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 20,
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "TECH",
       "name": "Bio-Techne",
-      "score": 20,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RBLX",
-      "name": "Roblox",
       "score": 22,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DASH",
-      "name": "DoorDash",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "UPST",
-      "name": "Upstart",
-      "score": 24,
-      "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "ALNY",
@@ -129,17 +108,38 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify",
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
+      "ticker": "SOFI",
+      "name": "SoFi Technologies",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "9626.HK",
+      "name": "Bilibili",
       "score": 25,
-      "market": "FR",
+      "market": "HK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CHWY",
+      "name": "Chewy",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 26,
+      "market": "US",
       "capCategory": "Mid"
     }
   ],
@@ -151,9 +151,21 @@
       "market": "HK"
     },
     {
+      "ticker": "EDV.L",
+      "name": "Endeavour Mining",
+      "score": 76,
+      "market": "UK"
+    },
+    {
       "ticker": "CTRA",
       "name": "Coterra Energy",
       "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "score": 73,
       "market": "US"
     },
     {
@@ -169,59 +181,65 @@
       "market": "JP"
     },
     {
+      "ticker": "0883.HK",
+      "name": "CNOOC",
+      "score": 73,
+      "market": "HK"
+    },
+    {
       "ticker": "COALINDIA.NS",
       "name": "Coal India",
       "score": 72,
       "market": "IN"
     },
     {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 72,
+      "market": "FR"
+    },
+    {
       "ticker": "8058.T",
       "name": "Mitsubishi Corp",
       "score": 72,
       "market": "JP"
-    },
-    {
-      "ticker": "6971.T",
-      "name": "Kyocera",
-      "score": 72,
-      "market": "JP"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "8002.T",
-      "name": "Marubeni",
-      "score": 71,
-      "market": "JP"
-    },
-    {
-      "ticker": "0066.HK",
-      "name": "MTR Corporation",
-      "score": 71,
-      "market": "HK"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 69,
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
+      "score": 72,
       "market": "UK"
     },
     {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
-      "score": 69,
+      "ticker": "SDR.L",
+      "name": "Schroders",
+      "score": 71,
+      "market": "UK"
+    },
+    {
+      "ticker": "ADM.L",
+      "name": "Admiral Group",
+      "score": 67,
       "market": "UK"
     },
     {
       "ticker": "BEZ.L",
       "name": "Beazley",
       "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "MNG.L",
+      "name": "M&G",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 65,
       "market": "UK"
     },
     {
@@ -243,42 +261,30 @@
       "market": "US"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "TTC",
-      "name": "Toro Company",
-      "score": 62,
-      "market": "US"
-    },
-    {
       "ticker": "GAW.L",
       "name": "Games Workshop",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 61,
+      "score": 63,
       "market": "UK"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 73,
-      "market": "UK"
-    },
-    {
       "ticker": "HOLX",
       "name": "Hologic",
       "score": 72,
       "market": "US"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 72,
+      "market": "UK"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 71,
+      "market": "UK"
     },
     {
       "ticker": "EXAS",
@@ -287,49 +293,43 @@
       "market": "US"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 68,
-      "market": "UK"
-    },
-    {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
-      "score": 68,
+      "score": 69,
       "market": "UK"
     },
     {
       "ticker": "ML.PA",
       "name": "Michelin",
-      "score": 66,
+      "score": 69,
       "market": "FR"
+    },
+    {
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
+      "score": 66,
+      "market": "UK"
     },
     {
       "ticker": "HMSO.L",
       "name": "Hammerson",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "FOUR.L",
+      "name": "4imprint",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "RWE.DE",
+      "name": "RWE",
       "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "SNR.L",
-      "name": "Senior plc",
-      "score": 59,
-      "market": "UK"
+      "market": "DE"
     }
   ],
   "totalStocks": 860,
   "avgScore": 49,
-  "bearishAlertCount": 388
+  "bearishAlertCount": 397
 }
