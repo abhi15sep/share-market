@@ -15,16 +15,16 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "DVN",
+      "name": "Devon Energy",
       "score": 76,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "DVN",
-      "name": "Devon Energy",
-      "score": 76,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 75,
       "market": "US",
       "capCategory": "Large"
     },
@@ -50,13 +50,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 73,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "8316.T",
       "name": "Sumitomo Mitsui Financial",
       "score": 73,
@@ -68,6 +61,13 @@
       "name": "SMC Corp",
       "score": 73,
       "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 72,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -94,6 +94,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "EL.PA",
+      "name": "EssilorLuxottica",
+      "score": 26,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "GRAB",
       "name": "Grab Holdings",
       "score": 26,
@@ -108,17 +115,17 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
+      "score": 27,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "GPC",
       "name": "Genuine Parts",
       "score": 27,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 28,
-      "market": "FR",
       "capCategory": "Large"
     },
     {
@@ -129,18 +136,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MKS.L",
-      "name": "Marks & Spencer",
+      "ticker": "SMWH.L",
+      "name": "WH Smith",
       "score": 28,
       "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
@@ -157,15 +157,15 @@
       "market": "HK"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "DVN",
+      "name": "Devon Energy",
       "score": 76,
       "market": "US"
     },
     {
-      "ticker": "DVN",
-      "name": "Devon Energy",
-      "score": 76,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 75,
       "market": "US"
     },
     {
@@ -187,12 +187,6 @@
       "market": "US"
     },
     {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 73,
-      "market": "IN"
-    },
-    {
       "ticker": "8316.T",
       "name": "Sumitomo Mitsui Financial",
       "score": 73,
@@ -203,6 +197,12 @@
       "name": "SMC Corp",
       "score": 73,
       "market": "JP"
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 72,
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -215,6 +215,12 @@
     {
       "ticker": "SDR.L",
       "name": "Schroders",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
       "score": 69,
       "market": "UK"
     },
@@ -249,20 +255,14 @@
       "market": "UK"
     },
     {
+      "ticker": "BBOX.L",
+      "name": "Tritax Big Box REIT",
+      "score": 63,
+      "market": "UK"
+    },
+    {
       "ticker": "WOLF",
       "name": "Wolfspeed",
-      "score": 62,
-      "market": "US"
-    },
-    {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 62,
-      "market": "US"
-    },
-    {
-      "ticker": "EMN",
-      "name": "Eastman Chemical",
       "score": 62,
       "market": "US"
     }
@@ -277,18 +277,24 @@
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
       "score": 68,
       "market": "UK"
     },
     {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
       "score": 67,
       "market": "UK"
     },
@@ -311,21 +317,15 @@
       "market": "US"
     },
     {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 62,
-      "market": "UK"
-    },
-    {
       "ticker": "HMSO.L",
       "name": "Hammerson",
-      "score": 61,
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 60,
       "market": "UK"
     }
   ],
