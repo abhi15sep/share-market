@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "score": 77,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "0016.HK",
       "name": "Sun Hung Kai Properties",
       "score": 77,
@@ -22,15 +29,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OVV",
-      "name": "Ovintiv",
-      "score": 74,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -57,13 +64,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "HOLX",
       "name": "Hologic",
       "score": 72,
@@ -73,43 +73,29 @@
   ],
   "bottomOverall": [
     {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 21,
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
-      "score": 23,
+      "ticker": "HOOD",
+      "name": "Robinhood",
+      "score": 25,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "RBLX",
       "name": "Roblox",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
@@ -122,28 +108,48 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CHWY",
-      "name": "Chewy",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Robinhood",
+      "ticker": "GPC",
+      "name": "Genuine Parts",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "LCID",
-      "name": "Lucid Group",
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
       "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 27,
+      "market": "FR",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "TECH",
+      "name": "Bio-Techne",
+      "score": 27,
       "market": "US",
       "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "score": 77,
+      "market": "US"
+    },
     {
       "ticker": "0016.HK",
       "name": "Sun Hung Kai Properties",
@@ -163,14 +169,14 @@
       "market": "US"
     },
     {
-      "ticker": "OVV",
-      "name": "Ovintiv",
-      "score": 74,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 73,
       "market": "US"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
       "score": 73,
       "market": "US"
     },
@@ -189,12 +195,6 @@
     {
       "ticker": "EOG",
       "name": "EOG Resources",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
       "score": 72,
       "market": "US"
     },
@@ -237,6 +237,12 @@
       "market": "US"
     },
     {
+      "ticker": "NNN",
+      "name": "NNN REIT",
+      "score": 66,
+      "market": "US"
+    },
+    {
       "ticker": "MNG.L",
       "name": "M&G",
       "score": 65,
@@ -247,12 +253,6 @@
       "name": "IG Group",
       "score": 65,
       "market": "UK"
-    },
-    {
-      "ticker": "NNN",
-      "name": "NNN REIT",
-      "score": 64,
-      "market": "US"
     },
     {
       "ticker": "ZION",
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 860,
-  "avgScore": 50,
-  "bearishAlertCount": 390
+  "avgScore": 51,
+  "bearishAlertCount": 391
 }
