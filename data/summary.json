@@ -24,6 +24,13 @@
     {
       "ticker": "OVV",
       "name": "Ovintiv",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -43,10 +50,17 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "0883.HK",
-      "name": "CNOOC",
-      "score": 73,
-      "market": "HK",
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "score": 72,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -55,77 +69,56 @@
       "score": 72,
       "market": "US",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "TECH",
+      "name": "Bio-Techne",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "RBLX",
       "name": "Roblox",
-      "score": 21,
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "GPC",
       "name": "Genuine Parts",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 23,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "SOFI",
       "name": "SoFi Technologies",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "9626.HK",
-      "name": "Bilibili",
       "score": 25,
-      "market": "HK",
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -136,8 +129,15 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "UPST",
-      "name": "Upstart",
+      "ticker": "HOOD",
+      "name": "Robinhood",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group",
       "score": 26,
       "market": "US",
       "capCategory": "Mid"
@@ -165,6 +165,12 @@
     {
       "ticker": "OVV",
       "name": "Ovintiv",
+      "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
       "score": 73,
       "market": "US"
     },
@@ -181,28 +187,22 @@
       "market": "JP"
     },
     {
-      "ticker": "0883.HK",
-      "name": "CNOOC",
-      "score": 73,
-      "market": "HK"
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "score": 72,
+      "market": "US"
     },
     {
       "ticker": "COALINDIA.NS",
       "name": "Coal India",
       "score": 72,
       "market": "IN"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 72,
-      "market": "FR"
-    },
-    {
-      "ticker": "8058.T",
-      "name": "Mitsubishi Corp",
-      "score": 72,
-      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -231,6 +231,12 @@
       "market": "UK"
     },
     {
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
+      "score": 66,
+      "market": "US"
+    },
+    {
       "ticker": "MNG.L",
       "name": "M&G",
       "score": 65,
@@ -251,12 +257,6 @@
     {
       "ticker": "ZION",
       "name": "Zions Bancorporation",
-      "score": 63,
-      "market": "US"
-    },
-    {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
       "score": 63,
       "market": "US"
     },
@@ -305,6 +305,12 @@
       "market": "FR"
     },
     {
+      "ticker": "FOUR.L",
+      "name": "4imprint",
+      "score": 66,
+      "market": "UK"
+    },
+    {
       "ticker": "CKN.L",
       "name": "Chemring Group",
       "score": 66,
@@ -317,12 +323,6 @@
       "market": "UK"
     },
     {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 64,
-      "market": "UK"
-    },
-    {
       "ticker": "RWE.DE",
       "name": "RWE",
       "score": 63,
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 860,
-  "avgScore": 49,
-  "bearishAlertCount": 397
+  "avgScore": 50,
+  "bearishAlertCount": 390
 }
