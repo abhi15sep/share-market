@@ -3,7 +3,7 @@
     {
       "ticker": "RKLB",
       "name": "Rocket Lab",
-      "score": 74,
+      "score": 76,
       "market": "US",
       "capCategory": "Large"
     },
@@ -19,6 +19,13 @@
       "name": "Sun Hung Kai Properties",
       "score": 74,
       "market": "HK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 72,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -57,48 +64,20 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "ALB",
+      "name": "Albemarle",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
       "score": 22,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SHOP",
-      "name": "Shopify",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "ALNY",
@@ -129,8 +108,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CHWY",
-      "name": "Chewy",
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TECH",
+      "name": "Bio-Techne",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
@@ -141,13 +127,27 @@
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "RKLB",
       "name": "Rocket Lab",
-      "score": 74,
+      "score": 76,
       "market": "US"
     },
     {
@@ -161,6 +161,12 @@
       "name": "Sun Hung Kai Properties",
       "score": 74,
       "market": "HK"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 72,
+      "market": "US"
     },
     {
       "ticker": "SMT.L",
@@ -187,8 +193,8 @@
       "market": "HK"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "ALB",
+      "name": "Albemarle",
       "score": 71,
       "market": "US"
     },
@@ -197,12 +203,6 @@
       "name": "Kyocera",
       "score": 71,
       "market": "JP"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 70,
-      "market": "US"
     }
   ],
   "topMidCap": [
@@ -231,14 +231,26 @@
       "market": "US"
     },
     {
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "NNN",
+      "name": "NNN REIT",
+      "score": 65,
+      "market": "US"
+    },
+    {
       "ticker": "BBY.L",
       "name": "Balfour Beatty",
       "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "NNN",
-      "name": "NNN REIT",
+      "ticker": "LEA",
+      "name": "Lear Corp",
       "score": 64,
       "market": "US"
     },
@@ -249,22 +261,10 @@
       "market": "UK"
     },
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 63,
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 62,
       "market": "US"
-    },
-    {
-      "ticker": "SBRY.L",
-      "name": "Sainsbury",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
-      "score": 62,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -323,13 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "SNR.L",
-      "name": "Senior plc",
-      "score": 59,
+      "ticker": "TSTL.L",
+      "name": "Tristel",
+      "score": 60,
       "market": "UK"
     }
   ],
   "totalStocks": 860,
   "avgScore": 49,
-  "bearishAlertCount": 406
+  "bearishAlertCount": 403
 }
