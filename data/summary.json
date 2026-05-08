@@ -3,8 +3,15 @@
     {
       "ticker": "RKLB",
       "name": "Rocket Lab",
-      "score": 76,
+      "score": 78,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SBIN.NS",
+      "name": "State Bank of India",
+      "score": 75,
+      "market": "IN",
       "capCategory": "Large"
     },
     {
@@ -24,7 +31,14 @@
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 72,
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
@@ -43,55 +57,41 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "6273.T",
-      "name": "SMC Corp",
-      "score": 72,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "1038.HK",
-      "name": "CK Infrastructure",
-      "score": 72,
-      "market": "HK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "0006.HK",
-      "name": "Power Assets Holdings",
-      "score": 72,
-      "market": "HK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALB",
-      "name": "Albemarle",
+      "ticker": "SDR.L",
+      "name": "Schroders",
       "score": 71,
-      "market": "US",
-      "capCategory": "Large"
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
     {
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 22,
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
+      "ticker": "TECH",
+      "name": "Bio-Techne",
       "score": 24,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "EL.PA",
@@ -108,47 +108,53 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "UPST",
-      "name": "Upstart",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "RBLX",
-      "name": "Roblox",
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
+      "score": 26,
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
       "ticker": "LCID",
       "name": "Lucid Group",
-      "score": 25,
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "RKLB",
       "name": "Rocket Lab",
-      "score": 76,
+      "score": 78,
       "market": "US"
+    },
+    {
+      "ticker": "SBIN.NS",
+      "name": "State Bank of India",
+      "score": 75,
+      "market": "IN"
     },
     {
       "ticker": "2802.T",
@@ -165,7 +171,13 @@
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 72,
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "score": 73,
       "market": "US"
     },
     {
@@ -175,33 +187,21 @@
       "market": "UK"
     },
     {
-      "ticker": "6273.T",
-      "name": "SMC Corp",
-      "score": 72,
-      "market": "JP"
-    },
-    {
-      "ticker": "1038.HK",
-      "name": "CK Infrastructure",
-      "score": 72,
-      "market": "HK"
-    },
-    {
-      "ticker": "0006.HK",
-      "name": "Power Assets Holdings",
-      "score": 72,
-      "market": "HK"
-    },
-    {
-      "ticker": "ALB",
-      "name": "Albemarle",
-      "score": 71,
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "6971.T",
-      "name": "Kyocera",
-      "score": 71,
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 70,
+      "market": "FR"
+    },
+    {
+      "ticker": "7203.T",
+      "name": "Toyota Motor",
+      "score": 70,
       "market": "JP"
     }
   ],
@@ -211,6 +211,12 @@
       "name": "Schroders",
       "score": 71,
       "market": "UK"
+    },
+    {
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "BEZ.L",
@@ -225,20 +231,14 @@
       "market": "UK"
     },
     {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
+      "ticker": "NNN",
+      "name": "NNN REIT",
       "score": 66,
       "market": "US"
     },
     {
-      "ticker": "NNN",
-      "name": "NNN REIT",
+      "ticker": "LEA",
+      "name": "Lear Corp",
       "score": 65,
       "market": "US"
     },
@@ -249,12 +249,6 @@
       "market": "UK"
     },
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 64,
-      "market": "US"
-    },
-    {
       "ticker": "BBOX.L",
       "name": "Tritax Big Box REIT",
       "score": 64,
@@ -263,7 +257,13 @@
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
-      "score": 62,
+      "score": 63,
+      "market": "US"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 63,
       "market": "US"
     }
   ],
@@ -311,6 +311,12 @@
       "market": "UK"
     },
     {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 63,
+      "market": "DE"
+    },
+    {
       "ticker": "ML.PA",
       "name": "Michelin",
       "score": 63,
@@ -321,15 +327,9 @@
       "name": "Currys",
       "score": 61,
       "market": "UK"
-    },
-    {
-      "ticker": "TSTL.L",
-      "name": "Tristel",
-      "score": 60,
-      "market": "UK"
     }
   ],
   "totalStocks": 860,
-  "avgScore": 49,
-  "bearishAlertCount": 403
+  "avgScore": 50,
+  "bearishAlertCount": 406
 }
