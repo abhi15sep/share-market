@@ -15,6 +15,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "2802.T",
       "name": "Ajinomoto",
       "score": 74,
@@ -26,13 +33,6 @@
       "name": "Sun Hung Kai Properties",
       "score": 74,
       "market": "HK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 73,
-      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -94,24 +94,10 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 25,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "NAUKRI.BO",
       "name": "Info Edge (Naukri)",
       "score": 25,
       "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 25,
-      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -129,6 +115,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "LCID",
       "name": "Lucid Group",
       "score": 26,
@@ -136,11 +129,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify",
-      "score": 26,
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 27,
+      "market": "FR",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "score": 27,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -157,6 +157,12 @@
       "market": "IN"
     },
     {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 74,
+      "market": "US"
+    },
+    {
       "ticker": "2802.T",
       "name": "Ajinomoto",
       "score": 74,
@@ -167,12 +173,6 @@
       "name": "Sun Hung Kai Properties",
       "score": 74,
       "market": "HK"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 73,
-      "market": "US"
     },
     {
       "ticker": "MRNA",
@@ -187,16 +187,16 @@
       "market": "UK"
     },
     {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 71,
+      "market": "FR"
+    },
+    {
       "ticker": "STLD",
       "name": "Steel Dynamics",
       "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 70,
-      "market": "FR"
     },
     {
       "ticker": "7203.T",
@@ -215,7 +215,7 @@
     {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
@@ -293,6 +293,12 @@
       "market": "UK"
     },
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 68,
+      "market": "FR"
+    },
+    {
       "ticker": "CKN.L",
       "name": "Chemring Group",
       "score": 67,
@@ -311,25 +317,19 @@
       "market": "UK"
     },
     {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 63,
-      "market": "DE"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 63,
-      "market": "FR"
-    },
-    {
       "ticker": "CURY.L",
       "name": "Currys",
       "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "TSTL.L",
+      "name": "Tristel",
+      "score": 60,
       "market": "UK"
     }
   ],
   "totalStocks": 860,
   "avgScore": 50,
-  "bearishAlertCount": 406
+  "bearishAlertCount": 409
 }
