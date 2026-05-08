@@ -75,16 +75,9 @@
     {
       "ticker": "RHM.DE",
       "name": "Rheinmetall",
-      "score": 20,
+      "score": 22,
       "market": "DE",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "MKS.L",
-      "name": "Marks & Spencer",
-      "score": 22,
-      "market": "UK",
-      "capCategory": "Mid"
     },
     {
       "ticker": "EL.PA",
@@ -94,18 +87,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
+      "score": 23,
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 25,
-      "market": "FR",
-      "capCategory": "Mid"
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "NAUKRI.BO",
@@ -126,6 +119,13 @@
       "name": "Upstart",
       "score": 25,
       "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 26,
+      "market": "FR",
       "capCategory": "Mid"
     },
     {
@@ -199,8 +199,8 @@
       "market": "US"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
+      "ticker": "ALB",
+      "name": "Albemarle",
       "score": 70,
       "market": "US"
     }
@@ -225,6 +225,12 @@
       "market": "UK"
     },
     {
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
+      "score": 67,
+      "market": "UK"
+    },
+    {
       "ticker": "FNB",
       "name": "F.N.B. Corp",
       "score": 66,
@@ -233,13 +239,7 @@
     {
       "ticker": "IGG.L",
       "name": "IG Group",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
-      "score": 64,
+      "score": 65,
       "market": "UK"
     },
     {
@@ -299,14 +299,20 @@
       "market": "UK"
     },
     {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 63,
+      "market": "UK"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 62,
       "market": "UK"
     },
     {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
       "score": 61,
       "market": "UK"
     },
@@ -321,15 +327,9 @@
       "name": "LTC Properties",
       "score": 60,
       "market": "US"
-    },
-    {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 60,
-      "market": "DE"
     }
   ],
   "totalStocks": 860,
   "avgScore": 50,
-  "bearishAlertCount": 386
+  "bearishAlertCount": 384
 }
