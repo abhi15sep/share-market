@@ -22,6 +22,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "EXAS",
+      "name": "Exact Sciences",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "2802.T",
       "name": "Ajinomoto",
       "score": 74,
@@ -36,6 +43,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
       "score": 73,
@@ -43,31 +57,17 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "STLD",
-      "name": "Steel Dynamics",
-      "score": 70,
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 70,
-      "market": "FR",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "score": 71,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -175,37 +175,43 @@
       "market": "HK"
     },
     {
-      "ticker": "STLD",
-      "name": "Steel Dynamics",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 70,
-      "market": "FR"
+      "market": "US"
     },
     {
-      "ticker": "6954.T",
-      "name": "Fanuc",
+      "ticker": "NUE",
+      "name": "Nucor",
       "score": 70,
-      "market": "JP"
-    },
-    {
-      "ticker": "4911.T",
-      "name": "Shiseido",
-      "score": 70,
-      "market": "JP"
-    },
-    {
-      "ticker": "EBAY",
-      "name": "eBay",
-      "score": 69,
       "market": "US"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 73,
+      "market": "US"
+    },
     {
       "ticker": "SDR.L",
       "name": "Schroders",
@@ -219,16 +225,16 @@
       "market": "US"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "BEZ.L",
       "name": "Beazley",
       "score": 68,
       "market": "UK"
+    },
+    {
+      "ticker": "FROG",
+      "name": "JFrog",
+      "score": 67,
+      "market": "US"
     },
     {
       "ticker": "IGG.L",
@@ -243,6 +249,12 @@
       "market": "US"
     },
     {
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
+      "score": 66,
+      "market": "US"
+    },
+    {
       "ticker": "LEA",
       "name": "Lear Corp",
       "score": 65,
@@ -253,21 +265,15 @@
       "name": "Toro Company",
       "score": 65,
       "market": "US"
-    },
-    {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "BBOX.L",
-      "name": "Tritax Big Box REIT",
-      "score": 64,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "EXAS",
+      "name": "Exact Sciences",
+      "score": 74,
+      "market": "US"
+    },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
@@ -281,10 +287,10 @@
       "market": "US"
     },
     {
-      "ticker": "EXAS",
-      "name": "Exact Sciences",
-      "score": 68,
-      "market": "US"
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 69,
+      "market": "UK"
     },
     {
       "ticker": "FOUR.L",
@@ -305,6 +311,12 @@
       "market": "UK"
     },
     {
+      "ticker": "CFLT",
+      "name": "Confluent",
+      "score": 64,
+      "market": "US"
+    },
+    {
       "ticker": "ASHM.L",
       "name": "Ashmore Group",
       "score": 64,
@@ -315,21 +327,9 @@
       "name": "Tristel",
       "score": 63,
       "market": "UK"
-    },
-    {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 63,
-      "market": "DE"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 63,
-      "market": "FR"
     }
   ],
   "totalStocks": 860,
   "avgScore": 50,
-  "bearishAlertCount": 406
+  "bearishAlertCount": 353
 }
