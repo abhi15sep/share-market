@@ -29,6 +29,78 @@ interface Trade {
   pnlPct: number;
 }
 
+/* ─── Suggested stocks empty state ─── */
+const CATEGORIES = [
+  { label: 'High Momentum',  desc: 'RS ≥ 80',          filter: (s: StockRecord) => s.rsPercentile >= 80 },
+  { label: 'High Score',     desc: 'Composite ≥ 70',    filter: (s: StockRecord) => s.score.composite >= 70 },
+  { label: 'Oversold',       desc: 'RSI < 35',          filter: (s: StockRecord) => s.rsi != null && s.rsi < 35 },
+  { label: 'Near 52W High',  desc: '52W range > 90%',   filter: (s: StockRecord) => s.fiftyTwoWeekRangePercent >= 90 },
+] as const;
+
+function SuggestedStocks({ stocks, onSelect }: { stocks: StockRecord[]; onSelect: (ticker: string) => void }) {
+  const [activeCategory, setActiveCategory] = useState(0);
+
+  const suggestions = useMemo(() => {
+    const cat = CATEGORIES[activeCategory];
+    return stocks
+      .filter(cat.filter)
+      .sort((a, b) => b.score.composite - a.score.composite)
+      .slice(0, 12);
+  }, [stocks, activeCategory]);
+
+  return (
+    <div className="space-y-3">
+      <div className="flex items-center gap-2 flex-wrap">
+        <span className="text-xs t-muted">Quick picks:</span>
+        {CATEGORIES.map((cat, i) => (
+          <button
+            key={cat.label}
+            onClick={() => setActiveCategory(i)}
+            className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+              activeCategory === i
+                ? 'bg-accent/20 text-accent-light ring-1 ring-accent/30'
+                : 'bg-surface-hover t-muted hover:t-secondary'
+            }`}
+          >
+            {cat.label}
+            <span className="ml-1 t-faint font-normal">({cat.desc})</span>
+          </button>
+        ))}
+      </div>
+
+      {suggestions.length > 0 ? (
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-2">
+          {suggestions.map(s => (
+            <button
+              key={s.ticker}
+              onClick={() => onSelect(s.ticker)}
+              className="card p-3 text-left hover:border-accent/30 transition-all group"
+            >
+              <div className="flex items-center justify-between mb-1">
+                <span className="text-sm font-bold text-accent-light group-hover:t-primary transition-colors">{s.ticker}</span>
+                <span className={`text-[10px] font-mono font-semibold px-1.5 py-0.5 rounded ${
+                  s.score.composite >= 65 ? 'text-bullish bg-bullish/10' :
+                  s.score.composite >= 45 ? 'text-amber-400 bg-amber-400/10' :
+                  'text-bearish bg-bearish/10'
+                }`}>{s.score.composite}</span>
+              </div>
+              <div className="text-[10px] t-muted truncate mb-1.5">{s.name}</div>
+              <div className="flex items-center justify-between text-[10px]">
+                <span className="t-faint">RS {s.rsPercentile}</span>
+                <span className={s.changePercent >= 0 ? 'text-bullish' : 'text-bearish'}>
+                  {s.changePercent >= 0 ? '+' : ''}{s.changePercent.toFixed(1)}%
+                </span>
+              </div>
+            </button>
+          ))}
+        </div>
+      ) : (
+        <p className="text-xs t-muted">No stocks match this filter right now.</p>
+      )}
+    </div>
+  );
+}
+
 export default function ChartReplay({ stocks }: { stocks: StockRecord[] }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [showDropdown, setShowDropdown] = useState(false);
@@ -280,6 +352,9 @@ export default function ChartReplay({ stocks }: { stocks: StockRecord[] }) {
           <p className="t-muted text-sm">OHLCV data for {selectedTicker} is not available. Try another stock.</p>
         </div>
       )}
+
+      {/* Suggested stocks — only shown when nothing selected */}
+      {!selectedTicker && !loading && <SuggestedStocks stocks={stocks} onSelect={selectStock} />}
 
       {ohlcv && !loading && (
         <>
