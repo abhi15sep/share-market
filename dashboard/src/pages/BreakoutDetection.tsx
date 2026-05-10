@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import type { StockRecord } from '../types';
 import { MarketTag, CapTag, ScoreBadge, ChangePercent, PriceDisplay } from '../components/common/Tags';
 import MultiSelect from '../components/common/MultiSelect';
+import { formatMarketCap } from '../lib/format';
 
 const ALL_MARKETS = ['US', 'UK', 'IN', 'HK', 'JP', 'DE', 'FR'];
 const ALL_CAPS = ['Large', 'Mid', 'Small'];
@@ -212,6 +213,9 @@ export default function BreakoutDetection({ stocks }: { stocks: StockRecord[] })
                     <span className="t-tertiary text-sm">{stock.name}</span>
                     <MarketTag market={stock.market} />
                     <CapTag cap={stock.capCategory} />
+                    {stock.rsi != null && stock.rsi > 80 && (
+                      <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-500/20 text-amber-400 ring-1 ring-amber-500/30">Extended RSI</span>
+                    )}
                   </div>
                   <div className="flex items-center gap-4 text-sm flex-wrap">
                     <PriceDisplay value={stock.price} market={stock.market} />
@@ -247,9 +251,7 @@ export default function BreakoutDetection({ stocks }: { stocks: StockRecord[] })
                 </div>
                 {stock.sector && <span className="text-xs t-muted">{stock.sector}</span>}
                 {stock.marketCap > 0 && (
-                  <span className="text-xs t-muted">
-                    Cap: <span className="t-secondary">{stock.marketCap >= 1e12 ? `$${(stock.marketCap / 1e12).toFixed(1)}T` : stock.marketCap >= 1e9 ? `$${(stock.marketCap / 1e9).toFixed(1)}B` : `$${(stock.marketCap / 1e6).toFixed(0)}M`}</span>
-                  </span>
+                  <span className="text-xs t-muted">Cap: <span className="t-secondary">{formatMarketCap(stock.marketCap, stock.market)}</span></span>
                 )}
                 {stock.dividendYield != null && stock.dividendYield > 0 && (
                   <span className="text-xs t-muted">Div <span className="text-bullish">{stock.dividendYield.toFixed(2)}%</span></span>

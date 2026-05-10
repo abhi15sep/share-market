@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import type { StockRecord } from '../types';
 import { MarketTag, CapTag, ScoreBadge, ChangePercent, PriceDisplay } from '../components/common/Tags';
 import MultiSelect from '../components/common/MultiSelect';
+import { formatMarketCap } from '../lib/format';
 
 const ALL_MARKETS = ['US', 'UK', 'IN', 'HK', 'JP', 'DE', 'FR'];
 const ALL_CAPS = ['Large', 'Mid', 'Small'];
@@ -226,9 +227,7 @@ export default function BuyTheDip({ stocks }: { stocks: StockRecord[] }) {
                 </div>
                 {stock.sector && <span className="text-xs t-muted">{stock.sector}</span>}
                 {stock.marketCap > 0 && (
-                  <span className="text-xs t-muted">
-                    Cap: <span className="t-secondary">{stock.marketCap >= 1e12 ? `$${(stock.marketCap / 1e12).toFixed(1)}T` : stock.marketCap >= 1e9 ? `$${(stock.marketCap / 1e9).toFixed(1)}B` : `$${(stock.marketCap / 1e6).toFixed(0)}M`}</span>
-                  </span>
+                  <span className="text-xs t-muted">Cap: <span className="t-secondary">{formatMarketCap(stock.marketCap, stock.market)}</span></span>
                 )}
               </div>
             </Link>

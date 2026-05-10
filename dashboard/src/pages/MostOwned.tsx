@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import type { StockRecord } from '../types';
 import { MarketTag, CapTag, ScoreBadge, ChangePercent, PriceDisplay } from '../components/common/Tags';
-import { currencySymbol } from '../lib/format';
+import { currencySymbol, formatMarketCap } from '../lib/format';
 import MultiSelect from '../components/common/MultiSelect';
 
 const ALL_MARKETS = ['US', 'UK', 'IN', 'HK', 'JP', 'DE', 'FR'];
@@ -23,12 +23,6 @@ interface OwnedStock {
   bucket: string;
 }
 
-function formatMarketCap(mc: number): string {
-  if (mc >= 1e12) return `$${(mc / 1e12).toFixed(1)}T`;
-  if (mc >= 1e9) return `$${(mc / 1e9).toFixed(1)}B`;
-  if (mc >= 1e6) return `$${(mc / 1e6).toFixed(0)}M`;
-  return `$${mc.toLocaleString()}`;
-}
 
 function getDropBucket(pct: number): string {
   if (pct < 5) return '0-5%';
@@ -359,7 +353,7 @@ export default function MostOwned({ stocks }: { stocks: StockRecord[] }) {
                     <MarketTag market={stock.market} />
                     <CapTag cap={stock.capCategory} />
                     <span className="px-2 py-0.5 rounded-full text-xs font-medium bg-surface-tertiary t-secondary ring-1 ring-surface-border">
-                      {formatMarketCap(stock.marketCap)}
+                      {formatMarketCap(stock.marketCap, stock.market)}
                     </span>
                     <span className="px-2 py-0.5 rounded-full text-xs font-bold bg-accent/15 text-accent-light ring-1 ring-accent/30">
                       {ownershipPct.toFixed(0)}% inst. owned

@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import type { StockRecord } from '../types';
 import { MarketTag, CapTag, ScoreBadge, ChangePercent, PriceDisplay } from '../components/common/Tags';
-import { currencySymbol } from '../lib/format';
+import { currencySymbol, formatMarketCap } from '../lib/format';
 import MultiSelect from '../components/common/MultiSelect';
 
 const ALL_MARKETS = ['US', 'UK', 'IN', 'HK', 'JP', 'DE', 'FR'];
@@ -295,9 +295,7 @@ export default function SupportBounce({ stocks }: { stocks: StockRecord[] }) {
                 </div>
                 {stock.sector && <span className="text-xs t-muted">{stock.sector}</span>}
                 {stock.marketCap > 0 && (
-                  <span className="text-xs t-muted">
-                    Cap: <span className="t-secondary">{stock.marketCap >= 1e12 ? `$${(stock.marketCap / 1e12).toFixed(1)}T` : stock.marketCap >= 1e9 ? `$${(stock.marketCap / 1e9).toFixed(1)}B` : `$${(stock.marketCap / 1e6).toFixed(0)}M`}</span>
-                  </span>
+                  <span className="text-xs t-muted">Cap: <span className="t-secondary">{formatMarketCap(stock.marketCap, stock.market)}</span></span>
                 )}
                 {stock.sectorRank != null && stock.sectorCount != null && (
                   <span className="text-xs t-muted">Sector Rank: {stock.sectorRank}/{stock.sectorCount}</span>
