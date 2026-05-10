@@ -20,6 +20,7 @@ interface BounceStock {
   nearestSupport: { price: number; strength: number } | null;
   nearestResistance: { price: number; strength: number } | null;
   distanceToSupport: number;
+  distanceToResistance: number;
 }
 
 type SortKey = 'bounceScore' | 'distanceToSupport' | 'supportStrength' | 'score' | 'rsi' | 'marketCap' | 'changePercent' | 'dividendYield';
@@ -29,6 +30,7 @@ function getBounceCriteria(stock: StockRecord): {
   nearestSupport: { price: number; strength: number } | null;
   nearestResistance: { price: number; strength: number } | null;
   distanceToSupport: number;
+  distanceToResistance: number;
 } {
   const matched: string[] = [];
   const sr = stock.supportResistance ?? [];
@@ -39,11 +41,17 @@ function getBounceCriteria(stock: StockRecord): {
   const nearestSupport = supports[0] ?? null;
   const nearestResistance = resistances[0] ?? null;
 
-  if (!nearestSupport) return { matched, nearestSupport, nearestResistance, distanceToSupport: 999 };
+  if (!nearestSupport) return { matched, nearestSupport, nearestResistance, distanceToSupport: 999, distanceToResistance: 999 };
 
   const distanceToSupport = ((stock.price - nearestSupport.price) / stock.price) * 100;
+  const distanceToResistance = nearestResistance
+    ? ((nearestResistance.price - stock.price) / stock.price) * 100
+    : 999;
 
-  if (distanceToSupport >= 0 && distanceToSupport <= 4) matched.push(`Near Support (${distanceToSupport.toFixed(1)}% away)`);
+  // Only count "Near Support" when actually closer to support than resistance
+  if (distanceToSupport >= 0 && distanceToSupport <= 4 && distanceToSupport < distanceToResistance) {
+    matched.push(`Near Support (${distanceToSupport.toFixed(1)}% away)`);
+  }
   if (nearestSupport.strength >= 3) matched.push(`Strong Support (${nearestSupport.strength} touches)`);
   if (stock.sma50 != null && stock.sma200 != null && stock.sma50 > stock.sma200) matched.push('Uptrend (SMA50 > SMA200)');
   if (stock.rsi != null && stock.rsi >= 30 && stock.rsi <= 50) matched.push(`Healthy Pullback (RSI ${stock.rsi.toFixed(0)})`);
@@ -52,11 +60,11 @@ function getBounceCriteria(stock: StockRecord): {
     matched.push('Reasonable Fundamentals');
   if (stock.fiftyTwoWeekRangePercent > 40 && stock.fiftyTwoWeekRangePercent < 85) matched.push('Pulled Back from Higher Levels');
 
-  return { matched, nearestSupport, nearestResistance, distanceToSupport };
+  return { matched, nearestSupport, nearestResistance, distanceToSupport, distanceToResistance };
 }
 
 export default function SupportBounce({ stocks }: { stocks: StockRecord[] }) {
-  const [minScore, setMinScore] = useState(3);
+  const [minScore, setMinScore] = useState(4);
   const [markets, setMarkets] = useState<string[]>([]);
   const [caps, setCaps] = useState<string[]>([]);
   const [sectors, setSectors] = useState<string[]>([]);
@@ -66,9 +74,11 @@ export default function SupportBounce({ stocks }: { stocks: StockRecord[] }) {
   const bounceStocks = useMemo<BounceStock[]>(() => {
     return stocks
       .map(stock => {
-        const { matched, nearestSupport, nearestResistance, distanceToSupport } = getBounceCriteria(stock);
-        return { stock, matched, bounceScore: matched.length, nearestSupport, nearestResistance, distanceToSupport };
+        const { matched, nearestSupport, nearestResistance, distanceToSupport, distanceToResistance } = getBounceCriteria(stock);
+        return { stock, matched, bounceScore: matched.length, nearestSupport, nearestResistance, distanceToSupport, distanceToResistance };
       })
+      // Exclude stocks within 1% of resistance — they're testing resistance, not bouncing from support
+      .filter(d => d.distanceToResistance >= 1)
       .filter(d => d.bounceScore >= minScore)
       .filter(d => markets.length === 0 || markets.includes(d.stock.market))
       .filter(d => caps.length === 0 || caps.includes(d.stock.capCategory))
@@ -214,7 +224,7 @@ export default function SupportBounce({ stocks }: { stocks: StockRecord[] }) {
         </div>
       ) : (
         <div className="space-y-3">
-          {bounceStocks.map(({ stock, matched, bounceScore, nearestSupport, nearestResistance, distanceToSupport }) => (
+          {bounceStocks.map(({ stock, matched, bounceScore, nearestSupport, nearestResistance, distanceToSupport, distanceToResistance }) => (
             <Link
               key={stock.ticker}
               to={`/stock/${stock.ticker}`}
@@ -266,16 +276,22 @@ export default function SupportBounce({ stocks }: { stocks: StockRecord[] }) {
                     <span className="t-muted">Resistance:</span>
                     <span className="font-mono font-medium t-primary">{currencySymbol(stock.market)}{nearestResistance.price.toFixed(2)}</span>
                     <span className="t-muted">({nearestResistance.strength} touches)</span>
+                    <span className="font-mono text-bearish">{distanceToResistance.toFixed(1)}% away</span>
                   </div>
                 )}
-                {nearestSupport && nearestResistance && (
-                  <div className="flex items-center gap-1.5">
-                    <span className="t-muted">Risk/Reward:</span>
-                    <span className="font-mono font-medium text-accent-light">
-                      1:{((nearestResistance.price - stock.price) / (stock.price - nearestSupport.price || 0.01)).toFixed(1)}
-                    </span>
-                  </div>
-                )}
+                {nearestSupport && nearestResistance && (() => {
+                  const risk = stock.price - nearestSupport.price;
+                  const reward = nearestResistance.price - stock.price;
+                  const rr = risk > 0.001 ? Math.min(reward / risk, 20) : null;
+                  return rr != null ? (
+                    <div className="flex items-center gap-1.5">
+                      <span className="t-muted">Risk/Reward:</span>
+                      <span className={`font-mono font-medium ${rr >= 2 ? 'text-bullish' : rr >= 1 ? 'text-accent-light' : 'text-bearish'}`}>
+                        1:{rr.toFixed(1)}{rr >= 20 ? '+' : ''}
+                      </span>
+                    </div>
+                  ) : null;
+                })()}
               </div>
 
               {/* Matched criteria */}
