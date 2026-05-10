@@ -21,6 +21,7 @@ interface BounceStock {
   nearestResistance: { price: number; strength: number } | null;
   distanceToSupport: number;
   distanceToResistance: number;
+  rr: number | null;
 }
 
 type SortKey = 'bounceScore' | 'distanceToSupport' | 'supportStrength' | 'score' | 'rsi' | 'marketCap' | 'changePercent' | 'dividendYield';
@@ -69,17 +70,22 @@ export default function SupportBounce({ stocks }: { stocks: StockRecord[] }) {
   const [caps, setCaps] = useState<string[]>([]);
   const [sectors, setSectors] = useState<string[]>([]);
   const [hasDividend, setHasDividend] = useState(false);
+  const [minRR, setMinRR] = useState(0);
   const [sortBy, setSortBy] = useState<SortKey>('bounceScore');
 
   const bounceStocks = useMemo<BounceStock[]>(() => {
     return stocks
       .map(stock => {
         const { matched, nearestSupport, nearestResistance, distanceToSupport, distanceToResistance } = getBounceCriteria(stock);
-        return { stock, matched, bounceScore: matched.length, nearestSupport, nearestResistance, distanceToSupport, distanceToResistance };
+        const risk = nearestSupport ? stock.price - nearestSupport.price : 0;
+        const reward = nearestResistance ? nearestResistance.price - stock.price : 0;
+        const rr = risk > 0.001 ? Math.min(reward / risk, 20) : null;
+        return { stock, matched, bounceScore: matched.length, nearestSupport, nearestResistance, distanceToSupport, distanceToResistance, rr };
       })
       // Exclude stocks within 1% of resistance — they're testing resistance, not bouncing from support
       .filter(d => d.distanceToResistance >= 1)
       .filter(d => d.bounceScore >= minScore)
+      .filter(d => minRR === 0 || (d.rr != null && d.rr >= minRR))
       .filter(d => markets.length === 0 || markets.includes(d.stock.market))
       .filter(d => caps.length === 0 || caps.includes(d.stock.capCategory))
       .filter(d => sectors.length === 0 || sectors.includes(d.stock.sector ?? ''))
@@ -97,12 +103,12 @@ export default function SupportBounce({ stocks }: { stocks: StockRecord[] }) {
           default: return 0;
         }
       });
-  }, [stocks, minScore, markets, caps, sectors, hasDividend, sortBy]);
+  }, [stocks, minScore, minRR, markets, caps, sectors, hasDividend, sortBy]);
 
-  const anyFilterActive = markets.length > 0 || caps.length > 0 || sectors.length > 0 || hasDividend || minScore > 3;
+  const anyFilterActive = markets.length > 0 || caps.length > 0 || sectors.length > 0 || hasDividend || minScore > 4 || minRR > 0;
 
   const resetFilters = () => {
-    setMarkets([]); setCaps([]); setSectors([]); setHasDividend(false); setMinScore(3);
+    setMarkets([]); setCaps([]); setSectors([]); setHasDividend(false); setMinScore(4); setMinRR(0);
   };
 
   return (
@@ -159,6 +165,26 @@ export default function SupportBounce({ stocks }: { stocks: StockRecord[] }) {
                 }`}
               >
                 {n}+
+              </button>
+            ))}
+          </div>
+
+          <div className="w-px h-5 bg-surface-border" />
+
+          {/* Min Risk/Reward */}
+          <div className="flex items-center gap-1.5">
+            <span className="text-xs font-medium t-muted">Min R/R:</span>
+            {([[0, 'Any'], [1.5, '1.5:1+'], [2, '2:1+'], [3, '3:1+']] as [number, string][]).map(([val, label]) => (
+              <button
+                key={String(val)}
+                onClick={() => setMinRR(val)}
+                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
+                  minRR === val
+                    ? 'bg-accent/15 text-accent-light ring-1 ring-accent/30'
+                    : 'bg-surface-tertiary t-tertiary hover:t-secondary'
+                }`}
+              >
+                {label}
               </button>
             ))}
           </div>
@@ -224,7 +250,7 @@ export default function SupportBounce({ stocks }: { stocks: StockRecord[] }) {
         </div>
       ) : (
         <div className="space-y-3">
-          {bounceStocks.map(({ stock, matched, bounceScore, nearestSupport, nearestResistance, distanceToSupport, distanceToResistance }) => (
+          {bounceStocks.map(({ stock, matched, bounceScore, nearestSupport, nearestResistance, distanceToSupport, distanceToResistance, rr }) => (
             <Link
               key={stock.ticker}
               to={`/stock/${stock.ticker}`}
@@ -279,19 +305,14 @@ export default function SupportBounce({ stocks }: { stocks: StockRecord[] }) {
                     <span className="font-mono text-bearish">{distanceToResistance.toFixed(1)}% away</span>
                   </div>
                 )}
-                {nearestSupport && nearestResistance && (() => {
-                  const risk = stock.price - nearestSupport.price;
-                  const reward = nearestResistance.price - stock.price;
-                  const rr = risk > 0.001 ? Math.min(reward / risk, 20) : null;
-                  return rr != null ? (
-                    <div className="flex items-center gap-1.5">
-                      <span className="t-muted">Risk/Reward:</span>
-                      <span className={`font-mono font-medium ${rr >= 2 ? 'text-bullish' : rr >= 1 ? 'text-accent-light' : 'text-bearish'}`}>
-                        1:{rr.toFixed(1)}{rr >= 20 ? '+' : ''}
-                      </span>
-                    </div>
-                  ) : null;
-                })()}
+                {rr != null && (
+                  <div className="flex items-center gap-1.5">
+                    <span className="t-muted">Risk/Reward:</span>
+                    <span className={`font-mono font-medium ${rr >= 2 ? 'text-bullish' : rr >= 1 ? 'text-accent-light' : 'text-bearish'}`}>
+                      1:{rr.toFixed(1)}{rr >= 20 ? '+' : ''}
+                    </span>
+                  </div>
+                )}
               </div>
 
               {/* Matched criteria */}
