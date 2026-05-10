@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import type { StockRecord } from '../types';
 import { ScoreBadge, ChangePercent, MarketTag } from '../components/common/Tags';
 import InfoTooltip from '../components/common/InfoTooltip';
+import { currencySymbol } from '../lib/format';
 import CorrelationHeatmap from '../components/charts/CorrelationHeatmap';
 import { useOhlcvData } from '../hooks/useOhlcvData';
 import { computeCorrelationMatrix } from '../lib/correlation';
@@ -415,10 +416,10 @@ export default function Portfolio({ stocks }: { stocks: StockRecord[] }) {
             <div className={`stat-card border-t-2 ${totalPnl >= 0 ? 'border-t-bullish' : 'border-t-bearish'}`}>
               <p className="text-xs font-medium t-tertiary uppercase tracking-wider">Total P&L</p>
               <p className={`text-2xl font-bold mt-1 font-mono tabular-nums ${totalPnl >= 0 ? 'text-bullish' : 'text-bearish'}`}>
-                {totalPnl >= 0 ? '+' : ''}{totalPnl.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                {totalPnl >= 0 ? '+' : ''}{totalPnlPct.toFixed(2)}%
               </p>
-              <p className={`text-xs mt-1 ${totalPnlPct >= 0 ? 'text-bullish' : 'text-bearish'}`}>
-                {totalPnlPct >= 0 ? '+' : ''}{totalPnlPct.toFixed(2)}%
+              <p className={`text-xs mt-1 font-mono ${totalPnl >= 0 ? 'text-bullish' : 'text-bearish'}`}>
+                {totalPnl >= 0 ? '+' : ''}${totalPnl.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
               </p>
             </div>
             <div className="stat-card border-t-2 border-t-accent">
@@ -447,52 +448,72 @@ export default function Portfolio({ stocks }: { stocks: StockRecord[] }) {
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
-                    <tr className="border-b border-surface-border">
+                    <tr className="border-b border-surface-border bg-surface-tertiary/30">
                       <th className="px-4 py-3 text-left table-header">Ticker</th>
                       <th className="px-4 py-3 text-right table-header">Shares</th>
                       <th className="px-4 py-3 text-right table-header">Avg Cost</th>
                       <th className="px-4 py-3 text-right table-header">Price</th>
                       <th className="px-4 py-3 text-right table-header">Value</th>
+                      <th className="px-4 py-3 text-right table-header">Alloc</th>
                       <th className="px-4 py-3 text-right table-header">P&L</th>
+                      <th className="px-4 py-3 text-right table-header">Today</th>
                       <th className="px-4 py-3 text-center table-header">Score</th>
-                      <th className="px-4 py-3 text-center table-header w-10"></th>
+                      <th className="px-4 py-3 w-8" />
                     </tr>
                   </thead>
                   <tbody>
-                    {portfolio.map((p, i) => (
-                      <tr key={p.ticker} className="border-b border-surface-border/50 hover:bg-surface-hover/50 transition-colors">
-                        <td className="px-4 py-2.5">
-                          <Link to={`/stock/${p.ticker}`} className="font-semibold text-accent-light hover:t-primary transition-colors">
-                            {p.ticker}
-                          </Link>
-                          {p.stock && <span className="text-xs t-muted ml-2">{p.stock.name.slice(0, 20)}</span>}
-                        </td>
-                        <td className="px-4 py-2.5 text-right font-mono tabular-nums t-primary">{p.totalShares}</td>
-                        <td className="px-4 py-2.5 text-right font-mono tabular-nums t-secondary">${p.avgCost.toFixed(2)}</td>
-                        <td className="px-4 py-2.5 text-right font-mono tabular-nums t-primary">${(p.stock?.price ?? p.avgCost).toFixed(2)}</td>
-                        <td className="px-4 py-2.5 text-right font-mono tabular-nums t-primary">${p.currentValue.toLocaleString(undefined, { maximumFractionDigits: 0 })}</td>
-                        <td className="px-4 py-2.5 text-right">
-                          <span className={`font-mono tabular-nums ${p.pnl >= 0 ? 'text-bullish' : 'text-bearish'}`}>
-                            {p.pnl >= 0 ? '+' : ''}{p.pnlPct.toFixed(1)}%
-                          </span>
-                        </td>
-                        <td className="px-4 py-2.5 text-center">
-                          {p.stock ? <ScoreBadge score={p.stock.score.composite} /> : <span className="t-faint">--</span>}
-                        </td>
-                        <td className="px-4 py-2.5 text-center">
-                          <button
-                            onClick={() => {
-                              const idx = holdings.findIndex(h => h.ticker === p.ticker);
-                              if (idx >= 0) removeHolding(idx);
-                            }}
-                            className="t-muted hover:text-bearish transition-colors text-sm font-bold px-1"
-                            title="Remove"
-                          >
-                            x
-                          </button>
-                        </td>
-                      </tr>
-                    ))}
+                    {portfolio.map(p => {
+                      const cur = currencySymbol(p.stock?.market ?? 'US');
+                      const allocPct = totalValue > 0 ? (p.currentValue / totalValue) * 100 : 0;
+                      return (
+                        <tr key={p.ticker} className={`border-b border-surface-border/50 hover:bg-surface-hover/50 transition-colors ${allocPct > 25 ? 'bg-amber-500/3' : ''}`}>
+                          <td className="px-4 py-2.5">
+                            <div className="flex items-center gap-2">
+                              <Link to={`/stock/${p.ticker}`} className="font-semibold text-accent-light hover:t-primary transition-colors">
+                                {p.ticker}
+                              </Link>
+                              {p.stock && <MarketTag market={p.stock.market} />}
+                            </div>
+                            {p.stock && <span className="text-xs t-muted">{p.stock.name.slice(0, 22)}</span>}
+                          </td>
+                          <td className="px-4 py-2.5 text-right font-mono tabular-nums t-primary text-xs">{p.totalShares}</td>
+                          <td className="px-4 py-2.5 text-right font-mono tabular-nums t-secondary text-xs">{cur}{p.avgCost.toFixed(2)}</td>
+                          <td className="px-4 py-2.5 text-right font-mono tabular-nums t-primary text-xs">{cur}{(p.stock?.price ?? p.avgCost).toFixed(2)}</td>
+                          <td className="px-4 py-2.5 text-right font-mono tabular-nums t-primary text-xs">{cur}{p.currentValue.toLocaleString(undefined, { maximumFractionDigits: 0 })}</td>
+                          <td className="px-4 py-2.5 text-right text-xs">
+                            <span className={`font-mono tabular-nums ${allocPct > 25 ? 'text-amber-400 font-semibold' : 't-secondary'}`}>
+                              {allocPct.toFixed(1)}%
+                            </span>
+                          </td>
+                          <td className="px-4 py-2.5 text-right">
+                            <div className={`font-mono tabular-nums text-xs font-semibold ${p.pnl >= 0 ? 'text-bullish' : 'text-bearish'}`}>
+                              {p.pnl >= 0 ? '+' : ''}{p.pnlPct.toFixed(1)}%
+                            </div>
+                            <div className={`font-mono tabular-nums text-[10px] ${p.pnl >= 0 ? 'text-bullish' : 'text-bearish'}`}>
+                              {p.pnl >= 0 ? '+' : ''}{cur}{Math.abs(p.pnl).toLocaleString(undefined, { maximumFractionDigits: 0 })}
+                            </div>
+                          </td>
+                          <td className="px-4 py-2.5 text-right text-xs">
+                            {p.stock ? <ChangePercent value={p.stock.changePercent} /> : <span className="t-faint">—</span>}
+                          </td>
+                          <td className="px-4 py-2.5 text-center">
+                            {p.stock ? <ScoreBadge score={p.stock.score.composite} /> : <span className="t-faint">—</span>}
+                          </td>
+                          <td className="px-4 py-2.5 text-center">
+                            <button
+                              onClick={() => {
+                                const idx = holdings.findIndex(h => h.ticker === p.ticker);
+                                if (idx >= 0) removeHolding(idx);
+                              }}
+                              className="t-faint hover:text-bearish transition-colors font-bold px-1 text-sm"
+                              title="Remove"
+                            >
+                              ×
+                            </button>
+                          </td>
+                        </tr>
+                      );
+                    })}
                   </tbody>
                 </table>
               </div>
@@ -580,6 +601,15 @@ export default function Portfolio({ stocks }: { stocks: StockRecord[] }) {
           )}
         </div>
 
+        {/* Validation hint */}
+        {!positionSize && psMethod === 'fixed' && psEntryPrice && psStopLoss && (
+          <p className="text-xs text-amber-400 mb-3">
+            {parseFloat(psStopLoss) >= parseFloat(psEntryPrice)
+              ? 'Stop loss must be below entry price.'
+              : 'Enter a valid entry price and stop loss to calculate.'}
+          </p>
+        )}
+
         {positionSize && (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 p-4 rounded-lg bg-surface-hover border border-surface-border">
             <div className="text-center">
@@ -587,7 +617,7 @@ export default function Portfolio({ stocks }: { stocks: StockRecord[] }) {
               <p className="font-semibold text-accent-light">{positionSize.method}</p>
             </div>
             <div className="text-center">
-              <p className="text-xs t-muted mb-1">Risk Amount</p>
+              <p className="text-xs t-muted mb-1">Max Risk</p>
               <p className="font-semibold font-mono text-bearish">${positionSize.riskAmount.toFixed(2)}</p>
             </div>
             {positionSize.shares != null && (
@@ -602,10 +632,30 @@ export default function Portfolio({ stocks }: { stocks: StockRecord[] }) {
                 <p className="font-semibold font-mono t-primary">${(positionSize.posValue as number).toFixed(2)}</p>
               </div>
             )}
+            {'pctOfCapital' in positionSize && positionSize.pctOfCapital != null && (
+              <div className="text-center">
+                <p className="text-xs t-muted mb-1">% of Capital</p>
+                <p className={`font-semibold font-mono ${(positionSize.pctOfCapital as number) > 10 ? 'text-amber-400' : 'text-accent-light'}`}>
+                  {(positionSize.pctOfCapital as number).toFixed(1)}%
+                </p>
+              </div>
+            )}
+            {'riskPerShare' in positionSize && (
+              <div className="text-center">
+                <p className="text-xs t-muted mb-1">Risk / Share</p>
+                <p className="font-semibold font-mono text-bearish">${(positionSize.riskPerShare as number).toFixed(2)}</p>
+              </div>
+            )}
             {'kellyHalf' in positionSize && (
               <div className="text-center">
                 <p className="text-xs t-muted mb-1">Half-Kelly %</p>
                 <p className="font-semibold font-mono text-accent-light">{(positionSize.kellyHalf as number).toFixed(1)}%</p>
+              </div>
+            )}
+            {'kellyFull' in positionSize && (
+              <div className="text-center">
+                <p className="text-xs t-muted mb-1">Full Kelly %</p>
+                <p className="font-semibold font-mono t-muted">{(positionSize.kellyFull as number).toFixed(1)}%</p>
               </div>
             )}
           </div>
