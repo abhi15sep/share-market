@@ -2,7 +2,25 @@
   "permissions": {
     "allow": [
       "Bash(npx tsc:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "WebSearch",
+      "Bash(git -C /Users/abhaypratapsingh/Documents/Personal/ShareMarket add dashboard/src/pages/OnlinePicks.tsx)",
+      "Bash(git -C /Users/abhaypratapsingh/Documents/Personal/ShareMarket commit -m ' *)",
+      "Bash(git -C /Users/abhaypratapsingh/Documents/Personal/ShareMarket push)",
+      "Bash(git -C /Users/abhaypratapsingh/Documents/Personal/ShareMarket stash)",
+      "Bash(git -C /Users/abhaypratapsingh/Documents/Personal/ShareMarket pull --rebase)",
+      "Bash(git -C /Users/abhaypratapsingh/Documents/Personal/ShareMarket stash pop)",
+      "Bash(python3 *)",
+      "Bash(git -C /Users/abhaypratapsingh/Documents/Personal/ShareMarket add etl/src/indicators/signals.ts)",
+      "Bash(node --input-type=module)",
+      "Bash(timeout 600 npm run etl)",
+      "Bash(xargs ls -la)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git stash *)",
+      "Bash(git pull *)",
+      "Bash(git push *)",
+      "Bash(node *)"
     ]
   }
 }

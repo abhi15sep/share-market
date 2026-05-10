@@ -1,5 +1,5 @@
-
 # Plan: Online Stock Picks Aggregator Dashboard
+
 
 > **Created**: 2026-05-05
 > **Goal**: Aggregate daily "stocks to buy now" recommendations from online sources (websites, YouTube channels, Reddit, analyst feeds) into a new dashboard section, updated automatically by the ETL pipeline.
