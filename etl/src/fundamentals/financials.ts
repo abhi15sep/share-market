@@ -105,8 +105,10 @@ async function fetchFinancialStatements(ticker: string, auth: { cookie: string; 
   }
 }
 
+// Criteria computed from income statement history (balance sheet & cashflow API modules no longer return data).
+// Criteria 2-7 are supplemented at stock-assembly time using quote-level financial fields.
 function computePiotroski(annuals: AnnualFinancial[]): { score: number; details: string[] } {
-  if (annuals.length < 2) return { score: 0, details: ['Insufficient data (need 2+ years)'] };
+  if (annuals.length < 2) return { score: 0, details: [] };
 
   const curr = annuals[0];
   const prev = annuals[1];
@@ -116,47 +118,18 @@ function computePiotroski(annuals: AnnualFinancial[]): { score: number; details:
   // 1. Positive net income
   if (curr.netIncome != null && curr.netIncome > 0) { score++; details.push('Positive net income'); }
 
-  // 2. Positive ROA (net income / total assets)
-  if (curr.netIncome != null && curr.totalAssets != null && curr.totalAssets > 0 && curr.netIncome / curr.totalAssets > 0) {
-    score++; details.push('Positive ROA');
-  }
-
-  // 3. Positive operating cash flow
-  if (curr.operatingCashflow != null && curr.operatingCashflow > 0) { score++; details.push('Positive operating cash flow'); }
-
-  // 4. Cash flow from operations > net income (quality of earnings)
-  if (curr.operatingCashflow != null && curr.netIncome != null && curr.operatingCashflow > curr.netIncome) {
-    score++; details.push('Cash flow > net income (quality earnings)');
-  }
-
-  // 5. Lower long-term debt ratio YoY
-  const currDebtRatio = (curr.longTermDebt ?? 0) / (curr.totalAssets ?? 1);
-  const prevDebtRatio = (prev.longTermDebt ?? 0) / (prev.totalAssets ?? 1);
-  if (currDebtRatio < prevDebtRatio) { score++; details.push('Declining debt ratio'); }
-
-  // 6. Higher current ratio YoY
-  const currCR = (curr.currentAssets ?? 0) / (curr.currentLiabilities ?? 1);
-  const prevCR = (prev.currentAssets ?? 0) / (prev.currentLiabilities ?? 1);
-  if (currCR > prevCR) { score++; details.push('Improving current ratio'); }
-
-  // 7. No new shares issued (shares outstanding didn't increase)
-  if (curr.sharesOutstanding != null && prev.sharesOutstanding != null && curr.sharesOutstanding <= prev.sharesOutstanding) {
-    score++; details.push('No dilution (shares not increased)');
-  }
-
-  // 8. Higher gross margin YoY
+  // 8. Improving gross margin YoY
   const currGM = curr.grossProfit != null && curr.totalRevenue != null && curr.totalRevenue > 0
     ? curr.grossProfit / curr.totalRevenue : null;
   const prevGM = prev.grossProfit != null && prev.totalRevenue != null && prev.totalRevenue > 0
     ? prev.grossProfit / prev.totalRevenue : null;
   if (currGM != null && prevGM != null && currGM > prevGM) { score++; details.push('Improving gross margin'); }
 
-  // 9. Higher asset turnover YoY
-  const currAT = curr.totalRevenue != null && curr.totalAssets != null && curr.totalAssets > 0
-    ? curr.totalRevenue / curr.totalAssets : null;
-  const prevAT = prev.totalRevenue != null && prev.totalAssets != null && prev.totalAssets > 0
-    ? prev.totalRevenue / prev.totalAssets : null;
-  if (currAT != null && prevAT != null && currAT > prevAT) { score++; details.push('Improving asset turnover'); }
+  // 9. Revenue growing YoY (asset turnover proxy — total assets not available via API)
+  if (curr.totalRevenue != null && prev.totalRevenue != null && prev.totalRevenue > 0
+      && curr.totalRevenue > prev.totalRevenue) {
+    score++; details.push('Revenue growing YoY');
+  }
 
   return { score, details };
 }

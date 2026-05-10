@@ -357,6 +357,39 @@ async function main() {
     // N13: Theme/Sector Tagging
     const themes = assignThemes(quote.ticker, quote.name, quote.sector);
 
+    // Piotroski: combine income-statement criteria (financials.ts) with quote-level fields.
+    // Balance sheet & cashflow API modules now return empty data, so criteria 2-7 are
+    // computed here from the quote's pre-fetched financial ratios.
+    const _piBase = financialsMap.get(quote.ticker);
+    let piotroskiScore: number | null = null;
+    const piotroskiDetails: string[] = [];
+    if (_piBase != null) {
+      let _piScore = _piBase.ppiScore;
+      piotroskiDetails.push(..._piBase.ppiDetails);
+      // Criterion 2: Positive ROA
+      if (quote.returnOnAssets != null && quote.returnOnAssets > 0) {
+        _piScore++; piotroskiDetails.push('Positive ROA');
+      }
+      // Criterion 3: Positive operating cash flow
+      if (quote.operatingCashflow != null && quote.operatingCashflow > 0) {
+        _piScore++; piotroskiDetails.push('Positive operating cash flow');
+      }
+      // Criterion 4: Free cash flow positive (proxy for OCF > net income quality check)
+      if (quote.freeCashflow != null && quote.freeCashflow > 0) {
+        _piScore++; piotroskiDetails.push('Positive free cash flow');
+      }
+      // Criterion 5: Manageable leverage (D/E < 100 in Yahoo Finance units = < 1x)
+      if (quote.debtToEquity != null && quote.debtToEquity < 100) {
+        _piScore++; piotroskiDetails.push('Manageable debt (D/E < 100%)');
+      }
+      // Criterion 6: Strong liquidity (current ratio > 1.5)
+      if (quote.currentRatio != null && quote.currentRatio > 1.5) {
+        _piScore++; piotroskiDetails.push('Strong liquidity (CR > 1.5)');
+      }
+      // Criterion 7 (share dilution) omitted — historical share count not available via API
+      piotroskiScore = _piScore;
+    }
+
     stockRecords.push({
       ticker: quote.ticker,
       name: quote.name,
@@ -475,8 +508,8 @@ async function main() {
         ? computeSupportResistance(quote.ohlcvHigh, quote.ohlcvLow, quote.historicalClose, quote.price)
         : [],
       // Expert screens (Piotroski, Graham, Buffett)
-      piotroskiScore: financialsMap.get(quote.ticker)?.ppiScore ?? null,
-      piotroskiDetails: financialsMap.get(quote.ticker)?.ppiDetails ?? [],
+      piotroskiScore,
+      piotroskiDetails,
       // Graham Number uses quote-level EPS & bookValue (financial statements lack sharesOutstanding)
       grahamNumber: (quote.trailingEps != null && quote.bookValue != null && quote.trailingEps > 0 && quote.bookValue > 0)
         ? +Math.sqrt(22.5 * quote.trailingEps * quote.bookValue).toFixed(2)
