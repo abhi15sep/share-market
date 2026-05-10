@@ -166,32 +166,73 @@ function BasicsTab({ onNext }: { onNext: () => void }) {
         </div>
       </Section>
 
-      <Section title="US vs UK Markets" icon="M">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          <div className="p-4 rounded-lg bg-sky-600/5 border border-sky-600/20">
-            <div className="flex items-center gap-2 mb-2">
-              <span className="badge bg-sky-600/15 text-sky-600 dark:text-sky-400 ring-1 ring-sky-600/20 text-xs">US</span>
+      <Section title="Global Markets Covered" icon="M">
+        <p className="t-tertiary text-sm mb-3">This dashboard tracks stocks across 7 markets. Use the Market filter on the Screener and Heat Map to focus on specific exchanges.</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <div className="p-3 rounded-lg bg-sky-600/5 border border-sky-600/20">
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="badge bg-sky-600/15 text-sky-400 ring-1 ring-sky-600/20 text-xs">US</span>
               <span className="text-sm font-semibold t-primary">United States</span>
             </div>
-            <ul className="space-y-1 text-xs t-tertiary">
-              <li>- NYSE & NASDAQ exchanges</li>
-              <li>- Includes S&P 500, tech giants, growth stocks</li>
-              <li>- Prices in USD ($)</li>
-              <li>- Market hours: 9:30 AM - 4:00 PM ET</li>
-              <li>- More data available (FinViz fundamentals)</li>
+            <ul className="space-y-0.5 text-xs t-tertiary">
+              <li>NYSE & NASDAQ · Prices in USD ($)</li>
+              <li>S&P 500, NASDAQ 100, tech giants</li>
+              <li>Hours: 9:30 AM–4:00 PM ET</li>
             </ul>
           </div>
-          <div className="p-4 rounded-lg bg-slate-500/5 border border-slate-500/20">
-            <div className="flex items-center gap-2 mb-2">
-              <span className="badge bg-slate-500/15 text-slate-500 dark:text-slate-400 ring-1 ring-slate-500/20 text-xs">UK</span>
+          <div className="p-3 rounded-lg bg-slate-500/5 border border-slate-500/20">
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="badge bg-slate-500/15 text-slate-400 ring-1 ring-slate-500/20 text-xs">UK</span>
               <span className="text-sm font-semibold t-primary">United Kingdom</span>
             </div>
-            <ul className="space-y-1 text-xs t-tertiary">
-              <li>- London Stock Exchange (LSE)</li>
-              <li>- FTSE 100, FTSE 250, AIM stocks</li>
-              <li>- Prices in GBP (p = pence)</li>
-              <li>- Market hours: 8:00 AM - 4:30 PM GMT</li>
-              <li>- Tickers end in .L (e.g., GSK.L)</li>
+            <ul className="space-y-0.5 text-xs t-tertiary">
+              <li>London Stock Exchange · Prices in GBP (£)</li>
+              <li>FTSE 100, FTSE 250 · Tickers end in .L</li>
+              <li>Hours: 8:00 AM–4:30 PM GMT</li>
+            </ul>
+          </div>
+          <div className="p-3 rounded-lg bg-red-700/5 border border-red-700/20">
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="badge bg-red-700/15 text-red-400 ring-1 ring-red-700/20 text-xs">JP</span>
+              <span className="text-sm font-semibold t-primary">Japan</span>
+            </div>
+            <ul className="space-y-0.5 text-xs t-tertiary">
+              <li>Tokyo Stock Exchange · Prices in JPY (¥)</li>
+              <li>Nikkei 225, TOPIX · Tickers end in .T</li>
+              <li>Hours: 9:00 AM–3:30 PM JST</li>
+            </ul>
+          </div>
+          <div className="p-3 rounded-lg bg-amber-600/5 border border-amber-600/20">
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="badge bg-amber-600/15 text-amber-400 ring-1 ring-amber-600/20 text-xs">HK</span>
+              <span className="text-sm font-semibold t-primary">Hong Kong</span>
+            </div>
+            <ul className="space-y-0.5 text-xs t-tertiary">
+              <li>HKEX · Prices in HKD (HK$)</li>
+              <li>Hang Seng Index · Tickers end in .HK</li>
+              <li>Hours: 9:30 AM–4:00 PM HKT</li>
+            </ul>
+          </div>
+          <div className="p-3 rounded-lg bg-orange-600/5 border border-orange-600/20">
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="badge bg-orange-600/15 text-orange-400 ring-1 ring-orange-600/20 text-xs">IN</span>
+              <span className="text-sm font-semibold t-primary">India</span>
+            </div>
+            <ul className="space-y-0.5 text-xs t-tertiary">
+              <li>NSE & BSE · Prices in INR (₹)</li>
+              <li>Nifty 50, Sensex · Tickers end in .NS / .BO</li>
+              <li>Hours: 9:15 AM–3:30 PM IST</li>
+            </ul>
+          </div>
+          <div className="p-3 rounded-lg bg-blue-700/5 border border-blue-700/20">
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="badge bg-blue-700/15 text-blue-400 ring-1 ring-blue-700/20 text-xs">EU</span>
+              <span className="text-sm font-semibold t-primary">Europe (DE / FR)</span>
+            </div>
+            <ul className="space-y-0.5 text-xs t-tertiary">
+              <li>XETRA & Euronext Paris · Prices in EUR (€)</li>
+              <li>DAX 40, CAC 40 · Tickers end in .DE / .PA</li>
+              <li>Hours: 9:00 AM–5:30 PM CET</li>
             </ul>
           </div>
         </div>
@@ -328,19 +369,19 @@ function DashboardTab() {
           <PageCard
             name="Heat Map"
             path="/heatmap"
-            desc="Visual overview of all stocks grouped by sector. Rectangle size = market cap (bigger company = bigger box). Colour = daily change (green = up, red = down). Instantly spot which sectors are hot or cold today."
-            when="Use for a quick visual pulse. If most boxes are red, the market is selling off — be cautious."
+            desc="Visual overview of all stocks grouped by sector. Rectangle size = market cap. Colour = daily change / composite score / RS percentile (switchable). Filter by market (US/UK/JP/HK/IN) and cap size. Market stats bar shows gainers vs losers ratio. Click sector headers to collapse."
+            when="Use for a quick visual pulse. Filter to US-only to focus. If most boxes are red, the market is selling off — be cautious."
           />
           <PageCard
             name="Sectors"
             path="/sectors"
-            desc="Sector-level analysis with average scores, change %, and top stocks per sector. Compare all 11 sectors side by side. See which sectors have the strongest stocks."
+            desc="Sector-level analysis with avg composite score, RS percentile, 3M/1Y returns, and top 5 stocks per card. An overview bar chart compares all sectors visually (switchable: RS / Score / 3M Return). Sort cards by any metric. Day change uses median to avoid outlier distortion."
             when="Use to identify strong sectors BEFORE picking individual stocks. Buying the best stock in the best sector gives you an edge."
           />
           <PageCard
             name="Compare"
             path="/compare"
-            desc="Side-by-side comparison of 2-4 stocks. Every metric shown — price, fundamentals, technicals, momentum, and scores. The best value for each metric is highlighted green so you can easily see which stock wins."
+            desc="Side-by-side comparison of 2-4 stocks. Load preset groups (Tech Giants, Semiconductors, Energy Majors) with one click, or search manually. Includes Returns (3M/6M/1Y/2Y), Piotroski/Buffett scores, and background fill bars showing relative standing visually."
             when="Use when deciding between 2-3 similar stocks. For example: AAPL vs MSFT vs GOOGL — which is the better buy right now?"
           />
           <PageCard
@@ -352,7 +393,7 @@ function DashboardTab() {
           <PageCard
             name="Backtest"
             path="/backtest"
-            desc="Test stock-picking strategies against real historical returns. Pick from 8 strategies (High Score, Momentum, Minervini, Value+Growth, Piotroski, Buffett, Oversold, Breakout) and see their actual 3-month and 1-year performance, win rate, and average return."
+            desc="Test stock-picking strategies against real historical returns. Pick from 8 strategies and see their actual 3M/6M/1Y returns, win rate, and return distribution histogram. A strategy comparison table ranks all 8 side by side — click any row to switch strategy. Filter results by market."
             when="Use BEFORE adopting a strategy. If it doesn't work in the backtest, don't use it with real money. Check which strategy has the highest win rate."
           />
           <PageCard
@@ -436,6 +477,23 @@ function DashboardTab() {
             path="/most-owned"
             desc="Shows the most popular stocks among institutional investors (mutual funds, hedge funds) that are currently trading at a discount. Identifies stocks the smart money loves but that are temporarily on sale."
             when="Use to find stocks where you're buying alongside top institutions at a lower price than they paid."
+          />
+        </div>
+
+        {/* PRACTICE PAGES */}
+        <p className="text-xs font-semibold t-tertiary uppercase tracking-wider mb-2">Practice — Build Skills Risk-Free</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-5">
+          <PageCard
+            name="Chart Replay"
+            path="/chart-replay"
+            desc="Step through historical candles one at a time without seeing the future. Practice buy/sell/skip decisions. Buy/sell markers appear on the price chart. Full SMA, RSI, and volume subcharts. Keyboard shortcuts (←→ step, Space play, B/S/K decide). Suggested stocks grid for quick start."
+            when="Use to practice reading charts and making decisions under uncertainty. Paper trade first, then use Chart Replay to sharpen your entry/exit timing."
+          />
+          <PageCard
+            name="Online Picks"
+            path="/online-picks"
+            desc="Aggregates social sentiment and trending mentions from the web. Shows which stocks are getting unusual attention online — useful for spotting momentum before it shows up in price data."
+            when="Use as a supplementary signal, not the primary one. High social buzz with strong technicals = interesting setup. Buzz alone without fundamentals = high risk."
           />
         </div>
 
