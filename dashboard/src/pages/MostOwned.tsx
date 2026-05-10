@@ -3,6 +3,15 @@ import { Link } from 'react-router-dom';
 import type { StockRecord } from '../types';
 import { MarketTag, CapTag, ScoreBadge, ChangePercent, PriceDisplay } from '../components/common/Tags';
 import { currencySymbol } from '../lib/format';
+import MultiSelect from '../components/common/MultiSelect';
+
+const ALL_MARKETS = ['US', 'UK', 'IN', 'HK', 'JP', 'DE', 'FR'];
+const ALL_CAPS = ['Large', 'Mid', 'Small'];
+const ALL_SECTORS = [
+  'Communication', 'Consumer Cyclical', 'Consumer Defensive', 'Energy',
+  'Financials', 'Fintech', 'Healthcare', 'Industrials', 'Materials',
+  'Real Estate', 'Technology', 'Utilities',
+];
 
 type SortKey = 'dropPct' | 'ownership' | 'marketCap' | 'institutionsCount' | 'score' | 'dividendYield' | 'rsi';
 type DropBucket = 'all' | '5' | '10' | '15' | '20' | '25' | '30';
@@ -31,23 +40,16 @@ function getDropBucket(pct: number): string {
   return '30%+';
 }
 
-// Get unique sectors from stocks
-function getSectors(stocks: StockRecord[]): string[] {
-  const sectors = new Set(stocks.map(s => s.sector).filter(Boolean));
-  return ['all', ...Array.from(sectors).sort()];
-}
 
 export default function MostOwned({ stocks }: { stocks: StockRecord[] }) {
   const [sortBy, setSortBy] = useState<SortKey>('dropPct');
-  const [marketFilter, setMarketFilter] = useState<'all' | 'US' | 'UK'>('all');
-  const [capFilter, setCapFilter] = useState<'all' | 'Large' | 'Mid' | 'Small'>('all');
+  const [markets, setMarkets] = useState<string[]>([]);
+  const [caps, setCaps] = useState<string[]>([]);
+  const [sectors, setSectors] = useState<string[]>([]);
   const [dropBucket, setDropBucket] = useState<DropBucket>('all');
-  const [sectorFilter, setSectorFilter] = useState('all');
   const [minDividend, setMinDividend] = useState(0);
   const [maxRsi, setMaxRsi] = useState(100);
   const [showOnlyDropped, setShowOnlyDropped] = useState(true);
-
-  const sectors = useMemo(() => getSectors(stocks), [stocks]);
 
   // Get top 200 by market cap (largest companies)
   const top200 = useMemo(() => {
@@ -69,9 +71,9 @@ export default function MostOwned({ stocks }: { stocks: StockRecord[] }) {
       // Only show stocks that have actually dropped
       if (showOnlyDropped && dropFromHigh < 1) continue;
 
-      if (marketFilter !== 'all' && stock.market !== marketFilter) continue;
-      if (capFilter !== 'all' && stock.capCategory !== capFilter) continue;
-      if (sectorFilter !== 'all' && stock.sector !== sectorFilter) continue;
+      if (markets.length > 0 && !markets.includes(stock.market)) continue;
+      if (caps.length > 0 && !caps.includes(stock.capCategory)) continue;
+      if (sectors.length > 0 && !sectors.includes(stock.sector ?? '')) continue;
 
       // Dividend filter
       if (minDividend > 0) {
@@ -118,7 +120,7 @@ export default function MostOwned({ stocks }: { stocks: StockRecord[] }) {
     });
 
     return results;
-  }, [top200, sortBy, marketFilter, capFilter, dropBucket, sectorFilter, minDividend, maxRsi, showOnlyDropped]);
+  }, [top200, sortBy, markets, caps, sectors, dropBucket, minDividend, maxRsi, showOnlyDropped]);
 
   // Bucket counts for the distribution bar
   const bucketCounts = useMemo(() => {
@@ -129,14 +131,14 @@ export default function MostOwned({ stocks }: { stocks: StockRecord[] }) {
       const drop = stock.fiftyTwoWeekHigh > 0
         ? ((stock.fiftyTwoWeekHigh - stock.price) / stock.fiftyTwoWeekHigh) * 100
         : 0;
-      if (marketFilter !== 'all' && stock.market !== marketFilter) continue;
-      if (capFilter !== 'all' && stock.capCategory !== capFilter) continue;
-      if (sectorFilter !== 'all' && stock.sector !== sectorFilter) continue;
+      if (markets.length > 0 && !markets.includes(stock.market)) continue;
+      if (caps.length > 0 && !caps.includes(stock.capCategory)) continue;
+      if (sectors.length > 0 && !sectors.includes(stock.sector ?? '')) continue;
       const bucket = getDropBucket(drop);
       counts[bucket] = (counts[bucket] || 0) + 1;
     }
     return counts;
-  }, [top200, marketFilter, capFilter, sectorFilter]);
+  }, [top200, markets, caps, sectors]);
 
   return (
     <div className="space-y-5">
@@ -219,109 +221,11 @@ export default function MostOwned({ stocks }: { stocks: StockRecord[] }) {
       </div>
 
       {/* Filters */}
-      <div className="flex flex-wrap gap-3 items-center">
-        <div className="flex items-center gap-2">
-          <label className="text-xs font-medium t-muted">Market:</label>
-          <div className="flex gap-1">
-            {(['all', 'US', 'UK'] as const).map(m => (
-              <button
-                key={m}
-                onClick={() => setMarketFilter(m)}
-                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
-                  marketFilter === m
-                    ? 'bg-accent/15 text-accent-light ring-1 ring-accent/30'
-                    : 'bg-surface-tertiary t-tertiary hover:t-secondary'
-                }`}
-              >
-                {m === 'all' ? 'All' : m}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div className="w-px h-5 bg-surface-border" />
-
-        <div className="flex items-center gap-2">
-          <label className="text-xs font-medium t-muted">Cap:</label>
-          <div className="flex gap-1">
-            {(['all', 'Large', 'Mid', 'Small'] as const).map(c => (
-              <button
-                key={c}
-                onClick={() => setCapFilter(c)}
-                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
-                  capFilter === c
-                    ? 'bg-accent/15 text-accent-light ring-1 ring-accent/30'
-                    : 'bg-surface-tertiary t-tertiary hover:t-secondary'
-                }`}
-              >
-                {c === 'all' ? 'All' : c}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div className="w-px h-5 bg-surface-border" />
-
-        <div className="flex items-center gap-2">
-          <label className="text-xs font-medium t-muted">Sector:</label>
-          <select
-            value={sectorFilter}
-            onChange={e => setSectorFilter(e.target.value)}
-            className="text-xs bg-surface-tertiary border border-surface-border rounded-md px-2 py-1 t-secondary max-w-[140px]"
-          >
-            {sectors.map(s => (
-              <option key={s} value={s}>{s === 'all' ? 'All Sectors' : s}</option>
-            ))}
-          </select>
-        </div>
-
-        <div className="w-px h-5 bg-surface-border" />
-
-        <div className="flex items-center gap-2">
-          <label className="text-xs font-medium t-muted">Min Div Yield:</label>
-          <div className="flex gap-1">
-            {[0, 1, 2, 3, 4].map(d => (
-              <button
-                key={d}
-                onClick={() => setMinDividend(d)}
-                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
-                  minDividend === d
-                    ? 'bg-accent/15 text-accent-light ring-1 ring-accent/30'
-                    : 'bg-surface-tertiary t-tertiary hover:t-secondary'
-                }`}
-              >
-                {d === 0 ? 'Any' : `${d}%+`}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div className="w-px h-5 bg-surface-border" />
-
-        <div className="flex items-center gap-2">
-          <label className="text-xs font-medium t-muted">Max RSI:</label>
-          <div className="flex gap-1">
-            {[100, 50, 40, 30].map(r => (
-              <button
-                key={r}
-                onClick={() => setMaxRsi(r)}
-                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
-                  maxRsi === r
-                    ? 'bg-accent/15 text-accent-light ring-1 ring-accent/30'
-                    : 'bg-surface-tertiary t-tertiary hover:t-secondary'
-                }`}
-              >
-                {r === 100 ? 'Any' : `<${r}`}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div className="w-px h-5 bg-surface-border" />
-
-        <div className="flex items-center gap-2">
-          <label className="text-xs font-medium t-muted">Min Drop:</label>
-          <div className="flex gap-1">
+      <div className="card p-3">
+        <div className="flex flex-wrap gap-2 items-center">
+          {/* Min Drop */}
+          <div className="flex items-center gap-1.5">
+            <span className="text-xs font-medium t-muted">Min Drop:</span>
             {([['all', 'Any'], ['5', '5%+'], ['10', '10%+'], ['15', '15%+'], ['20', '20%+'], ['30', '30%+']] as const).map(([val, label]) => (
               <button
                 key={val}
@@ -336,39 +240,97 @@ export default function MostOwned({ stocks }: { stocks: StockRecord[] }) {
               </button>
             ))}
           </div>
+
+          <div className="w-px h-5 bg-surface-border" />
+
+          <MultiSelect label="Market" options={ALL_MARKETS} selected={markets} onChange={setMarkets} activeClass="bg-accent/15 text-accent-light ring-1 ring-accent/30" />
+          <MultiSelect label="Cap" options={ALL_CAPS} selected={caps} onChange={setCaps} activeClass="bg-accent/15 text-accent-light ring-1 ring-accent/30" />
+          <MultiSelect label="Sector" options={ALL_SECTORS} selected={sectors} onChange={setSectors} activeClass="bg-accent/15 text-accent-light ring-1 ring-accent/30" />
+
+          <div className="w-px h-5 bg-surface-border" />
+
+          {/* Min Dividend Yield */}
+          <div className="flex items-center gap-1.5">
+            <span className="text-xs font-medium t-muted">Min Div:</span>
+            {[0, 1, 2, 3, 4].map(d => (
+              <button
+                key={d}
+                onClick={() => setMinDividend(d)}
+                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
+                  minDividend === d
+                    ? 'bg-accent/15 text-accent-light ring-1 ring-accent/30'
+                    : 'bg-surface-tertiary t-tertiary hover:t-secondary'
+                }`}
+              >
+                {d === 0 ? 'Any' : `${d}%+`}
+              </button>
+            ))}
+          </div>
+
+          <div className="w-px h-5 bg-surface-border" />
+
+          {/* Max RSI */}
+          <div className="flex items-center gap-1.5">
+            <span className="text-xs font-medium t-muted">Max RSI:</span>
+            {[100, 50, 40, 30].map(r => (
+              <button
+                key={r}
+                onClick={() => setMaxRsi(r)}
+                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
+                  maxRsi === r
+                    ? 'bg-accent/15 text-accent-light ring-1 ring-accent/30'
+                    : 'bg-surface-tertiary t-tertiary hover:t-secondary'
+                }`}
+              >
+                {r === 100 ? 'Any' : `<${r}`}
+              </button>
+            ))}
+          </div>
+
+          <div className="w-px h-5 bg-surface-border" />
+
+          {/* Sort */}
+          <div className="flex items-center gap-1.5">
+            <span className="text-xs font-medium t-muted">Sort:</span>
+            <select
+              value={sortBy}
+              onChange={e => setSortBy(e.target.value as SortKey)}
+              className="text-xs bg-surface-tertiary border border-surface-border rounded-md px-2 py-1 t-secondary"
+            >
+              <option value="dropPct">Biggest Drop</option>
+              <option value="marketCap">Largest Market Cap</option>
+              <option value="institutionsCount">Most Institutions</option>
+              <option value="ownership">Highest Ownership %</option>
+              <option value="score">Composite Score</option>
+              <option value="dividendYield">Dividend Yield</option>
+              <option value="rsi">Lowest RSI</option>
+            </select>
+          </div>
+
+          <div className="w-px h-5 bg-surface-border" />
+
+          <label className="flex items-center gap-1.5 cursor-pointer text-xs t-muted">
+            <input
+              type="checkbox"
+              checked={showOnlyDropped}
+              onChange={e => setShowOnlyDropped(e.target.checked)}
+              className="accent-accent w-3 h-3"
+            />
+            <span>Dropped only</span>
+          </label>
+
+          {(markets.length > 0 || caps.length > 0 || sectors.length > 0 || minDividend > 0 || maxRsi < 100 || dropBucket !== 'all') && (
+            <>
+              <div className="w-px h-5 bg-surface-border" />
+              <button
+                onClick={() => { setMarkets([]); setCaps([]); setSectors([]); setMinDividend(0); setMaxRsi(100); setDropBucket('all'); }}
+                className="px-2.5 py-1 rounded-md text-xs font-medium text-bearish bg-bearish/10 hover:bg-bearish/20 transition-all"
+              >
+                Reset
+              </button>
+            </>
+          )}
         </div>
-      </div>
-
-      {/* Second row: sort + toggle */}
-      <div className="flex flex-wrap gap-3 items-center">
-        <div className="flex items-center gap-2">
-          <label className="text-xs font-medium t-muted">Sort:</label>
-          <select
-            value={sortBy}
-            onChange={e => setSortBy(e.target.value as SortKey)}
-            className="text-xs bg-surface-tertiary border border-surface-border rounded-md px-2 py-1 t-secondary"
-          >
-            <option value="dropPct">Biggest Drop</option>
-            <option value="marketCap">Market Cap</option>
-            <option value="institutionsCount">Most Institutions</option>
-            <option value="ownership">Highest Ownership %</option>
-            <option value="score">Composite Score</option>
-            <option value="dividendYield">Dividend Yield</option>
-            <option value="rsi">Lowest RSI</option>
-          </select>
-        </div>
-
-        <div className="w-px h-5 bg-surface-border" />
-
-        <label className="flex items-center gap-2 cursor-pointer text-xs t-muted">
-          <input
-            type="checkbox"
-            checked={showOnlyDropped}
-            onChange={e => setShowOnlyDropped(e.target.checked)}
-            className="rounded border-surface-border"
-          />
-          <span>Only show stocks that dropped (&gt;1% from high)</span>
-        </label>
       </div>
 
       {/* Results */}

@@ -3,8 +3,17 @@ import { Link } from 'react-router-dom';
 import type { StockRecord } from '../types';
 import { MarketTag, CapTag, ScoreBadge, ChangePercent, PriceDisplay } from '../components/common/Tags';
 import { currencySymbol } from '../lib/format';
+import MultiSelect from '../components/common/MultiSelect';
 
-type SortKey = 'pctBelow' | 'uptrendYears' | 'score' | 'return1y' | 'strength';
+const ALL_MARKETS = ['US', 'UK', 'IN', 'HK', 'JP', 'DE', 'FR'];
+const ALL_CAPS = ['Large', 'Mid', 'Small'];
+const ALL_SECTORS = [
+  'Communication', 'Consumer Cyclical', 'Consumer Defensive', 'Energy',
+  'Financials', 'Fintech', 'Healthcare', 'Industrials', 'Materials',
+  'Real Estate', 'Technology', 'Utilities',
+];
+
+type SortKey = 'pctBelow' | 'uptrendYears' | 'score' | 'return1y' | 'strength' | 'marketCap' | 'dividendYield';
 type BucketFilter = 'all' | '5' | '10' | '15' | '20' | '25';
 type UptrendMode = 'any1' | 'any2' | 'any3' | 'any4' | 'consec2' | 'consec3' | 'consec4';
 
@@ -88,8 +97,10 @@ const UPTREND_OPTIONS: { value: UptrendMode; label: string; desc: string }[] = [
 export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
   const [uptrendMode, setUptrendMode] = useState<UptrendMode>('any2');
   const [sortBy, setSortBy] = useState<SortKey>('pctBelow');
-  const [marketFilter, setMarketFilter] = useState<'all' | 'US' | 'UK'>('all');
-  const [capFilter, setCapFilter] = useState<'all' | 'Large' | 'Mid' | 'Small'>('all');
+  const [markets, setMarkets] = useState<string[]>([]);
+  const [caps, setCaps] = useState<string[]>([]);
+  const [sectors, setSectors] = useState<string[]>([]);
+  const [hasDividend, setHasDividend] = useState(false);
   const [bucketFilter, setBucketFilter] = useState<BucketFilter>('all');
 
   const uptrendStocks = useMemo(() => {
@@ -98,8 +109,10 @@ export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
     for (const stock of stocks) {
       if (!matchesUptrendMode(stock.yearlyReturns, uptrendMode)) continue;
       if (stock.pctBelowResistance == null || stock.pctBelowResistance <= 0) continue;
-      if (marketFilter !== 'all' && stock.market !== marketFilter) continue;
-      if (capFilter !== 'all' && stock.capCategory !== capFilter) continue;
+      if (markets.length > 0 && !markets.includes(stock.market)) continue;
+      if (caps.length > 0 && !caps.includes(stock.capCategory)) continue;
+      if (sectors.length > 0 && !sectors.includes(stock.sector ?? '')) continue;
+      if (hasDividend && !(stock.dividendYield != null && stock.dividendYield > 0)) continue;
 
       const sr = stock.supportResistance ?? [];
       const resistances = sr.filter(l => l.type === 'resistance').sort((a, b) => a.price - b.price);
@@ -140,13 +153,17 @@ export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
           return b.stock.priceReturn1y - a.stock.priceReturn1y;
         case 'strength':
           return b.nearestResistance.strength - a.nearestResistance.strength || b.pctBelow - a.pctBelow;
+        case 'marketCap':
+          return b.stock.marketCap - a.stock.marketCap;
+        case 'dividendYield':
+          return (b.stock.dividendYield ?? 0) - (a.stock.dividendYield ?? 0);
         default:
           return 0;
       }
     });
 
     return results;
-  }, [stocks, uptrendMode, sortBy, marketFilter, capFilter, bucketFilter]);
+  }, [stocks, uptrendMode, sortBy, markets, caps, sectors, hasDividend, bucketFilter]);
 
   // Bucket summary counts
   const bucketCounts = useMemo(() => {
@@ -154,13 +171,15 @@ export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
     for (const stock of stocks) {
       if (!matchesUptrendMode(stock.yearlyReturns, uptrendMode)) continue;
       if (stock.pctBelowResistance == null || stock.pctBelowResistance <= 0) continue;
-      if (marketFilter !== 'all' && stock.market !== marketFilter) continue;
-      if (capFilter !== 'all' && stock.capCategory !== capFilter) continue;
+      if (markets.length > 0 && !markets.includes(stock.market)) continue;
+      if (caps.length > 0 && !caps.includes(stock.capCategory)) continue;
+      if (sectors.length > 0 && !sectors.includes(stock.sector ?? '')) continue;
+      if (hasDividend && !(stock.dividendYield != null && stock.dividendYield > 0)) continue;
       const bucket = getBucket(stock.pctBelowResistance);
       counts[bucket] = (counts[bucket] || 0) + 1;
     }
     return counts;
-  }, [stocks, uptrendMode, marketFilter, capFilter]);
+  }, [stocks, uptrendMode, markets, caps, sectors, hasDividend]);
 
   const selectedOption = UPTREND_OPTIONS.find(o => o.value === uptrendMode)!;
 
@@ -235,75 +254,34 @@ export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
       </div>
 
       {/* Filters */}
-      <div className="flex flex-wrap gap-3 items-center">
-        {/* Uptrend mode - primary filter */}
-        <div className="flex items-center gap-2">
-          <label className="text-xs font-medium t-muted">Uptrend:</label>
-          <div className="flex gap-1 flex-wrap">
-            {UPTREND_OPTIONS.map(opt => (
-              <button
-                key={opt.value}
-                onClick={() => setUptrendMode(opt.value)}
-                title={opt.desc}
-                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
-                  uptrendMode === opt.value
-                    ? 'bg-bullish/15 text-bullish ring-1 ring-bullish/30'
-                    : 'bg-surface-tertiary t-tertiary hover:t-secondary'
-                }`}
-              >
-                {opt.label}
-              </button>
-            ))}
+      <div className="card p-3">
+        <div className="flex flex-wrap gap-2 items-center">
+          {/* Uptrend mode */}
+          <div className="flex items-center gap-1.5">
+            <span className="text-xs font-medium t-muted">Uptrend:</span>
+            <div className="flex gap-1 flex-wrap">
+              {UPTREND_OPTIONS.map(opt => (
+                <button
+                  key={opt.value}
+                  onClick={() => setUptrendMode(opt.value)}
+                  title={opt.desc}
+                  className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
+                    uptrendMode === opt.value
+                      ? 'bg-bullish/15 text-bullish ring-1 ring-bullish/30'
+                      : 'bg-surface-tertiary t-tertiary hover:t-secondary'
+                  }`}
+                >
+                  {opt.label}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
 
-        <div className="w-px h-5 bg-surface-border" />
+          <div className="w-px h-5 bg-surface-border" />
 
-        <div className="flex items-center gap-2">
-          <label className="text-xs font-medium t-muted">Market:</label>
-          <div className="flex gap-1">
-            {(['all', 'US', 'UK'] as const).map(m => (
-              <button
-                key={m}
-                onClick={() => setMarketFilter(m)}
-                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
-                  marketFilter === m
-                    ? 'bg-bullish/15 text-bullish ring-1 ring-bullish/30'
-                    : 'bg-surface-tertiary t-tertiary hover:t-secondary'
-                }`}
-              >
-                {m === 'all' ? 'All' : m}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div className="w-px h-5 bg-surface-border" />
-
-        <div className="flex items-center gap-2">
-          <label className="text-xs font-medium t-muted">Cap:</label>
-          <div className="flex gap-1">
-            {(['all', 'Large', 'Mid', 'Small'] as const).map(c => (
-              <button
-                key={c}
-                onClick={() => setCapFilter(c)}
-                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
-                  capFilter === c
-                    ? 'bg-bullish/15 text-bullish ring-1 ring-bullish/30'
-                    : 'bg-surface-tertiary t-tertiary hover:t-secondary'
-                }`}
-              >
-                {c === 'all' ? 'All' : c}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div className="w-px h-5 bg-surface-border" />
-
-        <div className="flex items-center gap-2">
-          <label className="text-xs font-medium t-muted">Min Discount:</label>
-          <div className="flex gap-1">
+          {/* Min Discount */}
+          <div className="flex items-center gap-1.5">
+            <span className="text-xs font-medium t-muted">Discount:</span>
             {([['all', 'Any'], ['5', '5%+'], ['10', '10%+'], ['15', '15%+'], ['20', '20%+']] as const).map(([val, label]) => (
               <button
                 key={val}
@@ -318,23 +296,56 @@ export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
               </button>
             ))}
           </div>
-        </div>
 
-        <div className="w-px h-5 bg-surface-border" />
+          <div className="w-px h-5 bg-surface-border" />
 
-        <div className="flex items-center gap-2">
-          <label className="text-xs font-medium t-muted">Sort:</label>
-          <select
-            value={sortBy}
-            onChange={e => setSortBy(e.target.value as SortKey)}
-            className="text-xs bg-surface-tertiary border border-surface-border rounded-md px-2 py-1 t-secondary"
+          <MultiSelect label="Market" options={ALL_MARKETS} selected={markets} onChange={setMarkets} activeClass="bg-bullish/15 text-bullish ring-1 ring-bullish/30" />
+          <MultiSelect label="Cap" options={ALL_CAPS} selected={caps} onChange={setCaps} activeClass="bg-bullish/15 text-bullish ring-1 ring-bullish/30" />
+          <MultiSelect label="Sector" options={ALL_SECTORS} selected={sectors} onChange={setSectors} activeClass="bg-bullish/15 text-bullish ring-1 ring-bullish/30" />
+
+          <div className="w-px h-5 bg-surface-border" />
+
+          <button
+            onClick={() => setHasDividend(v => !v)}
+            className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
+              hasDividend
+                ? 'bg-bullish/15 text-bullish ring-1 ring-bullish/30'
+                : 'bg-surface-tertiary t-tertiary hover:t-secondary'
+            }`}
           >
-            <option value="pctBelow">Biggest Discount</option>
-            <option value="uptrendYears">Most Positive Years</option>
-            <option value="score">Composite Score</option>
-            <option value="return1y">1Y Return</option>
-            <option value="strength">Resistance Strength</option>
-          </select>
+            Dividend Only
+          </button>
+
+          <div className="w-px h-5 bg-surface-border" />
+
+          <div className="flex items-center gap-1.5">
+            <span className="text-xs font-medium t-muted">Sort:</span>
+            <select
+              value={sortBy}
+              onChange={e => setSortBy(e.target.value as SortKey)}
+              className="text-xs bg-surface-tertiary border border-surface-border rounded-md px-2 py-1 t-secondary"
+            >
+              <option value="pctBelow">Biggest Discount</option>
+              <option value="uptrendYears">Most Positive Years</option>
+              <option value="marketCap">Largest Market Cap</option>
+              <option value="score">Composite Score</option>
+              <option value="return1y">1Y Return</option>
+              <option value="strength">Resistance Strength</option>
+              <option value="dividendYield">Dividend Yield</option>
+            </select>
+          </div>
+
+          {(markets.length > 0 || caps.length > 0 || sectors.length > 0 || hasDividend) && (
+            <>
+              <div className="w-px h-5 bg-surface-border" />
+              <button
+                onClick={() => { setMarkets([]); setCaps([]); setSectors([]); setHasDividend(false); }}
+                className="px-2.5 py-1 rounded-md text-xs font-medium text-bearish bg-bearish/10 hover:bg-bearish/20 transition-all"
+              >
+                Reset
+              </button>
+            </>
+          )}
         </div>
       </div>
 
@@ -342,8 +353,10 @@ export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
       <div className="text-xs t-muted px-1">
         Showing: <span className="font-medium t-secondary">{selectedOption.desc}</span>
         {bucketFilter !== 'all' && <span> &middot; {bucketFilter}%+ below resistance</span>}
-        {marketFilter !== 'all' && <span> &middot; {marketFilter} only</span>}
-        {capFilter !== 'all' && <span> &middot; {capFilter} cap</span>}
+        {markets.length > 0 && <span> &middot; {markets.join(', ')}</span>}
+        {caps.length > 0 && <span> &middot; {caps.join(', ')} cap</span>}
+        {sectors.length > 0 && <span> &middot; {sectors.length} sector{sectors.length > 1 ? 's' : ''}</span>}
+        {hasDividend && <span> &middot; dividend stocks</span>}
       </div>
 
       {/* Results */}
