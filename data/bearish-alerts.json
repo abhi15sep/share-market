@@ -153,7 +153,7 @@
     },
     "bearishScore": 10,
     "bullishScore": 6,
-    "sentimentAvg": 0.25329999999999997,
+    "sentimentAvg": 0.26559999999999995,
     "score": {
       "priceMomentum": 92,
       "technicalSignals": 25,
@@ -208,7 +208,7 @@
       "passed": 5
     },
     "sectorZScore": 1.21,
-    "sectorRank": 24,
+    "sectorRank": 22,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -293,8 +293,8 @@
       "predicted": 67,
       "direction": "improving",
       "confidence": "high",
-      "slope": 0.65,
-      "r2": 0.648,
+      "slope": 0.709,
+      "r2": 0.674,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.09,
@@ -655,15 +655,15 @@
     },
     "bearishScore": 10,
     "bullishScore": 4,
-    "sentimentAvg": 0.24,
+    "sentimentAvg": 0.32,
     "score": {
       "priceMomentum": 62,
       "technicalSignals": 13,
-      "newsSentiment": 62,
+      "newsSentiment": 66,
       "fundamentals": 50,
       "volumeTrend": 53,
       "riskInverse": 55,
-      "composite": 46
+      "composite": 47
     },
     "priceToBook": 15.558716,
     "pegRatio": 3.49,
@@ -709,8 +709,8 @@
       "rsAbove70": false,
       "passed": 4
     },
-    "sectorZScore": -0.1,
-    "sectorRank": 74,
+    "sectorZScore": 0.01,
+    "sectorRank": 67,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -776,14 +776,14 @@
       "Cybersecurity"
     ],
     "predictiveScore": {
-      "predicted": 49,
+      "predicted": 52,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.219,
-      "r2": 0.314,
+      "slope": 0.193,
+      "r2": 0.275,
       "factors": {
-        "trendMomentum": 0.398,
-        "meanReversion": 0.04,
+        "trendMomentum": 0.61,
+        "meanReversion": 0.03,
         "technicalSupport": 0.025
       }
     },
@@ -1148,15 +1148,15 @@
     },
     "bearishScore": 10,
     "bullishScore": 5,
-    "sentimentAvg": 0.368,
+    "sentimentAvg": 0.387,
     "score": {
       "priceMomentum": 64,
       "technicalSignals": 19,
-      "newsSentiment": 68,
+      "newsSentiment": 69,
       "fundamentals": 50,
       "volumeTrend": 41,
       "riskInverse": 48,
-      "composite": 47
+      "composite": 48
     },
     "priceToBook": 30.196247,
     "pegRatio": 4.35,
@@ -1202,7 +1202,7 @@
       "rsAbove70": true,
       "passed": 6
     },
-    "sectorZScore": 0,
+    "sectorZScore": 0.11,
     "sectorRank": 65,
     "sectorCount": 155,
     "supportResistance": [
@@ -1262,14 +1262,14 @@
       "Cybersecurity"
     ],
     "predictiveScore": {
-      "predicted": 48,
+      "predicted": 47,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.321,
-      "r2": 0.378,
+      "slope": 0.302,
+      "r2": 0.348,
       "factors": {
-        "trendMomentum": 0.097,
-        "meanReversion": 0.03,
+        "trendMomentum": -0.035,
+        "meanReversion": 0.02,
         "technicalSupport": -0.067
       }
     },
@@ -1641,15 +1641,15 @@
     },
     "bearishScore": 10,
     "bullishScore": 6,
-    "sentimentAvg": 0.584,
+    "sentimentAvg": 0.6974,
     "score": {
       "priceMomentum": 90,
       "technicalSignals": 25,
-      "newsSentiment": 79,
+      "newsSentiment": 85,
       "fundamentals": 0,
       "volumeTrend": 58,
       "riskInverse": 25,
-      "composite": 49
+      "composite": 50
     },
     "priceToBook": 17.730536,
     "pegRatio": 1.5,
@@ -1695,8 +1695,8 @@
       "rsAbove70": true,
       "passed": 6
     },
-    "sectorZScore": 0.2,
-    "sectorRank": 61,
+    "sectorZScore": 0.31,
+    "sectorRank": 59,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -1746,14 +1746,14 @@
       "Cloud Computing"
     ],
     "predictiveScore": {
-      "predicted": 57,
+      "predicted": 58,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.446,
-      "r2": 0.416,
+      "slope": 0.487,
+      "r2": 0.448,
       "factors": {
         "trendMomentum": 1,
-        "meanReversion": 0.01,
+        "meanReversion": 0,
         "technicalSupport": 0.025
       }
     },
@@ -2234,13 +2234,13 @@
       "E-Commerce"
     ],
     "predictiveScore": {
-      "predicted": 42,
+      "predicted": 41,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.128,
-      "r2": 0.087,
+      "slope": 0.096,
+      "r2": 0.048,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.962,
         "meanReversion": 0.16,
         "technicalSupport": -0.2
       }
@@ -2646,8 +2646,8 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.2,
-    "sectorRank": 82,
+    "sectorZScore": -0.19,
+    "sectorRank": 80,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -2739,13 +2739,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 53,
+      "predicted": 48,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.203,
-      "r2": 0.25,
+      "confidence": "low",
+      "slope": 0.173,
+      "r2": 0.182,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.331,
         "meanReversion": 0.05,
         "technicalSupport": -0.067
       }
@@ -3172,7 +3172,7 @@
       "rsAbove70": true,
       "passed": 6
     },
-    "sectorZScore": 0.6,
+    "sectorZScore": 0.61,
     "sectorRank": 46,
     "sectorCount": 155,
     "supportResistance": [
@@ -3267,8 +3267,8 @@
       "predicted": 61,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.146,
-      "r2": 0.057,
+      "slope": 0.224,
+      "r2": 0.129,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.03,
@@ -3697,7 +3697,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.1,
+    "sectorZScore": -0.09,
     "sectorRank": 42,
     "sectorCount": 83,
     "supportResistance": [
@@ -3778,10 +3778,10 @@
       "predicted": 38,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.059,
-      "r2": 0.021,
+      "slope": -0.077,
+      "r2": 0.037,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.983,
         "meanReversion": 0.04,
         "technicalSupport": -0.125
       }
@@ -4206,7 +4206,7 @@
       "rsAbove70": true,
       "passed": 6
     },
-    "sectorZScore": 0.47,
+    "sectorZScore": 0.48,
     "sectorRank": 29,
     "sectorCount": 83,
     "supportResistance": [
@@ -4310,8 +4310,8 @@
       "predicted": 60,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.319,
-      "r2": 0.35,
+      "slope": 0.353,
+      "r2": 0.413,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.02,
@@ -4719,7 +4719,7 @@
       "rsAbove70": true,
       "passed": 4
     },
-    "sectorZScore": -0.57,
+    "sectorZScore": -0.56,
     "sectorRank": 56,
     "sectorCount": 83,
     "supportResistance": [
@@ -4778,13 +4778,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 46,
+      "predicted": 43,
       "direction": "stable",
-      "confidence": "high",
-      "slope": 0.364,
-      "r2": 0.559,
+      "confidence": "medium",
+      "slope": 0.305,
+      "r2": 0.461,
       "factors": {
-        "trendMomentum": 0.621,
+        "trendMomentum": 0.24,
         "meanReversion": 0.09,
         "technicalSupport": -0.067
       }
@@ -5197,7 +5197,7 @@
       "rsAbove70": false,
       "passed": 6
     },
-    "sectorZScore": -0.38,
+    "sectorZScore": -0.37,
     "sectorRank": 51,
     "sectorCount": 83,
     "supportResistance": [
@@ -5268,10 +5268,10 @@
       "predicted": 46,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.161,
-      "r2": 0.12,
+      "slope": -0.166,
+      "r2": 0.127,
       "factors": {
-        "trendMomentum": 0.385,
+        "trendMomentum": 0.436,
         "meanReversion": 0.07,
         "technicalSupport": -0.067
       }
@@ -5691,7 +5691,7 @@
       "rsAbove70": true,
       "passed": 7
     },
-    "sectorZScore": 0.9,
+    "sectorZScore": 0.91,
     "sectorRank": 35,
     "sectorCount": 155,
     "supportResistance": [
@@ -5744,8 +5744,8 @@
       "predicted": 64,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.429,
-      "r2": 0.325,
+      "slope": 0.514,
+      "r2": 0.382,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.06,
@@ -6160,8 +6160,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.1,
-    "sectorRank": 76,
+    "sectorZScore": -0.09,
+    "sectorRank": 75,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -6254,10 +6254,10 @@
     ],
     "predictiveScore": {
       "predicted": 54,
-      "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.297,
-      "r2": 0.388,
+      "direction": "improving",
+      "confidence": "high",
+      "slope": 0.362,
+      "r2": 0.576,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.04,
@@ -6760,8 +6760,8 @@
       "predicted": 63,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.346,
-      "r2": 0.385,
+      "slope": 0.375,
+      "r2": 0.4,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.05,
@@ -7181,8 +7181,8 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.2,
-    "sectorRank": 85,
+    "sectorZScore": -0.19,
+    "sectorRank": 83,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -7274,13 +7274,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 47,
+      "predicted": 46,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.221,
-      "r2": 0.3,
+      "slope": 0.202,
+      "r2": 0.266,
       "factors": {
-        "trendMomentum": 0.216,
+        "trendMomentum": 0.183,
         "meanReversion": 0.05,
         "technicalSupport": -0.067
       }
@@ -7768,8 +7768,8 @@
       "predicted": 28,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.054,
-      "r2": 0.009,
+      "slope": -0.041,
+      "r2": 0.005,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.14,
@@ -8170,7 +8170,7 @@
       "rsAbove70": false,
       "passed": 4
     },
-    "sectorZScore": -1.8,
+    "sectorZScore": -1.78,
     "sectorRank": 80,
     "sectorCount": 83,
     "supportResistance": [
@@ -8267,8 +8267,8 @@
       "predicted": 21,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.035,
-      "r2": 0.009,
+      "slope": -0.092,
+      "r2": 0.053,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.22,
@@ -8764,13 +8764,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 38,
+      "predicted": 27,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.301,
-      "r2": 0.416,
+      "slope": 0.252,
+      "r2": 0.276,
       "factors": {
-        "trendMomentum": 0.488,
+        "trendMomentum": -0.86,
         "meanReversion": 0.16,
         "technicalSupport": -0.067
       }
@@ -9275,13 +9275,13 @@
       "Industrials"
     ],
     "predictiveScore": {
-      "predicted": 39,
+      "predicted": 36,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.012,
-      "r2": 0.001,
+      "slope": 0.016,
+      "r2": 0.002,
       "factors": {
-        "trendMomentum": 0.038,
+        "trendMomentum": -0.346,
         "meanReversion": 0.11,
         "technicalSupport": -0.067
       }
@@ -9779,8 +9779,8 @@
       "predicted": 35,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.081,
-      "r2": 0.023,
+      "slope": -0.099,
+      "r2": 0.034,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.23,
@@ -10209,8 +10209,8 @@
       "rsAbove70": true,
       "passed": 7
     },
-    "sectorZScore": 0.7,
-    "sectorRank": 43,
+    "sectorZScore": 0.71,
+    "sectorRank": 42,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -10271,8 +10271,8 @@
       "predicted": 62,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.497,
-      "r2": 0.365,
+      "slope": 0.558,
+      "r2": 0.425,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.04,
@@ -10695,7 +10695,7 @@
       "passed": 8
     },
     "sectorZScore": 0.85,
-    "sectorRank": 17,
+    "sectorRank": 18,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -10770,8 +10770,8 @@
       "predicted": 48,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.194,
-      "r2": 0.195,
+      "slope": 0.086,
+      "r2": 0.045,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": -0.06,
@@ -11239,13 +11239,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 38,
+      "predicted": 35,
       "direction": "stable",
-      "confidence": "high",
-      "slope": 0.402,
-      "r2": 0.54,
+      "confidence": "medium",
+      "slope": 0.358,
+      "r2": 0.458,
       "factors": {
-        "trendMomentum": 0.393,
+        "trendMomentum": 0.03,
         "meanReversion": 0.15,
         "technicalSupport": -0.2
       }
@@ -11739,8 +11739,8 @@
       "predicted": 25,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.185,
-      "r2": 0.151,
+      "slope": 0.103,
+      "r2": 0.048,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.16,
@@ -12181,7 +12181,7 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 1.55,
+    "sectorZScore": 1.54,
     "sectorRank": 3,
     "sectorCount": 42,
     "supportResistance": [
@@ -12256,8 +12256,8 @@
       "predicted": 69,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.253,
-      "r2": 0.286,
+      "slope": 0.287,
+      "r2": 0.354,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.12,
@@ -12780,10 +12780,10 @@
     ],
     "predictiveScore": {
       "predicted": 63,
-      "direction": "improving",
+      "direction": "stable",
       "confidence": "medium",
-      "slope": 0.43,
-      "r2": 0.483,
+      "slope": 0.373,
+      "r2": 0.354,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.05,
@@ -13137,11 +13137,11 @@
     },
     "bearishScore": 8,
     "bullishScore": 4,
-    "sentimentAvg": 0.084,
+    "sentimentAvg": 0.043399999999999994,
     "score": {
       "priceMomentum": 74,
       "technicalSignals": 25,
-      "newsSentiment": 54,
+      "newsSentiment": 52,
       "fundamentals": 0,
       "volumeTrend": 26,
       "riskInverse": 46,
@@ -13191,7 +13191,7 @@
       "rsAbove70": true,
       "passed": 5
     },
-    "sectorZScore": -0.7,
+    "sectorZScore": -0.69,
     "sectorRank": 111,
     "sectorCount": 155,
     "supportResistance": [
@@ -13261,8 +13261,8 @@
       "predicted": 48,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.728,
-      "r2": 0.765,
+      "slope": 0.689,
+      "r2": 0.724,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.1,
@@ -13623,15 +13623,15 @@
     },
     "bearishScore": 8,
     "bullishScore": 5,
-    "sentimentAvg": 0,
+    "sentimentAvg": 0.16140000000000002,
     "score": {
       "priceMomentum": 78,
       "technicalSignals": 31,
-      "newsSentiment": 50,
+      "newsSentiment": 58,
       "fundamentals": 57,
       "volumeTrend": 18,
       "riskInverse": 56,
-      "composite": 51
+      "composite": 52
     },
     "priceToBook": 3.6580858,
     "pegRatio": 1.32,
@@ -13677,8 +13677,8 @@
       "rsAbove70": true,
       "passed": 7
     },
-    "sectorZScore": 0.38,
-    "sectorRank": 30,
+    "sectorZScore": 0.48,
+    "sectorRank": 27,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -13779,14 +13779,14 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 59,
-      "direction": "stable",
+      "predicted": 60,
+      "direction": "improving",
       "confidence": "medium",
-      "slope": 0.296,
-      "r2": 0.397,
+      "slope": 0.328,
+      "r2": 0.433,
       "factors": {
         "trendMomentum": 1,
-        "meanReversion": -0.01,
+        "meanReversion": -0.02,
         "technicalSupport": -0.067
       }
     },
@@ -14144,15 +14144,15 @@
     },
     "bearishScore": 8,
     "bullishScore": 5,
-    "sentimentAvg": 0.144,
+    "sentimentAvg": -0.03620000000000001,
     "score": {
       "priceMomentum": 22,
       "technicalSignals": 31,
-      "newsSentiment": 57,
+      "newsSentiment": 48,
       "fundamentals": 66,
       "volumeTrend": 17,
       "riskInverse": 62,
-      "composite": 40
+      "composite": 38
     },
     "priceToBook": 2.8211048,
     "pegRatio": 1.25,
@@ -14198,8 +14198,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.66,
-    "sectorRank": 57,
+    "sectorZScore": -0.84,
+    "sectorRank": 67,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -14281,14 +14281,14 @@
       "Dividend Aristocrats"
     ],
     "predictiveScore": {
-      "predicted": 39,
+      "predicted": 30,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.255,
-      "r2": 0.216,
+      "slope": 0.305,
+      "r2": 0.323,
       "factors": {
-        "trendMomentum": -0.15,
-        "meanReversion": 0.1,
+        "trendMomentum": -1,
+        "meanReversion": 0.12,
         "technicalSupport": -0.067
       }
     },
@@ -14809,8 +14809,8 @@
       "predicted": 42,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.026,
-      "r2": 0.003,
+      "slope": 0.007,
+      "r2": 0,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0,
@@ -15312,8 +15312,8 @@
       "predicted": 27,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.218,
-      "r2": 0.205,
+      "slope": -0.293,
+      "r2": 0.356,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.15,
@@ -15796,9 +15796,9 @@
     "predictiveScore": {
       "predicted": 22,
       "direction": "stable",
-      "confidence": "low",
-      "slope": -0.092,
-      "r2": 0.06,
+      "confidence": "medium",
+      "slope": -0.169,
+      "r2": 0.276,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.2,
@@ -16292,10 +16292,10 @@
     ],
     "predictiveScore": {
       "predicted": 24,
-      "direction": "stable",
+      "direction": "declining",
       "confidence": "medium",
-      "slope": -0.273,
-      "r2": 0.241,
+      "slope": -0.387,
+      "r2": 0.432,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.18,
@@ -16804,8 +16804,8 @@
       "predicted": 26,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.309,
-      "r2": 0.279,
+      "slope": -0.329,
+      "r2": 0.309,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.15,
@@ -17220,8 +17220,8 @@
       "rsAbove70": true,
       "passed": 6
     },
-    "sectorZScore": -0.7,
-    "sectorRank": 113,
+    "sectorZScore": -0.69,
+    "sectorRank": 112,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -17282,13 +17282,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 48,
+      "predicted": 45,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.585,
-      "r2": 0.656,
+      "slope": 0.552,
+      "r2": 0.621,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.575,
         "meanReversion": 0.1,
         "technicalSupport": -0.067
       }
@@ -17708,8 +17708,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.3,
-    "sectorRank": 88,
+    "sectorZScore": -0.29,
+    "sectorRank": 89,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -17791,13 +17791,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 43,
+      "predicted": 46,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.031,
-      "r2": 0.008,
+      "slope": -0.045,
+      "r2": 0.017,
       "factors": {
-        "trendMomentum": -0.093,
+        "trendMomentum": 0.287,
         "meanReversion": 0.06,
         "technicalSupport": -0.067
       }
@@ -18210,7 +18210,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.85,
+    "sectorZScore": -0.84,
     "sectorRank": 69,
     "sectorCount": 83,
     "supportResistance": [
@@ -18294,10 +18294,10 @@
     ],
     "predictiveScore": {
       "predicted": 30,
-      "direction": "declining",
-      "confidence": "high",
-      "slope": -0.312,
-      "r2": 0.508,
+      "direction": "stable",
+      "confidence": "medium",
+      "slope": -0.267,
+      "r2": 0.404,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.12,
@@ -18712,7 +18712,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.85,
+    "sectorZScore": -0.84,
     "sectorRank": 70,
     "sectorCount": 83,
     "supportResistance": [
@@ -18808,10 +18808,10 @@
       "predicted": 40,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.2,
-      "r2": 0.195,
+      "slope": 0.151,
+      "r2": 0.121,
       "factors": {
-        "trendMomentum": 0.281,
+        "trendMomentum": 0.23,
         "meanReversion": 0.12,
         "technicalSupport": -0.067
       }
@@ -19210,7 +19210,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -1.71,
+    "sectorZScore": -1.69,
     "sectorRank": 79,
     "sectorCount": 83,
     "supportResistance": [
@@ -19283,13 +19283,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 23,
-      "direction": "stable",
+      "predicted": 21,
+      "direction": "declining",
       "confidence": "medium",
-      "slope": -0.376,
-      "r2": 0.41,
+      "slope": -0.302,
+      "r2": 0.403,
       "factors": {
-        "trendMomentum": -0.714,
+        "trendMomentum": -1,
         "meanReversion": 0.21,
         "technicalSupport": -0.167
       }
@@ -19702,7 +19702,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.57,
+    "sectorZScore": -0.56,
     "sectorRank": 54,
     "sectorCount": 83,
     "supportResistance": [
@@ -19795,13 +19795,13 @@
       "Dividend Aristocrats"
     ],
     "predictiveScore": {
-      "predicted": 36,
+      "predicted": 42,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.527,
-      "r2": 0.498,
+      "slope": -0.502,
+      "r2": 0.469,
       "factors": {
-        "trendMomentum": -0.579,
+        "trendMomentum": 0.117,
         "meanReversion": 0.09,
         "technicalSupport": -0.067
       }
@@ -20207,8 +20207,8 @@
       "rsAbove70": false,
       "passed": 6
     },
-    "sectorZScore": 0.28,
-    "sectorRank": 33,
+    "sectorZScore": 0.29,
+    "sectorRank": 32,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -20300,13 +20300,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 45,
+      "predicted": 51,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.101,
-      "r2": 0.07,
+      "slope": -0.07,
+      "r2": 0.032,
       "factors": {
-        "trendMomentum": -0.529,
+        "trendMomentum": 0.141,
         "meanReversion": 0,
         "technicalSupport": -0.067
       }
@@ -20760,8 +20760,8 @@
       "predicted": 26,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.084,
-      "r2": 0.031,
+      "slope": -0.103,
+      "r2": 0.044,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.16,
@@ -21223,8 +21223,8 @@
       "predicted": 32,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.456,
-      "r2": 0.313,
+      "slope": -0.476,
+      "r2": 0.329,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.1,
@@ -21616,7 +21616,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -1.9,
+    "sectorZScore": -1.89,
     "sectorRank": 41,
     "sectorCount": 42,
     "supportResistance": [
@@ -21673,13 +21673,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 29,
+      "predicted": 20,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.086,
-      "r2": 0.037,
+      "slope": 0.045,
+      "r2": 0.009,
       "factors": {
-        "trendMomentum": 0.076,
+        "trendMomentum": -1,
         "meanReversion": 0.22,
         "technicalSupport": -0.1
       }
@@ -22092,7 +22092,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -1.52,
+    "sectorZScore": -1.5,
     "sectorRank": 77,
     "sectorCount": 83,
     "supportResistance": [
@@ -22154,13 +22154,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 37,
+      "predicted": 32,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.109,
-      "r2": 0.055,
+      "slope": 0.119,
+      "r2": 0.066,
       "factors": {
-        "trendMomentum": 0.663,
+        "trendMomentum": 0.101,
         "meanReversion": 0.19,
         "technicalSupport": -0.067
       }
@@ -22580,8 +22580,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.66,
-    "sectorRank": 59,
+    "sectorZScore": -0.65,
+    "sectorRank": 58,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -22632,13 +22632,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 34,
+      "predicted": 32,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.006,
-      "r2": 0,
+      "slope": -0.011,
+      "r2": 0.001,
       "factors": {
-        "trendMomentum": -0.707,
+        "trendMomentum": -1,
         "meanReversion": 0.1,
         "technicalSupport": -0.067
       }
@@ -23058,8 +23058,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.66,
-    "sectorRank": 61,
+    "sectorZScore": -0.65,
+    "sectorRank": 60,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -23125,13 +23125,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 32,
+      "predicted": 34,
       "direction": "stable",
-      "confidence": "high",
-      "slope": -0.48,
-      "r2": 0.51,
+      "confidence": "medium",
+      "slope": -0.446,
+      "r2": 0.471,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.752,
         "meanReversion": 0.1,
         "technicalSupport": -0.125
       }
@@ -23551,8 +23551,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.2,
-    "sectorRank": 84,
+    "sectorZScore": -0.19,
+    "sectorRank": 82,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -23635,13 +23635,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 46,
+      "predicted": 47,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.091,
-      "r2": 0.055,
+      "slope": -0.117,
+      "r2": 0.09,
       "factors": {
-        "trendMomentum": 0.175,
+        "trendMomentum": 0.272,
         "meanReversion": 0.05,
         "technicalSupport": -0.067
       }
@@ -24061,7 +24061,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.5,
+    "sectorZScore": -0.49,
     "sectorRank": 100,
     "sectorCount": 155,
     "supportResistance": [
@@ -24108,13 +24108,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 38,
+      "predicted": 41,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.145,
-      "r2": 0.142,
+      "slope": -0.13,
+      "r2": 0.115,
       "factors": {
-        "trendMomentum": -0.534,
+        "trendMomentum": -0.135,
         "meanReversion": 0.08,
         "technicalSupport": -0.067
       }
@@ -24598,8 +24598,8 @@
       "predicted": 25,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.093,
-      "r2": 0.037,
+      "slope": -0.137,
+      "r2": 0.07,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.17,
@@ -25070,8 +25070,8 @@
       "predicted": 22,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.009,
-      "r2": 0.001,
+      "slope": -0.022,
+      "r2": 0.007,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.2,
@@ -25592,13 +25592,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 29,
+      "predicted": 31,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.224,
-      "r2": 0.168,
+      "slope": -0.223,
+      "r2": 0.166,
       "factors": {
-        "trendMomentum": -0.512,
+        "trendMomentum": -0.334,
         "meanReversion": 0.17,
         "technicalSupport": -0.067
       }
@@ -26067,10 +26067,10 @@
     ],
     "predictiveScore": {
       "predicted": 44,
-      "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.257,
-      "r2": 0.343,
+      "direction": "improving",
+      "confidence": "high",
+      "slope": 0.319,
+      "r2": 0.514,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.14,
@@ -26581,13 +26581,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 43,
+      "predicted": 35,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.094,
-      "r2": 0.061,
+      "slope": 0.071,
+      "r2": 0.032,
       "factors": {
-        "trendMomentum": 0.697,
+        "trendMomentum": -0.333,
         "meanReversion": 0.12,
         "technicalSupport": -0.167
       }
@@ -27098,8 +27098,8 @@
       "predicted": 23,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.477,
-      "r2": 0.657,
+      "slope": -0.532,
+      "r2": 0.754,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.19,
@@ -27596,8 +27596,8 @@
       "predicted": 25,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.377,
-      "r2": 0.563,
+      "slope": -0.427,
+      "r2": 0.631,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.17,
@@ -28094,8 +28094,8 @@
       "predicted": 28,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.647,
-      "r2": 0.537,
+      "slope": -0.776,
+      "r2": 0.675,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.14,
@@ -28588,8 +28588,8 @@
       "predicted": 48,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.127,
-      "r2": 0.084,
+      "slope": -0.105,
+      "r2": 0.058,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.1,
@@ -29056,8 +29056,8 @@
       "predicted": 34,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.013,
-      "r2": 0.001,
+      "slope": -0.064,
+      "r2": 0.015,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.08,
@@ -29535,8 +29535,8 @@
       "predicted": 26,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.012,
-      "r2": 0.001,
+      "slope": -0.05,
+      "r2": 0.019,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.16,
@@ -30038,8 +30038,8 @@
       "predicted": 26,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.146,
-      "r2": 0.08,
+      "slope": -0.186,
+      "r2": 0.122,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.16,
@@ -30477,8 +30477,8 @@
       "rsAbove70": true,
       "passed": 7
     },
-    "sectorZScore": 0.5,
-    "sectorRank": 54,
+    "sectorZScore": 0.51,
+    "sectorRank": 53,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -30542,8 +30542,8 @@
       "predicted": 44,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.526,
-      "r2": 0.272,
+      "slope": 0.413,
+      "r2": 0.209,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": -0.02,
@@ -30951,7 +30951,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.9,
+    "sectorZScore": -0.89,
     "sectorRank": 125,
     "sectorCount": 155,
     "supportResistance": [
@@ -31048,8 +31048,8 @@
       "predicted": 30,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.356,
-      "r2": 0.593,
+      "slope": -0.349,
+      "r2": 0.581,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.12,
@@ -31457,8 +31457,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -1,
-    "sectorRank": 134,
+    "sectorZScore": -0.99,
+    "sectorRank": 133,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -31544,8 +31544,8 @@
       "predicted": 29,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.394,
-      "r2": 0.62,
+      "slope": -0.422,
+      "r2": 0.688,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.13,
@@ -32052,10 +32052,10 @@
     ],
     "predictiveScore": {
       "predicted": 26,
-      "direction": "stable",
+      "direction": "declining",
       "confidence": "medium",
-      "slope": -0.287,
-      "r2": 0.299,
+      "slope": -0.352,
+      "r2": 0.378,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.16,
@@ -32456,8 +32456,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -1.23,
-    "sectorRank": 76,
+    "sectorZScore": -1.22,
+    "sectorRank": 75,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -32538,8 +32538,8 @@
       "predicted": 26,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.248,
-      "r2": 0.386,
+      "slope": -0.253,
+      "r2": 0.391,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.16,
@@ -32954,8 +32954,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.76,
-    "sectorRank": 66,
+    "sectorZScore": -0.75,
+    "sectorRank": 65,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -33023,8 +33023,8 @@
       "predicted": 31,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.006,
-      "r2": 0,
+      "slope": -0.044,
+      "r2": 0.019,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.11,
@@ -33524,13 +33524,13 @@
       "Industrials"
     ],
     "predictiveScore": {
-      "predicted": 51,
+      "predicted": 48,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.186,
-      "r2": 0.315,
+      "confidence": "low",
+      "slope": 0.139,
+      "r2": 0.192,
       "factors": {
-        "trendMomentum": 0.632,
+        "trendMomentum": 0.256,
         "meanReversion": 0.05,
         "technicalSupport": 0.1
       }
@@ -33934,7 +33934,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -2.08,
+    "sectorZScore": -2.06,
     "sectorRank": 82,
     "sectorCount": 83,
     "supportResistance": [
@@ -34029,9 +34029,9 @@
     "predictiveScore": {
       "predicted": 17,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": -0.386,
-      "r2": 0.456,
+      "confidence": "high",
+      "slope": -0.459,
+      "r2": 0.584,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.25,
@@ -34545,8 +34545,8 @@
       "predicted": 46,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.33,
-      "r2": 0.373,
+      "slope": 0.325,
+      "r2": 0.365,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.12,
@@ -35054,8 +35054,8 @@
       "predicted": 49,
       "direction": "improving",
       "confidence": "high",
-      "slope": 0.388,
-      "r2": 0.556,
+      "slope": 0.392,
+      "r2": 0.564,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.09,
@@ -35463,7 +35463,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.9,
+    "sectorZScore": -0.89,
     "sectorRank": 126,
     "sectorCount": 155,
     "supportResistance": [
@@ -35555,8 +35555,8 @@
       "predicted": 29,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.037,
-      "r2": 0.011,
+      "slope": 0.012,
+      "r2": 0.001,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.12,
@@ -36044,13 +36044,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 49,
+      "predicted": 51,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.078,
-      "r2": 0.039,
+      "slope": 0.011,
+      "r2": 0.001,
       "factors": {
-        "trendMomentum": 0.124,
+        "trendMomentum": 0.387,
         "meanReversion": 0.02,
         "technicalSupport": -0.067
       }
@@ -36409,15 +36409,15 @@
     },
     "bearishScore": 7,
     "bullishScore": 6,
-    "sentimentAvg": 0.24,
+    "sentimentAvg": 0.16,
     "score": {
       "priceMomentum": 58,
       "technicalSignals": 44,
-      "newsSentiment": 62,
+      "newsSentiment": 58,
       "fundamentals": 58,
       "volumeTrend": 24,
       "riskInverse": 61,
-      "composite": 52
+      "composite": 51
     },
     "priceToBook": 40.402203,
     "pegRatio": 2.57,
@@ -36463,8 +36463,8 @@
       "rsAbove70": true,
       "passed": 7
     },
-    "sectorZScore": 0.5,
-    "sectorRank": 50,
+    "sectorZScore": 0.41,
+    "sectorRank": 54,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -36547,14 +36547,14 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 54,
+      "predicted": 48,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.088,
-      "r2": 0.059,
+      "slope": -0.018,
+      "r2": 0.002,
       "factors": {
-        "trendMomentum": 0.194,
-        "meanReversion": -0.02,
+        "trendMomentum": -0.388,
+        "meanReversion": -0.01,
         "technicalSupport": 0.067
       }
     },
@@ -36926,15 +36926,15 @@
     },
     "bearishScore": 7,
     "bullishScore": 8,
-    "sentimentAvg": 0.196,
+    "sentimentAvg": -0.124,
     "score": {
       "priceMomentum": 71,
       "technicalSignals": 56,
-      "newsSentiment": 60,
+      "newsSentiment": 44,
       "fundamentals": 75,
       "volumeTrend": 15,
       "riskInverse": 49,
-      "composite": 59
+      "composite": 56
     },
     "priceToBook": 6.63568,
     "pegRatio": 1.89,
@@ -36980,8 +36980,8 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 1.21,
-    "sectorRank": 22,
+    "sectorZScore": 0.91,
+    "sectorRank": 33,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -37038,14 +37038,14 @@
       "E-Commerce"
     ],
     "predictiveScore": {
-      "predicted": 67,
+      "predicted": 64,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.381,
-      "r2": 0.3,
+      "slope": 0.383,
+      "r2": 0.301,
       "factors": {
         "trendMomentum": 1,
-        "meanReversion": -0.09,
+        "meanReversion": -0.06,
         "technicalSupport": 0.067
       }
     },
@@ -37417,11 +37417,11 @@
     },
     "bearishScore": 7,
     "bullishScore": 8,
-    "sentimentAvg": 0.376,
+    "sentimentAvg": 0.334,
     "score": {
       "priceMomentum": 100,
       "technicalSignals": 56,
-      "newsSentiment": 69,
+      "newsSentiment": 67,
       "fundamentals": 50,
       "volumeTrend": 34,
       "riskInverse": 10,
@@ -37522,8 +37522,8 @@
       "predicted": 69,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.213,
-      "r2": 0.149,
+      "slope": 0.234,
+      "r2": 0.175,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.11,
@@ -37905,11 +37905,11 @@
     },
     "bearishScore": 7,
     "bullishScore": 9,
-    "sentimentAvg": 0.32799999999999996,
+    "sentimentAvg": 0.3888,
     "score": {
       "priceMomentum": 100,
       "technicalSignals": 63,
-      "newsSentiment": 66,
+      "newsSentiment": 69,
       "fundamentals": 25,
       "volumeTrend": 44,
       "riskInverse": 0,
@@ -37960,7 +37960,7 @@
       "passed": 8
     },
     "sectorZScore": 1.21,
-    "sectorRank": 23,
+    "sectorRank": 21,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -38025,13 +38025,13 @@
       "Semiconductors"
     ],
     "predictiveScore": {
-      "predicted": 54,
+      "predicted": 61,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.115,
-      "r2": 0.059,
+      "slope": -0.168,
+      "r2": 0.147,
       "factors": {
-        "trendMomentum": -0.586,
+        "trendMomentum": 0.266,
         "meanReversion": -0.09,
         "technicalSupport": 0.067
       }
@@ -38404,15 +38404,15 @@
     },
     "bearishScore": 7,
     "bullishScore": 8,
-    "sentimentAvg": 0.27199999999999996,
+    "sentimentAvg": 0.47539999999999993,
     "score": {
       "priceMomentum": 74,
       "technicalSignals": 56,
-      "newsSentiment": 64,
+      "newsSentiment": 74,
       "fundamentals": 64,
       "volumeTrend": 40,
       "riskInverse": 62,
-      "composite": 62
+      "composite": 63
     },
     "priceToBook": 7.9908977,
     "pegRatio": 1.49,
@@ -38458,8 +38458,8 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 1.51,
-    "sectorRank": 12,
+    "sectorZScore": 1.62,
+    "sectorRank": 7,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -38536,14 +38536,14 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 60,
+      "predicted": 59,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.272,
-      "r2": 0.257,
+      "slope": 0.254,
+      "r2": 0.227,
       "factors": {
-        "trendMomentum": -0.203,
-        "meanReversion": -0.12,
+        "trendMomentum": -0.521,
+        "meanReversion": -0.13,
         "technicalSupport": 0.067
       }
     },
@@ -38887,15 +38887,15 @@
     },
     "bearishScore": 7,
     "bullishScore": 2,
-    "sentimentAvg": 0.20800000000000002,
+    "sentimentAvg": 0.3834,
     "score": {
       "priceMomentum": 34,
       "technicalSignals": 19,
-      "newsSentiment": 60,
+      "newsSentiment": 69,
       "fundamentals": 88,
       "volumeTrend": 43,
       "riskInverse": 59,
-      "composite": 46
+      "composite": 47
     },
     "priceToBook": 1.4219649,
     "pegRatio": 1.34,
@@ -38941,8 +38941,8 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.76,
-    "sectorRank": 75,
+    "sectorZScore": -0.65,
+    "sectorRank": 74,
     "sectorCount": 108,
     "supportResistance": [
       {
@@ -39038,14 +39038,14 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 37,
+      "predicted": 38,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.249,
-      "r2": 0.297,
+      "slope": -0.241,
+      "r2": 0.284,
       "factors": {
         "trendMomentum": -1,
-        "meanReversion": 0.04,
+        "meanReversion": 0.03,
         "technicalSupport": -0.167
       }
     },
@@ -39382,15 +39382,15 @@
     },
     "bearishScore": 7,
     "bullishScore": 0,
-    "sentimentAvg": 0.24,
+    "sentimentAvg": 0.09359999999999999,
     "score": {
       "priceMomentum": 41,
       "technicalSignals": 6,
-      "newsSentiment": 62,
+      "newsSentiment": 55,
       "fundamentals": 57,
       "volumeTrend": 22,
       "riskInverse": 62,
-      "composite": 38
+      "composite": 37
     },
     "priceToBook": 65.40127,
     "pegRatio": 1.58,
@@ -39436,7 +39436,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -1.63,
+    "sectorZScore": -1.73,
     "sectorRank": 104,
     "sectorCount": 108,
     "supportResistance": [
@@ -39534,14 +39534,14 @@
       "Fintech"
     ],
     "predictiveScore": {
-      "predicted": 29,
+      "predicted": 28,
       "direction": "stable",
-      "confidence": "low",
-      "slope": -0.209,
-      "r2": 0.185,
+      "confidence": "medium",
+      "slope": -0.284,
+      "r2": 0.303,
       "factors": {
         "trendMomentum": -1,
-        "meanReversion": 0.12,
+        "meanReversion": 0.13,
         "technicalSupport": -0.233
       }
     },
@@ -39878,15 +39878,15 @@
     },
     "bearishScore": 7,
     "bullishScore": 0,
-    "sentimentAvg": -0.10400000000000001,
+    "sentimentAvg": -0.22820000000000001,
     "score": {
       "priceMomentum": 38,
       "technicalSignals": 6,
-      "newsSentiment": 45,
+      "newsSentiment": 39,
       "fundamentals": 77,
       "volumeTrend": 14,
       "riskInverse": 58,
-      "composite": 37
+      "composite": 36
     },
     "priceToBook": 3.14454,
     "pegRatio": 1.13,
@@ -39932,7 +39932,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -1.74,
+    "sectorZScore": -1.84,
     "sectorRank": 105,
     "sectorCount": 108,
     "supportResistance": [
@@ -40029,14 +40029,14 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 29,
+      "predicted": 28,
       "direction": "stable",
       "confidence": "high",
-      "slope": -0.883,
-      "r2": 0.801,
+      "slope": -0.917,
+      "r2": 0.825,
       "factors": {
         "trendMomentum": -1,
-        "meanReversion": 0.13,
+        "meanReversion": 0.14,
         "technicalSupport": -0.167
       }
     },
@@ -40523,8 +40523,8 @@
       "predicted": 29,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.653,
-      "r2": 0.549,
+      "slope": -0.73,
+      "r2": 0.618,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.12,
@@ -40995,8 +40995,8 @@
       "predicted": 25,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.028,
-      "r2": 0.006,
+      "slope": 0.018,
+      "r2": 0.002,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.17,
@@ -41343,15 +41343,15 @@
     },
     "bearishScore": 7,
     "bullishScore": 4,
-    "sentimentAvg": -0.12,
+    "sentimentAvg": -0.21600000000000003,
     "score": {
       "priceMomentum": 18,
       "technicalSignals": 31,
-      "newsSentiment": 44,
+      "newsSentiment": 39,
       "fundamentals": 61,
       "volumeTrend": 70,
       "riskInverse": 47,
-      "composite": 40
+      "composite": 39
     },
     "priceToBook": 4.4214563,
     "pegRatio": 0.89,
@@ -41397,8 +41397,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.7,
-    "sectorRank": 112,
+    "sectorZScore": -0.79,
+    "sectorRank": 114,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -41465,14 +41465,14 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 48,
+      "predicted": 47,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.599,
-      "r2": 0.601,
+      "slope": 0.634,
+      "r2": 0.645,
       "factors": {
         "trendMomentum": 1,
-        "meanReversion": 0.1,
+        "meanReversion": 0.11,
         "technicalSupport": -0.1
       }
     },
@@ -41905,8 +41905,8 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 1.61,
-    "sectorRank": 7,
+    "sectorZScore": 1.62,
+    "sectorRank": 8,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -41990,8 +41990,8 @@
       "predicted": 55,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.16,
-      "r2": 0.112,
+      "slope": -0.184,
+      "r2": 0.144,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": -0.13,
@@ -42420,7 +42420,7 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 0.6,
+    "sectorZScore": 0.61,
     "sectorRank": 45,
     "sectorCount": 155,
     "supportResistance": [
@@ -42484,8 +42484,8 @@
       "predicted": 61,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.199,
-      "r2": 0.175,
+      "slope": 0.122,
+      "r2": 0.078,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.03,
@@ -42915,7 +42915,7 @@
       "passed": 6
     },
     "sectorZScore": 1.01,
-    "sectorRank": 32,
+    "sectorRank": 31,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -42975,8 +42975,8 @@
       "predicted": 65,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.334,
-      "r2": 0.332,
+      "slope": 0.357,
+      "r2": 0.349,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.07,
@@ -43377,8 +43377,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -1.14,
-    "sectorRank": 75,
+    "sectorZScore": -1.12,
+    "sectorRank": 74,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -43450,13 +43450,13 @@
       "Cloud Computing"
     ],
     "predictiveScore": {
-      "predicted": 41,
+      "predicted": 39,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.301,
-      "r2": 0.349,
+      "slope": 0.271,
+      "r2": 0.302,
       "factors": {
-        "trendMomentum": 0.691,
+        "trendMomentum": 0.467,
         "meanReversion": 0.15,
         "technicalSupport": -0.033
       }
@@ -43912,8 +43912,8 @@
       "predicted": 25,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.273,
-      "r2": 0.176,
+      "slope": 0.194,
+      "r2": 0.091,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.17,
@@ -44375,10 +44375,10 @@
     ],
     "predictiveScore": {
       "predicted": 28,
-      "direction": "declining",
+      "direction": "stable",
       "confidence": "high",
-      "slope": -0.86,
-      "r2": 0.833,
+      "slope": -0.885,
+      "r2": 0.859,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.14,
@@ -44861,13 +44861,13 @@
       "E-Commerce"
     ],
     "predictiveScore": {
-      "predicted": 40,
+      "predicted": 48,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.384,
-      "r2": 0.412,
+      "slope": 0.421,
+      "r2": 0.435,
       "factors": {
-        "trendMomentum": -0.51,
+        "trendMomentum": 0.54,
         "meanReversion": 0.06,
         "technicalSupport": -0.067
       }
@@ -45324,10 +45324,10 @@
       "predicted": 49,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.303,
-      "r2": 0.422,
+      "slope": 0.252,
+      "r2": 0.339,
       "factors": {
-        "trendMomentum": 0.596,
+        "trendMomentum": 0.542,
         "meanReversion": 0.05,
         "technicalSupport": -0.167
       }
@@ -45719,7 +45719,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -1.09,
+    "sectorZScore": -1.08,
     "sectorRank": 85,
     "sectorCount": 108,
     "supportResistance": [
@@ -45818,9 +45818,9 @@
     "predictiveScore": {
       "predicted": 34,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.314,
-      "r2": 0.292,
+      "confidence": "low",
+      "slope": 0.25,
+      "r2": 0.195,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.07,
@@ -46221,7 +46221,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -1.09,
+    "sectorZScore": -1.08,
     "sectorRank": 86,
     "sectorCount": 108,
     "supportResistance": [
@@ -46324,8 +46324,8 @@
       "predicted": 34,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.326,
-      "r2": 0.522,
+      "slope": -0.342,
+      "r2": 0.563,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.07,
@@ -46761,7 +46761,7 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 1.91,
+    "sectorZScore": 1.92,
     "sectorRank": 3,
     "sectorCount": 155,
     "supportResistance": [
@@ -46835,13 +46835,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 62,
+      "predicted": 60,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.216,
-      "r2": 0.161,
+      "slope": 0.233,
+      "r2": 0.188,
       "factors": {
-        "trendMomentum": -0.462,
+        "trendMomentum": -0.808,
         "meanReversion": -0.16,
         "technicalSupport": 0.125
       }
@@ -47269,7 +47269,7 @@
       "passed": 8
     },
     "sectorZScore": 1.11,
-    "sectorRank": 29,
+    "sectorRank": 27,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -47357,8 +47357,8 @@
       "predicted": 66,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.835,
-      "r2": 0.737,
+      "slope": 0.784,
+      "r2": 0.686,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.08,
@@ -47773,7 +47773,7 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 0.6,
+    "sectorZScore": 0.61,
     "sectorRank": 47,
     "sectorCount": 155,
     "supportResistance": [
@@ -47856,10 +47856,10 @@
     ],
     "predictiveScore": {
       "predicted": 61,
-      "direction": "improving",
+      "direction": "stable",
       "confidence": "medium",
-      "slope": 0.305,
-      "r2": 0.311,
+      "slope": 0.285,
+      "r2": 0.265,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.03,
@@ -48391,8 +48391,8 @@
       "predicted": 63,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.288,
-      "r2": 0.409,
+      "slope": 0.289,
+      "r2": 0.411,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.05,
@@ -48792,8 +48792,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.66,
-    "sectorRank": 58,
+    "sectorZScore": -0.65,
+    "sectorRank": 57,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -48882,13 +48882,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 43,
+      "predicted": 41,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.352,
-      "r2": 0.312,
+      "slope": -0.377,
+      "r2": 0.346,
       "factors": {
-        "trendMomentum": 0.438,
+        "trendMomentum": 0.138,
         "meanReversion": 0.1,
         "technicalSupport": -0.167
       }
@@ -49861,13 +49861,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 42,
+      "predicted": 40,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.174,
-      "r2": 0.26,
+      "confidence": "low",
+      "slope": 0.125,
+      "r2": 0.162,
       "factors": {
-        "trendMomentum": 0.173,
+        "trendMomentum": 0.006,
         "meanReversion": 0.09,
         "technicalSupport": -0.233
       }
@@ -50364,8 +50364,8 @@
       "predicted": 26,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.131,
-      "r2": 0.116,
+      "slope": -0.139,
+      "r2": 0.125,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.15,
@@ -50846,9 +50846,9 @@
     "predictiveScore": {
       "predicted": 32,
       "direction": "stable",
-      "confidence": "low",
-      "slope": -0.171,
-      "r2": 0.137,
+      "confidence": "medium",
+      "slope": -0.213,
+      "r2": 0.208,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.09,
@@ -51328,13 +51328,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 63,
+      "predicted": 62,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.192,
-      "r2": 0.28,
+      "slope": 0.225,
+      "r2": 0.373,
       "factors": {
-        "trendMomentum": 0.766,
+        "trendMomentum": 0.622,
         "meanReversion": -0.07,
         "technicalSupport": 0.125
       }
@@ -51793,8 +51793,8 @@
       "predicted": 30,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.754,
-      "r2": 0.601,
+      "slope": -0.854,
+      "r2": 0.706,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.12,
@@ -52300,10 +52300,10 @@
       "predicted": 31,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.185,
-      "r2": 0.396,
+      "slope": -0.213,
+      "r2": 0.492,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.905,
         "meanReversion": 0.11,
         "technicalSupport": -0.167
       }
@@ -52787,10 +52787,10 @@
     "themes": [],
     "predictiveScore": {
       "predicted": 29,
-      "direction": "stable",
-      "confidence": "low",
-      "slope": -0.205,
-      "r2": 0.126,
+      "direction": "declining",
+      "confidence": "medium",
+      "slope": -0.325,
+      "r2": 0.26,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.13,
@@ -53258,8 +53258,8 @@
       "predicted": 25,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.076,
-      "r2": 0.021,
+      "slope": 0.029,
+      "r2": 0.003,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.17,
@@ -53662,7 +53662,7 @@
       "rsAbove70": true,
       "passed": 4
     },
-    "sectorZScore": 0.6,
+    "sectorZScore": 0.61,
     "sectorRank": 48,
     "sectorCount": 155,
     "supportResistance": [
@@ -53704,13 +53704,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 59,
+      "predicted": 47,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.91,
-      "r2": 0.713,
+      "slope": 0.806,
+      "r2": 0.628,
       "factors": {
-        "trendMomentum": 0.809,
+        "trendMomentum": -0.628,
         "meanReversion": -0.03,
         "technicalSupport": -0.1
       }
@@ -54162,8 +54162,8 @@
       "predicted": 25,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.005,
-      "r2": 0,
+      "slope": -0.022,
+      "r2": 0.004,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.16,
@@ -54666,13 +54666,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 45,
+      "predicted": 39,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.051,
-      "r2": 0.016,
+      "slope": -0.042,
+      "r2": 0.012,
       "factors": {
-        "trendMomentum": 0.037,
+        "trendMomentum": -0.727,
         "meanReversion": 0.04,
         "technicalSupport": -0.233
       }
@@ -55182,8 +55182,8 @@
       "predicted": 48,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.143,
-      "r2": 0.076,
+      "slope": 0.058,
+      "r2": 0.013,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": -0.06,
@@ -55584,7 +55584,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -1.2,
+    "sectorZScore": -1.19,
     "sectorRank": 92,
     "sectorCount": 108,
     "supportResistance": [
@@ -55693,9 +55693,9 @@
     "predictiveScore": {
       "predicted": 33,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.306,
-      "r2": 0.363,
+      "confidence": "low",
+      "slope": 0.223,
+      "r2": 0.196,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.08,
@@ -56209,13 +56209,13 @@
       "Real Estate"
     ],
     "predictiveScore": {
-      "predicted": 70,
+      "predicted": 67,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.406,
-      "r2": 0.649,
+      "slope": 0.378,
+      "r2": 0.592,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.591,
         "meanReversion": -0.12,
         "technicalSupport": 0.125
       }
@@ -56720,13 +56720,13 @@
       "Real Estate"
     ],
     "predictiveScore": {
-      "predicted": 59,
+      "predicted": 55,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.178,
-      "r2": 0.147,
+      "slope": 0.059,
+      "r2": 0.019,
       "factors": {
-        "trendMomentum": 0.11,
+        "trendMomentum": -0.361,
         "meanReversion": -0.08,
         "technicalSupport": 0.067
       }
@@ -57118,7 +57118,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -2.18,
+    "sectorZScore": -2.16,
     "sectorRank": 83,
     "sectorCount": 83,
     "supportResistance": [
@@ -57219,8 +57219,8 @@
       "predicted": 16,
       "direction": "stable",
       "confidence": "high",
-      "slope": -0.71,
-      "r2": 0.759,
+      "slope": -0.701,
+      "r2": 0.754,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.26,
@@ -57626,8 +57626,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.66,
-    "sectorRank": 60,
+    "sectorZScore": -0.65,
+    "sectorRank": 59,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -57719,8 +57719,8 @@
       "predicted": 32,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.044,
-      "r2": 0.012,
+      "slope": -0.095,
+      "r2": 0.063,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.1,
@@ -58135,7 +58135,7 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 1.99,
+    "sectorZScore": 1.98,
     "sectorRank": 3,
     "sectorCount": 83,
     "supportResistance": [
@@ -58207,9 +58207,9 @@
     "predictiveScore": {
       "predicted": 75,
       "direction": "stable",
-      "confidence": "low",
-      "slope": 0.062,
-      "r2": 0.187,
+      "confidence": "medium",
+      "slope": 0.077,
+      "r2": 0.251,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.18,
@@ -58638,7 +58638,7 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 0.4,
+    "sectorZScore": 0.41,
     "sectorRank": 57,
     "sectorCount": 155,
     "supportResistance": [
@@ -58687,8 +58687,8 @@
       "predicted": 43,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.41,
-      "r2": 0.374,
+      "slope": -0.446,
+      "r2": 0.396,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": -0.01,
@@ -59124,7 +59124,7 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 0.9,
+    "sectorZScore": 0.91,
     "sectorRank": 36,
     "sectorCount": 155,
     "supportResistance": [
@@ -59171,13 +59171,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 52,
+      "predicted": 54,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.081,
-      "r2": 0.027,
+      "slope": -0.011,
+      "r2": 0.001,
       "factors": {
-        "trendMomentum": -0.517,
+        "trendMomentum": -0.278,
         "meanReversion": -0.06,
         "technicalSupport": 0.125
       }
@@ -59654,8 +59654,8 @@
       "predicted": 22,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.495,
-      "r2": 0.62,
+      "slope": -0.466,
+      "r2": 0.599,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.2,
@@ -60146,8 +60146,8 @@
       "predicted": 15,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.22,
-      "r2": 0.28,
+      "slope": -0.28,
+      "r2": 0.398,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.27,
@@ -60632,8 +60632,8 @@
       "predicted": 28,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.127,
-      "r2": 0.059,
+      "slope": -0.199,
+      "r2": 0.127,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.14,
@@ -61091,8 +61091,8 @@
       "predicted": 19,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.227,
-      "r2": 0.226,
+      "slope": -0.252,
+      "r2": 0.247,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.23,
@@ -61556,13 +61556,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 32,
+      "predicted": 30,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.071,
-      "r2": 0.05,
+      "slope": 0.032,
+      "r2": 0.01,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.78,
         "meanReversion": 0.26,
         "technicalSupport": -0.25
       }
@@ -62070,8 +62070,8 @@
       "predicted": 27,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.31,
-      "r2": 0.284,
+      "slope": -0.362,
+      "r2": 0.339,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.14,
@@ -62470,8 +62470,8 @@
       "rsAbove70": false,
       "passed": 3
     },
-    "sectorZScore": -1,
-    "sectorRank": 133,
+    "sectorZScore": -0.99,
+    "sectorRank": 132,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -62539,8 +62539,8 @@
       "predicted": 29,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.235,
-      "r2": 0.203,
+      "slope": -0.283,
+      "r2": 0.281,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.13,
@@ -63022,8 +63022,8 @@
       "predicted": 62,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.808,
-      "r2": 0.712,
+      "slope": 0.713,
+      "r2": 0.643,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.04,
@@ -63422,7 +63422,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.95,
+    "sectorZScore": -0.93,
     "sectorRank": 72,
     "sectorCount": 83,
     "supportResistance": [
@@ -63518,8 +63518,8 @@
       "predicted": 29,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.136,
-      "r2": 0.12,
+      "slope": -0.179,
+      "r2": 0.189,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.13,
@@ -63991,8 +63991,8 @@
       "predicted": 21,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.444,
-      "r2": 0.5,
+      "slope": -0.496,
+      "r2": 0.565,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.21,
@@ -64487,8 +64487,8 @@
       "predicted": 30,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.588,
-      "r2": 0.536,
+      "slope": -0.68,
+      "r2": 0.648,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.11,
@@ -64977,8 +64977,8 @@
       "predicted": 29,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.198,
-      "r2": 0.24,
+      "slope": -0.208,
+      "r2": 0.253,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.12,
@@ -65386,7 +65386,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.4,
+    "sectorZScore": -0.39,
     "sectorRank": 99,
     "sectorCount": 155,
     "supportResistance": [
@@ -65493,8 +65493,8 @@
       "predicted": 34,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.079,
-      "r2": 0.06,
+      "slope": -0.074,
+      "r2": 0.052,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.07,
@@ -65921,7 +65921,7 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": -0.57,
+    "sectorZScore": -0.56,
     "sectorRank": 43,
     "sectorCount": 60,
     "supportResistance": [
@@ -66002,8 +66002,8 @@
       "predicted": 37,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.015,
-      "r2": 0.001,
+      "slope": -0.052,
+      "r2": 0.013,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.06,
@@ -66519,8 +66519,8 @@
       "predicted": 53,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.013,
-      "r2": 0.001,
+      "slope": 0.077,
+      "r2": 0.035,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.05,
@@ -66914,7 +66914,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -2.21,
+    "sectorZScore": -2.2,
     "sectorRank": 155,
     "sectorCount": 155,
     "supportResistance": [
@@ -67009,10 +67009,10 @@
       "predicted": 21,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.263,
-      "r2": 0.26,
+      "slope": -0.281,
+      "r2": 0.288,
       "factors": {
-        "trendMomentum": -0.437,
+        "trendMomentum": -0.485,
         "meanReversion": 0.25,
         "technicalSupport": -0.233
       }
@@ -67404,7 +67404,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -1.2,
+    "sectorZScore": -1.19,
     "sectorRank": 95,
     "sectorCount": 108,
     "supportResistance": [
@@ -67492,9 +67492,9 @@
     "predictiveScore": {
       "predicted": 33,
       "direction": "stable",
-      "confidence": "low",
-      "slope": -0.164,
-      "r2": 0.17,
+      "confidence": "medium",
+      "slope": -0.254,
+      "r2": 0.335,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.08,
@@ -67914,8 +67914,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": 0.28,
-    "sectorRank": 36,
+    "sectorZScore": 0.29,
+    "sectorRank": 35,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -68002,8 +68002,8 @@
       "predicted": 42,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.132,
-      "r2": 0.116,
+      "slope": -0.107,
+      "r2": 0.073,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0,
@@ -68505,13 +68505,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 33,
+      "predicted": 30,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.062,
-      "r2": 0.03,
+      "slope": -0.011,
+      "r2": 0.001,
       "factors": {
-        "trendMomentum": -0.528,
+        "trendMomentum": -1,
         "meanReversion": 0.12,
         "technicalSupport": -0.167
       }
@@ -68903,8 +68903,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.3,
-    "sectorRank": 94,
+    "sectorZScore": -0.29,
+    "sectorRank": 95,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -68994,7 +68994,7 @@
       "predicted": 35,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.02,
+      "slope": -0.021,
       "r2": 0.003,
       "factors": {
         "trendMomentum": -1,
@@ -69437,7 +69437,7 @@
       "passed": 8
     },
     "sectorZScore": 1.31,
-    "sectorRank": 20,
+    "sectorRank": 19,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -69517,8 +69517,8 @@
       "predicted": 68,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.317,
-      "r2": 0.376,
+      "slope": 0.309,
+      "r2": 0.365,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.1,
@@ -70003,13 +70003,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 49,
+      "predicted": 50,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.219,
-      "r2": 0.408,
+      "slope": -0.188,
+      "r2": 0.342,
       "factors": {
-        "trendMomentum": 0.491,
+        "trendMomentum": 0.562,
         "meanReversion": 0.04,
         "technicalSupport": -0.2
       }
@@ -70430,7 +70430,7 @@
       "passed": 8
     },
     "sectorZScore": 1.01,
-    "sectorRank": 33,
+    "sectorRank": 32,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -70507,13 +70507,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 65,
+      "predicted": 58,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.247,
-      "r2": 0.24,
+      "confidence": "low",
+      "slope": 0.194,
+      "r2": 0.146,
       "factors": {
-        "trendMomentum": 0.955,
+        "trendMomentum": 0.1,
         "meanReversion": -0.07,
         "technicalSupport": 0.067
       }
@@ -71005,8 +71005,8 @@
       "predicted": 32,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.69,
-      "r2": 0.711,
+      "slope": -0.714,
+      "r2": 0.73,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.1,
@@ -71436,7 +71436,7 @@
       "passed": 8
     },
     "sectorZScore": 1.11,
-    "sectorRank": 30,
+    "sectorRank": 28,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -71515,9 +71515,9 @@
     "predictiveScore": {
       "predicted": 50,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.273,
-      "r2": 0.252,
+      "confidence": "low",
+      "slope": 0.184,
+      "r2": 0.127,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": -0.08,
@@ -71918,8 +71918,8 @@
       "rsAbove70": false,
       "passed": 3
     },
-    "sectorZScore": -0.3,
-    "sectorRank": 95,
+    "sectorZScore": -0.29,
+    "sectorRank": 96,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -72010,8 +72010,8 @@
       "predicted": 35,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.669,
-      "r2": 0.426,
+      "slope": -0.73,
+      "r2": 0.477,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.06,
@@ -72542,8 +72542,8 @@
       "predicted": 72,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.497,
-      "r2": 0.457,
+      "slope": 0.446,
+      "r2": 0.387,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.14,
@@ -72876,15 +72876,15 @@
     },
     "bearishScore": 6,
     "bullishScore": 0,
-    "sentimentAvg": 0.264,
+    "sentimentAvg": 0.4444,
     "score": {
       "priceMomentum": 44,
       "technicalSignals": 13,
-      "newsSentiment": 63,
+      "newsSentiment": 72,
       "fundamentals": 84,
       "volumeTrend": 20,
       "riskInverse": 47,
-      "composite": 43
+      "composite": 44
     },
     "priceToBook": 6.3494525,
     "pegRatio": 0.89,
@@ -72930,8 +72930,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.4,
-    "sectorRank": 97,
+    "sectorZScore": -0.29,
+    "sectorRank": 85,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -73017,14 +73017,14 @@
       "AI & Machine Learning"
     ],
     "predictiveScore": {
-      "predicted": 38,
+      "predicted": 35,
       "direction": "stable",
-      "confidence": "low",
-      "slope": 0.23,
-      "r2": 0.194,
+      "confidence": "medium",
+      "slope": 0.258,
+      "r2": 0.253,
       "factors": {
-        "trendMomentum": -0.467,
-        "meanReversion": 0.07,
+        "trendMomentum": -1,
+        "meanReversion": 0.06,
         "technicalSupport": -0.233
       }
     },
@@ -73354,11 +73354,11 @@
     },
     "bearishScore": 6,
     "bullishScore": 0,
-    "sentimentAvg": -0.128,
+    "sentimentAvg": -0.17560000000000003,
     "score": {
       "priceMomentum": 44,
       "technicalSignals": 13,
-      "newsSentiment": 44,
+      "newsSentiment": 41,
       "fundamentals": 79,
       "volumeTrend": 16,
       "riskInverse": 43,
@@ -73470,13 +73470,13 @@
       "Streaming & Digital Media"
     ],
     "predictiveScore": {
-      "predicted": 32,
+      "predicted": 30,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.048,
-      "r2": 0.009,
+      "slope": -0.128,
+      "r2": 0.064,
       "factors": {
-        "trendMomentum": -0.765,
+        "trendMomentum": -0.984,
         "meanReversion": 0.12,
         "technicalSupport": -0.167
       }
@@ -73814,15 +73814,15 @@
     },
     "bearishScore": 6,
     "bullishScore": 4,
-    "sentimentAvg": 0,
+    "sentimentAvg": -0.2878,
     "score": {
       "priceMomentum": 42,
       "technicalSignals": 38,
-      "newsSentiment": 50,
+      "newsSentiment": 36,
       "fundamentals": 75,
       "volumeTrend": 20,
       "riskInverse": 56,
-      "composite": 46
+      "composite": 44
     },
     "priceToBook": 5.769672,
     "pegRatio": 4.51,
@@ -73868,8 +73868,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.1,
-    "sectorRank": 75,
+    "sectorZScore": -0.29,
+    "sectorRank": 87,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -73934,14 +73934,14 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 41,
+      "predicted": 37,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.338,
-      "r2": 0.359,
+      "slope": 0.311,
+      "r2": 0.31,
       "factors": {
-        "trendMomentum": -0.711,
-        "meanReversion": 0.04,
+        "trendMomentum": -1,
+        "meanReversion": 0.06,
         "technicalSupport": 0.1
       }
     },
@@ -74278,15 +74278,15 @@
     },
     "bearishScore": 6,
     "bullishScore": 2,
-    "sentimentAvg": -0.1866,
+    "sentimentAvg": -0.42479999999999996,
     "score": {
       "priceMomentum": 32,
       "technicalSignals": 25,
-      "newsSentiment": 41,
+      "newsSentiment": 29,
       "fundamentals": 0,
       "volumeTrend": 37,
       "riskInverse": 40,
-      "composite": 28
+      "composite": 26
     },
     "priceToBook": 10.685184,
     "pegRatio": 2.41,
@@ -74332,8 +74332,8 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -1.9,
-    "sectorRank": 152,
+    "sectorZScore": -2.1,
+    "sectorRank": 153,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -74402,14 +74402,14 @@
       "E-Commerce"
     ],
     "predictiveScore": {
-      "predicted": 20,
+      "predicted": 18,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.124,
-      "r2": 0.063,
+      "slope": 0.082,
+      "r2": 0.029,
       "factors": {
         "trendMomentum": -1,
-        "meanReversion": 0.22,
+        "meanReversion": 0.24,
         "technicalSupport": -0.233
       }
     },
@@ -74753,11 +74753,11 @@
     },
     "bearishScore": 6,
     "bullishScore": 4,
-    "sentimentAvg": 0.096,
+    "sentimentAvg": 0.1786,
     "score": {
       "priceMomentum": 38,
       "technicalSignals": 38,
-      "newsSentiment": 55,
+      "newsSentiment": 59,
       "fundamentals": 0,
       "volumeTrend": 21,
       "riskInverse": 47,
@@ -74873,13 +74873,13 @@
       "AI & Machine Learning"
     ],
     "predictiveScore": {
-      "predicted": 38,
+      "predicted": 40,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.089,
-      "r2": 0.043,
+      "slope": 0.086,
+      "r2": 0.04,
       "factors": {
-        "trendMomentum": 0.597,
+        "trendMomentum": 0.847,
         "meanReversion": 0.16,
         "technicalSupport": -0.233
       }
@@ -75210,15 +75210,15 @@
     },
     "bearishScore": 6,
     "bullishScore": 2,
-    "sentimentAvg": 0.48,
+    "sentimentAvg": 0.2986,
     "score": {
       "priceMomentum": 46,
       "technicalSignals": 25,
-      "newsSentiment": 74,
+      "newsSentiment": 65,
       "fundamentals": 59,
       "volumeTrend": 14,
       "riskInverse": 60,
-      "composite": 45
+      "composite": 44
     },
     "priceToBook": 15.912449,
     "pegRatio": 1.67,
@@ -75264,8 +75264,8 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.87,
-    "sectorRank": 78,
+    "sectorZScore": -0.97,
+    "sectorRank": 82,
     "sectorCount": 108,
     "supportResistance": [
       {
@@ -75368,14 +75368,14 @@
       "Fintech"
     ],
     "predictiveScore": {
-      "predicted": 46,
+      "predicted": 44,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.261,
-      "r2": 0.312,
+      "confidence": "low",
+      "slope": 0.172,
+      "r2": 0.193,
       "factors": {
-        "trendMomentum": 0.006,
-        "meanReversion": 0.05,
+        "trendMomentum": -0.106,
+        "meanReversion": 0.06,
         "technicalSupport": 0.1
       }
     },
@@ -75773,7 +75773,7 @@
       "rsAbove70": false,
       "passed": 3
     },
-    "sectorZScore": -0.44,
+    "sectorZScore": -0.43,
     "sectorRank": 70,
     "sectorCount": 108,
     "supportResistance": [
@@ -75880,13 +75880,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 52,
+      "predicted": 53,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.238,
-      "r2": 0.328,
+      "slope": 0.235,
+      "r2": 0.322,
       "factors": {
-        "trendMomentum": 0.303,
+        "trendMomentum": 0.416,
         "meanReversion": 0.01,
         "technicalSupport": 0.033
       }
@@ -76217,11 +76217,11 @@
     },
     "bearishScore": 6,
     "bullishScore": 0,
-    "sentimentAvg": -0.048,
+    "sentimentAvg": -0.07919999999999999,
     "score": {
       "priceMomentum": 34,
       "technicalSignals": 13,
-      "newsSentiment": 48,
+      "newsSentiment": 46,
       "fundamentals": 63,
       "volumeTrend": 53,
       "riskInverse": 56,
@@ -76271,8 +76271,8 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.76,
-    "sectorRank": 65,
+    "sectorZScore": -0.75,
+    "sectorRank": 64,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -76378,8 +76378,8 @@
       "predicted": 30,
       "direction": "stable",
       "confidence": "high",
-      "slope": -0.67,
-      "r2": 0.6,
+      "slope": -0.616,
+      "r2": 0.556,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.11,
@@ -76875,9 +76875,9 @@
     "predictiveScore": {
       "predicted": 46,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": -0.199,
-      "r2": 0.285,
+      "confidence": "low",
+      "slope": -0.145,
+      "r2": 0.174,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.13,
@@ -77375,13 +77375,13 @@
       "Real Estate"
     ],
     "predictiveScore": {
-      "predicted": 44,
+      "predicted": 40,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.416,
-      "r2": 0.479,
+      "slope": 0.364,
+      "r2": 0.384,
       "factors": {
-        "trendMomentum": 0.153,
+        "trendMomentum": -0.422,
         "meanReversion": 0.06,
         "technicalSupport": -0.233
       }
@@ -77780,8 +77780,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -1,
-    "sectorRank": 130,
+    "sectorZScore": -0.99,
+    "sectorRank": 129,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -77840,8 +77840,8 @@
       "predicted": 45,
       "direction": "improving",
       "confidence": "high",
-      "slope": 0.601,
-      "r2": 0.701,
+      "slope": 0.651,
+      "r2": 0.754,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.13,
@@ -78322,9 +78322,9 @@
     "predictiveScore": {
       "predicted": 40,
       "direction": "improving",
-      "confidence": "medium",
-      "slope": 0.331,
-      "r2": 0.399,
+      "confidence": "high",
+      "slope": 0.384,
+      "r2": 0.531,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.19,
@@ -78711,7 +78711,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -1.61,
+    "sectorZScore": -1.59,
     "sectorRank": 78,
     "sectorCount": 83,
     "supportResistance": [
@@ -78791,8 +78791,8 @@
       "predicted": 22,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.036,
-      "r2": 0.004,
+      "slope": 0.065,
+      "r2": 0.013,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.2,
@@ -79186,7 +79186,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -1.31,
+    "sectorZScore": -1.3,
     "sectorRank": 96,
     "sectorCount": 108,
     "supportResistance": [
@@ -79277,13 +79277,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 33,
+      "predicted": 34,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.047,
-      "r2": 0.026,
+      "slope": -0.003,
+      "r2": 0,
       "factors": {
-        "trendMomentum": -0.92,
+        "trendMomentum": -0.82,
         "meanReversion": 0.09,
         "technicalSupport": -0.233
       }
@@ -79751,13 +79751,13 @@
       "Fintech"
     ],
     "predictiveScore": {
-      "predicted": 38,
+      "predicted": 35,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.106,
-      "r2": 0.116,
+      "slope": 0.056,
+      "r2": 0.033,
       "factors": {
-        "trendMomentum": -0.393,
+        "trendMomentum": -0.822,
         "meanReversion": 0.08,
         "technicalSupport": -0.167
       }
@@ -80233,8 +80233,8 @@
       "predicted": 36,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.231,
-      "r2": 0.147,
+      "slope": 0.228,
+      "r2": 0.144,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.05,
@@ -80627,7 +80627,7 @@
       "passed": 0
     },
     "sectorZScore": -1.9,
-    "sectorRank": 153,
+    "sectorRank": 152,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -80690,8 +80690,8 @@
       "predicted": 20,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.065,
-      "r2": 0.019,
+      "slope": 0.047,
+      "r2": 0.01,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.22,
@@ -81078,7 +81078,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -2.21,
+    "sectorZScore": -2.2,
     "sectorRank": 154,
     "sectorCount": 155,
     "supportResistance": [
@@ -81142,8 +81142,8 @@
       "predicted": 17,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.043,
-      "r2": 0.01,
+      "slope": -0.125,
+      "r2": 0.098,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.25,
@@ -81530,7 +81530,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -2.61,
+    "sectorZScore": -2.6,
     "sectorRank": 108,
     "sectorCount": 108,
     "supportResistance": [
@@ -81630,8 +81630,8 @@
       "predicted": 21,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.043,
-      "r2": 0.012,
+      "slope": -0.106,
+      "r2": 0.073,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.21,
@@ -82025,7 +82025,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -1.09,
+    "sectorZScore": -1.08,
     "sectorRank": 84,
     "sectorCount": 108,
     "supportResistance": [
@@ -82116,13 +82116,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 35,
+      "predicted": 43,
       "direction": "stable",
-      "confidence": "low",
-      "slope": -0.214,
-      "r2": 0.152,
+      "confidence": "medium",
+      "slope": -0.267,
+      "r2": 0.245,
       "factors": {
-        "trendMomentum": -0.834,
+        "trendMomentum": 0.081,
         "meanReversion": 0.07,
         "technicalSupport": -0.233
       }
@@ -82521,8 +82521,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.6,
-    "sectorRank": 103,
+    "sectorZScore": -0.59,
+    "sectorRank": 102,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -82612,8 +82612,8 @@
       "predicted": 33,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.244,
-      "r2": 0.286,
+      "slope": -0.227,
+      "r2": 0.246,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.09,
@@ -83102,8 +83102,8 @@
       "predicted": 26,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.034,
-      "r2": 0.006,
+      "slope": -0.089,
+      "r2": 0.044,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.15,
@@ -83490,7 +83490,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -1.99,
+    "sectorZScore": -1.97,
     "sectorRank": 81,
     "sectorCount": 83,
     "supportResistance": [
@@ -83551,13 +83551,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 26,
+      "predicted": 28,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.261,
-      "r2": 0.382,
+      "slope": -0.255,
+      "r2": 0.371,
       "factors": {
-        "trendMomentum": -0.04,
+        "trendMomentum": 0.225,
         "meanReversion": 0.24,
         "technicalSupport": -0.167
       }
@@ -84009,13 +84009,13 @@
       "Industrials"
     ],
     "predictiveScore": {
-      "predicted": 40,
+      "predicted": 46,
       "direction": "stable",
       "confidence": "high",
-      "slope": -0.525,
-      "r2": 0.534,
+      "slope": -0.518,
+      "r2": 0.525,
       "factors": {
-        "trendMomentum": -0.579,
+        "trendMomentum": 0.163,
         "meanReversion": 0.06,
         "technicalSupport": 0.1
       }
@@ -84514,13 +84514,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 41,
+      "predicted": 46,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.056,
-      "r2": 0.013,
+      "slope": 0.019,
+      "r2": 0.002,
       "factors": {
-        "trendMomentum": -0.598,
+        "trendMomentum": 0.032,
         "meanReversion": 0.04,
         "technicalSupport": -0.033
       }
@@ -84996,8 +84996,8 @@
       "predicted": 50,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.107,
-      "r2": 0.043,
+      "slope": 0.051,
+      "r2": 0.011,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.08,
@@ -85489,13 +85489,13 @@
       "Utilities"
     ],
     "predictiveScore": {
-      "predicted": 49,
+      "predicted": 50,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.508,
-      "r2": 0.653,
+      "slope": 0.525,
+      "r2": 0.666,
       "factors": {
-        "trendMomentum": 0.742,
+        "trendMomentum": 0.888,
         "meanReversion": 0.06,
         "technicalSupport": -0.2
       }
@@ -85973,9 +85973,9 @@
     "predictiveScore": {
       "predicted": 27,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": -0.264,
-      "r2": 0.231,
+      "confidence": "low",
+      "slope": -0.228,
+      "r2": 0.198,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.14,
@@ -86430,13 +86430,13 @@
       "Fintech"
     ],
     "predictiveScore": {
-      "predicted": 27,
+      "predicted": 28,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.075,
-      "r2": 0.09,
+      "slope": 0.072,
+      "r2": 0.084,
       "factors": {
-        "trendMomentum": -0.074,
+        "trendMomentum": 0.124,
         "meanReversion": 0.23,
         "technicalSupport": -0.1
       }
@@ -86919,13 +86919,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 60,
+      "predicted": 65,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0,
-      "r2": 0,
+      "slope": 0.032,
+      "r2": 0.097,
       "factors": {
-        "trendMomentum": 0,
+        "trendMomentum": 0.536,
         "meanReversion": -0.11,
         "technicalSupport": -0.025
       }
@@ -87317,8 +87317,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -1,
-    "sectorRank": 132,
+    "sectorZScore": -0.99,
+    "sectorRank": 131,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -87378,9 +87378,9 @@
     "predictiveScore": {
       "predicted": 44,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.285,
-      "r2": 0.229,
+      "confidence": "low",
+      "slope": 0.238,
+      "r2": 0.168,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.13,
@@ -87842,12 +87842,12 @@
     ],
     "predictiveScore": {
       "predicted": 40,
-      "direction": "improving",
+      "direction": "stable",
       "confidence": "high",
-      "slope": 0.516,
-      "r2": 0.616,
+      "slope": 0.529,
+      "r2": 0.649,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.918,
         "meanReversion": 0.17,
         "technicalSupport": -0.25
       }
@@ -88295,13 +88295,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 43,
+      "predicted": 38,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.629,
-      "r2": 0.646,
+      "slope": 0.603,
+      "r2": 0.606,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.337,
         "meanReversion": 0.14,
         "technicalSupport": -0.233
       }
@@ -88758,8 +88758,8 @@
       "predicted": 34,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.181,
-      "r2": 0.188,
+      "slope": 0.081,
+      "r2": 0.054,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.07,
@@ -89210,8 +89210,8 @@
       "predicted": 22,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.177,
-      "r2": 0.148,
+      "slope": 0.077,
+      "r2": 0.033,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.2,
@@ -89712,8 +89712,8 @@
       "predicted": 59,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.21,
-      "r2": 0.199,
+      "slope": -0.158,
+      "r2": 0.116,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0,
@@ -90199,9 +90199,9 @@
     "predictiveScore": {
       "predicted": 33,
       "direction": "declining",
-      "confidence": "medium",
-      "slope": -0.552,
-      "r2": 0.39,
+      "confidence": "high",
+      "slope": -0.668,
+      "r2": 0.52,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.08,
@@ -90707,13 +90707,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 33,
+      "predicted": 38,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.092,
-      "r2": 0.036,
+      "slope": -0.115,
+      "r2": 0.058,
       "factors": {
-        "trendMomentum": -0.825,
+        "trendMomentum": -0.224,
         "meanReversion": 0.11,
         "technicalSupport": 0.033
       }
@@ -91202,10 +91202,10 @@
     "themes": [],
     "predictiveScore": {
       "predicted": 32,
-      "direction": "declining",
+      "direction": "stable",
       "confidence": "high",
-      "slope": -0.418,
-      "r2": 0.595,
+      "slope": -0.419,
+      "r2": 0.599,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.09,
@@ -91684,13 +91684,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 43,
+      "predicted": 44,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.183,
-      "r2": 0.14,
+      "slope": -0.141,
+      "r2": 0.091,
       "factors": {
-        "trendMomentum": 0.894,
+        "trendMomentum": 1,
         "meanReversion": 0.14,
         "technicalSupport": -0.167
       }
@@ -92182,8 +92182,8 @@
       "predicted": 32,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.19,
-      "r2": 0.142,
+      "slope": 0.117,
+      "r2": 0.061,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.1,
@@ -92570,7 +92570,7 @@
       "rsAbove70": false,
       "passed": 3
     },
-    "sectorZScore": -1.2,
+    "sectorZScore": -1.19,
     "sectorRank": 93,
     "sectorCount": 108,
     "supportResistance": [
@@ -92669,8 +92669,8 @@
       "predicted": 33,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.501,
-      "r2": 0.525,
+      "slope": -0.56,
+      "r2": 0.563,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.08,
@@ -93175,13 +93175,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 46,
+      "predicted": 43,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.473,
-      "r2": 0.461,
+      "slope": -0.37,
+      "r2": 0.418,
       "factors": {
-        "trendMomentum": 0.616,
+        "trendMomentum": 0.175,
         "meanReversion": 0.09,
         "technicalSupport": 0.033
       }
@@ -93674,8 +93674,8 @@
       "predicted": 24,
       "direction": "declining",
       "confidence": "high",
-      "slope": -1.017,
-      "r2": 0.745,
+      "slope": -1.056,
+      "r2": 0.773,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.19,
@@ -94164,8 +94164,8 @@
       "predicted": 31,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.358,
-      "r2": 0.619,
+      "slope": -0.393,
+      "r2": 0.699,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.1,
@@ -94656,10 +94656,10 @@
       "predicted": 34,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.115,
-      "r2": 0.122,
+      "slope": -0.124,
+      "r2": 0.143,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.986,
         "meanReversion": 0.07,
         "technicalSupport": -0.233
       }
@@ -95158,9 +95158,9 @@
     "predictiveScore": {
       "predicted": 29,
       "direction": "declining",
-      "confidence": "medium",
-      "slope": -0.437,
-      "r2": 0.495,
+      "confidence": "high",
+      "slope": -0.467,
+      "r2": 0.544,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.12,
@@ -95614,8 +95614,8 @@
       "predicted": 25,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.051,
-      "r2": 0.013,
+      "slope": 0.008,
+      "r2": 0,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.16,
@@ -96086,8 +96086,8 @@
       "predicted": 18,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.601,
-      "r2": 0.63,
+      "slope": -0.662,
+      "r2": 0.666,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.24,
@@ -96584,8 +96584,8 @@
       "predicted": 35,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.404,
-      "r2": 0.261,
+      "slope": -0.497,
+      "r2": 0.359,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.07,
@@ -96984,7 +96984,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -1.2,
+    "sectorZScore": -1.19,
     "sectorRank": 94,
     "sectorCount": 108,
     "supportResistance": [
@@ -97074,13 +97074,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 35,
+      "predicted": 33,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.113,
-      "r2": 0.122,
+      "slope": -0.144,
+      "r2": 0.178,
       "factors": {
-        "trendMomentum": -0.823,
+        "trendMomentum": -1,
         "meanReversion": 0.08,
         "technicalSupport": -0.233
       }
@@ -97560,13 +97560,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 44,
+      "predicted": 45,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.119,
-      "r2": 0.091,
+      "slope": -0.069,
+      "r2": 0.032,
       "factors": {
-        "trendMomentum": 0.926,
+        "trendMomentum": 1,
         "meanReversion": 0.14,
         "technicalSupport": 0.1
       }
@@ -97956,7 +97956,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.9,
+    "sectorZScore": -0.89,
     "sectorRank": 123,
     "sectorCount": 155,
     "supportResistance": [
@@ -98050,13 +98050,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 34,
+      "predicted": 31,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.229,
-      "r2": 0.304,
+      "slope": 0.182,
+      "r2": 0.203,
       "factors": {
-        "trendMomentum": -0.503,
+        "trendMomentum": -0.813,
         "meanReversion": 0.12,
         "technicalSupport": -0.167
       }
@@ -98562,8 +98562,8 @@
       "predicted": 32,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.036,
-      "r2": 0.006,
+      "slope": -0.019,
+      "r2": 0.001,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.09,
@@ -99052,8 +99052,8 @@
       "predicted": 33,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.002,
-      "r2": 0,
+      "slope": -0.053,
+      "r2": 0.013,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.08,
@@ -99565,8 +99565,8 @@
       "predicted": 40,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.182,
-      "r2": 0.108,
+      "slope": -0.112,
+      "r2": 0.052,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.02,
@@ -99958,7 +99958,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -1.31,
+    "sectorZScore": -1.3,
     "sectorRank": 101,
     "sectorCount": 108,
     "supportResistance": [
@@ -100055,10 +100055,10 @@
     "themes": [],
     "predictiveScore": {
       "predicted": 33,
-      "direction": "stable",
+      "direction": "declining",
       "confidence": "high",
-      "slope": -0.706,
-      "r2": 0.705,
+      "slope": -0.658,
+      "r2": 0.694,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.09,
@@ -100543,13 +100543,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 40,
+      "predicted": 42,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.069,
-      "r2": 0.075,
+      "slope": -0.083,
+      "r2": 0.112,
       "factors": {
-        "trendMomentum": -0.515,
+        "trendMomentum": -0.352,
         "meanReversion": 0.05,
         "technicalSupport": -0.167
       }
@@ -101039,13 +101039,13 @@
       "Industrials"
     ],
     "predictiveScore": {
-      "predicted": 26,
+      "predicted": 28,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.135,
-      "r2": 0.077,
+      "slope": 0.106,
+      "r2": 0.05,
       "factors": {
-        "trendMomentum": -0.964,
+        "trendMomentum": -0.69,
         "meanReversion": 0.16,
         "technicalSupport": -0.167
       }
@@ -101520,13 +101520,13 @@
       "Energy"
     ],
     "predictiveScore": {
-      "predicted": 43,
+      "predicted": 42,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.188,
-      "r2": 0.238,
+      "slope": 0.192,
+      "r2": 0.247,
       "factors": {
-        "trendMomentum": 0.342,
+        "trendMomentum": 0.212,
         "meanReversion": 0.1,
         "technicalSupport": -0.033
       }
@@ -102000,8 +102000,8 @@
       "predicted": 31,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.058,
-      "r2": 0.019,
+      "slope": -0.018,
+      "r2": 0.002,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.1,
@@ -102478,13 +102478,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 30,
+      "predicted": 27,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.046,
-      "r2": 0.021,
+      "slope": -0.079,
+      "r2": 0.053,
       "factors": {
-        "trendMomentum": -0.639,
+        "trendMomentum": -1,
         "meanReversion": 0.14,
         "technicalSupport": -0.233
       }
@@ -102979,10 +102979,10 @@
     ],
     "predictiveScore": {
       "predicted": 21,
-      "direction": "stable",
+      "direction": "declining",
       "confidence": "medium",
-      "slope": -0.274,
-      "r2": 0.282,
+      "slope": -0.343,
+      "r2": 0.422,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.21,
@@ -103460,13 +103460,13 @@
       "Real Estate"
     ],
     "predictiveScore": {
-      "predicted": 54,
+      "predicted": 53,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.191,
-      "r2": 0.247,
+      "confidence": "low",
+      "slope": 0.156,
+      "r2": 0.179,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.897,
         "meanReversion": 0.03,
         "technicalSupport": -0.233
       }
@@ -103960,13 +103960,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 43,
+      "predicted": 39,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.001,
-      "r2": 0,
+      "slope": -0.018,
+      "r2": 0.003,
       "factors": {
-        "trendMomentum": 0.433,
+        "trendMomentum": -0.004,
         "meanReversion": 0.1,
         "technicalSupport": -0.233
       }
@@ -104457,8 +104457,8 @@
       "predicted": 32,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.103,
-      "r2": 0.105,
+      "slope": -0.115,
+      "r2": 0.129,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.11,
@@ -104909,9 +104909,9 @@
     "predictiveScore": {
       "predicted": 32,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.174,
-      "r2": 0.205,
+      "confidence": "low",
+      "slope": 0.138,
+      "r2": 0.148,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.09,
@@ -105298,7 +105298,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.38,
+    "sectorZScore": -0.37,
     "sectorRank": 52,
     "sectorCount": 83,
     "supportResistance": [
@@ -105396,8 +105396,8 @@
       "predicted": 34,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.14,
-      "r2": 0.094,
+      "slope": -0.196,
+      "r2": 0.177,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.07,
@@ -105789,8 +105789,8 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.76,
-    "sectorRank": 67,
+    "sectorZScore": -0.75,
+    "sectorRank": 66,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -105885,8 +105885,8 @@
       "predicted": 31,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.314,
-      "r2": 0.45,
+      "slope": -0.395,
+      "r2": 0.493,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.11,
@@ -106393,13 +106393,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 57,
+      "predicted": 54,
       "direction": "stable",
-      "confidence": "low",
-      "slope": 0.133,
-      "r2": 0.15,
+      "confidence": "medium",
+      "slope": 0.213,
+      "r2": 0.462,
       "factors": {
-        "trendMomentum": 0.86,
+        "trendMomentum": 0.517,
         "meanReversion": 0,
         "technicalSupport": -0.033
       }
@@ -106784,7 +106784,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.85,
+    "sectorZScore": -0.84,
     "sectorRank": 71,
     "sectorCount": 83,
     "supportResistance": [
@@ -106880,8 +106880,8 @@
       "predicted": 30,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.063,
-      "r2": 0.023,
+      "slope": -0.057,
+      "r2": 0.019,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.12,
@@ -107359,8 +107359,8 @@
       "predicted": 31,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.34,
-      "r2": 0.254,
+      "slope": -0.44,
+      "r2": 0.387,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.1,
@@ -107754,7 +107754,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.47,
+    "sectorZScore": -0.46,
     "sectorRank": 53,
     "sectorCount": 83,
     "supportResistance": [
@@ -107848,13 +107848,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 41,
+      "predicted": 40,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.132,
-      "r2": 0.27,
+      "slope": 0.119,
+      "r2": 0.228,
       "factors": {
-        "trendMomentum": -0.123,
+        "trendMomentum": -0.281,
         "meanReversion": 0.08,
         "technicalSupport": -0.1
       }
@@ -108341,9 +108341,9 @@
     "predictiveScore": {
       "predicted": 36,
       "direction": "stable",
-      "confidence": "low",
-      "slope": -0.102,
-      "r2": 0.077,
+      "confidence": "medium",
+      "slope": -0.171,
+      "r2": 0.241,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.05,
@@ -108669,15 +108669,15 @@
     },
     "bearishScore": 5,
     "bullishScore": 0,
-    "sentimentAvg": 0.048,
+    "sentimentAvg": -0.1472,
     "score": {
       "priceMomentum": 42,
       "technicalSignals": 19,
-      "newsSentiment": 52,
+      "newsSentiment": 43,
       "fundamentals": 69,
       "volumeTrend": 23,
       "riskInverse": 57,
-      "composite": 41
+      "composite": 40
     },
     "priceToBook": 7.442494,
     "pegRatio": 1.29,
@@ -108723,8 +108723,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.6,
-    "sectorRank": 101,
+    "sectorZScore": -0.69,
+    "sectorRank": 110,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -108823,14 +108823,14 @@
       "Cloud Computing"
     ],
     "predictiveScore": {
-      "predicted": 41,
+      "predicted": 32,
       "direction": "stable",
-      "confidence": "low",
-      "slope": 0.207,
-      "r2": 0.196,
+      "confidence": "medium",
+      "slope": 0.222,
+      "r2": 0.23,
       "factors": {
-        "trendMomentum": -0.013,
-        "meanReversion": 0.09,
+        "trendMomentum": -1,
+        "meanReversion": 0.1,
         "technicalSupport": -0.1
       }
     },
@@ -109195,11 +109195,11 @@
     },
     "bearishScore": 5,
     "bullishScore": 8,
-    "sentimentAvg": 0.352,
+    "sentimentAvg": 0.38659999999999994,
     "score": {
       "priceMomentum": 82,
       "technicalSignals": 69,
-      "newsSentiment": 68,
+      "newsSentiment": 69,
       "fundamentals": 77,
       "volumeTrend": 18,
       "riskInverse": 50,
@@ -109249,7 +109249,7 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 1.91,
+    "sectorZScore": 1.92,
     "sectorRank": 2,
     "sectorCount": 155,
     "supportResistance": [
@@ -109324,10 +109324,10 @@
       "predicted": 67,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.068,
-      "r2": 0.019,
+      "slope": 0.147,
+      "r2": 0.092,
       "factors": {
-        "trendMomentum": 0.177,
+        "trendMomentum": 0.212,
         "meanReversion": -0.16,
         "technicalSupport": 0.067
       }
@@ -109665,15 +109665,15 @@
     },
     "bearishScore": 5,
     "bullishScore": 4,
-    "sentimentAvg": 0.064,
+    "sentimentAvg": 0.03200000000000001,
     "score": {
       "priceMomentum": 36,
       "technicalSignals": 44,
-      "newsSentiment": 53,
+      "newsSentiment": 52,
       "fundamentals": 72,
       "volumeTrend": 14,
       "riskInverse": 44,
-      "composite": 45
+      "composite": 44
     },
     "priceToBook": 8.985795,
     "pegRatio": 0.72,
@@ -109719,8 +109719,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.2,
-    "sectorRank": 81,
+    "sectorZScore": -0.29,
+    "sectorRank": 86,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -109786,14 +109786,14 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 38,
+      "predicted": 37,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.472,
-      "r2": 0.542,
+      "slope": 0.456,
+      "r2": 0.521,
       "factors": {
         "trendMomentum": -1,
-        "meanReversion": 0.05,
+        "meanReversion": 0.06,
         "technicalSupport": 0.1
       }
     },
@@ -110123,15 +110123,15 @@
     },
     "bearishScore": 5,
     "bullishScore": 2,
-    "sentimentAvg": 0.288,
+    "sentimentAvg": 0.24,
     "score": {
       "priceMomentum": 45,
       "technicalSignals": 31,
-      "newsSentiment": 64,
+      "newsSentiment": 62,
       "fundamentals": 83,
       "volumeTrend": 31,
       "riskInverse": 63,
-      "composite": 51
+      "composite": 50
     },
     "priceToBook": 2.3531888,
     "pegRatio": 1.6,
@@ -110177,8 +110177,8 @@
       "rsAbove70": false,
       "passed": 4
     },
-    "sectorZScore": -0.22,
-    "sectorRank": 64,
+    "sectorZScore": -0.33,
+    "sectorRank": 68,
     "sectorCount": 108,
     "supportResistance": [
       {
@@ -110282,11 +110282,11 @@
       "predicted": 42,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.077,
-      "r2": 0.065,
+      "slope": 0.055,
+      "r2": 0.035,
       "factors": {
         "trendMomentum": -1,
-        "meanReversion": -0.01,
+        "meanReversion": 0,
         "technicalSupport": -0.1
       }
     },
@@ -110616,15 +110616,15 @@
     },
     "bearishScore": 5,
     "bullishScore": 2,
-    "sentimentAvg": 0.20800000000000002,
+    "sentimentAvg": 0.3566,
     "score": {
       "priceMomentum": 44,
       "technicalSignals": 31,
-      "newsSentiment": 60,
+      "newsSentiment": 68,
       "fundamentals": 86,
       "volumeTrend": 29,
       "riskInverse": 63,
-      "composite": 50
+      "composite": 51
     },
     "priceToBook": 1.3270743,
     "pegRatio": 0.92,
@@ -110670,8 +110670,8 @@
       "rsAbove70": false,
       "passed": 4
     },
-    "sectorZScore": -0.33,
-    "sectorRank": 68,
+    "sectorZScore": -0.22,
+    "sectorRank": 64,
     "sectorCount": 108,
     "supportResistance": [
       {
@@ -110774,12 +110774,12 @@
     "predictiveScore": {
       "predicted": 44,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": -0.229,
-      "r2": 0.239,
+      "confidence": "low",
+      "slope": -0.18,
+      "r2": 0.177,
       "factors": {
-        "trendMomentum": -0.704,
-        "meanReversion": 0,
+        "trendMomentum": -0.849,
+        "meanReversion": -0.01,
         "technicalSupport": -0.1
       }
     },
@@ -111157,7 +111157,7 @@
       "passed": 4
     },
     "sectorZScore": -0.87,
-    "sectorRank": 79,
+    "sectorRank": 78,
     "sectorCount": 108,
     "supportResistance": [
       {
@@ -111256,8 +111256,8 @@
       "predicted": 36,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.017,
-      "r2": 0.002,
+      "slope": -0.043,
+      "r2": 0.012,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.05,
@@ -111731,13 +111731,13 @@
       "Streaming & Digital Media"
     ],
     "predictiveScore": {
-      "predicted": 51,
+      "predicted": 52,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.208,
-      "r2": 0.265,
+      "slope": 0.172,
+      "r2": 0.202,
       "factors": {
-        "trendMomentum": 0.313,
+        "trendMomentum": 0.412,
         "meanReversion": 0.02,
         "technicalSupport": 0.033
       }
@@ -112186,8 +112186,8 @@
       "predicted": 21,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.031,
-      "r2": 0.007,
+      "slope": 0.015,
+      "r2": 0.002,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.22,
@@ -112647,8 +112647,8 @@
       "predicted": 47,
       "direction": "improving",
       "confidence": "high",
-      "slope": 0.545,
-      "r2": 0.661,
+      "slope": 0.579,
+      "r2": 0.708,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.11,
@@ -113097,8 +113097,8 @@
       "predicted": 19,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.059,
-      "r2": 0.013,
+      "slope": -0.129,
+      "r2": 0.064,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.23,
@@ -113499,8 +113499,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.3,
-    "sectorRank": 87,
+    "sectorZScore": -0.29,
+    "sectorRank": 88,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -113573,9 +113573,9 @@
     "predictiveScore": {
       "predicted": 52,
       "direction": "improving",
-      "confidence": "medium",
-      "slope": 0.462,
-      "r2": 0.494,
+      "confidence": "high",
+      "slope": 0.488,
+      "r2": 0.536,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.06,
@@ -114036,8 +114036,8 @@
       "predicted": 51,
       "direction": "improving",
       "confidence": "high",
-      "slope": 0.39,
-      "r2": 0.546,
+      "slope": 0.441,
+      "r2": 0.644,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.07,
@@ -114405,15 +114405,15 @@
     },
     "bearishScore": 5,
     "bullishScore": 8,
-    "sentimentAvg": 0.384,
+    "sentimentAvg": 0.26399999999999996,
     "score": {
       "priceMomentum": 85,
       "technicalSignals": 69,
-      "newsSentiment": 69,
+      "newsSentiment": 63,
       "fundamentals": 0,
       "volumeTrend": 14,
       "riskInverse": 55,
-      "composite": 56
+      "composite": 55
     },
     "priceToBook": 7.156749,
     "pegRatio": 0.93,
@@ -114459,8 +114459,8 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 0.94,
-    "sectorRank": 9,
+    "sectorZScore": 0.84,
+    "sectorRank": 10,
     "sectorCount": 42,
     "supportResistance": [
       {
@@ -114526,14 +114526,14 @@
       "Streaming & Digital Media"
     ],
     "predictiveScore": {
-      "predicted": 64,
+      "predicted": 63,
       "direction": "improving",
       "confidence": "high",
-      "slope": 0.848,
-      "r2": 0.69,
+      "slope": 0.838,
+      "r2": 0.686,
       "factors": {
         "trendMomentum": 1,
-        "meanReversion": -0.06,
+        "meanReversion": -0.05,
         "technicalSupport": 0.067
       }
     },
@@ -114931,7 +114931,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.85,
+    "sectorZScore": -0.84,
     "sectorRank": 68,
     "sectorCount": 83,
     "supportResistance": [
@@ -114997,13 +114997,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 36,
+      "predicted": 40,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.426,
-      "r2": 0.423,
+      "slope": 0.442,
+      "r2": 0.436,
       "factors": {
-        "trendMomentum": -0.278,
+        "trendMomentum": 0.279,
         "meanReversion": 0.12,
         "technicalSupport": -0.1
       }
@@ -115467,13 +115467,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 44,
+      "predicted": 46,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.235,
-      "r2": 0.204,
+      "confidence": "low",
+      "slope": 0.204,
+      "r2": 0.168,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.707,
         "meanReversion": -0.02,
         "technicalSupport": -0.033
       }
@@ -115952,9 +115952,9 @@
     "predictiveScore": {
       "predicted": 50,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.28,
-      "r2": 0.224,
+      "confidence": "low",
+      "slope": 0.19,
+      "r2": 0.111,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": -0.08,
@@ -116426,9 +116426,9 @@
     "predictiveScore": {
       "predicted": 30,
       "direction": "declining",
-      "confidence": "medium",
-      "slope": -0.55,
-      "r2": 0.5,
+      "confidence": "high",
+      "slope": -0.581,
+      "r2": 0.536,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.12,
@@ -116851,7 +116851,7 @@
       "passed": 8
     },
     "sectorZScore": 1.31,
-    "sectorRank": 18,
+    "sectorRank": 17,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -116936,8 +116936,8 @@
       "predicted": 68,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.107,
-      "r2": 0.068,
+      "slope": 0.086,
+      "r2": 0.046,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.1,
@@ -117353,7 +117353,7 @@
       "passed": 8
     },
     "sectorZScore": 1.01,
-    "sectorRank": 31,
+    "sectorRank": 30,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -117432,9 +117432,9 @@
     "predictiveScore": {
       "predicted": 65,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.234,
-      "r2": 0.258,
+      "confidence": "low",
+      "slope": 0.159,
+      "r2": 0.161,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.07,
@@ -117910,8 +117910,8 @@
       "predicted": 42,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.135,
-      "r2": 0.151,
+      "slope": 0.14,
+      "r2": 0.161,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.17,
@@ -118327,7 +118327,7 @@
       "passed": 7
     },
     "sectorZScore": 1.31,
-    "sectorRank": 19,
+    "sectorRank": 18,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -118388,13 +118388,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 52,
+      "predicted": 54,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": -0.295,
-      "r2": 0.202,
+      "confidence": "low",
+      "slope": -0.254,
+      "r2": 0.149,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.775,
         "meanReversion": -0.1,
         "technicalSupport": 0.067
       }
@@ -118779,7 +118779,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -1.2,
+    "sectorZScore": -1.19,
     "sectorRank": 90,
     "sectorCount": 108,
     "supportResistance": [
@@ -118878,9 +118878,9 @@
     "predictiveScore": {
       "predicted": 34,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.178,
-      "r2": 0.282,
+      "confidence": "low",
+      "slope": 0.1,
+      "r2": 0.152,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.08,
@@ -119260,7 +119260,7 @@
       "rsAbove70": false,
       "passed": 5
     },
-    "sectorZScore": -1.31,
+    "sectorZScore": -1.3,
     "sectorRank": 97,
     "sectorCount": 108,
     "supportResistance": [
@@ -119359,9 +119359,9 @@
     "predictiveScore": {
       "predicted": 33,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.236,
-      "r2": 0.241,
+      "confidence": "low",
+      "slope": 0.159,
+      "r2": 0.125,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.09,
@@ -119748,7 +119748,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -1.52,
+    "sectorZScore": -1.51,
     "sectorRank": 103,
     "sectorCount": 108,
     "supportResistance": [
@@ -119847,10 +119847,10 @@
       "predicted": 46,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.15,
-      "r2": 0.155,
+      "slope": 0.174,
+      "r2": 0.2,
       "factors": {
-        "trendMomentum": 0.913,
+        "trendMomentum": 0.84,
         "meanReversion": 0.11,
         "technicalSupport": -0.1
       }
@@ -120242,7 +120242,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -1.31,
+    "sectorZScore": -1.3,
     "sectorRank": 98,
     "sectorCount": 108,
     "supportResistance": [
@@ -120348,13 +120348,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 45,
+      "predicted": 44,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.22,
-      "r2": 0.439,
+      "slope": 0.239,
+      "r2": 0.488,
       "factors": {
-        "trendMomentum": 0.513,
+        "trendMomentum": 0.37,
         "meanReversion": 0.09,
         "technicalSupport": -0.1
       }
@@ -120738,7 +120738,7 @@
       "passed": 3
     },
     "sectorZScore": -0.87,
-    "sectorRank": 80,
+    "sectorRank": 79,
     "sectorCount": 108,
     "supportResistance": [
       {
@@ -120828,13 +120828,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 47,
+      "predicted": 41,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.246,
-      "r2": 0.311,
+      "confidence": "low",
+      "slope": 0.188,
+      "r2": 0.184,
       "factors": {
-        "trendMomentum": 0.266,
+        "trendMomentum": -0.412,
         "meanReversion": 0.05,
         "technicalSupport": -0.1
       }
@@ -121327,13 +121327,13 @@
       "Industrials"
     ],
     "predictiveScore": {
-      "predicted": 56,
+      "predicted": 50,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.147,
-      "r2": 0.107,
+      "slope": 0.029,
+      "r2": 0.004,
       "factors": {
-        "trendMomentum": 0.842,
+        "trendMomentum": 0.124,
         "meanReversion": 0.01,
         "technicalSupport": 0.033
       }
@@ -121812,13 +121812,13 @@
       "Industrials"
     ],
     "predictiveScore": {
-      "predicted": 53,
+      "predicted": 55,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.24,
-      "r2": 0.457,
+      "slope": 0.215,
+      "r2": 0.43,
       "factors": {
-        "trendMomentum": 0.694,
+        "trendMomentum": 1,
         "meanReversion": 0.03,
         "technicalSupport": -0.033
       }
@@ -122258,13 +122258,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 37,
+      "predicted": 32,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.143,
-      "r2": 0.136,
+      "slope": 0.101,
+      "r2": 0.063,
       "factors": {
-        "trendMomentum": -0.354,
+        "trendMomentum": -1,
         "meanReversion": 0.1,
         "technicalSupport": -0.1
       }
@@ -122753,13 +122753,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 40,
+      "predicted": 44,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.042,
-      "r2": 0.008,
+      "slope": -0.084,
+      "r2": 0.037,
       "factors": {
-        "trendMomentum": -0.99,
+        "trendMomentum": -0.399,
         "meanReversion": 0.02,
         "technicalSupport": -0.1
       }
@@ -123232,10 +123232,10 @@
     ],
     "predictiveScore": {
       "predicted": 37,
-      "direction": "stable",
-      "confidence": "low",
-      "slope": -0.276,
-      "r2": 0.191,
+      "direction": "declining",
+      "confidence": "medium",
+      "slope": -0.319,
+      "r2": 0.262,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.05,
@@ -123691,8 +123691,8 @@
       "predicted": 49,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.132,
-      "r2": 0.087,
+      "slope": 0.131,
+      "r2": 0.086,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.09,
@@ -124169,8 +124169,8 @@
       "predicted": 46,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.148,
-      "r2": 0.058,
+      "slope": 0.193,
+      "r2": 0.093,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.12,
@@ -124665,8 +124665,8 @@
       "predicted": 55,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.07,
-      "r2": 0.032,
+      "slope": 0.075,
+      "r2": 0.037,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.03,
@@ -125166,13 +125166,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 41,
+      "predicted": 38,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.114,
-      "r2": 0.034,
+      "slope": -0.148,
+      "r2": 0.053,
       "factors": {
-        "trendMomentum": -0.655,
+        "trendMomentum": -1,
         "meanReversion": 0.04,
         "technicalSupport": 0.033
       }
@@ -125654,13 +125654,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 41,
+      "predicted": 36,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.281,
-      "r2": 0.309,
+      "slope": -0.287,
+      "r2": 0.315,
       "factors": {
-        "trendMomentum": 0.062,
+        "trendMomentum": -0.556,
         "meanReversion": 0.09,
         "technicalSupport": -0.1
       }
@@ -126144,8 +126144,8 @@
       "predicted": 53,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.191,
-      "r2": 0.168,
+      "slope": 0.141,
+      "r2": 0.106,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.06,
@@ -126608,8 +126608,8 @@
       "predicted": 33,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.018,
-      "r2": 0.002,
+      "slope": -0.003,
+      "r2": 0,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.09,
@@ -127093,8 +127093,8 @@
       "predicted": 54,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.079,
-      "r2": 0.027,
+      "slope": -0.074,
+      "r2": 0.023,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.05,
@@ -127555,13 +127555,13 @@
       "E-Commerce"
     ],
     "predictiveScore": {
-      "predicted": 38,
+      "predicted": 39,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.104,
-      "r2": 0.043,
+      "slope": -0.118,
+      "r2": 0.057,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.838,
         "meanReversion": 0.04,
         "technicalSupport": -0.033
       }
@@ -128013,8 +128013,8 @@
       "predicted": 27,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.097,
-      "r2": 0.068,
+      "slope": -0.119,
+      "r2": 0.107,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.15,
@@ -128415,8 +128415,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": 0.5,
-    "sectorRank": 51,
+    "sectorZScore": 0.51,
+    "sectorRank": 50,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -128476,13 +128476,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 51,
+      "predicted": 56,
       "direction": "stable",
-      "confidence": "low",
-      "slope": 0.108,
-      "r2": 0.183,
+      "confidence": "medium",
+      "slope": 0.149,
+      "r2": 0.26,
       "factors": {
-        "trendMomentum": -0.071,
+        "trendMomentum": 0.479,
         "meanReversion": -0.02,
         "technicalSupport": 0
       }
@@ -128860,7 +128860,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -1.2,
+    "sectorZScore": -1.19,
     "sectorRank": 91,
     "sectorCount": 108,
     "supportResistance": [
@@ -128951,13 +128951,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 35,
+      "predicted": 34,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.205,
-      "r2": 0.227,
+      "confidence": "low",
+      "slope": 0.098,
+      "r2": 0.068,
       "factors": {
-        "trendMomentum": -0.905,
+        "trendMomentum": -1,
         "meanReversion": 0.08,
         "technicalSupport": -0.1
       }
@@ -129444,10 +129444,10 @@
       "predicted": 51,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.033,
-      "r2": 0.013,
+      "slope": 0.063,
+      "r2": 0.049,
       "factors": {
-        "trendMomentum": 0.132,
+        "trendMomentum": 0.198,
         "meanReversion": 0,
         "technicalSupport": -0.1
       }
@@ -129837,7 +129837,7 @@
       "rsAbove70": false,
       "passed": 4
     },
-    "sectorZScore": -1.09,
+    "sectorZScore": -1.08,
     "sectorRank": 87,
     "sectorCount": 108,
     "supportResistance": [
@@ -129933,13 +129933,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 44,
+      "predicted": 38,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.198,
-      "r2": 0.126,
+      "slope": -0.167,
+      "r2": 0.097,
       "factors": {
-        "trendMomentum": 0.127,
+        "trendMomentum": -0.578,
         "meanReversion": 0.07,
         "technicalSupport": -0.1
       }
@@ -130331,7 +130331,7 @@
       "rsAbove70": true,
       "passed": 7
     },
-    "sectorZScore": -0.44,
+    "sectorZScore": -0.43,
     "sectorRank": 71,
     "sectorCount": 108,
     "supportResistance": [
@@ -130435,9 +130435,9 @@
     "predictiveScore": {
       "predicted": 57,
       "direction": "stable",
-      "confidence": "low",
-      "slope": 0.207,
-      "r2": 0.116,
+      "confidence": "medium",
+      "slope": 0.277,
+      "r2": 0.21,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.01,
@@ -130832,7 +130832,7 @@
       "passed": 2
     },
     "sectorZScore": -0.65,
-    "sectorRank": 74,
+    "sectorRank": 75,
     "sectorCount": 108,
     "supportResistance": [
       {
@@ -130927,13 +130927,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 46,
+      "predicted": 43,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.162,
-      "r2": 0.302,
+      "confidence": "low",
+      "slope": 0.126,
+      "r2": 0.194,
       "factors": {
-        "trendMomentum": -0.123,
+        "trendMomentum": -0.473,
         "meanReversion": 0.03,
         "technicalSupport": -0.1
       }
@@ -131318,7 +131318,7 @@
       "rsAbove70": false,
       "passed": 3
     },
-    "sectorZScore": -0.44,
+    "sectorZScore": -0.43,
     "sectorRank": 72,
     "sectorCount": 108,
     "supportResistance": [
@@ -131414,13 +131414,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 44,
+      "predicted": 42,
       "direction": "stable",
       "confidence": "medium",
       "slope": -0.313,
-      "r2": 0.47,
+      "r2": 0.469,
       "factors": {
-        "trendMomentum": -0.57,
+        "trendMomentum": -0.814,
         "meanReversion": 0.01,
         "technicalSupport": -0.1
       }
@@ -131914,13 +131914,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 45,
+      "predicted": 43,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.256,
-      "r2": 0.322,
+      "slope": 0.228,
+      "r2": 0.264,
       "factors": {
-        "trendMomentum": -0.79,
+        "trendMomentum": -1,
         "meanReversion": -0.02,
         "technicalSupport": -0.1
       }
@@ -132298,7 +132298,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -1.09,
+    "sectorZScore": -1.08,
     "sectorRank": 88,
     "sectorCount": 108,
     "supportResistance": [
@@ -132389,13 +132389,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 44,
+      "predicted": 41,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.205,
-      "r2": 0.323,
+      "slope": 0.179,
+      "r2": 0.255,
       "factors": {
-        "trendMomentum": 0.145,
+        "trendMomentum": -0.228,
         "meanReversion": 0.07,
         "technicalSupport": -0.1
       }
@@ -132879,13 +132879,13 @@
       "Real Estate"
     ],
     "predictiveScore": {
-      "predicted": 41,
+      "predicted": 42,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.013,
-      "r2": 0.001,
+      "slope": 0.001,
+      "r2": 0,
       "factors": {
-        "trendMomentum": -0.717,
+        "trendMomentum": -0.487,
         "meanReversion": 0.04,
         "technicalSupport": 0.033
       }
@@ -133374,13 +133374,13 @@
       "Real Estate"
     ],
     "predictiveScore": {
-      "predicted": 37,
+      "predicted": 39,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.044,
-      "r2": 0.012,
+      "slope": -0.086,
+      "r2": 0.055,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.751,
         "meanReversion": 0.05,
         "technicalSupport": 0.033
       }
@@ -133876,8 +133876,8 @@
       "predicted": 34,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.078,
-      "r2": 0.086,
+      "slope": 0.051,
+      "r2": 0.041,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.09,
@@ -134364,13 +134364,13 @@
       "Real Estate"
     ],
     "predictiveScore": {
-      "predicted": 45,
+      "predicted": 46,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.12,
-      "r2": 0.054,
+      "slope": -0.125,
+      "r2": 0.059,
       "factors": {
-        "trendMomentum": 0.791,
+        "trendMomentum": 1,
         "meanReversion": 0.12,
         "technicalSupport": -0.033
       }
@@ -134861,9 +134861,9 @@
     "predictiveScore": {
       "predicted": 54,
       "direction": "stable",
-      "confidence": "low",
-      "slope": 0.157,
-      "r2": 0.197,
+      "confidence": "medium",
+      "slope": 0.178,
+      "r2": 0.259,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.04,
@@ -135348,13 +135348,13 @@
       "Real Estate"
     ],
     "predictiveScore": {
-      "predicted": 48,
+      "predicted": 51,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.199,
-      "r2": 0.305,
+      "slope": 0.198,
+      "r2": 0.303,
       "factors": {
-        "trendMomentum": -0.206,
+        "trendMomentum": 0.173,
         "meanReversion": 0,
         "technicalSupport": -0.05
       }
@@ -135840,8 +135840,8 @@
       "predicted": 38,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.151,
-      "r2": 0.129,
+      "slope": 0.09,
+      "r2": 0.054,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.04,
@@ -136335,8 +136335,8 @@
       "predicted": 50,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.203,
-      "r2": 0.333,
+      "slope": 0.169,
+      "r2": 0.259,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.09,
@@ -136730,7 +136730,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.19,
+    "sectorZScore": -0.18,
     "sectorRank": 44,
     "sectorCount": 83,
     "supportResistance": [
@@ -136798,8 +136798,8 @@
       "predicted": 53,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.202,
-      "r2": 0.238,
+      "slope": 0.189,
+      "r2": 0.221,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.05,
@@ -137186,8 +137186,8 @@
       "rsAbove70": false,
       "passed": 4
     },
-    "sectorZScore": -0.66,
-    "sectorRank": 62,
+    "sectorZScore": -0.65,
+    "sectorRank": 61,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -137248,8 +137248,8 @@
       "predicted": 48,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.022,
-      "r2": 0.002,
+      "slope": -0.01,
+      "r2": 0,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.1,
@@ -137650,8 +137650,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.6,
-    "sectorRank": 107,
+    "sectorZScore": -0.59,
+    "sectorRank": 106,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -137745,8 +137745,8 @@
       "predicted": 34,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.155,
-      "r2": 0.066,
+      "slope": -0.188,
+      "r2": 0.103,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.09,
@@ -138133,8 +138133,8 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.6,
-    "sectorRank": 108,
+    "sectorZScore": -0.59,
+    "sectorRank": 107,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -138195,8 +138195,8 @@
       "predicted": 50,
       "direction": "improving",
       "confidence": "high",
-      "slope": 0.561,
-      "r2": 0.777,
+      "slope": 0.535,
+      "r2": 0.762,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.09,
@@ -138590,8 +138590,8 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.3,
-    "sectorRank": 92,
+    "sectorZScore": -0.29,
+    "sectorRank": 93,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -138657,9 +138657,9 @@
     "predictiveScore": {
       "predicted": 52,
       "direction": "improving",
-      "confidence": "medium",
-      "slope": 0.377,
-      "r2": 0.499,
+      "confidence": "high",
+      "slope": 0.407,
+      "r2": 0.55,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.06,
@@ -139141,13 +139141,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 51,
+      "predicted": 50,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.092,
-      "r2": 0.091,
+      "slope": 0.127,
+      "r2": 0.189,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.922,
         "meanReversion": 0.07,
         "technicalSupport": -0.033
       }
@@ -139635,8 +139635,8 @@
       "predicted": 55,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.111,
-      "r2": 0.074,
+      "slope": -0.124,
+      "r2": 0.092,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.03,
@@ -140090,8 +140090,8 @@
       "predicted": 35,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.138,
-      "r2": 0.072,
+      "slope": 0.088,
+      "r2": 0.033,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.07,
@@ -140560,8 +140560,8 @@
       "predicted": 56,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.542,
-      "r2": 0.481,
+      "slope": 0.546,
+      "r2": 0.484,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.02,
@@ -141003,8 +141003,8 @@
       "predicted": 25,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.729,
-      "r2": 0.439,
+      "slope": 0.632,
+      "r2": 0.351,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.17,
@@ -141480,13 +141480,13 @@
       "Industrials"
     ],
     "predictiveScore": {
-      "predicted": 58,
+      "predicted": 59,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.061,
-      "r2": 0.032,
+      "slope": 0.07,
+      "r2": 0.04,
       "factors": {
-        "trendMomentum": 0.446,
+        "trendMomentum": 0.597,
         "meanReversion": -0.04,
         "technicalSupport": 0.067
       }
@@ -141928,13 +141928,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 38,
+      "predicted": 36,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.316,
-      "r2": 0.377,
+      "slope": 0.222,
+      "r2": 0.251,
       "factors": {
-        "trendMomentum": -0.722,
+        "trendMomentum": -1,
         "meanReversion": 0.06,
         "technicalSupport": -0.1
       }
@@ -142390,8 +142390,8 @@
       "predicted": 57,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.349,
-      "r2": 0.467,
+      "slope": 0.328,
+      "r2": 0.427,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.01,
@@ -142845,8 +142845,8 @@
       "predicted": 56,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.011,
-      "r2": 0.001,
+      "slope": 0.053,
+      "r2": 0.012,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.01,
@@ -143346,8 +143346,8 @@
       "predicted": 76,
       "direction": "improving",
       "confidence": "high",
-      "slope": 0.806,
-      "r2": 0.808,
+      "slope": 0.846,
+      "r2": 0.795,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.18,
@@ -143851,13 +143851,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 45,
+      "predicted": 50,
       "direction": "stable",
       "confidence": "high",
-      "slope": -0.568,
-      "r2": 0.579,
+      "slope": -0.541,
+      "r2": 0.55,
       "factors": {
-        "trendMomentum": -0.299,
+        "trendMomentum": 0.34,
         "meanReversion": 0.03,
         "technicalSupport": -0.033
       }
@@ -144360,8 +144360,8 @@
       "predicted": 56,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.121,
-      "r2": 0.068,
+      "slope": -0.143,
+      "r2": 0.093,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": -0.14,
@@ -144755,7 +144755,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -1.31,
+    "sectorZScore": -1.3,
     "sectorRank": 100,
     "sectorCount": 108,
     "supportResistance": [
@@ -144845,8 +144845,8 @@
       "predicted": 33,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.13,
-      "r2": 0.101,
+      "slope": -0.079,
+      "r2": 0.043,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.09,
@@ -145334,8 +145334,8 @@
       "predicted": 37,
       "direction": "stable",
       "confidence": "high",
-      "slope": -0.894,
-      "r2": 0.75,
+      "slope": -0.865,
+      "r2": 0.722,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.05,
@@ -145715,8 +145715,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.6,
-    "sectorRank": 109,
+    "sectorZScore": -0.59,
+    "sectorRank": 108,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -145811,8 +145811,8 @@
       "predicted": 33,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.006,
-      "r2": 0,
+      "slope": -0.038,
+      "r2": 0.015,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.09,
@@ -146269,8 +146269,8 @@
       "predicted": 62,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.109,
-      "r2": 0.038,
+      "slope": -0.022,
+      "r2": 0.002,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.04,
@@ -146766,8 +146766,8 @@
       "predicted": 36,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.525,
-      "r2": 0.5,
+      "slope": -0.533,
+      "r2": 0.509,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.06,
@@ -147254,13 +147254,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 31,
+      "predicted": 36,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.155,
-      "r2": 0.076,
+      "slope": -0.185,
+      "r2": 0.112,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.388,
         "meanReversion": 0.11,
         "technicalSupport": -0.033
       }
@@ -147756,8 +147756,8 @@
       "predicted": 52,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.082,
-      "r2": 0.036,
+      "slope": 0.156,
+      "r2": 0.138,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.06,
@@ -148251,13 +148251,13 @@
       "Industrials"
     ],
     "predictiveScore": {
-      "predicted": 36,
+      "predicted": 40,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": -0.238,
-      "r2": 0.272,
+      "confidence": "low",
+      "slope": -0.183,
+      "r2": 0.18,
       "factors": {
-        "trendMomentum": -0.879,
+        "trendMomentum": -0.327,
         "meanReversion": 0.07,
         "technicalSupport": -0.033
       }
@@ -148723,9 +148723,9 @@
     "predictiveScore": {
       "predicted": 36,
       "direction": "declining",
-      "confidence": "medium",
-      "slope": -0.573,
-      "r2": 0.496,
+      "confidence": "high",
+      "slope": -0.628,
+      "r2": 0.577,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.06,
@@ -149213,8 +149213,8 @@
       "predicted": 53,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.212,
-      "r2": 0.152,
+      "slope": -0.192,
+      "r2": 0.131,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.05,
@@ -149709,8 +149709,8 @@
       "predicted": 55,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.341,
-      "r2": 0.396,
+      "slope": 0.343,
+      "r2": 0.4,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.03,
@@ -150109,8 +150109,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": 0.28,
-    "sectorRank": 35,
+    "sectorZScore": 0.29,
+    "sectorRank": 34,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -150205,10 +150205,10 @@
       "predicted": 58,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.263,
-      "r2": 0.596,
+      "slope": 0.294,
+      "r2": 0.683,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.998,
         "meanReversion": 0,
         "technicalSupport": 0.033
       }
@@ -150705,8 +150705,8 @@
       "predicted": 34,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.257,
-      "r2": 0.348,
+      "slope": -0.186,
+      "r2": 0.242,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.08,
@@ -151192,8 +151192,8 @@
       "predicted": 57,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.014,
-      "r2": 0.001,
+      "slope": -0.033,
+      "r2": 0.005,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.01,
@@ -151679,10 +151679,10 @@
     "themes": [],
     "predictiveScore": {
       "predicted": 57,
-      "direction": "stable",
+      "direction": "improving",
       "confidence": "medium",
-      "slope": 0.277,
-      "r2": 0.219,
+      "slope": 0.318,
+      "r2": 0.293,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.01,
@@ -152166,13 +152166,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 50,
+      "predicted": 44,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.279,
-      "r2": 0.394,
+      "slope": 0.198,
+      "r2": 0.231,
       "factors": {
-        "trendMomentum": 0.634,
+        "trendMomentum": -0.08,
         "meanReversion": 0.05,
         "technicalSupport": -0.1
       }
@@ -152641,8 +152641,8 @@
       "predicted": 29,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.036,
-      "r2": 0.012,
+      "slope": -0.056,
+      "r2": 0.029,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.13,
@@ -153027,8 +153027,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.2,
-    "sectorRank": 86,
+    "sectorZScore": -0.19,
+    "sectorRank": 84,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -153097,9 +153097,9 @@
     "predictiveScore": {
       "predicted": 53,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": 0.217,
-      "r2": 0.208,
+      "confidence": "low",
+      "slope": 0.209,
+      "r2": 0.192,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.05,
@@ -153498,7 +153498,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.95,
+    "sectorZScore": -0.93,
     "sectorRank": 73,
     "sectorCount": 83,
     "supportResistance": [
@@ -153568,13 +153568,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 37,
+      "predicted": 44,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.282,
-      "r2": 0.308,
+      "slope": -0.276,
+      "r2": 0.294,
       "factors": {
-        "trendMomentum": -0.093,
+        "trendMomentum": 0.868,
         "meanReversion": 0.13,
         "technicalSupport": -0.033
       }
@@ -154054,13 +154054,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 49,
+      "predicted": 48,
       "direction": "stable",
-      "confidence": "high",
-      "slope": 0.208,
-      "r2": 0.511,
+      "confidence": "medium",
+      "slope": 0.197,
+      "r2": 0.473,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.812,
         "meanReversion": 0.09,
         "technicalSupport": -0.05
       }
@@ -154541,10 +154541,10 @@
       "predicted": 46,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.236,
-      "r2": 0.382,
+      "slope": -0.218,
+      "r2": 0.331,
       "factors": {
-        "trendMomentum": 0.951,
+        "trendMomentum": 1,
         "meanReversion": 0.12,
         "technicalSupport": -0.033
       }
@@ -154955,7 +154955,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": 0.8,
+    "sectorZScore": 0.81,
     "sectorRank": 39,
     "sectorCount": 155,
     "supportResistance": [
@@ -155055,10 +155055,10 @@
     ],
     "predictiveScore": {
       "predicted": 63,
-      "direction": "stable",
+      "direction": "improving",
       "confidence": "medium",
-      "slope": 0.299,
-      "r2": 0.224,
+      "slope": 0.368,
+      "r2": 0.29,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.05,
@@ -155457,7 +155457,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.9,
+    "sectorZScore": -0.89,
     "sectorRank": 124,
     "sectorCount": 155,
     "supportResistance": [
@@ -155553,8 +155553,8 @@
       "predicted": 30,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.267,
-      "r2": 0.342,
+      "slope": -0.293,
+      "r2": 0.402,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.12,
@@ -156021,8 +156021,8 @@
       "predicted": 53,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.123,
-      "r2": 0.12,
+      "slope": 0.124,
+      "r2": 0.123,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.06,
@@ -156515,8 +156515,8 @@
       "predicted": 39,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.211,
-      "r2": 0.317,
+      "slope": -0.177,
+      "r2": 0.246,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.03,
@@ -156908,7 +156908,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.29,
+    "sectorZScore": -0.28,
     "sectorRank": 48,
     "sectorCount": 83,
     "supportResistance": [
@@ -157006,13 +157006,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 40,
+      "predicted": 42,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.132,
-      "r2": 0.128,
+      "slope": -0.103,
+      "r2": 0.081,
       "factors": {
-        "trendMomentum": -0.445,
+        "trendMomentum": -0.196,
         "meanReversion": 0.06,
         "technicalSupport": -0.1
       }
@@ -157395,8 +157395,8 @@
       "rsAbove70": false,
       "passed": 3
     },
-    "sectorZScore": -0.66,
-    "sectorRank": 63,
+    "sectorZScore": -0.65,
+    "sectorRank": 62,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -157460,8 +157460,8 @@
       "predicted": 32,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.345,
-      "r2": 0.32,
+      "slope": -0.361,
+      "r2": 0.336,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.1,
@@ -157949,8 +157949,8 @@
       "predicted": 37,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.473,
-      "r2": 0.43,
+      "slope": -0.49,
+      "r2": 0.442,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.05,
@@ -158433,12 +158433,12 @@
     ],
     "predictiveScore": {
       "predicted": 53,
-      "direction": "improving",
+      "direction": "stable",
       "confidence": "medium",
-      "slope": 0.328,
-      "r2": 0.445,
+      "slope": 0.339,
+      "r2": 0.481,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.977,
         "meanReversion": 0.06,
         "technicalSupport": 0.1
       }
@@ -158830,7 +158830,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -1.09,
+    "sectorZScore": -1.08,
     "sectorRank": 89,
     "sectorCount": 108,
     "supportResistance": [
@@ -158922,13 +158922,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 51,
+      "predicted": 48,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.053,
-      "r2": 0.024,
+      "slope": 0.102,
+      "r2": 0.107,
       "factors": {
-        "trendMomentum": 0.992,
+        "trendMomentum": 0.583,
         "meanReversion": 0.07,
         "technicalSupport": -0.033
       }
@@ -159412,13 +159412,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 35,
+      "predicted": 31,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.263,
-      "r2": 0.331,
+      "slope": 0.201,
+      "r2": 0.205,
       "factors": {
-        "trendMomentum": 0.117,
+        "trendMomentum": -0.421,
         "meanReversion": 0.16,
         "technicalSupport": -0.1
       }
@@ -159913,8 +159913,8 @@
       "predicted": 53,
       "direction": "improving",
       "confidence": "high",
-      "slope": 0.384,
-      "r2": 0.558,
+      "slope": 0.347,
+      "r2": 0.508,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.06,
@@ -160402,9 +160402,9 @@
     "predictiveScore": {
       "predicted": 53,
       "direction": "stable",
-      "confidence": "low",
-      "slope": 0.219,
-      "r2": 0.181,
+      "confidence": "medium",
+      "slope": 0.25,
+      "r2": 0.239,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.06,
@@ -160894,8 +160894,8 @@
       "predicted": 48,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.145,
-      "r2": 0.076,
+      "slope": 0.081,
+      "r2": 0.026,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": -0.06,
@@ -161282,7 +161282,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.29,
+    "sectorZScore": -0.28,
     "sectorRank": 49,
     "sectorCount": 83,
     "supportResistance": [
@@ -161377,13 +161377,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 43,
+      "predicted": 41,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.095,
-      "r2": 0.038,
+      "slope": 0.081,
+      "r2": 0.029,
       "factors": {
-        "trendMomentum": -0.202,
+        "trendMomentum": -0.418,
         "meanReversion": 0.06,
         "technicalSupport": 0.033
       }
@@ -161893,8 +161893,8 @@
       "predicted": 57,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.337,
-      "r2": 0.325,
+      "slope": -0.318,
+      "r2": 0.296,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.01,
@@ -162378,8 +162378,8 @@
       "predicted": 25,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.161,
-      "r2": 0.102,
+      "slope": 0.114,
+      "r2": 0.053,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.17,
@@ -162855,8 +162855,8 @@
       "predicted": 55,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.174,
-      "r2": 0.124,
+      "slope": -0.172,
+      "r2": 0.121,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.03,
@@ -163278,7 +163278,7 @@
       "rsAbove70": true,
       "passed": 8
     },
-    "sectorZScore": 0.9,
+    "sectorZScore": 0.91,
     "sectorRank": 37,
     "sectorCount": 155,
     "supportResistance": [
@@ -163351,13 +163351,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 54,
+      "predicted": 56,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.243,
-      "r2": 0.35,
+      "slope": 0.195,
+      "r2": 0.299,
       "factors": {
-        "trendMomentum": -0.219,
+        "trendMomentum": 0.03,
         "meanReversion": -0.06,
         "technicalSupport": 0.067
       }
@@ -163846,8 +163846,8 @@
       "predicted": 39,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.389,
-      "r2": 0.526,
+      "slope": -0.427,
+      "r2": 0.574,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.03,
@@ -164241,7 +164241,7 @@
       "rsAbove70": false,
       "passed": 3
     },
-    "sectorZScore": -0.19,
+    "sectorZScore": -0.18,
     "sectorRank": 45,
     "sectorCount": 83,
     "supportResistance": [
@@ -164328,8 +164328,8 @@
       "predicted": 37,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.522,
-      "r2": 0.372,
+      "slope": -0.579,
+      "r2": 0.447,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.05,
@@ -164813,9 +164813,9 @@
     "predictiveScore": {
       "predicted": 34,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": -0.248,
-      "r2": 0.21,
+      "confidence": "low",
+      "slope": -0.197,
+      "r2": 0.145,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.08,
@@ -165288,8 +165288,8 @@
       "predicted": 38,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.063,
-      "r2": 0.032,
+      "slope": -0.065,
+      "r2": 0.033,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.04,
@@ -165765,13 +165765,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 48,
+      "predicted": 45,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.117,
-      "r2": 0.171,
+      "slope": 0.112,
+      "r2": 0.157,
       "factors": {
-        "trendMomentum": 0.434,
+        "trendMomentum": 0.056,
         "meanReversion": 0.05,
         "technicalSupport": -0.1
       }
@@ -166268,8 +166268,8 @@
       "predicted": 46,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.105,
-      "r2": 0.051,
+      "slope": -0.101,
+      "r2": 0.048,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": -0.04,
@@ -166757,13 +166757,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 31,
+      "predicted": 30,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.007,
-      "r2": 0,
+      "slope": 0.026,
+      "r2": 0.005,
       "factors": {
-        "trendMomentum": -0.553,
+        "trendMomentum": -0.686,
         "meanReversion": 0.15,
         "technicalSupport": -0.033
       }
@@ -167250,13 +167250,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 51,
+      "predicted": 52,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.077,
-      "r2": 0.097,
+      "slope": 0.04,
+      "r2": 0.036,
       "factors": {
-        "trendMomentum": 0.566,
+        "trendMomentum": 0.798,
         "meanReversion": 0.04,
         "technicalSupport": -0.033
       }
@@ -167646,7 +167646,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -1.8,
+    "sectorZScore": -1.79,
     "sectorRank": 40,
     "sectorCount": 42,
     "supportResistance": [
@@ -167735,8 +167735,8 @@
       "predicted": 21,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.125,
-      "r2": 0.077,
+      "slope": -0.158,
+      "r2": 0.131,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.21,
@@ -168215,13 +168215,13 @@
     "chartPatterns": [],
     "themes": [],
     "predictiveScore": {
-      "predicted": 42,
+      "predicted": 44,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.174,
-      "r2": 0.236,
+      "slope": 0.154,
+      "r2": 0.203,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.765,
         "meanReversion": 0,
         "technicalSupport": 0.033
       }
@@ -168736,8 +168736,8 @@
       "predicted": 56,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.118,
-      "r2": 0.04,
+      "slope": -0.107,
+      "r2": 0.033,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": -0.15,
@@ -169131,7 +169131,7 @@
       "rsAbove70": true,
       "passed": 7
     },
-    "sectorZScore": 0.6,
+    "sectorZScore": 0.61,
     "sectorRank": 49,
     "sectorCount": 155,
     "supportResistance": [
@@ -169222,12 +169222,12 @@
     ],
     "predictiveScore": {
       "predicted": 61,
-      "direction": "improving",
+      "direction": "stable",
       "confidence": "medium",
-      "slope": 0.349,
-      "r2": 0.498,
+      "slope": 0.345,
+      "r2": 0.488,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.987,
         "meanReversion": -0.03,
         "technicalSupport": 0.033
       }
@@ -169653,7 +169653,7 @@
       "passed": 8
     },
     "sectorZScore": 1.31,
-    "sectorRank": 21,
+    "sectorRank": 20,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -169734,13 +169734,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 68,
+      "predicted": 63,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.535,
-      "r2": 0.643,
+      "slope": 0.487,
+      "r2": 0.57,
       "factors": {
-        "trendMomentum": 1,
+        "trendMomentum": 0.391,
         "meanReversion": -0.1,
         "technicalSupport": 0.067
       }
@@ -170125,7 +170125,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.9,
+    "sectorZScore": -0.89,
     "sectorRank": 127,
     "sectorCount": 155,
     "supportResistance": [
@@ -170187,8 +170187,8 @@
       "predicted": 46,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.064,
-      "r2": 0.033,
+      "slope": 0.107,
+      "r2": 0.093,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.12,
@@ -170568,8 +170568,8 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.1,
-    "sectorRank": 80,
+    "sectorZScore": -0.09,
+    "sectorRank": 79,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -170662,13 +170662,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 49,
+      "predicted": 50,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.035,
-      "r2": 0.011,
+      "slope": -0.019,
+      "r2": 0.003,
       "factors": {
-        "trendMomentum": 0.435,
+        "trendMomentum": 0.483,
         "meanReversion": 0.04,
         "technicalSupport": -0.1
       }
@@ -171059,7 +171059,7 @@
       "passed": 4
     },
     "sectorZScore": -0.87,
-    "sectorRank": 82,
+    "sectorRank": 81,
     "sectorCount": 108,
     "supportResistance": [
       {
@@ -171160,13 +171160,13 @@
     ],
     "themes": [],
     "predictiveScore": {
-      "predicted": 52,
+      "predicted": 50,
       "direction": "stable",
-      "confidence": "high",
-      "slope": 0.27,
-      "r2": 0.524,
+      "confidence": "medium",
+      "slope": 0.219,
+      "r2": 0.415,
       "factors": {
-        "trendMomentum": 0.848,
+        "trendMomentum": 0.484,
         "meanReversion": 0.05,
         "technicalSupport": 0.1
       }
@@ -171650,8 +171650,8 @@
       "predicted": 37,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.599,
-      "r2": 0.729,
+      "slope": -0.617,
+      "r2": 0.764,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.05,
@@ -172112,8 +172112,8 @@
       "predicted": 25,
       "direction": "declining",
       "confidence": "high",
-      "slope": -0.746,
-      "r2": 0.617,
+      "slope": -0.691,
+      "r2": 0.566,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.18,
@@ -172519,8 +172519,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.66,
-    "sectorRank": 64,
+    "sectorZScore": -0.65,
+    "sectorRank": 63,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -172598,9 +172598,9 @@
     "predictiveScore": {
       "predicted": 48,
       "direction": "stable",
-      "confidence": "high",
-      "slope": -0.525,
-      "r2": 0.547,
+      "confidence": "medium",
+      "slope": -0.48,
+      "r2": 0.49,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.1,
@@ -172940,7 +172940,7 @@
     },
     "bearishScore": 4,
     "bullishScore": 4,
-    "sentimentAvg": -0.011999999999999988,
+    "sentimentAvg": -0.011799999999999988,
     "score": {
       "priceMomentum": 35,
       "technicalSignals": 50,
@@ -172994,8 +172994,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.1,
-    "sectorRank": 72,
+    "sectorZScore": -0.09,
+    "sectorRank": 74,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -173090,8 +173090,8 @@
       "predicted": 54,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.35,
-      "r2": 0.403,
+      "slope": 0.373,
+      "r2": 0.432,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.04,
@@ -173431,15 +173431,15 @@
     },
     "bearishScore": 4,
     "bullishScore": 4,
-    "sentimentAvg": 0.132,
+    "sentimentAvg": 0.1612,
     "score": {
       "priceMomentum": 26,
       "technicalSignals": 50,
-      "newsSentiment": 57,
+      "newsSentiment": 58,
       "fundamentals": 80,
       "volumeTrend": 22,
       "riskInverse": 49,
-      "composite": 46
+      "composite": 47
     },
     "priceToBook": 5.771309,
     "pegRatio": 1.02,
@@ -173485,8 +173485,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.1,
-    "sectorRank": 73,
+    "sectorZScore": 0.01,
+    "sectorRank": 66,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -173589,14 +173589,14 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 54,
+      "predicted": 55,
       "direction": "improving",
-      "confidence": "medium",
-      "slope": 0.34,
-      "r2": 0.495,
+      "confidence": "high",
+      "slope": 0.362,
+      "r2": 0.521,
       "factors": {
         "trendMomentum": 1,
-        "meanReversion": 0.04,
+        "meanReversion": 0.03,
         "technicalSupport": -0.033
       }
     },
@@ -173926,11 +173926,11 @@
     },
     "bearishScore": 4,
     "bullishScore": 2,
-    "sentimentAvg": 0.040000000000000015,
+    "sentimentAvg": 0.1656,
     "score": {
       "priceMomentum": 20,
       "technicalSignals": 38,
-      "newsSentiment": 52,
+      "newsSentiment": 58,
       "fundamentals": 10,
       "volumeTrend": 21,
       "riskInverse": 36,
@@ -174054,10 +174054,10 @@
     ],
     "predictiveScore": {
       "predicted": 39,
-      "direction": "stable",
+      "direction": "improving",
       "confidence": "medium",
-      "slope": 0.27,
-      "r2": 0.271,
+      "slope": 0.314,
+      "r2": 0.354,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.2,
@@ -174390,15 +174390,15 @@
     },
     "bearishScore": 4,
     "bullishScore": 2,
-    "sentimentAvg": 0.168,
+    "sentimentAvg": -0.0032000000000000028,
     "score": {
       "priceMomentum": 22,
       "technicalSignals": 38,
-      "newsSentiment": 58,
+      "newsSentiment": 50,
       "fundamentals": 50,
       "volumeTrend": 21,
       "riskInverse": 38,
-      "composite": 37
+      "composite": 36
     },
     "priceToBook": 27.247543,
     "pegRatio": 4.27,
@@ -174444,8 +174444,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -1,
-    "sectorRank": 128,
+    "sectorZScore": -1.1,
+    "sectorRank": 134,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -174510,14 +174510,14 @@
       "Cloud Computing"
     ],
     "predictiveScore": {
-      "predicted": 45,
+      "predicted": 44,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.2,
-      "r2": 0.28,
+      "slope": 0.238,
+      "r2": 0.362,
       "factors": {
         "trendMomentum": 1,
-        "meanReversion": 0.13,
+        "meanReversion": 0.14,
         "technicalSupport": -0.033
       }
     },
@@ -174847,7 +174847,7 @@
     },
     "bearishScore": 4,
     "bullishScore": 2,
-    "sentimentAvg": 0.03200000000000001,
+    "sentimentAvg": 0.047599999999999996,
     "score": {
       "priceMomentum": 34,
       "technicalSignals": 38,
@@ -174901,8 +174901,8 @@
       "rsAbove70": false,
       "passed": 4
     },
-    "sectorZScore": -0.6,
-    "sectorRank": 102,
+    "sectorZScore": -0.59,
+    "sectorRank": 101,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -174969,8 +174969,8 @@
       "predicted": 50,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.14,
-      "r2": 0.101,
+      "slope": 0.19,
+      "r2": 0.179,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.09,
@@ -175303,15 +175303,15 @@
     },
     "bearishScore": 4,
     "bullishScore": 2,
-    "sentimentAvg": 0.21600000000000003,
+    "sentimentAvg": -0.0874,
     "score": {
       "priceMomentum": 41,
       "technicalSignals": 38,
-      "newsSentiment": 61,
+      "newsSentiment": 46,
       "fundamentals": 0,
       "volumeTrend": 7,
       "riskInverse": 62,
-      "composite": 36
+      "composite": 33
     },
     "priceToBook": -108.945946,
     "pegRatio": 0.56,
@@ -175357,8 +175357,8 @@
       "rsAbove70": false,
       "passed": 3
     },
-    "sectorZScore": -1.04,
-    "sectorRank": 74,
+    "sectorZScore": -1.31,
+    "sectorRank": 76,
     "sectorCount": 83,
     "supportResistance": [
       {
@@ -175456,14 +175456,14 @@
       "Biotech & Pharma"
     ],
     "predictiveScore": {
-      "predicted": 28,
+      "predicted": 26,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.375,
-      "r2": 0.268,
+      "slope": -0.415,
+      "r2": 0.322,
       "factors": {
         "trendMomentum": -1,
-        "meanReversion": 0.14,
+        "meanReversion": 0.17,
         "technicalSupport": -0.033
       }
     },
@@ -175793,11 +175793,11 @@
     },
     "bearishScore": 4,
     "bullishScore": 2,
-    "sentimentAvg": 0.015999999999999997,
+    "sentimentAvg": 0.078,
     "score": {
       "priceMomentum": 47,
       "technicalSignals": 38,
-      "newsSentiment": 51,
+      "newsSentiment": 54,
       "fundamentals": 70,
       "volumeTrend": 13,
       "riskInverse": 65,
@@ -175963,8 +175963,8 @@
       "predicted": 39,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.056,
-      "r2": 0.009,
+      "slope": -0.093,
+      "r2": 0.024,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.03,
@@ -176449,8 +176449,8 @@
       "predicted": 58,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.117,
-      "r2": 0.053,
+      "slope": 0.128,
+      "r2": 0.063,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0,
@@ -176849,7 +176849,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": 0.4,
+    "sectorZScore": 0.41,
     "sectorRank": 55,
     "sectorCount": 155,
     "supportResistance": [
@@ -176922,10 +176922,10 @@
     ],
     "predictiveScore": {
       "predicted": 59,
-      "direction": "stable",
+      "direction": "improving",
       "confidence": "high",
-      "slope": 0.4,
-      "r2": 0.569,
+      "slope": 0.419,
+      "r2": 0.573,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.01,
@@ -177258,15 +177258,15 @@
     },
     "bearishScore": 4,
     "bullishScore": 2,
-    "sentimentAvg": 0.20800000000000002,
+    "sentimentAvg": 0.11200000000000002,
     "score": {
       "priceMomentum": 25,
       "technicalSignals": 38,
-      "newsSentiment": 60,
+      "newsSentiment": 56,
       "fundamentals": 50,
       "volumeTrend": 20,
       "riskInverse": 44,
-      "composite": 39
+      "composite": 38
     },
     "priceToBook": 1.9779559,
     "pegRatio": null,
@@ -177312,8 +177312,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.8,
-    "sectorRank": 115,
+    "sectorZScore": -0.89,
+    "sectorRank": 119,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -177376,14 +177376,14 @@
       "AI & Machine Learning"
     ],
     "predictiveScore": {
-      "predicted": 48,
+      "predicted": 47,
       "direction": "improving",
       "confidence": "high",
-      "slope": 0.404,
-      "r2": 0.674,
+      "slope": 0.403,
+      "r2": 0.673,
       "factors": {
         "trendMomentum": 1,
-        "meanReversion": 0.11,
+        "meanReversion": 0.12,
         "technicalSupport": 0.033
       }
     },
@@ -177774,7 +177774,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": 0.09,
+    "sectorZScore": 0.1,
     "sectorRank": 41,
     "sectorCount": 83,
     "supportResistance": [
@@ -177844,8 +177844,8 @@
       "predicted": 40,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.025,
-      "r2": 0.003,
+      "slope": 0.058,
+      "r2": 0.014,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.02,
@@ -178239,8 +178239,8 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.8,
-    "sectorRank": 118,
+    "sectorZScore": -0.79,
+    "sectorRank": 117,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -178309,8 +178309,8 @@
       "predicted": 48,
       "direction": "improving",
       "confidence": "high",
-      "slope": 0.326,
-      "r2": 0.775,
+      "slope": 0.315,
+      "r2": 0.773,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.11,
@@ -178709,7 +178709,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.9,
+    "sectorZScore": -0.89,
     "sectorRank": 120,
     "sectorCount": 155,
     "supportResistance": [
@@ -178776,13 +178776,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 41,
+      "predicted": 44,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.353,
-      "r2": 0.354,
+      "slope": 0.316,
+      "r2": 0.32,
       "factors": {
-        "trendMomentum": 0.19,
+        "trendMomentum": 0.627,
         "meanReversion": 0.12,
         "technicalSupport": 0.1
       }
@@ -179167,8 +179167,8 @@
       "rsAbove70": false,
       "passed": 4
     },
-    "sectorZScore": -0.2,
-    "sectorRank": 83,
+    "sectorZScore": -0.19,
+    "sectorRank": 81,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -179263,10 +179263,10 @@
       "predicted": 37,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.043,
-      "r2": 0.015,
+      "slope": -0.039,
+      "r2": 0.011,
       "factors": {
-        "trendMomentum": -0.983,
+        "trendMomentum": -1,
         "meanReversion": 0.05,
         "technicalSupport": -0.1
       }
@@ -179784,8 +179784,8 @@
       "predicted": 69,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.318,
-      "r2": 0.328,
+      "slope": 0.35,
+      "r2": 0.367,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.12,
@@ -180249,8 +180249,8 @@
       "predicted": 44,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.481,
-      "r2": 0.481,
+      "slope": 0.491,
+      "r2": 0.491,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.14,
@@ -180644,7 +180644,7 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -0.57,
+    "sectorZScore": -0.56,
     "sectorRank": 55,
     "sectorCount": 83,
     "supportResistance": [
@@ -180715,8 +180715,8 @@
       "predicted": 49,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.042,
-      "r2": 0.015,
+      "slope": 0.02,
+      "r2": 0.003,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.09,
@@ -181103,7 +181103,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -0.38,
+    "sectorZScore": -0.37,
     "sectorRank": 50,
     "sectorCount": 83,
     "supportResistance": [
@@ -181207,13 +181207,13 @@
       "Healthcare"
     ],
     "predictiveScore": {
-      "predicted": 35,
+      "predicted": 37,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": -0.191,
-      "r2": 0.265,
+      "confidence": "low",
+      "slope": -0.16,
+      "r2": 0.189,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.714,
         "meanReversion": 0.07,
         "technicalSupport": -0.033
       }
@@ -181703,13 +181703,13 @@
       "Industrials"
     ],
     "predictiveScore": {
-      "predicted": 51,
+      "predicted": 48,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.164,
-      "r2": 0.202,
+      "slope": 0.17,
+      "r2": 0.216,
       "factors": {
-        "trendMomentum": -0.036,
+        "trendMomentum": -0.363,
         "meanReversion": 0,
         "technicalSupport": 0.233
       }
@@ -182198,13 +182198,13 @@
       "Industrials"
     ],
     "predictiveScore": {
-      "predicted": 49,
+      "predicted": 47,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.259,
-      "r2": 0.31,
+      "slope": 0.206,
+      "r2": 0.214,
       "factors": {
-        "trendMomentum": -0.774,
+        "trendMomentum": -1,
         "meanReversion": -0.05,
         "technicalSupport": 0.067
       }
@@ -182669,8 +182669,8 @@
       "predicted": 60,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.239,
-      "r2": 0.118,
+      "slope": 0.231,
+      "r2": 0.112,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.03,
@@ -183069,7 +183069,7 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": 0.1,
+    "sectorZScore": 0.11,
     "sectorRank": 27,
     "sectorCount": 60,
     "supportResistance": [
@@ -183161,13 +183161,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 54,
+      "predicted": 52,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.462,
-      "r2": 0.714,
+      "slope": 0.435,
+      "r2": 0.678,
       "factors": {
-        "trendMomentum": 0.544,
+        "trendMomentum": 0.27,
         "meanReversion": 0,
         "technicalSupport": -0.033
       }
@@ -183624,10 +183624,10 @@
       "predicted": 43,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.156,
-      "r2": 0.261,
+      "slope": 0.154,
+      "r2": 0.256,
       "factors": {
-        "trendMomentum": 0.758,
+        "trendMomentum": 0.705,
         "meanReversion": 0.14,
         "technicalSupport": 0.1
       }
@@ -184119,8 +184119,8 @@
       "predicted": 55,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.629,
-      "r2": 0.725,
+      "slope": 0.577,
+      "r2": 0.674,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.03,
@@ -184578,13 +184578,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 39,
+      "predicted": 42,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.101,
-      "r2": 0.147,
+      "slope": 0.111,
+      "r2": 0.169,
       "factors": {
-        "trendMomentum": 0.226,
+        "trendMomentum": 0.706,
         "meanReversion": 0.14,
         "technicalSupport": 0.033
       }
@@ -184981,8 +184981,8 @@
       "rsAbove70": false,
       "passed": 2
     },
-    "sectorZScore": -1,
-    "sectorRank": 131,
+    "sectorZScore": -0.99,
+    "sectorRank": 130,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -185053,13 +185053,13 @@
       "Cybersecurity"
     ],
     "predictiveScore": {
-      "predicted": 34,
+      "predicted": 35,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.13,
-      "r2": 0.142,
+      "slope": -0.071,
+      "r2": 0.053,
       "factors": {
-        "trendMomentum": -0.48,
+        "trendMomentum": -0.367,
         "meanReversion": 0.13,
         "technicalSupport": 0.033
       }
@@ -185451,8 +185451,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.3,
-    "sectorRank": 91,
+    "sectorZScore": -0.29,
+    "sectorRank": 92,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -185522,10 +185522,10 @@
     ],
     "predictiveScore": {
       "predicted": 52,
-      "direction": "improving",
+      "direction": "stable",
       "confidence": "high",
-      "slope": 0.507,
-      "r2": 0.62,
+      "slope": 0.477,
+      "r2": 0.585,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.06,
@@ -185994,8 +185994,8 @@
       "predicted": 42,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.118,
-      "r2": 0.083,
+      "slope": 0.156,
+      "r2": 0.134,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.16,
@@ -186488,13 +186488,13 @@
       "Consumer Staples"
     ],
     "predictiveScore": {
-      "predicted": 45,
+      "predicted": 43,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.295,
-      "r2": 0.322,
+      "slope": -0.26,
+      "r2": 0.276,
       "factors": {
-        "trendMomentum": 0.25,
+        "trendMomentum": 0.039,
         "meanReversion": 0.07,
         "technicalSupport": -0.033
       }
@@ -186980,10 +186980,10 @@
     ],
     "predictiveScore": {
       "predicted": 35,
-      "direction": "stable",
+      "direction": "declining",
       "confidence": "medium",
-      "slope": -0.26,
-      "r2": 0.217,
+      "slope": -0.348,
+      "r2": 0.351,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.07,
@@ -187472,8 +187472,8 @@
       "predicted": 40,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.079,
-      "r2": 0.038,
+      "slope": -0.083,
+      "r2": 0.042,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.02,
@@ -187921,13 +187921,13 @@
       "Industrials"
     ],
     "predictiveScore": {
-      "predicted": 39,
+      "predicted": 44,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.12,
-      "r2": 0.049,
+      "slope": -0.113,
+      "r2": 0.043,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.349,
         "meanReversion": 0.04,
         "technicalSupport": 0.1
       }
@@ -188415,13 +188415,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 55,
+      "predicted": 61,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.156,
-      "r2": 0.177,
+      "slope": 0.157,
+      "r2": 0.178,
       "factors": {
-        "trendMomentum": -0.013,
+        "trendMomentum": 0.72,
         "meanReversion": -0.06,
         "technicalSupport": -0.033
       }
@@ -188903,8 +188903,8 @@
       "predicted": 53,
       "direction": "improving",
       "confidence": "medium",
-      "slope": 0.307,
-      "r2": 0.422,
+      "slope": 0.331,
+      "r2": 0.473,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.05,
@@ -189383,9 +189383,9 @@
     "predictiveScore": {
       "predicted": 36,
       "direction": "stable",
-      "confidence": "low",
-      "slope": -0.136,
-      "r2": 0.11,
+      "confidence": "medium",
+      "slope": -0.18,
+      "r2": 0.211,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.06,
@@ -189829,13 +189829,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 46,
+      "predicted": 47,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.089,
-      "r2": 0.053,
+      "slope": 0.113,
+      "r2": 0.08,
       "factors": {
-        "trendMomentum": 0.947,
+        "trendMomentum": 1,
         "meanReversion": 0.12,
         "technicalSupport": 0.033
       }
@@ -190327,8 +190327,8 @@
       "predicted": 61,
       "direction": "stable",
       "confidence": "medium",
-      "slope": 0.243,
-      "r2": 0.35,
+      "slope": 0.248,
+      "r2": 0.354,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.03,
@@ -190838,13 +190838,13 @@
       "Real Estate"
     ],
     "predictiveScore": {
-      "predicted": 44,
+      "predicted": 45,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.073,
-      "r2": 0.401,
+      "slope": -0.066,
+      "r2": 0.355,
       "factors": {
-        "trendMomentum": -0.159,
+        "trendMomentum": -0.083,
         "meanReversion": 0.06,
         "technicalSupport": 0.2
       }
@@ -191236,7 +191236,7 @@
       "rsAbove70": false,
       "passed": 5
     },
-    "sectorZScore": 0.98,
+    "sectorZScore": 0.97,
     "sectorRank": 18,
     "sectorCount": 108,
     "supportResistance": [
@@ -191336,10 +191336,10 @@
       "predicted": 59,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.058,
-      "r2": 0.018,
+      "slope": 0.03,
+      "r2": 0.005,
       "factors": {
-        "trendMomentum": -0.276,
+        "trendMomentum": -0.212,
         "meanReversion": -0.12,
         "technicalSupport": -0.1
       }
@@ -191827,8 +191827,8 @@
       "predicted": 59,
       "direction": "improving",
       "confidence": "high",
-      "slope": 0.499,
-      "r2": 0.664,
+      "slope": 0.497,
+      "r2": 0.662,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": -0.01,
@@ -192215,7 +192215,7 @@
       "rsAbove70": false,
       "passed": 1
     },
-    "sectorZScore": -2.28,
+    "sectorZScore": -2.27,
     "sectorRank": 107,
     "sectorCount": 108,
     "supportResistance": [
@@ -192311,8 +192311,8 @@
       "predicted": 41,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.059,
-      "r2": 0.043,
+      "slope": 0.02,
+      "r2": 0.006,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.18,
@@ -192699,7 +192699,7 @@
       "rsAbove70": false,
       "passed": 3
     },
-    "sectorZScore": -2.07,
+    "sectorZScore": -2.05,
     "sectorRank": 106,
     "sectorCount": 108,
     "supportResistance": [
@@ -192794,8 +192794,8 @@
       "predicted": 26,
       "direction": "declining",
       "confidence": "medium",
-      "slope": -0.479,
-      "r2": 0.316,
+      "slope": -0.54,
+      "r2": 0.376,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.16,
@@ -193182,8 +193182,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.6,
-    "sectorRank": 110,
+    "sectorZScore": -0.59,
+    "sectorRank": 109,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -193282,10 +193282,10 @@
     ],
     "predictiveScore": {
       "predicted": 49,
-      "direction": "improving",
+      "direction": "stable",
       "confidence": "high",
-      "slope": 0.445,
-      "r2": 0.71,
+      "slope": 0.456,
+      "r2": 0.73,
       "factors": {
         "trendMomentum": 1,
         "meanReversion": 0.09,
@@ -193766,10 +193766,10 @@
     ],
     "predictiveScore": {
       "predicted": 40,
-      "direction": "declining",
+      "direction": "stable",
       "confidence": "high",
-      "slope": -0.67,
-      "r2": 0.619,
+      "slope": -0.693,
+      "r2": 0.657,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.02,
@@ -194247,8 +194247,8 @@
       "predicted": 41,
       "direction": "stable",
       "confidence": "medium",
-      "slope": -0.286,
-      "r2": 0.391,
+      "slope": -0.226,
+      "r2": 0.282,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0.01,
@@ -194729,8 +194729,8 @@
       "predicted": 42,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.204,
-      "r2": 0.188,
+      "slope": -0.176,
+      "r2": 0.138,
       "factors": {
         "trendMomentum": -1,
         "meanReversion": 0,
@@ -195220,13 +195220,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 35,
+      "predicted": 36,
       "direction": "stable",
-      "confidence": "medium",
-      "slope": -0.18,
-      "r2": 0.214,
+      "confidence": "low",
+      "slope": -0.144,
+      "r2": 0.14,
       "factors": {
-        "trendMomentum": -1,
+        "trendMomentum": -0.883,
         "meanReversion": 0.07,
         "technicalSupport": -0.033
       }
@@ -195704,13 +195704,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 41,
+      "predicted": 47,
       "direction": "stable",
-      "confidence": "high",
-      "slope": -0.413,
-      "r2": 0.546,
+      "confidence": "medium",
+      "slope": -0.321,
+      "r2": 0.421,
       "factors": {
-        "trendMomentum": 0.076,
+        "trendMomentum": 0.793,
         "meanReversion": 0.1,
         "technicalSupport": -0.033
       }
@@ -196100,8 +196100,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.1,
-    "sectorRank": 78,
+    "sectorZScore": -0.09,
+    "sectorRank": 77,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -196195,13 +196195,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 49,
+      "predicted": 54,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.032,
-      "r2": 0.006,
+      "slope": 0.013,
+      "r2": 0.001,
       "factors": {
-        "trendMomentum": 0.428,
+        "trendMomentum": 1,
         "meanReversion": 0.04,
         "technicalSupport": -0.033
       }
@@ -196690,13 +196690,13 @@
       "Industrials"
     ],
     "predictiveScore": {
-      "predicted": 39,
+      "predicted": 38,
       "direction": "stable",
       "confidence": "low",
-      "slope": 0.049,
-      "r2": 0.011,
+      "slope": -0.019,
+      "r2": 0.002,
       "factors": {
-        "trendMomentum": -0.826,
+        "trendMomentum": -1,
         "meanReversion": 0.04,
         "technicalSupport": -0.033
       }
@@ -197186,13 +197186,13 @@
       "Consumer"
     ],
     "predictiveScore": {
-      "predicted": 51,
+      "predicted": 50,
       "direction": "stable",
       "confidence": "low",
-      "slope": -0.034,
-      "r2": 0.008,
+      "slope": -0.041,
+      "r2": 0.011,
       "factors": {
-        "trendMomentum": 0.108,
+        "trendMomentum": 0.075,
         "meanReversion": 0,
         "technicalSupport": -0.033
       }
@@ -197577,8 +197577,8 @@
       "rsAbove70": false,
       "passed": 0
     },
-    "sectorZScore": -0.3,
-    "sectorRank": 96,
+    "sectorZScore": -0.29,
+    "sectorRank": 97,
     "sectorCount": 155,
     "supportResistance": [
       {
@@ -197644,13 +197644,13 @@
       "Tech"
     ],
     "predictiveScore": {
-      "predicted": 49,
+      "predicted": 48,
       "direction": "stable",
       "confidence": "high",
-      "slope": 0.415,
-      "r2": 0.505,
+      "slope": 0.42,
+      "r2": 0.511,
       "factors": {
-        "trendMomentum": 0.595,
+        "trendMomentum": 0.462,
         "meanReversion": 0.06,
         "technicalSupport": -0.033
       }
