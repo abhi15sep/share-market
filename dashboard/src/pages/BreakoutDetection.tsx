@@ -100,6 +100,27 @@ export default function BreakoutDetection({ stocks }: { stocks: StockRecord[] })
         </details>
       </div>
 
+      {/* How to use */}
+      <div className="card p-4 bg-accent/5 border-accent/15">
+        <details className="group">
+          <summary className="flex items-center gap-2 cursor-pointer text-sm font-medium t-secondary select-none">
+            <span className="text-xs t-muted group-open:rotate-90 transition-transform">&#9654;</span>
+            How to use this page
+          </summary>
+          <div className="mt-3 text-sm t-muted space-y-2">
+            <ul className="list-disc list-inside space-y-1.5 ml-1">
+              <li><strong className="t-secondary">Bollinger Squeeze alone</strong> — this is the setup stage, not the signal. The squeeze can last days or weeks. Wait for volume or OBV confirmation before acting.</li>
+              <li><strong className="t-secondary">Above Upper Band + Strong Volume</strong> — confirmed breakout, highest conviction. This is the entry signal.</li>
+              <li><strong className="t-secondary">Extended RSI badge (RSI &gt;80)</strong> — the move is already extended; wait for a pullback to the breakout level rather than chasing.</li>
+              <li><strong className="t-secondary">Sort by Volume Ratio</strong> — puts the most volume-confirmed breakouts first; filter Vol Ratio 1.5x+ to remove low-conviction setups.</li>
+            </ul>
+            <p className="text-xs pt-2 border-t border-surface-border">
+              <strong>Best setup:</strong> Bollinger Squeeze → price breaks Above Upper Band → Volume Ratio &gt;2x → OBV Rising. All four together is rare but very high probability. Set a stop just below the breakout candle&apos;s low.
+            </p>
+          </div>
+        </details>
+      </div>
+
       {/* Filters */}
       <div className="card p-3">
         <div className="flex flex-wrap gap-2 items-center">

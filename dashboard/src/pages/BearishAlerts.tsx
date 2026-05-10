@@ -78,6 +78,28 @@ export default function BearishAlerts({ alerts }: { alerts: StockRecord[] }) {
         </details>
       </div>
 
+      {/* How to use */}
+      <div className="card p-4 bg-bearish/5 border-bearish/15">
+        <details className="group">
+          <summary className="flex items-center gap-2 cursor-pointer text-sm font-medium t-secondary select-none">
+            <span className="text-xs t-muted group-open:rotate-90 transition-transform">&#9654;</span>
+            How to use this page
+          </summary>
+          <div className="mt-3 text-sm t-muted space-y-2">
+            <p><strong className="t-secondary">Primary use:</strong> check stocks you already own or are watching before adding to a position or ahead of earnings.</p>
+            <ul className="list-disc list-inside space-y-1 ml-1">
+              <li><strong className="t-secondary">Score 4–5</strong> — mild caution; don&apos;t add more, monitor closely</li>
+              <li><strong className="t-secondary">Score 6–7</strong> — consider reducing or hedging your position</li>
+              <li><strong className="t-secondary">Score 8+</strong> — multiple strong signals aligned; act on your thesis or reduce exposure</li>
+            </ul>
+            <p>The strongest combination is <strong className="t-secondary">RSI overbought (&gt;70) + Death Cross + declining OBV</strong> — all three together rarely produce false signals.</p>
+            <p className="text-xs pt-2 border-t border-surface-border">
+              <strong>Important:</strong> A high bearish score is not a sell signal in isolation. Always check recent news, upcoming earnings, and whether the sector itself is rotating out. Sort by <strong>Highest RSI</strong> to quickly find the most extended stocks.
+            </p>
+          </div>
+        </details>
+      </div>
+
       {/* Filters */}
       <div className="card p-3">
         <div className="flex flex-wrap gap-2 items-center">

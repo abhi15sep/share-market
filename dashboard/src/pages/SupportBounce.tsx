@@ -148,6 +148,28 @@ export default function SupportBounce({ stocks }: { stocks: StockRecord[] }) {
         </details>
       </div>
 
+      {/* How to use */}
+      <div className="card p-4 bg-accent/5 border-accent/15">
+        <details className="group">
+          <summary className="flex items-center gap-2 cursor-pointer text-sm font-medium t-secondary select-none">
+            <span className="text-xs t-muted group-open:rotate-90 transition-transform">&#9654;</span>
+            How to use this page
+          </summary>
+          <div className="mt-3 text-sm t-muted space-y-2">
+            <ol className="list-decimal list-inside space-y-1.5 ml-1">
+              <li><strong className="t-secondary">Set Min R/R to 2:1+</strong> — below 2:1 the potential reward doesn&apos;t justify the risk of a support break</li>
+              <li><strong className="t-secondary">Sort by Closest to Support</strong> — tightest entries with the smallest stop loss below support</li>
+              <li><strong className="t-secondary">Prioritise Strong Support</strong> — levels with 10+ touches are historically the most reliable; 3–5 touches are tentative</li>
+              <li><strong className="t-secondary">Confirm with RSI</strong> — RSI 30–45 means momentum has cooled without breaking; below 30 adds urgency but also risk</li>
+              <li><strong className="t-secondary">Wait for a confirmation candle</strong> — never buy on approach alone. A hammer or bullish engulfing candle on or near the support level is your entry trigger</li>
+            </ol>
+            <p className="text-xs pt-2 border-t border-surface-border">
+              <strong>Best setup:</strong> 10+ touch support + RSI 35–45 + R/R &ge;2:1 + No Panic Selling (OBV OK) + bullish candle on the level. Stop goes just below the support price.
+            </p>
+          </div>
+        </details>
+      </div>
+
       {/* Filters */}
       <div className="card p-3">
         <div className="flex flex-wrap gap-2 items-center">

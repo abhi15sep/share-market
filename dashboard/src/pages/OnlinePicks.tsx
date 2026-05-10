@@ -363,6 +363,18 @@ export default function OnlinePicks({ stocks, onlinePicks }: Props) {
               <span className="text-accent-light font-medium"> 50–69</span> is moderate,
               <span className="text-bearish font-medium"> below 30</span> is weak.
             </div>
+
+            {/* How to use */}
+            <div className="border-t border-surface-border pt-3">
+              <p className="text-xs font-semibold t-muted uppercase tracking-wider mb-2">How to use this page</p>
+              <ol className="list-decimal list-inside space-y-1.5 text-xs t-muted ml-1">
+                <li><strong className="t-secondary">Start with the Suggested Top 20</strong> — these are ranked by a weighted conviction score. Analyst Strong Buy &gt; Broker Buy &gt; Community mention.</li>
+                <li><strong className="t-secondary">Filter Source to Analyst or Broker</strong> — these are research-backed calls. Community signals alone carry less weight and lag institutional moves.</li>
+                <li><strong className="t-secondary">Check the date</strong> — picks older than 2 weeks may already be priced in. Sort by newest first for timely signals.</li>
+                <li><strong className="t-secondary">Multiple sources on the same ticker</strong> — if a stock appears from analyst, broker, and community simultaneously, that&apos;s strong convergence.</li>
+                <li><strong className="t-secondary">Cross-reference other pages</strong> — a stock in Online Picks + Buy the Dip or Support Bounce is a high-confidence setup.</li>
+              </ol>
+            </div>
           </div>
         )}
       </div>

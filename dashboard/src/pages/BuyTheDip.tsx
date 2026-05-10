@@ -103,6 +103,28 @@ export default function BuyTheDip({ stocks }: { stocks: StockRecord[] }) {
         </details>
       </div>
 
+      {/* How to use */}
+      <div className="card p-4 bg-bullish/5 border-bullish/15">
+        <details className="group">
+          <summary className="flex items-center gap-2 cursor-pointer text-sm font-medium t-secondary select-none">
+            <span className="text-xs t-muted group-open:rotate-90 transition-transform">&#9654;</span>
+            How to use this page
+          </summary>
+          <div className="mt-3 text-sm t-muted space-y-2">
+            <ol className="list-decimal list-inside space-y-1.5 ml-1">
+              <li><strong className="t-secondary">Raise Min Score to 3+</strong> — at 2+ you get too many marginal candidates; 3+ filters to stocks with real conviction</li>
+              <li><strong className="t-secondary">Pick your market</strong> — start with US or a single market you know before expanding globally</li>
+              <li><strong className="t-secondary">Sort by Lowest RSI</strong> — most technically oversold stocks first; RSI &lt;30 is the strongest reading</li>
+              <li><strong className="t-secondary">Check the volume ratio</strong> — amber/red volume means heavy selling (distribution), not capitulation; prefer low-volume dips where smart money is accumulating</li>
+              <li><strong className="t-secondary">Sharp Drop badge?</strong> — always check the news first before buying; it may be falling on a fundamental issue, not just sentiment</li>
+            </ol>
+            <p className="text-xs pt-2 border-t border-surface-border">
+              <strong>Best setup:</strong> RSI &lt;30 + OBV Bullish Divergence + Near Bollinger Lower + low volume ratio = highest-conviction dip. Cross-reference with Support Bounce to confirm it&apos;s at a tested level.
+            </p>
+          </div>
+        </details>
+      </div>
+
       {/* Filters */}
       <div className="card p-3">
         <div className="flex flex-wrap gap-2 items-center">
