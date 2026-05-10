@@ -42,13 +42,30 @@ export default function Overview({ stocks, summary, metadata, bearishCount, macr
         ? summary.topMidCap
         : summary.topSmallCap;
 
-  const usCount = stocks.filter(s => s.market === 'US').length;
-  const ukCount = stocks.filter(s => s.market === 'UK').length;
-  const avgChange = stocks.length
-    ? stocks.reduce((a, s) => a + s.changePercent, 0) / stocks.length
-    : 0;
+  const MARKETS = ['US', 'UK', 'JP', 'HK', 'IN', 'DE', 'FR'] as const;
+  const marketCounts = Object.fromEntries(MARKETS.map(m => [m, stocks.filter(s => s.market === m).length]));
+
+  // Median change — resistant to outliers
+  const sortedChanges = [...stocks.map(s => s.changePercent)].sort((a, b) => a - b);
+  const mid = Math.floor(sortedChanges.length / 2);
+  const medianChange = sortedChanges.length % 2 !== 0
+    ? sortedChanges[mid]
+    : (sortedChanges[mid - 1] + sortedChanges[mid]) / 2;
+
   const bullishCount = stocks.filter(s => s.score.composite >= 60).length;
   const regime = metadata?.marketRegime ?? null;
+
+  // Score distribution buckets
+  const scoreDistribution = [
+    { label: '70–100', count: stocks.filter(s => s.score.composite >= 70).length,  color: 'bg-bullish'    },
+    { label: '50–69',  count: stocks.filter(s => s.score.composite >= 50 && s.score.composite < 70).length, color: 'bg-amber-500' },
+    { label: '0–49',   count: stocks.filter(s => s.score.composite < 50).length,   color: 'bg-bearish'    },
+  ];
+
+  // Top movers
+  const sortedByChange = [...stocks].filter(s => Math.abs(s.changePercent) < 30); // exclude extreme outliers
+  const topGainers = [...sortedByChange].sort((a, b) => b.changePercent - a.changePercent).slice(0, 5);
+  const topLosers  = [...sortedByChange].sort((a, b) => a.changePercent - b.changePercent).slice(0, 5);
 
   return (
     <div className="space-y-8">
@@ -69,7 +86,7 @@ export default function Overview({ stocks, summary, metadata, bearishCount, macr
         <StatCard
           label="Total Stocks"
           value={summary.totalStocks.toString()}
-          sub={`${usCount} US / ${ukCount} UK`}
+          sub={`${marketCounts['US']} US · ${marketCounts['UK']} UK · ${marketCounts['JP']} JP`}
           gradient="from-accent/20 to-transparent"
           borderColor="border-t-accent"
         />
@@ -82,10 +99,10 @@ export default function Overview({ stocks, summary, metadata, bearishCount, macr
         />
         <StatCard
           label="Avg Change"
-          value={`${avgChange >= 0 ? '+' : ''}${avgChange.toFixed(2)}%`}
-          sub="Today's average"
-          gradient={avgChange >= 0 ? 'from-bullish/20 to-transparent' : 'from-bearish/20 to-transparent'}
-          borderColor={avgChange >= 0 ? 'border-t-bullish' : 'border-t-bearish'}
+          value={`${medianChange >= 0 ? '+' : ''}${medianChange.toFixed(2)}%`}
+          sub="Median today"
+          gradient={medianChange >= 0 ? 'from-bullish/20 to-transparent' : 'from-bearish/20 to-transparent'}
+          borderColor={medianChange >= 0 ? 'border-t-bullish' : 'border-t-bearish'}
         />
         <Link to="/bearish">
           <StatCard
@@ -120,27 +137,31 @@ export default function Overview({ stocks, summary, metadata, bearishCount, macr
           </div>
         </div>
         <div className="card-flat overflow-hidden">
-          {topByTab.map((s, i) => (
-            <Link
-              key={s.ticker}
-              to={`/stock/${s.ticker}`}
-              className="flex items-center justify-between px-4 py-3 hover:bg-surface-hover transition-colors border-b border-surface-border last:border-b-0"
-            >
-              <div className="flex items-center gap-4">
-                <span className="w-7 h-7 rounded-full bg-surface-tertiary flex items-center justify-center text-xs font-bold t-tertiary">
-                  {i + 1}
-                </span>
-                <div>
-                  <div className="flex items-center gap-2">
-                    <span className="font-semibold t-primary">{s.ticker}</span>
-                    <MarketTag market={s.market} />
+          {topByTab.map((s, i) => {
+            const liveStock = stocks.find(st => st.ticker === s.ticker);
+            return (
+              <Link
+                key={s.ticker}
+                to={`/stock/${s.ticker}`}
+                className="flex items-center justify-between px-4 py-3 hover:bg-surface-hover transition-colors border-b border-surface-border last:border-b-0"
+              >
+                <div className="flex items-center gap-4">
+                  <span className="w-7 h-7 rounded-full bg-surface-tertiary flex items-center justify-center text-xs font-bold t-tertiary">{i + 1}</span>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <span className="font-semibold t-primary">{s.ticker}</span>
+                      <MarketTag market={s.market} />
+                    </div>
+                    <span className="text-xs t-muted">{s.name}</span>
                   </div>
-                  <span className="text-xs t-muted">{s.name}</span>
                 </div>
-              </div>
-              <ScoreBadge score={s.score} />
-            </Link>
-          ))}
+                <div className="flex items-center gap-3">
+                  {liveStock && <ChangePercent value={liveStock.changePercent} />}
+                  <ScoreBadge score={s.score} />
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
@@ -151,46 +172,116 @@ export default function Overview({ stocks, summary, metadata, bearishCount, macr
           <p className="text-sm t-muted mt-0.5">Lowest composite scores — exercise caution</p>
         </div>
         <div className="card-flat overflow-hidden">
-          {summary.bottomOverall.map((s, i) => (
-            <Link
-              key={s.ticker}
-              to={`/stock/${s.ticker}`}
-              className="flex items-center justify-between px-4 py-3 hover:bg-surface-hover transition-colors border-b border-surface-border last:border-b-0"
-            >
-              <div className="flex items-center gap-4">
-                <span className="w-7 h-7 rounded-full bg-bearish/10 flex items-center justify-center text-xs font-bold text-bearish">
-                  {i + 1}
-                </span>
-                <div>
-                  <div className="flex items-center gap-2">
-                    <span className="font-semibold t-primary">{s.ticker}</span>
-                    <MarketTag market={s.market} />
+          {summary.bottomOverall.map((s, i) => {
+            const liveStock = stocks.find(st => st.ticker === s.ticker);
+            return (
+              <Link
+                key={s.ticker}
+                to={`/stock/${s.ticker}`}
+                className="flex items-center justify-between px-4 py-3 hover:bg-surface-hover transition-colors border-b border-surface-border last:border-b-0"
+              >
+                <div className="flex items-center gap-4">
+                  <span className="w-7 h-7 rounded-full bg-bearish/10 flex items-center justify-center text-xs font-bold text-bearish">{i + 1}</span>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <span className="font-semibold t-primary">{s.ticker}</span>
+                      <MarketTag market={s.market} />
+                    </div>
+                    <span className="text-xs t-muted">{s.name}</span>
                   </div>
-                  <span className="text-xs t-muted">{s.name}</span>
                 </div>
-              </div>
-              <ScoreBadge score={s.score} />
-            </Link>
-          ))}
+                <div className="flex items-center gap-3">
+                  {liveStock && <ChangePercent value={liveStock.changePercent} />}
+                  <ScoreBadge score={s.score} />
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* Top Movers Today */}
+      <section className="grid md:grid-cols-2 gap-4">
+        <div>
+          <h2 className="text-lg font-semibold t-primary mb-1">Top Gainers Today</h2>
+          <p className="text-sm t-muted mb-3">Largest % gains (outliers excluded)</p>
+          <div className="card-flat overflow-hidden">
+            {topGainers.map((s, i) => (
+              <Link key={s.ticker} to={`/stock/${s.ticker}`} className="flex items-center justify-between px-4 py-2.5 hover:bg-surface-hover transition-colors border-b border-surface-border last:border-b-0">
+                <div className="flex items-center gap-3">
+                  <span className="w-6 h-6 rounded-full bg-bullish/10 flex items-center justify-center text-xs font-bold text-bullish">{i + 1}</span>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <span className="font-semibold t-primary text-sm">{s.ticker}</span>
+                      <MarketTag market={s.market} />
+                    </div>
+                    <span className="text-xs t-muted">{s.name}</span>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <ChangePercent value={s.changePercent} />
+                  <ScoreBadge score={s.score.composite} />
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2 className="text-lg font-semibold t-primary mb-1">Top Losers Today</h2>
+          <p className="text-sm t-muted mb-3">Largest % declines (outliers excluded)</p>
+          <div className="card-flat overflow-hidden">
+            {topLosers.map((s, i) => (
+              <Link key={s.ticker} to={`/stock/${s.ticker}`} className="flex items-center justify-between px-4 py-2.5 hover:bg-surface-hover transition-colors border-b border-surface-border last:border-b-0">
+                <div className="flex items-center gap-3">
+                  <span className="w-6 h-6 rounded-full bg-bearish/10 flex items-center justify-center text-xs font-bold text-bearish">{i + 1}</span>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <span className="font-semibold t-primary text-sm">{s.ticker}</span>
+                      <MarketTag market={s.market} />
+                    </div>
+                    <span className="text-xs t-muted">{s.name}</span>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <ChangePercent value={s.changePercent} />
+                  <ScoreBadge score={s.score.composite} />
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* Market breakdown */}
-      <section className="grid md:grid-cols-2 gap-4">
+      <section className="grid md:grid-cols-3 gap-4">
         <div className="card p-5">
           <h3 className="text-sm font-semibold t-tertiary uppercase tracking-wider mb-3">By Market</h3>
           <div className="space-y-3">
-            <BarStat label="US Stocks" value={usCount} total={summary.totalStocks} color="bg-sky-600" />
-            <BarStat label="UK Stocks" value={ukCount} total={summary.totalStocks} color="bg-slate-500" />
+            <BarStat label="US" value={marketCounts['US']} total={summary.totalStocks} color="bg-sky-600" />
+            <BarStat label="UK" value={marketCounts['UK']} total={summary.totalStocks} color="bg-slate-500" />
+            <BarStat label="JP" value={marketCounts['JP']} total={summary.totalStocks} color="bg-rose-500" />
+            <BarStat label="HK" value={marketCounts['HK']} total={summary.totalStocks} color="bg-orange-500" />
+            <BarStat label="IN" value={marketCounts['IN']} total={summary.totalStocks} color="bg-amber-500" />
+            <BarStat label="DE" value={marketCounts['DE']} total={summary.totalStocks} color="bg-violet-500" />
+            <BarStat label="FR" value={marketCounts['FR']} total={summary.totalStocks} color="bg-blue-500" />
           </div>
         </div>
         <div className="card p-5">
           <h3 className="text-sm font-semibold t-tertiary uppercase tracking-wider mb-3">By Cap Size</h3>
           <div className="space-y-3">
             <BarStat label="Large Cap" value={stocks.filter(s => s.capCategory === 'Large').length} total={summary.totalStocks} color="bg-teal-600" />
-            <BarStat label="Mid Cap" value={stocks.filter(s => s.capCategory === 'Mid').length} total={summary.totalStocks} color="bg-amber-600" />
+            <BarStat label="Mid Cap"   value={stocks.filter(s => s.capCategory === 'Mid').length}   total={summary.totalStocks} color="bg-amber-600" />
             <BarStat label="Small Cap" value={stocks.filter(s => s.capCategory === 'Small').length} total={summary.totalStocks} color="bg-rose-600" />
           </div>
+        </div>
+        <div className="card p-5">
+          <h3 className="text-sm font-semibold t-tertiary uppercase tracking-wider mb-3">Score Distribution</h3>
+          <div className="space-y-3">
+            {scoreDistribution.map(({ label, count, color }) => (
+              <BarStat key={label} label={label} value={count} total={summary.totalStocks} color={color} />
+            ))}
+          </div>
+          <p className="text-xs t-faint mt-4">70+ = bullish · 50–69 = neutral · &lt;50 = caution</p>
         </div>
       </section>
     </div>
