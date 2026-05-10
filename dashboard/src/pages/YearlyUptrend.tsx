@@ -101,7 +101,7 @@ export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
   const [caps, setCaps] = useState<string[]>([]);
   const [sectors, setSectors] = useState<string[]>([]);
   const [hasDividend, setHasDividend] = useState(false);
-  const [bucketFilter, setBucketFilter] = useState<BucketFilter>('all');
+  const [bucketFilter, setBucketFilter] = useState<BucketFilter>('5');
 
   const uptrendStocks = useMemo(() => {
     const results: UptrendStock[] = [];
@@ -334,11 +334,11 @@ export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
             </select>
           </div>
 
-          {(markets.length > 0 || caps.length > 0 || sectors.length > 0 || hasDividend) && (
+          {(markets.length > 0 || caps.length > 0 || sectors.length > 0 || hasDividend || bucketFilter !== '5' || uptrendMode !== 'consec2') && (
             <>
               <div className="w-px h-5 bg-surface-border" />
               <button
-                onClick={() => { setMarkets([]); setCaps([]); setSectors([]); setHasDividend(false); }}
+                onClick={() => { setMarkets([]); setCaps([]); setSectors([]); setHasDividend(false); setBucketFilter('5'); setUptrendMode('consec2'); }}
                 className="px-2.5 py-1 rounded-md text-xs font-medium text-bearish bg-bearish/10 hover:bg-bearish/20 transition-all"
               >
                 Reset
