@@ -17,7 +17,7 @@
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 76,
+      "score": 75,
       "market": "US",
       "capCategory": "Large"
     },
@@ -57,16 +57,16 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "STLD",
-      "name": "Steel Dynamics",
-      "score": 71,
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     }
@@ -129,18 +129,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 27,
-      "market": "DE",
+      "ticker": "HOOD",
+      "name": "Robinhood",
+      "score": 26,
+      "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
-      "score": 27,
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "score": 26,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -159,7 +159,7 @@
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 76,
+      "score": 75,
       "market": "US"
     },
     {
@@ -175,6 +175,12 @@
       "market": "HK"
     },
     {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "DELL",
       "name": "Dell Technologies",
       "score": 72,
@@ -187,8 +193,8 @@
       "market": "US"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 70,
       "market": "US"
     },
@@ -197,12 +203,6 @@
       "name": "Nucor",
       "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 70,
-      "market": "FR"
     }
   ],
   "topMidCap": [
