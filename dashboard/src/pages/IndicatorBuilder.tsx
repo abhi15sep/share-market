@@ -5,7 +5,8 @@
 import { useState, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import type { StockRecord } from '../types';
-import { ScoreBadge, ChangePercent } from '../components/common/Tags';
+import { ScoreBadge, ChangePercent, MarketTag, CapTag } from '../components/common/Tags';
+import { currencySymbol } from '../lib/format';
 import { generateIndicator, executeFilter, STOCK_FIELDS_REFERENCE } from '../lib/indicator-ai';
 import { hasApiKey, setApiKey, clearApiKey, getProviders, getProvider, setProvider, type ProviderName } from '../lib/copilot-llm';
 
@@ -44,7 +45,6 @@ export default function IndicatorBuilder({ stocks }: { stocks: StockRecord[] }) 
   const [filterError, setFilterError] = useState('');
   const [generating, setGenerating] = useState(false);
   const [savedIndicators, setSavedIndicators] = useState<SavedIndicator[]>(readSaved);
-  const [showFieldRef, setShowFieldRef] = useState(false);
   const [saveName, setSaveName] = useState('');
   const [showApiKeyInput, setShowApiKeyInput] = useState(false);
   const [apiKeyInput, setApiKeyInput] = useState('');
@@ -335,30 +335,34 @@ export default function IndicatorBuilder({ stocks }: { stocks: StockRecord[] }) 
           <div className="overflow-x-auto max-h-[500px] overflow-y-auto">
             <table className="w-full text-sm">
               <thead className="sticky top-0 bg-surface-secondary">
-                <tr className="border-b border-surface-border">
-                  <th className="px-4 py-3 text-left table-header">Ticker</th>
-                  <th className="px-4 py-3 text-left table-header">Name</th>
-                  <th className="px-4 py-3 text-right table-header">Price</th>
-                  <th className="px-4 py-3 text-right table-header">Change</th>
-                  <th className="px-4 py-3 text-center table-header">Score</th>
-                  <th className="px-4 py-3 text-left table-header">Sector</th>
-                  <th className="px-4 py-3 text-left table-header">Cap</th>
+                <tr className="border-b border-surface-border bg-surface-tertiary/30">
+                  <th className="px-4 py-2.5 text-left table-header text-xs">Ticker</th>
+                  <th className="px-3 py-2.5 text-left table-header text-xs">Name</th>
+                  <th className="px-3 py-2.5 text-left table-header text-xs">Market</th>
+                  <th className="px-3 py-2.5 text-left table-header text-xs">Cap</th>
+                  <th className="px-3 py-2.5 text-right table-header text-xs">Price</th>
+                  <th className="px-3 py-2.5 text-right table-header text-xs">Change</th>
+                  <th className="px-3 py-2.5 text-center table-header text-xs">Score</th>
+                  <th className="px-3 py-2.5 text-left table-header text-xs">Sector</th>
                 </tr>
               </thead>
               <tbody>
                 {matches.slice(0, 100).map(s => (
                   <tr key={s.ticker} className="border-b border-surface-border/50 hover:bg-surface-hover/50 transition-colors">
                     <td className="px-4 py-2.5">
-                      <Link to={`/stock/${s.ticker}`} className="font-semibold text-accent-light hover:t-primary transition-colors">
+                      <Link to={`/stock/${s.ticker}`} className="font-bold text-sm text-accent-light hover:underline">
                         {s.ticker}
                       </Link>
                     </td>
-                    <td className="px-4 py-2.5 t-secondary text-xs truncate max-w-[200px]">{s.name}</td>
-                    <td className="px-4 py-2.5 text-right font-mono tabular-nums t-primary">${s.price.toFixed(2)}</td>
-                    <td className="px-4 py-2.5 text-right"><ChangePercent value={s.changePercent} /></td>
-                    <td className="px-4 py-2.5 text-center"><ScoreBadge score={s.score.composite} /></td>
-                    <td className="px-4 py-2.5 text-xs t-muted">{s.sector}</td>
-                    <td className="px-4 py-2.5 text-xs t-muted">{s.capCategory}</td>
+                    <td className="px-3 py-2.5 t-muted text-xs truncate max-w-[150px]">{s.name}</td>
+                    <td className="px-3 py-2.5"><MarketTag market={s.market} /></td>
+                    <td className="px-3 py-2.5"><CapTag cap={s.capCategory} /></td>
+                    <td className="px-3 py-2.5 text-right font-mono tabular-nums text-xs t-secondary">
+                      {currencySymbol(s.market)}{s.price.toFixed(2)}
+                    </td>
+                    <td className="px-3 py-2.5 text-right"><ChangePercent value={s.changePercent} /></td>
+                    <td className="px-3 py-2.5 text-center"><ScoreBadge score={s.score.composite} size="sm" /></td>
+                    <td className="px-3 py-2.5 text-xs t-faint">{s.sector}</td>
                   </tr>
                 ))}
               </tbody>
@@ -409,21 +413,16 @@ export default function IndicatorBuilder({ stocks }: { stocks: StockRecord[] }) 
       )}
 
       {/* Field Reference */}
-      <div className="card p-5">
-        <button
-          onClick={() => setShowFieldRef(v => !v)}
-          className="flex items-center gap-2 text-xs font-semibold t-tertiary uppercase tracking-wider"
-        >
-          <svg className={`w-3 h-3 transition-transform ${showFieldRef ? 'rotate-90' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-          </svg>
-          Available Stock Fields Reference
-        </button>
-        {showFieldRef && (
+      <div className="card p-4 bg-accent/5 border-accent/15">
+        <details className="group">
+          <summary className="flex items-center gap-2 cursor-pointer text-sm font-medium t-secondary select-none">
+            <span className="text-xs t-muted group-open:rotate-90 transition-transform">&#9654;</span>
+            Available Stock Fields Reference
+          </summary>
           <pre className="mt-3 p-4 rounded-lg bg-surface-hover text-xs font-mono t-secondary overflow-x-auto whitespace-pre-wrap max-h-[400px] overflow-y-auto">
             {STOCK_FIELDS_REFERENCE}
           </pre>
-        )}
+        </details>
       </div>
     </div>
   );
