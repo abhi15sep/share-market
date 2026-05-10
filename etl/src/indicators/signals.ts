@@ -24,13 +24,23 @@ export function detectSignals(tech: TechnicalData, quote: QuoteData): Signal[] {
   // Death Cross / Golden Cross: SMA50 vs SMA200
   if (tech.sma50 != null && tech.sma200 != null) {
     if (tech.sma50 < tech.sma200) {
-      signals.push({
-        type: 'Death Cross',
-        direction: 'bearish',
-        severity: 3,
-        description: `SMA50 (${tech.sma50.toFixed(2)}) below SMA200 (${tech.sma200.toFixed(2)})`,
-        timeframe: 'long',
-      });
+      // Only flag Death Cross as a strong bearish signal when price is still below or
+      // near SMA200. If price has already recovered well above SMA200 the cross is a
+      // stale lagging artefact (e.g. stock crashed then rebounded strongly).
+      const priceAboveSma200Pct = tech.sma200 > 0
+        ? (quote.price - tech.sma200) / tech.sma200
+        : 0;
+      if (priceAboveSma200Pct > 0.10) {
+        // Price >10% above SMA200 — death cross is stale, skip it
+      } else {
+        signals.push({
+          type: 'Death Cross',
+          direction: 'bearish',
+          severity: priceAboveSma200Pct > 0.05 ? 1 : 3, // soften if already recovering
+          description: `SMA50 (${tech.sma50.toFixed(2)}) below SMA200 (${tech.sma200.toFixed(2)})`,
+          timeframe: 'long',
+        });
+      }
     } else {
       signals.push({
         type: 'Golden Cross',
@@ -67,11 +77,15 @@ export function detectSignals(tech: TechnicalData, quote: QuoteData): Signal[] {
 
   if (tech.rsi != null) {
     if (tech.rsi > CONFIG.rsiOverbought) {
+      // RSI overbought in a downtrend (price below SMA200) is a reversal warning.
+      // RSI overbought in a strong uptrend (price well above SMA200) is often
+      // momentum continuation — reduce severity so it doesn't dominate the score.
+      const inUptrend = tech.sma200 != null && quote.price > tech.sma200 * 1.05;
       signals.push({
         type: 'RSI Overbought',
         direction: 'bearish',
-        severity: 2,
-        description: `RSI at ${tech.rsi.toFixed(1)} (above ${CONFIG.rsiOverbought})`,
+        severity: inUptrend ? 1 : 2,
+        description: `RSI at ${tech.rsi.toFixed(1)} (above ${CONFIG.rsiOverbought})${inUptrend ? ' — uptrend context, lower weight' : ''}`,
         timeframe: 'short',
       });
     } else if (tech.rsi < CONFIG.rsiOversold) {
@@ -124,12 +138,14 @@ export function detectSignals(tech: TechnicalData, quote: QuoteData): Signal[] {
     }
 
     // Price touching upper band + RSI overbought = bearish reversal
+    // In a strong uptrend (price well above SMA200), this is less predictive — reduce severity.
     if (bb.percentB > 0.95 && tech.rsi != null && tech.rsi > 70) {
+      const inUptrend = tech.sma200 != null && quote.price > tech.sma200 * 1.05;
       signals.push({
         type: 'BB Upper + RSI High',
         direction: 'bearish',
-        severity: 2,
-        description: `Price at upper Bollinger Band with RSI ${tech.rsi.toFixed(1)} — overextended`,
+        severity: inUptrend ? 1 : 2,
+        description: `Price at upper Bollinger Band with RSI ${tech.rsi.toFixed(1)} — overextended${inUptrend ? ' (uptrend)' : ''}`,
         timeframe: 'short',
       });
     }
@@ -176,11 +192,13 @@ export function detectSignals(tech: TechnicalData, quote: QuoteData): Signal[] {
     // Double confirmation: RSI + Stochastic agree
     if (tech.rsi != null) {
       if (tech.rsi > 70 && k > 80) {
+        // Strong uptrend context — both overbought readings are less actionable bearishly
+        const inUptrend = tech.sma200 != null && quote.price > tech.sma200 * 1.05;
         signals.push({
           type: 'RSI + Stochastic Overbought',
           direction: 'bearish',
-          severity: 3,
-          description: `Both RSI (${tech.rsi.toFixed(1)}) and Stochastic (${k.toFixed(1)}) confirm overbought`,
+          severity: inUptrend ? 1 : 3,
+          description: `Both RSI (${tech.rsi.toFixed(1)}) and Stochastic (${k.toFixed(1)}) confirm overbought${inUptrend ? ' — uptrend context' : ''}`,
           timeframe: 'short',
         });
       } else if (tech.rsi < 30 && k < 20) {
