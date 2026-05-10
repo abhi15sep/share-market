@@ -40,7 +40,7 @@ export default function BreakoutDetection({ stocks }: { stocks: StockRecord[] })
 
   const breakouts = useMemo<BreakoutStock[]>(() => {
     return stocks
-      .map(stock => ({ stock, matched: getBreakoutCriteria(stock), breakoutScore: getBreakoutCriteria(stock).length }))
+      .map(stock => { const matched = getBreakoutCriteria(stock); return { stock, matched, breakoutScore: matched.length }; })
       .filter(b => b.breakoutScore >= minScore)
       .filter(b => minVolRatio === 0 || b.stock.volumeRatio >= minVolRatio)
       .filter(b => markets.length === 0 || markets.includes(b.stock.market))

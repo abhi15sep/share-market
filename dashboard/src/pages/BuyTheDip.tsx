@@ -41,7 +41,7 @@ export default function BuyTheDip({ stocks }: { stocks: StockRecord[] }) {
 
   const dipStocks = useMemo<DipStock[]>(() => {
     return stocks
-      .map(stock => ({ stock, matched: getDipCriteria(stock), dipScore: getDipCriteria(stock).length }))
+      .map(stock => { const matched = getDipCriteria(stock); return { stock, matched, dipScore: matched.length }; })
       .filter(d => d.dipScore >= minScore)
       .filter(d => markets.length === 0 || markets.includes(d.stock.market))
       .filter(d => caps.length === 0 || caps.includes(d.stock.capCategory))
