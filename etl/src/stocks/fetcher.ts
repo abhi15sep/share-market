@@ -149,9 +149,16 @@ async function fetchChart(ticker: string): Promise<ChartData | null> {
         amount: (d.amount as number) * fx,
       })).sort((a, b) => a.date - b.date);
 
+      // Use the second-to-last daily close as "previous close" so that changePercent
+      // reflects the actual day-over-day move, not the return since the start of the
+      // chart range (which would be 5 years for our historicalPeriod setting).
+      const prevDayClose = closes.length >= 2
+        ? closes[closes.length - 2]
+        : (m.regularMarketPreviousClose ?? m.regularMarketPrice) * fx;
+
       return {
         price: m.regularMarketPrice * fx,
-        previousClose: (m.chartPreviousClose ?? m.regularMarketPrice) * fx,
+        previousClose: prevDayClose,
         volume: m.regularMarketVolume ?? (volumes.length > 0 ? volumes[volumes.length - 1] : 0),
         marketCap: 0, // filled by quoteSummary or FinViz later
         fiftyTwoWeekHigh: m.fiftyTwoWeekHigh != null ? m.fiftyTwoWeekHigh * fx : Math.max(...closes, m.regularMarketPrice * fx),
