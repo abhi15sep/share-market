@@ -42,6 +42,7 @@ const AICopilot = lazy(() => import('./pages/AICopilot'));
 const ChartReplay = lazy(() => import('./pages/ChartReplay'));
 const IndicatorBuilder = lazy(() => import('./pages/IndicatorBuilder'));
 const OnlinePicks = lazy(() => import('./pages/OnlinePicks'));
+const FallenStocks = lazy(() => import('./pages/FallenStocks'));
 
 const PageSpinner = () => (
   <div className="flex items-center justify-center py-20">
@@ -143,6 +144,7 @@ export default function App() {
             <Route path="/chart-replay" element={<ChartReplay stocks={stocks} />} />
             <Route path="/indicator-builder" element={<IndicatorBuilder stocks={stocks} />} />
             <Route path="/online-picks" element={<OnlinePicks stocks={stocks} onlinePicks={onlinePicks} />} />
+            <Route path="/fallen" element={<FallenStocks stocks={stocks} />} />
             <Route path="/alerts" element={<AlertSettings />} />
           </Routes>
         </Suspense>
