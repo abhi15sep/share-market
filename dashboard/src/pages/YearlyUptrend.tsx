@@ -393,6 +393,12 @@ export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
                     {stock.changePercent > -10 && stock.changePercent <= -5 && (
                       <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-500/20 text-amber-400 ring-1 ring-amber-500/30">Down {stock.changePercent.toFixed(1)}%</span>
                     )}
+                    {stock.changePercent >= 10 && (
+                      <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-bearish/20 text-bearish ring-1 ring-bearish/30">Strong Move +{stock.changePercent.toFixed(1)}%</span>
+                    )}
+                    {stock.changePercent >= 5 && stock.changePercent < 10 && (
+                      <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-500/20 text-amber-400 ring-1 ring-amber-500/30">Up +{stock.changePercent.toFixed(1)}%</span>
+                    )}
                   </div>
                   <div className="flex items-center gap-4 text-sm">
                     <PriceDisplay value={stock.price} market={stock.market} />
