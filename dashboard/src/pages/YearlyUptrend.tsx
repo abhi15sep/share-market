@@ -95,7 +95,7 @@ const UPTREND_OPTIONS: { value: UptrendMode; label: string; desc: string }[] = [
 ];
 
 export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
-  const [uptrendMode, setUptrendMode] = useState<UptrendMode>('any2');
+  const [uptrendMode, setUptrendMode] = useState<UptrendMode>('consec2');
   const [sortBy, setSortBy] = useState<SortKey>('pctBelow');
   const [markets, setMarkets] = useState<string[]>([]);
   const [caps, setCaps] = useState<string[]>([]);
@@ -219,8 +219,7 @@ export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
               <li><strong className="t-secondary">% Below Resistance</strong> — Higher % = bigger pullback = potentially better entry point</li>
             </ul>
             <p className="text-xs mt-2 pt-2 border-t border-surface-border">
-              <strong>Strategy tip:</strong> Start with "2yr+" to find the widest pool of quality stocks with discounts. If too many results,
-              narrow to "3yr+" or "3yr strict". Stocks that are 10-20% below resistance with multiple quality signals are the best candidates.
+              <strong>Strategy tip:</strong> The default "2yr strict" requires both recent years to be positive, filtering out stocks in active downtrends. Use "2yr+" for a wider pool, or "3yr strict" for the most consistent uptrenders. Stocks 10-20% below resistance with multiple quality signals are the best candidates.
               Set up an <strong>Uptrend Below Resistance</strong> alert in Alert Settings to get Telegram notifications.
             </p>
           </div>
@@ -388,6 +387,12 @@ export default function YearlyUptrend({ stocks }: { stocks: StockRecord[] }) {
                     <span className="px-2 py-0.5 rounded-full text-xs font-bold bg-bullish/15 text-bullish ring-1 ring-bullish/30">
                       {positiveYears}/{totalYears} yrs up
                     </span>
+                    {stock.changePercent <= -10 && (
+                      <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-bearish/20 text-bearish ring-1 ring-bearish/30">Sharp Drop {stock.changePercent.toFixed(1)}%</span>
+                    )}
+                    {stock.changePercent > -10 && stock.changePercent <= -5 && (
+                      <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-500/20 text-amber-400 ring-1 ring-amber-500/30">Down {stock.changePercent.toFixed(1)}%</span>
+                    )}
                   </div>
                   <div className="flex items-center gap-4 text-sm">
                     <PriceDisplay value={stock.price} market={stock.market} />
