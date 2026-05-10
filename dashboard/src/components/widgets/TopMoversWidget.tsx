@@ -9,7 +9,9 @@ interface Props {
 
 export default function TopMoversWidget({ stocks }: Props) {
   const { gainers, losers } = useMemo(() => {
-    const sorted = [...stocks].sort((a, b) => b.changePercent - a.changePercent);
+    // Exclude extreme outliers (halted/data errors) with the same threshold used in Overview
+    const clean = stocks.filter(s => Math.abs(s.changePercent) < 30);
+    const sorted = [...clean].sort((a, b) => b.changePercent - a.changePercent);
     return {
       gainers: sorted.slice(0, 5),
       losers: sorted.slice(-5).reverse(),
