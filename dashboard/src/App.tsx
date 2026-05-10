@@ -69,7 +69,12 @@ export default function App() {
     return rawStocks.map(s => {
       const rt = realtimePrices.get(s.ticker);
       if (!rt) return s;
-      const newChangePercent = s.price > 0 ? ((rt.price - s.price) / s.price) * 100 + s.changePercent : s.changePercent;
+      // Reconstruct the previous day's close from stored price + stored daily change,
+      // then compute the true daily change from that base to the live price.
+      const prevDayClose = s.price > 0 && s.changePercent !== 0
+        ? s.price / (1 + s.changePercent / 100)
+        : s.price;
+      const newChangePercent = prevDayClose > 0 ? ((rt.price - prevDayClose) / prevDayClose) * 100 : s.changePercent;
       return { ...s, price: rt.price, changePercent: newChangePercent };
     });
   }, [rawStocks, realtimePrices]);
