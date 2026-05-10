@@ -91,10 +91,14 @@ export default function BuyTheDip({ stocks }: { stocks: StockRecord[] }) {
             <ul className="list-disc list-inside space-y-1 ml-1">
               <li><strong className="t-secondary">RSI Oversold</strong> — RSI below 35, selling pressure may be exhausted</li>
               <li><strong className="t-secondary">Stochastic Oversold</strong> — Stochastic %K below 20</li>
-              <li><strong className="t-secondary">OBV Bullish Divergence</strong> — Volume trending up even as price drops</li>
+              <li><strong className="t-secondary">OBV Bullish Divergence</strong> — Volume trending up even as price drops (smart money accumulating)</li>
               <li><strong className="t-secondary">Reasonable Fundamentals</strong> — P/E under 50 or positive earnings growth</li>
               <li><strong className="t-secondary">Near Bollinger Lower</strong> — Price near the lower Bollinger Band (%B &lt; 0.1)</li>
             </ul>
+            <p className="text-xs mt-2 pt-2 border-t border-surface-border">
+              <strong>Volume tip:</strong> Vol shown in amber (1.5-2x) or red (&gt;2x) means heavy selling — treat these as higher risk. Low volume dips are safer bounce candidates.
+              A <strong>Sharp Drop</strong> badge (&gt;5% today) means investigate the news before buying — it may be falling on bad fundamentals, not just sentiment.
+            </p>
           </div>
         </details>
       </div>
@@ -192,15 +196,21 @@ export default function BuyTheDip({ stocks }: { stocks: StockRecord[] }) {
                     <span className="t-tertiary text-sm">{stock.name}</span>
                     <MarketTag market={stock.market} />
                     <CapTag cap={stock.capCategory} />
+                    {stock.changePercent < -5 && (
+                      <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-bearish/20 text-bearish ring-1 ring-bearish/30">Sharp Drop</span>
+                    )}
                   </div>
                   <div className="flex items-center gap-4 text-sm flex-wrap">
                     <PriceDisplay value={stock.price} market={stock.market} />
                     <ChangePercent value={stock.changePercent} />
                     {stock.rsi != null && (
                       <span className="t-muted">
-                        RSI <span className={`font-mono ${stock.rsi < 35 ? 'text-bullish' : 't-secondary'}`}>{stock.rsi.toFixed(1)}</span>
+                        RSI <span className={`font-mono ${stock.rsi < 30 ? 'text-bullish font-bold' : stock.rsi < 35 ? 'text-bullish' : 't-secondary'}`}>{stock.rsi.toFixed(1)}</span>
                       </span>
                     )}
+                    <span className="t-muted">
+                      Vol <span className={`font-mono ${stock.volumeRatio > 2 ? 'text-bearish' : stock.volumeRatio > 1.5 ? 'text-amber-400' : 't-secondary'}`}>{stock.volumeRatio.toFixed(2)}x</span>
+                    </span>
                     {stock.dividendYield != null && stock.dividendYield > 0 && (
                       <span className="t-muted">Div <span className="font-mono text-bullish">{stock.dividendYield.toFixed(2)}%</span></span>
                     )}
