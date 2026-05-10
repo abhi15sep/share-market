@@ -24,7 +24,9 @@ function getBreakoutCriteria(stock: StockRecord): string[] {
   const matched: string[] = [];
   if (stock.bollingerSqueeze) matched.push('Bollinger Squeeze');
   if (stock.bollingerUpper != null && stock.price > stock.bollingerUpper) matched.push('Above Upper Band');
-  if (stock.volumeRatio > 1.5) matched.push('Strong Volume');
+  // Strong Volume only counts as bullish if price isn't falling sharply today
+  // (high volume on a -5%+ day is a breakdown, not a breakout)
+  if (stock.volumeRatio > 1.5 && stock.changePercent > -3) matched.push('Strong Volume');
   if (stock.obvTrend === 'rising') matched.push('OBV Rising');
   return matched;
 }
