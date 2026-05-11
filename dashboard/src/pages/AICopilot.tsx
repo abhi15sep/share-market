@@ -1,6 +1,8 @@
 import { useState, useMemo } from 'react';
 import type { StockRecord, Metadata } from '../types';
 import AICopilotChat from '../components/common/AICopilotChat';
+import { currencySymbol } from '../lib/format';
+import { ScoreBadge, ChangePercent, MarketTag } from '../components/common/Tags';
 
 interface Props {
   stocks: StockRecord[];
@@ -71,13 +73,17 @@ export default function AICopilot({ stocks, metadata }: Props) {
             </button>
           )}
           {contextStock && (
-            <div className="flex items-center gap-2 text-sm">
-              <span className="font-semibold text-accent-light">{contextStock.ticker}</span>
-              <span className="t-muted">{contextStock.name}</span>
-              <span className="font-mono t-primary">${contextStock.price.toFixed(2)}</span>
-              <span className={`font-mono text-xs ${contextStock.changePercent >= 0 ? 'text-bullish' : 'text-bearish'}`}>
-                {contextStock.changePercent >= 0 ? '+' : ''}{contextStock.changePercent.toFixed(1)}%
-              </span>
+            <div className="flex flex-wrap items-center gap-3 text-sm">
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-accent-light">{contextStock.ticker}</span>
+                <MarketTag market={contextStock.market} />
+                <span className="t-muted text-xs">{contextStock.name}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-mono t-primary">{currencySymbol(contextStock.market)}{contextStock.price.toFixed(2)}</span>
+                <ChangePercent value={contextStock.changePercent} />
+                <ScoreBadge score={contextStock.score.composite} />
+              </div>
             </div>
           )}
         </div>

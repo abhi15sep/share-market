@@ -1,4 +1,5 @@
 import type { StockRecord, Metadata } from '../types';
+import { currencySymbol } from './format';
 
 export interface CopilotResponse {
   text: string;
@@ -21,6 +22,11 @@ function fmtDollar(v: number | null | undefined): string {
   if (Math.abs(v) >= 1e9) return '$' + (v / 1e9).toFixed(1) + 'B';
   if (Math.abs(v) >= 1e6) return '$' + (v / 1e6).toFixed(1) + 'M';
   return '$' + v.toFixed(2);
+}
+
+function fmtPrice(stock: StockRecord, v: number | null | undefined): string {
+  if (v == null) return 'N/A';
+  return currencySymbol(stock.market) + v.toFixed(2);
 }
 
 function findStock(stocks: StockRecord[], query: string): StockRecord | undefined {
@@ -206,19 +212,20 @@ export function processQuery(
 
   // ── Overvalued / Undervalued ──
   if (q.includes('overvalued') || q.includes('undervalued') || q.includes('fair value') || q.includes('intrinsic')) {
+    const cur = currencySymbol(stock.market);
     const lines: string[] = [`**${stock.ticker} Valuation Analysis:**\n`];
-    lines.push(`- Price: $${stock.price.toFixed(2)}`);
+    lines.push(`- Price: ${cur}${stock.price.toFixed(2)}`);
     if (stock.dcfValue != null) {
       const diff = ((stock.price - stock.dcfValue) / stock.dcfValue * 100).toFixed(0);
-      lines.push(`- DCF Value: $${stock.dcfValue.toFixed(2)} (${+diff > 0 ? '+' : ''}${diff}% vs price)`);
+      lines.push(`- DCF Value: ${fmtPrice(stock, stock.dcfValue)} (${+diff > 0 ? '+' : ''}${diff}% vs price)`);
     }
     if (stock.grahamNumber != null) {
       const diff = ((stock.price - stock.grahamNumber) / stock.grahamNumber * 100).toFixed(0);
-      lines.push(`- Graham Number: $${stock.grahamNumber.toFixed(2)} (${+diff > 0 ? '+' : ''}${diff}% vs price)`);
+      lines.push(`- Graham Number: ${fmtPrice(stock, stock.grahamNumber)} (${+diff > 0 ? '+' : ''}${diff}% vs price)`);
     }
     if (stock.targetMeanPrice != null) {
       const diff = ((stock.targetMeanPrice - stock.price) / stock.price * 100).toFixed(0);
-      lines.push(`- Analyst Target: $${stock.targetMeanPrice.toFixed(2)} (${+diff > 0 ? '+' : ''}${diff}% upside)`);
+      lines.push(`- Analyst Target: ${fmtPrice(stock, stock.targetMeanPrice)} (${+diff > 0 ? '+' : ''}${diff}% upside)`);
     }
     lines.push(`- P/E: ${fmt(stock.pe)} | Forward P/E: ${fmt(stock.forwardPe)} | P/B: ${fmt(stock.priceToBook)}`);
 
@@ -280,9 +287,10 @@ export function processQuery(
 
   // ── Technical summary ──
   if (q.includes('technical') || q.includes('moving average') || q.includes('sma') || q.includes('macd') || q.includes('bollinger')) {
+    const cur = currencySymbol(stock.market);
     return {
       text: `**${stock.ticker} Technical Summary:**\n\n` +
-        `- Price: $${stock.price.toFixed(2)} (${stock.changePercent >= 0 ? '+' : ''}${stock.changePercent.toFixed(1)}%)\n` +
+        `- Price: ${cur}${stock.price.toFixed(2)} (${stock.changePercent >= 0 ? '+' : ''}${stock.changePercent.toFixed(1)}%)\n` +
         `- SMA 20/50/150/200: ${fmt(stock.sma20)} / ${fmt(stock.sma50)} / ${fmt(stock.sma150)} / ${fmt(stock.sma200)}\n` +
         `- RSI: ${fmt(stock.rsi)}\n` +
         `- MACD Histogram: ${fmt(stock.macdHistogram, '', 3)}\n` +
@@ -295,13 +303,14 @@ export function processQuery(
 
   // ── Price / Summary ──
   if (q.includes('price') || q.includes('summary') || q.includes('overview') || q.includes('tell me about')) {
+    const cur = currencySymbol(stock.market);
     return {
       text: `**${stock.ticker} — ${stock.name}**\n\n` +
         `${stock.sector} | ${stock.capCategory} Cap | ${stock.market}\n\n` +
-        `- Price: $${stock.price.toFixed(2)} (${stock.changePercent >= 0 ? '+' : ''}${stock.changePercent.toFixed(1)}%)\n` +
+        `- Price: ${cur}${stock.price.toFixed(2)} (${stock.changePercent >= 0 ? '+' : ''}${stock.changePercent.toFixed(1)}%)\n` +
         `- Market Cap: ${fmtDollar(stock.marketCap)}\n` +
         `- Score: ${stock.score.composite}/100\n` +
-        `- 52W Range: $${stock.fiftyTwoWeekLow.toFixed(2)} — $${stock.fiftyTwoWeekHigh.toFixed(2)} (at ${stock.fiftyTwoWeekRangePercent}%)\n` +
+        `- 52W Range: ${cur}${stock.fiftyTwoWeekLow.toFixed(2)} — ${cur}${stock.fiftyTwoWeekHigh.toFixed(2)} (at ${stock.fiftyTwoWeekRangePercent}%)\n` +
         `- P/E: ${fmt(stock.pe)} | RSI: ${fmt(stock.rsi)} | Beta: ${fmt(stock.beta)}`,
       source: 'engine',
     };
@@ -393,7 +402,7 @@ function handleCompare(s1: StockRecord, s2: StockRecord): CopilotResponse {
   return {
     text: `**${s1.ticker} vs ${s2.ticker}:**\n\n` +
       `| Metric | ${s1.ticker} | ${s2.ticker} |\n|---|---|---|\n` +
-      `| Price | $${s1.price.toFixed(2)} | $${s2.price.toFixed(2)} |\n` +
+      `| Price | ${currencySymbol(s1.market)}${s1.price.toFixed(2)} | ${currencySymbol(s2.market)}${s2.price.toFixed(2)} |\n` +
       `| Score | ${s1.score.composite} | ${s2.score.composite} |\n` +
       `| P/E | ${fmt(s1.pe)} | ${fmt(s2.pe)} |\n` +
       `| RSI | ${fmt(s1.rsi)} | ${fmt(s2.rsi)} |\n` +
