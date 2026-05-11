@@ -8,15 +8,22 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "2802.T",
-      "name": "Ajinomoto",
-      "score": 74,
-      "market": "JP",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 73,
+      "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -29,8 +36,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -43,66 +50,52 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
-      "score": 71,
-      "market": "US",
+      "ticker": "2802.T",
+      "name": "Ajinomoto",
+      "score": 72,
+      "market": "JP",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "ALB",
-      "name": "Albemarle",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
     },
     {
       "ticker": "QCOM",
       "name": "Qualcomm",
-      "score": 70,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 19,
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 20,
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "TECH",
       "name": "Bio-Techne",
-      "score": 21,
+      "score": 22,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
       "score": 22,
       "market": "US",
       "capCategory": "Large"
@@ -115,11 +108,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
+      "ticker": "GPC",
+      "name": "Genuine Parts",
       "score": 23,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "NAUKRI.BO",
@@ -129,30 +122,43 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
+      "ticker": "DASH",
+      "name": "DoorDash",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "DASH",
-      "name": "DoorDash",
+      "ticker": "HUBS",
+      "name": "HubSpot",
       "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "2802.T",
-      "name": "Ajinomoto",
-      "score": 74,
-      "market": "JP"
-    },
-    {
       "ticker": "AMAT",
       "name": "Applied Materials",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle",
       "score": 73,
       "market": "US"
     },
@@ -163,8 +169,8 @@
       "market": "HK"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
       "score": 72,
       "market": "US"
     },
@@ -175,33 +181,27 @@
       "market": "FR"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "ALB",
-      "name": "Albemarle",
-      "score": 71,
-      "market": "US"
+      "ticker": "2802.T",
+      "name": "Ajinomoto",
+      "score": 72,
+      "market": "JP"
     },
     {
       "ticker": "QCOM",
       "name": "Qualcomm",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "SMT.L",
-      "name": "Scottish Mortgage",
-      "score": 70,
-      "market": "UK"
+      "ticker": "4063.T",
+      "name": "Shin-Etsu Chemical",
+      "score": 71,
+      "market": "JP"
     },
     {
-      "ticker": "NEM",
-      "name": "Newmont",
-      "score": 69,
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 70,
       "market": "US"
     }
   ],
@@ -209,7 +209,7 @@
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
@@ -223,6 +223,12 @@
       "name": "IG Group",
       "score": 70,
       "market": "UK"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 68,
+      "market": "US"
     },
     {
       "ticker": "BEZ.L",
@@ -249,22 +255,16 @@
       "market": "US"
     },
     {
+      "ticker": "NNN",
+      "name": "NNN REIT",
+      "score": 65,
+      "market": "US"
+    },
+    {
       "ticker": "GAW.L",
       "name": "Games Workshop",
       "score": 65,
       "market": "UK"
-    },
-    {
-      "ticker": "NNN",
-      "name": "NNN REIT",
-      "score": 64,
-      "market": "US"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 64,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -307,7 +307,7 @@
     {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 65,
+      "score": 64,
       "market": "US"
     },
     {
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 861,
-  "avgScore": 49,
-  "bearishAlertCount": 373
+  "avgScore": 50,
+  "bearishAlertCount": 381
 }
