@@ -36,17 +36,17 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
       "score": 72,
-      "market": "FR",
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -57,18 +57,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
       "score": 71,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
@@ -87,6 +87,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "TECH",
       "name": "Bio-Techne",
       "score": 22,
@@ -101,24 +108,17 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify",
-      "score": 22,
-      "market": "US",
+      "ticker": "NAUKRI.BO",
+      "name": "Info Edge (Naukri)",
+      "score": 24,
+      "market": "IN",
       "capCategory": "Large"
     },
     {
       "ticker": "GPC",
       "name": "Genuine Parts",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NAUKRI.BO",
-      "name": "Info Edge (Naukri)",
       "score": 24,
-      "market": "IN",
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -129,17 +129,17 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 25,
+      "market": "DE",
+      "capCategory": "Large"
     },
     {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 25,
-      "market": "US",
+      "ticker": "EL.PA",
+      "name": "EssilorLuxottica",
+      "score": 26,
+      "market": "FR",
       "capCategory": "Large"
     }
   ],
@@ -169,16 +169,16 @@
       "market": "HK"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
       "score": 72,
-      "market": "FR"
+      "market": "US"
     },
     {
       "ticker": "2802.T",
@@ -187,10 +187,10 @@
       "market": "JP"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
       "score": 71,
-      "market": "US"
+      "market": "FR"
     },
     {
       "ticker": "4063.T",
@@ -249,6 +249,12 @@
       "market": "UK"
     },
     {
+      "ticker": "TEP.PA",
+      "name": "Teleperformance",
+      "score": 66,
+      "market": "FR"
+    },
+    {
       "ticker": "RIOT",
       "name": "Riot Platforms",
       "score": 65,
@@ -259,12 +265,6 @@
       "name": "NNN REIT",
       "score": 65,
       "market": "US"
-    },
-    {
-      "ticker": "GAW.L",
-      "name": "Games Workshop",
-      "score": 65,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -293,12 +293,6 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 68,
-      "market": "FR"
-    },
-    {
       "ticker": "CKN.L",
       "name": "Chemring Group",
       "score": 67,
@@ -307,7 +301,7 @@
     {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 64,
+      "score": 65,
       "market": "US"
     },
     {
@@ -327,9 +321,15 @@
       "name": "Watches of Switzerland",
       "score": 64,
       "market": "UK"
+    },
+    {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 63,
+      "market": "DE"
     }
   ],
   "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 381
+  "bearishAlertCount": 380
 }
