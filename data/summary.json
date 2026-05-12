@@ -10,7 +10,7 @@
     {
       "ticker": "CF",
       "name": "CF Industries",
-      "score": 73,
+      "score": 74,
       "market": "US",
       "capCategory": "Large"
     },
@@ -43,8 +43,15 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -57,17 +64,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
+      "ticker": "EBAY",
+      "name": "eBay",
       "score": 70,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 70,
-      "market": "FR",
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -80,13 +80,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
-      "score": 20,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "HUBS",
       "name": "HubSpot",
       "score": 20,
@@ -94,22 +87,22 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "UPST",
-      "name": "Upstart",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "SHOP",
       "name": "Shopify",
+      "score": 20,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GPC",
+      "name": "Genuine Parts",
       "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
+      "ticker": "UPST",
+      "name": "Upstart",
       "score": 22,
       "market": "US",
       "capCategory": "Mid"
@@ -117,6 +110,13 @@
     {
       "ticker": "ZG",
       "name": "Zillow Group",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "TECH",
+      "name": "Bio-Techne",
       "score": 23,
       "market": "US",
       "capCategory": "Mid"
@@ -136,18 +136,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "W",
-      "name": "Wayfair",
+      "ticker": "APTV",
+      "name": "Aptiv",
       "score": 25,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "CF",
       "name": "CF Industries",
-      "score": 73,
+      "score": 74,
       "market": "US"
     },
     {
@@ -157,14 +157,26 @@
       "market": "IN"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
       "score": 70,
       "market": "US"
     },
     {
       "ticker": "DELL",
       "name": "Dell Technologies",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "EBAY",
+      "name": "eBay",
       "score": 70,
       "market": "US"
     },
@@ -191,18 +203,6 @@
       "name": "Sun Hung Kai Properties",
       "score": 70,
       "market": "HK"
-    },
-    {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "EBAY",
-      "name": "eBay",
-      "score": 69,
-      "market": "US"
     }
   ],
   "topMidCap": [
@@ -231,16 +231,16 @@
       "market": "UK"
     },
     {
+      "ticker": "NNN",
+      "name": "NNN REIT",
+      "score": 66,
+      "market": "US"
+    },
+    {
       "ticker": "BBY.L",
       "name": "Balfour Beatty",
       "score": 66,
       "market": "UK"
-    },
-    {
-      "ticker": "NNN",
-      "name": "NNN REIT",
-      "score": 65,
-      "market": "US"
     },
     {
       "ticker": "ADM.L",
@@ -249,22 +249,22 @@
       "market": "UK"
     },
     {
-      "ticker": "RIOT",
-      "name": "Riot Platforms",
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 63,
+      "market": "US"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 62,
       "market": "US"
     },
     {
-      "ticker": "TTC",
-      "name": "Toro Company",
+      "ticker": "LEA",
+      "name": "Lear Corp",
       "score": 62,
       "market": "US"
-    },
-    {
-      "ticker": "SBRY.L",
-      "name": "Sainsbury",
-      "score": 62,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -281,15 +281,15 @@
       "market": "UK"
     },
     {
-      "ticker": "HOLX",
-      "name": "Hologic",
+      "ticker": "LTC",
+      "name": "LTC Properties",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 68,
+      "ticker": "HOLX",
+      "name": "Hologic",
+      "score": 69,
       "market": "US"
     },
     {
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 866,
   "avgScore": 49,
-  "bearishAlertCount": 396
+  "bearishAlertCount": 399
 }
