@@ -8,13 +8,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MRNA",
       "name": "Moderna",
       "score": 73,
@@ -29,6 +22,20 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "DELL",
       "name": "Dell Technologies",
       "score": 72,
@@ -36,25 +43,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
       "score": 71,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "MPC",
@@ -69,6 +62,13 @@
       "score": 70,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "SDR.L",
+      "name": "Schroders",
+      "score": 70,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
@@ -80,17 +80,24 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "MKS.L",
-      "name": "Marks & Spencer",
-      "score": 21,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "UPST",
       "name": "Upstart",
       "score": 21,
       "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
+      "score": 22,
+      "market": "UK",
       "capCategory": "Mid"
     },
     {
@@ -103,13 +110,6 @@
     {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SHOP",
-      "name": "Shopify",
       "score": 22,
       "market": "US",
       "capCategory": "Large"
@@ -136,20 +136,14 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
+      "ticker": "NAUKRI.BO",
+      "name": "Info Edge (Naukri)",
       "score": 25,
-      "market": "FR",
-      "capCategory": "Mid"
+      "market": "IN",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 73,
-      "market": "US"
-    },
     {
       "ticker": "MRNA",
       "name": "Moderna",
@@ -163,15 +157,21 @@
       "market": "US"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 70,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "score": 72,
       "market": "US"
     },
     {
@@ -225,6 +225,12 @@
       "market": "US"
     },
     {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 66,
+      "market": "UK"
+    },
+    {
       "ticker": "RIOT",
       "name": "Riot Platforms",
       "score": 65,
@@ -243,15 +249,9 @@
       "market": "UK"
     },
     {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 64,
+      "ticker": "ADM.L",
+      "name": "Admiral Group",
+      "score": 63,
       "market": "UK"
     },
     {
@@ -275,16 +275,16 @@
       "market": "US"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 72,
-      "market": "UK"
-    },
-    {
       "ticker": "HOLX",
       "name": "Hologic",
       "score": 69,
       "market": "US"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 67,
+      "market": "UK"
     },
     {
       "ticker": "LTC",
@@ -313,6 +313,12 @@
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "ITM.L",
+      "name": "ITM Power",
       "score": 61,
       "market": "UK"
     },
@@ -321,15 +327,9 @@
       "name": "Watches of Switzerland",
       "score": 61,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 61,
-      "market": "FR"
     }
   ],
   "totalStocks": 866,
   "avgScore": 49,
-  "bearishAlertCount": 386
+  "bearishAlertCount": 384
 }
