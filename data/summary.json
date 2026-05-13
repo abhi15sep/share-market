@@ -1,18 +1,32 @@
 {
   "topOverall": [
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "EXAS",
       "name": "Exact Sciences",
       "score": 74,
       "market": "US",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "6367.T",
+      "name": "Daikin Industries",
+      "score": 73,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "8058.T",
@@ -22,51 +36,37 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "RIO.L",
-      "name": "Rio Tinto",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
       "score": 71,
-      "market": "UK",
+      "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "SMT.L",
-      "name": "Scottish Mortgage",
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
       "score": 71,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "EBAY",
       "name": "eBay",
-      "score": 70,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ALB",
       "name": "Albemarle",
-      "score": 70,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     }
@@ -75,79 +75,91 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 14,
+      "score": 16,
       "market": "US",
       "capCategory": "Mid"
     },
     {
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "TECH",
       "name": "Bio-Techne",
-      "score": 19,
+      "score": 22,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 21,
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 21,
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "SHOP",
       "name": "Shopify",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
-      "score": 23,
+      "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 23,
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
+      "ticker": "SOFI",
+      "name": "SoFi Technologies",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
-      "score": 24,
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "DASH",
       "name": "DoorDash",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "WDAY",
-      "name": "Workday",
-      "score": 24,
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 74,
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "6367.T",
+      "name": "Daikin Industries",
+      "score": 73,
+      "market": "JP"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 72,
       "market": "US"
     },
     {
@@ -157,8 +169,32 @@
       "market": "JP"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "EBAY",
+      "name": "eBay",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle",
       "score": 71,
       "market": "US"
     },
@@ -167,42 +203,6 @@
       "name": "Rio Tinto",
       "score": 71,
       "market": "UK"
-    },
-    {
-      "ticker": "SMT.L",
-      "name": "Scottish Mortgage",
-      "score": 71,
-      "market": "UK"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "EBAY",
-      "name": "eBay",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "ALB",
-      "name": "Albemarle",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 69,
-      "market": "US"
     }
   ],
   "topMidCap": [
@@ -211,6 +211,12 @@
       "name": "Schroders",
       "score": 71,
       "market": "UK"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 68,
+      "market": "US"
     },
     {
       "ticker": "BEZ.L",
@@ -233,6 +239,12 @@
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "LEA",
+      "name": "Lear Corp",
       "score": 65,
       "market": "US"
     },
@@ -241,12 +253,6 @@
       "name": "Intertek Group",
       "score": 65,
       "market": "UK"
-    },
-    {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 64,
-      "market": "US"
     },
     {
       "ticker": "ADM.L",
@@ -258,12 +264,6 @@
       "ticker": "PLUS.L",
       "name": "Plus500",
       "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 63,
       "market": "UK"
     }
   ],
@@ -287,6 +287,12 @@
       "market": "US"
     },
     {
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 66,
+      "market": "US"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 65,
@@ -302,12 +308,6 @@
       "ticker": "CFLT",
       "name": "Confluent",
       "score": 64,
-      "market": "US"
-    },
-    {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 63,
       "market": "US"
     },
     {
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 866,
   "avgScore": 49,
-  "bearishAlertCount": 394
+  "bearishAlertCount": 391
 }
