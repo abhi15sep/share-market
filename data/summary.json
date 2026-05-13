@@ -8,13 +8,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "8058.T",
       "name": "Mitsubishi Corp",
       "score": 72,
@@ -22,88 +15,102 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "6367.T",
-      "name": "Daikin Industries",
-      "score": 72,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "8031.T",
-      "name": "Mitsui & Co",
-      "score": 71,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MRNA",
-      "name": "Moderna",
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
       "score": 70,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 70,
+      "market": "UK",
       "capCategory": "Large"
     },
     {
       "ticker": "DELL",
       "name": "Dell Technologies",
-      "score": 70,
+      "score": 69,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "EBAY",
       "name": "eBay",
-      "score": 70,
+      "score": 69,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "4063.T",
-      "name": "Shin-Etsu Chemical",
-      "score": 70,
-      "market": "JP",
+      "ticker": "ALB",
+      "name": "Albemarle",
+      "score": 69,
+      "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "HOLX",
+      "name": "Hologic",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "SDR.L",
+      "name": "Schroders",
+      "score": 69,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "HUBS",
       "name": "HubSpot",
+      "score": 14,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "TECH",
+      "name": "Bio-Techne",
       "score": 18,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
+      "ticker": "GPC",
+      "name": "Genuine Parts",
       "score": 19,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify",
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
       "score": 20,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "MKS.L",
-      "name": "Marks & Spencer",
-      "score": 21,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
-      "score": 21,
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "score": 20,
       "market": "US",
       "capCategory": "Large"
     },
@@ -115,41 +122,28 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
+      "ticker": "WDAY",
+      "name": "Workday",
       "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "SMWH.L",
-      "name": "WH Smith",
+      "ticker": "W",
+      "name": "Wayfair",
       "score": 24,
-      "market": "UK",
-      "capCategory": "Small"
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "APTV",
+      "name": "Aptiv",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
-    {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 74,
-      "market": "US"
-    },
     {
       "ticker": "8058.T",
       "name": "Mitsubishi Corp",
@@ -157,52 +151,58 @@
       "market": "JP"
     },
     {
-      "ticker": "6367.T",
-      "name": "Daikin Industries",
-      "score": 72,
-      "market": "JP"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "8031.T",
-      "name": "Mitsui & Co",
-      "score": 71,
-      "market": "JP"
-    },
-    {
-      "ticker": "MRNA",
-      "name": "Moderna",
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 70,
+      "market": "UK"
     },
     {
       "ticker": "DELL",
       "name": "Dell Technologies",
-      "score": 70,
+      "score": 69,
       "market": "US"
     },
     {
       "ticker": "EBAY",
       "name": "eBay",
-      "score": 70,
+      "score": 69,
       "market": "US"
     },
     {
-      "ticker": "4063.T",
-      "name": "Shin-Etsu Chemical",
-      "score": 70,
+      "ticker": "ALB",
+      "name": "Albemarle",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 69,
       "market": "JP"
     },
     {
-      "ticker": "SMT.L",
-      "name": "Scottish Mortgage",
+      "ticker": "6367.T",
+      "name": "Daikin Industries",
       "score": 69,
-      "market": "UK"
+      "market": "JP"
+    },
+    {
+      "ticker": "0016.HK",
+      "name": "Sun Hung Kai Properties",
+      "score": 69,
+      "market": "HK"
     }
   ],
   "topMidCap": [
@@ -213,58 +213,58 @@
       "market": "UK"
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "BEZ.L",
       "name": "Beazley",
       "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "NNN",
-      "name": "NNN REIT",
-      "score": 66,
-      "market": "US"
-    },
-    {
       "ticker": "IGG.L",
       "name": "IG Group",
-      "score": 65,
+      "score": 66,
       "market": "UK"
     },
     {
       "ticker": "BBY.L",
       "name": "Balfour Beatty",
-      "score": 65,
+      "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 63,
-      "market": "US"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 62,
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 64,
       "market": "US"
     },
     {
       "ticker": "LEA",
       "name": "Lear Corp",
+      "score": 64,
+      "market": "US"
+    },
+    {
+      "ticker": "NNN",
+      "name": "NNN REIT",
+      "score": 63,
+      "market": "US"
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
       "score": 62,
       "market": "US"
     },
     {
-      "ticker": "TTC",
-      "name": "Toro Company",
+      "ticker": "ITRK.L",
+      "name": "Intertek Group",
       "score": 62,
-      "market": "US"
+      "market": "UK"
+    },
+    {
+      "ticker": "PLUS.L",
+      "name": "Plus500",
+      "score": 62,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -272,12 +272,6 @@
       "ticker": "EXAS",
       "name": "Exact Sciences",
       "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 69,
       "market": "US"
     },
     {
@@ -289,7 +283,7 @@
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 66,
+      "score": 67,
       "market": "UK"
     },
     {
@@ -305,14 +299,20 @@
       "market": "US"
     },
     {
-      "ticker": "MARS.L",
-      "name": "Marston's",
-      "score": 62,
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 64,
       "market": "UK"
     },
     {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 63,
+      "market": "US"
+    },
+    {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
       "score": 62,
       "market": "UK"
     },
@@ -323,13 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
       "score": 60,
       "market": "UK"
     }
   ],
   "totalStocks": 866,
-  "avgScore": 49,
-  "bearishAlertCount": 393
+  "avgScore": 48,
+  "bearishAlertCount": 397
 }
