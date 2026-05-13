@@ -1,25 +1,18 @@
 {
   "topOverall": [
     {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "EXAS",
       "name": "Exact Sciences",
       "score": 74,
       "market": "US",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "6367.T",
-      "name": "Daikin Industries",
-      "score": 73,
-      "market": "JP",
-      "capCategory": "Large"
     },
     {
       "ticker": "CF",
@@ -36,15 +29,22 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 71,
-      "market": "US",
+      "ticker": "6367.T",
+      "name": "Daikin Industries",
+      "score": 72,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -75,14 +75,14 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 16,
+      "score": 18,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "GPC",
       "name": "Genuine Parts",
-      "score": 21,
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
@@ -147,14 +147,8 @@
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 73,
+      "score": 74,
       "market": "US"
-    },
-    {
-      "ticker": "6367.T",
-      "name": "Daikin Industries",
-      "score": 73,
-      "market": "JP"
     },
     {
       "ticker": "CF",
@@ -169,14 +163,20 @@
       "market": "JP"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 71,
-      "market": "US"
+      "ticker": "6367.T",
+      "name": "Daikin Industries",
+      "score": 72,
+      "market": "JP"
     },
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
       "score": 71,
       "market": "US"
     },
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 866,
-  "avgScore": 49,
+  "avgScore": 50,
   "bearishAlertCount": 391
 }
