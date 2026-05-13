@@ -29,13 +29,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "AMAT",
       "name": "Applied Materials",
       "score": 71,
@@ -68,6 +61,13 @@
       "name": "eBay",
       "score": 70,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "4063.T",
+      "name": "Shin-Etsu Chemical",
+      "score": 70,
+      "market": "JP",
       "capCategory": "Large"
     }
   ],
@@ -138,7 +138,7 @@
     {
       "ticker": "SMWH.L",
       "name": "WH Smith",
-      "score": 25,
+      "score": 24,
       "market": "UK",
       "capCategory": "Small"
     }
@@ -161,12 +161,6 @@
       "name": "Daikin Industries",
       "score": 72,
       "market": "JP"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 71,
-      "market": "US"
     },
     {
       "ticker": "AMAT",
@@ -203,6 +197,12 @@
       "name": "Shin-Etsu Chemical",
       "score": 70,
       "market": "JP"
+    },
+    {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 69,
+      "market": "UK"
     }
   ],
   "topMidCap": [
@@ -231,21 +231,15 @@
       "market": "US"
     },
     {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
+      "ticker": "IGG.L",
+      "name": "IG Group",
       "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
-      "score": 64,
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
+      "score": 65,
       "market": "UK"
     },
     {
@@ -263,6 +257,12 @@
     {
       "ticker": "LEA",
       "name": "Lear Corp",
+      "score": 62,
+      "market": "US"
+    },
+    {
+      "ticker": "TTC",
+      "name": "Toro Company",
       "score": 62,
       "market": "US"
     }
@@ -293,12 +293,6 @@
       "market": "UK"
     },
     {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 65,
-      "market": "UK"
-    },
-    {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
       "score": 65,
@@ -311,8 +305,14 @@
       "market": "US"
     },
     {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
+      "ticker": "MARS.L",
+      "name": "Marston's",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
       "score": 62,
       "market": "UK"
     },
@@ -323,13 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 59,
-      "market": "FR"
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 60,
+      "market": "UK"
     }
   ],
   "totalStocks": 866,
   "avgScore": 49,
-  "bearishAlertCount": 390
+  "bearishAlertCount": 393
 }
