@@ -15,38 +15,38 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 73,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "SDR.L",
-      "name": "Schroders",
+      "ticker": "8058.T",
+      "name": "Mitsubishi Corp",
       "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ONGC.NS",
-      "name": "ONGC",
-      "score": 72,
-      "market": "IN",
+      "market": "JP",
       "capCategory": "Large"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
+      "ticker": "6367.T",
+      "name": "Daikin Industries",
+      "score": 72,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 70,
+      "score": 71,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8031.T",
+      "name": "Mitsui & Co",
+      "score": 71,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
@@ -73,16 +73,16 @@
   ],
   "bottomOverall": [
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 19,
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 18,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 20,
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 19,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -92,6 +92,13 @@
       "score": 20,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
+      "score": 21,
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
       "ticker": "GPC",
@@ -129,18 +136,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "NAUKRI.BO",
-      "name": "Info Edge (Naukri)",
+      "ticker": "SMWH.L",
+      "name": "WH Smith",
       "score": 25,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "APTV",
-      "name": "Aptiv",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
+      "market": "UK",
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
@@ -151,16 +151,34 @@
       "market": "US"
     },
     {
-      "ticker": "ONGC.NS",
-      "name": "ONGC",
+      "ticker": "8058.T",
+      "name": "Mitsubishi Corp",
       "score": 72,
-      "market": "IN"
+      "market": "JP"
+    },
+    {
+      "ticker": "6367.T",
+      "name": "Daikin Industries",
+      "score": 72,
+      "market": "JP"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 70,
+      "score": 71,
       "market": "US"
+    },
+    {
+      "ticker": "8031.T",
+      "name": "Mitsui & Co",
+      "score": 71,
+      "market": "JP"
     },
     {
       "ticker": "MRNA",
@@ -181,41 +199,17 @@
       "market": "US"
     },
     {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 70,
-      "market": "FR"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 70,
-      "market": "FR"
-    },
-    {
-      "ticker": "8058.T",
-      "name": "Mitsubishi Corp",
+      "ticker": "4063.T",
+      "name": "Shin-Etsu Chemical",
       "score": 70,
       "market": "JP"
-    },
-    {
-      "ticker": "0016.HK",
-      "name": "Sun Hung Kai Properties",
-      "score": 70,
-      "market": "HK"
     }
   ],
   "topMidCap": [
     {
       "ticker": "SDR.L",
       "name": "Schroders",
-      "score": 72,
-      "market": "UK"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 71,
+      "score": 69,
       "market": "UK"
     },
     {
@@ -225,9 +219,9 @@
       "market": "US"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 68,
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 67,
       "market": "UK"
     },
     {
@@ -239,13 +233,19 @@
     {
       "ticker": "BBY.L",
       "name": "Balfour Beatty",
-      "score": 66,
+      "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
-      "score": 65,
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "PLUS.L",
+      "name": "Plus500",
+      "score": 64,
       "market": "UK"
     },
     {
@@ -275,12 +275,6 @@
       "market": "US"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 73,
-      "market": "UK"
-    },
-    {
       "ticker": "LTC",
       "name": "LTC Properties",
       "score": 69,
@@ -293,8 +287,8 @@
       "market": "US"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 66,
       "market": "UK"
     },
@@ -305,31 +299,37 @@
       "market": "UK"
     },
     {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 65,
+      "market": "UK"
+    },
+    {
       "ticker": "CFLT",
       "name": "Confluent",
       "score": 64,
       "market": "US"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 63,
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 62,
       "market": "UK"
-    },
-    {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 60,
-      "market": "DE"
     },
     {
       "ticker": "ITM.L",
       "name": "ITM Power",
-      "score": 59,
+      "score": 60,
       "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 59,
+      "market": "FR"
     }
   ],
   "totalStocks": 866,
   "avgScore": 49,
-  "bearishAlertCount": 399
+  "bearishAlertCount": 390
 }
