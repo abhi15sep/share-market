@@ -3,7 +3,7 @@
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 76,
+      "score": 77,
       "market": "US",
       "capCategory": "Large"
     },
@@ -15,6 +15,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "8031.T",
       "name": "Mitsui & Co",
       "score": 73,
@@ -22,18 +29,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
       "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
+      "market": "UK",
+      "capCategory": "Small"
     },
     {
       "ticker": "4063.T",
@@ -50,39 +50,60 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 71,
-      "market": "US",
+      "ticker": "8058.T",
+      "name": "Mitsubishi Corp",
+      "score": 70,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 71,
-      "market": "US",
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 70,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
-      "ticker": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "score": 71,
-      "market": "US",
+      "ticker": "0002.HK",
+      "name": "CLP Holdings",
+      "score": 70,
+      "market": "HK",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 19,
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 18,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
-      "score": 22,
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "score": 18,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 20,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 20,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
@@ -94,15 +115,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
       "score": 23,
       "market": "US",
       "capCategory": "Large"
@@ -115,39 +129,31 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SOFI",
-      "name": "SoFi Technologies",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SHOP",
-      "name": "Shopify",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "UPST",
-      "name": "Upstart",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "MKS.L",
       "name": "Marks & Spencer",
-      "score": 26,
+      "score": 24,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 76,
+      "score": 77,
+      "market": "US"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 73,
       "market": "US"
     },
     {
@@ -155,18 +161,6 @@
       "name": "Mitsui & Co",
       "score": 73,
       "market": "JP"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 72,
-      "market": "US"
     },
     {
       "ticker": "4063.T",
@@ -181,37 +175,37 @@
       "market": "HK"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 71,
-      "market": "US"
+      "ticker": "8058.T",
+      "name": "Mitsubishi Corp",
+      "score": 70,
+      "market": "JP"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 71,
-      "market": "US"
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 70,
+      "market": "JP"
     },
     {
-      "ticker": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "score": 71,
-      "market": "US"
+      "ticker": "0002.HK",
+      "name": "CLP Holdings",
+      "score": 70,
+      "market": "HK"
     },
     {
-      "ticker": "EBAY",
-      "name": "eBay",
-      "score": 71,
-      "market": "US"
+      "ticker": "1113.HK",
+      "name": "CK Asset Holdings",
+      "score": 70,
+      "market": "HK"
+    },
+    {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 69,
+      "market": "UK"
     }
   ],
   "topMidCap": [
-    {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "score": 66,
-      "market": "US"
-    },
     {
       "ticker": "BEZ.L",
       "name": "Beazley",
@@ -225,20 +219,20 @@
       "market": "UK"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 65,
+      "market": "US"
+    },
+    {
       "ticker": "PLUS.L",
       "name": "Plus500",
       "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 64,
-      "market": "US"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 64,
       "market": "US"
     },
@@ -249,22 +243,28 @@
       "market": "UK"
     },
     {
-      "ticker": "RIOT",
-      "name": "Riot Platforms",
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
       "score": 63,
       "market": "US"
     },
     {
-      "ticker": "WOLF",
-      "name": "Wolfspeed",
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
       "score": 62,
       "market": "US"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 61,
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
+      "score": 62,
       "market": "US"
+    },
+    {
+      "ticker": "GAW.L",
+      "name": "Games Workshop",
+      "score": 61,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -277,7 +277,7 @@
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 70,
+      "score": 72,
       "market": "UK"
     },
     {
@@ -293,21 +293,9 @@
       "market": "UK"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 66,
-      "market": "US"
-    },
-    {
       "ticker": "CKN.L",
       "name": "Chemring Group",
-      "score": 66,
+      "score": 69,
       "market": "UK"
     },
     {
@@ -323,13 +311,25 @@
       "market": "UK"
     },
     {
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 63,
+      "market": "US"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 63,
+      "market": "UK"
+    },
+    {
       "ticker": "TSTL.L",
       "name": "Tristel",
-      "score": 61,
+      "score": 62,
       "market": "UK"
     }
   ],
   "totalStocks": 866,
-  "avgScore": 49,
-  "bearishAlertCount": 385
+  "avgScore": 48,
+  "bearishAlertCount": 393
 }
