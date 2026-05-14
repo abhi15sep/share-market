@@ -3,7 +3,7 @@
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 79,
+      "score": 78,
       "market": "US",
       "capCategory": "Large"
     },
@@ -15,6 +15,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "EXAS",
       "name": "Exact Sciences",
       "score": 74,
@@ -22,10 +29,24 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
       "score": 73,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8031.T",
+      "name": "Mitsui & Co",
+      "score": 73,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "0016.HK",
+      "name": "Sun Hung Kai Properties",
+      "score": 73,
+      "market": "HK",
       "capCategory": "Large"
     },
     {
@@ -36,53 +57,32 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
+      "ticker": "4063.T",
+      "name": "Shin-Etsu Chemical",
       "score": 72,
       "market": "JP",
       "capCategory": "Large"
     },
     {
-      "ticker": "0016.HK",
-      "name": "Sun Hung Kai Properties",
-      "score": 72,
-      "market": "HK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "DELL",
       "name": "Dell Technologies",
-      "score": 70,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
+      "ticker": "TECH",
+      "name": "Bio-Techne",
       "score": 20,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "PODD",
-      "name": "Insulet Corp",
-      "score": 20,
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
@@ -94,51 +94,51 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 22,
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "RBLX",
       "name": "Roblox",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SHOP",
-      "name": "Shopify",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
       "score": 23,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
       "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
+      "score": 25,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "DT",
+      "name": "Dynatrace",
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     }
@@ -147,14 +147,32 @@
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 79,
+      "score": 78,
       "market": "US"
     },
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
+      "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
       "score": 73,
       "market": "US"
+    },
+    {
+      "ticker": "8031.T",
+      "name": "Mitsui & Co",
+      "score": 73,
+      "market": "JP"
+    },
+    {
+      "ticker": "0016.HK",
+      "name": "Sun Hung Kai Properties",
+      "score": 73,
+      "market": "HK"
     },
     {
       "ticker": "SMT.L",
@@ -163,46 +181,28 @@
       "market": "UK"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
+      "ticker": "4063.T",
+      "name": "Shin-Etsu Chemical",
       "score": 72,
       "market": "JP"
-    },
-    {
-      "ticker": "0016.HK",
-      "name": "Sun Hung Kai Properties",
-      "score": 72,
-      "market": "HK"
-    },
-    {
-      "ticker": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "score": 71,
-      "market": "US"
     },
     {
       "ticker": "DELL",
       "name": "Dell Technologies",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "4063.T",
-      "name": "Shin-Etsu Chemical",
+      "ticker": "GS",
+      "name": "Goldman Sachs",
       "score": 70,
-      "market": "JP"
+      "market": "US"
     },
     {
       "ticker": "8058.T",
       "name": "Mitsubishi Corp",
       "score": 70,
       "market": "JP"
-    },
-    {
-      "ticker": "0002.HK",
-      "name": "CLP Holdings",
-      "score": 70,
-      "market": "HK"
     }
   ],
   "topMidCap": [
@@ -213,14 +213,20 @@
       "market": "UK"
     },
     {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "IGG.L",
       "name": "IG Group",
       "score": 68,
       "market": "UK"
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
       "score": 66,
       "market": "US"
     },
@@ -237,9 +243,9 @@
       "market": "US"
     },
     {
-      "ticker": "RIOT",
-      "name": "Riot Platforms",
-      "score": 64,
+      "ticker": "LEA",
+      "name": "Lear Corp",
+      "score": 65,
       "market": "US"
     },
     {
@@ -249,21 +255,15 @@
       "market": "US"
     },
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 64,
-      "market": "US"
-    },
-    {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 63,
-      "market": "US"
-    },
-    {
       "ticker": "PSON.L",
       "name": "Pearson",
       "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "MNG.L",
+      "name": "M&G",
+      "score": 62,
       "market": "UK"
     }
   ],
@@ -301,7 +301,7 @@
     {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 64,
+      "score": 65,
       "market": "US"
     },
     {
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 866,
   "avgScore": 49,
-  "bearishAlertCount": 391
+  "bearishAlertCount": 400
 }
