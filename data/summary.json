@@ -1,18 +1,18 @@
 {
   "topOverall": [
     {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 76,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "EXAS",
       "name": "Exact Sciences",
       "score": 74,
       "market": "US",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "8031.T",
@@ -75,7 +75,7 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 18,
+      "score": 19,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -115,11 +115,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MKS.L",
-      "name": "Marks & Spencer",
+      "ticker": "SOFI",
+      "name": "SoFi Technologies",
       "score": 24,
-      "market": "UK",
-      "capCategory": "Mid"
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "SHOP",
@@ -136,18 +136,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SOFI",
-      "name": "SoFi Technologies",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
+      "score": 26,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 73,
+      "score": 76,
       "market": "US"
     },
     {
@@ -225,6 +225,12 @@
       "market": "UK"
     },
     {
+      "ticker": "PLUS.L",
+      "name": "Plus500",
+      "score": 65,
+      "market": "UK"
+    },
+    {
       "ticker": "LEA",
       "name": "Lear Corp",
       "score": 64,
@@ -235,12 +241,6 @@
       "name": "Remitly Global",
       "score": 64,
       "market": "US"
-    },
-    {
-      "ticker": "GAW.L",
-      "name": "Games Workshop",
-      "score": 64,
-      "market": "UK"
     },
     {
       "ticker": "SDR.L",
@@ -275,21 +275,27 @@
       "market": "US"
     },
     {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 70,
+      "market": "UK"
+    },
+    {
       "ticker": "HOLX",
       "name": "Hologic",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 69,
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 69,
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 68,
       "market": "UK"
     },
     {
@@ -301,13 +307,7 @@
     {
       "ticker": "CKN.L",
       "name": "Chemring Group",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 65,
+      "score": 66,
       "market": "UK"
     },
     {
