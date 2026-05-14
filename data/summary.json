@@ -3,6 +3,13 @@
     {
       "ticker": "CSCO",
       "name": "Cisco",
+      "score": 80,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
       "score": 78,
       "market": "US",
       "capCategory": "Large"
@@ -13,13 +20,6 @@
       "score": 76,
       "market": "UK",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "EXAS",
@@ -64,8 +64,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
+      "ticker": "GS",
+      "name": "Goldman Sachs",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -80,13 +80,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
       "score": 21,
@@ -94,16 +87,16 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify",
-      "score": 21,
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 22,
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -115,15 +108,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 23,
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 24,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
+      "ticker": "RBLX",
+      "name": "Roblox",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
@@ -136,10 +129,17 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "DT",
-      "name": "Dynatrace",
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
       "score": 25,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EL.PA",
+      "name": "EssilorLuxottica",
+      "score": 26,
+      "market": "FR",
       "capCategory": "Large"
     }
   ],
@@ -147,13 +147,13 @@
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 78,
+      "score": 80,
       "market": "US"
     },
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 75,
+      "score": 78,
       "market": "US"
     },
     {
@@ -187,22 +187,22 @@
       "market": "JP"
     },
     {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "DELL",
       "name": "Dell Technologies",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
       "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "8058.T",
-      "name": "Mitsubishi Corp",
-      "score": 70,
-      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -215,7 +215,7 @@
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
-      "score": 68,
+      "score": 69,
       "market": "US"
     },
     {
@@ -227,6 +227,12 @@
     {
       "ticker": "FNB",
       "name": "F.N.B. Corp",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "LEA",
+      "name": "Lear Corp",
       "score": 66,
       "market": "US"
     },
@@ -237,21 +243,15 @@
       "market": "UK"
     },
     {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 65,
+      "market": "US"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 65,
-      "market": "US"
-    },
-    {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 65,
-      "market": "US"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 64,
       "market": "US"
     },
     {
@@ -261,10 +261,10 @@
       "market": "UK"
     },
     {
-      "ticker": "MNG.L",
-      "name": "M&G",
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
       "score": 62,
-      "market": "UK"
+      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -299,12 +299,6 @@
       "market": "US"
     },
     {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 65,
-      "market": "US"
-    },
-    {
       "ticker": "CFLT",
       "name": "Confluent",
       "score": 64,
@@ -327,9 +321,15 @@
       "name": "S4 Capital",
       "score": 63,
       "market": "UK"
+    },
+    {
+      "ticker": "GRG.L",
+      "name": "Greggs",
+      "score": 62,
+      "market": "UK"
     }
   ],
   "totalStocks": 866,
   "avgScore": 49,
-  "bearishAlertCount": 400
+  "bearishAlertCount": 394
 }
