@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-13T22:18:03.863Z",
+  "lastUpdated": "2026-05-14T09:40:14.934Z",
   "stockCount": 866,
-  "bearishAlerts": 391,
-  "newsCount": 600,
+  "bearishAlerts": 385,
+  "newsCount": 500,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
@@ -16,41 +16,41 @@
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10325.35,
-      "sma50": 10347.21,
-      "sma200": 9865.78,
-      "changeFromHigh": -5.36,
+      "price": 10351.48,
+      "sma50": 10338.64,
+      "sma200": 9871.86,
+      "changeFromHigh": -5.12,
       "distributionDays": 1,
       "regime": "bull",
-      "signal": "Price above SMA200 — uptrend intact"
+      "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "in": {
       "index": "Nifty 50",
-      "price": 23412.6,
-      "sma50": 23912.51,
-      "sma200": 25057.1,
-      "changeFromHigh": -11.08,
-      "distributionDays": 2,
+      "price": 23679.6,
+      "sma50": 23836.21,
+      "sma200": 25042.16,
+      "changeFromHigh": -10.06,
+      "distributionDays": 3,
       "regime": "correction",
-      "signal": "Down -11.1% from high — correction territory"
+      "signal": "Down -10.1% from high — correction territory"
     },
     "eu": {
       "index": "DAX 40",
-      "price": 24136.81,
-      "sma50": 23754.55,
-      "sma200": 24116.84,
-      "changeFromHigh": -5.05,
-      "distributionDays": 2,
+      "price": 24438.76,
+      "sma50": 23727.62,
+      "sma200": 24118.77,
+      "changeFromHigh": -3.86,
+      "distributionDays": 1,
       "regime": "bull",
       "signal": "Price above SMA200 — uptrend intact"
     },
     "asia": {
       "index": "Nikkei 225",
-      "price": 63272.11,
-      "sma50": 56436.66,
-      "sma200": 50199.46,
-      "changeFromHigh": 0.7,
-      "distributionDays": 3,
+      "price": 62654.05,
+      "sma50": 56608.45,
+      "sma200": 50433.94,
+      "changeFromHigh": -0.98,
+      "distributionDays": 4,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
