@@ -1,9 +1,23 @@
 {
   "topOverall": [
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 76,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 74,
       "market": "US",
       "capCategory": "Large"
     },
@@ -15,13 +29,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "8766.T",
       "name": "Tokio Marine",
       "score": 73,
@@ -29,15 +36,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 72,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
+      "ticker": "GS",
+      "name": "Goldman Sachs",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -50,62 +57,41 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "CPG.L",
-      "name": "Compass Group",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 70,
-      "market": "UK",
+      "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "SMT.L",
-      "name": "Scottish Mortgage",
+      "ticker": "JBHT",
+      "name": "J.B. Hunt Transport",
       "score": 70,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 70,
-      "market": "JP",
+      "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
-      "score": 19,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 20,
+      "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 20,
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 21,
+      "ticker": "TECH",
+      "name": "Bio-Techne",
+      "score": 22,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "NAUKRI.BO",
@@ -115,23 +101,30 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
       "score": 24,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
-      "ticker": "W",
-      "name": "Wayfair",
-      "score": 24,
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 25,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "RBLX",
       "name": "Roblox",
-      "score": 24,
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SOFI",
+      "name": "SoFi Technologies",
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
@@ -141,18 +134,31 @@
       "score": 26,
       "market": "FR",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 76,
       "market": "US"
     },
     {
       "ticker": "CF",
       "name": "CF Industries",
+      "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 74,
       "market": "US"
     },
@@ -163,15 +169,27 @@
       "market": "JP"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 72,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
+      "ticker": "GS",
+      "name": "Goldman Sachs",
       "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "JBHT",
+      "name": "J.B. Hunt Transport",
+      "score": 70,
       "market": "US"
     },
     {
@@ -185,24 +203,6 @@
       "name": "Scottish Mortgage",
       "score": 70,
       "market": "UK"
-    },
-    {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 70,
-      "market": "JP"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 69,
-      "market": "US"
     }
   ],
   "topMidCap": [
@@ -245,25 +245,25 @@
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
-      "score": 63,
+      "score": 64,
+      "market": "US"
+    },
+    {
+      "ticker": "LEA",
+      "name": "Lear Corp",
+      "score": 64,
       "market": "US"
     },
     {
       "ticker": "RIOT",
       "name": "Riot Platforms",
-      "score": 62,
+      "score": 63,
       "market": "US"
     },
     {
       "ticker": "SDR.L",
       "name": "Schroders",
       "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "GAW.L",
-      "name": "Games Workshop",
-      "score": 61,
       "market": "UK"
     }
   ],
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 866,
-  "avgScore": 48,
-  "bearishAlertCount": 403
+  "avgScore": 49,
+  "bearishAlertCount": 409
 }
