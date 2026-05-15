@@ -1,16 +1,16 @@
 {
   "topOverall": [
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 80,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 79,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 78,
       "market": "US",
       "capCategory": "Large"
     },
@@ -36,25 +36,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "DELL",
       "name": "Dell Technologies",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Small"
     },
     {
       "ticker": "8316.T",
@@ -64,11 +50,25 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
       "score": 69,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "HOLX",
+      "name": "Hologic",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
@@ -122,13 +122,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 24,
-      "market": "DE",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "NAUKRI.BO",
       "name": "Info Edge (Naukri)",
       "score": 24,
@@ -136,24 +129,31 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SMWH.L",
-      "name": "WH Smith",
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
       "score": 24,
-      "market": "UK",
-      "capCategory": "Small"
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RMS.PA",
+      "name": "Hermes",
+      "score": 25,
+      "market": "FR",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 80,
       "market": "US"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 79,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 78,
       "market": "US"
     },
     {
@@ -169,12 +169,6 @@
       "market": "JP"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 71,
-      "market": "US"
-    },
-    {
       "ticker": "DELL",
       "name": "Dell Technologies",
       "score": 71,
@@ -187,8 +181,8 @@
       "market": "JP"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
       "score": 69,
       "market": "US"
     },
@@ -201,6 +195,12 @@
     {
       "ticker": "TRGP",
       "name": "Targa Resources",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
       "score": 69,
       "market": "US"
     }
@@ -217,6 +217,12 @@
       "name": "F.N.B. Corp",
       "score": 67,
       "market": "US"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 67,
+      "market": "UK"
     },
     {
       "ticker": "LEA",
@@ -243,27 +249,21 @@
       "market": "UK"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 64,
-      "market": "UK"
-    },
-    {
       "ticker": "RIOT",
       "name": "Riot Platforms",
       "score": 62,
       "market": "US"
     },
     {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
+      "ticker": "BEZ.L",
+      "name": "Beazley",
       "score": 62,
       "market": "UK"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 62,
+      "ticker": "PLUS.L",
+      "name": "Plus500",
+      "score": 61,
       "market": "UK"
     }
   ],
@@ -275,22 +275,28 @@
       "market": "US"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 70,
-      "market": "UK"
-    },
-    {
       "ticker": "HOLX",
       "name": "Hologic",
       "score": 69,
       "market": "US"
     },
     {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 68,
+      "market": "UK"
+    },
+    {
       "ticker": "CFLT",
       "name": "Confluent",
       "score": 64,
       "market": "US"
+    },
+    {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 64,
+      "market": "UK"
     },
     {
       "ticker": "WOSG.L",
@@ -305,9 +311,9 @@
       "market": "UK"
     },
     {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 61,
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
+      "score": 62,
       "market": "UK"
     },
     {
@@ -321,15 +327,9 @@
       "name": "Marston's",
       "score": 59,
       "market": "UK"
-    },
-    {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 59,
-      "market": "UK"
     }
   ],
   "totalStocks": 866,
   "avgScore": 48,
-  "bearishAlertCount": 401
+  "bearishAlertCount": 403
 }
