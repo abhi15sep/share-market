@@ -8,10 +8,24 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "TTE.PA",
       "name": "TotalEnergies",
       "score": 75,
       "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 74,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -29,22 +43,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 72,
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "D",
       "name": "Dominion Energy",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CF",
-      "name": "CF Industries",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -57,35 +64,14 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "HAL",
+      "name": "Halliburton",
       "score": 71,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 71,
-      "market": "JP",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "MOS",
-      "name": "Mosaic Company",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
-    },
     {
       "ticker": "HUBS",
       "name": "HubSpot",
@@ -94,18 +80,25 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
+      "ticker": "ZG",
+      "name": "Zillow Group",
       "score": 22,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 22,
+      "ticker": "MOS",
+      "name": "Mosaic Company",
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "GRAB",
@@ -115,18 +108,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "W",
-      "name": "Wayfair",
-      "score": 24,
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "PODD",
@@ -136,19 +122,45 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "UPST",
-      "name": "Upstart",
+      "ticker": "TECH",
+      "name": "Bio-Techne",
       "score": 24,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 75,
+      "market": "US"
+    },
     {
       "ticker": "TTE.PA",
       "name": "TotalEnergies",
       "score": 75,
       "market": "FR"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 74,
+      "market": "US"
     },
     {
       "ticker": "CPG.L",
@@ -157,20 +169,14 @@
       "market": "UK"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 72,
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 73,
       "market": "US"
     },
     {
       "ticker": "D",
       "name": "Dominion Energy",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "CF",
-      "name": "CF Industries",
       "score": 72,
       "market": "US"
     },
@@ -181,16 +187,10 @@
       "market": "UK"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "HAL",
+      "name": "Halliburton",
       "score": 71,
       "market": "US"
-    },
-    {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 71,
-      "market": "JP"
     },
     {
       "ticker": "8766.T",
@@ -199,8 +199,8 @@
       "market": "JP"
     },
     {
-      "ticker": "HAL",
-      "name": "Halliburton",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 70,
       "market": "US"
     }
@@ -225,20 +225,14 @@
       "market": "FR"
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "PSON.L",
       "name": "Pearson",
       "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "RIOT",
-      "name": "Riot Platforms",
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
       "score": 66,
       "market": "US"
     },
@@ -249,22 +243,28 @@
       "market": "US"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
-      "score": 64,
-      "market": "UK"
+      "ticker": "RRC",
+      "name": "Range Resources",
+      "score": 65,
+      "market": "US"
     },
     {
       "ticker": "MTCH",
       "name": "Match Group",
-      "score": 63,
+      "score": 65,
       "market": "US"
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
+      "score": 64,
+      "market": "US"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 64,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -323,13 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 62,
-      "market": "DE"
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 61,
+      "market": "FR"
     }
   ],
   "totalStocks": 866,
-  "avgScore": 48,
-  "bearishAlertCount": 392
+  "avgScore": 49,
+  "bearishAlertCount": 388
 }
