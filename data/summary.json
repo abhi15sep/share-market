@@ -15,20 +15,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 75,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "EXAS",
       "name": "Exact Sciences",
       "score": 74,
@@ -46,6 +32,13 @@
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
@@ -68,6 +61,13 @@
       "name": "Halliburton",
       "score": 71,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8766.T",
+      "name": "Tokio Marine",
+      "score": 71,
+      "market": "JP",
       "capCategory": "Large"
     }
   ],
@@ -115,6 +115,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "PODD",
       "name": "Insulet Corp",
       "score": 24,
@@ -129,18 +136,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "UPST",
-      "name": "Upstart",
-      "score": 25,
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -148,18 +148,6 @@
       "ticker": "CF",
       "name": "CF Industries",
       "score": 75,
-      "market": "US"
-    },
-    {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 75,
-      "market": "FR"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 74,
       "market": "US"
     },
     {
@@ -172,6 +160,12 @@
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 72,
       "market": "US"
     },
     {
@@ -203,6 +197,12 @@
       "name": "Marathon Petroleum",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 70,
+      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -219,16 +219,16 @@
       "market": "UK"
     },
     {
-      "ticker": "TEP.PA",
-      "name": "Teleperformance",
-      "score": 70,
-      "market": "FR"
-    },
-    {
       "ticker": "PSON.L",
       "name": "Pearson",
       "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "TEP.PA",
+      "name": "Teleperformance",
+      "score": 67,
+      "market": "FR"
     },
     {
       "ticker": "LUNR",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 866,
   "avgScore": 49,
-  "bearishAlertCount": 388
+  "bearishAlertCount": 386
 }
