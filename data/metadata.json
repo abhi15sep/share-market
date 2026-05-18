@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-05-18T11:12:26.941Z",
+  "lastUpdated": "2026-05-18T15:40:00.803Z",
   "stockCount": 866,
-  "bearishAlerts": 415,
+  "bearishAlerts": 393,
   "newsCount": 500,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
-      "price": 7408.5,
-      "sma50": 6921.1,
-      "sma200": 6779.87,
-      "changeFromHigh": -1.24,
+      "price": 7385.78,
+      "sma50": 6934.01,
+      "sma200": 6785.1,
+      "changeFromHigh": -1.54,
       "distributionDays": 2,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10212.55,
-      "sma50": 10326.19,
-      "sma200": 9882.65,
-      "changeFromHigh": -6.4,
+      "price": 10307.09,
+      "sma50": 10328.09,
+      "sma200": 9883.13,
+      "changeFromHigh": -5.53,
       "distributionDays": 3,
       "regime": "bull",
       "signal": "Price above SMA200 — uptrend intact"
@@ -36,23 +36,23 @@
     },
     "eu": {
       "index": "DAX 40",
-      "price": 23995.34,
-      "sma50": 23726.96,
-      "sma200": 24116.19,
-      "changeFromHigh": -5.61,
+      "price": 24258.98,
+      "sma50": 23732.24,
+      "sma200": 24117.51,
+      "changeFromHigh": -4.57,
       "distributionDays": 2,
-      "regime": "correction",
-      "signal": "Price below SMA200 — trend weakening"
+      "regime": "bull",
+      "signal": "Price above SMA200 — uptrend intact"
     },
     "asia": {
       "index": "Nikkei 225",
       "price": 60815.95,
-      "sma50": 56714.81,
-      "sma200": 50648.36,
+      "sma50": 56659.63,
+      "sma200": 50542.6,
       "changeFromHigh": -3.88,
-      "distributionDays": 6,
-      "regime": "correction",
-      "signal": "6 distribution days in 25 sessions — selling pressure"
+      "distributionDays": 4,
+      "regime": "bull",
+      "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "overall": "correction",
     "summary": "Markets showing weakness. Be selective, reduce position sizes, and tighten stops."

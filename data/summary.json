@@ -1,25 +1,25 @@
 {
   "topOverall": [
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 76,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "EXAS",
       "name": "Exact Sciences",
       "score": 74,
       "market": "US",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "TTE.PA",
+      "name": "TotalEnergies",
+      "score": 74,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "EOG",
@@ -29,31 +29,24 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "D",
+      "name": "Dominion Energy",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
+      "ticker": "CPG.L",
+      "name": "Compass Group",
       "score": 72,
-      "market": "FR",
+      "market": "UK",
       "capCategory": "Large"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
       "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TRGP",
-      "name": "Targa Resources",
-      "score": 71,
-      "market": "US",
+      "market": "JP",
       "capCategory": "Large"
     },
     {
@@ -64,8 +57,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -73,8 +73,22 @@
   ],
   "bottomOverall": [
     {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 17,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
+      "score": 18,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company",
       "score": 21,
       "market": "US",
       "capCategory": "Mid"
@@ -82,9 +96,23 @@
     {
       "ticker": "TECH",
       "name": "Bio-Techne",
-      "score": 22,
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corp",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "GRAB",
@@ -94,66 +122,38 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
       "score": 23,
-      "market": "DE",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MKS.L",
-      "name": "Marks & Spencer",
-      "score": 23,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "SMWH.L",
-      "name": "WH Smith",
-      "score": 24,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 24,
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "RMS.PA",
-      "name": "Hermes",
-      "score": 25,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
-      "score": 25,
-      "market": "UK",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 76,
-      "market": "US"
+      "ticker": "TTE.PA",
+      "name": "TotalEnergies",
+      "score": 74,
+      "market": "FR"
     },
     {
       "ticker": "CF",
       "name": "CF Industries",
-      "score": 75,
+      "score": 73,
       "market": "US"
     },
     {
@@ -163,28 +163,22 @@
       "market": "US"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "D",
+      "name": "Dominion Energy",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
+      "ticker": "CPG.L",
+      "name": "Compass Group",
       "score": 72,
-      "market": "FR"
+      "market": "UK"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
       "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "TRGP",
-      "name": "Targa Resources",
-      "score": 71,
-      "market": "US"
+      "market": "JP"
     },
     {
       "ticker": "8766.T",
@@ -193,30 +187,48 @@
       "market": "JP"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "JBHT",
-      "name": "J.B. Hunt Transport",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "6098.T",
+      "name": "Recruit Holdings",
+      "score": 70,
+      "market": "JP"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "HBR.L",
-      "name": "Harbour Energy",
-      "score": 67,
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 69,
       "market": "UK"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 67,
+      "ticker": "HBR.L",
+      "name": "Harbour Energy",
+      "score": 68,
       "market": "UK"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
+      "score": 65,
+      "market": "US"
     },
     {
       "ticker": "OGN",
@@ -225,16 +237,10 @@
       "market": "US"
     },
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
+      "ticker": "TEP.PA",
+      "name": "Teleperformance",
       "score": 65,
-      "market": "US"
-    },
-    {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "score": 64,
-      "market": "US"
+      "market": "FR"
     },
     {
       "ticker": "BEZ.L",
@@ -243,27 +249,21 @@
       "market": "UK"
     },
     {
-      "ticker": "TEP.PA",
-      "name": "Teleperformance",
-      "score": 64,
-      "market": "FR"
-    },
-    {
-      "ticker": "RIOT",
-      "name": "Riot Platforms",
-      "score": 63,
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 62,
       "market": "US"
     },
     {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 63,
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
+      "score": 62,
       "market": "UK"
     },
     {
-      "ticker": "MNG.L",
-      "name": "M&G",
-      "score": 61,
+      "ticker": "PLUS.L",
+      "name": "Plus500",
+      "score": 62,
       "market": "UK"
     }
   ],
@@ -283,13 +283,13 @@
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 69,
+      "score": 68,
       "market": "UK"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 65,
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 66,
       "market": "UK"
     },
     {
@@ -301,7 +301,25 @@
     {
       "ticker": "ASHM.L",
       "name": "Ashmore Group",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
       "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 61,
       "market": "UK"
     },
     {
@@ -309,27 +327,9 @@
       "name": "Coterra Energy",
       "score": 60,
       "market": "US"
-    },
-    {
-      "ticker": "ITM.L",
-      "name": "ITM Power",
-      "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 59,
-      "market": "UK"
     }
   ],
   "totalStocks": 866,
-  "avgScore": 48,
-  "bearishAlertCount": 415
+  "avgScore": 47,
+  "bearishAlertCount": 393
 }
