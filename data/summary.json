@@ -8,6 +8,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "EXAS",
       "name": "Exact Sciences",
       "score": 74,
@@ -15,11 +22,25 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "JBHT",
-      "name": "J.B. Hunt Transport",
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 72,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TTE.PA",
+      "name": "TotalEnergies",
+      "score": 72,
+      "market": "FR",
+      "capCategory": "Large"
     },
     {
       "ticker": "AMAT",
@@ -29,118 +50,97 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OXY",
-      "name": "Occidental Petroleum",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "TRGP",
       "name": "Targa Resources",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8766.T",
+      "name": "Tokio Marine",
+      "score": 71,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 70,
       "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "LRCX",
-      "name": "Lam Research",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "HOLX",
-      "name": "Hologic",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "KEYS",
-      "name": "Keysight Technologies",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "BSX",
-      "name": "Boston Scientific",
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "TECH",
+      "name": "Bio-Techne",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 23,
+      "market": "DE",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
+      "score": 23,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "SMWH.L",
+      "name": "WH Smith",
       "score": 24,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "W",
-      "name": "Wayfair",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "PEGA",
-      "name": "Pegasystems",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 27,
-      "market": "FR",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "NAUKRI.BO",
-      "name": "Info Edge (Naukri)",
-      "score": 27,
-      "market": "IN",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "SOFI",
-      "name": "SoFi Technologies",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 28,
       "market": "UK",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RMS.PA",
+      "name": "Hermes",
+      "score": 25,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BRBY.L",
+      "name": "Burberry",
+      "score": 25,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -151,96 +151,127 @@
       "market": "US"
     },
     {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "TTE.PA",
+      "name": "TotalEnergies",
+      "score": 72,
+      "market": "FR"
+    },
+    {
       "ticker": "AMAT",
       "name": "Applied Materials",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 66,
+      "ticker": "TRGP",
+      "name": "Targa Resources",
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "score": 66,
-      "market": "US"
+      "ticker": "8766.T",
+      "name": "Tokio Marine",
+      "score": 71,
+      "market": "JP"
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "score": 64,
-      "market": "US"
-    },
-    {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks",
-      "score": 64,
-      "market": "US"
-    },
-    {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 63,
-      "market": "US"
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "score": 62,
-      "market": "US"
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom",
-      "score": 62,
-      "market": "US"
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "score": 59,
-      "market": "US"
-    }
-  ],
-  "topMidCap": [],
-  "topSmallCap": [
-    {
-      "ticker": "EXAS",
-      "name": "Exact Sciences",
-      "score": 74,
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "JBHT",
       "name": "J.B. Hunt Transport",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "OXY",
-      "name": "Occidental Petroleum",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
       "score": 70,
       "market": "US"
+    }
+  ],
+  "topMidCap": [
+    {
+      "ticker": "HBR.L",
+      "name": "Harbour Energy",
+      "score": 67,
+      "market": "UK"
     },
     {
-      "ticker": "TRGP",
-      "name": "Targa Resources",
-      "score": 70,
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 65,
       "market": "US"
     },
     {
-      "ticker": "LRCX",
-      "name": "Lam Research",
-      "score": 69,
+      "ticker": "LEA",
+      "name": "Lear Corp",
+      "score": 65,
+      "market": "US"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 64,
+      "market": "US"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "TEP.PA",
+      "name": "Teleperformance",
+      "score": 64,
+      "market": "FR"
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
+      "score": 63,
+      "market": "US"
+    },
+    {
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "MNG.L",
+      "name": "M&G",
+      "score": 61,
+      "market": "UK"
+    }
+  ],
+  "topSmallCap": [
+    {
+      "ticker": "EXAS",
+      "name": "Exact Sciences",
+      "score": 74,
       "market": "US"
     },
     {
@@ -250,25 +281,55 @@
       "market": "US"
     },
     {
-      "ticker": "KEYS",
-      "name": "Keysight Technologies",
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "CFLT",
+      "name": "Confluent",
+      "score": 64,
       "market": "US"
     },
     {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 69,
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 60,
       "market": "US"
     },
     {
-      "ticker": "GLEN.L",
-      "name": "Glencore",
-      "score": 69,
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 60,
+      "market": "UK"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 60,
+      "market": "UK"
+    },
+    {
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
+      "score": 59,
       "market": "UK"
     }
   ],
   "totalStocks": 866,
   "avgScore": 48,
-  "bearishAlertCount": 413
+  "bearishAlertCount": 415
 }
