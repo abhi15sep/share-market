@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 76,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
       "score": 76,
@@ -8,9 +15,16 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 74,
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 75,
       "market": "US",
       "capCategory": "Large"
     },
@@ -20,13 +34,6 @@
       "score": 74,
       "market": "US",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "IGG.L",
@@ -43,8 +50,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -62,34 +69,48 @@
       "score": 73,
       "market": "FR",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 19,
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 20,
+      "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
     {
+      "ticker": "MOS",
+      "name": "Mosaic Company",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
-      "score": 21,
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
@@ -101,13 +122,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "HUBS",
       "name": "HubSpot",
       "score": 24,
@@ -115,25 +129,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MOS",
-      "name": "Mosaic Company",
+      "ticker": "TECH",
+      "name": "Bio-Techne",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "DASH",
-      "name": "DoorDash",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "LCID",
@@ -147,18 +147,24 @@
     {
       "ticker": "ALL",
       "name": "Allstate",
-      "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 74,
+      "score": 76,
       "market": "US"
     },
     {
       "ticker": "VLO",
       "name": "Valero Energy",
+      "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 73,
       "market": "US"
     },
@@ -175,15 +181,15 @@
       "market": "FR"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
+      "ticker": "HAL",
+      "name": "Halliburton",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "HAL",
-      "name": "Halliburton",
-      "score": 72,
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 71,
       "market": "US"
     },
     {
@@ -193,16 +199,10 @@
       "market": "JP"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "MU",
+      "name": "Micron",
       "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "CPG.L",
-      "name": "Compass Group",
-      "score": 70,
-      "market": "UK"
     }
   ],
   "topMidCap": [
@@ -225,14 +225,14 @@
       "market": "UK"
     },
     {
-      "ticker": "RIOT",
-      "name": "Riot Platforms",
-      "score": 66,
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 67,
       "market": "US"
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
+      "ticker": "NNN",
+      "name": "NNN REIT",
       "score": 66,
       "market": "US"
     },
@@ -261,9 +261,9 @@
       "market": "FR"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 65,
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 63,
       "market": "US"
     }
   ],
@@ -290,12 +290,6 @@
       "ticker": "HOLX",
       "name": "Hologic",
       "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "CFLT",
-      "name": "Confluent",
-      "score": 64,
       "market": "US"
     },
     {
@@ -327,9 +321,15 @@
       "name": "Michelin",
       "score": 61,
       "market": "FR"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 60,
+      "market": "US"
     }
   ],
-  "totalStocks": 866,
-  "avgScore": 48,
-  "bearishAlertCount": 381
+  "totalStocks": 865,
+  "avgScore": 49,
+  "bearishAlertCount": 384
 }
