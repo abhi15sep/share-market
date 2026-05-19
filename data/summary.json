@@ -8,6 +8,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "EXAS",
       "name": "Exact Sciences",
       "score": 74,
@@ -22,11 +29,25 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 74,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "CWK.L",
       "name": "Cranswick",
       "score": 74,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "SMT.L",
@@ -36,13 +57,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 73,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "TTE.PA",
       "name": "TotalEnergies",
       "score": 73,
@@ -50,23 +64,9 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "8766.T",
-      "name": "Tokio Marine",
-      "score": 72,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "EOG",
       "name": "EOG Resources",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     }
@@ -80,13 +80,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify",
-      "score": 19,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "GRAB",
       "name": "Grab Holdings",
       "score": 20,
@@ -97,13 +90,6 @@
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
       "score": 21,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
@@ -122,32 +108,58 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "UPST",
-      "name": "Upstart",
+      "ticker": "HUBS",
+      "name": "HubSpot",
       "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "DASH",
       "name": "DoorDash",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "LCID",
       "name": "Lucid Group",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 74,
+      "market": "US"
+    },
+    {
       "ticker": "CF",
       "name": "CF Industries",
       "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 73,
       "market": "US"
     },
     {
@@ -163,32 +175,26 @@
       "market": "FR"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "8766.T",
-      "name": "Tokio Marine",
-      "score": 72,
-      "market": "JP"
-    },
-    {
       "ticker": "EOG",
       "name": "EOG Resources",
-      "score": 71,
+      "score": 72,
       "market": "US"
     },
     {
       "ticker": "HAL",
       "name": "Halliburton",
-      "score": 71,
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "SLB",
-      "name": "Schlumberger",
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 71,
+      "market": "JP"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 70,
       "market": "US"
     },
@@ -197,15 +203,15 @@
       "name": "Compass Group",
       "score": 70,
       "market": "UK"
-    },
-    {
-      "ticker": "0002.HK",
-      "name": "CLP Holdings",
-      "score": 70,
-      "market": "HK"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 74,
+      "market": "UK"
+    },
     {
       "ticker": "CWK.L",
       "name": "Cranswick",
@@ -213,16 +219,22 @@
       "market": "UK"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 73,
-      "market": "UK"
-    },
-    {
       "ticker": "AJB.L",
       "name": "AJ Bell",
       "score": 69,
       "market": "UK"
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 66,
+      "market": "US"
     },
     {
       "ticker": "HBR.L",
@@ -247,18 +259,6 @@
       "name": "Teleperformance",
       "score": 66,
       "market": "FR"
-    },
-    {
-      "ticker": "RIOT",
-      "name": "Riot Platforms",
-      "score": 65,
-      "market": "US"
-    },
-    {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "score": 65,
-      "market": "US"
     },
     {
       "ticker": "OGN",
@@ -301,7 +301,7 @@
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 63,
+      "score": 64,
       "market": "UK"
     },
     {
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 866,
   "avgScore": 48,
-  "bearishAlertCount": 383
+  "bearishAlertCount": 381
 }
