@@ -8,6 +8,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "HINDALCO.NS",
       "name": "Hindalco",
       "score": 75,
@@ -29,8 +36,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CF",
-      "name": "CF Industries",
+      "ticker": "SLB",
+      "name": "Schlumberger",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -50,15 +57,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SLB",
-      "name": "Schlumberger",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HPE",
-      "name": "Hewlett Packard Enterprise",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -75,28 +75,28 @@
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 18,
+      "score": 19,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
-      "score": 20,
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 19,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 21,
+      "ticker": "TECH",
+      "name": "Bio-Techne",
+      "score": 22,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "SHOP",
       "name": "Shopify",
-      "score": 21,
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
@@ -108,18 +108,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "NAUKRI.BO",
@@ -129,21 +122,34 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "UPST",
-      "name": "Upstart",
+      "ticker": "ZG",
+      "name": "Zillow Group",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "SE",
-      "name": "Sea Limited",
+      "ticker": "GPC",
+      "name": "Genuine Parts",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 75,
+      "market": "US"
+    },
     {
       "ticker": "HINDALCO.NS",
       "name": "Hindalco",
@@ -157,8 +163,8 @@
       "market": "UK"
     },
     {
-      "ticker": "CF",
-      "name": "CF Industries",
+      "ticker": "SLB",
+      "name": "Schlumberger",
       "score": 73,
       "market": "US"
     },
@@ -169,14 +175,8 @@
       "market": "FR"
     },
     {
-      "ticker": "SLB",
-      "name": "Schlumberger",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "HPE",
-      "name": "Hewlett Packard Enterprise",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 71,
       "market": "US"
     },
@@ -193,16 +193,16 @@
       "market": "US"
     },
     {
-      "ticker": "BK",
-      "name": "Bank of New York Mellon",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "8766.T",
+      "name": "Tokio Marine",
       "score": 70,
-      "market": "US"
+      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -215,7 +215,7 @@
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
-      "score": 68,
+      "score": 69,
       "market": "US"
     },
     {
@@ -237,6 +237,12 @@
       "market": "UK"
     },
     {
+      "ticker": "NNN",
+      "name": "NNN REIT",
+      "score": 66,
+      "market": "US"
+    },
+    {
       "ticker": "BNZL.L",
       "name": "Bunzl",
       "score": 66,
@@ -249,8 +255,8 @@
       "market": "UK"
     },
     {
-      "ticker": "NNN",
-      "name": "NNN REIT",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 65,
       "market": "US"
     },
@@ -259,12 +265,6 @@
       "name": "Cranswick",
       "score": 65,
       "market": "UK"
-    },
-    {
-      "ticker": "RRC",
-      "name": "Range Resources",
-      "score": 64,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -295,7 +295,7 @@
     {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 66,
+      "score": 67,
       "market": "US"
     },
     {
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 865,
-  "avgScore": 49,
-  "bearishAlertCount": 392
+  "avgScore": 50,
+  "bearishAlertCount": 389
 }
