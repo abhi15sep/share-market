@@ -1,11 +1,11 @@
 {
   "topOverall": [
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 76,
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 81,
       "market": "UK",
-      "capCategory": "Small"
+      "capCategory": "Mid"
     },
     {
       "ticker": "AJB.L",
@@ -13,13 +13,6 @@
       "score": 75,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "8766.T",
-      "name": "Tokio Marine",
-      "score": 75,
-      "market": "JP",
-      "capCategory": "Large"
     },
     {
       "ticker": "EXAS",
@@ -31,81 +24,88 @@
     {
       "ticker": "TTE.PA",
       "name": "TotalEnergies",
-      "score": 73,
+      "score": 74,
       "market": "FR",
       "capCategory": "Large"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "ADM.L",
+      "name": "Admiral Group",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 72,
       "market": "UK",
       "capCategory": "Small"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
+      "ticker": "8766.T",
+      "name": "Tokio Marine",
       "score": 72,
       "market": "JP",
       "capCategory": "Large"
     },
     {
-      "ticker": "SLB",
-      "name": "Schlumberger",
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
       "score": 71,
-      "market": "US",
+      "market": "UK",
       "capCategory": "Large"
     },
     {
-      "ticker": "0883.HK",
-      "name": "CNOOC",
-      "score": 70,
-      "market": "HK",
-      "capCategory": "Large"
+      "ticker": "INVP.L",
+      "name": "Investec",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 16,
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 18,
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 18,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ELF",
-      "name": "Elf Beauty",
       "score": 22,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "GPC",
       "name": "Genuine Parts",
-      "score": 22,
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "TECH",
+      "name": "Bio-Techne",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "GRAB",
@@ -115,25 +115,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
+      "ticker": "SE",
+      "name": "Sea Limited",
       "score": 24,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "LI",
-      "name": "Li Auto",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "DASH",
@@ -141,38 +134,51 @@
       "score": 25,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "8766.T",
-      "name": "Tokio Marine",
-      "score": 75,
-      "market": "JP"
-    },
-    {
       "ticker": "TTE.PA",
       "name": "TotalEnergies",
-      "score": 73,
+      "score": 74,
       "market": "FR"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
+      "ticker": "ADM.L",
+      "name": "Admiral Group",
+      "score": 72,
+      "market": "UK"
+    },
+    {
+      "ticker": "8766.T",
+      "name": "Tokio Marine",
       "score": 72,
       "market": "JP"
     },
     {
-      "ticker": "SLB",
-      "name": "Schlumberger",
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
       "score": 71,
-      "market": "US"
+      "market": "UK"
     },
     {
-      "ticker": "0883.HK",
-      "name": "CNOOC",
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 71,
+      "market": "JP"
+    },
+    {
+      "ticker": "HAL",
+      "name": "Halliburton",
       "score": 70,
-      "market": "HK"
+      "market": "US"
     },
     {
       "ticker": "GS",
@@ -197,15 +203,15 @@
       "name": "Marathon Petroleum",
       "score": 69,
       "market": "US"
-    },
-    {
-      "ticker": "HAL",
-      "name": "Halliburton",
-      "score": 69,
-      "market": "US"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 81,
+      "market": "UK"
+    },
     {
       "ticker": "AJB.L",
       "name": "AJ Bell",
@@ -213,67 +219,55 @@
       "market": "UK"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 72,
+      "ticker": "INVP.L",
+      "name": "Investec",
+      "score": 71,
       "market": "UK"
     },
     {
       "ticker": "HBR.L",
       "name": "Harbour Energy",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
-      "score": 65,
+      "score": 69,
       "market": "UK"
     },
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
-      "score": 64,
+      "score": 67,
       "market": "US"
     },
     {
       "ticker": "BEZ.L",
       "name": "Beazley",
-      "score": 64,
+      "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "INVP.L",
-      "name": "Investec",
-      "score": 64,
+      "ticker": "PLUS.L",
+      "name": "Plus500",
+      "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "RRC",
-      "name": "Range Resources",
-      "score": 63,
-      "market": "US"
     },
     {
       "ticker": "CWK.L",
       "name": "Cranswick",
-      "score": 63,
+      "score": 65,
       "market": "UK"
+    },
+    {
+      "ticker": "MNG.L",
+      "name": "M&G",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 63,
+      "market": "US"
     }
   ],
   "topSmallCap": [
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 76,
-      "market": "UK"
-    },
     {
       "ticker": "EXAS",
       "name": "Exact Sciences",
@@ -283,6 +277,12 @@
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
+      "score": 73,
+      "market": "UK"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 72,
       "market": "UK"
     },
@@ -295,7 +295,13 @@
     {
       "ticker": "TSTL.L",
       "name": "Tristel",
-      "score": 67,
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 65,
       "market": "UK"
     },
     {
@@ -305,31 +311,25 @@
       "market": "UK"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 62,
-      "market": "UK"
-    },
-    {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 61,
+      "score": 63,
       "market": "US"
     },
     {
-      "ticker": "CTRA",
-      "name": "Coterra Energy",
-      "score": 60,
-      "market": "US"
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 61,
+      "market": "FR"
     }
   ],
   "totalStocks": 865,
-  "avgScore": 48,
-  "bearishAlertCount": 378
+  "avgScore": 49,
+  "bearishAlertCount": 373
 }
