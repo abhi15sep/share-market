@@ -15,13 +15,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "8766.T",
-      "name": "Tokio Marine",
-      "score": 75,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "EXAS",
       "name": "Exact Sciences",
       "score": 74,
@@ -33,6 +26,13 @@
       "name": "TotalEnergies",
       "score": 74,
       "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8766.T",
+      "name": "Tokio Marine",
+      "score": 74,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
@@ -82,7 +82,7 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 20,
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
@@ -110,51 +110,51 @@
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "LI",
-      "name": "Li Auto",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "DASH",
       "name": "DoorDash",
-      "score": 26,
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 28,
+      "market": "DE",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corp",
+      "score": 28,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "8766.T",
-      "name": "Tokio Marine",
-      "score": 75,
-      "market": "JP"
-    },
-    {
       "ticker": "TTE.PA",
       "name": "TotalEnergies",
       "score": 74,
       "market": "FR"
+    },
+    {
+      "ticker": "8766.T",
+      "name": "Tokio Marine",
+      "score": 74,
+      "market": "JP"
     },
     {
       "ticker": "GS",
@@ -199,10 +199,10 @@
       "market": "UK"
     },
     {
-      "ticker": "0883.HK",
-      "name": "CNOOC",
+      "ticker": "NUE",
+      "name": "Nucor",
       "score": 70,
-      "market": "HK"
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -295,7 +295,7 @@
     {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 66,
+      "score": 68,
       "market": "US"
     },
     {
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 865,
   "avgScore": 50,
-  "bearishAlertCount": 370
+  "bearishAlertCount": 369
 }
