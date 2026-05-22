@@ -22,6 +22,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "SLB",
       "name": "Schlumberger",
       "score": 72,
@@ -29,44 +36,37 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "HPE",
       "name": "Hewlett Packard Enterprise",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "EOG",
       "name": "EOG Resources",
-      "score": 70,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "RKLB",
       "name": "Rocket Lab",
-      "score": 70,
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     }
@@ -75,7 +75,7 @@
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 18,
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -94,23 +94,23 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ELF",
       "name": "Elf Beauty",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 25,
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -122,25 +122,25 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DJT",
-      "name": "Trump Media",
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "LI",
-      "name": "Li Auto",
-      "score": 27,
-      "market": "US",
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 28,
+      "market": "DE",
       "capCategory": "Large"
     },
     {
-      "ticker": "DASH",
-      "name": "DoorDash",
-      "score": 27,
+      "ticker": "DJT",
+      "name": "Trump Media",
+      "score": 28,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -151,57 +151,57 @@
       "market": "FR"
     },
     {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "score": 73,
+      "market": "US"
+    },
+    {
       "ticker": "SLB",
       "name": "Schlumberger",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
-      "score": 71,
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "HPE",
-      "name": "Hewlett Packard Enterprise",
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 71,
       "market": "US"
     },
     {
       "ticker": "EOG",
       "name": "EOG Resources",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "RKLB",
       "name": "Rocket Lab",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "NUE",
       "name": "Nucor",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "BK",
-      "name": "Bank of New York Mellon",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 69,
       "market": "US"
     }
   ],
@@ -219,27 +219,21 @@
       "market": "UK"
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "INVP.L",
       "name": "Investec",
       "score": 70,
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 66,
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 68,
       "market": "US"
     },
     {
@@ -261,9 +255,15 @@
       "market": "UK"
     },
     {
-      "ticker": "MARA",
-      "name": "Marathon Digital",
-      "score": 63,
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "score": 64,
+      "market": "US"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 64,
       "market": "US"
     }
   ],
@@ -293,16 +293,16 @@
       "market": "US"
     },
     {
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 65,
+      "market": "US"
+    },
+    {
       "ticker": "SUPR.L",
       "name": "Supermarket Income REIT",
       "score": 65,
       "market": "UK"
-    },
-    {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 64,
-      "market": "US"
     },
     {
       "ticker": "RPI.L",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 865,
   "avgScore": 50,
-  "bearishAlertCount": 337
+  "bearishAlertCount": 344
 }
