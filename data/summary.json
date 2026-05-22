@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "TTE.PA",
+      "name": "TotalEnergies",
+      "score": 75,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "EXAS",
       "name": "Exact Sciences",
       "score": 74,
@@ -15,16 +22,16 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 74,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "DELL",
       "name": "Dell Technologies",
       "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
@@ -39,13 +46,6 @@
       "ticker": "HPE",
       "name": "Hewlett Packard Enterprise",
       "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
@@ -89,7 +89,7 @@
     {
       "ticker": "GPC",
       "name": "Genuine Parts",
-      "score": 23,
+      "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
@@ -115,13 +115,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
       "score": 27,
@@ -141,19 +134,32 @@
       "score": 28,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "LI",
+      "name": "Li Auto",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "TTE.PA",
       "name": "TotalEnergies",
-      "score": 74,
+      "score": 75,
       "market": "FR"
     },
     {
       "ticker": "DELL",
       "name": "Dell Technologies",
       "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 72,
       "market": "US"
     },
     {
@@ -166,12 +172,6 @@
       "ticker": "HPE",
       "name": "Hewlett Packard Enterprise",
       "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 71,
       "market": "US"
     },
     {
@@ -199,8 +199,8 @@
       "market": "US"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
+      "ticker": "ROST",
+      "name": "Ross Stores",
       "score": 70,
       "market": "US"
     }
@@ -243,12 +243,6 @@
       "market": "UK"
     },
     {
-      "ticker": "TEP.PA",
-      "name": "Teleperformance",
-      "score": 66,
-      "market": "FR"
-    },
-    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 65,
@@ -264,6 +258,12 @@
       "ticker": "CROX",
       "name": "Crocs",
       "score": 64,
+      "market": "US"
+    },
+    {
+      "ticker": "MARA",
+      "name": "Marathon Digital",
+      "score": 63,
       "market": "US"
     }
   ],
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 865,
   "avgScore": 50,
-  "bearishAlertCount": 344
+  "bearishAlertCount": 345
 }
