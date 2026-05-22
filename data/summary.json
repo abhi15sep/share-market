@@ -8,6 +8,20 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
+      "score": 74,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "TTE.PA",
+      "name": "TotalEnergies",
+      "score": 74,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "HINDALCO.NS",
       "name": "Hindalco",
       "score": 72,
@@ -15,22 +29,36 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 72,
-      "market": "FR",
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "8766.T",
+      "name": "Tokio Marine",
+      "score": 71,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
-      "ticker": "EBAY",
-      "name": "eBay",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
+      "ticker": "INVP.L",
+      "name": "Investec",
       "score": 70,
       "market": "UK",
       "capCategory": "Mid"
@@ -41,61 +69,33 @@
       "score": 69,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BK",
-      "name": "Bank of New York Mellon",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NUE",
-      "name": "Nucor",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HOLX",
-      "name": "Hologic",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "ELF",
-      "name": "Elf Beauty",
-      "score": 21,
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 18,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
-      "score": 21,
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 20,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
-      "ticker": "LI",
-      "name": "Li Auto",
+      "ticker": "HUBS",
+      "name": "HubSpot",
       "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
+      "ticker": "ELF",
+      "name": "Elf Beauty",
       "score": 23,
       "market": "US",
       "capCategory": "Mid"
@@ -108,18 +108,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "UPST",
       "name": "Upstart",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "LI",
+      "name": "Li Auto",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "CELH",
@@ -129,21 +129,27 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "CHWY",
-      "name": "Chewy",
-      "score": 26,
+      "ticker": "TECH",
+      "name": "Bio-Techne",
+      "score": 27,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "DASH",
       "name": "DoorDash",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "TTE.PA",
+      "name": "TotalEnergies",
+      "score": 74,
+      "market": "FR"
+    },
     {
       "ticker": "HINDALCO.NS",
       "name": "Hindalco",
@@ -151,14 +157,14 @@
       "market": "IN"
     },
     {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 72,
-      "market": "FR"
+      "ticker": "8766.T",
+      "name": "Tokio Marine",
+      "score": 71,
+      "market": "JP"
     },
     {
-      "ticker": "EBAY",
-      "name": "eBay",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
       "score": 70,
       "market": "US"
     },
@@ -169,8 +175,14 @@
       "market": "US"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
       "score": 69,
       "market": "US"
     },
@@ -181,42 +193,42 @@
       "market": "US"
     },
     {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "NUE",
       "name": "Nucor",
       "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "8766.T",
-      "name": "Tokio Marine",
-      "score": 69,
-      "market": "JP"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "SLB",
-      "name": "Schlumberger",
-      "score": 68,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
+      "score": 74,
+      "market": "UK"
+    },
+    {
       "ticker": "IGG.L",
       "name": "IG Group",
-      "score": 70,
+      "score": 71,
       "market": "UK"
     },
     {
       "ticker": "INVP.L",
       "name": "Investec",
-      "score": 69,
+      "score": 70,
       "market": "UK"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "OGN",
@@ -225,46 +237,34 @@
       "market": "US"
     },
     {
-      "ticker": "AJB.L",
-      "name": "AJ Bell",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
+      "ticker": "LEA",
+      "name": "Lear Corp",
       "score": 66,
       "market": "US"
     },
     {
       "ticker": "TEP.PA",
       "name": "Teleperformance",
-      "score": 64,
+      "score": 66,
       "market": "FR"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 63,
-      "market": "UK"
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "score": 65,
+      "market": "US"
     },
     {
       "ticker": "SCT.L",
       "name": "Softcat",
-      "score": 63,
+      "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "CWK.L",
-      "name": "Cranswick",
-      "score": 63,
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 64,
       "market": "UK"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 62,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -275,14 +275,20 @@
       "market": "US"
     },
     {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 71,
+      "market": "UK"
+    },
+    {
       "ticker": "HOLX",
       "name": "Hologic",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
       "score": 69,
       "market": "UK"
     },
@@ -299,37 +305,31 @@
       "market": "US"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
+      "ticker": "RPI.L",
+      "name": "Raspberry Pi",
       "score": 63,
       "market": "UK"
     },
     {
       "ticker": "HMSO.L",
       "name": "Hammerson",
-      "score": 62,
+      "score": 63,
       "market": "UK"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 62,
-      "market": "UK"
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 63,
+      "market": "FR"
     },
     {
       "ticker": "ITM.L",
       "name": "ITM Power",
-      "score": 61,
+      "score": 62,
       "market": "UK"
-    },
-    {
-      "ticker": "CTRA",
-      "name": "Coterra Energy",
-      "score": 60,
-      "market": "US"
     }
   ],
   "totalStocks": 865,
-  "avgScore": 49,
-  "bearishAlertCount": 352
+  "avgScore": 50,
+  "bearishAlertCount": 347
 }
