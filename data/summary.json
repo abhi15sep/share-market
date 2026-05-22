@@ -22,10 +22,24 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HINDALCO.NS",
-      "name": "Hindalco",
+      "ticker": "SLB",
+      "name": "Schlumberger",
       "score": 72,
-      "market": "IN",
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "score": 71,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -43,30 +57,16 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "8766.T",
-      "name": "Tokio Marine",
-      "score": 71,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "INVP.L",
-      "name": "Investec",
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
       "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 69,
       "market": "US",
       "capCategory": "Large"
     }
@@ -82,23 +82,9 @@
     {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 20,
+      "score": 21,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ELF",
-      "name": "Elf Beauty",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "GPC",
@@ -108,18 +94,18 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "ELF",
+      "name": "Elf Beauty",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "UPST",
       "name": "Upstart",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "LI",
-      "name": "Li Auto",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "CELH",
@@ -129,11 +115,25 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "DJT",
+      "name": "Trump Media",
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "LI",
+      "name": "Li Auto",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "DASH",
@@ -151,33 +151,39 @@
       "market": "FR"
     },
     {
-      "ticker": "HINDALCO.NS",
-      "name": "Hindalco",
+      "ticker": "SLB",
+      "name": "Schlumberger",
       "score": 72,
-      "market": "IN"
-    },
-    {
-      "ticker": "8766.T",
-      "name": "Tokio Marine",
-      "score": 71,
-      "market": "JP"
+      "market": "US"
     },
     {
       "ticker": "DELL",
       "name": "Dell Technologies",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 69,
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 69,
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 70,
       "market": "US"
     },
     {
@@ -193,14 +199,8 @@
       "market": "US"
     },
     {
-      "ticker": "RKLB",
-      "name": "Rocket Lab",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "NUE",
-      "name": "Nucor",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 69,
       "market": "US"
     }
@@ -219,16 +219,16 @@
       "market": "UK"
     },
     {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "INVP.L",
       "name": "Investec",
       "score": 70,
       "market": "UK"
-    },
-    {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "score": 69,
-      "market": "US"
     },
     {
       "ticker": "OGN",
@@ -243,16 +243,16 @@
       "market": "US"
     },
     {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 66,
+      "market": "UK"
+    },
+    {
       "ticker": "TEP.PA",
       "name": "Teleperformance",
       "score": 66,
       "market": "FR"
-    },
-    {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
-      "score": 65,
-      "market": "US"
     },
     {
       "ticker": "SCT.L",
@@ -261,10 +261,10 @@
       "market": "UK"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 64,
-      "market": "UK"
+      "ticker": "MARA",
+      "name": "Marathon Digital",
+      "score": 63,
+      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -281,16 +281,16 @@
       "market": "UK"
     },
     {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 70,
+      "market": "UK"
+    },
+    {
       "ticker": "HOLX",
       "name": "Hologic",
       "score": 69,
       "market": "US"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 69,
-      "market": "UK"
     },
     {
       "ticker": "SUPR.L",
@@ -301,7 +301,7 @@
     {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 63,
+      "score": 64,
       "market": "US"
     },
     {
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 865,
   "avgScore": 50,
-  "bearishAlertCount": 347
+  "bearishAlertCount": 337
 }
