@@ -1,19 +1,19 @@
 import { currencySymbol } from '../../lib/format';
 
 const MARKET_TAG_STYLES: Record<string, string> = {
-  US: 'bg-sky-600/12 text-sky-500 dark:text-sky-400 ring-1 ring-sky-600/20',
-  UK: 'bg-slate-500/12 text-slate-500 dark:text-slate-400 ring-1 ring-slate-500/20',
-  IN: 'bg-orange-600/12 text-orange-600 dark:text-orange-400 ring-1 ring-orange-600/20',
-  DE: 'bg-amber-600/12 text-amber-600 dark:text-amber-400 ring-1 ring-amber-600/20',
-  FR: 'bg-blue-600/12 text-blue-600 dark:text-blue-400 ring-1 ring-blue-600/20',
-  JP: 'bg-red-600/12 text-red-600 dark:text-red-400 ring-1 ring-red-600/20',
-  HK: 'bg-pink-600/12 text-pink-600 dark:text-pink-400 ring-1 ring-pink-600/20',
+  US: 'bg-accent/10 text-accent dark:text-accent-light ring-1 ring-accent/20',
+  UK: 'bg-accent/10 text-accent dark:text-accent-light ring-1 ring-accent/20',
+  IN: 'bg-accent/10 text-accent dark:text-accent-light ring-1 ring-accent/20',
+  DE: 'bg-accent/10 text-accent dark:text-accent-light ring-1 ring-accent/20',
+  FR: 'bg-accent/10 text-accent dark:text-accent-light ring-1 ring-accent/20',
+  JP: 'bg-accent/10 text-accent dark:text-accent-light ring-1 ring-accent/20',
+  HK: 'bg-accent/10 text-accent dark:text-accent-light ring-1 ring-accent/20',
 };
 
 export function MarketTag({ market }: { market: string }) {
   return (
     <span
-      className={`badge ${MARKET_TAG_STYLES[market] || 'bg-slate-500/12 text-slate-500 dark:text-slate-400 ring-1 ring-slate-500/20'}`}
+      className={`badge ${MARKET_TAG_STYLES[market] || 'bg-accent/10 text-accent dark:text-accent-light ring-1 ring-accent/20'}`}
     >
       {market}
     </span>
@@ -22,9 +22,9 @@ export function MarketTag({ market }: { market: string }) {
 
 export function CapTag({ cap }: { cap: string }) {
   const styles: Record<string, string> = {
-    Large: 'bg-teal-600/12 text-teal-600 dark:text-teal-400 ring-1 ring-teal-600/20',
-    Mid: 'bg-amber-600/12 text-amber-600 dark:text-amber-400 ring-1 ring-amber-600/20',
-    Small: 'bg-rose-600/12 text-rose-600 dark:text-rose-400 ring-1 ring-rose-600/20',
+    Large: 'bg-accent/10 text-accent dark:text-accent-light ring-1 ring-accent/20',
+    Mid: 'bg-neutral/10 text-neutral dark:text-neutral-light ring-1 ring-neutral/20',
+    Small: 'bg-surface-tertiary text-t-tertiary ring-1 ring-surface-border',
   };
   return (
     <span className={`badge ${styles[cap] || 'bg-gray-500/12 text-gray-500 dark:text-gray-400'}`}>
@@ -35,7 +35,7 @@ export function CapTag({ cap }: { cap: string }) {
 
 export function Trading212Badge() {
   return (
-    <span className="badge bg-cyan-600/12 text-cyan-600 dark:text-cyan-400 ring-1 ring-cyan-600/20">
+    <span className="badge bg-accent/10 text-accent dark:text-accent-light ring-1 ring-accent/20">
       T212
     </span>
   );
@@ -46,8 +46,8 @@ export function SignalBadge({ direction, type }: { direction: string; type: stri
     <span
       className={`badge ${
         direction === 'bearish'
-          ? 'bg-red-600/12 text-red-600 dark:text-red-400 ring-1 ring-red-600/20'
-          : 'bg-green-600/12 text-green-600 dark:text-green-400 ring-1 ring-green-600/20'
+          ? 'bg-bearish/10 text-bearish dark:text-bearish-light ring-1 ring-bearish/20'
+          : 'bg-bullish/10 text-bullish dark:text-bullish-light ring-1 ring-bullish/20'
       }`}
     >
       {direction === 'bearish' ? '\u2193' : '\u2191'} {type}

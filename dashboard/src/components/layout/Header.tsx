@@ -101,7 +101,7 @@ export default function Header({ lastUpdated, theme, onToggleTheme, connectionSt
         <div className="flex items-center justify-between h-14">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2.5 group flex-shrink-0">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent to-bullish flex items-center justify-center text-white text-sm font-bold">
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent to-accent-dark flex items-center justify-center text-white text-sm font-bold">
               SM
             </div>
             <span className="text-base font-bold t-primary group-hover:text-accent-light transition-colors hidden sm:block">

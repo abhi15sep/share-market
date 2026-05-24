@@ -160,7 +160,7 @@ export default function App() {
         <div className="max-w-[1400px] mx-auto px-4 lg:px-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs t-muted">
             <div className="flex items-center gap-2">
-              <div className="w-5 h-5 rounded bg-gradient-to-br from-accent to-bullish flex items-center justify-center text-white text-[8px] font-bold">
+              <div className="w-5 h-5 rounded bg-gradient-to-br from-accent to-accent-dark flex items-center justify-center text-white text-[8px] font-bold">
                 SM
               </div>
               <span>StockMarket Dashboard</span>

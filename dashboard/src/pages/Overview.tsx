@@ -257,21 +257,21 @@ export default function Overview({ stocks, summary, metadata, bearishCount, macr
         <div className="card p-5">
           <h3 className="text-sm font-semibold t-tertiary uppercase tracking-wider mb-3">By Market</h3>
           <div className="space-y-3">
-            <BarStat label="US" value={marketCounts['US']} total={summary.totalStocks} color="bg-sky-600" />
-            <BarStat label="UK" value={marketCounts['UK']} total={summary.totalStocks} color="bg-slate-500" />
-            <BarStat label="JP" value={marketCounts['JP']} total={summary.totalStocks} color="bg-rose-500" />
-            <BarStat label="HK" value={marketCounts['HK']} total={summary.totalStocks} color="bg-orange-500" />
-            <BarStat label="IN" value={marketCounts['IN']} total={summary.totalStocks} color="bg-amber-500" />
-            <BarStat label="DE" value={marketCounts['DE']} total={summary.totalStocks} color="bg-violet-500" />
-            <BarStat label="FR" value={marketCounts['FR']} total={summary.totalStocks} color="bg-blue-500" />
+            <BarStat label="US" value={marketCounts['US']} total={summary.totalStocks} color="bg-accent" />
+            <BarStat label="UK" value={marketCounts['UK']} total={summary.totalStocks} color="bg-accent" />
+            <BarStat label="JP" value={marketCounts['JP']} total={summary.totalStocks} color="bg-accent" />
+            <BarStat label="HK" value={marketCounts['HK']} total={summary.totalStocks} color="bg-accent" />
+            <BarStat label="IN" value={marketCounts['IN']} total={summary.totalStocks} color="bg-accent" />
+            <BarStat label="DE" value={marketCounts['DE']} total={summary.totalStocks} color="bg-accent" />
+            <BarStat label="FR" value={marketCounts['FR']} total={summary.totalStocks} color="bg-accent" />
           </div>
         </div>
         <div className="card p-5">
           <h3 className="text-sm font-semibold t-tertiary uppercase tracking-wider mb-3">By Cap Size</h3>
           <div className="space-y-3">
-            <BarStat label="Large Cap" value={stocks.filter(s => s.capCategory === 'Large').length} total={summary.totalStocks} color="bg-teal-600" />
-            <BarStat label="Mid Cap"   value={stocks.filter(s => s.capCategory === 'Mid').length}   total={summary.totalStocks} color="bg-amber-600" />
-            <BarStat label="Small Cap" value={stocks.filter(s => s.capCategory === 'Small').length} total={summary.totalStocks} color="bg-rose-600" />
+            <BarStat label="Large Cap" value={stocks.filter(s => s.capCategory === 'Large').length} total={summary.totalStocks} color="bg-accent" />
+            <BarStat label="Mid Cap"   value={stocks.filter(s => s.capCategory === 'Mid').length}   total={summary.totalStocks} color="bg-accent" />
+            <BarStat label="Small Cap" value={stocks.filter(s => s.capCategory === 'Small').length} total={summary.totalStocks} color="bg-accent" />
           </div>
         </div>
         <div className="card p-5">
@@ -323,9 +323,9 @@ function BarStat({ label, value, total, color }: {
 }
 
 const regimeColors = {
-  bull: { banner: 'from-green-700/15 to-green-700/5', border: 'border-green-700', text: 'text-bullish-light', badge: 'bg-green-700/15 text-bullish-light', label: 'BULL' },
-  correction: { banner: 'from-amber-600/15 to-amber-600/5', border: 'border-amber-600', text: 'text-neutral-light', badge: 'bg-amber-600/15 text-neutral-light', label: 'CORRECTION' },
-  bear: { banner: 'from-red-700/15 to-red-700/5', border: 'border-red-700', text: 'text-bearish-light', badge: 'bg-red-700/15 text-bearish-light', label: 'BEAR' },
+  bull: { banner: 'from-bullish/15 to-bullish/5', border: 'border-bullish', text: 'text-bullish-light', badge: 'bg-bullish/15 text-bullish-light', label: 'BULL' },
+  correction: { banner: 'from-neutral/15 to-neutral/5', border: 'border-neutral', text: 'text-neutral-light', badge: 'bg-neutral/15 text-neutral-light', label: 'CORRECTION' },
+  bear: { banner: 'from-bearish/15 to-bearish/5', border: 'border-bearish', text: 'text-bearish-light', badge: 'bg-bearish/15 text-bearish-light', label: 'BEAR' },
 };
 
 function MarketRegimeCard({ regime }: { regime: MarketRegime }) {

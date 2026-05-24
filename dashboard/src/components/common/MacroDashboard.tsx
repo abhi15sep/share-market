@@ -7,8 +7,8 @@ interface Props {
 
 function vixColor(v: number): string {
   if (v < 15) return 'bg-bullish';
-  if (v < 25) return 'bg-yellow-500';
-  if (v < 35) return 'bg-orange-500';
+  if (v < 25) return 'bg-neutral';
+  if (v < 35) return 'bg-neutral-dark';
   return 'bg-bearish';
 }
 
@@ -77,7 +77,7 @@ export default function MacroDashboard({ data, compact }: Props) {
             value={data.treasury10y.toFixed(2)}
             suffix="%"
             bar={(data.treasury10y / 7) * 100}
-            barColor="bg-sky-500"
+            barColor="bg-accent"
             sub="Long-term interest rate"
           />
         )}
@@ -87,7 +87,7 @@ export default function MacroDashboard({ data, compact }: Props) {
             value={data.treasury2y.toFixed(2)}
             suffix="%"
             bar={(data.treasury2y / 7) * 100}
-            barColor="bg-sky-400"
+            barColor="bg-accent-light"
             sub="Short-term rate"
           />
         )}
@@ -106,7 +106,7 @@ export default function MacroDashboard({ data, compact }: Props) {
             label="DXY (Dollar)"
             value={data.dxy.toFixed(1)}
             bar={((data.dxy - 80) / 40) * 100}
-            barColor="bg-emerald-500"
+            barColor="bg-accent"
             sub={data.dxy > 105 ? 'Strong' : data.dxy < 95 ? 'Weak' : 'Normal'}
           />
         )}
@@ -116,7 +116,7 @@ export default function MacroDashboard({ data, compact }: Props) {
             value={data.fedFundsRate.toFixed(2)}
             suffix="%"
             bar={(data.fedFundsRate / 8) * 100}
-            barColor="bg-violet-500"
+            barColor="bg-accent"
             sub="Federal Reserve target"
           />
         )}
