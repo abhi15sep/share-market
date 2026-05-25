@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T15:00:37.255Z",
+  "lastUpdated": "2026-05-25T17:12:37.620Z",
   "stockCount": 864,
   "bearishAlerts": 336,
   "newsCount": 500,
@@ -36,10 +36,10 @@
     },
     "eu": {
       "index": "DAX 40",
-      "price": 25353.24,
-      "sma50": 23844.45,
-      "sma200": 24142.59,
-      "changeFromHigh": -0.27,
+      "price": 25389.1,
+      "sma50": 23845.17,
+      "sma200": 24142.77,
+      "changeFromHigh": -0.12,
       "distributionDays": 2,
       "regime": "bull",
       "signal": "Price above SMA200 — uptrend intact"
@@ -47,12 +47,12 @@
     "asia": {
       "index": "Nikkei 225",
       "price": 65158.19,
-      "sma50": 57442.49,
-      "sma200": 51188.58,
-      "changeFromHigh": 0,
-      "distributionDays": 9,
+      "sma50": 57193.9,
+      "sma200": 51071.92,
+      "changeFromHigh": 2.87,
+      "distributionDays": 7,
       "regime": "correction",
-      "signal": "9 distribution days in 25 sessions — selling pressure"
+      "signal": "7 distribution days in 25 sessions — selling pressure"
     },
     "overall": "correction",
     "summary": "Markets showing weakness. Be selective, reduce position sizes, and tighten stops."

@@ -1,25 +1,11 @@
 {
   "topOverall": [
     {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 77,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "AJB.L",
       "name": "AJ Bell",
       "score": 74,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "DELL",
@@ -69,6 +55,20 @@
       "score": 71,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
@@ -87,15 +87,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
-      "score": 24,
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify",
+      "ticker": "GPC",
+      "name": "Genuine Parts",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
@@ -145,18 +145,6 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 77,
-      "market": "JP"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 73,
-      "market": "US"
-    },
-    {
       "ticker": "DELL",
       "name": "Dell Technologies",
       "score": 73,
@@ -203,6 +191,18 @@
       "name": "Steel Dynamics",
       "score": 71,
       "market": "US"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 70,
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -243,16 +243,16 @@
       "market": "UK"
     },
     {
-      "ticker": "TEP.PA",
-      "name": "Teleperformance",
-      "score": 66,
-      "market": "FR"
-    },
-    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 65,
       "market": "UK"
+    },
+    {
+      "ticker": "TEP.PA",
+      "name": "Teleperformance",
+      "score": 65,
+      "market": "FR"
     },
     {
       "ticker": "RGTI",
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 864,
-  "avgScore": 50,
+  "avgScore": 51,
   "bearishAlertCount": 336
 }
