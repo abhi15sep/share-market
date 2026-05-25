@@ -29,13 +29,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "SLB",
       "name": "Schlumberger",
       "score": 72,
@@ -50,8 +43,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -66,6 +59,13 @@
     {
       "ticker": "ROST",
       "name": "Ross Stores",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -115,20 +115,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SOFI",
-      "name": "SoFi Technologies",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 27,
-      "market": "FR",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "PAYTM.BO",
       "name": "Paytm (One97)",
       "score": 27,
@@ -139,6 +125,20 @@
       "ticker": "CELH",
       "name": "Celsius Holdings",
       "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 28,
+      "market": "DE",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "DJT",
+      "name": "Trump Media",
+      "score": 28,
       "market": "US",
       "capCategory": "Mid"
     }
@@ -163,12 +163,6 @@
       "market": "US"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "SLB",
       "name": "Schlumberger",
       "score": 72,
@@ -181,8 +175,8 @@
       "market": "US"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 71,
       "market": "US"
     },
@@ -201,6 +195,12 @@
     {
       "ticker": "NUE",
       "name": "Nucor",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
       "score": 71,
       "market": "US"
     }
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 864,
   "avgScore": 50,
-  "bearishAlertCount": 337
+  "bearishAlertCount": 336
 }
