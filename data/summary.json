@@ -1,18 +1,11 @@
 {
   "topOverall": [
     {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 75,
-      "market": "FR",
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 77,
+      "market": "JP",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "EXAS",
-      "name": "Exact Sciences",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Small"
     },
     {
       "ticker": "AJB.L",
@@ -22,6 +15,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "DELL",
       "name": "Dell Technologies",
       "score": 73,
@@ -29,8 +29,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -64,8 +64,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "NUE",
-      "name": "Nucor",
+      "ticker": "ROST",
+      "name": "Ross Stores",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -115,40 +115,46 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "SOFI",
+      "name": "SoFi Technologies",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 27,
+      "market": "FR",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "PAYTM.BO",
+      "name": "Paytm (One97)",
+      "score": 27,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 28,
-      "market": "DE",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DJT",
-      "name": "Trump Media",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "LI",
-      "name": "Li Auto",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 75,
-      "market": "FR"
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 77,
+      "market": "JP"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 73,
+      "market": "US"
     },
     {
       "ticker": "DELL",
@@ -157,8 +163,8 @@
       "market": "US"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 72,
       "market": "US"
     },
@@ -187,21 +193,15 @@
       "market": "US"
     },
     {
+      "ticker": "ROST",
+      "name": "Ross Stores",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "NUE",
       "name": "Nucor",
       "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "STLD",
-      "name": "Steel Dynamics",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "ROST",
-      "name": "Ross Stores",
-      "score": 70,
       "market": "US"
     }
   ],
@@ -243,6 +243,12 @@
       "market": "UK"
     },
     {
+      "ticker": "TEP.PA",
+      "name": "Teleperformance",
+      "score": 66,
+      "market": "FR"
+    },
+    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 65,
@@ -259,21 +265,9 @@
       "name": "Crocs",
       "score": 64,
       "market": "US"
-    },
-    {
-      "ticker": "MARA",
-      "name": "Marathon Digital",
-      "score": 63,
-      "market": "US"
     }
   ],
   "topSmallCap": [
-    {
-      "ticker": "EXAS",
-      "name": "Exact Sciences",
-      "score": 74,
-      "market": "US"
-    },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
@@ -317,19 +311,25 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 63,
-      "market": "FR"
-    },
-    {
       "ticker": "ITM.L",
       "name": "ITM Power",
       "score": 62,
       "market": "UK"
+    },
+    {
+      "ticker": "RWS.L",
+      "name": "RWS Holdings",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 62,
+      "market": "UK"
     }
   ],
-  "totalStocks": 865,
+  "totalStocks": 864,
   "avgScore": 50,
-  "bearishAlertCount": 345
+  "bearishAlertCount": 337
 }
