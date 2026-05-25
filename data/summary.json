@@ -1,11 +1,25 @@
 {
   "topOverall": [
     {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 77,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "AJB.L",
       "name": "AJ Bell",
       "score": 74,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "HINDALCO.NS",
+      "name": "Hindalco",
+      "score": 74,
+      "market": "IN",
+      "capCategory": "Large"
     },
     {
       "ticker": "DELL",
@@ -29,6 +43,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "QCOM",
       "name": "Qualcomm",
       "score": 71,
@@ -48,27 +69,6 @@
       "score": 71,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "NUE",
-      "name": "Nucor",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "STLD",
-      "name": "Steel Dynamics",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
@@ -129,21 +129,33 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "SOFI",
+      "name": "SoFi Technologies",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "RHM.DE",
       "name": "Rheinmetall",
       "score": 28,
       "market": "DE",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "DJT",
-      "name": "Trump Media",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 77,
+      "market": "JP"
+    },
+    {
+      "ticker": "HINDALCO.NS",
+      "name": "Hindalco",
+      "score": 74,
+      "market": "IN"
+    },
     {
       "ticker": "DELL",
       "name": "Dell Technologies",
@@ -160,6 +172,12 @@
       "ticker": "HPE",
       "name": "Hewlett Packard Enterprise",
       "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 71,
       "market": "US"
     },
     {
@@ -184,24 +202,6 @@
       "ticker": "NUE",
       "name": "Nucor",
       "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "STLD",
-      "name": "Steel Dynamics",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 70,
       "market": "US"
     }
   ],
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 864,
-  "avgScore": 51,
-  "bearishAlertCount": 336
+  "avgScore": 50,
+  "bearishAlertCount": 338
 }
