@@ -22,17 +22,17 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "SLB",
+      "name": "Schlumberger",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "STAN.L",
       "name": "Standard Chartered",
       "score": 73,
       "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SLB",
-      "name": "Schlumberger",
-      "score": 72,
-      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -50,6 +50,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "0005.HK",
       "name": "HSBC Holdings",
       "score": 71,
@@ -61,13 +68,6 @@
       "name": "Delta Air Lines",
       "score": 70,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SHEL.L",
-      "name": "Shell",
-      "score": 70,
-      "market": "UK",
       "capCategory": "Large"
     }
   ],
@@ -89,7 +89,7 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 22,
+      "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
@@ -104,13 +104,6 @@
       "ticker": "COIN",
       "name": "Coinbase",
       "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CPNG",
-      "name": "Coupang",
-      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
@@ -134,6 +127,13 @@
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "CPNG",
+      "name": "Coupang",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "SE",
@@ -163,20 +163,26 @@
       "market": "JP"
     },
     {
+      "ticker": "SLB",
+      "name": "Schlumberger",
+      "score": 73,
+      "market": "US"
+    },
+    {
       "ticker": "STAN.L",
       "name": "Standard Chartered",
       "score": 73,
       "market": "UK"
     },
     {
-      "ticker": "SLB",
-      "name": "Schlumberger",
-      "score": 72,
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "STT",
+      "name": "State Street",
       "score": 71,
       "market": "US"
     },
@@ -197,12 +203,6 @@
       "name": "Shell",
       "score": 70,
       "market": "UK"
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "score": 69,
-      "market": "US"
     }
   ],
   "topMidCap": [
@@ -289,7 +289,7 @@
     {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 66,
+      "score": 68,
       "market": "US"
     },
     {
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 864,
   "avgScore": 51,
-  "bearishAlertCount": 342
+  "bearishAlertCount": 336
 }
