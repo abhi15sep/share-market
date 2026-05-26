@@ -1,38 +1,59 @@
 {
   "topOverall": [
     {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 78,
+      "market": "UK",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "9984.T",
       "name": "SoftBank Group",
-      "score": 75,
+      "score": 77,
       "market": "JP",
       "capCategory": "Large"
     },
     {
-      "ticker": "SMT.L",
-      "name": "Scottish Mortgage",
-      "score": 74,
+      "ticker": "STAN.L",
+      "name": "Standard Chartered",
+      "score": 73,
       "market": "UK",
       "capCategory": "Large"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 71,
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 72,
       "market": "UK",
-      "capCategory": "Mid"
+      "capCategory": "Small"
     },
     {
-      "ticker": "0005.HK",
-      "name": "HSBC Holdings",
-      "score": 71,
+      "ticker": "0883.HK",
+      "name": "CNOOC",
+      "score": 72,
       "market": "HK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 71,
+      "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "SLB",
       "name": "Schlumberger",
-      "score": 70,
+      "score": 71,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SHEL.L",
+      "name": "Shell",
+      "score": 70,
+      "market": "UK",
       "capCategory": "Large"
     },
     {
@@ -43,42 +64,14 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "BK",
       "name": "Bank of New York Mellon",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NUE",
-      "name": "Nucor",
       "score": 69,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "ELF",
-      "name": "Elf Beauty",
-      "score": 16,
-      "market": "US",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "ZG",
       "name": "Zillow Group",
@@ -87,29 +80,29 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 23,
+      "ticker": "ELF",
+      "name": "Elf Beauty",
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "LI",
-      "name": "Li Auto",
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
@@ -117,16 +110,9 @@
     {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CHWY",
-      "name": "Chewy",
       "score": 25,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "DASH",
@@ -136,47 +122,73 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
+      "ticker": "LCID",
+      "name": "Lucid Group",
       "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CHWY",
+      "name": "Chewy",
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 75,
-      "market": "JP"
-    },
-    {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
-      "score": 74,
+      "score": 78,
       "market": "UK"
     },
     {
-      "ticker": "0005.HK",
-      "name": "HSBC Holdings",
-      "score": 71,
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 77,
+      "market": "JP"
+    },
+    {
+      "ticker": "STAN.L",
+      "name": "Standard Chartered",
+      "score": 73,
+      "market": "UK"
+    },
+    {
+      "ticker": "0883.HK",
+      "name": "CNOOC",
+      "score": 72,
       "market": "HK"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "SLB",
       "name": "Schlumberger",
-      "score": 70,
+      "score": 71,
       "market": "US"
+    },
+    {
+      "ticker": "SHEL.L",
+      "name": "Shell",
+      "score": 70,
+      "market": "UK"
     },
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
       "score": 69,
       "market": "US"
     },
@@ -187,87 +199,81 @@
       "market": "US"
     },
     {
-      "ticker": "PSX",
-      "name": "Phillips 66",
+      "ticker": "HINDALCO.NS",
+      "name": "Hindalco",
       "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "NUE",
-      "name": "Nucor",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "TRGP",
-      "name": "Targa Resources",
-      "score": 69,
-      "market": "US"
+      "market": "IN"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 71,
+      "ticker": "PLUS.L",
+      "name": "Plus500",
+      "score": 69,
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "IGG.L",
+      "name": "IG Group",
       "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 65,
       "market": "UK"
     },
     {
       "ticker": "INVP.L",
       "name": "Investec",
-      "score": 65,
+      "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
+      "score": 66,
+      "market": "US"
     },
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
-      "score": 64,
+      "score": 66,
       "market": "US"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 64,
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "LEA",
+      "name": "Lear Corp",
+      "score": 65,
       "market": "US"
     },
     {
       "ticker": "MARA",
       "name": "Marathon Digital",
-      "score": 63,
+      "score": 64,
       "market": "US"
     },
     {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
-      "score": 63,
+      "ticker": "MNG.L",
+      "name": "M&G",
+      "score": 64,
       "market": "UK"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 72,
+      "market": "UK"
+    },
     {
       "ticker": "HOLX",
       "name": "Hologic",
@@ -277,59 +283,53 @@
     {
       "ticker": "ASHM.L",
       "name": "Ashmore Group",
-      "score": 68,
+      "score": 69,
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 66,
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 64,
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "SNR.L",
+      "name": "Senior plc",
+      "score": 65,
       "market": "UK"
     },
     {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
-      "score": 64,
+      "score": 65,
       "market": "UK"
     },
     {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 63,
+      "score": 64,
       "market": "US"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 63,
-      "market": "UK"
     },
     {
       "ticker": "RWS.L",
       "name": "RWS Holdings",
-      "score": 61,
+      "score": 64,
       "market": "UK"
     },
     {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 61,
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 63,
       "market": "UK"
     }
   ],
   "totalStocks": 864,
-  "avgScore": 49,
-  "bearishAlertCount": 353
+  "avgScore": 50,
+  "bearishAlertCount": 342
 }
