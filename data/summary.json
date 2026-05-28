@@ -1,17 +1,17 @@
 {
   "topOverall": [
     {
+      "ticker": "HINDALCO.NS",
+      "name": "Hindalco",
+      "score": 76,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
       "score": 73,
       "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 73,
-      "market": "UK",
       "capCategory": "Mid"
     },
     {
@@ -22,45 +22,31 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 72,
-      "market": "US",
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 73,
+      "market": "JP",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Small"
     },
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "NTPC.NS",
-      "name": "NTPC",
-      "score": 71,
-      "market": "IN",
+      "ticker": "1038.HK",
+      "name": "CK Infrastructure",
+      "score": 72,
+      "market": "HK",
       "capCategory": "Large"
     },
     {
-      "ticker": "HINDALCO.NS",
-      "name": "Hindalco",
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 71,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 71,
-      "market": "JP",
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -68,6 +54,20 @@
       "name": "Delta Air Lines",
       "score": 70,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 70,
+      "market": "UK",
       "capCategory": "Large"
     }
   ],
@@ -82,7 +82,7 @@
     {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 23,
+      "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
@@ -103,6 +103,13 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
@@ -129,13 +136,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "ELF",
       "name": "Elf Beauty",
       "score": 28,
@@ -145,40 +145,40 @@
   ],
   "topLargeCap": [
     {
+      "ticker": "HINDALCO.NS",
+      "name": "Hindalco",
+      "score": 76,
+      "market": "IN"
+    },
+    {
       "ticker": "COALINDIA.NS",
       "name": "Coal India",
       "score": 73,
       "market": "IN"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 72,
-      "market": "US"
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 73,
+      "market": "JP"
     },
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 71,
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "NTPC.NS",
-      "name": "NTPC",
-      "score": 71,
-      "market": "IN"
+      "ticker": "1038.HK",
+      "name": "CK Infrastructure",
+      "score": 72,
+      "market": "HK"
     },
     {
-      "ticker": "HINDALCO.NS",
-      "name": "Hindalco",
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 71,
-      "market": "IN"
-    },
-    {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 71,
-      "market": "JP"
+      "market": "US"
     },
     {
       "ticker": "DAL",
@@ -193,16 +193,16 @@
       "market": "US"
     },
     {
-      "ticker": "STAN.L",
-      "name": "Standard Chartered",
-      "score": 70,
-      "market": "UK"
-    },
-    {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
       "score": 70,
       "market": "UK"
+    },
+    {
+      "ticker": "6762.T",
+      "name": "TDK",
+      "score": 70,
+      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -213,33 +213,15 @@
       "market": "US"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 73,
-      "market": "UK"
-    },
-    {
       "ticker": "LEA",
       "name": "Lear Corp",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
+      "ticker": "BEZ.L",
+      "name": "Beazley",
       "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "AJB.L",
-      "name": "AJ Bell",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "CWK.L",
-      "name": "Cranswick",
-      "score": 68,
       "market": "UK"
     },
     {
@@ -255,9 +237,9 @@
       "market": "US"
     },
     {
-      "ticker": "INVP.L",
-      "name": "Investec",
-      "score": 66,
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 67,
       "market": "UK"
     },
     {
@@ -265,15 +247,27 @@
       "name": "Zions Bancorporation",
       "score": 65,
       "market": "US"
+    },
+    {
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "MARA",
+      "name": "Marathon Digital",
+      "score": 64,
+      "market": "US"
+    },
+    {
+      "ticker": "WOLF",
+      "name": "Wolfspeed",
+      "score": 64,
+      "market": "US"
     }
   ],
   "topSmallCap": [
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 72,
-      "market": "UK"
-    },
     {
       "ticker": "HOLX",
       "name": "Hologic",
@@ -281,9 +275,15 @@
       "market": "US"
     },
     {
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 66,
+      "market": "UK"
+    },
+    {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
-      "score": 69,
+      "score": 66,
       "market": "UK"
     },
     {
@@ -293,43 +293,43 @@
       "market": "UK"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 65,
+      "ticker": "SNR.L",
+      "name": "Senior plc",
+      "score": 64,
       "market": "UK"
     },
     {
-      "ticker": "GYM.L",
-      "name": "Gym Group",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
       "score": 63,
       "market": "UK"
+    },
+    {
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 62,
+      "market": "US"
+    },
+    {
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 60,
+      "market": "US"
     },
     {
       "ticker": "RPI.L",
       "name": "Raspberry Pi",
-      "score": 63,
+      "score": 60,
       "market": "UK"
-    },
-    {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 63,
-      "market": "FR"
     }
   ],
   "totalStocks": 864,
-  "avgScore": 51,
-  "bearishAlertCount": 350
+  "avgScore": 50,
+  "bearishAlertCount": 343
 }
