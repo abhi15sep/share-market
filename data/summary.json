@@ -1,45 +1,24 @@
 {
   "topOverall": [
     {
-      "ticker": "HINDALCO.NS",
-      "name": "Hindalco",
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 77,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "4063.T",
+      "name": "Shin-Etsu Chemical",
       "score": 76,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 73,
-      "market": "IN",
+      "market": "JP",
       "capCategory": "Large"
     },
     {
       "ticker": "9984.T",
       "name": "SoftBank Group",
-      "score": 73,
+      "score": 75,
       "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -50,23 +29,44 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "1038.HK",
-      "name": "CK Infrastructure",
-      "score": 72,
-      "market": "HK",
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 71,
+      "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 70,
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "GS",
       "name": "Goldman Sachs",
-      "score": 70,
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     }
@@ -75,7 +75,7 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 23,
+      "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
@@ -94,18 +94,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "ELF",
       "name": "Elf Beauty",
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "PAYTM.BO",
+      "name": "Paytm (One97)",
+      "score": 28,
+      "market": "IN",
+      "capCategory": "Large"
     },
     {
       "ticker": "CELH",
@@ -115,10 +115,17 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "PAYTM.BO",
-      "name": "Paytm (One97)",
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
       "score": 29,
-      "market": "IN",
+      "market": "DE",
       "capCategory": "Large"
     },
     {
@@ -134,45 +141,26 @@
       "score": 30,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 30,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "HINDALCO.NS",
-      "name": "Hindalco",
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 77,
+      "market": "JP"
+    },
+    {
+      "ticker": "4063.T",
+      "name": "Shin-Etsu Chemical",
       "score": 76,
-      "market": "IN"
-    },
-    {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 73,
-      "market": "IN"
+      "market": "JP"
     },
     {
       "ticker": "9984.T",
       "name": "SoftBank Group",
-      "score": 73,
+      "score": 75,
       "market": "JP"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US"
     },
     {
       "ticker": "NUE",
@@ -181,37 +169,43 @@
       "market": "US"
     },
     {
-      "ticker": "1038.HK",
-      "name": "CK Infrastructure",
-      "score": 72,
-      "market": "HK"
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 70,
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "GS",
       "name": "Goldman Sachs",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
-      "score": 70,
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 71,
       "market": "US"
     }
   ],
   "topMidCap": [
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 70,
-      "market": "UK"
-    },
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
@@ -219,8 +213,8 @@
       "market": "US"
     },
     {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
+      "ticker": "BEZ.L",
+      "name": "Beazley",
       "score": 69,
       "market": "UK"
     },
@@ -229,6 +223,12 @@
       "name": "Lear Corp",
       "score": 68,
       "market": "US"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 68,
+      "market": "UK"
     },
     {
       "ticker": "OGN",
@@ -249,31 +249,25 @@
       "market": "US"
     },
     {
-      "ticker": "AJB.L",
-      "name": "AJ Bell",
-      "score": 66,
-      "market": "UK"
-    },
-    {
       "ticker": "INVP.L",
       "name": "Investec",
-      "score": 66,
+      "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "FRAS.L",
-      "name": "Frasers Group",
-      "score": 65,
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
+      "score": 64,
       "market": "UK"
+    },
+    {
+      "ticker": "NNN",
+      "name": "NNN REIT",
+      "score": 63,
+      "market": "US"
     }
   ],
   "topSmallCap": [
-    {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
-      "score": 74,
-      "market": "UK"
-    },
     {
       "ticker": "HOLX",
       "name": "Hologic",
@@ -281,55 +275,61 @@
       "market": "US"
     },
     {
-      "ticker": "GYM.L",
-      "name": "Gym Group",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "ITM.L",
-      "name": "ITM Power",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
       "score": 68,
       "market": "UK"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
+      "ticker": "RWS.L",
+      "name": "RWS Holdings",
       "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "SNR.L",
-      "name": "Senior plc",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "RPI.L",
-      "name": "Raspberry Pi",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 62,
       "market": "UK"
     },
     {
       "ticker": "BK",
       "name": "Bank of New York Mellon",
+      "score": 65,
+      "market": "US"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
       "score": 60,
       "market": "US"
+    },
+    {
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 60,
+      "market": "UK"
+    },
+    {
+      "ticker": "RPI.L",
+      "name": "Raspberry Pi",
+      "score": 59,
+      "market": "UK"
     }
   ],
-  "totalStocks": 852,
+  "totalStocks": 864,
   "avgScore": 51,
-  "bearishAlertCount": 317
+  "bearishAlertCount": 331
 }
