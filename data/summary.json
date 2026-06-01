@@ -1,6 +1,20 @@
 {
   "topOverall": [
     {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 78,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "score": 76,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
       "score": 76,
@@ -8,9 +22,9 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 75,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 74,
       "market": "US",
       "capCategory": "Large"
     },
@@ -29,20 +43,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "9984.T",
       "name": "SoftBank Group",
       "score": 73,
@@ -57,17 +57,17 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
       "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
+      "market": "US",
+      "capCategory": "Large"
     },
     {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 72,
-      "market": "IN",
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -75,27 +75,13 @@
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 18,
+      "score": 19,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "AXON",
       "name": "Axon Enterprise",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
@@ -108,6 +94,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "COIN",
       "name": "Coinbase",
       "score": 25,
@@ -115,25 +108,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ELF",
-      "name": "Elf Beauty",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "TECH",
-      "name": "Bio-Techne",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "PAYTM.BO",
@@ -141,9 +120,42 @@
       "score": 27,
       "market": "IN",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "ELF",
+      "name": "Elf Beauty",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "TECH",
+      "name": "Bio-Techne",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 78,
+      "market": "US"
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "score": 76,
+      "market": "US"
+    },
     {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
@@ -151,9 +163,9 @@
       "market": "UK"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 75,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 74,
       "market": "US"
     },
     {
@@ -161,18 +173,6 @@
       "name": "Shin-Etsu Chemical",
       "score": 74,
       "market": "JP"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "score": 73,
-      "market": "US"
     },
     {
       "ticker": "9984.T",
@@ -187,21 +187,21 @@
       "market": "US"
     },
     {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
       "score": 72,
-      "market": "IN"
-    },
-    {
-      "ticker": "STAN.L",
-      "name": "Standard Chartered",
-      "score": 71,
-      "market": "UK"
+      "market": "US"
     },
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 70,
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "ZM",
+      "name": "Zoom Video",
+      "score": 72,
       "market": "US"
     }
   ],
@@ -221,13 +221,19 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 68,
+      "score": 69,
       "market": "US"
     },
     {
       "ticker": "LEA",
       "name": "Lear Corp",
       "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 67,
       "market": "US"
     },
     {
@@ -243,27 +249,21 @@
       "market": "UK"
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
+      "ticker": "CROX",
+      "name": "Crocs",
       "score": 66,
       "market": "US"
     },
     {
-      "ticker": "PSON.L",
-      "name": "Pearson",
-      "score": 65,
-      "market": "UK"
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 66,
+      "market": "US"
     },
     {
-      "ticker": "INVP.L",
-      "name": "Investec",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 64,
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
+      "score": 66,
       "market": "US"
     }
   ],
@@ -317,19 +317,19 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 63,
-      "market": "FR"
-    },
-    {
       "ticker": "AMC",
       "name": "AMC Entertainment",
       "score": 62,
       "market": "US"
+    },
+    {
+      "ticker": "SNR.L",
+      "name": "Senior plc",
+      "score": 62,
+      "market": "UK"
     }
   ],
   "totalStocks": 864,
-  "avgScore": 50,
+  "avgScore": 51,
   "bearishAlertCount": 331
 }
