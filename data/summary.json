@@ -10,14 +10,7 @@
     {
       "ticker": "IGG.L",
       "name": "IG Group",
-      "score": 76,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "INVP.L",
-      "name": "Investec",
-      "score": 75,
+      "score": 78,
       "market": "UK",
       "capCategory": "Mid"
     },
@@ -36,11 +29,25 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ZM",
       "name": "Zoom Video",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "INVP.L",
+      "name": "Investec",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
       "ticker": "COALINDIA.NS",
@@ -57,17 +64,10 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "AVGO",
-      "name": "Broadcom",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 71,
-      "market": "US",
+      "ticker": "STAN.L",
+      "name": "Standard Chartered",
+      "score": 72,
+      "market": "UK",
       "capCategory": "Large"
     }
   ],
@@ -82,7 +82,7 @@
     {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 21,
+      "score": 20,
       "market": "US",
       "capCategory": "Large"
     },
@@ -136,8 +136,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "WING",
-      "name": "Wingstop",
+      "ticker": "PODD",
+      "name": "Insulet Corp",
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
@@ -163,6 +163,12 @@
       "market": "US"
     },
     {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 73,
+      "market": "US"
+    },
+    {
       "ticker": "ZM",
       "name": "Zoom Video",
       "score": 73,
@@ -175,8 +181,14 @@
       "market": "IN"
     },
     {
-      "ticker": "AVGO",
-      "name": "Broadcom",
+      "ticker": "STAN.L",
+      "name": "Standard Chartered",
+      "score": 72,
+      "market": "UK"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 71,
       "market": "US"
     },
@@ -191,31 +203,19 @@
       "name": "Hindalco",
       "score": 71,
       "market": "IN"
-    },
-    {
-      "ticker": "C",
-      "name": "Citigroup",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "NUE",
-      "name": "Nucor",
-      "score": 70,
-      "market": "US"
     }
   ],
   "topMidCap": [
     {
       "ticker": "IGG.L",
       "name": "IG Group",
-      "score": 76,
+      "score": 78,
       "market": "UK"
     },
     {
       "ticker": "INVP.L",
       "name": "Investec",
-      "score": 75,
+      "score": 73,
       "market": "UK"
     },
     {
@@ -227,7 +227,7 @@
     {
       "ticker": "SDR.L",
       "name": "Schroders",
-      "score": 69,
+      "score": 70,
       "market": "UK"
     },
     {
@@ -239,6 +239,12 @@
     {
       "ticker": "AJB.L",
       "name": "AJ Bell",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "SCT.L",
+      "name": "Softcat",
       "score": 69,
       "market": "UK"
     },
@@ -259,12 +265,6 @@
       "name": "Zions Bancorporation",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "score": 65,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -275,16 +275,16 @@
       "market": "US"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 69,
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 68,
-      "market": "FR"
+      "ticker": "RWS.L",
+      "name": "RWS Holdings",
+      "score": 66,
+      "market": "UK"
     },
     {
       "ticker": "SFOR.L",
@@ -299,8 +299,20 @@
       "market": "US"
     },
     {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "SNR.L",
+      "name": "Senior plc",
       "score": 65,
       "market": "UK"
     },
@@ -311,25 +323,13 @@
       "market": "US"
     },
     {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 64,
-      "market": "UK"
-    },
-    {
       "ticker": "RPI.L",
       "name": "Raspberry Pi",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 63,
+      "score": 64,
       "market": "UK"
     }
   ],
   "totalStocks": 864,
   "avgScore": 50,
-  "bearishAlertCount": 346
+  "bearishAlertCount": 345
 }
