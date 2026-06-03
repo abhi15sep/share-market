@@ -3,34 +3,13 @@
     {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
-      "score": 78,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 78,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
       "score": 75,
-      "market": "JP",
+      "market": "UK",
       "capCategory": "Large"
     },
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -43,17 +22,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "INVP.L",
-      "name": "Investec",
+      "ticker": "4063.T",
+      "name": "Shin-Etsu Chemical",
       "score": 73,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 73,
-      "market": "IN",
+      "market": "JP",
       "capCategory": "Large"
     },
     {
@@ -64,10 +36,38 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "STAN.L",
-      "name": "Standard Chartered",
-      "score": 72,
-      "market": "UK",
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 71,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 70,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -80,9 +80,16 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
+      "score": 21,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 20,
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
@@ -101,8 +108,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
+      "ticker": "PAYTM.BO",
+      "name": "Paytm (One97)",
       "score": 26,
       "market": "IN",
       "capCategory": "Large"
@@ -129,42 +136,23 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "PAYTM.BO",
-      "name": "Paytm (One97)",
-      "score": 27,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PODD",
-      "name": "Insulet Corp",
-      "score": 27,
+      "ticker": "INTU",
+      "name": "Intuit",
+      "score": 26,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
-      "score": 78,
-      "market": "UK"
-    },
-    {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
       "score": 75,
-      "market": "JP"
+      "market": "UK"
     },
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
       "score": 73,
       "market": "US"
     },
@@ -175,22 +163,10 @@
       "market": "US"
     },
     {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
+      "ticker": "4063.T",
+      "name": "Shin-Etsu Chemical",
       "score": 73,
-      "market": "IN"
-    },
-    {
-      "ticker": "STAN.L",
-      "name": "Standard Chartered",
-      "score": 72,
-      "market": "UK"
-    },
-    {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 71,
-      "market": "US"
+      "market": "JP"
     },
     {
       "ticker": "STT",
@@ -199,25 +175,37 @@
       "market": "US"
     },
     {
-      "ticker": "HINDALCO.NS",
-      "name": "Hindalco",
+      "ticker": "6971.T",
+      "name": "Kyocera",
       "score": 71,
-      "market": "IN"
+      "market": "JP"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
+      "score": 70,
+      "market": "US"
     }
   ],
   "topMidCap": [
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 78,
-      "market": "UK"
-    },
-    {
-      "ticker": "INVP.L",
-      "name": "Investec",
-      "score": 73,
-      "market": "UK"
-    },
     {
       "ticker": "LEA",
       "name": "Lear Corp",
@@ -225,27 +213,15 @@
       "market": "US"
     },
     {
-      "ticker": "SDR.L",
-      "name": "Schroders",
+      "ticker": "IGG.L",
+      "name": "IG Group",
       "score": 70,
       "market": "UK"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "AJB.L",
-      "name": "AJ Bell",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 69,
+      "ticker": "INVP.L",
+      "name": "Investec",
+      "score": 70,
       "market": "UK"
     },
     {
@@ -265,6 +241,30 @@
       "name": "Zions Bancorporation",
       "score": 67,
       "market": "US"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "ITRK.L",
+      "name": "Intertek Group",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 65,
+      "market": "US"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 65,
+      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -275,44 +275,14 @@
       "market": "US"
     },
     {
-      "ticker": "ITM.L",
-      "name": "ITM Power",
+      "ticker": "ML.PA",
+      "name": "Michelin",
       "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "BK",
-      "name": "Bank of New York Mellon",
-      "score": 65,
-      "market": "US"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 65,
-      "market": "UK"
+      "market": "FR"
     },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "SNR.L",
-      "name": "Senior plc",
       "score": 65,
       "market": "UK"
     },
@@ -323,13 +293,43 @@
       "market": "US"
     },
     {
-      "ticker": "RPI.L",
-      "name": "Raspberry Pi",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
       "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "BK",
+      "name": "Bank of New York Mellon",
+      "score": 61,
+      "market": "US"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 60,
+      "market": "US"
+    },
+    {
+      "ticker": "RWS.L",
+      "name": "RWS Holdings",
+      "score": 59,
       "market": "UK"
     }
   ],
   "totalStocks": 864,
   "avgScore": 50,
-  "bearishAlertCount": 345
+  "bearishAlertCount": 358
 }
