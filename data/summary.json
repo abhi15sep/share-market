@@ -3,23 +3,23 @@
     {
       "ticker": "4063.T",
       "name": "Shin-Etsu Chemical",
-      "score": 72,
+      "score": 73,
       "market": "JP",
       "capCategory": "Large"
     },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 71,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "SMT.L",
@@ -29,10 +29,17 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "8035.T",
-      "name": "Tokyo Electron",
+      "ticker": "COALINDIA.NS",
+      "name": "Coal India",
       "score": 71,
-      "market": "JP",
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HINDALCO.NS",
+      "name": "Hindalco",
+      "score": 71,
+      "market": "IN",
       "capCategory": "Large"
     },
     {
@@ -43,30 +50,23 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
       "score": 70,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NUE",
-      "name": "Nucor",
-      "score": 69,
       "market": "US",
       "capCategory": "Large"
     }
@@ -75,37 +75,23 @@
     {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 17,
+      "score": 19,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 18,
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "HDFCLIFE.NS",
       "name": "HDFC Life Insurance",
-      "score": 21,
+      "score": 24,
       "market": "IN",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ELF",
-      "name": "Elf Beauty",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "HUBS",
@@ -115,15 +101,29 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BILL",
-      "name": "Bill Holdings",
-      "score": 24,
+      "ticker": "ELF",
+      "name": "Elf Beauty",
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "RBLX",
       "name": "Roblox",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
@@ -138,7 +138,7 @@
     {
       "ticker": "PODD",
       "name": "Insulet Corp",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Mid"
     }
@@ -147,12 +147,18 @@
     {
       "ticker": "4063.T",
       "name": "Shin-Etsu Chemical",
-      "score": 72,
+      "score": 73,
       "market": "JP"
     },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 71,
       "market": "US"
     },
@@ -163,10 +169,16 @@
       "market": "UK"
     },
     {
-      "ticker": "8035.T",
-      "name": "Tokyo Electron",
+      "ticker": "COALINDIA.NS",
+      "name": "Coal India",
       "score": 71,
-      "market": "JP"
+      "market": "IN"
+    },
+    {
+      "ticker": "HINDALCO.NS",
+      "name": "Hindalco",
+      "score": 71,
+      "market": "IN"
     },
     {
       "ticker": "6971.T",
@@ -175,46 +187,34 @@
       "market": "JP"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
       "score": 70,
-      "market": "JP"
-    },
-    {
-      "ticker": "NUE",
-      "name": "Nucor",
-      "score": 69,
       "market": "US"
-    },
-    {
-      "ticker": "STAN.L",
-      "name": "Standard Chartered",
-      "score": 69,
-      "market": "UK"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 71,
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 68,
       "market": "US"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "LEA",
+      "name": "Lear Corp",
       "score": 68,
       "market": "US"
     },
@@ -237,6 +237,12 @@
       "market": "UK"
     },
     {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 66,
+      "market": "US"
+    },
+    {
       "ticker": "SDR.L",
       "name": "Schroders",
       "score": 65,
@@ -249,15 +255,9 @@
       "market": "UK"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 63,
-      "market": "US"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 63,
+      "ticker": "TTC",
+      "name": "Toro Company",
+      "score": 64,
       "market": "US"
     },
     {
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 864,
-  "avgScore": 49,
+  "avgScore": 50,
   "bearishAlertCount": 351
 }
