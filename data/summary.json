@@ -1,45 +1,38 @@
 {
   "topOverall": [
     {
-      "ticker": "SMT.L",
-      "name": "Scottish Mortgage",
-      "score": 75,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ZM",
-      "name": "Zoom Video",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "4063.T",
       "name": "Shin-Etsu Chemical",
-      "score": 73,
+      "score": 72,
       "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 71,
+      "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "LEA",
       "name": "Lear Corp",
-      "score": 72,
+      "score": 71,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
       "score": 71,
-      "market": "US",
+      "market": "UK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8035.T",
+      "name": "Tokyo Electron",
+      "score": 71,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
@@ -50,32 +43,46 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "C",
-      "name": "Citigroup",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 70,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 70,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
       "ticker": "NUE",
       "name": "Nucor",
-      "score": 70,
+      "score": 69,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 17,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 19,
+      "score": 18,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -87,25 +94,39 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "AXON",
-      "name": "Axon Enterprise",
-      "score": 24,
+      "ticker": "INTU",
+      "name": "Intuit",
+      "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ELF",
       "name": "Elf Beauty",
-      "score": 25,
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BILL",
+      "name": "Bill Holdings",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "PAYTM.BO",
@@ -115,64 +136,37 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
+      "ticker": "PODD",
+      "name": "Insulet Corp",
       "score": 26,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "SMT.L",
-      "name": "Scottish Mortgage",
-      "score": 75,
-      "market": "UK"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "ZM",
-      "name": "Zoom Video",
-      "score": 73,
-      "market": "US"
-    },
-    {
       "ticker": "4063.T",
       "name": "Shin-Etsu Chemical",
-      "score": 73,
+      "score": 72,
       "market": "JP"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 71,
       "market": "US"
+    },
+    {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 71,
+      "market": "UK"
+    },
+    {
+      "ticker": "8035.T",
+      "name": "Tokyo Electron",
+      "score": 71,
+      "market": "JP"
     },
     {
       "ticker": "6971.T",
@@ -181,48 +175,42 @@
       "market": "JP"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "C",
-      "name": "Citigroup",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 70,
+      "market": "JP"
     },
     {
       "ticker": "NUE",
       "name": "Nucor",
-      "score": 70,
+      "score": 69,
       "market": "US"
     },
     {
-      "ticker": "STLD",
-      "name": "Steel Dynamics",
-      "score": 70,
-      "market": "US"
+      "ticker": "STAN.L",
+      "name": "Standard Chartered",
+      "score": 69,
+      "market": "UK"
     }
   ],
   "topMidCap": [
     {
       "ticker": "LEA",
       "name": "Lear Corp",
-      "score": 72,
+      "score": 71,
       "market": "US"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "INVP.L",
-      "name": "Investec",
-      "score": 70,
-      "market": "UK"
     },
     {
       "ticker": "OGN",
@@ -231,16 +219,10 @@
       "market": "US"
     },
     {
-      "ticker": "LEGN",
-      "name": "Legend Biotech",
+      "ticker": "INVP.L",
+      "name": "Investec",
       "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 67,
-      "market": "US"
+      "market": "UK"
     },
     {
       "ticker": "BEZ.L",
@@ -249,22 +231,40 @@
       "market": "UK"
     },
     {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
-      "score": 66,
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
+      "ticker": "SDR.L",
+      "name": "Schroders",
       "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 63,
       "market": "US"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 65,
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 63,
       "market": "US"
+    },
+    {
+      "ticker": "CWK.L",
+      "name": "Cranswick",
+      "score": 63,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -277,20 +277,20 @@
     {
       "ticker": "ML.PA",
       "name": "Michelin",
-      "score": 66,
+      "score": 68,
       "market": "FR"
     },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 65,
+      "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 64,
-      "market": "US"
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 66,
+      "market": "UK"
     },
     {
       "ticker": "WOSG.L",
@@ -299,37 +299,37 @@
       "market": "UK"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 63,
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 64,
       "market": "UK"
     },
     {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
-      "score": 62,
+      "score": 64,
       "market": "UK"
+    },
+    {
+      "ticker": "BME.L",
+      "name": "B&M European",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 62,
+      "market": "US"
     },
     {
       "ticker": "BK",
       "name": "Bank of New York Mellon",
       "score": 61,
       "market": "US"
-    },
-    {
-      "ticker": "CTRA",
-      "name": "Coterra Energy",
-      "score": 60,
-      "market": "US"
-    },
-    {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
-      "score": 59,
-      "market": "UK"
     }
   ],
   "totalStocks": 864,
-  "avgScore": 50,
-  "bearishAlertCount": 358
+  "avgScore": 49,
+  "bearishAlertCount": 351
 }
