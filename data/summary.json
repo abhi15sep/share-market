@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 75,
+      "market": "UK",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "4063.T",
       "name": "Shin-Etsu Chemical",
       "score": 73,
@@ -15,18 +22,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SMT.L",
-      "name": "Scottish Mortgage",
-      "score": 71,
+      "ticker": "INVP.L",
+      "name": "Investec",
+      "score": 72,
       "market": "UK",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "COALINDIA.NS",
@@ -57,15 +57,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "PSX",
-      "name": "Phillips 66",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "STLD",
-      "name": "Steel Dynamics",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -94,18 +94,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "ELF",
       "name": "Elf Beauty",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "RBLX",
@@ -136,14 +136,20 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "PODD",
-      "name": "Insulet Corp",
-      "score": 27,
+      "ticker": "BILL",
+      "name": "Bill Holdings",
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 75,
+      "market": "UK"
+    },
     {
       "ticker": "4063.T",
       "name": "Shin-Etsu Chemical",
@@ -155,18 +161,6 @@
       "name": "Marathon Petroleum",
       "score": 72,
       "market": "US"
-    },
-    {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "SMT.L",
-      "name": "Scottish Mortgage",
-      "score": 71,
-      "market": "UK"
     },
     {
       "ticker": "COALINDIA.NS",
@@ -193,6 +187,12 @@
       "market": "US"
     },
     {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "PSX",
       "name": "Phillips 66",
       "score": 70,
@@ -207,6 +207,18 @@
   ],
   "topMidCap": [
     {
+      "ticker": "INVP.L",
+      "name": "Investec",
+      "score": 72,
+      "market": "UK"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 70,
+      "market": "UK"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 68,
@@ -219,21 +231,15 @@
       "market": "US"
     },
     {
-      "ticker": "INVP.L",
-      "name": "Investec",
+      "ticker": "BEZ.L",
+      "name": "Beazley",
       "score": 68,
       "market": "UK"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 67,
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
+      "score": 68,
       "market": "UK"
     },
     {
@@ -241,18 +247,6 @@
       "name": "Crocs",
       "score": 66,
       "market": "US"
-    },
-    {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "AJB.L",
-      "name": "AJ Bell",
-      "score": 65,
-      "market": "UK"
     },
     {
       "ticker": "TTC",
@@ -264,6 +258,12 @@
       "ticker": "CWK.L",
       "name": "Cranswick",
       "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "PSON.L",
+      "name": "Pearson",
+      "score": 62,
       "market": "UK"
     }
   ],
@@ -281,46 +281,46 @@
       "market": "FR"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 66,
-      "market": "UK"
-    },
-    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 64,
+      "score": 67,
       "market": "UK"
     },
     {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
-      "score": 64,
+      "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "BME.L",
-      "name": "B&M European",
-      "score": 63,
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 65,
       "market": "UK"
     },
     {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 62,
+      "score": 63,
       "market": "US"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "RWS.L",
+      "name": "RWS Holdings",
+      "score": 62,
+      "market": "UK"
     },
     {
       "ticker": "BK",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 864,
   "avgScore": 50,
-  "bearishAlertCount": 351
+  "bearishAlertCount": 354
 }
