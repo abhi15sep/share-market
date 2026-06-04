@@ -22,6 +22,20 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 73,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "CSCO",
       "name": "Cisco",
       "score": 72,
@@ -29,22 +43,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 72,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "4063.T",
-      "name": "Shin-Etsu Chemical",
-      "score": 72,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "STT",
       "name": "State Street",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -62,13 +69,6 @@
       "score": 71,
       "market": "JP",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -80,37 +80,30 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "ELF",
       "name": "Elf Beauty",
-      "score": 22,
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "AXON",
       "name": "Axon Enterprise",
-      "score": 22,
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 22,
+      "ticker": "INTU",
+      "name": "Intuit",
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 23,
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -122,23 +115,30 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
+      "ticker": "COIN",
+      "name": "Coinbase",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 24,
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 25,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PAYTM.BO",
+      "name": "Paytm (One97)",
+      "score": 26,
+      "market": "IN",
+      "capCategory": "Large"
     },
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 25,
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     }
@@ -151,26 +151,32 @@
       "market": "UK"
     },
     {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 73,
+      "market": "JP"
+    },
+    {
       "ticker": "CSCO",
       "name": "Cisco",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 72,
-      "market": "IN"
-    },
-    {
-      "ticker": "4063.T",
-      "name": "Shin-Etsu Chemical",
-      "score": 72,
-      "market": "JP"
-    },
-    {
       "ticker": "STT",
       "name": "State Street",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 71,
       "market": "US"
     },
@@ -181,28 +187,22 @@
       "market": "JP"
     },
     {
+      "ticker": "C",
+      "name": "Citigroup",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 70,
+      "score": 69,
       "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "HINDALCO.NS",
-      "name": "Hindalco",
-      "score": 70,
-      "market": "IN"
-    },
-    {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 70,
-      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -221,7 +221,7 @@
     {
       "ticker": "ZION",
       "name": "Zions Bancorporation",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
@@ -231,15 +231,15 @@
       "market": "UK"
     },
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "LEA",
+      "name": "Lear Corp",
+      "score": 65,
       "market": "US"
     },
     {
@@ -255,16 +255,16 @@
       "market": "UK"
     },
     {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 64,
+      "market": "US"
+    },
+    {
       "ticker": "IMI.L",
       "name": "IMI",
       "score": 64,
       "market": "UK"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 63,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -323,13 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "ITM.L",
-      "name": "ITM Power",
+      "ticker": "LTC",
+      "name": "LTC Properties",
       "score": 61,
-      "market": "UK"
+      "market": "US"
     }
   ],
   "totalStocks": 864,
   "avgScore": 50,
-  "bearishAlertCount": 327
+  "bearishAlertCount": 313
 }
