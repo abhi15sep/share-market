@@ -15,6 +15,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "IGG.L",
       "name": "IG Group",
       "score": 74,
@@ -29,6 +36,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "9984.T",
       "name": "SoftBank Group",
       "score": 73,
@@ -36,25 +50,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 71,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "BEZ.L",
@@ -80,15 +80,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ELF",
-      "name": "Elf Beauty",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "AXON",
-      "name": "Axon Enterprise",
+      "ticker": "COIN",
+      "name": "Coinbase",
       "score": 23,
       "market": "US",
       "capCategory": "Large"
@@ -101,23 +94,16 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
+      "ticker": "ELF",
+      "name": "Elf Beauty",
       "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 24,
+      "ticker": "AXON",
+      "name": "Axon Enterprise",
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
@@ -129,6 +115,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "PAYTM.BO",
       "name": "Paytm (One97)",
       "score": 26,
@@ -136,11 +129,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
+      "ticker": "ZG",
+      "name": "Zillow Group",
       "score": 26,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -151,8 +151,20 @@
       "market": "UK"
     },
     {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 74,
+      "market": "US"
+    },
+    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
       "score": 73,
       "market": "US"
     },
@@ -163,28 +175,16 @@
       "market": "JP"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 71,
-      "market": "US"
-    },
-    {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
       "score": 71,
       "market": "JP"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 70,
+      "market": "US"
     },
     {
       "ticker": "C",
@@ -193,15 +193,15 @@
       "market": "US"
     },
     {
-      "ticker": "RIOT",
-      "name": "Riot Platforms",
+      "ticker": "FDX",
+      "name": "FedEx",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 69,
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "score": 70,
       "market": "US"
     }
   ],
@@ -213,16 +213,16 @@
       "market": "UK"
     },
     {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "BEZ.L",
       "name": "Beazley",
       "score": 71,
       "market": "UK"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 70,
-      "market": "US"
     },
     {
       "ticker": "ITRK.L",
@@ -233,13 +233,19 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
       "score": 66,
       "market": "US"
     },
     {
       "ticker": "LEA",
       "name": "Lear Corp",
-      "score": 65,
+      "score": 66,
       "market": "US"
     },
     {
@@ -253,12 +259,6 @@
       "name": "Investec",
       "score": 65,
       "market": "UK"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 64,
-      "market": "US"
     },
     {
       "ticker": "IMI.L",
@@ -325,11 +325,11 @@
     {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 61,
+      "score": 62,
       "market": "US"
     }
   ],
   "totalStocks": 864,
-  "avgScore": 50,
-  "bearishAlertCount": 313
+  "avgScore": 51,
+  "bearishAlertCount": 318
 }
