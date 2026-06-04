@@ -1,17 +1,24 @@
 {
   "topOverall": [
     {
-      "ticker": "SMT.L",
-      "name": "Scottish Mortgage",
-      "score": 75,
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 78,
       "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 73,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
-      "ticker": "4063.T",
-      "name": "Shin-Etsu Chemical",
-      "score": 73,
-      "market": "JP",
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 72,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -22,29 +29,22 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "INVP.L",
-      "name": "Investec",
+      "ticker": "COALINDIA.NS",
+      "name": "Coal India",
       "score": 72,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 71,
       "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 71,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HINDALCO.NS",
-      "name": "Hindalco",
-      "score": 71,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "6971.T",
-      "name": "Kyocera",
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
       "score": 71,
       "market": "JP",
       "capCategory": "Large"
@@ -57,15 +57,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "PSX",
-      "name": "Phillips 66",
+      "ticker": "FIVE",
+      "name": "Five Below",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -75,7 +75,7 @@
     {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 19,
+      "score": 18,
       "market": "US",
       "capCategory": "Large"
     },
@@ -89,8 +89,15 @@
     {
       "ticker": "HDFCLIFE.NS",
       "name": "HDFC Life Insurance",
-      "score": 24,
+      "score": 21,
       "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit",
+      "score": 24,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -101,38 +108,17 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "PAYTM.BO",
       "name": "Paytm (One97)",
       "score": 26,
       "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 26,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -141,20 +127,34 @@
       "score": 26,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corp",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "SMT.L",
-      "name": "Scottish Mortgage",
-      "score": 75,
-      "market": "UK"
-    },
-    {
-      "ticker": "4063.T",
-      "name": "Shin-Etsu Chemical",
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
       "score": 73,
       "market": "JP"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 72,
+      "market": "US"
     },
     {
       "ticker": "MPC",
@@ -165,18 +165,12 @@
     {
       "ticker": "COALINDIA.NS",
       "name": "Coal India",
-      "score": 71,
+      "score": 72,
       "market": "IN"
     },
     {
-      "ticker": "HINDALCO.NS",
-      "name": "Hindalco",
-      "score": 71,
-      "market": "IN"
-    },
-    {
-      "ticker": "6971.T",
-      "name": "Kyocera",
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
       "score": 71,
       "market": "JP"
     },
@@ -187,14 +181,14 @@
       "market": "US"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "PSX",
-      "name": "Phillips 66",
+      "ticker": "FIVE",
+      "name": "Five Below",
       "score": 70,
       "market": "US"
     },
@@ -203,19 +197,25 @@
       "name": "Steel Dynamics",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 70,
+      "market": "UK"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "INVP.L",
-      "name": "Investec",
-      "score": 72,
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 71,
       "market": "UK"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 70,
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 69,
       "market": "UK"
     },
     {
@@ -231,22 +231,16 @@
       "market": "US"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "AJB.L",
-      "name": "AJ Bell",
-      "score": 68,
-      "market": "UK"
-    },
-    {
       "ticker": "CROX",
       "name": "Crocs",
       "score": 66,
       "market": "US"
+    },
+    {
+      "ticker": "INVP.L",
+      "name": "Investec",
+      "score": 65,
+      "market": "UK"
     },
     {
       "ticker": "TTC",
@@ -255,19 +249,31 @@
       "market": "US"
     },
     {
-      "ticker": "CWK.L",
-      "name": "Cranswick",
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "IMI.L",
+      "name": "IMI",
       "score": 63,
       "market": "UK"
     },
     {
-      "ticker": "PSON.L",
-      "name": "Pearson",
-      "score": 62,
-      "market": "UK"
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
+      "score": 61,
+      "market": "US"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 78,
+      "market": "UK"
+    },
     {
       "ticker": "HOLX",
       "name": "Hologic",
@@ -277,26 +283,14 @@
     {
       "ticker": "ML.PA",
       "name": "Michelin",
-      "score": 68,
+      "score": 67,
       "market": "FR"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 65,
-      "market": "UK"
+      "ticker": "BK",
+      "name": "Bank of New York Mellon",
+      "score": 64,
+      "market": "US"
     },
     {
       "ticker": "LTC",
@@ -305,14 +299,8 @@
       "market": "US"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
       "score": 63,
       "market": "UK"
     },
@@ -323,13 +311,25 @@
       "market": "UK"
     },
     {
-      "ticker": "BK",
-      "name": "Bank of New York Mellon",
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "SNR.L",
+      "name": "Senior plc",
       "score": 61,
-      "market": "US"
+      "market": "UK"
+    },
+    {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 61,
+      "market": "UK"
     }
   ],
   "totalStocks": 864,
   "avgScore": 50,
-  "bearishAlertCount": 354
+  "bearishAlertCount": 351
 }
