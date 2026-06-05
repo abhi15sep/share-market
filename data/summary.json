@@ -36,13 +36,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "ELV",
       "name": "Elevance Health",
       "score": 71,
@@ -68,6 +61,13 @@
       "name": "East West Bancorp",
       "score": 71,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 71,
+      "market": "JP",
       "capCategory": "Large"
     }
   ],
@@ -101,6 +101,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "INTU",
+      "name": "Intuit",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "GRAB",
       "name": "Grab Holdings",
       "score": 24,
@@ -113,13 +120,6 @@
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "PAYTM.BO",
@@ -163,12 +163,6 @@
       "market": "US"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 71,
-      "market": "US"
-    },
-    {
       "ticker": "ELV",
       "name": "Elevance Health",
       "score": 71,
@@ -203,6 +197,12 @@
       "name": "Sumitomo Mitsui Financial",
       "score": 71,
       "market": "JP"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 70,
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -231,15 +231,15 @@
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
       "score": 67,
       "market": "US"
     },
     {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 66,
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 67,
       "market": "US"
     },
     {
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 864,
   "avgScore": 50,
-  "bearishAlertCount": 334
+  "bearishAlertCount": 336
 }
