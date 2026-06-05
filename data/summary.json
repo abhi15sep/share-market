@@ -8,13 +8,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "BEZ.L",
       "name": "Beazley",
       "score": 73,
@@ -29,10 +22,38 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ADANIENT.NS",
-      "name": "Adani Enterprises",
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
       "score": 71,
-      "market": "IN",
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 71,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "FDX",
+      "name": "FedEx",
+      "score": 70,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -48,62 +69,34 @@
       "score": 70,
       "market": "IN",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "6971.T",
-      "name": "Kyocera",
-      "score": 70,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "ELF",
-      "name": "Elf Beauty",
-      "score": 16,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 16,
+      "score": 15,
       "market": "US",
       "capCategory": "Large"
     },
     {
+      "ticker": "ELF",
+      "name": "Elf Beauty",
+      "score": 17,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 17,
+      "score": 18,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 20,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 22,
+      "score": 19,
       "market": "US",
       "capCategory": "Large"
     },
@@ -122,18 +115,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BILL",
-      "name": "Bill Holdings",
+      "ticker": "INTU",
+      "name": "Intuit",
       "score": 24,
       "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "TTD",
-      "name": "Trade Desk",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "RBLX",
@@ -141,15 +127,23 @@
       "score": 25,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "PAYTM.BO",
+      "name": "Paytm (One97)",
+      "score": 26,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
+      "score": 26,
+      "market": "IN",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 75,
-      "market": "US"
-    },
     {
       "ticker": "9984.T",
       "name": "SoftBank Group",
@@ -157,10 +151,34 @@
       "market": "JP"
     },
     {
-      "ticker": "ADANIENT.NS",
-      "name": "Adani Enterprises",
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
       "score": 71,
-      "market": "IN"
+      "market": "JP"
+    },
+    {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 71,
+      "market": "JP"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "FDX",
+      "name": "FedEx",
+      "score": 70,
+      "market": "US"
     },
     {
       "ticker": "COALINDIA.NS",
@@ -169,14 +187,8 @@
       "market": "IN"
     },
     {
-      "ticker": "6971.T",
-      "name": "Kyocera",
-      "score": 70,
-      "market": "JP"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "C",
+      "name": "Citigroup",
       "score": 69,
       "market": "US"
     },
@@ -187,21 +199,9 @@
       "market": "US"
     },
     {
-      "ticker": "FDX",
-      "name": "FedEx",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "EWBC",
-      "name": "East West Bancorp",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 68,
       "market": "US"
     }
   ],
@@ -225,15 +225,21 @@
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 67,
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 66,
       "market": "US"
     },
     {
@@ -247,12 +253,6 @@
       "name": "Balfour Beatty",
       "score": 66,
       "market": "UK"
-    },
-    {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 65,
-      "market": "US"
     },
     {
       "ticker": "PSON.L",
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 864,
-  "avgScore": 49,
-  "bearishAlertCount": 335
+  "avgScore": 50,
+  "bearishAlertCount": 326
 }
