@@ -22,52 +22,52 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 71,
-      "market": "JP",
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 72,
+      "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 71,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 70,
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "EOG",
       "name": "EOG Resources",
-      "score": 70,
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "FDX",
       "name": "FedEx",
-      "score": 70,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 70,
-      "market": "IN",
+      "ticker": "EWBC",
+      "name": "East West Bancorp",
+      "score": 71,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -75,55 +75,48 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 15,
+      "score": 18,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "ELF",
-      "name": "Elf Beauty",
-      "score": 17,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 18,
+      "score": 19,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 19,
+      "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 23,
+      "ticker": "ELF",
+      "name": "Elf Beauty",
+      "score": 22,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "RBLX",
-      "name": "Roblox",
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
@@ -141,6 +134,13 @@
       "score": 26,
       "market": "IN",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -149,6 +149,48 @@
       "name": "SoftBank Group",
       "score": 73,
       "market": "JP"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "FDX",
+      "name": "FedEx",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "EWBC",
+      "name": "East West Bancorp",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "8306.T",
@@ -161,48 +203,6 @@
       "name": "Sumitomo Mitsui Financial",
       "score": 71,
       "market": "JP"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "FDX",
-      "name": "FedEx",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 70,
-      "market": "IN"
-    },
-    {
-      "ticker": "C",
-      "name": "Citigroup",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 69,
-      "market": "US"
     }
   ],
   "topMidCap": [
@@ -219,26 +219,26 @@
       "market": "UK"
     },
     {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "BLND.L",
       "name": "British Land",
       "score": 69,
       "market": "UK"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 68,
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 67,
       "market": "US"
     },
     {
       "ticker": "FNB",
       "name": "F.N.B. Corp",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
       "score": 66,
       "market": "US"
     },
@@ -255,16 +255,16 @@
       "market": "UK"
     },
     {
-      "ticker": "PSON.L",
-      "name": "Pearson",
+      "ticker": "CROX",
+      "name": "Crocs",
       "score": 65,
-      "market": "UK"
+      "market": "US"
     },
     {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
       "score": 65,
-      "market": "UK"
+      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -285,12 +285,6 @@
       "name": "Michelin",
       "score": 68,
       "market": "FR"
-    },
-    {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 66,
-      "market": "DE"
     },
     {
       "ticker": "BK",
@@ -327,9 +321,15 @@
       "name": "Hammerson",
       "score": 62,
       "market": "UK"
+    },
+    {
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 61,
+      "market": "UK"
     }
   ],
   "totalStocks": 864,
   "avgScore": 50,
-  "bearishAlertCount": 326
+  "bearishAlertCount": 334
 }
