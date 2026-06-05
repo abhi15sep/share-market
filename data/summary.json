@@ -3,20 +3,13 @@
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 80,
+      "score": 81,
       "market": "UK",
       "capCategory": "Small"
     },
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -34,20 +27,6 @@
       "score": 72,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "FIVE",
-      "name": "Five Below",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "ADANIENT.NS",
@@ -69,22 +48,57 @@
       "score": 71,
       "market": "JP",
       "capCategory": "Large"
-    }
-  ],
-  "bottomOverall": [
+    },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 17,
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
+      "ticker": "COALINDIA.NS",
+      "name": "Coal India",
+      "score": 70,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HOLX",
+      "name": "Hologic",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Small"
+    }
+  ],
+  "bottomOverall": [
+    {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 23,
+      "score": 18,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 19,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "LCID",
@@ -94,13 +108,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "ELF",
       "name": "Elf Beauty",
       "score": 25,
@@ -108,51 +115,38 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "AXON",
-      "name": "Axon Enterprise",
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
       "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 27,
+      "ticker": "TTD",
+      "name": "Trade Desk",
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "BILL",
-      "name": "Bill Holdings",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "PODD",
-      "name": "Insulet Corp",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
       "score": 73,
       "market": "US"
     },
@@ -161,12 +155,6 @@
       "name": "SoftBank Group",
       "score": 73,
       "market": "JP"
-    },
-    {
-      "ticker": "FIVE",
-      "name": "Five Below",
-      "score": 71,
-      "market": "US"
     },
     {
       "ticker": "ADANIENT.NS",
@@ -187,21 +175,33 @@
       "market": "JP"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
+      "ticker": "STT",
+      "name": "State Street",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "C",
-      "name": "Citigroup",
+      "ticker": "COALINDIA.NS",
+      "name": "Coal India",
       "score": 70,
+      "market": "IN"
+    },
+    {
+      "ticker": "1038.HK",
+      "name": "CK Infrastructure",
+      "score": 69,
+      "market": "HK"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 68,
       "market": "US"
     },
     {
-      "ticker": "FDX",
-      "name": "FedEx",
-      "score": 70,
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 68,
       "market": "US"
     }
   ],
@@ -213,46 +213,46 @@
       "market": "UK"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "BEZ.L",
       "name": "Beazley",
       "score": 68,
       "market": "UK"
     },
     {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "BLND.L",
+      "name": "British Land",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 66,
+      "market": "US"
+    },
+    {
       "ticker": "AJB.L",
       "name": "AJ Bell",
-      "score": 68,
+      "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "PSON.L",
-      "name": "Pearson",
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
       "score": 65,
-      "market": "UK"
+      "market": "US"
+    },
+    {
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
+      "score": 65,
+      "market": "US"
     },
     {
       "ticker": "PLUS.L",
@@ -261,8 +261,8 @@
       "market": "UK"
     },
     {
-      "ticker": "INVP.L",
-      "name": "Investec",
+      "ticker": "ITRK.L",
+      "name": "Intertek Group",
       "score": 64,
       "market": "UK"
     }
@@ -271,7 +271,7 @@
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 80,
+      "score": 81,
       "market": "UK"
     },
     {
@@ -281,9 +281,9 @@
       "market": "US"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 69,
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 68,
       "market": "UK"
     },
     {
@@ -311,10 +311,10 @@
       "market": "UK"
     },
     {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 62,
-      "market": "US"
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 64,
+      "market": "DE"
     },
     {
       "ticker": "FOUR.L",
@@ -323,13 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
       "score": 61,
       "market": "UK"
     }
   ],
   "totalStocks": 864,
-  "avgScore": 50,
-  "bearishAlertCount": 321
+  "avgScore": 49,
+  "bearishAlertCount": 324
 }
