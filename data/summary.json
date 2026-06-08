@@ -17,56 +17,56 @@
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 72,
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "GS",
       "name": "Goldman Sachs",
-      "score": 71,
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "EOG",
       "name": "EOG Resources",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 71,
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "AJB.L",
-      "name": "AJ Bell",
+      "ticker": "NUE",
+      "name": "Nucor",
       "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
+      "market": "US",
+      "capCategory": "Large"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
+      "ticker": "EWBC",
+      "name": "East West Bancorp",
       "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "score": 70,
       "market": "US",
       "capCategory": "Large"
     }
@@ -82,16 +82,23 @@
     {
       "ticker": "GWRE",
       "name": "Guidewire Software",
-      "score": 20,
+      "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 20,
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "LCID",
@@ -101,11 +108,11 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 23,
+      "ticker": "MOS",
+      "name": "Mosaic Company",
+      "score": 24,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "ZG",
@@ -115,6 +122,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ZS",
       "name": "Zscaler",
       "score": 24,
@@ -122,23 +136,9 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
-      "score": 26,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "score": 26,
+      "ticker": "INTU",
+      "name": "Intuit",
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     }
@@ -147,36 +147,48 @@
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 72,
+      "score": 73,
       "market": "US"
     },
     {
       "ticker": "GS",
       "name": "Goldman Sachs",
-      "score": 71,
+      "score": 73,
       "market": "US"
     },
     {
       "ticker": "EOG",
       "name": "EOG Resources",
-      "score": 71,
+      "score": 72,
       "market": "US"
     },
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 71,
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "score": 70,
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 72,
       "market": "US"
     },
     {
       "ticker": "NUE",
       "name": "Nucor",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "EWBC",
+      "name": "East West Bancorp",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
       "score": 70,
       "market": "US"
     },
@@ -191,18 +203,6 @@
       "name": "Kyocera",
       "score": 70,
       "market": "JP"
-    },
-    {
-      "ticker": "FDX",
-      "name": "FedEx",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 69,
-      "market": "US"
     }
   ],
   "topMidCap": [
@@ -215,7 +215,7 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 71,
+      "score": 72,
       "market": "US"
     },
     {
@@ -223,6 +223,12 @@
       "name": "AJ Bell",
       "score": 71,
       "market": "UK"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 70,
+      "market": "US"
     },
     {
       "ticker": "TATE.L",
@@ -249,8 +255,8 @@
       "market": "UK"
     },
     {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 67,
       "market": "US"
     },
@@ -259,12 +265,6 @@
       "name": "Intertek Group",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 66,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 864,
-  "avgScore": 49,
-  "bearishAlertCount": 336
+  "avgScore": 50,
+  "bearishAlertCount": 341
 }
