@@ -8,74 +8,81 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 73,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 71,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 71,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 73,
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 72,
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "STT",
       "name": "State Street",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "FDX",
-      "name": "FedEx",
-      "score": 71,
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "NUE",
       "name": "Nucor",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EWBC",
-      "name": "East West Bancorp",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 70,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "PLUS.L",
+      "name": "Plus500",
+      "score": 70,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 17,
+      "score": 16,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 19,
       "market": "US",
       "capCategory": "Large"
     },
@@ -87,16 +94,16 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ELF",
-      "name": "Elf Beauty",
-      "score": 22,
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 22,
+      "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
@@ -108,18 +115,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ZS",
-      "name": "Zscaler",
-      "score": 24,
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 23,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "PAYTM.BO",
@@ -129,15 +129,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
+      "ticker": "BILL",
+      "name": "Bill Holdings",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
+      "ticker": "PLTR",
+      "name": "Palantir",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
@@ -145,56 +145,44 @@
   ],
   "topLargeCap": [
     {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 73,
+      "market": "JP"
+    },
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 71,
+      "market": "JP"
+    },
+    {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 71,
+      "market": "JP"
+    },
+    {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 73,
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 72,
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "STT",
       "name": "State Street",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "FDX",
-      "name": "FedEx",
-      "score": 71,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "NUE",
       "name": "Nucor",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "EWBC",
-      "name": "East West Bancorp",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
       "score": 70,
       "market": "US"
     },
@@ -203,14 +191,32 @@
       "name": "NTPC",
       "score": 70,
       "market": "IN"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup",
+      "score": 68,
+      "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "PLUS.L",
+      "name": "Plus500",
+      "score": 70,
+      "market": "UK"
     },
     {
       "ticker": "TATE.L",
@@ -219,9 +225,15 @@
       "market": "UK"
     },
     {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
-      "score": 69,
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 68,
       "market": "UK"
     },
     {
@@ -231,21 +243,15 @@
       "market": "UK"
     },
     {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
+      "ticker": "ITRK.L",
+      "name": "Intertek Group",
       "score": 67,
-      "market": "US"
+      "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 67,
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
+      "score": 66,
       "market": "UK"
     },
     {
@@ -255,14 +261,8 @@
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 65,
-      "market": "US"
-    },
-    {
-      "ticker": "PENN",
-      "name": "Penn Entertainment",
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
       "score": 65,
       "market": "US"
     }
@@ -281,55 +281,55 @@
       "market": "US"
     },
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 66,
+      "market": "FR"
+    },
+    {
       "ticker": "BK",
       "name": "Bank of New York Mellon",
       "score": 65,
       "market": "US"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 64,
+      "ticker": "RWS.L",
+      "name": "RWS Holdings",
+      "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 64,
-      "market": "FR"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 63,
-      "market": "UK"
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 65,
+      "market": "DE"
     },
     {
       "ticker": "FOUR.L",
       "name": "4imprint",
-      "score": 62,
+      "score": 63,
       "market": "UK"
     },
     {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
       "score": 62,
       "market": "UK"
     },
     {
       "ticker": "RAT.L",
       "name": "Rathbones Group",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 61,
+      "score": 62,
       "market": "UK"
     }
   ],
   "totalStocks": 864,
-  "avgScore": 50,
-  "bearishAlertCount": 331
+  "avgScore": 49,
+  "bearishAlertCount": 341
 }
