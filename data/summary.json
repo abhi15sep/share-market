@@ -1,20 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 81,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
-      "score": 75,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "AMAT",
       "name": "Applied Materials",
       "score": 73,
@@ -22,22 +8,22 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "GS",
+      "name": "Goldman Sachs",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -55,6 +41,20 @@
       "score": 72,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 72,
+      "market": "JP",
+      "capCategory": "Large"
     },
     {
       "ticker": "NUE",
@@ -75,7 +75,7 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 16,
+      "score": 17,
       "market": "US",
       "capCategory": "Large"
     },
@@ -94,16 +94,9 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "LCID",
       "name": "Lucid Group",
-      "score": 22,
+      "score": 21,
       "market": "US",
       "capCategory": "Small"
     },
@@ -129,17 +122,24 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ZS",
-      "name": "Zscaler",
-      "score": 24,
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "INTU",
-      "name": "Intuit",
+      "ticker": "PLTR",
+      "name": "Palantir",
       "score": 25,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PAYTM.BO",
+      "name": "Paytm (One97)",
+      "score": 27,
+      "market": "IN",
       "capCategory": "Large"
     }
   ],
@@ -151,20 +151,14 @@
       "market": "US"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 73,
       "market": "US"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "GS",
+      "name": "Goldman Sachs",
       "score": 72,
       "market": "US"
     },
@@ -173,6 +167,12 @@
       "name": "Marathon Petroleum",
       "score": 72,
       "market": "US"
+    },
+    {
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 72,
+      "market": "JP"
     },
     {
       "ticker": "NUE",
@@ -187,29 +187,29 @@
       "market": "US"
     },
     {
-      "ticker": "STLD",
-      "name": "Steel Dynamics",
+      "ticker": "SLB",
+      "name": "Schlumberger",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 70,
-      "market": "JP"
+      "market": "US"
     },
     {
-      "ticker": "6971.T",
-      "name": "Kyocera",
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
       "score": 70,
-      "market": "JP"
+      "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
-      "score": 75,
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 73,
       "market": "UK"
     },
     {
@@ -219,9 +219,9 @@
       "market": "US"
     },
     {
-      "ticker": "AJB.L",
-      "name": "AJ Bell",
-      "score": 71,
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 72,
       "market": "UK"
     },
     {
@@ -231,26 +231,8 @@
       "market": "US"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
+      "ticker": "SCT.L",
+      "name": "Softcat",
       "score": 68,
       "market": "UK"
     },
@@ -261,35 +243,35 @@
       "market": "US"
     },
     {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
       "score": 67,
-      "market": "UK"
+      "market": "US"
+    },
+    {
+      "ticker": "LEA",
+      "name": "Lear Corp",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 65,
+      "market": "US"
+    },
+    {
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
+      "score": 65,
+      "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 81,
-      "market": "UK"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 71,
-      "market": "UK"
-    },
-    {
-      "ticker": "HOLX",
-      "name": "Hologic",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "ML.PA",
       "name": "Michelin",
-      "score": 66,
+      "score": 67,
       "market": "FR"
     },
     {
@@ -299,37 +281,55 @@
       "market": "US"
     },
     {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
       "score": 65,
       "market": "UK"
     },
     {
       "ticker": "RWE.DE",
       "name": "RWE",
-      "score": 65,
+      "score": 64,
       "market": "DE"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 63,
+      "market": "UK"
     },
     {
       "ticker": "FOUR.L",
       "name": "4imprint",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "RAT.L",
-      "name": "Rathbones Group",
       "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 60,
+      "market": "US"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 60,
+      "market": "UK"
+    },
+    {
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 59,
       "market": "UK"
     }
   ],
-  "totalStocks": 864,
+  "totalStocks": 863,
   "avgScore": 50,
-  "bearishAlertCount": 341
+  "bearishAlertCount": 339
 }
