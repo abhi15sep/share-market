@@ -8,6 +8,20 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 73,
@@ -15,9 +29,9 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 72,
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 73,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -29,45 +43,31 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "STT",
       "name": "State Street",
-      "score": 70,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ALLY",
       "name": "Ally Financial",
-      "score": 70,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "8035.T",
-      "name": "Tokyo Electron",
-      "score": 70,
-      "market": "JP",
+      "ticker": "FHN",
+      "name": "First Horizon",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
+      "score": 71,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -75,55 +75,34 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 14,
+      "score": 18,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 20,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 16,
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 19,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 19,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
       "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "MOS",
-      "name": "Mosaic Company",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
       "score": 23,
       "market": "US",
       "capCategory": "Large"
@@ -136,14 +115,41 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
+      "ticker": "MOS",
+      "name": "Mosaic Company",
       "score": 24,
       "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PAYTM.BO",
+      "name": "Paytm (One97)",
+      "score": 25,
+      "market": "IN",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 73,
+      "market": "US"
+    },
     {
       "ticker": "6971.T",
       "name": "Kyocera",
@@ -151,57 +157,51 @@
       "market": "JP"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 71,
-      "market": "US"
-    },
-    {
       "ticker": "STT",
       "name": "State Street",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "ALLY",
       "name": "Ally Financial",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "8035.T",
-      "name": "Tokyo Electron",
-      "score": 70,
-      "market": "JP"
+      "ticker": "FHN",
+      "name": "First Horizon",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "C",
       "name": "Citigroup",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "MET",
-      "name": "MetLife",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "FDX",
       "name": "FedEx",
-      "score": 69,
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "SPG",
+      "name": "Simon Property Group",
+      "score": 70,
       "market": "US"
     }
   ],
@@ -213,15 +213,21 @@
       "market": "UK"
     },
     {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 74,
+      "market": "US"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 73,
       "market": "US"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 72,
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 73,
       "market": "US"
     },
     {
@@ -231,8 +237,8 @@
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
       "score": 69,
       "market": "US"
     },
@@ -243,8 +249,8 @@
       "market": "UK"
     },
     {
-      "ticker": "PENN",
-      "name": "Penn Entertainment",
+      "ticker": "OZK",
+      "name": "Bank OZK",
       "score": 68,
       "market": "US"
     },
@@ -255,16 +261,10 @@
       "market": "UK"
     },
     {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
       "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
-      "score": 67,
-      "market": "UK"
+      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 863,
-  "avgScore": 50,
-  "bearishAlertCount": 323
+  "avgScore": 51,
+  "bearishAlertCount": 319
 }
