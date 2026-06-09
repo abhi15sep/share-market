@@ -10,9 +10,37 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 72,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 72,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "BNZL.L",
@@ -22,52 +50,24 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 71,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 70,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "6971.T",
-      "name": "Kyocera",
-      "score": 70,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "STT",
       "name": "State Street",
-      "score": 69,
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ALLY",
       "name": "Ally Financial",
-      "score": 69,
+      "score": 70,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8035.T",
+      "name": "Tokyo Electron",
+      "score": 70,
+      "market": "JP",
       "capCategory": "Large"
     }
   ],
@@ -75,23 +75,23 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 12,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 18,
+      "score": 14,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 19,
+      "score": 16,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 19,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "COIN",
@@ -103,37 +103,23 @@
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 19,
+      "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "MOS",
       "name": "Mosaic Company",
-      "score": 21,
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "LCID",
       "name": "Lucid Group",
       "score": 23,
       "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "NOW",
-      "name": "ServiceNow",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "INTU",
@@ -141,67 +127,81 @@
       "score": 23,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
+      "score": 24,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 71,
-      "market": "JP"
-    },
-    {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 70,
-      "market": "IN"
-    },
-    {
       "ticker": "6971.T",
       "name": "Kyocera",
-      "score": 70,
+      "score": 72,
       "market": "JP"
     },
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
-      "score": 69,
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "STT",
       "name": "State Street",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "ALLY",
       "name": "Ally Financial",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "STLD",
-      "name": "Steel Dynamics",
-      "score": 69,
-      "market": "US"
+      "ticker": "8035.T",
+      "name": "Tokyo Electron",
+      "score": 70,
+      "market": "JP"
     },
     {
-      "ticker": "1398.HK",
-      "name": "ICBC",
+      "ticker": "C",
+      "name": "Citigroup",
       "score": 69,
-      "market": "HK"
+      "market": "US"
     },
     {
       "ticker": "MET",
       "name": "MetLife",
-      "score": 68,
+      "score": 69,
       "market": "US"
     },
     {
-      "ticker": "EWBC",
-      "name": "East West Bancorp",
-      "score": 68,
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "FDX",
+      "name": "FedEx",
+      "score": 69,
       "market": "US"
     }
   ],
@@ -215,6 +215,12 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 72,
       "market": "US"
     },
@@ -223,12 +229,6 @@
       "name": "Bunzl",
       "score": 71,
       "market": "UK"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 70,
-      "market": "US"
     },
     {
       "ticker": "CROX",
@@ -241,6 +241,12 @@
       "name": "Tate & Lyle",
       "score": 69,
       "market": "UK"
+    },
+    {
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
+      "score": 68,
+      "market": "US"
     },
     {
       "ticker": "BLND.L",
@@ -259,12 +265,6 @@
       "name": "Balfour Beatty",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 66,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 863,
-  "avgScore": 49,
-  "bearishAlertCount": 331
+  "avgScore": 50,
+  "bearishAlertCount": 323
 }
