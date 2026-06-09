@@ -1,15 +1,8 @@
 {
   "topOverall": [
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "NUE",
+      "name": "Nucor",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -22,20 +15,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 72,
@@ -43,11 +22,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
       "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "6971.T",
@@ -57,38 +36,73 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "NUE",
-      "name": "Nucor",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "EWBC",
-      "name": "East West Bancorp",
+      "ticker": "GS",
+      "name": "Goldman Sachs",
       "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "COALINDIA.NS",
+      "name": "Coal India",
+      "score": 70,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 69,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 17,
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 18,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 21,
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 18,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
+      "score": 20,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 20,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company",
       "score": 21,
       "market": "US",
       "capCategory": "Mid"
@@ -96,20 +110,6 @@
     {
       "ticker": "LCID",
       "name": "Lucid Group",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "MOS",
-      "name": "Mosaic Company",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
       "score": 24,
       "market": "US",
       "capCategory": "Mid"
@@ -117,21 +117,21 @@
     {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 25,
+      "ticker": "BILL",
+      "name": "Bill Holdings",
+      "score": 26,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 25,
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
@@ -145,26 +145,14 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
+      "ticker": "NUE",
+      "name": "Nucor",
       "score": 73,
       "market": "US"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
       "score": 72,
       "market": "US"
     },
@@ -175,33 +163,45 @@
       "market": "JP"
     },
     {
-      "ticker": "NUE",
-      "name": "Nucor",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
       "score": 71,
       "market": "US"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "COALINDIA.NS",
+      "name": "Coal India",
+      "score": 70,
+      "market": "IN"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "8035.T",
+      "name": "Tokyo Electron",
+      "score": 69,
+      "market": "JP"
     },
     {
       "ticker": "EWBC",
       "name": "East West Bancorp",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "SLB",
-      "name": "Schlumberger",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "STLD",
-      "name": "Steel Dynamics",
-      "score": 70,
+      "score": 68,
       "market": "US"
     }
   ],
@@ -219,52 +219,52 @@
       "market": "US"
     },
     {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "IGG.L",
       "name": "IG Group",
-      "score": 72,
+      "score": 69,
       "market": "UK"
+    },
+    {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 67,
+      "market": "US"
     },
     {
       "ticker": "CROX",
       "name": "Crocs",
-      "score": 70,
+      "score": 67,
       "market": "US"
     },
     {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 68,
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
+      "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "LEA",
-      "name": "Lear Corp",
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
       "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 65,
       "market": "US"
     },
     {
       "ticker": "PENN",
       "name": "Penn Entertainment",
-      "score": 65,
+      "score": 66,
       "market": "US"
+    },
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 66,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -299,15 +299,21 @@
       "market": "DE"
     },
     {
+      "ticker": "FOUR.L",
+      "name": "4imprint",
+      "score": 63,
+      "market": "UK"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 63,
       "market": "UK"
     },
     {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 62,
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 61,
       "market": "UK"
     },
     {
@@ -317,19 +323,13 @@
       "market": "US"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 60,
-      "market": "UK"
-    },
-    {
       "ticker": "ITM.L",
       "name": "ITM Power",
-      "score": 59,
+      "score": 58,
       "market": "UK"
     }
   ],
   "totalStocks": 863,
-  "avgScore": 50,
-  "bearishAlertCount": 339
+  "avgScore": 49,
+  "bearishAlertCount": 318
 }
