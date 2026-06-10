@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "CPG.L",
       "name": "Compass Group",
       "score": 74,
@@ -8,15 +15,29 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 73,
+      "score": 72,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
+      "ticker": "CROX",
+      "name": "Crocs",
       "score": 72,
       "market": "US",
       "capCategory": "Mid"
@@ -45,29 +66,8 @@
     {
       "ticker": "8316.T",
       "name": "Sumitomo Mitsui Financial",
-      "score": 71,
+      "score": 72,
       "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 70,
-      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -75,30 +75,16 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 11,
+      "score": 12,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "GWRE",
       "name": "Guidewire Software",
-      "score": 16,
+      "score": 18,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 19,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 19,
-      "market": "US",
-      "capCategory": "Small"
     },
     {
       "ticker": "COIN",
@@ -108,29 +94,36 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MOS",
-      "name": "Mosaic Company",
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "score": 20,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
       "score": 21,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "IOT",
-      "name": "Samsara",
+      "ticker": "ZS",
+      "name": "Zscaler",
       "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "TTD",
-      "name": "Trade Desk",
+      "ticker": "IOT",
+      "name": "Samsara",
       "score": 23,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
+      "ticker": "RBLX",
+      "name": "Roblox",
       "score": 23,
       "market": "US",
       "capCategory": "Large"
@@ -139,6 +132,13 @@
       "ticker": "INTU",
       "name": "Intuit",
       "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 24,
       "market": "US",
       "capCategory": "Large"
     }
@@ -151,70 +151,76 @@
       "market": "UK"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 71,
-      "market": "JP"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 70,
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "score": 73,
       "market": "US"
     },
     {
       "ticker": "EOG",
       "name": "EOG Resources",
-      "score": 70,
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 70,
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 72,
+      "market": "JP"
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "8035.T",
-      "name": "Tokyo Electron",
-      "score": 70,
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 71,
       "market": "JP"
     },
     {
       "ticker": "1398.HK",
       "name": "ICBC",
-      "score": 70,
+      "score": 71,
       "market": "HK"
     },
     {
-      "ticker": "0883.HK",
-      "name": "CNOOC",
+      "ticker": "GEV",
+      "name": "GE Vernova",
       "score": 70,
-      "market": "HK"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 69,
       "market": "US"
     },
     {
-      "ticker": "SLB",
-      "name": "Schlumberger",
-      "score": 69,
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "MET",
+      "name": "MetLife",
+      "score": 70,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 73,
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 75,
       "market": "US"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
       "score": 72,
       "market": "US"
     },
@@ -237,21 +243,21 @@
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
       "score": 70,
       "market": "US"
     },
     {
       "ticker": "OZK",
       "name": "Bank OZK",
-      "score": 68,
+      "score": 69,
       "market": "US"
     },
     {
-      "ticker": "PENN",
-      "name": "Penn Entertainment",
-      "score": 68,
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
+      "score": 67,
       "market": "US"
     },
     {
@@ -259,12 +265,6 @@
       "name": "Pearson",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 65,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 863,
   "avgScore": 50,
-  "bearishAlertCount": 324
+  "bearishAlertCount": 333
 }
