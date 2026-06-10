@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-06-10T14:30:48.096Z",
+  "lastUpdated": "2026-06-10T18:04:07.966Z",
   "stockCount": 863,
-  "bearishAlerts": 319,
+  "bearishAlerts": 324,
   "newsCount": 500,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
-      "price": 7390.12,
-      "sma50": 7215.81,
-      "sma200": 6873.01,
-      "changeFromHigh": -2.89,
+      "price": 7320.62,
+      "sma50": 7214.42,
+      "sma200": 6872.66,
+      "changeFromHigh": -3.8,
       "distributionDays": 6,
       "regime": "correction",
       "signal": "6 distribution days in 25 sessions — selling pressure"
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10232.81,
-      "sma50": 10386.09,
-      "sma200": 9980.14,
-      "changeFromHigh": -6.21,
+      "price": 10254.81,
+      "sma50": 10386.53,
+      "sma200": 9980.25,
+      "changeFromHigh": -6.01,
       "distributionDays": 3,
       "regime": "bull",
       "signal": "Price above SMA200 — uptrend intact"
@@ -36,23 +36,23 @@
     },
     "eu": {
       "index": "DAX 40",
-      "price": 24332.57,
-      "sma50": 24292.23,
-      "sma200": 24180.34,
-      "changeFromHigh": -4.28,
+      "price": 24195.31,
+      "sma50": 24289.48,
+      "sma200": 24179.65,
+      "changeFromHigh": -4.82,
       "distributionDays": 5,
       "regime": "bull",
-      "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
+      "signal": "Price above SMA200 — uptrend intact"
     },
     "asia": {
       "index": "Nikkei 225",
       "price": 64179.27,
-      "sma50": 60363.24,
-      "sma200": 52677.99,
+      "sma50": 60151.72,
+      "sma200": 52570.68,
       "changeFromHigh": -6.17,
-      "distributionDays": 9,
+      "distributionDays": 10,
       "regime": "correction",
-      "signal": "9 distribution days in 25 sessions — selling pressure"
+      "signal": "10 distribution days in 25 sessions — selling pressure"
     },
     "overall": "correction",
     "summary": "Markets showing weakness. Be selective, reduce position sizes, and tighten stops."
