@@ -1,57 +1,36 @@
 {
   "topOverall": [
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 77,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "AMAT",
       "name": "Applied Materials",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "CROX",
       "name": "Crocs",
-      "score": 73,
+      "score": 72,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "6971.T",
-      "name": "Kyocera",
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
       "score": 72,
       "market": "JP",
       "capCategory": "Large"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALLY",
-      "name": "Ally Financial",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -64,10 +43,31 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "EWBC",
+      "name": "East West Bancorp",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "STLD",
       "name": "Steel Dynamics",
       "score": 71,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 71,
+      "market": "JP",
       "capCategory": "Large"
     }
   ],
@@ -75,7 +75,7 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 18,
+      "score": 17,
       "market": "US",
       "capCategory": "Large"
     },
@@ -87,6 +87,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 20,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
       "score": 21,
@@ -94,77 +101,70 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
       "score": 24,
-      "market": "IN",
+      "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "MOS",
       "name": "Mosaic Company",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 24,
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 25,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
-      "ticker": "NOW",
-      "name": "ServiceNow",
-      "score": 24,
+      "ticker": "INTU",
+      "name": "Intuit",
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "PAYTM.BO",
       "name": "Paytm (One97)",
-      "score": 25,
+      "score": 27,
       "market": "IN",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "BILL",
+      "name": "Bill Holdings",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "AMAT",
       "name": "Applied Materials",
+      "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 73,
       "market": "US"
     },
     {
-      "ticker": "6971.T",
-      "name": "Kyocera",
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
       "score": 72,
       "market": "JP"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "ALLY",
-      "name": "Ally Financial",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 71,
       "market": "US"
     },
@@ -175,122 +175,104 @@
       "market": "US"
     },
     {
+      "ticker": "EWBC",
+      "name": "East West Bancorp",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "STLD",
       "name": "Steel Dynamics",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "C",
-      "name": "Citigroup",
-      "score": 70,
-      "market": "US"
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 71,
+      "market": "JP"
     },
     {
-      "ticker": "FDX",
-      "name": "FedEx",
-      "score": 70,
-      "market": "US"
+      "ticker": "1398.HK",
+      "name": "ICBC",
+      "score": 71,
+      "market": "HK"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "SPG",
-      "name": "Simon Property Group",
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 70,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 77,
-      "market": "UK"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 74,
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 72,
       "market": "US"
     },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
       "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 69,
       "market": "UK"
     },
     {
       "ticker": "PENN",
       "name": "Penn Entertainment",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "OZK",
-      "name": "Bank OZK",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
       "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "LEA",
+      "name": "Lear Corp",
+      "score": 65,
+      "market": "US"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
+      "score": 64,
+      "market": "US"
+    },
+    {
+      "ticker": "HSIC",
+      "name": "Henry Schein",
+      "score": 64,
       "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 69,
-      "market": "FR"
-    },
-    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 66,
-      "market": "DE"
     },
     {
       "ticker": "BK",
@@ -305,16 +287,28 @@
       "market": "UK"
     },
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 64,
+      "market": "FR"
+    },
+    {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
       "score": 63,
       "market": "UK"
     },
     {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 61,
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 62,
       "market": "UK"
+    },
+    {
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 60,
+      "market": "US"
     },
     {
       "ticker": "CTRA",
@@ -323,13 +317,19 @@
       "market": "US"
     },
     {
+      "ticker": "GYM.L",
+      "name": "Gym Group",
+      "score": 59,
+      "market": "UK"
+    },
+    {
       "ticker": "ITM.L",
       "name": "ITM Power",
-      "score": 60,
+      "score": 59,
       "market": "UK"
     }
   ],
   "totalStocks": 863,
-  "avgScore": 51,
-  "bearishAlertCount": 319
+  "avgScore": 50,
+  "bearishAlertCount": 326
 }
