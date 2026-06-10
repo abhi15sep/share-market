@@ -15,16 +15,16 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 72,
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
@@ -75,7 +75,7 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 12,
+      "score": 13,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -94,18 +94,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "score": 20,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
       "score": 21,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "ZS",
@@ -151,15 +151,15 @@
       "market": "UK"
     },
     {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
+      "ticker": "EOG",
+      "name": "EOG Resources",
       "score": 73,
       "market": "US"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 72,
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "score": 73,
       "market": "US"
     },
     {
@@ -169,8 +169,8 @@
       "market": "JP"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
+      "ticker": "MET",
+      "name": "MetLife",
       "score": 71,
       "market": "US"
     },
@@ -187,8 +187,8 @@
       "market": "HK"
     },
     {
-      "ticker": "GEV",
-      "name": "GE Vernova",
+      "ticker": "UNH",
+      "name": "UnitedHealth",
       "score": 70,
       "market": "US"
     },
@@ -199,8 +199,8 @@
       "market": "US"
     },
     {
-      "ticker": "MET",
-      "name": "MetLife",
+      "ticker": "URI",
+      "name": "United Rentals",
       "score": 70,
       "market": "US"
     }
@@ -269,16 +269,16 @@
   ],
   "topSmallCap": [
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 70,
+      "market": "FR"
+    },
+    {
       "ticker": "GYM.L",
       "name": "Gym Group",
       "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 68,
-      "market": "FR"
     },
     {
       "ticker": "CMCX.L",
@@ -323,13 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "ITM.L",
-      "name": "ITM Power",
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
       "score": 61,
-      "market": "UK"
+      "market": "US"
     }
   ],
   "totalStocks": 863,
   "avgScore": 50,
-  "bearishAlertCount": 333
+  "bearishAlertCount": 332
 }
