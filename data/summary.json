@@ -3,6 +3,20 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
+      "score": 76,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 74,
       "market": "US",
       "capCategory": "Mid"
@@ -15,11 +29,25 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
       "score": 73,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "FDX",
+      "name": "FedEx",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "ITRK.L",
@@ -36,53 +64,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "CROX",
       "name": "Crocs",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 14,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 20,
+      "score": 15,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -94,11 +87,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 20,
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 21,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "IOT",
@@ -108,38 +101,45 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 23,
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "TTD",
-      "name": "Trade Desk",
+      "ticker": "INTU",
+      "name": "Intuit",
       "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BILL",
+      "name": "Bill Holdings",
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "LCID",
       "name": "Lucid Group",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "MOS",
-      "name": "Mosaic Company",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "PCOR",
-      "name": "Procore Technologies",
+      "ticker": "NOW",
+      "name": "ServiceNow",
       "score": 25,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BRBY.L",
+      "name": "Burberry",
+      "score": 26,
+      "market": "UK",
       "capCategory": "Mid"
     }
   ],
@@ -147,13 +147,31 @@
     {
       "ticker": "STT",
       "name": "State Street",
-      "score": 72,
+      "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "FDX",
+      "name": "FedEx",
+      "score": 73,
       "market": "US"
     },
     {
       "ticker": "HST",
       "name": "Host Hotels & Resorts",
-      "score": 72,
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "CINF",
+      "name": "Cincinnati Financial",
+      "score": 71,
       "market": "US"
     },
     {
@@ -169,39 +187,21 @@
       "market": "HK"
     },
     {
-      "ticker": "C",
-      "name": "Citigroup",
+      "ticker": "BAC",
+      "name": "Bank of America",
       "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 70,
-      "market": "JP"
-    },
-    {
-      "ticker": "8766.T",
-      "name": "Tokio Marine",
-      "score": 70,
-      "market": "JP"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 69,
       "market": "US"
     },
     {
       "ticker": "SLB",
       "name": "Schlumberger",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "URI",
-      "name": "United Rentals",
-      "score": 69,
+      "ticker": "C",
+      "name": "Citigroup",
+      "score": 70,
       "market": "US"
     }
   ],
@@ -209,6 +209,12 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
+      "score": 76,
+      "market": "US"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 74,
       "market": "US"
     },
@@ -217,12 +223,6 @@
       "name": "Beazley",
       "score": 74,
       "market": "UK"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 73,
-      "market": "US"
     },
     {
       "ticker": "ITRK.L",
@@ -239,7 +239,13 @@
     {
       "ticker": "CROX",
       "name": "Crocs",
-      "score": 71,
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 70,
       "market": "US"
     },
     {
@@ -259,12 +265,6 @@
       "name": "British Land",
       "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 68,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -281,16 +281,16 @@
       "market": "UK"
     },
     {
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "SUPR.L",
       "name": "Supermarket Income REIT",
       "score": 68,
       "market": "UK"
-    },
-    {
-      "ticker": "AMC",
-      "name": "AMC Entertainment",
-      "score": 67,
-      "market": "US"
     },
     {
       "ticker": "DOM.L",
@@ -305,16 +305,16 @@
       "market": "UK"
     },
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 66,
+      "market": "FR"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 65,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 64,
-      "market": "FR"
     },
     {
       "ticker": "TSTL.L",
@@ -329,7 +329,7 @@
       "market": "UK"
     }
   ],
-  "totalStocks": 863,
+  "totalStocks": 862,
   "avgScore": 51,
-  "bearishAlertCount": 332
+  "bearishAlertCount": 328
 }
