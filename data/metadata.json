@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-11T16:09:06.605Z",
+  "lastUpdated": "2026-06-11T19:42:04.237Z",
   "stockCount": 863,
-  "bearishAlerts": 349,
+  "bearishAlerts": 332,
   "newsCount": 500,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
-      "price": 7301.2,
-      "sma50": 7228.8,
-      "sma200": 6876.7,
-      "changeFromHigh": -4.06,
+      "price": 7406.94,
+      "sma50": 7230.92,
+      "sma200": 6877.23,
+      "changeFromHigh": -2.67,
       "distributionDays": 6,
       "regime": "correction",
       "signal": "6 distribution days in 25 sessions — selling pressure"
@@ -27,10 +27,10 @@
     "in": {
       "index": "Nifty 50",
       "price": 23161.6,
-      "sma50": 23703.23,
-      "sma200": 24926.97,
+      "sma50": 23706.13,
+      "sma200": 24934.32,
       "changeFromHigh": -12.03,
-      "distributionDays": 1,
+      "distributionDays": 2,
       "regime": "correction",
       "signal": "Down -12.0% from high — correction territory"
     },
