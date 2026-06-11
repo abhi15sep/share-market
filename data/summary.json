@@ -8,13 +8,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "CPG.L",
-      "name": "Compass Group",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "EOG",
       "name": "EOG Resources",
       "score": 73,
@@ -36,27 +29,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "IGG.L",
       "name": "IG Group",
       "score": 72,
@@ -64,10 +36,38 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 72,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MET",
+      "name": "MetLife",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 71,
       "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
+      "score": 71,
+      "market": "HK",
       "capCategory": "Large"
     }
   ],
@@ -75,7 +75,7 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 13,
+      "score": 14,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -101,15 +101,15 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "score": 21,
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "ZS",
-      "name": "Zscaler",
+      "ticker": "PLTR",
+      "name": "Palantir",
       "score": 22,
       "market": "US",
       "capCategory": "Large"
@@ -122,15 +122,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RBLX",
-      "name": "Roblox",
+      "ticker": "ZS",
+      "name": "Zscaler",
       "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "INTU",
-      "name": "Intuit",
+      "ticker": "NOW",
+      "name": "ServiceNow",
       "score": 23,
       "market": "US",
       "capCategory": "Large"
@@ -145,12 +145,6 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "CPG.L",
-      "name": "Compass Group",
-      "score": 74,
-      "market": "UK"
-    },
-    {
       "ticker": "EOG",
       "name": "EOG Resources",
       "score": 73,
@@ -163,10 +157,10 @@
       "market": "US"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 72,
-      "market": "JP"
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "MET",
@@ -175,20 +169,20 @@
       "market": "US"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
+      "ticker": "6971.T",
+      "name": "Kyocera",
       "score": 71,
       "market": "JP"
     },
     {
-      "ticker": "1398.HK",
-      "name": "ICBC",
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
       "score": 71,
       "market": "HK"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
+      "ticker": "KO",
+      "name": "Coca-Cola",
       "score": 70,
       "market": "US"
     },
@@ -201,6 +195,12 @@
     {
       "ticker": "URI",
       "name": "United Rentals",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
       "score": 70,
       "market": "US"
     }
@@ -219,28 +219,16 @@
       "market": "US"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 72,
-      "market": "UK"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 72,
-      "market": "UK"
-    },
-    {
       "ticker": "IGG.L",
       "name": "IG Group",
       "score": 72,
       "market": "UK"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 70,
+      "market": "US"
     },
     {
       "ticker": "PENN",
@@ -261,58 +249,46 @@
       "market": "US"
     },
     {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 67,
+      "market": "UK"
+    },
+    {
       "ticker": "PSON.L",
       "name": "Pearson",
-      "score": 67,
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "ITRK.L",
+      "name": "Intertek Group",
+      "score": 66,
       "market": "UK"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 70,
-      "market": "FR"
-    },
-    {
-      "ticker": "GYM.L",
-      "name": "Gym Group",
-      "score": 69,
-      "market": "UK"
-    },
-    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 67,
+      "score": 71,
       "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 66,
-      "market": "DE"
-    },
-    {
-      "ticker": "BK",
-      "name": "Bank of New York Mellon",
-      "score": 65,
-      "market": "US"
     },
     {
       "ticker": "CKN.L",
       "name": "Chemring Group",
-      "score": 65,
+      "score": 68,
       "market": "UK"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 67,
+      "market": "FR"
+    },
+    {
+      "ticker": "DOM.L",
+      "name": "Domino's Pizza Group",
       "score": 65,
       "market": "UK"
     },
@@ -323,13 +299,37 @@
       "market": "UK"
     },
     {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 64,
+      "market": "DE"
+    },
+    {
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 62,
+      "market": "UK"
+    },
+    {
       "ticker": "AMC",
       "name": "AMC Entertainment",
       "score": 61,
+      "market": "US"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 60,
       "market": "US"
     }
   ],
   "totalStocks": 863,
   "avgScore": 50,
-  "bearishAlertCount": 332
+  "bearishAlertCount": 333
 }
