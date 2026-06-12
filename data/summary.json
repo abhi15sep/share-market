@@ -22,11 +22,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
       "score": 74,
-      "market": "UK",
-      "capCategory": "Mid"
+      "market": "JP",
+      "capCategory": "Large"
     },
     {
       "ticker": "AMAT",
@@ -50,32 +50,32 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
-      "score": 73,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 73,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "CROX",
       "name": "Crocs",
       "score": 72,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "1398.HK",
+      "name": "ICBC",
+      "score": 72,
+      "market": "HK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 15,
+      "score": 14,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -103,6 +103,20 @@
     {
       "ticker": "COIN",
       "name": "Coinbase",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
@@ -110,36 +124,22 @@
     {
       "ticker": "INTU",
       "name": "Intuit",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "BILL",
       "name": "Bill Holdings",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "NOW",
-      "name": "ServiceNow",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
       "score": 26,
-      "market": "UK",
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "TTD",
+      "name": "Trade Desk",
+      "score": 26,
+      "market": "US",
       "capCategory": "Mid"
     }
   ],
@@ -149,6 +149,12 @@
       "name": "State Street",
       "score": 75,
       "market": "US"
+    },
+    {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 74,
+      "market": "JP"
     },
     {
       "ticker": "AMAT",
@@ -169,16 +175,16 @@
       "market": "US"
     },
     {
-      "ticker": "CINF",
-      "name": "Cincinnati Financial",
-      "score": 71,
-      "market": "US"
+      "ticker": "1398.HK",
+      "name": "ICBC",
+      "score": 72,
+      "market": "HK"
     },
     {
-      "ticker": "6971.T",
-      "name": "Kyocera",
+      "ticker": "BAC",
+      "name": "Bank of America",
       "score": 71,
-      "market": "JP"
+      "market": "US"
     },
     {
       "ticker": "0939.HK",
@@ -187,20 +193,14 @@
       "market": "HK"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "SLB",
-      "name": "Schlumberger",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "C",
       "name": "Citigroup",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "PNC",
+      "name": "PNC Financial",
       "score": 70,
       "market": "US"
     }
@@ -219,28 +219,16 @@
       "market": "US"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 74,
-      "market": "UK"
-    },
-    {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
-      "score": 73,
-      "market": "UK"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 73,
-      "market": "UK"
-    },
-    {
       "ticker": "CROX",
       "name": "Crocs",
       "score": 72,
       "market": "US"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 71,
+      "market": "UK"
     },
     {
       "ticker": "OZK",
@@ -249,21 +237,33 @@
       "market": "US"
     },
     {
-      "ticker": "FRAS.L",
-      "name": "Frasers Group",
-      "score": 70,
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "LEGN",
+      "name": "Legend Biotech",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 69,
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
+      "score": 67,
       "market": "UK"
     }
   ],
@@ -271,14 +271,14 @@
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 71,
+      "score": 69,
       "market": "UK"
     },
     {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 71,
-      "market": "UK"
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 69,
+      "market": "FR"
     },
     {
       "ticker": "AMC",
@@ -287,33 +287,39 @@
       "market": "US"
     },
     {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 63,
+      "market": "UK"
+    },
+    {
       "ticker": "SUPR.L",
       "name": "Supermarket Income REIT",
-      "score": 68,
+      "score": 63,
       "market": "UK"
+    },
+    {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 63,
+      "market": "DE"
     },
     {
       "ticker": "DOM.L",
       "name": "Domino's Pizza Group",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 66,
-      "market": "FR"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 65,
+      "score": 62,
       "market": "UK"
     },
     {
@@ -321,15 +327,9 @@
       "name": "Tristel",
       "score": 62,
       "market": "UK"
-    },
-    {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 61,
-      "market": "UK"
     }
   ],
-  "totalStocks": 862,
+  "totalStocks": 863,
   "avgScore": 51,
-  "bearishAlertCount": 328
+  "bearishAlertCount": 314
 }

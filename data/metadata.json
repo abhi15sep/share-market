@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-11T22:09:06.690Z",
-  "stockCount": 862,
-  "bearishAlerts": 328,
+  "lastUpdated": "2026-06-12T11:07:44.822Z",
+  "stockCount": 863,
+  "bearishAlerts": 314,
   "newsCount": 500,
   "marketRegime": {
     "us": {
@@ -16,40 +16,40 @@
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10303.88,
-      "sma50": 10393.26,
-      "sma200": 9985.44,
-      "changeFromHigh": -5.56,
-      "distributionDays": 3,
+      "price": 10417.15,
+      "sma50": 10399.04,
+      "sma200": 9991.25,
+      "changeFromHigh": -4.52,
+      "distributionDays": 2,
       "regime": "bull",
-      "signal": "Price above SMA200 — uptrend intact"
+      "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "in": {
       "index": "Nifty 50",
-      "price": 23161.6,
-      "sma50": 23706.13,
-      "sma200": 24934.32,
-      "changeFromHigh": -12.03,
+      "price": 23622.9,
+      "sma50": 23719.3,
+      "sma200": 24920.7,
+      "changeFromHigh": -10.28,
       "distributionDays": 2,
       "regime": "correction",
-      "signal": "Down -12.0% from high — correction territory"
+      "signal": "Down -10.3% from high — correction territory"
     },
     "eu": {
       "index": "DAX 40",
-      "price": 24209.71,
-      "sma50": 24289.48,
-      "sma200": 24179.65,
-      "changeFromHigh": -4.76,
-      "distributionDays": 2,
+      "price": 24585.89,
+      "sma50": 24360.54,
+      "sma200": 24181.5,
+      "changeFromHigh": -3.28,
+      "distributionDays": 4,
       "regime": "bull",
-      "signal": "Price above SMA200 — uptrend intact"
+      "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "asia": {
       "index": "Nikkei 225",
-      "price": 64217.27,
-      "sma50": 60363.24,
-      "sma200": 52677.99,
-      "changeFromHigh": -6.12,
+      "price": 66020.04,
+      "sma50": 60862.81,
+      "sma200": 52899.55,
+      "changeFromHigh": -3.48,
       "distributionDays": 10,
       "regime": "correction",
       "signal": "10 distribution days in 25 sessions — selling pressure"
