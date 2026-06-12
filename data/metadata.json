@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-06-12T11:07:44.822Z",
+  "lastUpdated": "2026-06-12T15:21:55.997Z",
   "stockCount": 863,
-  "bearishAlerts": 314,
+  "bearishAlerts": 309,
   "newsCount": 500,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
-      "price": 7394.3,
-      "sma50": 7230.67,
-      "sma200": 6877.17,
-      "changeFromHigh": -2.83,
-      "distributionDays": 6,
-      "regime": "correction",
-      "signal": "6 distribution days in 25 sessions — selling pressure"
+      "price": 7447.97,
+      "sma50": 7248.12,
+      "sma200": 6882.08,
+      "changeFromHigh": -2.13,
+      "distributionDays": 5,
+      "regime": "bull",
+      "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10417.15,
-      "sma50": 10399.04,
-      "sma200": 9991.25,
-      "changeFromHigh": -4.52,
+      "price": 10460.17,
+      "sma50": 10399.9,
+      "sma200": 9991.46,
+      "changeFromHigh": -4.13,
       "distributionDays": 2,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
@@ -36,10 +36,10 @@
     },
     "eu": {
       "index": "DAX 40",
-      "price": 24585.89,
-      "sma50": 24360.54,
-      "sma200": 24181.5,
-      "changeFromHigh": -3.28,
+      "price": 24590.65,
+      "sma50": 24360.63,
+      "sma200": 24181.52,
+      "changeFromHigh": -3.27,
       "distributionDays": 4,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
@@ -47,12 +47,12 @@
     "asia": {
       "index": "Nikkei 225",
       "price": 66020.04,
-      "sma50": 60862.81,
-      "sma200": 52899.55,
+      "sma50": 60580.12,
+      "sma200": 52782.7,
       "changeFromHigh": -3.48,
-      "distributionDays": 10,
+      "distributionDays": 11,
       "regime": "correction",
-      "signal": "10 distribution days in 25 sessions — selling pressure"
+      "signal": "11 distribution days in 25 sessions — selling pressure"
     },
     "overall": "correction",
     "summary": "Markets showing weakness. Be selective, reduce position sizes, and tighten stops."
