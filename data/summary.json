@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
       "score": 75,
@@ -8,11 +15,11 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 73,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "SMT.L",
@@ -22,25 +29,32 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "score": 71,
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 71,
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "score": 72,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "CROX",
       "name": "Crocs",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "PNC",
+      "name": "PNC Financial",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "HSBA.L",
@@ -55,99 +69,85 @@
       "score": 71,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 70,
-      "market": "JP",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 15,
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 16,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 15,
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 17,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 18,
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "IOT",
       "name": "Samsara",
-      "score": 22,
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 23,
+      "ticker": "MOS",
+      "name": "Mosaic Company",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "PCOR",
       "name": "Procore Technologies",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
+      "ticker": "ZS",
+      "name": "Zscaler",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
-      "score": 24,
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "AXON",
       "name": "Axon Enterprise",
-      "score": 24,
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CHWY",
-      "name": "Chewy",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "MS",
       "name": "Morgan Stanley",
-      "score": 73,
+      "score": 75,
       "market": "US"
     },
     {
@@ -157,8 +157,20 @@
       "market": "UK"
     },
     {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "MRNA",
       "name": "Moderna",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "PNC",
+      "name": "PNC Financial",
       "score": 71,
       "market": "US"
     },
@@ -169,53 +181,41 @@
       "market": "UK"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
       "score": 70,
       "market": "JP"
     },
     {
-      "ticker": "GLE.PA",
-      "name": "Societe Generale",
+      "ticker": "STT",
+      "name": "State Street",
       "score": 69,
-      "market": "FR"
-    },
-    {
-      "ticker": "8766.T",
-      "name": "Tokio Marine",
-      "score": 69,
-      "market": "JP"
-    },
-    {
-      "ticker": "MTB",
-      "name": "M&T Bank",
-      "score": 68,
       "market": "US"
     },
     {
-      "ticker": "BARC.L",
-      "name": "Barclays",
-      "score": 68,
-      "market": "UK"
+      "ticker": "URI",
+      "name": "United Rentals",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "CFG",
+      "name": "Citizens Financial",
+      "score": 69,
+      "market": "US"
     }
   ],
   "topMidCap": [
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 71,
+      "score": 73,
       "market": "US"
     },
     {
       "ticker": "CROX",
       "name": "Crocs",
-      "score": 71,
+      "score": 72,
       "market": "US"
     },
     {
@@ -223,6 +223,24 @@
       "name": "Beazley",
       "score": 71,
       "market": "UK"
+    },
+    {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "LAND.L",
@@ -237,34 +255,16 @@
       "market": "UK"
     },
     {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 67,
+      "score": 68,
       "market": "US"
     },
     {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
+      "ticker": "MTCH",
+      "name": "Match Group",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "MNG.L",
-      "name": "M&G",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
-      "score": 67,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 863,
   "avgScore": 51,
-  "bearishAlertCount": 300
+  "bearishAlertCount": 307
 }
