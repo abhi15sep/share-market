@@ -1,6 +1,20 @@
 {
   "topOverall": [
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "0005.HK",
       "name": "HSBC Holdings",
       "score": 72,
@@ -8,39 +22,25 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
-      "score": 70,
+      "score": 71,
       "market": "JP",
       "capCategory": "Large"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EWBC",
+      "name": "East West Bancorp",
       "score": 69,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "HST",
@@ -50,24 +50,24 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "1398.HK",
-      "name": "ICBC",
+      "ticker": "CROX",
+      "name": "Crocs",
       "score": 69,
-      "market": "HK",
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "HSBA.L",
+      "name": "HSBC",
+      "score": 69,
+      "market": "UK",
       "capCategory": "Large"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 68,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PNC",
-      "name": "PNC Financial",
-      "score": 68,
-      "market": "US",
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 69,
+      "market": "UK",
       "capCategory": "Large"
     }
   ],
@@ -75,7 +75,7 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 13,
+      "score": 12,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -87,23 +87,9 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "IOT",
-      "name": "Samsara",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PCOR",
-      "name": "Procore Technologies",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ZS",
-      "name": "Zscaler",
-      "score": 23,
+      "ticker": "INTU",
+      "name": "Intuit",
+      "score": 20,
       "market": "US",
       "capCategory": "Large"
     },
@@ -115,15 +101,29 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
+      "ticker": "PCOR",
+      "name": "Procore Technologies",
       "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "CHWY",
-      "name": "Chewy",
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ZS",
+      "name": "Zscaler",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
@@ -136,8 +136,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
+      "ticker": "TTD",
+      "name": "Trade Desk",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
@@ -145,22 +145,34 @@
   ],
   "topLargeCap": [
     {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "0005.HK",
       "name": "HSBC Holdings",
       "score": 72,
       "market": "HK"
     },
     {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 71,
+      "market": "JP"
+    },
+    {
       "ticker": "GS",
       "name": "Goldman Sachs",
-      "score": 71,
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 70,
-      "market": "JP"
+      "ticker": "EWBC",
+      "name": "East West Bancorp",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "HST",
@@ -169,109 +181,103 @@
       "market": "US"
     },
     {
+      "ticker": "HSBA.L",
+      "name": "HSBC",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "2802.T",
+      "name": "Ajinomoto",
+      "score": 69,
+      "market": "JP"
+    },
+    {
       "ticker": "1398.HK",
       "name": "ICBC",
       "score": 69,
       "market": "HK"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "PNC",
-      "name": "PNC Financial",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "ALLY",
-      "name": "Ally Financial",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "MTB",
-      "name": "M&T Bank",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "HSBA.L",
-      "name": "HSBC",
-      "score": 68,
-      "market": "UK"
     }
   ],
   "topMidCap": [
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 71,
+      "score": 73,
       "market": "US"
     },
     {
       "ticker": "CROX",
       "name": "Crocs",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
       "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
-      "score": 67,
       "market": "US"
     },
     {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
-      "score": 67,
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "ITRK.L",
+      "name": "Intertek Group",
+      "score": 68,
       "market": "UK"
     },
     {
       "ticker": "BEZ.L",
       "name": "Beazley",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
-      "score": 65,
+      "score": 67,
       "market": "UK"
     },
     {
       "ticker": "IGG.L",
       "name": "IG Group",
-      "score": 65,
+      "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
-      "score": 65,
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "BLND.L",
+      "name": "British Land",
+      "score": 66,
       "market": "UK"
     }
   ],
   "topSmallCap": [
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 68,
+      "market": "FR"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 66,
+      "score": 67,
       "market": "UK"
     },
     {
@@ -281,22 +287,28 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 65,
-      "market": "FR"
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 66,
+      "market": "DE"
     },
     {
       "ticker": "FOUR.L",
       "name": "4imprint",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
       "score": 64,
       "market": "UK"
     },
     {
-      "ticker": "RWE.DE",
-      "name": "RWE",
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
       "score": 64,
-      "market": "DE"
+      "market": "UK"
     },
     {
       "ticker": "RAT.L",
@@ -305,31 +317,19 @@
       "market": "UK"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 63,
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 62,
       "market": "UK"
     },
     {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "SNR.L",
-      "name": "Senior plc",
+      "ticker": "TSTL.L",
+      "name": "Tristel",
       "score": 61,
       "market": "UK"
-    },
-    {
-      "ticker": "CTRA",
-      "name": "Coterra Energy",
-      "score": 60,
-      "market": "US"
     }
   ],
   "totalStocks": 863,
-  "avgScore": 50,
-  "bearishAlertCount": 308
+  "avgScore": 51,
+  "bearishAlertCount": 322
 }
