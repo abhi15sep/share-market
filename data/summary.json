@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "ITRK.L",
+      "name": "Intertek Group",
+      "score": 75,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 74,
@@ -8,17 +15,31 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "0005.HK",
-      "name": "HSBC Holdings",
-      "score": 72,
-      "market": "HK",
+      "ticker": "2802.T",
+      "name": "Ajinomoto",
+      "score": 74,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
       "ticker": "GS",
       "name": "Goldman Sachs",
-      "score": 71,
+      "score": 73,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "0005.HK",
+      "name": "HSBC Holdings",
+      "score": 73,
+      "market": "HK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "8766.T",
+      "name": "Tokio Marine",
+      "score": 72,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
@@ -29,10 +50,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 71,
-      "market": "JP",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 70,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -45,27 +66,6 @@
     {
       "ticker": "STT",
       "name": "State Street",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MET",
-      "name": "MetLife",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SEIC",
-      "name": "SEI Investments",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -94,36 +94,36 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "score": 20,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "INTU",
       "name": "Intuit",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "IOT",
-      "name": "Samsara",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ZS",
-      "name": "Zscaler",
-      "score": 23,
+      "score": 20,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 23,
+      "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "NOW",
-      "name": "ServiceNow",
+      "ticker": "ZS",
+      "name": "Zscaler",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "IOT",
+      "name": "Samsara",
       "score": 23,
       "market": "US",
       "capCategory": "Large"
@@ -136,25 +136,37 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 26,
+      "ticker": "BILL",
+      "name": "Bill Holdings",
+      "score": 24,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "0005.HK",
-      "name": "HSBC Holdings",
-      "score": 72,
-      "market": "HK"
+      "ticker": "2802.T",
+      "name": "Ajinomoto",
+      "score": 74,
+      "market": "JP"
     },
     {
       "ticker": "GS",
       "name": "Goldman Sachs",
-      "score": 71,
+      "score": 73,
       "market": "US"
+    },
+    {
+      "ticker": "0005.HK",
+      "name": "HSBC Holdings",
+      "score": 73,
+      "market": "HK"
+    },
+    {
+      "ticker": "8766.T",
+      "name": "Tokio Marine",
+      "score": 72,
+      "market": "JP"
     },
     {
       "ticker": "MRNA",
@@ -163,10 +175,10 @@
       "market": "US"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 71,
-      "market": "JP"
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 70,
+      "market": "US"
     },
     {
       "ticker": "MS",
@@ -181,31 +193,25 @@
       "market": "US"
     },
     {
-      "ticker": "MET",
-      "name": "MetLife",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "SEIC",
       "name": "SEI Investments",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
+      "ticker": "FCX",
+      "name": "Freeport-McMoRan",
       "score": 69,
       "market": "US"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "ITRK.L",
+      "name": "Intertek Group",
+      "score": 75,
+      "market": "UK"
+    },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
@@ -219,16 +225,10 @@
       "market": "US"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
+      "ticker": "RELY",
+      "name": "Remitly Global",
       "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
-      "score": 68,
-      "market": "UK"
+      "market": "US"
     },
     {
       "ticker": "ZION",
@@ -243,93 +243,93 @@
       "market": "US"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
-      "score": 67,
-      "market": "UK"
-    },
-    {
       "ticker": "ETSY",
       "name": "Etsy",
       "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "WOLF",
+      "name": "Wolfspeed",
+      "score": 65,
       "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 68,
-      "market": "FR"
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 69,
+      "market": "UK"
     },
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 65,
+      "score": 68,
       "market": "UK"
     },
     {
       "ticker": "SUPR.L",
       "name": "Supermarket Income REIT",
-      "score": 64,
+      "score": 66,
       "market": "UK"
     },
     {
       "ticker": "HMSO.L",
       "name": "Hammerson",
-      "score": 64,
+      "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "RAT.L",
-      "name": "Rathbones Group",
-      "score": 63,
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 66,
+      "market": "FR"
+    },
+    {
+      "ticker": "FOUR.L",
+      "name": "4imprint",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 60,
+      "market": "US"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 60,
+      "market": "US"
+    },
+    {
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 60,
       "market": "UK"
     },
     {
       "ticker": "ASHM.L",
       "name": "Ashmore Group",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "TSTL.L",
-      "name": "Tristel",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 61,
+      "score": 60,
       "market": "UK"
     }
   ],
   "totalStocks": 863,
   "avgScore": 51,
-  "bearishAlertCount": 337
+  "bearishAlertCount": 353
 }
