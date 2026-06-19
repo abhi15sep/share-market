@@ -15,8 +15,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SEIC",
-      "name": "SEI Investments",
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor",
       "score": 76,
       "market": "US",
       "capCategory": "Large"
@@ -43,6 +43,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "SEIC",
+      "name": "SEI Investments",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 75,
@@ -54,13 +61,6 @@
       "name": "Allianz",
       "score": 75,
       "market": "DE",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GL",
-      "name": "Globe Life",
-      "score": 74,
-      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -80,18 +80,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 20,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "NOW",
       "name": "ServiceNow",
       "score": 20,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "IOT",
@@ -103,13 +103,6 @@
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
       "score": 23,
       "market": "US",
       "capCategory": "Large"
@@ -136,11 +129,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OPEN",
-      "name": "Opendoor Technologies",
+      "ticker": "SHOP",
+      "name": "Shopify",
       "score": 26,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -151,8 +151,8 @@
       "market": "US"
     },
     {
-      "ticker": "SEIC",
-      "name": "SEI Investments",
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor",
       "score": 76,
       "market": "US"
     },
@@ -169,16 +169,16 @@
       "market": "US"
     },
     {
+      "ticker": "SEIC",
+      "name": "SEI Investments",
+      "score": 75,
+      "market": "US"
+    },
+    {
       "ticker": "ALV.DE",
       "name": "Allianz",
       "score": 75,
       "market": "DE"
-    },
-    {
-      "ticker": "GL",
-      "name": "Globe Life",
-      "score": 74,
-      "market": "US"
     },
     {
       "ticker": "RVMD",
@@ -219,16 +219,16 @@
       "market": "UK"
     },
     {
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
+      "score": 73,
+      "market": "US"
+    },
+    {
       "ticker": "INVP.L",
       "name": "Investec",
       "score": 73,
       "market": "UK"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 72,
-      "market": "US"
     },
     {
       "ticker": "MNG.L",
@@ -243,8 +243,8 @@
       "market": "UK"
     },
     {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 70,
       "market": "US"
     },
@@ -261,8 +261,8 @@
       "market": "UK"
     },
     {
-      "ticker": "OZK",
-      "name": "Bank OZK",
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 69,
       "market": "US"
     }
@@ -305,6 +305,12 @@
       "market": "UK"
     },
     {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 67,
+      "market": "DE"
+    },
+    {
       "ticker": "SNR.L",
       "name": "Senior plc",
       "score": 66,
@@ -321,15 +327,9 @@
       "name": "Domino's Pizza Group",
       "score": 64,
       "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 64,
-      "market": "UK"
     }
   ],
   "totalStocks": 863,
   "avgScore": 54,
-  "bearishAlertCount": 357
+  "bearishAlertCount": 347
 }
