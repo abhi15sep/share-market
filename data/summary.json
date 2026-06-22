@@ -1,207 +1,207 @@
 {
   "topOverall": [
     {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
-      "score": 77,
-      "market": "US",
+      "ticker": "IAG.L",
+      "name": "IAG",
+      "score": 79,
+      "market": "UK",
       "capCategory": "Large"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SEIC",
-      "name": "SEI Investments",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 75,
-      "market": "US",
+      "ticker": "STAN.L",
+      "name": "Standard Chartered",
+      "score": 74,
+      "market": "UK",
       "capCategory": "Large"
     },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 74,
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "SDR.L",
+      "name": "Schroders",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "MARA",
+      "name": "Marathon Digital",
+      "score": 72,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 73,
+      "ticker": "LLOY.L",
+      "name": "Lloyds Banking",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ITRK.L",
+      "name": "Intertek Group",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GEV",
-      "name": "GE Vernova",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
-      "score": 73,
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 71,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "BARC.L",
+      "name": "Barclays",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 14,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "IOT",
-      "name": "Samsara",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NOW",
-      "name": "ServiceNow",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PCOR",
-      "name": "Procore Technologies",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "GWRE",
       "name": "Guidewire Software",
-      "score": 25,
+      "score": 15,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 15,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 25,
+      "score": 18,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 25,
+      "ticker": "AXON",
+      "name": "Axon Enterprise",
+      "score": 21,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "WDAY",
+      "name": "Workday",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BILL",
+      "name": "Bill Holdings",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "IOT",
+      "name": "Samsara",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify",
-      "score": 27,
+      "ticker": "RPD",
+      "name": "Rapid7",
+      "score": 26,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
-      "score": 77,
-      "market": "US"
+      "ticker": "IAG.L",
+      "name": "IAG",
+      "score": 79,
+      "market": "UK"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 75,
-      "market": "US"
+      "ticker": "STAN.L",
+      "name": "Standard Chartered",
+      "score": 74,
+      "market": "UK"
     },
     {
-      "ticker": "SEIC",
-      "name": "SEI Investments",
-      "score": 75,
-      "market": "US"
+      "ticker": "LLOY.L",
+      "name": "Lloyds Banking",
+      "score": 72,
+      "market": "UK"
     },
     {
       "ticker": "RVMD",
       "name": "Revolution Medicines",
-      "score": 75,
+      "score": 71,
       "market": "US"
+    },
+    {
+      "ticker": "BARC.L",
+      "name": "Barclays",
+      "score": 71,
+      "market": "UK"
+    },
+    {
+      "ticker": "RR.L",
+      "name": "Rolls-Royce",
+      "score": 71,
+      "market": "UK"
     },
     {
       "ticker": "QCOM",
       "name": "Qualcomm",
-      "score": 73,
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "score": 73,
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "GEV",
       "name": "GE Vernova",
-      "score": 73,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 72,
+      "score": 70,
       "market": "US"
     }
   ],
@@ -209,65 +209,71 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
       "score": 73,
       "market": "US"
     },
     {
+      "ticker": "SDR.L",
+      "name": "Schroders",
+      "score": 73,
+      "market": "UK"
+    },
+    {
+      "ticker": "MARA",
+      "name": "Marathon Digital",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "ITRK.L",
+      "name": "Intertek Group",
+      "score": 72,
+      "market": "UK"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 70,
+      "market": "UK"
+    },
+    {
       "ticker": "ZION",
       "name": "Zions Bancorporation",
-      "score": 71,
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
+      "score": 68,
       "market": "US"
     },
     {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "PENN",
-      "name": "Penn Entertainment",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
       "score": 67,
       "market": "US"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 70,
+      "market": "UK"
+    },
     {
       "ticker": "ML.PA",
       "name": "Michelin",
@@ -281,40 +287,34 @@
       "market": "UK"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 64,
-      "market": "UK"
-    },
-    {
       "ticker": "SUPR.L",
       "name": "Supermarket Income REIT",
-      "score": 63,
+      "score": 66,
       "market": "UK"
     },
     {
       "ticker": "SNR.L",
       "name": "Senior plc",
-      "score": 62,
+      "score": 64,
       "market": "UK"
     },
     {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 60,
-      "market": "US"
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 61,
+      "market": "UK"
     },
     {
       "ticker": "CTRA",
@@ -323,13 +323,13 @@
       "market": "US"
     },
     {
-      "ticker": "BK",
-      "name": "Bank of New York Mellon",
-      "score": 59,
-      "market": "US"
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 60,
+      "market": "UK"
     }
   ],
   "totalStocks": 862,
-  "avgScore": 52,
-  "bearishAlertCount": 338
+  "avgScore": 51,
+  "bearishAlertCount": 343
 }
