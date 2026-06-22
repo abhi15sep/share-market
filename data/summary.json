@@ -8,6 +8,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "MARA",
       "name": "Marathon Digital",
       "score": 74,
@@ -29,11 +36,25 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "SDR.L",
       "name": "Schroders",
       "score": 73,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "STT",
@@ -43,31 +64,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "LLOY.L",
       "name": "Lloyds Banking",
       "score": 72,
       "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 71,
-      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -89,7 +89,7 @@
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 20,
+      "score": 18,
       "market": "US",
       "capCategory": "Large"
     },
@@ -97,13 +97,6 @@
       "ticker": "AXON",
       "name": "Axon Enterprise",
       "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
-      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
@@ -124,6 +117,13 @@
     {
       "ticker": "WDAY",
       "name": "Workday",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
@@ -151,20 +151,32 @@
       "market": "UK"
     },
     {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor",
+      "score": 75,
+      "market": "US"
+    },
+    {
       "ticker": "STAN.L",
       "name": "Standard Chartered",
       "score": 74,
       "market": "UK"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
+      "ticker": "STT",
+      "name": "State Street",
       "score": 72,
       "market": "US"
     },
@@ -175,8 +187,14 @@
       "market": "UK"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar",
       "score": 71,
       "market": "US"
     },
@@ -185,24 +203,6 @@
       "name": "GE Vernova",
       "score": 71,
       "market": "US"
-    },
-    {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "BARC.L",
-      "name": "Barclays",
-      "score": 71,
-      "market": "UK"
     }
   ],
   "topMidCap": [
@@ -275,16 +275,16 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 69,
-      "market": "FR"
-    },
-    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
       "score": 68,
       "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 67,
+      "market": "FR"
     },
     {
       "ticker": "SUPR.L",
@@ -317,19 +317,19 @@
       "market": "UK"
     },
     {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 61,
+      "market": "DE"
+    },
+    {
       "ticker": "CTRA",
       "name": "Coterra Energy",
       "score": 60,
       "market": "US"
-    },
-    {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 60,
-      "market": "UK"
     }
   ],
   "totalStocks": 862,
   "avgScore": 51,
-  "bearishAlertCount": 340
+  "bearishAlertCount": 341
 }
