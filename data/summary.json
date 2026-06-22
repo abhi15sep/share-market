@@ -8,18 +8,25 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "MARA",
+      "name": "Marathon Digital",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "STAN.L",
       "name": "Standard Chartered",
       "score": 74,
       "market": "UK",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "SDR.L",
@@ -29,11 +36,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "MARA",
-      "name": "Marathon Digital",
+      "ticker": "STT",
+      "name": "State Street",
       "score": 72,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "LLOY.L",
@@ -50,24 +64,10 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
+      "ticker": "GS",
+      "name": "Goldman Sachs",
       "score": 71,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BARC.L",
-      "name": "Barclays",
-      "score": 71,
-      "market": "UK",
       "capCategory": "Large"
     }
   ],
@@ -75,70 +75,70 @@
     {
       "ticker": "GWRE",
       "name": "Guidewire Software",
-      "score": 15,
+      "score": 17,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 15,
+      "score": 17,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 18,
+      "score": 20,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "AXON",
       "name": "Axon Enterprise",
-      "score": 21,
+      "score": 22,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "NOW",
       "name": "ServiceNow",
-      "score": 23,
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "WDAY",
       "name": "Workday",
-      "score": 24,
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "IOT",
+      "name": "Samsara",
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "BILL",
       "name": "Bill Holdings",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "IOT",
-      "name": "Samsara",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RPD",
-      "name": "Rapid7",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Mid"
     }
@@ -157,14 +157,44 @@
       "market": "UK"
     },
     {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "LLOY.L",
       "name": "Lloyds Banking",
       "score": 72,
       "market": "UK"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
       "score": 71,
       "market": "US"
     },
@@ -173,43 +203,19 @@
       "name": "Barclays",
       "score": 71,
       "market": "UK"
-    },
-    {
-      "ticker": "RR.L",
-      "name": "Rolls-Royce",
-      "score": 71,
-      "market": "UK"
-    },
-    {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "GEV",
-      "name": "GE Vernova",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor",
-      "score": 70,
-      "market": "US"
     }
   ],
   "topMidCap": [
     {
+      "ticker": "MARA",
+      "name": "Marathon Digital",
+      "score": 74,
+      "market": "US"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 73,
+      "score": 74,
       "market": "US"
     },
     {
@@ -219,20 +225,14 @@
       "market": "UK"
     },
     {
-      "ticker": "MARA",
-      "name": "Marathon Digital",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "ITRK.L",
       "name": "Intertek Group",
       "score": 72,
       "market": "UK"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 71,
       "market": "US"
     },
@@ -243,8 +243,8 @@
       "market": "UK"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
       "score": 69,
       "market": "US"
     },
@@ -255,16 +255,16 @@
       "market": "UK"
     },
     {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
-      "score": 68,
-      "market": "US"
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 67,
+      "market": "UK"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
+      "ticker": "PLUS.L",
+      "name": "Plus500",
       "score": 67,
-      "market": "US"
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 862,
   "avgScore": 51,
-  "bearishAlertCount": 343
+  "bearishAlertCount": 340
 }
