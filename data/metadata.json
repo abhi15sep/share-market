@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-06-23T13:51:02.325Z",
-  "stockCount": 861,
-  "bearishAlerts": 341,
-  "newsCount": 615,
+  "lastUpdated": "2026-06-23T16:34:33.568Z",
+  "stockCount": 862,
+  "bearishAlerts": 334,
+  "newsCount": 450,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
-      "price": 7390.31,
-      "sma50": 7340.06,
-      "sma200": 6912.19,
-      "changeFromHigh": -2.88,
+      "price": 7399.27,
+      "sma50": 7340.24,
+      "sma200": 6912.24,
+      "changeFromHigh": -2.77,
       "distributionDays": 5,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10420.01,
-      "sma50": 10398.43,
-      "sma200": 10035.19,
-      "changeFromHigh": -4.5,
+      "price": 10428.85,
+      "sma50": 10398.61,
+      "sma200": 10035.24,
+      "changeFromHigh": -4.42,
       "distributionDays": 3,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
@@ -36,10 +36,10 @@
     },
     "eu": {
       "index": "DAX 40",
-      "price": 24901.37,
-      "sma50": 24560.93,
-      "sma200": 24221.32,
-      "changeFromHigh": -2.04,
+      "price": 24893.58,
+      "sma50": 24560.77,
+      "sma200": 24221.28,
+      "changeFromHigh": -2.07,
       "distributionDays": 2,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
@@ -47,12 +47,12 @@
     "asia": {
       "index": "Nikkei 225",
       "price": 69788.38,
-      "sma50": 63253.37,
-      "sma200": 53857.01,
+      "sma50": 62983.77,
+      "sma200": 53722.11,
       "changeFromHigh": -3.55,
-      "distributionDays": 5,
-      "regime": "bull",
-      "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
+      "distributionDays": 6,
+      "regime": "correction",
+      "signal": "6 distribution days in 25 sessions — selling pressure"
     },
     "overall": "correction",
     "summary": "Markets showing weakness. Be selective, reduce position sizes, and tighten stops."
