@@ -8,6 +8,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "STAN.L",
       "name": "Standard Chartered",
       "score": 72,
@@ -22,30 +29,9 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 71,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MARA",
       "name": "Marathon Digital",
-      "score": 70,
+      "score": 71,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -57,8 +43,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RIOT",
-      "name": "Riot Platforms",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -69,34 +55,48 @@
       "score": 70,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "HSBA.L",
+      "name": "HSBC",
+      "score": 70,
+      "market": "UK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "DPLM.L",
+      "name": "Diploma",
+      "score": 70,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 15,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 18,
+      "score": 17,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 18,
+      "score": 17,
       "market": "US",
       "capCategory": "Large"
     },
     {
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 20,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "DKNG",
       "name": "DraftKings",
-      "score": 23,
+      "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
@@ -115,6 +115,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "DJT",
+      "name": "Trump Media",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "AXON",
       "name": "Axon Enterprise",
       "score": 26,
@@ -122,51 +129,32 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "NOW",
-      "name": "ServiceNow",
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "INTU",
-      "name": "Intuit",
+      "ticker": "TTD",
+      "name": "Trade Desk",
       "score": 26,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NKE",
-      "name": "Nike",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 72,
+      "market": "US"
+    },
     {
       "ticker": "STAN.L",
       "name": "Standard Chartered",
       "score": 72,
       "market": "UK"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 71,
-      "market": "JP"
     },
     {
       "ticker": "DAL",
@@ -175,8 +163,8 @@
       "market": "US"
     },
     {
-      "ticker": "RIOT",
-      "name": "Riot Platforms",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 70,
       "market": "US"
     },
@@ -187,22 +175,34 @@
       "market": "UK"
     },
     {
-      "ticker": "SPG",
-      "name": "Simon Property Group",
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 70,
+      "market": "JP"
+    },
+    {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 70,
+      "market": "JP"
+    },
+    {
+      "ticker": "0005.HK",
+      "name": "HSBC Holdings",
+      "score": 70,
+      "market": "HK"
+    },
+    {
+      "ticker": "PNC",
+      "name": "PNC Financial",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 68,
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 69,
       "market": "US"
-    },
-    {
-      "ticker": "LLOY.L",
-      "name": "Lloyds Banking",
-      "score": 68,
-      "market": "UK"
     }
   ],
   "topMidCap": [
@@ -221,7 +221,7 @@
     {
       "ticker": "MARA",
       "name": "Marathon Digital",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
@@ -231,10 +231,10 @@
       "market": "US"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 69,
-      "market": "US"
+      "ticker": "DPLM.L",
+      "name": "Diploma",
+      "score": 70,
+      "market": "UK"
     },
     {
       "ticker": "SDR.L",
@@ -243,10 +243,16 @@
       "market": "UK"
     },
     {
-      "ticker": "DPLM.L",
-      "name": "Diploma",
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
       "score": 68,
-      "market": "UK"
+      "market": "US"
+    },
+    {
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
+      "score": 67,
+      "market": "US"
     },
     {
       "ticker": "LAND.L",
@@ -257,12 +263,6 @@
     {
       "ticker": "AJB.L",
       "name": "AJ Bell",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
       "score": 66,
       "market": "UK"
     }
@@ -313,7 +313,7 @@
     {
       "ticker": "TSTL.L",
       "name": "Tristel",
-      "score": 61,
+      "score": 62,
       "market": "UK"
     },
     {
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 862,
-  "avgScore": 50,
-  "bearishAlertCount": 334
+  "avgScore": 51,
+  "bearishAlertCount": 341
 }
