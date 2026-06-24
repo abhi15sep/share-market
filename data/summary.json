@@ -17,7 +17,7 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 73,
+      "score": 72,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -34,6 +34,13 @@
       "score": 72,
       "market": "FR",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "NXT.L",
@@ -57,31 +64,24 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MS",
       "name": "Morgan Stanley",
-      "score": 69,
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
+      "ticker": "PLTR",
+      "name": "Palantir",
       "score": 18,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
+      "ticker": "HUBS",
+      "name": "HubSpot",
       "score": 19,
       "market": "US",
       "capCategory": "Mid"
@@ -94,9 +94,23 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
       "score": 20,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "IOT",
+      "name": "Samsara",
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
@@ -110,35 +124,21 @@
     {
       "ticker": "DJT",
       "name": "Trump Media",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "IOT",
-      "name": "Samsara",
+      "ticker": "ZS",
+      "name": "Zscaler",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CHWY",
-      "name": "Chewy",
-      "score": 27,
+      "ticker": "TTD",
+      "name": "Trade Desk",
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     }
@@ -157,70 +157,76 @@
       "market": "UK"
     },
     {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "NXT.L",
       "name": "Next",
       "score": 71,
       "market": "UK"
     },
     {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "MS",
       "name": "Morgan Stanley",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "CAT",
       "name": "Caterpillar",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "STT",
       "name": "State Street",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "DRREDDY.NS",
       "name": "Dr. Reddy's Labs",
-      "score": 69,
+      "score": 70,
       "market": "IN"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
+      "ticker": "SPG",
+      "name": "Simon Property Group",
       "score": 69,
-      "market": "JP"
+      "market": "US"
+    },
+    {
+      "ticker": "BARC.L",
+      "name": "Barclays",
+      "score": 69,
+      "market": "UK"
     }
   ],
   "topMidCap": [
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 73,
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
-      "score": 69,
-      "market": "US"
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
+      "score": 70,
+      "market": "UK"
     },
     {
       "ticker": "ETSY",
       "name": "Etsy",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
       "score": 68,
       "market": "US"
     },
@@ -247,12 +253,6 @@
       "name": "Balfour Beatty",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 66,
-      "market": "US"
     },
     {
       "ticker": "BLND.L",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 862,
   "avgScore": 51,
-  "bearishAlertCount": 311
+  "bearishAlertCount": 316
 }
