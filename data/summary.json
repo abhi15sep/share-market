@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "SGRO.L",
+      "name": "Segro",
+      "score": 74,
+      "market": "UK",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 73,
@@ -22,6 +29,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "SPG",
+      "name": "Simon Property Group",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ZION",
       "name": "Zions Bancorporation",
       "score": 72,
@@ -29,11 +43,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SGRO.L",
-      "name": "Segro",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
       "score": 72,
       "market": "UK",
-      "capCategory": "Large"
+      "capCategory": "Small"
     },
     {
       "ticker": "PNC",
@@ -46,20 +60,6 @@
       "ticker": "DAL",
       "name": "Delta Air Lines",
       "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "USB",
-      "name": "U.S. Bancorp",
-      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
@@ -94,13 +94,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "DKNG",
       "name": "DraftKings",
       "score": 25,
@@ -108,24 +101,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SOUN",
-      "name": "SoundHound AI",
+      "ticker": "LCID",
+      "name": "Lucid Group",
       "score": 25,
       "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 26,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
-      "score": 27,
-      "market": "UK",
       "capCategory": "Mid"
     },
     {
@@ -141,9 +120,36 @@
       "score": 27,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "SMWH.L",
+      "name": "WH Smith",
+      "score": 28,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "ZS",
+      "name": "Zscaler",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TTD",
+      "name": "Trade Desk",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "SGRO.L",
+      "name": "Segro",
+      "score": 74,
+      "market": "UK"
+    },
     {
       "ticker": "RVMD",
       "name": "Revolution Medicines",
@@ -151,16 +157,16 @@
       "market": "US"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
+      "ticker": "SPG",
+      "name": "Simon Property Group",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "SGRO.L",
-      "name": "Segro",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 72,
-      "market": "UK"
+      "market": "US"
     },
     {
       "ticker": "PNC",
@@ -172,12 +178,6 @@
       "ticker": "DAL",
       "name": "Delta Air Lines",
       "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "USB",
-      "name": "U.S. Bancorp",
-      "score": 70,
       "market": "US"
     },
     {
@@ -221,7 +221,7 @@
     {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 71,
+      "score": 70,
       "market": "US"
     },
     {
@@ -251,32 +251,38 @@
     {
       "ticker": "BEZ.L",
       "name": "Beazley",
-      "score": 66,
+      "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 66,
+      "market": "US"
     },
     {
       "ticker": "MTCH",
       "name": "Match Group",
       "score": 65,
       "market": "US"
-    },
-    {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 65,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
     {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 72,
+      "market": "UK"
+    },
+    {
       "ticker": "ML.PA",
       "name": "Michelin",
-      "score": 67,
+      "score": 69,
       "market": "FR"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
+      "ticker": "CURY.L",
+      "name": "Currys",
       "score": 66,
       "market": "UK"
     },
@@ -289,7 +295,7 @@
     {
       "ticker": "SUPR.L",
       "name": "Supermarket Income REIT",
-      "score": 64,
+      "score": 65,
       "market": "UK"
     },
     {
@@ -299,26 +305,14 @@
       "market": "US"
     },
     {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 63,
-      "market": "UK"
-    },
-    {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
       "score": 62,
       "market": "UK"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "TSTL.L",
-      "name": "Tristel",
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
       "score": 61,
       "market": "UK"
     },
@@ -327,9 +321,15 @@
       "name": "Senior plc",
       "score": 61,
       "market": "UK"
+    },
+    {
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 60,
+      "market": "US"
     }
   ],
   "totalStocks": 862,
   "avgScore": 51,
-  "bearishAlertCount": 338
+  "bearishAlertCount": 334
 }
