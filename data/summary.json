@@ -36,18 +36,18 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "SPG",
+      "name": "Simon Property Group",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "CPG.L",
       "name": "Compass Group",
       "score": 72,
       "market": "UK",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 72,
-      "market": "FR",
-      "capCategory": "Small"
     },
     {
       "ticker": "UAL",
@@ -57,34 +57,34 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "NXT.L",
-      "name": "Next",
+      "ticker": "IRM",
+      "name": "Iron Mountain",
       "score": 71,
-      "market": "UK",
+      "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
+      "ticker": "RELY",
+      "name": "Remitly Global",
       "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 19,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 20,
+      "score": 19,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 20,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "GWRE",
@@ -96,6 +96,20 @@
     {
       "ticker": "COIN",
       "name": "Coinbase",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "WHR",
+      "name": "Whirlpool",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
@@ -122,22 +136,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "NOW",
       "name": "ServiceNow",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
@@ -163,6 +163,12 @@
       "market": "US"
     },
     {
+      "ticker": "SPG",
+      "name": "Simon Property Group",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "CPG.L",
       "name": "Compass Group",
       "score": 72,
@@ -175,26 +181,20 @@
       "market": "US"
     },
     {
+      "ticker": "IRM",
+      "name": "Iron Mountain",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "NXT.L",
       "name": "Next",
       "score": 71,
       "market": "UK"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "ALL",
       "name": "Allstate",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "SPG",
-      "name": "Simon Property Group",
       "score": 70,
       "market": "US"
     },
@@ -210,6 +210,12 @@
       "ticker": "ETSY",
       "name": "Etsy",
       "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 71,
       "market": "US"
     },
     {
@@ -237,6 +243,12 @@
       "market": "US"
     },
     {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "SDR.L",
       "name": "Schroders",
       "score": 68,
@@ -249,20 +261,8 @@
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "LAND.L",
       "name": "Land Securities",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
       "score": 67,
       "market": "UK"
     }
@@ -273,12 +273,6 @@
       "name": "Watches of Switzerland",
       "score": 76,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 72,
-      "market": "FR"
     },
     {
       "ticker": "CURY.L",
@@ -293,10 +287,22 @@
       "market": "UK"
     },
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 71,
+      "market": "FR"
+    },
+    {
       "ticker": "SUPR.L",
       "name": "Supermarket Income REIT",
       "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 67,
+      "market": "DE"
     },
     {
       "ticker": "HMSO.L",
@@ -321,15 +327,9 @@
       "name": "Tristel",
       "score": 62,
       "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 61,
-      "market": "UK"
     }
   ],
   "totalStocks": 862,
   "avgScore": 52,
-  "bearishAlertCount": 317
+  "bearishAlertCount": 315
 }
