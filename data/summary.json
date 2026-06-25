@@ -5,7 +5,7 @@
       "name": "RWE",
       "score": 74,
       "market": "DE",
-      "capCategory": "Large"
+      "capCategory": "Small"
     },
     {
       "ticker": "ML.PA",
@@ -13,6 +13,13 @@
       "score": 74,
       "market": "FR",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "SFOR.L",
@@ -29,46 +36,39 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "CPG.L",
-      "name": "Compass Group",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "CAT",
       "name": "Caterpillar",
-      "score": 70,
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 69,
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 69,
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
@@ -82,37 +82,16 @@
     {
       "ticker": "GWRE",
       "name": "Guidewire Software",
-      "score": 17,
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
       "score": 22,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "IOT",
-      "name": "Samsara",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DJT",
-      "name": "Trump Media",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Small"
     },
     {
       "ticker": "CELH",
@@ -122,33 +101,54 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "NOW",
-      "name": "ServiceNow",
-      "score": 25,
+      "ticker": "IOT",
+      "name": "Samsara",
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "DJT",
+      "name": "Trump Media",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "DKNG",
       "name": "DraftKings",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "WDAY",
-      "name": "Workday",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 74,
-      "market": "DE"
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 73,
+      "market": "US"
     },
     {
       "ticker": "MRK.DE",
@@ -157,9 +157,27 @@
       "market": "DE"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
       "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 71,
       "market": "US"
     },
     {
@@ -169,54 +187,42 @@
       "market": "UK"
     },
     {
-      "ticker": "CAT",
-      "name": "Caterpillar",
+      "ticker": "LRCX",
+      "name": "Lam Research",
       "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 69,
       "market": "US"
     },
     {
       "ticker": "DAL",
       "name": "Delta Air Lines",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 69,
+      "ticker": "RF",
+      "name": "Regions Financial",
+      "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "HSBA.L",
-      "name": "HSBC",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "IAG.L",
-      "name": "IAG",
-      "score": 69,
-      "market": "UK"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 70,
+      "market": "US"
+    },
     {
       "ticker": "BBY.L",
       "name": "Balfour Beatty",
       "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 68,
-      "market": "US"
     },
     {
       "ticker": "OGN",
@@ -225,8 +231,8 @@
       "market": "US"
     },
     {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
+      "ticker": "VRNS",
+      "name": "Varonis Systems",
       "score": 68,
       "market": "US"
     },
@@ -249,25 +255,25 @@
       "market": "UK"
     },
     {
-      "ticker": "LC",
-      "name": "LendingClub",
+      "ticker": "MARA",
+      "name": "Marathon Digital",
       "score": 66,
       "market": "US"
     },
     {
-      "ticker": "UU.L",
-      "name": "United Utilities",
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
       "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 66,
-      "market": "UK"
+      "market": "US"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 74,
+      "market": "DE"
+    },
     {
       "ticker": "ML.PA",
       "name": "Michelin",
@@ -321,15 +327,9 @@
       "name": "Greggs",
       "score": 62,
       "market": "UK"
-    },
-    {
-      "ticker": "TSTL.L",
-      "name": "Tristel",
-      "score": 62,
-      "market": "UK"
     }
   ],
   "totalStocks": 862,
-  "avgScore": 51,
-  "bearishAlertCount": 321
+  "avgScore": 52,
+  "bearishAlertCount": 319
 }
