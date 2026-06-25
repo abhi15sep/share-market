@@ -31,7 +31,7 @@
     {
       "ticker": "MU",
       "name": "Micron",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
@@ -50,23 +50,23 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
+      "ticker": "CAT",
+      "name": "Caterpillar",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 70,
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "score": 69,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "SPG",
-      "name": "Simon Property Group",
-      "score": 70,
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "score": 69,
       "market": "US",
       "capCategory": "Large"
     }
@@ -75,14 +75,14 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 13,
+      "score": 14,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "GWRE",
       "name": "Guidewire Software",
-      "score": 16,
+      "score": 17,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -94,53 +94,53 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "INTU",
+      "name": "Intuit",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "IOT",
       "name": "Samsara",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "DJT",
       "name": "Trump Media",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Small"
     },
     {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 24,
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "NOW",
       "name": "ServiceNow",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "DKNG",
       "name": "DraftKings",
-      "score": 25,
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "MOS",
-      "name": "Mosaic Company",
+      "ticker": "WDAY",
+      "name": "Workday",
       "score": 26,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -159,7 +159,7 @@
     {
       "ticker": "MU",
       "name": "Micron",
-      "score": 71,
+      "score": 72,
       "market": "US"
     },
     {
@@ -169,49 +169,43 @@
       "market": "UK"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
+      "ticker": "CAT",
+      "name": "Caterpillar",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "SPG",
-      "name": "Simon Property Group",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
       "score": 69,
       "market": "US"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "HSBA.L",
+      "name": "HSBC",
+      "score": 69,
+      "market": "UK"
     },
     {
       "ticker": "IAG.L",
       "name": "IAG",
       "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "ALV.DE",
-      "name": "Allianz",
-      "score": 69,
-      "market": "DE"
     }
   ],
   "topMidCap": [
-    {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
-      "score": 69,
-      "market": "US"
-    },
     {
       "ticker": "BBY.L",
       "name": "Balfour Beatty",
@@ -219,8 +213,20 @@
       "market": "UK"
     },
     {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
       "score": 68,
       "market": "US"
     },
@@ -231,10 +237,10 @@
       "market": "UK"
     },
     {
-      "ticker": "OZK",
-      "name": "Bank OZK",
+      "ticker": "BLND.L",
+      "name": "British Land",
       "score": 67,
-      "market": "US"
+      "market": "UK"
     },
     {
       "ticker": "INVP.L",
@@ -257,12 +263,6 @@
     {
       "ticker": "BNZL.L",
       "name": "Bunzl",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
       "score": 66,
       "market": "UK"
     }
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 862,
   "avgScore": 51,
-  "bearishAlertCount": 319
+  "bearishAlertCount": 321
 }
