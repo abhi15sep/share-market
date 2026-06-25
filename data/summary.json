@@ -1,20 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 76,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "SGRO.L",
-      "name": "Segro",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "TGT",
       "name": "Target",
       "score": 73,
@@ -43,13 +29,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CPG.L",
-      "name": "Compass Group",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "UAL",
       "name": "United Airlines",
       "score": 71,
@@ -57,16 +36,37 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "IRM",
-      "name": "Iron Mountain",
+      "ticker": "ML.PA",
+      "name": "Michelin",
       "score": 71,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 71,
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
+      "score": 70,
       "market": "US",
       "capCategory": "Mid"
     }
@@ -75,7 +75,7 @@
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 19,
+      "score": 18,
       "market": "US",
       "capCategory": "Large"
     },
@@ -101,20 +101,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "WHR",
-      "name": "Whirlpool",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MOS",
       "name": "Mosaic Company",
       "score": 25,
@@ -129,11 +115,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZS",
-      "name": "Zscaler",
+      "ticker": "TTD",
+      "name": "Trade Desk",
       "score": 25,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "NOW",
@@ -141,15 +134,16 @@
       "score": 25,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
-    {
-      "ticker": "SGRO.L",
-      "name": "Segro",
-      "score": 74,
-      "market": "UK"
-    },
     {
       "ticker": "TGT",
       "name": "Target",
@@ -169,28 +163,16 @@
       "market": "US"
     },
     {
-      "ticker": "CPG.L",
-      "name": "Compass Group",
-      "score": 72,
-      "market": "UK"
-    },
-    {
       "ticker": "UAL",
       "name": "United Airlines",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "IRM",
-      "name": "Iron Mountain",
-      "score": 71,
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "NXT.L",
-      "name": "Next",
-      "score": 71,
-      "market": "UK"
     },
     {
       "ticker": "ALL",
@@ -199,10 +181,28 @@
       "market": "US"
     },
     {
-      "ticker": "DRREDDY.NS",
-      "name": "Dr. Reddy's Labs",
-      "score": 70,
-      "market": "IN"
+      "ticker": "PNC",
+      "name": "PNC Financial",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "FITB",
+      "name": "Fifth Third Bancorp",
+      "score": 69,
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -210,12 +210,6 @@
       "ticker": "ETSY",
       "name": "Etsy",
       "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 71,
       "market": "US"
     },
     {
@@ -231,16 +225,16 @@
       "market": "US"
     },
     {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 70,
-      "market": "UK"
-    },
-    {
       "ticker": "FNB",
       "name": "F.N.B. Corp",
       "score": 69,
       "market": "US"
+    },
+    {
+      "ticker": "BLND.L",
+      "name": "British Land",
+      "score": 69,
+      "market": "UK"
     },
     {
       "ticker": "CROX",
@@ -255,37 +249,25 @@
       "market": "UK"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 68,
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "LAND.L",
-      "name": "Land Securities",
-      "score": 67,
-      "market": "UK"
+      "ticker": "MARA",
+      "name": "Marathon Digital",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "VRNS",
+      "name": "Varonis Systems",
+      "score": 66,
+      "market": "US"
     }
   ],
   "topSmallCap": [
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 76,
-      "market": "UK"
-    },
-    {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 71,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 71,
-      "market": "UK"
-    },
     {
       "ticker": "ML.PA",
       "name": "Michelin",
@@ -293,20 +275,20 @@
       "market": "FR"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 67,
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 70,
       "market": "UK"
     },
     {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 67,
-      "market": "DE"
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 69,
+      "market": "UK"
     },
     {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
+      "ticker": "CURY.L",
+      "name": "Currys",
       "score": 65,
       "market": "UK"
     },
@@ -317,19 +299,37 @@
       "market": "US"
     },
     {
-      "ticker": "GRG.L",
-      "name": "Greggs",
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
       "score": 63,
       "market": "UK"
     },
     {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 63,
+      "market": "DE"
+    },
+    {
       "ticker": "TSTL.L",
       "name": "Tristel",
-      "score": 62,
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 60,
+      "market": "US"
+    },
+    {
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 60,
       "market": "UK"
     }
   ],
   "totalStocks": 862,
-  "avgScore": 52,
-  "bearishAlertCount": 315
+  "avgScore": 51,
+  "bearishAlertCount": 311
 }
