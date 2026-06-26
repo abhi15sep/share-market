@@ -10,7 +10,7 @@
     {
       "ticker": "CPG.L",
       "name": "Compass Group",
-      "score": 72,
+      "score": 73,
       "market": "UK",
       "capCategory": "Large"
     },
@@ -22,16 +22,23 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 70,
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 69,
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
@@ -43,25 +50,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TGT",
-      "name": "Target",
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
       "score": 69,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "BLND.L",
@@ -69,50 +62,50 @@
       "score": 69,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 69,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 18,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 16,
+      "score": 19,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 17,
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 18,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 24,
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "PCOR",
       "name": "Procore Technologies",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
       "score": 26,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "IOT",
@@ -122,44 +115,57 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "NOW",
-      "name": "ServiceNow",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BRZE",
-      "name": "Braze",
+      "ticker": "WDAY",
+      "name": "Workday",
       "score": 28,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SMWH.L",
+      "name": "WH Smith",
+      "score": 29,
+      "market": "UK",
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "CPG.L",
       "name": "Compass Group",
-      "score": 72,
+      "score": 73,
       "market": "UK"
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "MU",
       "name": "Micron",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 69,
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 70,
       "market": "US"
     },
     {
@@ -169,8 +175,8 @@
       "market": "US"
     },
     {
-      "ticker": "TGT",
-      "name": "Target",
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
       "score": 69,
       "market": "US"
     },
@@ -187,37 +193,19 @@
       "market": "US"
     },
     {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
+      "ticker": "UAL",
+      "name": "United Airlines",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "SGRO.L",
-      "name": "Segro",
+      "ticker": "ALLY",
+      "name": "Ally Financial",
       "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "VIE.PA",
-      "name": "Veolia",
-      "score": 68,
-      "market": "FR"
+      "market": "US"
     }
   ],
   "topMidCap": [
-    {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 69,
-      "market": "US"
-    },
     {
       "ticker": "BLND.L",
       "name": "British Land",
@@ -225,20 +213,38 @@
       "market": "UK"
     },
     {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 68,
       "market": "US"
     },
     {
       "ticker": "CROX",
       "name": "Crocs",
-      "score": 67,
+      "score": 68,
       "market": "US"
     },
     {
       "ticker": "ETSY",
       "name": "Etsy",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
       "score": 67,
       "market": "US"
     },
@@ -249,21 +255,15 @@
       "market": "UK"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "MTCH",
-      "name": "Match Group",
+      "ticker": "MARA",
+      "name": "Marathon Digital",
       "score": 66,
       "market": "US"
     },
     {
-      "ticker": "MARA",
-      "name": "Marathon Digital",
-      "score": 65,
+      "ticker": "NNN",
+      "name": "NNN REIT",
+      "score": 66,
       "market": "US"
     }
   ],
@@ -317,19 +317,19 @@
       "market": "UK"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
+      "ticker": "LTC",
+      "name": "LTC Properties",
       "score": 61,
-      "market": "UK"
+      "market": "US"
     },
     {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
       "score": 61,
       "market": "UK"
     }
   ],
   "totalStocks": 862,
   "avgScore": 51,
-  "bearishAlertCount": 319
+  "bearishAlertCount": 330
 }
