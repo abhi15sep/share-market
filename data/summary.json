@@ -1,15 +1,15 @@
 {
   "topOverall": [
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 74,
+      "market": "UK",
+      "capCategory": "Small"
     },
     {
-      "ticker": "PWR",
-      "name": "Quanta Services",
+      "ticker": "MU",
+      "name": "Micron",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -115,6 +115,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "IOT",
       "name": "Samsara",
       "score": 26,
@@ -134,25 +141,12 @@
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "MU",
       "name": "Micron",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "PWR",
-      "name": "Quanta Services",
       "score": 73,
       "market": "US"
     },
@@ -199,8 +193,14 @@
       "market": "US"
     },
     {
-      "ticker": "MO",
-      "name": "Altria Group",
+      "ticker": "MTB",
+      "name": "M&T Bank",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 69,
       "market": "US"
     }
@@ -231,9 +231,9 @@
       "market": "US"
     },
     {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 68,
+      "ticker": "BLND.L",
+      "name": "British Land",
+      "score": 67,
       "market": "UK"
     },
     {
@@ -255,14 +255,14 @@
       "market": "UK"
     },
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 65,
-      "market": "US"
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 66,
+      "market": "UK"
     },
     {
-      "ticker": "LC",
-      "name": "LendingClub",
+      "ticker": "MTCH",
+      "name": "Match Group",
       "score": 65,
       "market": "US"
     }
@@ -271,14 +271,20 @@
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 69,
+      "score": 74,
       "market": "UK"
     },
     {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
-      "score": 67,
+      "score": 66,
       "market": "UK"
+    },
+    {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 66,
+      "market": "DE"
     },
     {
       "ticker": "ML.PA",
@@ -287,21 +293,21 @@
       "market": "FR"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 65,
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 63,
       "market": "UK"
     },
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 63,
+      "score": 62,
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 63,
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 62,
       "market": "UK"
     },
     {
@@ -321,15 +327,9 @@
       "name": "Chemring Group",
       "score": 61,
       "market": "UK"
-    },
-    {
-      "ticker": "CTRA",
-      "name": "Coterra Energy",
-      "score": 60,
-      "market": "US"
     }
   ],
   "totalStocks": 862,
   "avgScore": 51,
-  "bearishAlertCount": 332
+  "bearishAlertCount": 331
 }
