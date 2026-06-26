@@ -8,6 +8,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 76,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "LAMR",
       "name": "Lamar Advertising",
       "score": 76,
@@ -57,17 +64,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 72,
-      "market": "UK",
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 73,
+      "market": "FR",
       "capCategory": "Small"
     }
   ],
@@ -75,16 +75,9 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 17,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
       "score": 19,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "ZG",
@@ -94,15 +87,15 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 24,
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
+      "ticker": "COIN",
+      "name": "Coinbase",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
@@ -141,6 +134,13 @@
       "score": 29,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "DKNG",
+      "name": "DraftKings",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -148,6 +148,12 @@
       "ticker": "FROG",
       "name": "JFrog",
       "score": 78,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 76,
       "market": "US"
     },
     {
@@ -175,33 +181,27 @@
       "market": "UK"
     },
     {
-      "ticker": "BIIB",
-      "name": "Biogen",
-      "score": 71,
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar",
+      "score": 72,
       "market": "US"
     },
     {
       "ticker": "KDP",
       "name": "Keurig Dr Pepper",
-      "score": 71,
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "RIOT",
-      "name": "Riot Platforms",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "KO",
-      "name": "Coca-Cola",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 70,
+      "ticker": "TRGP",
+      "name": "Targa Resources",
+      "score": 72,
       "market": "US"
     }
   ],
@@ -275,16 +275,16 @@
       "market": "UK"
     },
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 73,
+      "market": "FR"
+    },
+    {
       "ticker": "CURY.L",
       "name": "Currys",
       "score": 72,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 69,
-      "market": "FR"
     },
     {
       "ticker": "SFOR.L",
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 862,
-  "avgScore": 52,
-  "bearishAlertCount": 325
+  "avgScore": 53,
+  "bearishAlertCount": 326
 }
