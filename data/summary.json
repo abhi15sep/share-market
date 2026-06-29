@@ -8,10 +8,10 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 73,
-      "market": "US",
+      "ticker": "DRREDDY.NS",
+      "name": "Dr. Reddy's Labs",
+      "score": 72,
+      "market": "IN",
       "capCategory": "Large"
     },
     {
@@ -20,13 +20,6 @@
       "score": 71,
       "market": "UK",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "NTPC.NS",
-      "name": "NTPC",
-      "score": 71,
-      "market": "IN",
-      "capCategory": "Large"
     },
     {
       "ticker": "BNP.PA",
@@ -43,6 +36,27 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 71,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "IAG.L",
+      "name": "IAG",
+      "score": 70,
+      "market": "UK",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 70,
@@ -50,25 +64,11 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "URI",
-      "name": "United Rentals",
+      "ticker": "CAT",
+      "name": "Caterpillar",
       "score": 69,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "TROW",
-      "name": "T. Rowe Price",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 69,
-      "market": "UK",
-      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
@@ -80,18 +80,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 17,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 20,
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "GWRE",
@@ -103,23 +103,16 @@
     {
       "ticker": "DJT",
       "name": "Trump Media",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Small"
     },
     {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EPAM",
-      "name": "EPAM Systems",
       "score": 26,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "WDAY",
@@ -141,19 +134,20 @@
       "score": 28,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "NTPC.NS",
-      "name": "NTPC",
-      "score": 71,
+      "ticker": "DRREDDY.NS",
+      "name": "Dr. Reddy's Labs",
+      "score": 72,
       "market": "IN"
     },
     {
@@ -163,64 +157,64 @@
       "market": "FR"
     },
     {
-      "ticker": "URI",
-      "name": "United Rentals",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "TROW",
-      "name": "T. Rowe Price",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "AXISBANK.NS",
-      "name": "Axis Bank",
-      "score": 69,
-      "market": "IN"
-    },
-    {
-      "ticker": "6367.T",
-      "name": "Daikin Industries",
-      "score": 69,
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 71,
       "market": "JP"
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "IAG.L",
+      "name": "IAG",
+      "score": 70,
+      "market": "UK"
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "USB",
       "name": "U.S. Bancorp",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "UAL",
-      "name": "United Airlines",
-      "score": 68,
+      "score": 69,
       "market": "US"
     },
     {
       "ticker": "RF",
       "name": "Regions Financial",
-      "score": 68,
+      "score": 69,
       "market": "US"
+    },
+    {
+      "ticker": "NTPC.NS",
+      "name": "NTPC",
+      "score": 69,
+      "market": "IN"
+    },
+    {
+      "ticker": "6098.T",
+      "name": "Recruit Holdings",
+      "score": 69,
+      "market": "JP"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "MTCH",
       "name": "Match Group",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 68,
       "market": "US"
     },
@@ -229,6 +223,12 @@
       "name": "Softcat",
       "score": 68,
       "market": "UK"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 67,
+      "market": "US"
     },
     {
       "ticker": "BLND.L",
@@ -249,20 +249,20 @@
       "market": "UK"
     },
     {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 66,
+      "market": "UK"
+    },
+    {
       "ticker": "BBY.L",
       "name": "Balfour Beatty",
       "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 65,
-      "market": "US"
-    },
-    {
-      "ticker": "NWL",
-      "name": "Newell Brands",
+      "ticker": "MARA",
+      "name": "Marathon Digital",
       "score": 65,
       "market": "US"
     }
@@ -323,13 +323,13 @@
       "market": "DE"
     },
     {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 62,
+      "ticker": "TSTL.L",
+      "name": "Tristel",
+      "score": 63,
       "market": "UK"
     }
   ],
   "totalStocks": 862,
   "avgScore": 51,
-  "bearishAlertCount": 344
+  "bearishAlertCount": 342
 }
