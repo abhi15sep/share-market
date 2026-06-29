@@ -8,10 +8,38 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "DRREDDY.NS",
       "name": "Dr. Reddy's Labs",
       "score": 72,
       "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TROW",
+      "name": "T. Rowe Price",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 71,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -41,83 +69,41 @@
       "score": 71,
       "market": "JP",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "C",
-      "name": "Citigroup",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "IAG.L",
-      "name": "IAG",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "CAT",
-      "name": "Caterpillar",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 15,
+      "score": 16,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 23,
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DJT",
-      "name": "Trump Media",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 26,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "WDAY",
-      "name": "Workday",
-      "score": 27,
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
@@ -136,11 +122,25 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
+      "ticker": "WDAY",
+      "name": "Workday",
       "score": 28,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "BRZE",
+      "name": "Braze",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "DJT",
+      "name": "Trump Media",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -149,6 +149,18 @@
       "name": "Dr. Reddy's Labs",
       "score": 72,
       "market": "IN"
+    },
+    {
+      "ticker": "TROW",
+      "name": "T. Rowe Price",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "BNP.PA",
@@ -163,8 +175,20 @@
       "market": "JP"
     },
     {
-      "ticker": "C",
-      "name": "Citigroup",
+      "ticker": "BIIB",
+      "name": "Biogen",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "RF",
+      "name": "Regions Financial",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "FROG",
+      "name": "JFrog",
       "score": 70,
       "market": "US"
     },
@@ -175,46 +199,34 @@
       "market": "UK"
     },
     {
-      "ticker": "CAT",
-      "name": "Caterpillar",
+      "ticker": "UNH",
+      "name": "UnitedHealth",
       "score": 69,
       "market": "US"
-    },
-    {
-      "ticker": "USB",
-      "name": "U.S. Bancorp",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "RF",
-      "name": "Regions Financial",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "NTPC.NS",
-      "name": "NTPC",
-      "score": 69,
-      "market": "IN"
-    },
-    {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 69,
-      "market": "JP"
     }
   ],
   "topMidCap": [
     {
       "ticker": "MTCH",
       "name": "Match Group",
-      "score": 69,
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 72,
       "market": "US"
     },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 68,
       "market": "US"
     },
@@ -225,46 +237,34 @@
       "market": "UK"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "BLND.L",
       "name": "British Land",
       "score": 67,
       "market": "UK"
     },
     {
+      "ticker": "MARA",
+      "name": "Marathon Digital",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 66,
+      "market": "US"
+    },
+    {
       "ticker": "PSON.L",
       "name": "Pearson",
       "score": 66,
       "market": "UK"
-    },
-    {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "MARA",
-      "name": "Marathon Digital",
-      "score": 65,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 862,
-  "avgScore": 51,
-  "bearishAlertCount": 342
+  "avgScore": 52,
+  "bearishAlertCount": 344
 }
