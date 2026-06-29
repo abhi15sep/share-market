@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 79,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "FROG",
       "name": "JFrog",
       "score": 78,
@@ -8,15 +15,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "LAMR",
+      "name": "Lamar Advertising",
       "score": 76,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "LAMR",
-      "name": "Lamar Advertising",
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
       "score": 76,
       "market": "US",
       "capCategory": "Large"
@@ -36,18 +43,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 74,
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 73,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Small"
+      "capCategory": "Mid"
     },
     {
       "ticker": "MTCH",
@@ -57,25 +57,25 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "CPG.L",
-      "name": "Compass Group",
-      "score": 73,
-      "market": "UK",
+      "ticker": "BIIB",
+      "name": "Biogen",
+      "score": 72,
+      "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 73,
-      "market": "FR",
-      "capCategory": "Small"
+      "ticker": "KDP",
+      "name": "Keurig Dr Pepper",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 19,
+      "score": 18,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -96,9 +96,30 @@
     {
       "ticker": "COIN",
       "name": "Coinbase",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EL.PA",
+      "name": "EssilorLuxottica",
+      "score": 26,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "SMWH.L",
+      "name": "WH Smith",
+      "score": 27,
+      "market": "UK",
+      "capCategory": "Small"
     },
     {
       "ticker": "IOT",
@@ -115,29 +136,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "NOW",
-      "name": "ServiceNow",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SMWH.L",
-      "name": "WH Smith",
-      "score": 29,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
-      "score": 29,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "DKNG",
-      "name": "DraftKings",
+      "ticker": "GPC",
+      "name": "Genuine Parts",
       "score": 29,
       "market": "US",
       "capCategory": "Large"
@@ -145,20 +145,26 @@
   ],
   "topLargeCap": [
     {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 79,
+      "market": "US"
+    },
+    {
       "ticker": "FROG",
       "name": "JFrog",
       "score": 78,
       "market": "US"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "LAMR",
+      "name": "Lamar Advertising",
       "score": 76,
       "market": "US"
     },
     {
-      "ticker": "LAMR",
-      "name": "Lamar Advertising",
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
       "score": 76,
       "market": "US"
     },
@@ -169,26 +175,8 @@
       "market": "US"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "CPG.L",
-      "name": "Compass Group",
-      "score": 73,
-      "market": "UK"
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "CAT",
-      "name": "Caterpillar",
+      "ticker": "BIIB",
+      "name": "Biogen",
       "score": 72,
       "market": "US"
     },
@@ -199,9 +187,21 @@
       "market": "US"
     },
     {
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "TRGP",
       "name": "Targa Resources",
       "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "score": 71,
       "market": "US"
     }
   ],
@@ -210,6 +210,12 @@
       "ticker": "PENN",
       "name": "Penn Entertainment",
       "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 73,
       "market": "US"
     },
     {
@@ -225,9 +231,9 @@
       "market": "US"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 71,
+      "ticker": "MARA",
+      "name": "Marathon Digital",
+      "score": 70,
       "market": "US"
     },
     {
@@ -237,9 +243,9 @@
       "market": "US"
     },
     {
-      "ticker": "MARA",
-      "name": "Marathon Digital",
-      "score": 69,
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 70,
       "market": "US"
     },
     {
@@ -249,87 +255,81 @@
       "market": "US"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
       "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "PCVX",
+      "name": "Vaxcyte",
+      "score": 68,
       "market": "US"
-    },
-    {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 69,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 74,
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 71,
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 73,
-      "market": "FR"
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 69,
+      "market": "UK"
     },
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 72,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 66,
+      "score": 69,
       "market": "UK"
     },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 66,
+      "market": "FR"
+    },
+    {
+      "ticker": "FOUR.L",
+      "name": "4imprint",
       "score": 64,
       "market": "UK"
     },
     {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 62,
+      "ticker": "MARS.L",
+      "name": "Marston's",
+      "score": 63,
       "market": "UK"
     },
     {
-      "ticker": "TSTL.L",
-      "name": "Tristel",
-      "score": 62,
+      "ticker": "PRTC.L",
+      "name": "PureTech Health",
+      "score": 63,
       "market": "UK"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 63,
+      "market": "DE"
+    },
+    {
+      "ticker": "LC",
+      "name": "LendingClub",
       "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 61,
-      "market": "UK"
+      "market": "US"
     }
   ],
   "totalStocks": 862,
   "avgScore": 53,
-  "bearishAlertCount": 326
+  "bearishAlertCount": 333
 }
