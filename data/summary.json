@@ -1,190 +1,190 @@
 {
   "topOverall": [
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "0939.HK",
-      "name": "China Construction Bank",
-      "score": 72,
-      "market": "HK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TROW",
-      "name": "T. Rowe Price",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 71,
-      "market": "FR",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "6861.T",
-      "name": "Keyence",
-      "score": 71,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "FROG",
-      "name": "JFrog",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 70,
+      "score": 74,
       "market": "UK",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 74,
+      "market": "FR",
+      "capCategory": "Large"
     },
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 70,
+      "score": 73,
       "market": "UK",
       "capCategory": "Small"
-    }
-  ],
-  "bottomOverall": [
-    {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 18,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "score": 22,
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 73,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 25,
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 71,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "URI",
+      "name": "United Rentals",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SDR.L",
+      "name": "Schroders",
+      "score": 71,
+      "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "PEGA",
-      "name": "Pegasystems",
-      "score": 25,
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "IAG.L",
+      "name": "IAG",
+      "score": 70,
+      "market": "UK",
+      "capCategory": "Large"
+    }
+  ],
+  "bottomOverall": [
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "score": 18,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "COIN",
       "name": "Coinbase",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 26,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 26,
-      "market": "DE",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
+      "ticker": "DJT",
+      "name": "Trump Media",
       "score": 26,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
-      "score": 27,
-      "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "WDAY",
-      "name": "Workday",
-      "score": 28,
+      "ticker": "DKNG",
+      "name": "DraftKings",
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "ELF",
+      "name": "Elf Beauty",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "PEGA",
+      "name": "Pegasystems",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 74,
+      "market": "FR"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "UNH",
       "name": "UnitedHealth",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "0939.HK",
-      "name": "China Construction Bank",
-      "score": 72,
-      "market": "HK"
-    },
-    {
-      "ticker": "TROW",
-      "name": "T. Rowe Price",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
+      "ticker": "URI",
+      "name": "United Rentals",
       "score": 71,
       "market": "US"
+    },
+    {
+      "ticker": "IAG.L",
+      "name": "IAG",
+      "score": 70,
+      "market": "UK"
+    },
+    {
+      "ticker": "CS.PA",
+      "name": "AXA",
+      "score": 70,
+      "market": "FR"
     },
     {
       "ticker": "6861.T",
       "name": "Keyence",
-      "score": 71,
+      "score": 70,
       "market": "JP"
-    },
-    {
-      "ticker": "FROG",
-      "name": "JFrog",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 70,
-      "market": "FR"
     },
     {
       "ticker": "6098.T",
@@ -199,28 +199,28 @@
       "market": "US"
     },
     {
-      "ticker": "USB",
-      "name": "U.S. Bancorp",
+      "ticker": "UAL",
+      "name": "United Airlines",
       "score": 69,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
-      "score": 69,
-      "market": "US"
+      "ticker": "SDR.L",
+      "name": "Schroders",
+      "score": 71,
+      "market": "UK"
     },
     {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
       "score": 69,
       "market": "UK"
     },
@@ -231,76 +231,82 @@
       "market": "US"
     },
     {
+      "ticker": "MNG.L",
+      "name": "M&G",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 67,
+      "market": "UK"
+    },
+    {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "MARA",
-      "name": "Marathon Digital",
       "score": 66,
       "market": "US"
     },
     {
-      "ticker": "OZK",
-      "name": "Bank OZK",
+      "ticker": "SCT.L",
+      "name": "Softcat",
       "score": 66,
-      "market": "US"
+      "market": "UK"
+    },
+    {
+      "ticker": "TEP.PA",
+      "name": "Teleperformance",
+      "score": 66,
+      "market": "FR"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 71,
-      "market": "FR"
-    },
-    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 70,
+      "score": 74,
       "market": "UK"
     },
     {
       "ticker": "CURY.L",
       "name": "Currys",
+      "score": 73,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 73,
+      "market": "FR"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 71,
+      "market": "UK"
+    },
+    {
+      "ticker": "PRTC.L",
+      "name": "PureTech Health",
       "score": 70,
       "market": "UK"
     },
     {
       "ticker": "CKN.L",
       "name": "Chemring Group",
-      "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
       "score": 68,
       "market": "UK"
     },
     {
-      "ticker": "PRTC.L",
-      "name": "PureTech Health",
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
       "score": 68,
       "market": "UK"
     },
@@ -311,25 +317,19 @@
       "market": "UK"
     },
     {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 65,
-      "market": "UK"
-    },
-    {
       "ticker": "ASHM.L",
       "name": "Ashmore Group",
-      "score": 64,
+      "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "LC",
-      "name": "LendingClub",
-      "score": 62,
-      "market": "US"
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 64,
+      "market": "UK"
     }
   ],
   "totalStocks": 862,
-  "avgScore": 52,
-  "bearishAlertCount": 339
+  "avgScore": 51,
+  "bearishAlertCount": 328
 }
