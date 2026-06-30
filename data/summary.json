@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "RRX",
+      "name": "Regal Rexnord",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 74,
@@ -12,6 +19,13 @@
       "name": "BNP Paribas",
       "score": 74,
       "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TRGP",
+      "name": "Targa Resources",
+      "score": 73,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -29,76 +43,55 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "0939.HK",
-      "name": "China Construction Bank",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 72,
-      "market": "HK",
+      "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "URI",
       "name": "United Rentals",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "SDR.L",
-      "name": "Schroders",
+      "ticker": "FROG",
+      "name": "JFrog",
       "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "6861.T",
-      "name": "Keyence",
-      "score": 71,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "UAL",
-      "name": "United Airlines",
-      "score": 70,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 20,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 21,
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 22,
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 24,
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 23,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "GWRE",
@@ -108,42 +101,55 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "EPAM",
-      "name": "EPAM Systems",
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 26,
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "DJT",
-      "name": "Trump Media",
-      "score": 26,
-      "market": "US",
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 28,
+      "market": "DE",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BRBY.L",
+      "name": "Burberry",
+      "score": 28,
+      "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "PEGA",
-      "name": "Pegasystems",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ADSK",
-      "name": "Autodesk",
-      "score": 27,
+      "ticker": "IOT",
+      "name": "Samsara",
+      "score": 28,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "RRX",
+      "name": "Regal Rexnord",
+      "score": 74,
+      "market": "US"
+    },
     {
       "ticker": "BNP.PA",
       "name": "BNP Paribas",
@@ -151,14 +157,32 @@
       "market": "FR"
     },
     {
-      "ticker": "0939.HK",
-      "name": "China Construction Bank",
+      "ticker": "TRGP",
+      "name": "Targa Resources",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 72,
-      "market": "HK"
+      "market": "US"
     },
     {
       "ticker": "URI",
       "name": "United Rentals",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "FROG",
+      "name": "JFrog",
       "score": 71,
       "market": "US"
     },
@@ -169,39 +193,15 @@
       "market": "JP"
     },
     {
-      "ticker": "UAL",
-      "name": "United Airlines",
-      "score": 70,
-      "market": "US"
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
+      "score": 71,
+      "market": "HK"
     },
     {
-      "ticker": "FROG",
-      "name": "JFrog",
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor",
       "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "IAG.L",
-      "name": "IAG",
-      "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "CS.PA",
-      "name": "AXA",
-      "score": 70,
-      "market": "FR"
-    },
-    {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 70,
-      "market": "JP"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 69,
       "market": "US"
     }
   ],
@@ -213,9 +213,15 @@
       "market": "UK"
     },
     {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
@@ -231,14 +237,8 @@
       "market": "UK"
     },
     {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
       "score": 68,
       "market": "US"
     },
@@ -249,22 +249,22 @@
       "market": "UK"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 67,
-      "market": "UK"
+      "market": "US"
+    },
+    {
+      "ticker": "RARE",
+      "name": "Ultragenyx Pharmaceutical",
+      "score": 67,
+      "market": "US"
     },
     {
       "ticker": "WSC",
       "name": "WillScot Holdings",
-      "score": 66,
+      "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 66,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 862,
-  "avgScore": 51,
-  "bearishAlertCount": 317
+  "avgScore": 52,
+  "bearishAlertCount": 313
 }
