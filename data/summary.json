@@ -1,25 +1,11 @@
 {
   "topOverall": [
     {
-      "ticker": "RRX",
-      "name": "Regal Rexnord",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 74,
       "market": "UK",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 74,
-      "market": "FR",
-      "capCategory": "Large"
     },
     {
       "ticker": "TRGP",
@@ -36,13 +22,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 73,
-      "market": "FR",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
       "score": 72,
@@ -50,10 +29,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "URI",
-      "name": "United Rentals",
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
       "score": 72,
-      "market": "US",
+      "market": "FR",
       "capCategory": "Large"
     },
     {
@@ -69,12 +48,40 @@
       "score": 71,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "SDR.L",
+      "name": "Schroders",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 71,
+      "market": "FR",
+      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "PLTR",
       "name": "Palantir",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
       "score": 22,
       "market": "US",
       "capCategory": "Large"
@@ -87,22 +94,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "GWRE",
       "name": "Guidewire Software",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NOW",
-      "name": "ServiceNow",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
@@ -115,17 +108,17 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "score": 27,
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 28,
-      "market": "DE",
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "score": 27,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -141,21 +134,16 @@
       "score": 28,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "DJT",
+      "name": "Trump Media",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
-    {
-      "ticker": "RRX",
-      "name": "Regal Rexnord",
-      "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 74,
-      "market": "FR"
-    },
     {
       "ticker": "TRGP",
       "name": "Targa Resources",
@@ -169,10 +157,10 @@
       "market": "US"
     },
     {
-      "ticker": "URI",
-      "name": "United Rentals",
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
       "score": 72,
-      "market": "US"
+      "market": "FR"
     },
     {
       "ticker": "DAL",
@@ -201,6 +189,18 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "URI",
+      "name": "United Rentals",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "UAL",
+      "name": "United Airlines",
       "score": 70,
       "market": "US"
     }
@@ -281,16 +281,16 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 73,
-      "market": "FR"
-    },
-    {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
       "score": 71,
       "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 71,
+      "market": "FR"
     },
     {
       "ticker": "PRTC.L",
@@ -323,13 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 64,
-      "market": "UK"
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 65,
+      "market": "DE"
     }
   ],
   "totalStocks": 862,
   "avgScore": 52,
-  "bearishAlertCount": 313
+  "bearishAlertCount": 319
 }
