@@ -1,13 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "MTCH",
       "name": "Match Group",
       "score": 73,
@@ -15,17 +8,17 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
+      "ticker": "UNH",
+      "name": "UnitedHealth",
       "score": 72,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
-      "ticker": "DRREDDY.NS",
-      "name": "Dr. Reddy's Labs",
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
       "score": 72,
-      "market": "IN",
+      "market": "HK",
       "capCategory": "Large"
     },
     {
@@ -43,20 +36,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 71,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "ML.PA",
       "name": "Michelin",
       "score": 71,
@@ -64,18 +43,39 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "6971.T",
-      "name": "Kyocera",
+      "ticker": "6861.T",
+      "name": "Keyence",
       "score": 71,
       "market": "JP",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "FROG",
+      "name": "JFrog",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 70,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 70,
+      "market": "UK",
+      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 16,
+      "score": 17,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -87,6 +87,20 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 25,
+      "market": "DE",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ZG",
       "name": "Zillow Group",
       "score": 25,
@@ -94,10 +108,10 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 25,
-      "market": "US",
+      "ticker": "EL.PA",
+      "name": "EssilorLuxottica",
+      "score": 26,
+      "market": "FR",
       "capCategory": "Large"
     },
     {
@@ -108,18 +122,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 28,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
-      "score": 28,
+      "ticker": "SMWH.L",
+      "name": "WH Smith",
+      "score": 27,
       "market": "UK",
-      "capCategory": "Mid"
+      "capCategory": "Small"
     },
     {
       "ticker": "WDAY",
@@ -134,21 +141,20 @@
       "score": 29,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "DJT",
-      "name": "Trump Media",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "DRREDDY.NS",
-      "name": "Dr. Reddy's Labs",
+      "ticker": "UNH",
+      "name": "UnitedHealth",
       "score": 72,
-      "market": "IN"
+      "market": "US"
+    },
+    {
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
+      "score": 72,
+      "market": "HK"
     },
     {
       "ticker": "TROW",
@@ -163,28 +169,10 @@
       "market": "US"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 71,
-      "market": "FR"
-    },
-    {
-      "ticker": "6971.T",
-      "name": "Kyocera",
+      "ticker": "6861.T",
+      "name": "Keyence",
       "score": 71,
       "market": "JP"
-    },
-    {
-      "ticker": "BIIB",
-      "name": "Biogen",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "RF",
-      "name": "Regions Financial",
-      "score": 70,
-      "market": "US"
     },
     {
       "ticker": "FROG",
@@ -193,14 +181,26 @@
       "market": "US"
     },
     {
-      "ticker": "IAG.L",
-      "name": "IAG",
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
       "score": 70,
-      "market": "UK"
+      "market": "FR"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
+      "ticker": "6098.T",
+      "name": "Recruit Holdings",
+      "score": 70,
+      "market": "JP"
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
       "score": 69,
       "market": "US"
     }
@@ -213,10 +213,10 @@
       "market": "US"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 72,
-      "market": "US"
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 69,
+      "market": "UK"
     },
     {
       "ticker": "OGN",
@@ -231,15 +231,15 @@
       "market": "US"
     },
     {
-      "ticker": "SCT.L",
-      "name": "Softcat",
+      "ticker": "SDR.L",
+      "name": "Schroders",
       "score": 68,
       "market": "UK"
     },
     {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 67,
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
+      "score": 68,
       "market": "UK"
     },
     {
@@ -261,25 +261,13 @@
       "market": "US"
     },
     {
-      "ticker": "PSON.L",
-      "name": "Pearson",
+      "ticker": "IGG.L",
+      "name": "IG Group",
       "score": 66,
       "market": "UK"
     }
   ],
   "topSmallCap": [
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 74,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 71,
-      "market": "UK"
-    },
     {
       "ticker": "ML.PA",
       "name": "Michelin",
@@ -295,7 +283,25 @@
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 69,
+      "score": 70,
+      "market": "UK"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "PRTC.L",
+      "name": "PureTech Health",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
+      "score": 68,
       "market": "UK"
     },
     {
@@ -307,29 +313,23 @@
     {
       "ticker": "FOUR.L",
       "name": "4imprint",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "PRTC.L",
-      "name": "PureTech Health",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "RWE.DE",
-      "name": "RWE",
       "score": 64,
-      "market": "DE"
+      "market": "UK"
     },
     {
-      "ticker": "TSTL.L",
-      "name": "Tristel",
-      "score": 63,
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 64,
       "market": "UK"
+    },
+    {
+      "ticker": "LC",
+      "name": "LendingClub",
+      "score": 62,
+      "market": "US"
     }
   ],
   "totalStocks": 862,
   "avgScore": 52,
-  "bearishAlertCount": 344
+  "bearishAlertCount": 328
 }
