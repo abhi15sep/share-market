@@ -1,13 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "TRGP",
-      "name": "Targa Resources",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
       "score": 73,
@@ -15,11 +8,32 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "URI",
-      "name": "United Rentals",
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
       "score": 72,
-      "market": "US",
-      "capCategory": "Large"
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Small"
     },
     {
       "ticker": "0939.HK",
@@ -29,25 +43,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
+      "ticker": "TRGP",
+      "name": "Targa Resources",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "FROG",
-      "name": "JFrog",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
     },
     {
       "ticker": "9984.T",
@@ -57,17 +57,17 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor",
+      "ticker": "ALL",
+      "name": "Allstate",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "UAL",
-      "name": "United Airlines",
+      "ticker": "ADANIENT.NS",
+      "name": "Adani Enterprises",
       "score": 70,
-      "market": "US",
+      "market": "IN",
       "capCategory": "Large"
     }
   ],
@@ -75,9 +75,16 @@
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 20,
+      "score": 18,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "RHM.DE",
@@ -87,22 +94,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "PEGA",
-      "name": "Pegasystems",
-      "score": 23,
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
@@ -115,20 +115,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "NOW",
-      "name": "ServiceNow",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "BRBY.L",
       "name": "Burberry",
       "score": 26,
@@ -136,8 +122,22 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "XPEV",
+      "name": "XPeng",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
@@ -145,22 +145,10 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "TRGP",
-      "name": "Targa Resources",
-      "score": 73,
-      "market": "US"
-    },
-    {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
       "score": 73,
       "market": "UK"
-    },
-    {
-      "ticker": "URI",
-      "name": "United Rentals",
-      "score": 72,
-      "market": "US"
     },
     {
       "ticker": "0939.HK",
@@ -169,14 +157,8 @@
       "market": "HK"
     },
     {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "FROG",
-      "name": "JFrog",
+      "ticker": "TRGP",
+      "name": "Targa Resources",
       "score": 71,
       "market": "US"
     },
@@ -187,77 +169,59 @@
       "market": "JP"
     },
     {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor",
+      "ticker": "ALL",
+      "name": "Allstate",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "UAL",
-      "name": "United Airlines",
+      "ticker": "ADANIENT.NS",
+      "name": "Adani Enterprises",
       "score": 70,
+      "market": "IN"
+    },
+    {
+      "ticker": "6098.T",
+      "name": "Recruit Holdings",
+      "score": 70,
+      "market": "JP"
+    },
+    {
+      "ticker": "0005.HK",
+      "name": "HSBC Holdings",
+      "score": 69,
+      "market": "HK"
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 68,
       "market": "US"
     },
     {
-      "ticker": "RRX",
-      "name": "Regal Rexnord",
-      "score": 70,
-      "market": "US"
+      "ticker": "IAG.L",
+      "name": "IAG",
+      "score": 68,
+      "market": "UK"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 70,
-      "market": "US"
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 72,
+      "market": "UK"
     },
     {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
       "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
-      "score": 68,
       "market": "US"
     },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "RARE",
-      "name": "Ultragenyx Pharmaceutical",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 67,
+      "score": 68,
       "market": "US"
     },
     {
@@ -265,25 +229,61 @@
       "name": "Schroders",
       "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
+      "score": 65,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 71,
+      "score": 73,
       "market": "UK"
     },
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 70,
+      "score": 72,
       "market": "UK"
     },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 69,
+      "score": 72,
       "market": "UK"
     },
     {
@@ -293,43 +293,43 @@
       "market": "FR"
     },
     {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 68,
+      "market": "UK"
+    },
+    {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 68,
+      "score": 67,
       "market": "UK"
     },
     {
       "ticker": "ASHM.L",
       "name": "Ashmore Group",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 65,
+      "score": 66,
       "market": "UK"
     },
     {
       "ticker": "ITM.L",
       "name": "ITM Power",
-      "score": 63,
+      "score": 64,
       "market": "UK"
     },
     {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 62,
-      "market": "DE"
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 64,
+      "market": "UK"
     },
     {
-      "ticker": "CTRA",
-      "name": "Coterra Energy",
-      "score": 60,
-      "market": "US"
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 64,
+      "market": "UK"
     }
   ],
   "totalStocks": 862,
-  "avgScore": 51,
-  "bearishAlertCount": 318
+  "avgScore": 50,
+  "bearishAlertCount": 312
 }
