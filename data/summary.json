@@ -1,13 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "TRGP",
       "name": "Targa Resources",
       "score": 73,
@@ -15,24 +8,24 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
       "score": 73,
       "market": "UK",
-      "capCategory": "Small"
+      "capCategory": "Large"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "URI",
+      "name": "United Rentals",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
       "score": 72,
-      "market": "FR",
+      "market": "HK",
       "capCategory": "Large"
     },
     {
@@ -50,41 +43,55 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
+      "ticker": "CURY.L",
+      "name": "Currys",
       "score": 71,
       "market": "UK",
       "capCategory": "Small"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
       "score": 71,
-      "market": "FR",
-      "capCategory": "Small"
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "UAL",
+      "name": "United Airlines",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 21,
+      "score": 20,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 22,
-      "market": "US",
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 23,
+      "market": "DE",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "PEGA",
+      "name": "Pegasystems",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "HUBS",
@@ -101,6 +108,20 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ZG",
       "name": "Zillow Group",
       "score": 25,
@@ -108,11 +129,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "NOW",
-      "name": "ServiceNow",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
+      "ticker": "BRBY.L",
+      "name": "Burberry",
+      "score": 26,
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
       "ticker": "MSTR",
@@ -120,27 +141,6 @@
       "score": 27,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
-      "score": 28,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "IOT",
-      "name": "Samsara",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DJT",
-      "name": "Trump Media",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -151,16 +151,22 @@
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 73,
+      "market": "UK"
+    },
+    {
+      "ticker": "URI",
+      "name": "United Rentals",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
       "score": 72,
-      "market": "FR"
+      "market": "HK"
     },
     {
       "ticker": "DAL",
@@ -175,16 +181,10 @@
       "market": "US"
     },
     {
-      "ticker": "6861.T",
-      "name": "Keyence",
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
       "score": 71,
       "market": "JP"
-    },
-    {
-      "ticker": "0939.HK",
-      "name": "China Construction Bank",
-      "score": 71,
-      "market": "HK"
     },
     {
       "ticker": "TSM",
@@ -193,25 +193,19 @@
       "market": "US"
     },
     {
-      "ticker": "URI",
-      "name": "United Rentals",
+      "ticker": "UAL",
+      "name": "United Airlines",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "UAL",
-      "name": "United Airlines",
+      "ticker": "RRX",
+      "name": "Regal Rexnord",
       "score": 70,
       "market": "US"
     }
   ],
   "topMidCap": [
-    {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 71,
-      "market": "UK"
-    },
     {
       "ticker": "OZK",
       "name": "Bank OZK",
@@ -225,14 +219,14 @@
       "market": "US"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 69,
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 70,
       "market": "UK"
     },
     {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
       "score": 69,
       "market": "UK"
     },
@@ -241,12 +235,6 @@
       "name": "Tenable Holdings",
       "score": 68,
       "market": "US"
-    },
-    {
-      "ticker": "MNG.L",
-      "name": "M&G",
-      "score": 68,
-      "market": "UK"
     },
     {
       "ticker": "OGN",
@@ -265,71 +253,83 @@
       "name": "WillScot Holdings",
       "score": 67,
       "market": "US"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "SDR.L",
+      "name": "Schroders",
+      "score": 67,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 74,
-      "market": "UK"
-    },
-    {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 73,
-      "market": "UK"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
       "score": 71,
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 71,
-      "market": "FR"
-    },
-    {
-      "ticker": "PRTC.L",
-      "name": "PureTech Health",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
       "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 68,
       "market": "UK"
     },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 67,
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 69,
+      "market": "FR"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 68,
       "market": "UK"
     },
     {
       "ticker": "ASHM.L",
       "name": "Ashmore Group",
-      "score": 66,
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 63,
       "market": "UK"
     },
     {
       "ticker": "RWE.DE",
       "name": "RWE",
-      "score": 65,
+      "score": 62,
       "market": "DE"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 60,
+      "market": "US"
     }
   ],
   "totalStocks": 862,
-  "avgScore": 52,
-  "bearishAlertCount": 319
+  "avgScore": 51,
+  "bearishAlertCount": 318
 }
