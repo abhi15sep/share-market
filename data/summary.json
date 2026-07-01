@@ -15,6 +15,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
       "score": 74,
@@ -43,10 +50,10 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 72,
-      "market": "US",
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 73,
+      "market": "FR",
       "capCategory": "Large"
     },
     {
@@ -62,36 +69,22 @@
       "score": 72,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
+      "ticker": "ZG",
+      "name": "Zillow Group",
       "score": 26,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 27,
-      "market": "DE",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "GWRE",
@@ -99,13 +92,6 @@
       "score": 27,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "TMDX",
-      "name": "TransMedics Group",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "BRBY.L",
@@ -129,8 +115,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "NOW",
-      "name": "ServiceNow",
+      "ticker": "PLTR",
+      "name": "Palantir",
       "score": 29,
       "market": "US",
       "capCategory": "Large"
@@ -141,6 +127,20 @@
       "score": 30,
       "market": "HK",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 30,
+      "market": "DE",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 30,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -151,16 +151,22 @@
       "market": "UK"
     },
     {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 74,
+      "market": "US"
+    },
+    {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
       "score": 74,
       "market": "UK"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 72,
-      "market": "US"
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 73,
+      "market": "FR"
     },
     {
       "ticker": "0939.HK",
@@ -187,22 +193,16 @@
       "market": "JP"
     },
     {
-      "ticker": "BARC.L",
-      "name": "Barclays",
+      "ticker": "BAC",
+      "name": "Bank of America",
       "score": 70,
-      "market": "UK"
+      "market": "US"
     },
     {
-      "ticker": "DHL.DE",
-      "name": "DHL Group",
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
       "score": 70,
-      "market": "DE"
-    },
-    {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 70,
-      "market": "JP"
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -287,16 +287,16 @@
       "market": "UK"
     },
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 72,
+      "market": "FR"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 71,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 70,
-      "market": "FR"
     },
     {
       "ticker": "FOUR.L",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 862,
   "avgScore": 52,
-  "bearishAlertCount": 294
+  "bearishAlertCount": 295
 }
