@@ -36,6 +36,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "SDR.L",
       "name": "Schroders",
       "score": 72,
@@ -62,47 +69,33 @@
       "score": 72,
       "market": "HK",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "URI",
-      "name": "United Rentals",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
+      "ticker": "MOS",
+      "name": "Mosaic Company",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 22,
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NOW",
-      "name": "ServiceNow",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
@@ -115,15 +108,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
@@ -136,11 +129,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
+      "ticker": "GPC",
+      "name": "Genuine Parts",
       "score": 29,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "DJT",
+      "name": "Trump Media",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -157,16 +157,16 @@
       "market": "UK"
     },
     {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "0939.HK",
       "name": "China Construction Bank",
       "score": 72,
       "market": "HK"
-    },
-    {
-      "ticker": "URI",
-      "name": "United Rentals",
-      "score": 71,
-      "market": "US"
     },
     {
       "ticker": "NWG.L",
@@ -175,8 +175,20 @@
       "market": "UK"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
+      "ticker": "ADANIENT.NS",
+      "name": "Adani Enterprises",
+      "score": 71,
+      "market": "IN"
+    },
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 71,
+      "market": "JP"
+    },
+    {
+      "ticker": "FROG",
+      "name": "JFrog",
       "score": 70,
       "market": "US"
     },
@@ -187,22 +199,10 @@
       "market": "UK"
     },
     {
-      "ticker": "ADANIENT.NS",
-      "name": "Adani Enterprises",
-      "score": 70,
-      "market": "IN"
-    },
-    {
       "ticker": "DHL.DE",
       "name": "DHL Group",
       "score": 70,
       "market": "DE"
-    },
-    {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 70,
-      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -225,6 +225,12 @@
       "market": "UK"
     },
     {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "BNZL.L",
       "name": "Bunzl",
       "score": 71,
@@ -239,6 +245,12 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
       "score": 68,
       "market": "US"
     },
@@ -249,22 +261,10 @@
       "market": "UK"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 67,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 862,
   "avgScore": 52,
-  "bearishAlertCount": 293
+  "bearishAlertCount": 288
 }
