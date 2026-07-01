@@ -29,6 +29,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "CURY.L",
       "name": "Currys",
       "score": 73,
@@ -62,34 +69,13 @@
       "score": 72,
       "market": "UK",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "0939.HK",
-      "name": "China Construction Bank",
-      "score": 72,
-      "market": "HK",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "MOS",
-      "name": "Mosaic Company",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "HUBS",
       "name": "HubSpot",
       "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -115,11 +101,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
+      "ticker": "TMDX",
+      "name": "TransMedics Group",
       "score": 27,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "BRBY.L",
@@ -131,16 +117,30 @@
     {
       "ticker": "GPC",
       "name": "Genuine Parts",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "XPEV",
+      "name": "XPeng",
       "score": 29,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "DJT",
-      "name": "Trump Media",
+      "ticker": "NOW",
+      "name": "ServiceNow",
       "score": 29,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "3690.HK",
+      "name": "Meituan",
+      "score": 30,
+      "market": "HK",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -187,12 +187,6 @@
       "market": "JP"
     },
     {
-      "ticker": "FROG",
-      "name": "JFrog",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "BARC.L",
       "name": "Barclays",
       "score": 70,
@@ -203,6 +197,12 @@
       "name": "DHL Group",
       "score": 70,
       "market": "DE"
+    },
+    {
+      "ticker": "6098.T",
+      "name": "Recruit Holdings",
+      "score": 70,
+      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -211,6 +211,12 @@
       "name": "IG Group",
       "score": 74,
       "market": "UK"
+    },
+    {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 73,
+      "market": "US"
     },
     {
       "ticker": "SDR.L",
@@ -225,8 +231,8 @@
       "market": "UK"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 71,
       "market": "US"
     },
@@ -237,20 +243,14 @@
       "market": "UK"
     },
     {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 70,
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
+      "score": 68,
       "market": "US"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "MTCH",
-      "name": "Match Group",
+      "ticker": "CROX",
+      "name": "Crocs",
       "score": 68,
       "market": "US"
     },
@@ -261,8 +261,8 @@
       "market": "UK"
     },
     {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
+      "ticker": "WSC",
+      "name": "WillScot Holdings",
       "score": 67,
       "market": "US"
     }
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 862,
   "avgScore": 52,
-  "bearishAlertCount": 288
+  "bearishAlertCount": 294
 }
