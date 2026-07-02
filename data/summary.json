@@ -80,13 +80,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "RHM.DE",
       "name": "Rheinmetall",
       "score": 24,
@@ -94,29 +87,29 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 25,
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "LI",
-      "name": "Li Auto",
+      "ticker": "ZG",
+      "name": "Zillow Group",
       "score": 26,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
-      "score": 27,
-      "market": "IN",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "DKNG",
       "name": "DraftKings",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "LI",
+      "name": "Li Auto",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
@@ -136,10 +129,17 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "3690.HK",
-      "name": "Meituan",
+      "ticker": "BRBY.L",
+      "name": "Burberry",
       "score": 30,
-      "market": "HK",
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture",
+      "score": 30,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -175,34 +175,34 @@
       "market": "UK"
     },
     {
-      "ticker": "ADANIPORTS.NS",
-      "name": "Adani Ports",
-      "score": 71,
+      "ticker": "BARC.L",
+      "name": "Barclays",
+      "score": 70,
+      "market": "UK"
+    },
+    {
+      "ticker": "ADANIENT.NS",
+      "name": "Adani Enterprises",
+      "score": 70,
       "market": "IN"
     },
     {
       "ticker": "6098.T",
       "name": "Recruit Holdings",
-      "score": 71,
+      "score": 70,
       "market": "JP"
     },
     {
       "ticker": "6367.T",
       "name": "Daikin Industries",
-      "score": 71,
-      "market": "JP"
-    },
-    {
-      "ticker": "6273.T",
-      "name": "SMC Corp",
-      "score": 71,
-      "market": "JP"
-    },
-    {
-      "ticker": "BARC.L",
-      "name": "Barclays",
       "score": 70,
-      "market": "UK"
+      "market": "JP"
+    },
+    {
+      "ticker": "0005.HK",
+      "name": "HSBC Holdings",
+      "score": 70,
+      "market": "HK"
     }
   ],
   "topMidCap": [
@@ -213,16 +213,16 @@
       "market": "UK"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "SDR.L",
       "name": "Schroders",
       "score": 70,
       "market": "UK"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 69,
-      "market": "US"
     },
     {
       "ticker": "BNZL.L",
@@ -249,22 +249,22 @@
       "market": "US"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 67,
-      "market": "UK"
-    },
-    {
       "ticker": "NWL",
       "name": "Newell Brands",
-      "score": 66,
+      "score": 67,
       "market": "US"
     },
     {
       "ticker": "PENN",
       "name": "Penn Entertainment",
-      "score": 66,
+      "score": 67,
       "market": "US"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 67,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -329,7 +329,7 @@
       "market": "UK"
     }
   ],
-  "totalStocks": 862,
+  "totalStocks": 861,
   "avgScore": 52,
-  "bearishAlertCount": 272
+  "bearishAlertCount": 263
 }
