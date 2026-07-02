@@ -50,6 +50,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "IAG.L",
       "name": "IAG",
       "score": 72,
@@ -62,68 +69,47 @@
       "score": 72,
       "market": "UK",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "MOS",
       "name": "Mosaic Company",
-      "score": 23,
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "RHM.DE",
       "name": "Rheinmetall",
-      "score": 24,
+      "score": 26,
       "market": "DE",
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "DKNG",
       "name": "DraftKings",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "LI",
-      "name": "Li Auto",
-      "score": 27,
+      "score": 28,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "MSTR",
       "name": "MicroStrategy",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
       "score": 29,
       "market": "US",
       "capCategory": "Large"
@@ -136,9 +122,23 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ACN",
-      "name": "Accenture",
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
       "score": 30,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "3690.HK",
+      "name": "Meituan",
+      "score": 31,
+      "market": "HK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "LI",
+      "name": "Li Auto",
+      "score": 31,
       "market": "US",
       "capCategory": "Large"
     }
@@ -157,14 +157,20 @@
       "market": "JP"
     },
     {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "IAG.L",
       "name": "IAG",
       "score": 72,
       "market": "UK"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
+      "ticker": "ELV",
+      "name": "Elevance Health",
       "score": 71,
       "market": "US"
     },
@@ -175,34 +181,28 @@
       "market": "UK"
     },
     {
-      "ticker": "BARC.L",
-      "name": "Barclays",
+      "ticker": "UNH",
+      "name": "UnitedHealth",
       "score": 70,
-      "market": "UK"
+      "market": "US"
     },
     {
-      "ticker": "ADANIENT.NS",
-      "name": "Adani Enterprises",
+      "ticker": "MRNA",
+      "name": "Moderna",
       "score": 70,
-      "market": "IN"
+      "market": "US"
     },
     {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
+      "ticker": "SPG",
+      "name": "Simon Property Group",
       "score": 70,
-      "market": "JP"
+      "market": "US"
     },
     {
-      "ticker": "6367.T",
-      "name": "Daikin Industries",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 70,
-      "market": "JP"
-    },
-    {
-      "ticker": "0005.HK",
-      "name": "HSBC Holdings",
-      "score": 70,
-      "market": "HK"
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -231,6 +231,18 @@
       "market": "UK"
     },
     {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "FRAS.L",
       "name": "Frasers Group",
       "score": 68,
@@ -243,28 +255,16 @@
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
       "score": 67,
       "market": "US"
     },
     {
-      "ticker": "NWL",
-      "name": "Newell Brands",
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "PENN",
-      "name": "Penn Entertainment",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 67,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -329,7 +329,7 @@
       "market": "UK"
     }
   ],
-  "totalStocks": 861,
-  "avgScore": 52,
-  "bearishAlertCount": 263
+  "totalStocks": 862,
+  "avgScore": 53,
+  "bearishAlertCount": 262
 }
