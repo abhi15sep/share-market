@@ -8,6 +8,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
       "score": 72,
@@ -36,17 +43,17 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "MO",
+      "name": "Altria Group",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "6273.T",
       "name": "SMC Corp",
       "score": 71,
       "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 70,
-      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -62,20 +69,13 @@
       "score": 70,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "RHM.DE",
       "name": "Rheinmetall",
-      "score": 21,
+      "score": 22,
       "market": "DE",
       "capCategory": "Large"
     },
@@ -91,13 +91,6 @@
       "name": "Mosaic Company",
       "score": 24,
       "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
-      "score": 27,
-      "market": "UK",
       "capCategory": "Mid"
     },
     {
@@ -129,6 +122,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "BRBY.L",
+      "name": "Burberry",
+      "score": 30,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "GWRE",
       "name": "Guidewire Software",
       "score": 30,
@@ -149,6 +149,12 @@
       "name": "HSBC Holdings",
       "score": 74,
       "market": "HK"
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 72,
+      "market": "US"
     },
     {
       "ticker": "SMT.L",
@@ -175,16 +181,16 @@
       "market": "US"
     },
     {
+      "ticker": "MO",
+      "name": "Altria Group",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "6273.T",
       "name": "SMC Corp",
       "score": 71,
       "market": "JP"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 70,
-      "market": "US"
     },
     {
       "ticker": "MRNA",
@@ -195,12 +201,6 @@
     {
       "ticker": "SPG",
       "name": "Simon Property Group",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
       "score": 70,
       "market": "US"
     }
@@ -243,12 +243,6 @@
       "market": "UK"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 68,
-      "market": "UK"
-    },
-    {
       "ticker": "FNB",
       "name": "F.N.B. Corp",
       "score": 67,
@@ -265,13 +259,19 @@
       "name": "WillScot Holdings",
       "score": 67,
       "market": "US"
+    },
+    {
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
+      "score": 67,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 70,
+      "score": 68,
       "market": "UK"
     },
     {
@@ -305,28 +305,28 @@
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 65,
-      "market": "UK"
-    },
-    {
       "ticker": "SUPR.L",
       "name": "Supermarket Income REIT",
-      "score": 62,
+      "score": 63,
       "market": "UK"
     },
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 61,
+      "score": 62,
       "market": "UK"
     },
     {
-      "ticker": "CTRA",
-      "name": "Coterra Energy",
-      "score": 60,
-      "market": "US"
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 61,
+      "market": "UK"
     }
   ],
   "totalStocks": 862,
