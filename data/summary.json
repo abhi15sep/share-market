@@ -8,6 +8,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "UNH",
       "name": "UnitedHealth",
       "score": 72,
@@ -43,20 +50,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MO",
-      "name": "Altria Group",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "6273.T",
-      "name": "SMC Corp",
-      "score": 71,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MRNA",
       "name": "Moderna",
       "score": 70,
@@ -66,6 +59,13 @@
     {
       "ticker": "SPG",
       "name": "Simon Property Group",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -136,11 +136,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ENT.L",
-      "name": "Entain",
+      "ticker": "LI",
+      "name": "Li Auto",
       "score": 31,
-      "market": "UK",
-      "capCategory": "Mid"
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -181,18 +181,6 @@
       "market": "US"
     },
     {
-      "ticker": "MO",
-      "name": "Altria Group",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "6273.T",
-      "name": "SMC Corp",
-      "score": 71,
-      "market": "JP"
-    },
-    {
       "ticker": "MRNA",
       "name": "Moderna",
       "score": 70,
@@ -203,9 +191,27 @@
       "name": "Simon Property Group",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX",
+      "score": 69,
+      "market": "US"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 73,
+      "market": "US"
+    },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
@@ -213,8 +219,20 @@
       "market": "US"
     },
     {
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
+      "score": 69,
+      "market": "UK"
+    },
+    {
       "ticker": "AJB.L",
       "name": "AJ Bell",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
       "score": 69,
       "market": "UK"
     },
@@ -243,31 +261,19 @@
       "market": "UK"
     },
     {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 67,
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 68,
       "market": "UK"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 69,
+      "market": "UK"
+    },
     {
       "ticker": "CURY.L",
       "name": "Currys",
@@ -275,20 +281,8 @@
       "market": "UK"
     },
     {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 68,
-      "market": "UK"
-    },
-    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
       "score": 67,
       "market": "UK"
     },
@@ -305,8 +299,14 @@
       "market": "UK"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
       "score": 63,
       "market": "UK"
     },
@@ -317,19 +317,19 @@
       "market": "UK"
     },
     {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 62,
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
       "score": 61,
       "market": "UK"
     }
   ],
   "totalStocks": 862,
   "avgScore": 52,
-  "bearishAlertCount": 271
+  "bearishAlertCount": 269
 }
