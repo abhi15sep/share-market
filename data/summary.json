@@ -15,17 +15,17 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
       "score": 72,
       "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ADANIENT.NS",
-      "name": "Adani Enterprises",
-      "score": 72,
-      "market": "IN",
       "capCategory": "Large"
     },
     {
@@ -75,7 +75,7 @@
     {
       "ticker": "RHM.DE",
       "name": "Rheinmetall",
-      "score": 22,
+      "score": 23,
       "market": "DE",
       "capCategory": "Large"
     },
@@ -108,6 +108,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "DKNG",
+      "name": "DraftKings",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "3690.HK",
       "name": "Meituan",
       "score": 29,
@@ -134,13 +141,6 @@
       "score": 30,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "LI",
-      "name": "Li Auto",
-      "score": 31,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -151,16 +151,16 @@
       "market": "HK"
     },
     {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
       "score": 72,
       "market": "UK"
-    },
-    {
-      "ticker": "ADANIENT.NS",
-      "name": "Adani Enterprises",
-      "score": 72,
-      "market": "IN"
     },
     {
       "ticker": "9984.T",
@@ -193,14 +193,14 @@
       "market": "US"
     },
     {
-      "ticker": "FROG",
-      "name": "JFrog",
-      "score": 70,
+      "ticker": "CSX",
+      "name": "CSX",
+      "score": 69,
       "market": "US"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 69,
       "market": "US"
     }
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 862,
   "avgScore": 52,
-  "bearishAlertCount": 264
+  "bearishAlertCount": 265
 }
