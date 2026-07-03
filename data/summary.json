@@ -1,24 +1,17 @@
 {
   "topOverall": [
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 75,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "0005.HK",
       "name": "HSBC Holdings",
       "score": 74,
       "market": "HK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 72,
-      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -69,6 +62,13 @@
       "score": 70,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
@@ -108,10 +108,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 28,
-      "market": "US",
+      "ticker": "3690.HK",
+      "name": "Meituan",
+      "score": 29,
+      "market": "HK",
       "capCategory": "Large"
     },
     {
@@ -149,12 +149,6 @@
       "name": "HSBC Holdings",
       "score": 74,
       "market": "HK"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 72,
-      "market": "US"
     },
     {
       "ticker": "SMT.L",
@@ -199,24 +193,30 @@
       "market": "US"
     },
     {
-      "ticker": "CSX",
-      "name": "CSX",
+      "ticker": "FROG",
+      "name": "JFrog",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
       "score": 69,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 73,
-      "market": "US"
-    },
-    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 70,
+      "market": "UK"
     },
     {
       "ticker": "BNZL.L",
@@ -237,8 +237,8 @@
       "market": "UK"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
       "score": 69,
       "market": "UK"
     },
@@ -255,19 +255,31 @@
       "market": "US"
     },
     {
-      "ticker": "SDR.L",
-      "name": "Schroders",
+      "ticker": "FRAS.L",
+      "name": "Frasers Group",
       "score": 68,
       "market": "UK"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
+      "ticker": "SDR.L",
+      "name": "Schroders",
       "score": 68,
       "market": "UK"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 75,
+      "market": "FR"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 70,
+      "market": "UK"
+    },
     {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
@@ -275,22 +287,10 @@
       "market": "UK"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 67,
-      "market": "FR"
     },
     {
       "ticker": "ITM.L",
@@ -299,27 +299,27 @@
       "market": "UK"
     },
     {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 66,
-      "market": "UK"
-    },
-    {
       "ticker": "ASHM.L",
       "name": "Ashmore Group",
-      "score": 63,
+      "score": 64,
       "market": "UK"
     },
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 62,
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 63,
       "market": "UK"
     },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 62,
+      "score": 63,
       "market": "UK"
     },
     {
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 862,
   "avgScore": 52,
-  "bearishAlertCount": 269
+  "bearishAlertCount": 264
 }
