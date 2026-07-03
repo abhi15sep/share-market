@@ -15,13 +15,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage",
       "score": 72,
@@ -39,6 +32,20 @@
       "ticker": "ELV",
       "name": "Elevance Health",
       "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "6273.T",
+      "name": "SMC Corp",
+      "score": 71,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
@@ -62,34 +69,27 @@
       "score": 70,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "RHM.DE",
       "name": "Rheinmetall",
-      "score": 23,
+      "score": 22,
       "market": "DE",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "MOS",
       "name": "Mosaic Company",
       "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -115,13 +115,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "3690.HK",
-      "name": "Meituan",
-      "score": 29,
-      "market": "HK",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MSTR",
       "name": "MicroStrategy",
       "score": 29,
@@ -141,6 +134,13 @@
       "score": 30,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "LI",
+      "name": "Li Auto",
+      "score": 31,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -149,12 +149,6 @@
       "name": "HSBC Holdings",
       "score": 74,
       "market": "HK"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 72,
-      "market": "US"
     },
     {
       "ticker": "SMT.L",
@@ -172,6 +166,18 @@
       "ticker": "ELV",
       "name": "Elevance Health",
       "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "6273.T",
+      "name": "SMC Corp",
+      "score": 71,
+      "market": "JP"
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 70,
       "market": "US"
     },
     {
@@ -193,16 +199,10 @@
       "market": "US"
     },
     {
-      "ticker": "CSX",
-      "name": "CSX",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 69,
-      "market": "US"
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 70,
+      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 862,
   "avgScore": 52,
-  "bearishAlertCount": 265
+  "bearishAlertCount": 264
 }
