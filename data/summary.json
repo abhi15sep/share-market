@@ -1,38 +1,31 @@
 {
   "topOverall": [
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "EZJ.L",
       "name": "easyJet",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
       "score": 71,
       "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SPG",
-      "name": "Simon Property Group",
-      "score": 70,
-      "market": "US",
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 71,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
@@ -43,30 +36,37 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 70,
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 69,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SDR.L",
+      "name": "Schroders",
+      "score": 69,
+      "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 70,
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 69,
       "market": "JP",
       "capCategory": "Large"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CSX",
-      "name": "CSX",
-      "score": 69,
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "score": 68,
       "market": "US",
       "capCategory": "Large"
     }
@@ -75,21 +75,28 @@
     {
       "ticker": "MOS",
       "name": "Mosaic Company",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
       "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 25,
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 24,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "RHM.DE",
       "name": "Rheinmetall",
-      "score": 26,
+      "score": 27,
       "market": "DE",
       "capCategory": "Large"
     },
@@ -101,8 +108,15 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
+      "ticker": "DKNG",
+      "name": "DraftKings",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
@@ -115,13 +129,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "PERSISTENT.BO",
       "name": "Persistent Systems",
       "score": 29,
@@ -129,44 +136,25 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics",
       "score": 29,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 30,
-      "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 72,
+      "market": "UK"
+    },
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
       "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "SPG",
-      "name": "Simon Property Group",
-      "score": 70,
-      "market": "US"
+      "market": "JP"
     },
     {
       "ticker": "ZION",
@@ -175,20 +163,8 @@
       "market": "US"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 70,
-      "market": "JP"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "CSX",
-      "name": "CSX",
+      "ticker": "MU",
+      "name": "Micron",
       "score": 69,
       "market": "US"
     },
@@ -199,9 +175,33 @@
       "market": "US"
     },
     {
-      "ticker": "SEIC",
-      "name": "SEI Investments",
+      "ticker": "6971.T",
+      "name": "Kyocera",
       "score": 69,
+      "market": "JP"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "MET",
+      "name": "MetLife",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "UAL",
+      "name": "United Airlines",
+      "score": 68,
       "market": "US"
     }
   ],
@@ -209,65 +209,71 @@
     {
       "ticker": "EZJ.L",
       "name": "easyJet",
-      "score": 71,
-      "market": "UK"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 69,
+      "score": 73,
       "market": "UK"
     },
     {
       "ticker": "IGG.L",
       "name": "IG Group",
+      "score": 71,
+      "market": "UK"
+    },
+    {
+      "ticker": "SDR.L",
+      "name": "Schroders",
       "score": 69,
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "PENN",
-      "name": "Penn Entertainment",
-      "score": 68,
-      "market": "US"
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "ITV.L",
+      "name": "ITV",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 67,
+      "market": "UK"
     },
     {
       "ticker": "FNB",
       "name": "F.N.B. Corp",
-      "score": 67,
+      "score": 66,
       "market": "US"
     },
     {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
-      "score": 67,
+      "ticker": "NWL",
+      "name": "Newell Brands",
+      "score": 66,
       "market": "US"
     },
     {
-      "ticker": "WSC",
-      "name": "WillScot Holdings",
-      "score": 67,
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 66,
       "market": "US"
-    },
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 67,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 67,
+      "market": "UK"
+    },
     {
       "ticker": "ITM.L",
       "name": "ITM Power",
@@ -293,20 +299,14 @@
       "market": "UK"
     },
     {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 62,
-      "market": "UK"
-    },
-    {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 62,
+      "score": 63,
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
+      "ticker": "CURY.L",
+      "name": "Currys",
       "score": 62,
       "market": "UK"
     },
@@ -317,10 +317,10 @@
       "market": "UK"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 61,
-      "market": "UK"
+      "ticker": "CTRA",
+      "name": "Coterra Energy",
+      "score": 60,
+      "market": "US"
     },
     {
       "ticker": "LC",
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 862,
-  "avgScore": 52,
-  "bearishAlertCount": 274
+  "avgScore": 50,
+  "bearishAlertCount": 299
 }
