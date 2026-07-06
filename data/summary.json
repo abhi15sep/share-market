@@ -29,6 +29,34 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VTRS",
+      "name": "Viatris",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "9984.T",
       "name": "SoftBank Group",
       "score": 71,
@@ -36,38 +64,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
+      "ticker": "MRNA",
+      "name": "Moderna",
       "score": 70,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "6971.T",
-      "name": "Kyocera",
-      "score": 69,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "0005.HK",
-      "name": "HSBC Holdings",
-      "score": 69,
-      "market": "HK",
       "capCategory": "Large"
     }
   ],
@@ -82,36 +82,22 @@
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 25,
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 25,
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 26,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "BRBY.L",
       "name": "Burberry",
       "score": 27,
       "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 27,
-      "market": "US",
       "capCategory": "Mid"
     },
     {
@@ -136,10 +122,24 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
+      "ticker": "DKNG",
+      "name": "DraftKings",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
       "score": 30,
       "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "PAYTM.BO",
+      "name": "Paytm (One97)",
+      "score": 31,
+      "market": "IN",
       "capCategory": "Large"
     }
   ],
@@ -151,57 +151,57 @@
       "market": "UK"
     },
     {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "VTRS",
+      "name": "Viatris",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "9984.T",
       "name": "SoftBank Group",
       "score": 71,
       "market": "JP"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
+      "ticker": "MRNA",
+      "name": "Moderna",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 69,
+      "ticker": "GL",
+      "name": "Globe Life",
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "6971.T",
-      "name": "Kyocera",
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 69,
-      "market": "JP"
-    },
-    {
-      "ticker": "0005.HK",
-      "name": "HSBC Holdings",
-      "score": 69,
-      "market": "HK"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 68,
       "market": "US"
     },
     {
       "ticker": "GEV",
       "name": "GE Vernova",
-      "score": 68,
+      "score": 69,
       "market": "US"
     },
     {
       "ticker": "MET",
       "name": "MetLife",
-      "score": 68,
+      "score": 69,
       "market": "US"
     },
     {
       "ticker": "DAL",
       "name": "Delta Air Lines",
-      "score": 68,
+      "score": 69,
       "market": "US"
     }
   ],
@@ -227,7 +227,25 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 70,
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "S",
+      "name": "SentinelOne",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 68,
       "market": "US"
     },
     {
@@ -237,33 +255,15 @@
       "market": "UK"
     },
     {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
+      "ticker": "CROX",
+      "name": "Crocs",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 67,
-      "market": "UK"
     },
     {
       "ticker": "NWL",
       "name": "Newell Brands",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 66,
+      "score": 67,
       "market": "US"
     }
   ],
@@ -281,12 +281,6 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 68,
-      "market": "FR"
-    },
-    {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
       "score": 67,
@@ -297,6 +291,12 @@
       "name": "ITM Power",
       "score": 66,
       "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 66,
+      "market": "FR"
     },
     {
       "ticker": "HMSO.L",
@@ -323,13 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "LC",
-      "name": "LendingClub",
+      "ticker": "LTC",
+      "name": "LTC Properties",
       "score": 60,
       "market": "US"
     }
   ],
   "totalStocks": 862,
-  "avgScore": 51,
-  "bearishAlertCount": 302
+  "avgScore": 52,
+  "bearishAlertCount": 299
 }
