@@ -29,6 +29,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 73,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "ZION",
       "name": "Zions Bancorporation",
       "score": 71,
@@ -36,8 +43,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "VTRS",
-      "name": "Viatris",
+      "ticker": "GL",
+      "name": "Globe Life",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -55,13 +62,6 @@
       "score": 71,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 71,
-      "market": "JP",
-      "capCategory": "Large"
     },
     {
       "ticker": "MRNA",
@@ -87,13 +87,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "BRBY.L",
       "name": "Burberry",
       "score": 27,
@@ -113,6 +106,13 @@
       "score": 28,
       "market": "IN",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "PERSISTENT.BO",
@@ -157,16 +157,10 @@
       "market": "US"
     },
     {
-      "ticker": "VTRS",
-      "name": "Viatris",
+      "ticker": "GL",
+      "name": "Globe Life",
       "score": 71,
       "market": "US"
-    },
-    {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 71,
-      "market": "JP"
     },
     {
       "ticker": "MRNA",
@@ -175,10 +169,16 @@
       "market": "US"
     },
     {
-      "ticker": "GL",
-      "name": "Globe Life",
+      "ticker": "MET",
+      "name": "MetLife",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 70,
+      "market": "JP"
     },
     {
       "ticker": "CSCO",
@@ -193,14 +193,14 @@
       "market": "US"
     },
     {
-      "ticker": "MET",
-      "name": "MetLife",
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 69,
       "market": "US"
     }
@@ -239,6 +239,12 @@
     {
       "ticker": "S",
       "name": "SentinelOne",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "NWL",
+      "name": "Newell Brands",
       "score": 68,
       "market": "US"
     },
@@ -259,15 +265,15 @@
       "name": "Crocs",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "NWL",
-      "name": "Newell Brands",
-      "score": 67,
-      "market": "US"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 73,
+      "market": "FR"
+    },
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
@@ -291,12 +297,6 @@
       "name": "ITM Power",
       "score": 66,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 66,
-      "market": "FR"
     },
     {
       "ticker": "HMSO.L",
@@ -323,10 +323,10 @@
       "market": "UK"
     },
     {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 60,
-      "market": "US"
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 61,
+      "market": "DE"
     }
   ],
   "totalStocks": 862,
