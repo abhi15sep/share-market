@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-07T19:09:58.430Z",
+  "lastUpdated": "2026-07-07T21:32:07.294Z",
   "stockCount": 862,
-  "bearishAlerts": 264,
-  "newsCount": 595,
+  "bearishAlerts": 271,
+  "newsCount": 700,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
-      "price": 7499.06,
-      "sma50": 7410.55,
-      "sma200": 6952.06,
-      "changeFromHigh": -1.45,
-      "distributionDays": 6,
-      "regime": "correction",
-      "signal": "6 distribution days in 25 sessions — selling pressure"
+      "price": 7503.85,
+      "sma50": 7410.64,
+      "sma200": 6952.08,
+      "changeFromHigh": -1.39,
+      "distributionDays": 5,
+      "regime": "bull",
+      "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "uk": {
       "index": "FTSE 100",

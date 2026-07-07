@@ -8,6 +8,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "PLUS.L",
       "name": "Plus500",
       "score": 72,
@@ -29,44 +36,37 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "NET",
+      "name": "Cloudflare",
       "score": 71,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "D",
-      "name": "Dominion Energy",
-      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ZION",
       "name": "Zions Bancorporation",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 69,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "MET",
       "name": "MetLife",
-      "score": 69,
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     }
@@ -75,13 +75,6 @@
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "MOS",
-      "name": "Mosaic Company",
       "score": 23,
       "market": "US",
       "capCategory": "Mid"
@@ -92,6 +85,13 @@
       "score": 23,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "RHM.DE",
@@ -108,22 +108,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "WHR",
-      "name": "Whirlpool",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "JOBY",
       "name": "Joby Aviation",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "TMDX",
-      "name": "TransMedics Group",
       "score": 29,
       "market": "US",
       "capCategory": "Mid"
@@ -138,9 +124,23 @@
     {
       "ticker": "DKNG",
       "name": "DraftKings",
-      "score": 30,
+      "score": 31,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 31,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CHWY",
+      "name": "Chewy",
+      "score": 32,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -151,57 +151,57 @@
       "market": "JP"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "D",
-      "name": "Dominion Energy",
-      "score": 70,
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "ZION",
       "name": "Zions Bancorporation",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 69,
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "MET",
       "name": "MetLife",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "TRV",
-      "name": "Travelers",
-      "score": 69,
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "SPG",
       "name": "Simon Property Group",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "CFG",
-      "name": "Citizens Financial",
+      "ticker": "UNH",
+      "name": "UnitedHealth",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 68,
+      "ticker": "UPS",
+      "name": "UPS",
+      "score": 69,
       "market": "US"
     }
   ],
@@ -211,6 +211,12 @@
       "name": "Schroders",
       "score": 75,
       "market": "UK"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 73,
+      "market": "US"
     },
     {
       "ticker": "PLUS.L",
@@ -225,15 +231,9 @@
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 71,
-      "market": "US"
-    },
-    {
       "ticker": "MTCH",
       "name": "Match Group",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
@@ -261,8 +261,8 @@
       "market": "UK"
     },
     {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 67,
       "market": "US"
     }
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 862,
-  "avgScore": 51,
-  "bearishAlertCount": 264
+  "avgScore": 52,
+  "bearishAlertCount": 271
 }
