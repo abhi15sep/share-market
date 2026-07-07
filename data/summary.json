@@ -8,10 +8,24 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "SDR.L",
+      "name": "Schroders",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "8316.T",
       "name": "Sumitomo Mitsui Financial",
       "score": 72,
       "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "score": 71,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -50,22 +64,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MRNA",
       "name": "Moderna",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MET",
-      "name": "MetLife",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -103,7 +103,7 @@
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -122,24 +122,24 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 30,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit",
-      "score": 30,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "GWRE",
       "name": "Guidewire Software",
       "score": 31,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corp",
+      "score": 31,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "0017.HK",
+      "name": "New World Development",
+      "score": 32,
+      "market": "HK",
       "capCategory": "Large"
     }
   ],
@@ -157,6 +157,12 @@
       "market": "JP"
     },
     {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "CSCO",
       "name": "Cisco",
       "score": 71,
@@ -172,12 +178,6 @@
       "ticker": "GL",
       "name": "Globe Life",
       "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 70,
       "market": "US"
     },
     {
@@ -207,6 +207,12 @@
   ],
   "topMidCap": [
     {
+      "ticker": "SDR.L",
+      "name": "Schroders",
+      "score": 72,
+      "market": "UK"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 71,
@@ -219,16 +225,16 @@
       "market": "US"
     },
     {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 70,
-      "market": "UK"
-    },
-    {
       "ticker": "S",
       "name": "SentinelOne",
       "score": 69,
       "market": "US"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 69,
+      "market": "UK"
     },
     {
       "ticker": "TATE.L",
@@ -249,22 +255,16 @@
       "market": "US"
     },
     {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 68,
-      "market": "UK"
-    },
-    {
       "ticker": "CROX",
       "name": "Crocs",
       "score": 67,
       "market": "US"
+    },
+    {
+      "ticker": "BLND.L",
+      "name": "British Land",
+      "score": 67,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -293,33 +293,21 @@
       "market": "UK"
     },
     {
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 64,
+      "market": "UK"
+    },
+    {
       "ticker": "HMSO.L",
       "name": "Hammerson",
       "score": 64,
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 62,
-      "market": "UK"
-    },
-    {
       "ticker": "MONY.L",
       "name": "Moneysupermarket.com",
-      "score": 62,
+      "score": 63,
       "market": "UK"
     },
     {
@@ -327,9 +315,21 @@
       "name": "LTC Properties",
       "score": 60,
       "market": "US"
+    },
+    {
+      "ticker": "LC",
+      "name": "LendingClub",
+      "score": 60,
+      "market": "US"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 60,
+      "market": "UK"
     }
   ],
   "totalStocks": 862,
   "avgScore": 51,
-  "bearishAlertCount": 294
+  "bearishAlertCount": 292
 }
