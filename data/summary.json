@@ -3,13 +3,20 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 72,
+      "score": 73,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "NET",
       "name": "Cloudflare",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -22,22 +29,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "UPS",
-      "name": "UPS",
+      "ticker": "ALL",
+      "name": "Allstate",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -57,6 +50,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "BEZ.L",
       "name": "Beazley",
       "score": 70,
@@ -64,8 +64,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
+      "ticker": "UPS",
+      "name": "UPS",
       "score": 69,
       "market": "US",
       "capCategory": "Large"
@@ -108,18 +108,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OCDO.L",
-      "name": "Ocado",
-      "score": 28,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "RMS.PA",
       "name": "Hermes",
       "score": 29,
       "market": "FR",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "OCDO.L",
+      "name": "Ocado",
+      "score": 29,
+      "market": "UK",
+      "capCategory": "Small"
     },
     {
       "ticker": "JOBY",
@@ -136,11 +136,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "AML.L",
-      "name": "Aston Martin",
+      "ticker": "ENT.L",
+      "name": "Entain",
       "score": 31,
       "market": "UK",
-      "capCategory": "Small"
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -151,20 +151,20 @@
       "market": "US"
     },
     {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "ZION",
       "name": "Zions Bancorporation",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "UPS",
-      "name": "UPS",
+      "ticker": "ALL",
+      "name": "Allstate",
       "score": 70,
       "market": "US"
     },
@@ -181,8 +181,8 @@
       "market": "US"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
+      "ticker": "UPS",
+      "name": "UPS",
       "score": 69,
       "market": "US"
     },
@@ -193,8 +193,8 @@
       "market": "US"
     },
     {
-      "ticker": "ALL",
-      "name": "Allstate",
+      "ticker": "CFG",
+      "name": "Citizens Financial",
       "score": 69,
       "market": "US"
     },
@@ -209,13 +209,13 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 72,
+      "score": 73,
       "market": "US"
     },
     {
       "ticker": "MTCH",
       "name": "Match Group",
-      "score": 71,
+      "score": 70,
       "market": "US"
     },
     {
@@ -225,10 +225,28 @@
       "market": "UK"
     },
     {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 69,
+      "market": "UK"
+    },
+    {
       "ticker": "NWL",
       "name": "Newell Brands",
       "score": 68,
       "market": "US"
+    },
+    {
+      "ticker": "JET2.L",
+      "name": "Jet2",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "ITRK.L",
+      "name": "Intertek Group",
+      "score": 68,
+      "market": "UK"
     },
     {
       "ticker": "ETSY",
@@ -243,35 +261,17 @@
       "market": "UK"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 67,
-      "market": "UK"
-    },
-    {
       "ticker": "FNB",
       "name": "F.N.B. Corp",
       "score": 66,
       "market": "US"
-    },
-    {
-      "ticker": "JET2.L",
-      "name": "Jet2",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
-      "score": 66,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "ITM.L",
       "name": "ITM Power",
-      "score": 67,
+      "score": 68,
       "market": "UK"
     },
     {
@@ -287,9 +287,33 @@
       "market": "UK"
     },
     {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 65,
+      "market": "UK"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 62,
       "market": "UK"
     },
     {
@@ -299,37 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
+      "ticker": "TSTL.L",
+      "name": "Tristel",
       "score": 61,
       "market": "UK"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "CTRA",
-      "name": "Coterra Energy",
-      "score": 60,
-      "market": "US"
     }
   ],
   "totalStocks": 862,
   "avgScore": 51,
-  "bearishAlertCount": 290
+  "bearishAlertCount": 292
 }
