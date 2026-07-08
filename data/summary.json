@@ -1,6 +1,20 @@
 {
   "topOverall": [
     {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 72,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 71,
@@ -10,81 +24,67 @@
     {
       "ticker": "BEZ.L",
       "name": "Beazley",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "JET2.L",
-      "name": "Jet2",
-      "score": 69,
+      "score": 71,
       "market": "UK",
       "capCategory": "Mid"
     },
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 69,
+      "score": 71,
       "market": "UK",
       "capCategory": "Small"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 69,
-      "market": "UK",
-      "capCategory": "Mid"
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 71,
+      "market": "JP",
+      "capCategory": "Large"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 69,
-      "market": "JP",
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 70,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MOS",
       "name": "Mosaic Company",
-      "score": 22,
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "ZG",
@@ -108,17 +108,24 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 26,
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 27,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
       "score": 27,
-      "market": "DE",
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 27,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -129,21 +136,20 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "UPST",
-      "name": "Upstart",
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
       "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "COF",
-      "name": "Capital One",
-      "score": 28,
-      "market": "US",
+      "market": "DE",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 72,
+      "market": "JP"
+    },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
@@ -151,34 +157,34 @@
       "market": "US"
     },
     {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 71,
+      "market": "JP"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "STT",
       "name": "State Street",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 69,
+      "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 69,
-      "market": "JP"
-    },
-    {
-      "ticker": "6367.T",
-      "name": "Daikin Industries",
-      "score": 69,
-      "market": "JP"
     },
     {
       "ticker": "UNH",
@@ -187,35 +193,35 @@
       "market": "US"
     },
     {
-      "ticker": "ELV",
-      "name": "Elevance Health",
+      "ticker": "ALL",
+      "name": "Allstate",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
+      "ticker": "ELV",
+      "name": "Elevance Health",
       "score": 68,
-      "market": "JP"
-    },
-    {
-      "ticker": "0005.HK",
-      "name": "HSBC Holdings",
-      "score": 68,
-      "market": "HK"
+      "market": "US"
     }
   ],
   "topMidCap": [
     {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 72,
+      "market": "UK"
+    },
+    {
       "ticker": "BEZ.L",
       "name": "Beazley",
-      "score": 70,
+      "score": 71,
       "market": "UK"
     },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
@@ -225,14 +231,14 @@
       "market": "UK"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 69,
+      "ticker": "PLUS.L",
+      "name": "Plus500",
+      "score": 68,
       "market": "UK"
     },
     {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
       "score": 67,
       "market": "UK"
     },
@@ -243,8 +249,8 @@
       "market": "US"
     },
     {
-      "ticker": "LAND.L",
-      "name": "Land Securities",
+      "ticker": "SDR.L",
+      "name": "Schroders",
       "score": 66,
       "market": "UK"
     },
@@ -255,81 +261,75 @@
       "market": "UK"
     },
     {
-      "ticker": "ITV.L",
-      "name": "ITV",
-      "score": 64,
+      "ticker": "MNG.L",
+      "name": "M&G",
+      "score": 65,
       "market": "UK"
-    },
-    {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 63,
-      "market": "US"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 69,
+      "score": 71,
       "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 70,
+      "market": "FR"
     },
     {
       "ticker": "ITM.L",
       "name": "ITM Power",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
       "score": 68,
       "market": "UK"
     },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 67,
+      "score": 68,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 67,
-      "market": "FR"
     },
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 64,
+      "score": 65,
       "market": "UK"
     },
     {
       "ticker": "SUPR.L",
       "name": "Supermarket Income REIT",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 62,
+      "score": 64,
       "market": "UK"
     },
     {
       "ticker": "DOM.L",
       "name": "Domino's Pizza Group",
-      "score": 61,
+      "score": 63,
       "market": "UK"
     },
     {
-      "ticker": "TSTL.L",
-      "name": "Tristel",
-      "score": 61,
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "SNR.L",
+      "name": "Senior plc",
+      "score": 63,
       "market": "UK"
     }
   ],
   "totalStocks": 862,
-  "avgScore": 49,
-  "bearishAlertCount": 312
+  "avgScore": 50,
+  "bearishAlertCount": 302
 }
