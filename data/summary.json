@@ -3,7 +3,7 @@
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 73,
+      "score": 74,
       "market": "US",
       "capCategory": "Large"
     },
@@ -13,13 +13,6 @@
       "score": 73,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "VLO",
@@ -36,10 +29,10 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 72,
-      "market": "JP",
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 71,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -69,6 +62,13 @@
       "score": 71,
       "market": "UK",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -108,10 +108,10 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 28,
-      "market": "DE",
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 27,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -122,10 +122,10 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 28,
-      "market": "US",
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 29,
+      "market": "DE",
       "capCategory": "Large"
     },
     {
@@ -136,24 +136,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Mid"
+      "ticker": "OCDO.L",
+      "name": "Ocado",
+      "score": 30,
+      "market": "UK",
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 72,
+      "score": 74,
       "market": "US"
     },
     {
@@ -163,10 +157,10 @@
       "market": "US"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 72,
-      "market": "JP"
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "MU",
@@ -181,12 +175,6 @@
       "market": "US"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 71,
-      "market": "JP"
-    },
-    {
       "ticker": "NET",
       "name": "Cloudflare",
       "score": 70,
@@ -199,10 +187,22 @@
       "market": "US"
     },
     {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "WBS",
       "name": "Webster Financial",
       "score": 69,
       "market": "US"
+    },
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 69,
+      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -275,16 +275,16 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 70,
-      "market": "FR"
-    },
-    {
       "ticker": "ITM.L",
       "name": "ITM Power",
       "score": 69,
       "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 69,
+      "market": "FR"
     },
     {
       "ticker": "MONY.L",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 862,
   "avgScore": 51,
-  "bearishAlertCount": 307
+  "bearishAlertCount": 309
 }
