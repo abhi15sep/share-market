@@ -1,173 +1,212 @@
 {
   "topOverall": [
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 72,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 71,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
       "score": 70,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Small"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
       "score": 70,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 69,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 70,
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 69,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "6098.T",
+      "name": "Recruit Holdings",
+      "score": 69,
+      "market": "JP",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "9983.T",
+      "name": "Fast Retailing (Uniqlo)",
+      "score": 69,
+      "market": "JP",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "score": 68,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 68,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "SNR.L",
+      "name": "Senior plc",
+      "score": 68,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "2802.T",
+      "name": "Ajinomoto",
+      "score": 68,
+      "market": "JP",
+      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "MOS",
-      "name": "Mosaic Company",
-      "score": 20,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
-      "score": 26,
-      "market": "IN",
-      "capCategory": "Large"
-    },
     {
       "ticker": "JOBY",
       "name": "Joby Aviation",
       "score": 26,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Small"
     },
     {
-      "ticker": "UPST",
-      "name": "Upstart",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
+      "ticker": "MOS",
+      "name": "Mosaic Company",
       "score": 28,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "EPAM",
+      "name": "EPAM Systems",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "score": 30,
       "market": "DE",
-      "capCategory": "Large"
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "OCDO.L",
+      "name": "Ocado",
+      "score": 30,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "CHWY",
+      "name": "Chewy",
+      "score": 30,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "TMDX",
+      "name": "TransMedics Group",
+      "score": 30,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corp",
+      "score": 30,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "BSX",
+      "name": "Boston Scientific",
+      "score": 30,
+      "market": "US",
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 72,
-      "market": "JP"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 71,
-      "market": "JP"
-    },
-    {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 70,
+      "score": 69,
       "market": "US"
     },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "score": 65,
+      "market": "US"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "score": 63,
+      "market": "US"
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "score": 62,
+      "market": "US"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "score": 60,
+      "market": "US"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "score": 59,
+      "market": "US"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 59,
+      "market": "US"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "score": 58,
+      "market": "US"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 58,
+      "market": "US"
+    },
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 58,
+      "market": "US"
+    }
+  ],
+  "topMidCap": [],
+  "topSmallCap": [
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
@@ -175,110 +214,10 @@
       "market": "US"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "score": 68,
-      "market": "US"
-    }
-  ],
-  "topMidCap": [
-    {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
-      "score": 72,
-      "market": "UK"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 71,
-      "market": "UK"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
       "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "JET2.L",
-      "name": "Jet2",
-      "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "MNG.L",
-      "name": "M&G",
-      "score": 65,
-      "market": "UK"
-    }
-  ],
-  "topSmallCap": [
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 71,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 70,
-      "market": "FR"
     },
     {
       "ticker": "ITM.L",
@@ -287,49 +226,49 @@
       "market": "UK"
     },
     {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
+      "ticker": "6098.T",
+      "name": "Recruit Holdings",
+      "score": 69,
+      "market": "JP"
+    },
+    {
+      "ticker": "9983.T",
+      "name": "Fast Retailing (Uniqlo)",
+      "score": 69,
+      "market": "JP"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
       "score": 68,
-      "market": "UK"
+      "market": "US"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 63,
-      "market": "UK"
+      "market": "US"
     },
     {
       "ticker": "SNR.L",
       "name": "Senior plc",
-      "score": 63,
+      "score": 68,
       "market": "UK"
+    },
+    {
+      "ticker": "2802.T",
+      "name": "Ajinomoto",
+      "score": 68,
+      "market": "JP"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 67,
+      "market": "US"
     }
   ],
   "totalStocks": 862,
-  "avgScore": 50,
+  "avgScore": 49,
   "bearishAlertCount": 302
 }
