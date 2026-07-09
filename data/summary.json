@@ -57,8 +57,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
       "score": 69,
       "market": "US",
       "capCategory": "Large"
@@ -73,11 +73,39 @@
   ],
   "bottomOverall": [
     {
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "MOS",
       "name": "Mosaic Company",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "VIV.PA",
@@ -101,20 +129,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "PLTR",
       "name": "Palantir",
       "score": 27,
@@ -126,20 +140,6 @@
       "name": "Rheinmetall",
       "score": 28,
       "market": "DE",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PERSISTENT.BO",
-      "name": "Persistent Systems",
-      "score": 29,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GWRE",
-      "name": "Guidewire Software",
-      "score": 29,
-      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -163,14 +163,20 @@
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
       "score": 69,
       "market": "US"
     },
     {
       "ticker": "BAC",
       "name": "Bank of America",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
       "score": 69,
       "market": "US"
     },
@@ -187,22 +193,16 @@
       "market": "JP"
     },
     {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "MET",
       "name": "MetLife",
       "score": 68,
       "market": "US"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "DHL.DE",
-      "name": "DHL Group",
-      "score": 68,
-      "market": "DE"
     }
   ],
   "topMidCap": [
@@ -225,6 +225,12 @@
       "market": "UK"
     },
     {
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
+      "score": 67,
+      "market": "US"
+    },
+    {
       "ticker": "MTCH",
       "name": "Match Group",
       "score": 67,
@@ -237,16 +243,16 @@
       "market": "UK"
     },
     {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
-      "score": 66,
-      "market": "US"
-    },
-    {
       "ticker": "MNG.L",
       "name": "M&G",
       "score": 66,
       "market": "UK"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 65,
+      "market": "US"
     },
     {
       "ticker": "HIK.L",
@@ -257,12 +263,6 @@
     {
       "ticker": "BEZ.L",
       "name": "Beazley",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "ITV.L",
-      "name": "ITV",
       "score": 65,
       "market": "UK"
     }
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 302
+  "bearishAlertCount": 294
 }
