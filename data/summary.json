@@ -36,6 +36,20 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 71,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 70,
@@ -55,30 +69,9 @@
       "score": 70,
       "market": "UK",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 70,
-      "market": "FR",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 70,
-      "market": "JP",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "TMDX",
-      "name": "TransMedics Group",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "BRBY.L",
       "name": "Burberry",
@@ -106,6 +99,13 @@
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 28,
+      "market": "FR",
+      "capCategory": "Small"
     },
     {
       "ticker": "RHM.DE",
@@ -157,6 +157,12 @@
       "market": "US"
     },
     {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 71,
+      "market": "JP"
+    },
+    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 70,
@@ -169,15 +175,15 @@
       "market": "UK"
     },
     {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 70,
-      "market": "JP"
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 69,
+      "market": "US"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 70,
+      "ticker": "6098.T",
+      "name": "Recruit Holdings",
+      "score": 69,
       "market": "JP"
     },
     {
@@ -195,12 +201,6 @@
     {
       "ticker": "MET",
       "name": "MetLife",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "TRV",
-      "name": "Travelers",
       "score": 68,
       "market": "US"
     }
@@ -227,7 +227,7 @@
     {
       "ticker": "CROX",
       "name": "Crocs",
-      "score": 69,
+      "score": 71,
       "market": "US"
     },
     {
@@ -329,7 +329,7 @@
       "market": "UK"
     }
   ],
-  "totalStocks": 856,
+  "totalStocks": 861,
   "avgScore": 51,
-  "bearishAlertCount": 270
+  "bearishAlertCount": 274
 }
