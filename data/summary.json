@@ -15,13 +15,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
       "score": 72,
@@ -29,15 +22,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
+      "ticker": "STT",
+      "name": "State Street",
       "score": 69,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 69,
       "market": "US",
       "capCategory": "Large"
@@ -64,6 +57,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 68,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "MET",
       "name": "MetLife",
       "score": 68,
@@ -75,7 +75,7 @@
     {
       "ticker": "LCID",
       "name": "Lucid Group",
-      "score": 19,
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -87,23 +87,9 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "JOBY",
-      "name": "Joby Aviation",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "HDFCLIFE.NS",
       "name": "HDFC Life Insurance",
-      "score": 27,
+      "score": 26,
       "market": "IN",
       "capCategory": "Large"
     },
@@ -115,11 +101,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "QS",
-      "name": "QuantumScape",
+      "ticker": "JOBY",
+      "name": "Joby Aviation",
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "CELH",
@@ -129,15 +122,22 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
+      "ticker": "HUBS",
+      "name": "HubSpot",
       "score": 28,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "WING",
-      "name": "Wingstop",
+      "ticker": "QS",
+      "name": "QuantumScape",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "UPST",
+      "name": "Upstart",
       "score": 29,
       "market": "US",
       "capCategory": "Mid"
@@ -145,22 +145,10 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
       "score": 72,
       "market": "JP"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 69,
-      "market": "US"
     },
     {
       "ticker": "STT",
@@ -169,8 +157,26 @@
       "market": "US"
     },
     {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "MET",
       "name": "MetLife",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "TRV",
+      "name": "Travelers",
       "score": 68,
       "market": "US"
     },
@@ -181,26 +187,20 @@
       "market": "US"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "NBIX",
+      "name": "Neurocrine Biosciences",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "TRGP",
+      "name": "Targa Resources",
       "score": 68,
       "market": "US"
     },
     {
       "ticker": "EOG",
       "name": "EOG Resources",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "CSX",
-      "name": "CSX",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "NBIX",
-      "name": "Neurocrine Biosciences",
       "score": 67,
       "market": "US"
     }
@@ -231,8 +231,8 @@
       "market": "UK"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
       "score": 68,
       "market": "US"
     },
@@ -243,16 +243,16 @@
       "market": "UK"
     },
     {
-      "ticker": "PENN",
-      "name": "Penn Entertainment",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "BEZ.L",
       "name": "Beazley",
       "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 66,
+      "market": "US"
     },
     {
       "ticker": "RELY",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 280
+  "bearishAlertCount": 278
 }
