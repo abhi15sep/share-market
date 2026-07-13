@@ -22,53 +22,53 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 69,
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 69,
+      "score": 70,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "PLUS.L",
-      "name": "Plus500",
-      "score": 69,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 69,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 68,
+      "ticker": "NBIX",
+      "name": "Neurocrine Biosciences",
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "MET",
       "name": "MetLife",
-      "score": 68,
+      "score": 69,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
@@ -94,53 +94,53 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 27,
+      "score": 28,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "JOBY",
       "name": "Joby Aviation",
-      "score": 27,
+      "score": 28,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "GWRE",
       "name": "Guidewire Software",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "QS",
-      "name": "QuantumScape",
       "score": 29,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 30,
+      "market": "FR",
+      "capCategory": "Small"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 29,
+      "score": 30,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "score": 30,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -151,44 +151,50 @@
       "market": "JP"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "MET",
-      "name": "MetLife",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "TRV",
-      "name": "Travelers",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 68,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "NBIX",
       "name": "Neurocrine Biosciences",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "MET",
+      "name": "MetLife",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX",
       "score": 68,
       "market": "US"
     },
@@ -196,12 +202,6 @@
       "ticker": "TRGP",
       "name": "Targa Resources",
       "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 67,
       "market": "US"
     }
   ],
@@ -215,6 +215,18 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
       "score": 69,
       "market": "US"
     },
@@ -231,12 +243,6 @@
       "market": "UK"
     },
     {
-      "ticker": "PENN",
-      "name": "Penn Entertainment",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "BLND.L",
       "name": "British Land",
       "score": 68,
@@ -249,21 +255,15 @@
       "market": "UK"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
+      "ticker": "S",
+      "name": "SentinelOne",
       "score": 66,
       "market": "US"
     },
     {
       "ticker": "VRNS",
       "name": "Varonis Systems",
-      "score": 65,
+      "score": 66,
       "market": "US"
     }
   ],
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 861,
-  "avgScore": 50,
+  "avgScore": 51,
   "bearishAlertCount": 278
 }
