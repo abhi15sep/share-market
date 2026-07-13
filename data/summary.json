@@ -15,11 +15,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 72,
-      "market": "JP",
-      "capCategory": "Large"
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 71,
+      "market": "FR",
+      "capCategory": "Small"
     },
     {
       "ticker": "MPC",
@@ -57,15 +57,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
+      "ticker": "UNP",
+      "name": "Union Pacific",
       "score": 69,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
-      "ticker": "PENN",
-      "name": "Penn Entertainment",
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 69,
       "market": "US",
       "capCategory": "Mid"
@@ -80,13 +80,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 22,
-      "market": "DE",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "HDFCLIFE.NS",
       "name": "HDFC Life Insurance",
       "score": 26,
@@ -94,10 +87,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 26,
-      "market": "US",
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 28,
+      "market": "DE",
       "capCategory": "Large"
     },
     {
@@ -122,11 +115,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 30,
-      "market": "FR",
-      "capCategory": "Small"
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "UPST",
@@ -141,15 +134,16 @@
       "score": 30,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 30,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
-    {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 72,
-      "market": "JP"
-    },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
@@ -175,6 +169,18 @@
       "market": "US"
     },
     {
+      "ticker": "UNP",
+      "name": "Union Pacific",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "TRGP",
+      "name": "Targa Resources",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "EOG",
       "name": "EOG Resources",
       "score": 68,
@@ -187,20 +193,14 @@
       "market": "US"
     },
     {
-      "ticker": "UNP",
-      "name": "Union Pacific",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "CSX",
       "name": "CSX",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "TRGP",
-      "name": "Targa Resources",
+      "ticker": "TROW",
+      "name": "T. Rowe Price",
       "score": 68,
       "market": "US"
     }
@@ -275,6 +275,12 @@
       "market": "UK"
     },
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 71,
+      "market": "FR"
+    },
+    {
       "ticker": "ITM.L",
       "name": "ITM Power",
       "score": 68,
@@ -321,15 +327,9 @@
       "name": "Hammerson",
       "score": 63,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 63,
-      "market": "FR"
     }
   ],
   "totalStocks": 861,
   "avgScore": 51,
-  "bearishAlertCount": 278
+  "bearishAlertCount": 283
 }
