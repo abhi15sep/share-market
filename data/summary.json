@@ -1,9 +1,16 @@
 {
   "topOverall": [
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 72,
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
@@ -15,8 +22,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -29,46 +43,32 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "S",
-      "name": "SentinelOne",
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
       "score": 71,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 70,
+      "ticker": "VRNS",
+      "name": "Varonis Systems",
+      "score": 71,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 70,
-      "market": "JP",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -82,14 +82,21 @@
     {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
-      "score": 21,
+      "score": 22,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "LCID",
       "name": "Lucid Group",
-      "score": 24,
+      "score": 23,
       "market": "US",
       "capCategory": "Small"
     },
@@ -110,27 +117,6 @@
     {
       "ticker": "DKNG",
       "name": "DraftKings",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
       "score": 28,
       "market": "US",
       "capCategory": "Large"
@@ -141,13 +127,33 @@
       "score": 29,
       "market": "IN",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 72,
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 73,
       "market": "US"
     },
     {
@@ -157,26 +163,32 @@
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "BAC",
       "name": "Bank of America",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 70,
+      "score": 72,
       "market": "US"
     },
     {
       "ticker": "ELV",
       "name": "Elevance Health",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 70,
       "market": "US"
     },
@@ -187,21 +199,9 @@
       "market": "JP"
     },
     {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 69,
-      "market": "JP"
-    },
-    {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 69,
-      "market": "JP"
-    },
-    {
       "ticker": "GS",
       "name": "Goldman Sachs",
-      "score": 68,
+      "score": 69,
       "market": "US"
     }
   ],
@@ -213,21 +213,27 @@
       "market": "UK"
     },
     {
-      "ticker": "S",
-      "name": "SentinelOne",
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "VRNS",
+      "name": "Varonis Systems",
       "score": 71,
       "market": "US"
     },
     {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
@@ -243,14 +249,14 @@
       "market": "UK"
     },
     {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
+      "ticker": "S",
+      "name": "SentinelOne",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "VRNS",
-      "name": "Varonis Systems",
+      "ticker": "LTC",
+      "name": "LTC Properties",
       "score": 67,
       "market": "US"
     },
@@ -259,12 +265,6 @@
       "name": "Intertek Group",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 66,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 300
+  "bearishAlertCount": 305
 }
