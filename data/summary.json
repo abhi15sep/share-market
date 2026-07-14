@@ -75,7 +75,7 @@
     {
       "ticker": "RHM.DE",
       "name": "Rheinmetall",
-      "score": 20,
+      "score": 18,
       "market": "DE",
       "capCategory": "Large"
     },
@@ -101,20 +101,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
-      "score": 27,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "ZG",
       "name": "Zillow Group",
       "score": 28,
@@ -136,10 +122,24 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "PIIND.BO",
-      "name": "PI Industries",
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
       "score": 29,
       "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 29,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -219,6 +219,12 @@
       "market": "US"
     },
     {
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
       "score": 69,
@@ -259,25 +265,25 @@
       "name": "LTC Properties",
       "score": 65,
       "market": "US"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 65,
-      "market": "US"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 65,
+      "score": 67,
       "market": "UK"
     },
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 63,
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 62,
       "market": "UK"
     },
     {
@@ -287,14 +293,14 @@
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
       "score": 61,
       "market": "UK"
     },
     {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 61,
       "market": "UK"
     },
@@ -317,19 +323,13 @@
       "market": "FR"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 59,
-      "market": "UK"
-    },
-    {
       "ticker": "ITM.L",
       "name": "ITM Power",
-      "score": 58,
+      "score": 59,
       "market": "UK"
     }
   ],
   "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 288
+  "bearishAlertCount": 292
 }
