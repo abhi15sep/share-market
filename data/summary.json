@@ -17,14 +17,7 @@
     {
       "ticker": "MS",
       "name": "Morgan Stanley",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
@@ -36,11 +29,32 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "MTB",
+      "name": "M&T Bank",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "ITM.L",
@@ -55,20 +69,6 @@
       "score": 70,
       "market": "UK",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -87,18 +87,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
+      "ticker": "WING",
+      "name": "Wingstop",
       "score": 24,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Mid"
     },
     {
       "ticker": "VIV.PA",
@@ -108,22 +101,22 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "WING",
-      "name": "Wingstop",
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
+      "ticker": "DKNG",
+      "name": "DraftKings",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
@@ -136,10 +129,17 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 26,
-      "market": "US",
+      "ticker": "EL.PA",
+      "name": "EssilorLuxottica",
+      "score": 27,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
+      "score": 27,
+      "market": "IN",
       "capCategory": "Large"
     }
   ],
@@ -153,13 +153,7 @@
     {
       "ticker": "MS",
       "name": "Morgan Stanley",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 71,
+      "score": 72,
       "market": "US"
     },
     {
@@ -169,43 +163,61 @@
       "market": "JP"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "MTB",
       "name": "M&T Bank",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 69,
       "market": "US"
     },
     {
       "ticker": "SEIC",
       "name": "SEI Investments",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "DHL.DE",
-      "name": "DHL Group",
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
       "score": 68,
-      "market": "DE"
+      "market": "US"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "score": 68,
+      "market": "US"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 70,
+      "market": "US"
+    },
     {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
@@ -213,14 +225,8 @@
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 69,
       "market": "US"
     },
@@ -231,15 +237,15 @@
       "market": "UK"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
+      "ticker": "LEA",
+      "name": "Lear Corp",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 67,
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 66,
       "market": "US"
     },
     {
@@ -255,16 +261,10 @@
       "market": "UK"
     },
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
+      "ticker": "S",
+      "name": "SentinelOne",
       "score": 65,
       "market": "US"
-    },
-    {
-      "ticker": "JET2.L",
-      "name": "Jet2",
-      "score": 65,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 858,
   "avgScore": 50,
-  "bearishAlertCount": 297
+  "bearishAlertCount": 296
 }
