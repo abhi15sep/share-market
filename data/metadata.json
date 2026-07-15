@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-07-15T13:51:27.207Z",
-  "stockCount": 861,
-  "bearishAlerts": 294,
-  "newsCount": 650,
+  "lastUpdated": "2026-07-15T15:33:57.004Z",
+  "stockCount": 853,
+  "bearishAlerts": 281,
+  "newsCount": 655,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
-      "price": 7563.85,
-      "sma50": 7447.81,
-      "sma200": 6974.06,
-      "changeFromHigh": -0.6,
+      "price": 7559.27,
+      "sma50": 7453.99,
+      "sma200": 6978.73,
+      "changeFromHigh": -0.66,
       "distributionDays": 5,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10521.52,
-      "sma50": 10419.58,
-      "sma200": 10132.7,
-      "changeFromHigh": -3.57,
+      "price": 10513.13,
+      "sma50": 10425.62,
+      "sma200": 10138.8,
+      "changeFromHigh": -3.64,
       "distributionDays": 2,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
@@ -27,8 +27,8 @@
     "in": {
       "index": "Nifty 50",
       "price": 24078.5,
-      "sma50": 23831.94,
-      "sma200": 24836.64,
+      "sma50": 23830.59,
+      "sma200": 24829.79,
       "changeFromHigh": -8.55,
       "distributionDays": 4,
       "regime": "correction",
@@ -36,10 +36,10 @@
     },
     "eu": {
       "index": "DAX 40",
-      "price": 25037.62,
-      "sma50": 24842.18,
-      "sma200": 24334.77,
-      "changeFromHigh": -3.02,
+      "price": 24999.94,
+      "sma50": 24845.99,
+      "sma200": 24341.62,
+      "changeFromHigh": -3.17,
       "distributionDays": 2,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
@@ -47,10 +47,10 @@
     "asia": {
       "index": "Nikkei 225",
       "price": 68751.51,
-      "sma50": 66389.58,
-      "sma200": 55802.07,
+      "sma50": 66369.41,
+      "sma200": 55797.03,
       "changeFromHigh": -5,
-      "distributionDays": 4,
+      "distributionDays": 2,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
