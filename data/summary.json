@@ -17,9 +17,37 @@
     {
       "ticker": "MS",
       "name": "Morgan Stanley",
-      "score": 72,
+      "score": 74,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "8306.T",
@@ -29,46 +57,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "MTB",
-      "name": "M&T Bank",
+      "ticker": "SEIC",
+      "name": "SEI Investments",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ITM.L",
-      "name": "ITM Power",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
@@ -82,16 +82,9 @@
     {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
-      "score": 21,
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "VIV.PA",
@@ -101,29 +94,15 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "LCID",
-      "name": "Lucid Group",
+      "ticker": "WING",
+      "name": "Wingstop",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
       "score": 26,
       "market": "US",
       "capCategory": "Mid"
@@ -141,6 +120,27 @@
       "score": 27,
       "market": "IN",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "DKNG",
+      "name": "DraftKings",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -153,7 +153,13 @@
     {
       "ticker": "MS",
       "name": "Morgan Stanley",
-      "score": 72,
+      "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 71,
       "market": "US"
     },
     {
@@ -163,26 +169,20 @@
       "market": "JP"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "MTB",
-      "name": "M&T Bank",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "SEIC",
       "name": "SEI Investments",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
       "score": 69,
       "market": "US"
     },
@@ -193,14 +193,14 @@
       "market": "US"
     },
     {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
+      "ticker": "STT",
+      "name": "State Street",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
+      "ticker": "HPQ",
+      "name": "HP Inc",
       "score": 68,
       "market": "US"
     }
@@ -209,12 +209,24 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "CROX",
       "name": "Crocs",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
       "score": 70,
       "market": "US"
     },
@@ -225,8 +237,8 @@
       "market": "UK"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
+      "ticker": "LEA",
+      "name": "Lear Corp",
       "score": 69,
       "market": "US"
     },
@@ -237,33 +249,21 @@
       "market": "UK"
     },
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
+      "ticker": "RELY",
+      "name": "Remitly Global",
       "score": 68,
       "market": "US"
     },
     {
       "ticker": "LTC",
       "name": "LTC Properties",
-      "score": 66,
+      "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "LAND.L",
-      "name": "Land Securities",
-      "score": 66,
-      "market": "UK"
     },
     {
       "ticker": "S",
       "name": "SentinelOne",
-      "score": 65,
+      "score": 66,
       "market": "US"
     }
   ],
@@ -329,7 +329,7 @@
       "market": "UK"
     }
   ],
-  "totalStocks": 858,
+  "totalStocks": 848,
   "avgScore": 50,
-  "bearishAlertCount": 296
+  "bearishAlertCount": 301
 }
