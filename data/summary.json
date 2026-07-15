@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 75,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
       "score": 73,
@@ -8,9 +15,16 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
       "score": 73,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
@@ -22,39 +36,25 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 72,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 72,
-      "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
+      "ticker": "MET",
+      "name": "MetLife",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "ALL",
-      "name": "Allstate",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 71,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "TENB",
@@ -75,43 +75,43 @@
     {
       "ticker": "RHM.DE",
       "name": "Rheinmetall",
-      "score": 21,
+      "score": 18,
       "market": "DE",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 22,
-      "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "HUBS",
       "name": "HubSpot",
-      "score": 23,
+      "score": 22,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EL.PA",
+      "name": "EssilorLuxottica",
+      "score": 25,
+      "market": "FR",
       "capCategory": "Large"
     },
     {
       "ticker": "LCID",
       "name": "Lucid Group",
-      "score": 23,
+      "score": 25,
       "market": "US",
       "capCategory": "Small"
     },
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 25,
-      "market": "FR",
-      "capCategory": "Small"
+      "ticker": "NAUKRI.BO",
+      "name": "Info Edge (Naukri)",
+      "score": 27,
+      "market": "IN",
+      "capCategory": "Large"
     },
     {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 27,
-      "market": "FR",
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
+      "score": 28,
+      "market": "IN",
       "capCategory": "Large"
     },
     {
@@ -119,13 +119,6 @@
       "name": "DraftKings",
       "score": 28,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
-      "score": 29,
-      "market": "IN",
       "capCategory": "Large"
     },
     {
@@ -141,9 +134,22 @@
       "score": 29,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 75,
+      "market": "JP"
+    },
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
@@ -151,9 +157,9 @@
       "market": "US"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 73,
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 72,
       "market": "US"
     },
     {
@@ -163,27 +169,27 @@
       "market": "US"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
+      "ticker": "MET",
+      "name": "MetLife",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "ALL",
-      "name": "Allstate",
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
       "score": 71,
+      "market": "JP"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific",
+      "score": 70,
       "market": "US"
     },
     {
@@ -193,24 +199,24 @@
       "market": "US"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
+      "ticker": "TRGP",
+      "name": "Targa Resources",
       "score": 70,
-      "market": "JP"
-    },
-    {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "score": 69,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 72,
-      "market": "UK"
+      "market": "US"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "TENB",
@@ -225,28 +231,10 @@
       "market": "US"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "LTC",
+      "name": "LTC Properties",
       "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "PSON.L",
-      "name": "Pearson",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 69,
-      "market": "UK"
     },
     {
       "ticker": "S",
@@ -255,81 +243,93 @@
       "market": "US"
     },
     {
-      "ticker": "LTC",
-      "name": "LTC Properties",
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
       "score": 67,
       "market": "US"
     },
     {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
+      "ticker": "EZJ.L",
+      "name": "easyJet",
       "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "STAG",
+      "name": "STAG Industrial",
+      "score": 66,
+      "market": "US"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 65,
+      "score": 73,
       "market": "UK"
     },
     {
       "ticker": "DOM.L",
       "name": "Domino's Pizza Group",
-      "score": 64,
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 61,
       "market": "UK"
     },
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 64,
+      "score": 61,
       "market": "UK"
     },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 62,
+      "score": 61,
       "market": "UK"
     },
     {
       "ticker": "ML.PA",
       "name": "Michelin",
-      "score": 62,
+      "score": 61,
       "market": "FR"
+    },
+    {
+      "ticker": "RPI.L",
+      "name": "Raspberry Pi",
+      "score": 60,
+      "market": "UK"
     },
     {
       "ticker": "ITM.L",
       "name": "ITM Power",
-      "score": 61,
+      "score": 59,
+      "market": "UK"
+    },
+    {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 59,
+      "market": "UK"
+    },
+    {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 59,
       "market": "UK"
     }
   ],
   "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 305
+  "bearishAlertCount": 295
 }
