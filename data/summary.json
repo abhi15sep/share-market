@@ -3,7 +3,7 @@
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 78,
+      "score": 79,
       "market": "UK",
       "capCategory": "Small"
     },
@@ -15,6 +15,20 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
       "score": 71,
@@ -22,69 +36,48 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TROW",
-      "name": "T. Rowe Price",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Mid"
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 70,
+      "market": "UK",
+      "capCategory": "Small"
     },
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 69,
+      "score": 70,
       "market": "UK",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 70,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "RHM.DE",
       "name": "Rheinmetall",
-      "score": 19,
+      "score": 21,
       "market": "DE",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 20,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "ALNY",
@@ -94,11 +87,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 24,
-      "market": "FR",
-      "capCategory": "Small"
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "SRPT",
@@ -108,11 +101,11 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 25,
+      "market": "FR",
+      "capCategory": "Small"
     },
     {
       "ticker": "WING",
@@ -122,24 +115,31 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "RGTI",
       "name": "Rigetti Computing",
-      "score": 25,
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 27,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
-      "score": 27,
-      "market": "IN",
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 26,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -151,20 +151,32 @@
       "market": "JP"
     },
     {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
       "score": 71,
       "market": "JP"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 69,
       "market": "US"
     },
@@ -175,37 +187,31 @@
       "market": "US"
     },
     {
-      "ticker": "TROW",
-      "name": "T. Rowe Price",
+      "ticker": "MTB",
+      "name": "M&T Bank",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "SEIC",
+      "name": "SEI Investments",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "4063.T",
-      "name": "Shin-Etsu Chemical",
+      "ticker": "DHL.DE",
+      "name": "DHL Group",
       "score": 68,
-      "market": "JP"
-    },
-    {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 68,
-      "market": "JP"
-    },
-    {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 68,
-      "market": "JP"
+      "market": "DE"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 70,
+      "market": "UK"
+    },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
@@ -219,16 +225,16 @@
       "market": "US"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
+      "ticker": "EZJ.L",
+      "name": "easyJet",
       "score": 69,
       "market": "UK"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 68,
-      "market": "UK"
+      "market": "US"
     },
     {
       "ticker": "LEA",
@@ -237,10 +243,16 @@
       "market": "US"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 65,
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 66,
       "market": "US"
+    },
+    {
+      "ticker": "LAND.L",
+      "name": "Land Securities",
+      "score": 66,
+      "market": "UK"
     },
     {
       "ticker": "MTCH",
@@ -249,42 +261,54 @@
       "market": "US"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 65,
-      "market": "US"
-    },
-    {
-      "ticker": "LAND.L",
-      "name": "Land Securities",
+      "ticker": "JET2.L",
+      "name": "Jet2",
       "score": 65,
       "market": "UK"
-    },
-    {
-      "ticker": "PENN",
-      "name": "Penn Entertainment",
-      "score": 64,
-      "market": "US"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 78,
+      "score": 79,
+      "market": "UK"
+    },
+    {
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 70,
       "market": "UK"
     },
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 69,
+      "score": 70,
       "market": "UK"
     },
     {
       "ticker": "HMSO.L",
       "name": "Hammerson",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "DOM.L",
+      "name": "Domino's Pizza Group",
       "score": 63,
       "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 63,
+      "market": "FR"
     },
     {
       "ticker": "BYIT.L",
@@ -293,43 +317,19 @@
       "market": "UK"
     },
     {
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 62,
+      "market": "UK"
+    },
+    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
       "score": 62,
       "market": "UK"
-    },
-    {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "ITM.L",
-      "name": "ITM Power",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 61,
-      "market": "UK"
     }
   ],
-  "totalStocks": 853,
-  "avgScore": 49,
-  "bearishAlertCount": 281
+  "totalStocks": 858,
+  "avgScore": 50,
+  "bearishAlertCount": 297
 }
