@@ -1,15 +1,22 @@
 {
   "topOverall": [
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "MS",
+      "name": "Morgan Stanley",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -57,15 +64,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SEIC",
-      "name": "SEI Investments",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -108,6 +108,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "EL.PA",
+      "name": "EssilorLuxottica",
+      "score": 26,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "DKNG",
       "name": "DraftKings",
       "score": 27,
@@ -129,30 +136,23 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 27,
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 29,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 28,
-      "market": "FR",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "MS",
+      "name": "Morgan Stanley",
       "score": 73,
       "market": "US"
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 72,
       "market": "US"
     },
@@ -169,8 +169,8 @@
       "market": "US"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 70,
       "market": "US"
     },
@@ -181,8 +181,8 @@
       "market": "US"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "VTRS",
+      "name": "Viatris",
       "score": 69,
       "market": "US"
     },
@@ -231,12 +231,6 @@
       "market": "US"
     },
     {
-      "ticker": "S",
-      "name": "SentinelOne",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "MTCH",
       "name": "Match Group",
       "score": 70,
@@ -265,13 +259,19 @@
       "name": "LTC Properties",
       "score": 67,
       "market": "US"
+    },
+    {
+      "ticker": "S",
+      "name": "SentinelOne",
+      "score": 66,
+      "market": "US"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 70,
+      "score": 73,
       "market": "UK"
     },
     {
@@ -284,6 +284,12 @@
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
       "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 62,
       "market": "UK"
     },
     {
@@ -305,9 +311,9 @@
       "market": "UK"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 60,
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 59,
       "market": "UK"
     },
     {
@@ -317,19 +323,13 @@
       "market": "US"
     },
     {
-      "ticker": "ITM.L",
-      "name": "ITM Power",
-      "score": 58,
-      "market": "UK"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
+      "ticker": "DNLM.L",
+      "name": "Dunelm",
       "score": 58,
       "market": "UK"
     }
   ],
   "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 297
+  "bearishAlertCount": 293
 }
