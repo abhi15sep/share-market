@@ -8,18 +8,25 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "PUB.PA",
       "name": "Publicis",
       "score": 73,
       "market": "FR",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "WOSG.L",
@@ -29,6 +36,20 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 71,
@@ -36,36 +57,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CFG",
-      "name": "Citizens Financial",
+      "ticker": "JBHT",
+      "name": "J.B. Hunt Transport",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "USB",
-      "name": "U.S. Bancorp",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -82,27 +82,13 @@
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 22,
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
       "score": 24,
       "market": "US",
       "capCategory": "Mid"
@@ -115,20 +101,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "QS",
-      "name": "QuantumScape",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "JOBY",
       "name": "Joby Aviation",
       "score": 25,
@@ -136,11 +108,39 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "DKNG",
+      "name": "DraftKings",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "QS",
+      "name": "QuantumScape",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -157,70 +157,88 @@
       "market": "FR"
     },
     {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "CFG",
-      "name": "Citizens Financial",
+      "ticker": "JBHT",
+      "name": "J.B. Hunt Transport",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "USB",
-      "name": "U.S. Bancorp",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 70,
       "market": "US"
     },
     {
       "ticker": "TROW",
       "name": "T. Rowe Price",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "JBHT",
-      "name": "J.B. Hunt Transport",
-      "score": 69,
+      "ticker": "CFG",
+      "name": "Citizens Financial",
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "ACA.PA",
-      "name": "Credit Agricole",
-      "score": 69,
-      "market": "FR"
+      "ticker": "HBAN",
+      "name": "Huntington Bancshares",
+      "score": 70,
+      "market": "US"
     }
   ],
   "topMidCap": [
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 72,
+      "score": 73,
       "market": "US"
     },
     {
       "ticker": "CROX",
       "name": "Crocs",
-      "score": 71,
+      "score": 73,
       "market": "US"
     },
     {
       "ticker": "LEA",
       "name": "Lear Corp",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "NNN",
+      "name": "NNN REIT",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
       "score": 69,
       "market": "US"
     },
@@ -243,27 +261,9 @@
       "market": "UK"
     },
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "SDR.L",
       "name": "Schroders",
       "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "LAND.L",
-      "name": "Land Securities",
-      "score": 67,
       "market": "UK"
     }
   ],
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 861,
-  "avgScore": 50,
-  "bearishAlertCount": 277
+  "avgScore": 51,
+  "bearishAlertCount": 274
 }
