@@ -1,10 +1,10 @@
 {
   "topOverall": [
     {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 75,
-      "market": "JP",
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 73,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -22,13 +22,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 73,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 72,
@@ -36,10 +29,10 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth",
-      "score": 71,
-      "market": "US",
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 72,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
@@ -60,6 +53,13 @@
       "ticker": "JBHT",
       "name": "J.B. Hunt Transport",
       "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
@@ -145,22 +145,16 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 75,
-      "market": "JP"
-    },
-    {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 73,
-      "market": "FR"
-    },
-    {
       "ticker": "UNH",
       "name": "UnitedHealth",
-      "score": 71,
+      "score": 73,
       "market": "US"
+    },
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 72,
+      "market": "JP"
     },
     {
       "ticker": "USB",
@@ -178,6 +172,12 @@
       "ticker": "JBHT",
       "name": "J.B. Hunt Transport",
       "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "score": 70,
       "market": "US"
     },
     {
@@ -225,6 +225,12 @@
       "market": "US"
     },
     {
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "OZK",
       "name": "Bank OZK",
       "score": 69,
@@ -233,12 +239,6 @@
     {
       "ticker": "NNN",
       "name": "NNN REIT",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "MTCH",
-      "name": "Match Group",
       "score": 69,
       "market": "US"
     },
@@ -293,12 +293,6 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 64,
-      "market": "FR"
-    },
-    {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
       "score": 63,
@@ -323,6 +317,12 @@
       "market": "UK"
     },
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 63,
+      "market": "FR"
+    },
+    {
       "ticker": "JDW.L",
       "name": "J D Wetherspoon",
       "score": 62,
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 861,
   "avgScore": 51,
-  "bearishAlertCount": 274
+  "bearishAlertCount": 279
 }
