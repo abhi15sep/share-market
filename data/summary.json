@@ -1,32 +1,11 @@
 {
   "topOverall": [
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 73,
+      "score": 75,
       "market": "UK",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
     },
     {
       "ticker": "9984.T",
@@ -36,8 +15,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
+      "ticker": "UNH",
+      "name": "UnitedHealth",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -50,25 +29,46 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TROW",
+      "name": "T. Rowe Price",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 69,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
@@ -80,82 +80,70 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 22,
+      "ticker": "JOBY",
+      "name": "Joby Aviation",
+      "score": 23,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 24,
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "VIV.PA",
       "name": "Vivendi",
-      "score": 25,
+      "score": 24,
       "market": "FR",
       "capCategory": "Small"
     },
     {
       "ticker": "WING",
       "name": "Wingstop",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "QS",
+      "name": "QuantumScape",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 26,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 27,
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 29,
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US"
-    },
     {
       "ticker": "9984.T",
       "name": "SoftBank Group",
@@ -163,8 +151,8 @@
       "market": "JP"
     },
     {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
+      "ticker": "UNH",
+      "name": "UnitedHealth",
       "score": 71,
       "market": "US"
     },
@@ -175,43 +163,49 @@
       "market": "US"
     },
     {
-      "ticker": "SEIC",
-      "name": "SEI Investments",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "VTRS",
-      "name": "Viatris",
+      "ticker": "GS",
+      "name": "Goldman Sachs",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
+      "ticker": "TROW",
+      "name": "T. Rowe Price",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 68,
       "market": "US"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 68,
+      "market": "FR"
     }
   ],
   "topMidCap": [
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 72,
-      "market": "UK"
-    },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
@@ -221,26 +215,14 @@
     {
       "ticker": "CROX",
       "name": "Crocs",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "MTCH",
-      "name": "Match Group",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
+      "ticker": "EZJ.L",
+      "name": "easyJet",
       "score": 69,
-      "market": "US"
+      "market": "UK"
     },
     {
       "ticker": "TATE.L",
@@ -249,34 +231,58 @@
       "market": "UK"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
+      "ticker": "LEA",
+      "name": "Lear Corp",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "LTC",
-      "name": "LTC Properties",
+      "ticker": "MTCH",
+      "name": "Match Group",
       "score": 67,
       "market": "US"
     },
     {
-      "ticker": "S",
-      "name": "SentinelOne",
+      "ticker": "OZK",
+      "name": "Bank OZK",
       "score": 66,
       "market": "US"
+    },
+    {
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "BLND.L",
+      "name": "British Land",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
+      "score": 66,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 73,
+      "score": 75,
       "market": "UK"
     },
     {
       "ticker": "CURY.L",
       "name": "Currys",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "DOM.L",
+      "name": "Domino's Pizza Group",
       "score": 65,
       "market": "UK"
     },
@@ -284,6 +290,12 @@
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
       "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 62,
       "market": "UK"
     },
     {
@@ -299,37 +311,25 @@
       "market": "FR"
     },
     {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
       "score": 59,
       "market": "UK"
     },
     {
-      "ticker": "WOLF",
-      "name": "Wolfspeed",
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
       "score": 58,
-      "market": "US"
+      "market": "UK"
     },
     {
-      "ticker": "DNLM.L",
-      "name": "Dunelm",
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
       "score": 58,
       "market": "UK"
     }
   ],
   "totalStocks": 861,
-  "avgScore": 50,
-  "bearishAlertCount": 293
+  "avgScore": 49,
+  "bearishAlertCount": 284
 }
