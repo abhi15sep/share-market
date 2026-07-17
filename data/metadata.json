@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-16T22:17:49.224Z",
+  "lastUpdated": "2026-07-17T09:17:07.432Z",
   "stockCount": 861,
-  "bearishAlerts": 279,
-  "newsCount": 730,
+  "bearishAlerts": 283,
+  "newsCount": 595,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
@@ -10,49 +10,49 @@
       "sma50": 7460.91,
       "sma200": 6983.25,
       "changeFromHigh": -1,
-      "distributionDays": 4,
+      "distributionDays": 3,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10572.24,
-      "sma50": 10428.35,
-      "sma200": 10144.93,
-      "changeFromHigh": -3.1,
+      "price": 10562.58,
+      "sma50": 10434.06,
+      "sma200": 10150.51,
+      "changeFromHigh": -3.19,
       "distributionDays": 2,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "in": {
       "index": "Nifty 50",
-      "price": 24072.75,
-      "sma50": 23830.59,
-      "sma200": 24829.79,
-      "changeFromHigh": -8.57,
-      "distributionDays": 1,
+      "price": 24317,
+      "sma50": 23831.11,
+      "sma200": 24819.09,
+      "changeFromHigh": -7.64,
+      "distributionDays": 4,
       "regime": "correction",
       "signal": "Price below SMA200 — trend weakening"
     },
     "eu": {
       "index": "DAX 40",
-      "price": 24915.49,
-      "sma50": 24845.98,
-      "sma200": 24341.62,
-      "changeFromHigh": -3.5,
-      "distributionDays": 2,
+      "price": 24724.12,
+      "sma50": 24858.73,
+      "sma200": 24351.69,
+      "changeFromHigh": -4.24,
+      "distributionDays": 3,
       "regime": "bull",
-      "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
+      "signal": "Price above SMA200 — uptrend intact"
     },
     "asia": {
       "index": "Nikkei 225",
-      "price": 66835.54,
-      "sma50": 66554.18,
-      "sma200": 55916.84,
-      "changeFromHigh": -7.64,
-      "distributionDays": 3,
-      "regime": "bull",
-      "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
+      "price": 64141.12,
+      "sma50": 66662.77,
+      "sma200": 56119.97,
+      "changeFromHigh": -11.37,
+      "distributionDays": 4,
+      "regime": "correction",
+      "signal": "Down -11.4% from high — correction territory"
     },
     "overall": "correction",
     "summary": "Markets showing weakness. Be selective, reduce position sizes, and tighten stops."
