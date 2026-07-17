@@ -1,11 +1,39 @@
 {
   "topOverall": [
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 71,
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 74,
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 73,
       "market": "UK",
-      "capCategory": "Mid"
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "OGN",
@@ -15,17 +43,10 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 70,
-      "market": "JP",
+      "ticker": "TRV",
+      "name": "Travelers",
+      "score": 69,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -36,36 +57,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "RELY",
+      "name": "Remitly Global",
       "score": 69,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 69,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 69,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 68,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MET",
-      "name": "MetLife",
+      "ticker": "STT",
+      "name": "State Street",
       "score": 68,
       "market": "US",
       "capCategory": "Large"
@@ -73,15 +73,22 @@
   ],
   "bottomOverall": [
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 15,
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 17,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "UPST",
-      "name": "Upstart",
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 19,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
       "score": 21,
       "market": "US",
       "capCategory": "Mid"
@@ -108,11 +115,25 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 24,
-      "market": "FR",
-      "capCategory": "Small"
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "DASH",
+      "name": "DoorDash",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "RHM.DE",
@@ -120,35 +141,38 @@
       "score": 24,
       "market": "DE",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DASH",
-      "name": "DoorDash",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 70,
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 74,
       "market": "JP"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "TRV",
+      "name": "Travelers",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "VLO",
@@ -157,26 +181,8 @@
       "market": "US"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 69,
-      "market": "JP"
-    },
-    {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 69,
-      "market": "JP"
-    },
-    {
-      "ticker": "NET",
-      "name": "Cloudflare",
+      "ticker": "STT",
+      "name": "State Street",
       "score": 68,
       "market": "US"
     },
@@ -193,30 +199,30 @@
       "market": "US"
     },
     {
-      "ticker": "0066.HK",
-      "name": "MTR Corporation",
+      "ticker": "CF",
+      "name": "CF Industries",
       "score": 68,
-      "market": "HK"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 67,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 71,
-      "market": "UK"
-    },
-    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 68,
+      "market": "UK"
     },
     {
       "ticker": "SDR.L",
@@ -237,41 +243,35 @@
       "market": "US"
     },
     {
+      "ticker": "BLND.L",
+      "name": "British Land",
+      "score": 66,
+      "market": "UK"
+    },
+    {
       "ticker": "CROX",
       "name": "Crocs",
       "score": 65,
       "market": "US"
     },
     {
-      "ticker": "BLND.L",
-      "name": "British Land",
+      "ticker": "MTCH",
+      "name": "Match Group",
       "score": 65,
-      "market": "UK"
+      "market": "US"
     },
     {
       "ticker": "OZK",
       "name": "Bank OZK",
       "score": 64,
       "market": "US"
-    },
-    {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "ITRK.L",
-      "name": "Intertek Group",
-      "score": 64,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 70,
+      "score": 73,
       "market": "UK"
     },
     {
@@ -293,43 +293,43 @@
       "market": "UK"
     },
     {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 61,
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 63,
       "market": "UK"
     },
     {
       "ticker": "ML.PA",
       "name": "Michelin",
-      "score": 61,
+      "score": 63,
       "market": "FR"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
+      "ticker": "DOM.L",
+      "name": "Domino's Pizza Group",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
       "score": 60,
       "market": "UK"
     },
     {
       "ticker": "ASHM.L",
       "name": "Ashmore Group",
-      "score": 59,
-      "market": "UK"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 58,
-      "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 58,
+      "score": 60,
       "market": "UK"
     }
   ],
   "totalStocks": 861,
   "avgScore": 49,
-  "bearishAlertCount": 281
+  "bearishAlertCount": 299
 }
