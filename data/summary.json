@@ -15,13 +15,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 74,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "NET",
       "name": "Cloudflare",
       "score": 72,
@@ -38,7 +31,7 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -52,6 +45,13 @@
     {
       "ticker": "STT",
       "name": "State Street",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "AFL",
+      "name": "Aflac",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -151,12 +151,6 @@
       "market": "US"
     },
     {
-      "ticker": "9984.T",
-      "name": "SoftBank Group",
-      "score": 74,
-      "market": "JP"
-    },
-    {
       "ticker": "NET",
       "name": "Cloudflare",
       "score": 72,
@@ -171,6 +165,12 @@
     {
       "ticker": "STT",
       "name": "State Street",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "AFL",
+      "name": "Aflac",
       "score": 70,
       "market": "US"
     },
@@ -199,9 +199,9 @@
       "market": "US"
     },
     {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 69,
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "score": 70,
       "market": "US"
     }
   ],
@@ -209,7 +209,7 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 71,
+      "score": 72,
       "market": "US"
     },
     {
@@ -243,6 +243,12 @@
       "market": "UK"
     },
     {
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
+      "score": 67,
+      "market": "US"
+    },
+    {
       "ticker": "VRNS",
       "name": "Varonis Systems",
       "score": 67,
@@ -257,12 +263,6 @@
     {
       "ticker": "OZK",
       "name": "Bank OZK",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
       "score": 66,
       "market": "US"
     }
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 317
+  "bearishAlertCount": 314
 }
