@@ -1,13 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 74,
@@ -19,6 +12,13 @@
       "name": "SoftBank Group",
       "score": 74,
       "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TRV",
+      "name": "Travelers",
+      "score": 72,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -36,20 +36,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TRV",
-      "name": "Travelers",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 70,
@@ -57,8 +43,22 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
       "score": 69,
       "market": "US",
       "capCategory": "Large"
@@ -75,14 +75,14 @@
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 19,
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 22,
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -94,11 +94,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
+      "ticker": "QS",
+      "name": "QuantumScape",
       "score": 24,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "DASH",
@@ -122,39 +129,32 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
       "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics",
       "score": 26,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 74,
-      "market": "US"
-    },
     {
       "ticker": "9984.T",
       "name": "SoftBank Group",
       "score": 74,
       "market": "JP"
+    },
+    {
+      "ticker": "TRV",
+      "name": "Travelers",
+      "score": 72,
+      "market": "US"
     },
     {
       "ticker": "NET",
@@ -163,20 +163,20 @@
       "market": "US"
     },
     {
-      "ticker": "TRV",
-      "name": "Travelers",
-      "score": 70,
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 69,
       "market": "US"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 70,
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 69,
       "market": "US"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
+      "ticker": "HPQ",
+      "name": "HP Inc",
       "score": 69,
       "market": "US"
     },
@@ -193,16 +193,16 @@
       "market": "US"
     },
     {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "UU.L",
       "name": "United Utilities",
       "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "0066.HK",
-      "name": "MTR Corporation",
-      "score": 69,
-      "market": "HK"
     }
   ],
   "topMidCap": [
@@ -261,8 +261,8 @@
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
+      "ticker": "OZK",
+      "name": "Bank OZK",
       "score": 65,
       "market": "US"
     }
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 304
+  "bearishAlertCount": 308
 }
