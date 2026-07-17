@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "TRV",
+      "name": "Travelers",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 74,
@@ -15,11 +22,25 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TRV",
-      "name": "Travelers",
+      "ticker": "NET",
+      "name": "Cloudflare",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "INVP.L",
@@ -29,53 +50,39 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "STT",
       "name": "State Street",
-      "score": 69,
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 69,
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "MO",
       "name": "Altria Group",
-      "score": 69,
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 17,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 21,
+      "score": 22,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -89,20 +96,6 @@
     {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "QS",
-      "name": "QuantumScape",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
@@ -122,11 +115,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
+      "ticker": "QS",
+      "name": "QuantumScape",
       "score": 25,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Mid"
     },
     {
       "ticker": "RGTI",
@@ -136,14 +129,27 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
       "score": 26,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "TRV",
+      "name": "Travelers",
+      "score": 74,
+      "market": "US"
+    },
     {
       "ticker": "9984.T",
       "name": "SoftBank Group",
@@ -151,72 +157,66 @@
       "market": "JP"
     },
     {
-      "ticker": "TRV",
-      "name": "Travelers",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "NET",
       "name": "Cloudflare",
-      "score": 70,
+      "score": 72,
       "market": "US"
     },
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 69,
+      "score": 72,
       "market": "US"
     },
     {
       "ticker": "STT",
       "name": "State Street",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "MO",
       "name": "Altria Group",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "UU.L",
-      "name": "United Utilities",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
       "score": 69,
-      "market": "UK"
+      "market": "US"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 71,
+      "market": "US"
+    },
     {
       "ticker": "INVP.L",
       "name": "Investec",
       "score": 71,
       "market": "UK"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 70,
-      "market": "US"
     },
     {
       "ticker": "EZJ.L",
@@ -243,27 +243,27 @@
       "market": "UK"
     },
     {
+      "ticker": "VRNS",
+      "name": "Varonis Systems",
+      "score": 67,
+      "market": "US"
+    },
+    {
       "ticker": "SVT.L",
       "name": "Severn Trent",
       "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "VRNS",
-      "name": "Varonis Systems",
+      "ticker": "OZK",
+      "name": "Bank OZK",
       "score": 66,
       "market": "US"
     },
     {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
+      "ticker": "CROX",
+      "name": "Crocs",
       "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 65,
       "market": "US"
     }
   ],
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 308
+  "bearishAlertCount": 317
 }
