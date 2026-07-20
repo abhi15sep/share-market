@@ -5,7 +5,7 @@
       "name": "Travelers",
       "score": 75,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Small"
     },
     {
       "ticker": "WOSG.L",
@@ -22,8 +22,22 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
       "score": 72,
       "market": "US",
       "capCategory": "Mid"
@@ -36,6 +50,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "STT",
       "name": "State Street",
       "score": 70,
@@ -43,29 +64,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "AFL",
-      "name": "Aflac",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MO",
-      "name": "Altria Group",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "MET",
+      "name": "MetLife",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -94,25 +94,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "UPST",
       "name": "Upstart",
       "score": 24,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "DASH",
@@ -136,23 +122,37 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
-      "score": 25,
+      "ticker": "EL.PA",
+      "name": "EssilorLuxottica",
+      "score": 26,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "BYND",
+      "name": "Beyond Meat",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "TRV",
-      "name": "Travelers",
-      "score": 75,
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 72,
       "market": "US"
     },
@@ -163,26 +163,20 @@
       "market": "US"
     },
     {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "STT",
       "name": "State Street",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "AFL",
-      "name": "Aflac",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "MO",
-      "name": "Altria Group",
+      "ticker": "MET",
+      "name": "MetLife",
       "score": 70,
       "market": "US"
     },
@@ -193,16 +187,22 @@
       "market": "US"
     },
     {
-      "ticker": "RF",
-      "name": "Regions Financial",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "ZION",
       "name": "Zions Bancorporation",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 70,
+      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -213,14 +213,20 @@
       "market": "US"
     },
     {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
-      "score": 69,
+      "score": 70,
       "market": "UK"
     },
     {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
+      "ticker": "EZJ.L",
+      "name": "easyJet",
       "score": 68,
       "market": "UK"
     },
@@ -237,8 +243,14 @@
       "market": "US"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
+      "ticker": "JET2.L",
+      "name": "Jet2",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "SDR.L",
+      "name": "Schroders",
       "score": 67,
       "market": "UK"
     },
@@ -253,25 +265,55 @@
       "name": "Crocs",
       "score": 66,
       "market": "US"
-    },
-    {
-      "ticker": "JET2.L",
-      "name": "Jet2",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 65,
-      "market": "US"
     }
   ],
   "topSmallCap": [
     {
+      "ticker": "TRV",
+      "name": "Travelers",
+      "score": 75,
+      "market": "US"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 73,
+      "market": "UK"
+    },
+    {
+      "ticker": "AFL",
+      "name": "Aflac",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "MO",
+      "name": "Altria Group",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "RF",
+      "name": "Regions Financial",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "JSWSTEEL.NS",
+      "name": "JSW Steel",
+      "score": 69,
+      "market": "IN"
+    },
+    {
+      "ticker": "KEY",
+      "name": "KeyCorp",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
+      "score": 68,
       "market": "UK"
     },
     {
@@ -283,53 +325,11 @@
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 65,
+      "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "RPD",
-      "name": "Rapid7",
-      "score": 57,
-      "market": "US"
-    },
-    {
-      "ticker": "GRG.L",
-      "name": "Greggs",
-      "score": 57,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 57,
-      "market": "FR"
     }
   ],
   "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 304
+  "bearishAlertCount": 307
 }
