@@ -8,6 +8,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
       "score": 72,
@@ -17,7 +24,14 @@
     {
       "ticker": "NET",
       "name": "Cloudflare",
-      "score": 70,
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MO",
+      "name": "Altria Group",
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
@@ -43,18 +57,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
+      "ticker": "STT",
+      "name": "State Street",
       "score": 69,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "AMC",
-      "name": "AMC Entertainment",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Small"
     },
     {
       "ticker": "OGN",
@@ -62,36 +69,15 @@
       "score": 69,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 69,
-      "market": "UK",
-      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 18,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 19,
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Small"
     },
     {
       "ticker": "ZG",
@@ -101,25 +87,39 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "WING",
-      "name": "Wingstop",
+      "ticker": "BYND",
+      "name": "Beyond Meat",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
       "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
     {
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "COIN",
       "name": "Coinbase",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
+      "ticker": "DKNG",
+      "name": "DraftKings",
       "score": 26,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "ALNY",
@@ -129,15 +129,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
-      "score": 26,
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 27,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
-      "ticker": "OPEN",
-      "name": "Opendoor Technologies",
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
@@ -147,7 +147,13 @@
     {
       "ticker": "NET",
       "name": "Cloudflare",
-      "score": 70,
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "MO",
+      "name": "Altria Group",
+      "score": 71,
       "market": "US"
     },
     {
@@ -169,8 +175,8 @@
       "market": "HK"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
+      "ticker": "STT",
+      "name": "State Street",
       "score": 69,
       "market": "US"
     },
@@ -189,12 +195,6 @@
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "TRGP",
-      "name": "Targa Resources",
       "score": 68,
       "market": "US"
     },
@@ -231,12 +231,6 @@
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "ETSY",
       "name": "Etsy",
       "score": 67,
@@ -265,6 +259,12 @@
       "name": "Varonis Systems",
       "score": 66,
       "market": "US"
+    },
+    {
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
+      "score": 66,
+      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -277,7 +277,7 @@
     {
       "ticker": "AMC",
       "name": "AMC Entertainment",
-      "score": 69,
+      "score": 73,
       "market": "US"
     },
     {
@@ -293,12 +293,6 @@
       "market": "IN"
     },
     {
-      "ticker": "MO",
-      "name": "Altria Group",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "BNZL.L",
       "name": "Bunzl",
       "score": 68,
@@ -311,10 +305,10 @@
       "market": "FR"
     },
     {
-      "ticker": "TRV",
-      "name": "Travelers",
+      "ticker": "BARC.L",
+      "name": "Barclays",
       "score": 67,
-      "market": "US"
+      "market": "UK"
     },
     {
       "ticker": "BYIT.L",
@@ -327,9 +321,15 @@
       "name": "BNP Paribas",
       "score": 67,
       "market": "FR"
+    },
+    {
+      "ticker": "ACA.PA",
+      "name": "Credit Agricole",
+      "score": 67,
+      "market": "FR"
     }
   ],
   "totalStocks": 861,
-  "avgScore": 49,
-  "bearishAlertCount": 292
+  "avgScore": 50,
+  "bearishAlertCount": 289
 }
