@@ -3,7 +3,7 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 74,
+      "score": 75,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -13,6 +13,13 @@
       "score": 73,
       "market": "UK",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "VTRS",
+      "name": "Viatris",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "INVP.L",
@@ -29,6 +36,20 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "BME.L",
       "name": "B&M European",
       "score": 71,
@@ -36,53 +57,32 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
+      "ticker": "TRV",
+      "name": "Travelers",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
       "score": 70,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 70,
-      "market": "JP",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 21,
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 22,
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -94,20 +94,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "GRAB",
       "name": "Grab Holdings",
       "score": 25,
@@ -117,33 +103,53 @@
     {
       "ticker": "DKNG",
       "name": "DraftKings",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CVNA",
-      "name": "Carvana",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana",
       "score": 28,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "VTRS",
+      "name": "Viatris",
+      "score": 72,
+      "market": "US"
+    },
     {
       "ticker": "BNP.PA",
       "name": "BNP Paribas",
@@ -153,12 +159,24 @@
     {
       "ticker": "NET",
       "name": "Cloudflare",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "STT",
       "name": "State Street",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "TRV",
+      "name": "Travelers",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
       "score": 70,
       "market": "US"
     },
@@ -175,41 +193,23 @@
       "market": "JP"
     },
     {
-      "ticker": "TRV",
-      "name": "Travelers",
+      "ticker": "HPQ",
+      "name": "HP Inc",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
+      "ticker": "MO",
+      "name": "Altria Group",
       "score": 69,
       "market": "US"
-    },
-    {
-      "ticker": "BARC.L",
-      "name": "Barclays",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "JSWSTEEL.NS",
-      "name": "JSW Steel",
-      "score": 69,
-      "market": "IN"
-    },
-    {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 69,
-      "market": "JP"
     }
   ],
   "topMidCap": [
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 74,
+      "score": 75,
       "market": "US"
     },
     {
@@ -237,15 +237,9 @@
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 67,
+      "score": 68,
       "market": "US"
     },
     {
@@ -253,6 +247,12 @@
       "name": "Marks & Spencer",
       "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "PENN",
+      "name": "Penn Entertainment",
+      "score": 66,
+      "market": "US"
     },
     {
       "ticker": "JD.L",
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 861,
-  "avgScore": 50,
+  "avgScore": 51,
   "bearishAlertCount": 291
 }
