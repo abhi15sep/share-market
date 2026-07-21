@@ -10,7 +10,7 @@
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 73,
+      "score": 72,
       "market": "UK",
       "capCategory": "Small"
     },
@@ -36,20 +36,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "STT",
       "name": "State Street",
       "score": 70,
@@ -69,6 +55,20 @@
       "score": 70,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "6098.T",
+      "name": "Recruit Holdings",
+      "score": 70,
+      "market": "JP",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -87,9 +87,9 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 25,
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -101,17 +101,17 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "COIN",
       "name": "Coinbase",
       "score": 26,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 27,
-      "market": "DE",
       "capCategory": "Large"
     },
     {
@@ -122,13 +122,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "EL.PA",
       "name": "EssilorLuxottica",
       "score": 28,
@@ -136,11 +129,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "WIZZ.L",
-      "name": "Wizz Air",
+      "ticker": "DKNG",
+      "name": "DraftKings",
       "score": 28,
-      "market": "UK",
-      "capCategory": "Small"
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -160,12 +160,6 @@
       "ticker": "ZION",
       "name": "Zions Bancorporation",
       "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 70,
       "market": "US"
     },
     {
@@ -193,14 +187,20 @@
       "market": "JP"
     },
     {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "TRV",
       "name": "Travelers",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "MTB",
-      "name": "M&T Bank",
+      "ticker": "TRGP",
+      "name": "Targa Resources",
       "score": 69,
       "market": "US"
     }
@@ -211,12 +211,6 @@
       "name": "AMC Entertainment",
       "score": 74,
       "market": "US"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 71,
-      "market": "UK"
     },
     {
       "ticker": "OGN",
@@ -231,9 +225,9 @@
       "market": "UK"
     },
     {
-      "ticker": "JET2.L",
-      "name": "Jet2",
-      "score": 67,
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 69,
       "market": "UK"
     },
     {
@@ -265,13 +259,19 @@
       "name": "Investec",
       "score": 65,
       "market": "UK"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 64,
+      "market": "US"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 73,
+      "score": 72,
       "market": "UK"
     },
     {
@@ -281,8 +281,20 @@
       "market": "UK"
     },
     {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 63,
+      "market": "UK"
+    },
+    {
       "ticker": "MONY.L",
       "name": "Moneysupermarket.com",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 62,
       "market": "UK"
     },
@@ -293,8 +305,8 @@
       "market": "UK"
     },
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
+      "ticker": "DOM.L",
+      "name": "Domino's Pizza Group",
       "score": 61,
       "market": "UK"
     },
@@ -311,25 +323,13 @@
       "market": "FR"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 60,
-      "market": "UK"
-    },
-    {
       "ticker": "RPD",
       "name": "Rapid7",
       "score": 58,
       "market": "US"
-    },
-    {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 58,
-      "market": "UK"
     }
   ],
-  "totalStocks": 852,
+  "totalStocks": 849,
   "avgScore": 50,
-  "bearishAlertCount": 284
+  "bearishAlertCount": 281
 }
