@@ -10,9 +10,30 @@
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 72,
+      "score": 73,
       "market": "UK",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "INVP.L",
+      "name": "Investec",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 72,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BME.L",
+      "name": "B&M European",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
       "ticker": "STT",
@@ -22,15 +43,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BME.L",
-      "name": "B&M European",
+      "ticker": "EZJ.L",
+      "name": "easyJet",
       "score": 70,
       "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
       "score": 70,
       "market": "UK",
       "capCategory": "Mid"
@@ -48,37 +69,9 @@
       "score": 70,
       "market": "JP",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "VTRS",
-      "name": "Viatris",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 69,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "JSWSTEEL.NS",
-      "name": "JSW Steel",
-      "score": 69,
-      "market": "IN",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 20,
-      "market": "US",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "ZG",
       "name": "Zillow Group",
@@ -87,10 +80,17 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "BYND",
+      "name": "Beyond Meat",
       "score": 24,
-      "market": "FR",
+      "market": "US",
       "capCategory": "Small"
     },
     {
@@ -101,9 +101,23 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "CPNG",
-      "name": "Coupang",
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
       "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 25,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "DKNG",
+      "name": "DraftKings",
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
@@ -127,23 +141,15 @@
       "score": 26,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 72,
+      "market": "FR"
+    },
     {
       "ticker": "STT",
       "name": "State Street",
@@ -163,10 +169,10 @@
       "market": "JP"
     },
     {
-      "ticker": "VTRS",
-      "name": "Viatris",
+      "ticker": "BARC.L",
+      "name": "Barclays",
       "score": 69,
-      "market": "US"
+      "market": "UK"
     },
     {
       "ticker": "JSWSTEEL.NS",
@@ -181,28 +187,22 @@
       "market": "JP"
     },
     {
+      "ticker": "MO",
+      "name": "Altria Group",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "HST",
       "name": "Host Hotels & Resorts",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "MO",
-      "name": "Altria Group",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "SGRO.L",
       "name": "Segro",
-      "score": 67,
+      "score": 68,
       "market": "UK"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 67,
-      "market": "FR"
     }
   ],
   "topMidCap": [
@@ -213,9 +213,15 @@
       "market": "US"
     },
     {
+      "ticker": "INVP.L",
+      "name": "Investec",
+      "score": 72,
+      "market": "UK"
+    },
+    {
       "ticker": "BME.L",
       "name": "B&M European",
-      "score": 70,
+      "score": 71,
       "market": "UK"
     },
     {
@@ -227,7 +233,7 @@
     {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
-      "score": 69,
+      "score": 70,
       "market": "UK"
     },
     {
@@ -243,14 +249,8 @@
       "market": "US"
     },
     {
-      "ticker": "FRAS.L",
-      "name": "Frasers Group",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "BBOX.L",
-      "name": "Tritax Big Box REIT",
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
       "score": 67,
       "market": "UK"
     },
@@ -261,8 +261,8 @@
       "market": "US"
     },
     {
-      "ticker": "LAND.L",
-      "name": "Land Securities",
+      "ticker": "JD.L",
+      "name": "JD Sports Fashion",
       "score": 66,
       "market": "UK"
     }
@@ -271,26 +271,38 @@
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
-      "score": 72,
+      "score": 73,
       "market": "UK"
     },
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 67,
+      "score": 68,
       "market": "UK"
     },
     {
       "ticker": "MONY.L",
       "name": "Moneysupermarket.com",
-      "score": 65,
+      "score": 67,
       "market": "UK"
     },
     {
       "ticker": "HMSO.L",
       "name": "Hammerson",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "GRG.L",
+      "name": "Greggs",
       "score": 64,
       "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 64,
+      "market": "FR"
     },
     {
       "ticker": "BYIT.L",
@@ -299,37 +311,25 @@
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 62,
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 63,
       "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 62,
-      "market": "FR"
     },
     {
       "ticker": "DOM.L",
       "name": "Domino's Pizza Group",
-      "score": 61,
+      "score": 62,
       "market": "UK"
     },
     {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 60,
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 62,
       "market": "UK"
     }
   ],
-  "totalStocks": 857,
-  "avgScore": 49,
+  "totalStocks": 860,
+  "avgScore": 50,
   "bearishAlertCount": 287
 }
