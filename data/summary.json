@@ -36,6 +36,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "STT",
       "name": "State Street",
       "score": 70,
@@ -62,23 +69,9 @@
       "score": 70,
       "market": "JP",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 70,
-      "market": "JP",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
@@ -87,25 +80,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 24,
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 22,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "VIV.PA",
@@ -115,22 +94,29 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
+      "ticker": "BYND",
+      "name": "Beyond Meat",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CVNA",
-      "name": "Carvana",
+      "ticker": "DKNG",
+      "name": "DraftKings",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
@@ -141,6 +127,20 @@
       "score": 26,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -149,6 +149,12 @@
       "name": "BNP Paribas",
       "score": 72,
       "market": "FR"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 70,
+      "market": "US"
     },
     {
       "ticker": "STT",
@@ -169,6 +175,18 @@
       "market": "JP"
     },
     {
+      "ticker": "TRV",
+      "name": "Travelers",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "BARC.L",
       "name": "Barclays",
       "score": 69,
@@ -185,24 +203,6 @@
       "name": "Sumitomo Mitsui Financial",
       "score": 69,
       "market": "JP"
-    },
-    {
-      "ticker": "MO",
-      "name": "Altria Group",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "SGRO.L",
-      "name": "Segro",
-      "score": 68,
-      "market": "UK"
     }
   ],
   "topMidCap": [
@@ -243,8 +243,8 @@
       "market": "US"
     },
     {
-      "ticker": "PENN",
-      "name": "Penn Entertainment",
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 67,
       "market": "US"
     },
@@ -255,14 +255,14 @@
       "market": "UK"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 66,
-      "market": "US"
-    },
-    {
       "ticker": "JD.L",
       "name": "JD Sports Fashion",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "SCT.L",
+      "name": "Softcat",
       "score": 66,
       "market": "UK"
     }
@@ -329,7 +329,7 @@
       "market": "UK"
     }
   ],
-  "totalStocks": 860,
+  "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 287
+  "bearishAlertCount": 291
 }
