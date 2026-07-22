@@ -8,6 +8,20 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 75,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BLND.L",
+      "name": "British Land",
+      "score": 74,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 73,
@@ -15,70 +29,49 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 72,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "BAC",
       "name": "Bank of America",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MO",
-      "name": "Altria Group",
-      "score": 70,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "BME.L",
       "name": "B&M European",
-      "score": 70,
+      "score": 71,
       "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
+      "ticker": "TRV",
+      "name": "Travelers",
       "score": 70,
-      "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 69,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "FRAS.L",
       "name": "Frasers Group",
-      "score": 69,
+      "score": 70,
       "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 69,
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 70,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "BBOX.L",
+      "name": "Tritax Big Box REIT",
+      "score": 70,
       "market": "UK",
       "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 18,
-      "market": "US",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "UPST",
       "name": "Upstart",
@@ -87,60 +80,67 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 22,
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 20,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 23,
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ISRG",
       "name": "Intuitive Surgical",
-      "score": 23,
+      "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "CVNA",
       "name": "Carvana",
-      "score": 25,
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
+      "ticker": "RBLX",
+      "name": "Roblox",
       "score": 26,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "POLICYBZR.BO",
+      "name": "PB Fintech (PolicyBazaar)",
+      "score": 27,
+      "market": "IN",
+      "capCategory": "Large"
     },
     {
       "ticker": "DKNG",
       "name": "DraftKings",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
-      "score": 26,
+      "ticker": "BYND",
+      "name": "Beyond Meat",
+      "score": 27,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
@@ -153,20 +153,26 @@
     {
       "ticker": "BNP.PA",
       "name": "BNP Paribas",
-      "score": 72,
+      "score": 75,
       "market": "FR"
     },
     {
       "ticker": "BAC",
       "name": "Bank of America",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "TRV",
+      "name": "Travelers",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "MO",
-      "name": "Altria Group",
+      "ticker": "GLE.PA",
+      "name": "Societe Generale",
       "score": 70,
-      "market": "US"
+      "market": "FR"
     },
     {
       "ticker": "8306.T",
@@ -187,8 +193,8 @@
       "market": "US"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "MO",
+      "name": "Altria Group",
       "score": 68,
       "market": "US"
     },
@@ -197,15 +203,15 @@
       "name": "Host Hotels & Resorts",
       "score": 68,
       "market": "US"
-    },
-    {
-      "ticker": "TRV",
-      "name": "Travelers",
-      "score": 67,
-      "market": "US"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "BLND.L",
+      "name": "British Land",
+      "score": 74,
+      "market": "UK"
+    },
     {
       "ticker": "OGN",
       "name": "Organon & Co",
@@ -215,6 +221,24 @@
     {
       "ticker": "BME.L",
       "name": "B&M European",
+      "score": 71,
+      "market": "UK"
+    },
+    {
+      "ticker": "FRAS.L",
+      "name": "Frasers Group",
+      "score": 70,
+      "market": "UK"
+    },
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 70,
+      "market": "UK"
+    },
+    {
+      "ticker": "BBOX.L",
+      "name": "Tritax Big Box REIT",
       "score": 70,
       "market": "UK"
     },
@@ -225,49 +249,31 @@
       "market": "US"
     },
     {
-      "ticker": "FRAS.L",
-      "name": "Frasers Group",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "INVP.L",
-      "name": "Investec",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "BBOX.L",
-      "name": "Tritax Big Box REIT",
-      "score": 68,
-      "market": "UK"
-    },
-    {
       "ticker": "EZJ.L",
       "name": "easyJet",
-      "score": 67,
+      "score": 69,
       "market": "UK"
     },
     {
       "ticker": "LAND.L",
       "name": "Land Securities",
-      "score": 67,
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
+      "score": 68,
       "market": "UK"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 68,
+      "market": "UK"
+    },
     {
       "ticker": "CURY.L",
       "name": "Currys",
@@ -275,9 +281,15 @@
       "market": "UK"
     },
     {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 66,
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 64,
       "market": "UK"
     },
     {
@@ -287,14 +299,8 @@
       "market": "UK"
     },
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
+      "ticker": "DOM.L",
+      "name": "Domino's Pizza Group",
       "score": 63,
       "market": "UK"
     },
@@ -305,31 +311,25 @@
       "market": "UK"
     },
     {
+      "ticker": "SUPR.L",
+      "name": "Supermarket Income REIT",
+      "score": 61,
+      "market": "UK"
+    },
+    {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
       "score": 61,
       "market": "UK"
     },
     {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
       "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 60,
-      "market": "FR"
-    },
-    {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 59,
       "market": "UK"
     }
   ],
-  "totalStocks": 860,
+  "totalStocks": 861,
   "avgScore": 50,
   "bearishAlertCount": 304
 }
