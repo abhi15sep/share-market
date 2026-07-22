@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "SGRO.L",
       "name": "Segro",
       "score": 75,
@@ -29,11 +36,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 73,
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 72,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "TRV",
@@ -50,55 +57,27 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "FRAS.L",
-      "name": "Frasers Group",
+      "ticker": "CSX",
+      "name": "CSX",
       "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
+      "market": "US",
+      "capCategory": "Large"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
+      "ticker": "PCG",
+      "name": "PG&E",
       "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BBOX.L",
-      "name": "Tritax Big Box REIT",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 20,
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "BYND",
@@ -110,35 +89,56 @@
     {
       "ticker": "QS",
       "name": "QuantumScape",
-      "score": 25,
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "ISRG",
       "name": "Intuitive Surgical",
-      "score": 25,
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "CVNA",
       "name": "Carvana",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
+      "ticker": "CPNG",
+      "name": "Coupang",
       "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 28,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 28,
       "market": "US",
       "capCategory": "Large"
     }
@@ -163,9 +163,33 @@
       "market": "IN"
     },
     {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "TRV",
       "name": "Travelers",
       "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "PCG",
+      "name": "PG&E",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "MTB",
+      "name": "M&T Bank",
+      "score": 70,
       "market": "US"
     },
     {
@@ -179,33 +203,15 @@
       "name": "Mitsubishi UFJ Financial",
       "score": 70,
       "market": "JP"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 69,
-      "market": "JP"
-    },
-    {
-      "ticker": "MO",
-      "name": "Altria Group",
-      "score": 68,
-      "market": "US"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 75,
+      "market": "US"
+    },
     {
       "ticker": "BLND.L",
       "name": "British Land",
@@ -213,16 +219,16 @@
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 73,
-      "market": "US"
-    },
-    {
       "ticker": "BME.L",
       "name": "B&M European",
       "score": 71,
       "market": "UK"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 70,
+      "market": "US"
     },
     {
       "ticker": "FRAS.L",
@@ -241,12 +247,6 @@
       "name": "Tritax Big Box REIT",
       "score": 70,
       "market": "UK"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 69,
-      "market": "US"
     },
     {
       "ticker": "EZJ.L",
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 861,
-  "avgScore": 50,
+  "avgScore": 51,
   "bearishAlertCount": 305
 }
