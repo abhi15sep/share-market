@@ -22,6 +22,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "JSWSTEEL.NS",
+      "name": "JSW Steel",
+      "score": 74,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 73,
@@ -29,8 +36,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
+      "ticker": "TRV",
+      "name": "Travelers",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -41,13 +48,6 @@
       "score": 71,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "TRV",
-      "name": "Travelers",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "FRAS.L",
@@ -80,32 +80,53 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 20,
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 22,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 21,
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 22,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "GRAB",
       "name": "Grab Holdings",
-      "score": 22,
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
+      "ticker": "BYND",
+      "name": "Beyond Meat",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "QS",
+      "name": "QuantumScape",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "ISRG",
       "name": "Intuitive Surgical",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "CVNA",
@@ -115,32 +136,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "POLICYBZR.BO",
-      "name": "PB Fintech (PolicyBazaar)",
-      "score": 27,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DKNG",
-      "name": "DraftKings",
+      "ticker": "GPC",
+      "name": "Genuine Parts",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
@@ -157,15 +157,15 @@
       "market": "FR"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 71,
-      "market": "US"
+      "ticker": "JSWSTEEL.NS",
+      "name": "JSW Steel",
+      "score": 74,
+      "market": "IN"
     },
     {
       "ticker": "TRV",
       "name": "Travelers",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
@@ -181,26 +181,26 @@
       "market": "JP"
     },
     {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "6098.T",
       "name": "Recruit Holdings",
       "score": 69,
       "market": "JP"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "MO",
       "name": "Altria Group",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
       "score": 68,
       "market": "US"
     }
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 861,
   "avgScore": 50,
-  "bearishAlertCount": 304
+  "bearishAlertCount": 305
 }
