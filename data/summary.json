@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 81,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
       "score": 77,
@@ -12,13 +19,6 @@
       "name": "Tritax Big Box REIT",
       "score": 76,
       "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 75,
-      "market": "US",
       "capCategory": "Mid"
     },
     {
@@ -43,6 +43,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "FCNCA",
+      "name": "First Citizens BancShares",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "BEZ.L",
       "name": "Beazley",
       "score": 71,
@@ -57,13 +64,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "JD.L",
       "name": "JD Sports Fashion",
       "score": 70,
@@ -75,37 +75,23 @@
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 15,
+      "score": 16,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 19,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 18,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
       "score": 22,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
-      "score": 23,
-      "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "GPC",
-      "name": "Genuine Parts",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "WING",
@@ -115,25 +101,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 25,
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "CVNA",
-      "name": "Carvana",
+      "ticker": "HUBS",
+      "name": "HubSpot",
       "score": 25,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "VIV.PA",
@@ -141,6 +120,27 @@
       "score": 26,
       "market": "FR",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GRAB",
+      "name": "Grab Holdings",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "POLICYBZR.BO",
+      "name": "PB Fintech (PolicyBazaar)",
+      "score": 27,
+      "market": "IN",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -163,49 +163,55 @@
       "market": "FR"
     },
     {
+      "ticker": "FCNCA",
+      "name": "First Citizens BancShares",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "8316.T",
       "name": "Sumitomo Mitsui Financial",
       "score": 71,
       "market": "JP"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 69,
-      "market": "FR"
-    },
-    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 68,
+      "score": 69,
       "market": "US"
     },
     {
       "ticker": "TRV",
       "name": "Travelers",
-      "score": 68,
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 69,
       "market": "US"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 81,
+      "market": "US"
+    },
     {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
@@ -217,12 +223,6 @@
       "name": "Tritax Big Box REIT",
       "score": 76,
       "market": "UK"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 75,
-      "market": "US"
     },
     {
       "ticker": "BEZ.L",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 860,
   "avgScore": 50,
-  "bearishAlertCount": 313
+  "bearishAlertCount": 314
 }
