@@ -57,39 +57,32 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "JD.L",
       "name": "JD Sports Fashion",
       "score": 70,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 14,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 17,
+      "score": 15,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 20,
+      "score": 18,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -97,6 +90,20 @@
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
       "score": 22,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "GPC",
+      "name": "Genuine Parts",
+      "score": 24,
       "market": "US",
       "capCategory": "Large"
     },
@@ -113,13 +120,6 @@
       "score": 25,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Small"
     },
     {
       "ticker": "CVNA",
@@ -169,8 +169,14 @@
       "market": "JP"
     },
     {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 69,
       "market": "US"
     },
@@ -187,20 +193,14 @@
       "market": "FR"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
+      "ticker": "TRV",
+      "name": "Travelers",
       "score": 68,
       "market": "US"
     }
@@ -329,7 +329,7 @@
       "market": "UK"
     }
   ],
-  "totalStocks": 859,
-  "avgScore": 49,
-  "bearishAlertCount": 317
+  "totalStocks": 860,
+  "avgScore": 50,
+  "bearishAlertCount": 313
 }
