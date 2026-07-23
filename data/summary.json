@@ -8,31 +8,10 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SGRO.L",
-      "name": "Segro",
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
       "score": 75,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 75,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "JSWSTEEL.NS",
-      "name": "JSW Steel",
-      "score": 74,
-      "market": "IN",
+      "market": "JP",
       "capCategory": "Large"
     },
     {
@@ -50,11 +29,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BME.L",
-      "name": "B&M European",
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
       "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
+      "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "CSX",
@@ -69,6 +55,20 @@
       "score": 70,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "MTB",
+      "name": "M&T Bank",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
@@ -78,6 +78,20 @@
       "score": 21,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 24,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "BYND",
@@ -101,6 +115,20 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "TTD",
+      "name": "Trade Desk",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "POLICYBZR.BO",
+      "name": "PB Fintech (PolicyBazaar)",
+      "score": 27,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ZG",
       "name": "Zillow Group",
       "score": 27,
@@ -113,54 +141,14 @@
       "score": 27,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "CPNG",
-      "name": "Coupang",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 28,
-      "market": "FR",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "SGRO.L",
-      "name": "Segro",
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
       "score": 75,
-      "market": "UK"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 75,
-      "market": "FR"
-    },
-    {
-      "ticker": "JSWSTEEL.NS",
-      "name": "JSW Steel",
-      "score": 74,
-      "market": "IN"
+      "market": "JP"
     },
     {
       "ticker": "STT",
@@ -172,6 +160,18 @@
       "ticker": "TRV",
       "name": "Travelers",
       "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 71,
+      "market": "JP"
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 70,
       "market": "US"
     },
     {
@@ -193,16 +193,16 @@
       "market": "US"
     },
     {
-      "ticker": "GLE.PA",
-      "name": "Societe Generale",
+      "ticker": "WAB",
+      "name": "Westinghouse Air Brake",
       "score": 70,
-      "market": "FR"
+      "market": "US"
     },
     {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 70,
-      "market": "JP"
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 69,
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -213,123 +213,123 @@
       "market": "US"
     },
     {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 74,
-      "market": "UK"
-    },
-    {
-      "ticker": "BME.L",
-      "name": "B&M European",
-      "score": 71,
-      "market": "UK"
-    },
-    {
       "ticker": "CROX",
       "name": "Crocs",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "FRAS.L",
-      "name": "Frasers Group",
-      "score": 70,
-      "market": "UK"
-    },
-    {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
-      "score": 70,
+      "score": 69,
       "market": "UK"
     },
     {
-      "ticker": "BBOX.L",
-      "name": "Tritax Big Box REIT",
-      "score": 70,
+      "ticker": "FRAS.L",
+      "name": "Frasers Group",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "BME.L",
+      "name": "B&M European",
+      "score": 67,
       "market": "UK"
     },
     {
       "ticker": "EZJ.L",
       "name": "easyJet",
-      "score": 69,
+      "score": 67,
       "market": "UK"
     },
     {
       "ticker": "LAND.L",
       "name": "Land Securities",
-      "score": 69,
+      "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "MKS.L",
-      "name": "Marks & Spencer",
-      "score": 68,
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
+      "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
+      "score": 65,
+      "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 68,
-      "market": "UK"
-    },
-    {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 66,
+      "score": 70,
       "market": "UK"
     },
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
       "score": 63,
       "market": "UK"
     },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 62,
+      "score": 63,
       "market": "UK"
+    },
+    {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "DOM.L",
+      "name": "Domino's Pizza Group",
+      "score": 60,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 60,
+      "market": "FR"
     },
     {
       "ticker": "SUPR.L",
       "name": "Supermarket Income REIT",
-      "score": 61,
+      "score": 58,
       "market": "UK"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 60,
+      "ticker": "GRG.L",
+      "name": "Greggs",
+      "score": 57,
       "market": "UK"
     }
   ],
-  "totalStocks": 861,
-  "avgScore": 51,
-  "bearishAlertCount": 305
+  "totalStocks": 860,
+  "avgScore": 50,
+  "bearishAlertCount": 312
 }
