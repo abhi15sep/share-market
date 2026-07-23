@@ -3,7 +3,7 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 81,
+      "score": 82,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -24,8 +24,15 @@
     {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
-      "score": 74,
+      "score": 75,
       "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 74,
+      "market": "FR",
       "capCategory": "Large"
     },
     {
@@ -36,10 +43,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 72,
-      "market": "FR",
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "score": 71,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -62,20 +69,13 @@
       "score": 71,
       "market": "JP",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "JD.L",
-      "name": "JD Sports Fashion",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 16,
+      "score": 17,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -94,13 +94,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
       "score": 24,
@@ -108,18 +101,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
+      "ticker": "WING",
+      "name": "Wingstop",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 26,
-      "market": "FR",
-      "capCategory": "Small"
     },
     {
       "ticker": "GWRE",
@@ -129,11 +115,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GRAB",
-      "name": "Grab Holdings",
+      "ticker": "HUBS",
+      "name": "HubSpot",
       "score": 26,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "POLICYBZR.BO",
@@ -141,14 +127,34 @@
       "score": 27,
       "market": "IN",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "BYND",
+      "name": "Beyond Meat",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
-      "score": 74,
+      "score": 75,
       "market": "JP"
+    },
+    {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 74,
+      "market": "FR"
     },
     {
       "ticker": "SGRO.L",
@@ -157,10 +163,10 @@
       "market": "UK"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 72,
-      "market": "FR"
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "FCNCA",
@@ -175,33 +181,27 @@
       "market": "JP"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "TRV",
       "name": "Travelers",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "CSX",
-      "name": "CSX",
-      "score": 69,
+      "ticker": "UNP",
+      "name": "Union Pacific",
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "PSX",
       "name": "Phillips 66",
-      "score": 69,
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 70,
       "market": "US"
     }
   ],
@@ -209,7 +209,7 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 81,
+      "score": 82,
       "market": "US"
     },
     {
@@ -287,12 +287,6 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 66,
-      "market": "FR"
-    },
-    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
       "score": 65,
@@ -317,6 +311,12 @@
       "market": "UK"
     },
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 61,
+      "market": "FR"
+    },
+    {
       "ticker": "SUPR.L",
       "name": "Supermarket Income REIT",
       "score": 60,
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 860,
-  "avgScore": 50,
-  "bearishAlertCount": 314
+  "avgScore": 51,
+  "bearishAlertCount": 318
 }
