@@ -8,45 +8,10 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 77,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BBOX.L",
-      "name": "Tritax Big Box REIT",
-      "score": 76,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
-      "score": 75,
+      "score": 72,
       "market": "JP",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 74,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SGRO.L",
-      "name": "Segro",
-      "score": 73,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 71,
-      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -57,16 +22,51 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
       "score": 71,
       "market": "UK",
       "capCategory": "Mid"
     },
     {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TRV",
+      "name": "Travelers",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 70,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "8316.T",
       "name": "Sumitomo Mitsui Financial",
-      "score": 71,
+      "score": 70,
       "market": "JP",
       "capCategory": "Large"
     }
@@ -94,6 +94,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
       "score": 24,
@@ -101,9 +108,9 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 25,
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -115,15 +122,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 27,
+      "market": "DE",
+      "capCategory": "Large"
     },
     {
-      "ticker": "POLICYBZR.BO",
-      "name": "PB Fintech (PolicyBazaar)",
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
       "score": 27,
       "market": "IN",
       "capCategory": "Large"
@@ -134,39 +141,14 @@
       "score": 27,
       "market": "US",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "OPEN",
-      "name": "Opendoor Technologies",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
-      "score": 75,
+      "score": 72,
       "market": "JP"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 74,
-      "market": "FR"
-    },
-    {
-      "ticker": "SGRO.L",
-      "name": "Segro",
-      "score": 73,
-      "market": "UK"
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 71,
-      "market": "US"
     },
     {
       "ticker": "FCNCA",
@@ -175,10 +157,10 @@
       "market": "US"
     },
     {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 71,
-      "market": "JP"
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "score": 70,
+      "market": "US"
     },
     {
       "ticker": "TRV",
@@ -199,9 +181,27 @@
       "market": "US"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
       "score": 70,
+      "market": "JP"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 69,
       "market": "US"
     }
   ],
@@ -215,81 +215,63 @@
     {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
-      "score": 77,
-      "market": "UK"
-    },
-    {
-      "ticker": "BBOX.L",
-      "name": "Tritax Big Box REIT",
-      "score": 76,
-      "market": "UK"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
       "score": 71,
-      "market": "UK"
-    },
-    {
-      "ticker": "JD.L",
-      "name": "JD Sports Fashion",
-      "score": 70,
       "market": "UK"
     },
     {
       "ticker": "EZJ.L",
       "name": "easyJet",
-      "score": 69,
+      "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "BLND.L",
-      "name": "British Land",
-      "score": 69,
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
+      "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "IMAX",
+      "name": "IMAX Corp",
+      "score": 66,
+      "market": "US"
     },
     {
       "ticker": "FRAS.L",
       "name": "Frasers Group",
-      "score": 68,
+      "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "INVP.L",
-      "name": "Investec",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "LAND.L",
-      "name": "Land Securities",
-      "score": 67,
+      "ticker": "BME.L",
+      "name": "B&M European",
+      "score": 66,
       "market": "UK"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 66,
-      "market": "UK"
-    },
-    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 65,
+      "score": 70,
       "market": "UK"
     },
     {
@@ -305,31 +287,49 @@
       "market": "UK"
     },
     {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "GRG.L",
+      "name": "Greggs",
+      "score": 61,
+      "market": "UK"
+    },
+    {
       "ticker": "CKN.L",
       "name": "Chemring Group",
-      "score": 62,
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 61,
       "market": "UK"
     },
     {
       "ticker": "ML.PA",
       "name": "Michelin",
-      "score": 61,
+      "score": 60,
       "market": "FR"
     },
     {
-      "ticker": "SUPR.L",
-      "name": "Supermarket Income REIT",
-      "score": 60,
+      "ticker": "DOM.L",
+      "name": "Domino's Pizza Group",
+      "score": 59,
       "market": "UK"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 60,
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 57,
       "market": "UK"
     }
   ],
   "totalStocks": 860,
-  "avgScore": 51,
-  "bearishAlertCount": 318
+  "avgScore": 50,
+  "bearishAlertCount": 314
 }
