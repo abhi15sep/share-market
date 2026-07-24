@@ -8,6 +8,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
       "score": 72,
@@ -57,17 +64,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 70,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
-      "score": 70,
-      "market": "JP",
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -94,13 +94,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "WING",
-      "name": "Wingstop",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
       "score": 24,
@@ -111,6 +104,13 @@
       "ticker": "HUBS",
       "name": "HubSpot",
       "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -129,18 +129,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
-      "score": 27,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "BYND",
       "name": "Beyond Meat",
       "score": 27,
       "market": "US",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -181,26 +181,26 @@
       "market": "US"
     },
     {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "8316.T",
       "name": "Sumitomo Mitsui Financial",
       "score": 70,
       "market": "JP"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "EOG",
       "name": "EOG Resources",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX",
       "score": 69,
       "market": "US"
     }
@@ -225,8 +225,8 @@
       "market": "UK"
     },
     {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
+      "ticker": "JD.L",
+      "name": "JD Sports Fashion",
       "score": 67,
       "market": "UK"
     },
@@ -261,8 +261,8 @@
       "market": "UK"
     },
     {
-      "ticker": "BME.L",
-      "name": "B&M European",
+      "ticker": "INVP.L",
+      "name": "Investec",
       "score": 66,
       "market": "UK"
     }
@@ -271,65 +271,65 @@
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 70,
+      "score": 73,
       "market": "UK"
     },
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 63,
-      "market": "UK"
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 69,
+      "market": "US"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 62,
-      "market": "UK"
+      "ticker": "HON",
+      "name": "Honeywell",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "KMI",
+      "name": "Kinder Morgan",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "AFL",
+      "name": "Aflac",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 65,
+      "market": "US"
     },
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 62,
+      "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "GRG.L",
-      "name": "Greggs",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 60,
-      "market": "FR"
-    },
-    {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 59,
-      "market": "UK"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 57,
-      "market": "UK"
+      "ticker": "NEE",
+      "name": "NextEra Energy",
+      "score": 64,
+      "market": "US"
     }
   ],
   "totalStocks": 860,
   "avgScore": 50,
-  "bearishAlertCount": 314
+  "bearishAlertCount": 315
 }
