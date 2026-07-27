@@ -1,6 +1,20 @@
 {
   "topOverall": [
     {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BLND.L",
+      "name": "British Land",
+      "score": 75,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 75,
@@ -29,13 +43,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
       "score": 72,
@@ -50,13 +57,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MET",
-      "name": "MetLife",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 71,
@@ -64,11 +64,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "FRAS.L",
+      "name": "Frasers Group",
       "score": 71,
-      "market": "US",
-      "capCategory": "Large"
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
@@ -89,23 +89,23 @@
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 25,
+      "score": 22,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 25,
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "score": 23,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
       "score": 25,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "VIV.PA",
@@ -115,15 +115,8 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
@@ -136,14 +129,27 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "POLICYBZR.BO",
-      "name": "PB Fintech (PolicyBazaar)",
-      "score": 27,
-      "market": "IN",
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "score": 26,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 75,
+      "market": "US"
+    },
     {
       "ticker": "ALL",
       "name": "Allstate",
@@ -157,32 +163,14 @@
       "market": "FR"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
       "score": 72,
       "market": "JP"
     },
     {
-      "ticker": "MET",
-      "name": "MetLife",
-      "score": 71,
-      "market": "US"
-    },
-    {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
       "score": 71,
       "market": "US"
     },
@@ -199,13 +187,31 @@
       "market": "HK"
     },
     {
-      "ticker": "AAPL",
-      "name": "Apple",
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "MET",
+      "name": "MetLife",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 70,
       "market": "US"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "BLND.L",
+      "name": "British Land",
+      "score": 75,
+      "market": "UK"
+    },
     {
       "ticker": "SCT.L",
       "name": "Softcat",
@@ -259,12 +265,6 @@
       "name": "easyJet",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "VRNS",
-      "name": "Varonis Systems",
-      "score": 66,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -299,6 +299,12 @@
       "market": "UK"
     },
     {
+      "ticker": "CARD.L",
+      "name": "Card Factory",
+      "score": 65,
+      "market": "UK"
+    },
+    {
       "ticker": "RWS.L",
       "name": "RWS Holdings",
       "score": 65,
@@ -311,8 +317,8 @@
       "market": "UK"
     },
     {
-      "ticker": "CARD.L",
-      "name": "Card Factory",
+      "ticker": "TRN.L",
+      "name": "Trainline",
       "score": 63,
       "market": "UK"
     },
@@ -321,15 +327,9 @@
       "name": "Hammerson",
       "score": 63,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 63,
-      "market": "FR"
     }
   ],
   "totalStocks": 860,
   "avgScore": 51,
-  "bearishAlertCount": 272
+  "bearishAlertCount": 269
 }
