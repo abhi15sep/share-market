@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-27T22:15:08.738Z",
+  "lastUpdated": "2026-07-28T09:44:27.653Z",
   "stockCount": 860,
-  "bearishAlerts": 270,
-  "newsCount": 675,
+  "bearishAlerts": 263,
+  "newsCount": 825,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
@@ -16,43 +16,43 @@
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10781.75,
-      "sma50": 10481.28,
-      "sma200": 10185.92,
-      "changeFromHigh": -1.18,
+      "price": 10846.36,
+      "sma50": 10491.73,
+      "sma200": 10193.02,
+      "changeFromHigh": -0.59,
       "distributionDays": 2,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "in": {
       "index": "Nifty 50",
-      "price": 23995.95,
-      "sma50": 23843.34,
-      "sma200": 24801.77,
-      "changeFromHigh": -8.86,
-      "distributionDays": 2,
+      "price": 23963.75,
+      "sma50": 23862.97,
+      "sma200": 24790,
+      "changeFromHigh": -8.98,
+      "distributionDays": 3,
       "regime": "correction",
       "signal": "Price below SMA200 — trend weakening"
     },
     "eu": {
       "index": "DAX 40",
-      "price": 25361.03,
-      "sma50": 24941.4,
-      "sma200": 24368.21,
-      "changeFromHigh": -1.77,
-      "distributionDays": 4,
+      "price": 25514.98,
+      "sma50": 24984.75,
+      "sma200": 24376.55,
+      "changeFromHigh": -1.17,
+      "distributionDays": 5,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "asia": {
       "index": "Nikkei 225",
-      "price": 64931.19,
-      "sma50": 66908.66,
-      "sma200": 56525.71,
-      "changeFromHigh": -10.27,
+      "price": 62364.92,
+      "sma50": 67010.08,
+      "sma200": 56712.31,
+      "changeFromHigh": -13.82,
       "distributionDays": 5,
       "regime": "correction",
-      "signal": "Down -10.3% from high — correction territory"
+      "signal": "Down -13.8% from high — correction territory"
     },
     "overall": "correction",
     "summary": "Markets showing weakness. Be selective, reduce position sizes, and tighten stops."
