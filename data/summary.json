@@ -17,7 +17,7 @@
     {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 75,
+      "score": 76,
       "market": "US",
       "capCategory": "Large"
     },
@@ -73,13 +73,6 @@
   ],
   "bottomOverall": [
     {
-      "ticker": "UPST",
-      "name": "Upstart",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
       "score": 23,
@@ -87,11 +80,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
+      "ticker": "UPST",
+      "name": "Upstart",
       "score": 26,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Mid"
     },
     {
       "ticker": "POLICYBZR.BO",
@@ -101,11 +94,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 28,
+      "market": "FR",
+      "capCategory": "Small"
     },
     {
       "ticker": "HDFCLIFE.NS",
@@ -115,8 +108,22 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
       "score": 28,
       "market": "US",
       "capCategory": "Large"
@@ -129,15 +136,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CVNA",
-      "name": "Carvana",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CPNG",
-      "name": "Coupang",
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
       "score": 29,
       "market": "US",
       "capCategory": "Large"
@@ -147,7 +147,7 @@
     {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 75,
+      "score": 76,
       "market": "US"
     },
     {
@@ -169,14 +169,8 @@
       "market": "UK"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 73,
-      "market": "FR"
-    },
-    {
-      "ticker": "8316.T",
-      "name": "Sumitomo Mitsui Financial",
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
       "score": 73,
       "market": "JP"
     },
@@ -193,14 +187,20 @@
       "market": "US"
     },
     {
-      "ticker": "TRV",
-      "name": "Travelers",
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 72,
+      "market": "FR"
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "ALL",
-      "name": "Allstate",
+      "ticker": "TRV",
+      "name": "Travelers",
       "score": 71,
       "market": "US"
     }
@@ -281,12 +281,6 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 68,
-      "market": "FR"
-    },
-    {
       "ticker": "GRG.L",
       "name": "Greggs",
       "score": 67,
@@ -303,6 +297,12 @@
       "name": "S4 Capital",
       "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 65,
+      "market": "FR"
     },
     {
       "ticker": "JDW.L",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 860,
   "avgScore": 53,
-  "bearishAlertCount": 231
+  "bearishAlertCount": 234
 }
