@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "MET",
+      "name": "MetLife",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ALL",
       "name": "Allstate",
       "score": 73,
@@ -15,10 +22,31 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
       "score": 73,
       "market": "JP",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 72,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -29,56 +57,21 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 71,
+      "ticker": "VTRS",
+      "name": "Viatris",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "MET",
-      "name": "MetLife",
-      "score": 71,
+      "ticker": "SJM",
+      "name": "J.M. Smucker",
+      "score": 72,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "COALINDIA.NS",
-      "name": "Coal India",
-      "score": 70,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 70,
-      "market": "FR",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
@@ -90,6 +83,13 @@
       "ticker": "UPST",
       "name": "Upstart",
       "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 27,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -122,31 +122,43 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BYND",
+      "name": "Beyond Meat",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "CVNA",
       "name": "Carvana",
       "score": 28,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 29,
-      "market": "FR",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
+      "ticker": "MET",
+      "name": "MetLife",
+      "score": 73,
+      "market": "US"
+    },
+    {
       "ticker": "ALL",
       "name": "Allstate",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 73,
       "market": "US"
     },
@@ -157,59 +169,47 @@
       "market": "JP"
     },
     {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 71,
+      "ticker": "VTRS",
+      "name": "Viatris",
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "MET",
-      "name": "MetLife",
+      "ticker": "SJM",
+      "name": "J.M. Smucker",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "TRV",
+      "name": "Travelers",
       "score": 71,
       "market": "US"
     },
     {
       "ticker": "COALINDIA.NS",
       "name": "Coal India",
-      "score": 70,
+      "score": 71,
       "market": "IN"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 70,
-      "market": "FR"
-    },
-    {
-      "ticker": "TRV",
-      "name": "Travelers",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "BMY",
-      "name": "Bristol-Myers Squibb",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 69,
-      "market": "US"
     }
   ],
   "topMidCap": [
     {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
-      "score": 70,
+      "score": 73,
       "market": "UK"
     },
     {
@@ -237,18 +237,6 @@
       "market": "UK"
     },
     {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "FROG",
-      "name": "JFrog",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "LAND.L",
       "name": "Land Securities",
       "score": 67,
@@ -264,6 +252,18 @@
       "ticker": "WSC",
       "name": "WillScot Holdings",
       "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
+      "score": 65,
       "market": "US"
     }
   ],
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 860,
   "avgScore": 51,
-  "bearishAlertCount": 263
+  "bearishAlertCount": 262
 }
