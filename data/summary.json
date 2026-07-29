@@ -8,6 +8,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
       "score": 74,
@@ -36,6 +43,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "STAN.L",
       "name": "Standard Chartered",
       "score": 72,
@@ -55,27 +69,13 @@
       "score": 72,
       "market": "JP",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 21,
+      "score": 22,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -87,15 +87,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "QS",
-      "name": "QuantumScape",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "UPST",
-      "name": "Upstart",
+      "ticker": "ZG",
+      "name": "Zillow Group",
       "score": 24,
       "market": "US",
       "capCategory": "Mid"
@@ -108,6 +101,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "ISRG",
       "name": "Intuitive Surgical",
       "score": 25,
@@ -115,40 +115,52 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "DKNG",
       "name": "DraftKings",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "POLICYBZR.BO",
+      "name": "PB Fintech (PolicyBazaar)",
+      "score": 28,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
+      "score": 28,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "FMC",
+      "name": "FMC Corp",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 74,
+      "market": "US"
+    },
     {
       "ticker": "ADM.L",
       "name": "Admiral Group",
       "score": 73,
       "market": "UK"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 72,
+      "market": "US"
     },
     {
       "ticker": "STAN.L",
@@ -169,14 +181,20 @@
       "market": "JP"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
+      "ticker": "GEN",
+      "name": "Gen Digital",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "GRMN",
+      "name": "Garmin",
       "score": 71,
       "market": "US"
     },
@@ -185,24 +203,6 @@
       "name": "Tesco",
       "score": 71,
       "market": "UK"
-    },
-    {
-      "ticker": "1398.HK",
-      "name": "ICBC",
-      "score": 71,
-      "market": "HK"
-    },
-    {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 70,
-      "market": "US"
     }
   ],
   "topMidCap": [
@@ -231,6 +231,18 @@
       "market": "UK"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "LEA",
+      "name": "Lear Corp",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "FRAS.L",
       "name": "Frasers Group",
       "score": 69,
@@ -253,18 +265,6 @@
       "name": "Marks & Spencer",
       "score": 68,
       "market": "UK"
-    },
-    {
-      "ticker": "HIK.L",
-      "name": "Hikma Pharmaceuticals",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 67,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -279,6 +279,18 @@
       "name": "Hammerson",
       "score": 69,
       "market": "UK"
+    },
+    {
+      "ticker": "F",
+      "name": "Ford Motor",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 67,
+      "market": "US"
     },
     {
       "ticker": "MONY.L",
@@ -315,21 +327,9 @@
       "name": "Watches of Switzerland",
       "score": 64,
       "market": "UK"
-    },
-    {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "VCT.L",
-      "name": "Victrex",
-      "score": 63,
-      "market": "UK"
     }
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 236
+  "bearishAlertCount": 239
 }
