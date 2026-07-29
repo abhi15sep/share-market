@@ -8,29 +8,22 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "LEA",
-      "name": "Lear Corp",
+      "ticker": "ALL",
+      "name": "Allstate",
       "score": 75,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 74,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "KO",
       "name": "Coca-Cola",
-      "score": 73,
+      "score": 74,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "NBIX",
+      "name": "Neurocrine Biosciences",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -43,11 +36,25 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "MET",
+      "name": "MetLife",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "HST",
       "name": "Host Hotels & Resorts",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "LEA",
+      "name": "Lear Corp",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "8306.T",
@@ -62,36 +69,15 @@
       "score": 72,
       "market": "JP",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "TRV",
-      "name": "Travelers",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 23,
+      "score": 22,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 24,
-      "market": "DE",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Small"
     },
     {
       "ticker": "UPST",
@@ -122,6 +108,27 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "ZG",
       "name": "Zillow Group",
       "score": 29,
@@ -131,13 +138,6 @@
     {
       "ticker": "DKNG",
       "name": "DraftKings",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CVNA",
-      "name": "Carvana",
       "score": 29,
       "market": "US",
       "capCategory": "Large"
@@ -151,21 +151,27 @@
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 74,
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 75,
       "market": "US"
     },
     {
       "ticker": "KO",
       "name": "Coca-Cola",
+      "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "NBIX",
+      "name": "Neurocrine Biosciences",
       "score": 73,
       "market": "US"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 73,
+      "ticker": "MET",
+      "name": "MetLife",
+      "score": 72,
       "market": "US"
     },
     {
@@ -187,20 +193,14 @@
       "market": "JP"
     },
     {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "TRV",
       "name": "Travelers",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
       "score": 71,
       "market": "US"
     }
@@ -209,13 +209,25 @@
     {
       "ticker": "LEA",
       "name": "Lear Corp",
-      "score": 75,
+      "score": 72,
       "market": "US"
+    },
+    {
+      "ticker": "VRNS",
+      "name": "Varonis Systems",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 71,
+      "market": "UK"
     },
     {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
-      "score": 69,
+      "score": 71,
       "market": "UK"
     },
     {
@@ -225,14 +237,20 @@
       "market": "US"
     },
     {
-      "ticker": "VRNS",
-      "name": "Varonis Systems",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "FRAS.L",
       "name": "Frasers Group",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "PSON.L",
+      "name": "Pearson",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "SDR.L",
+      "name": "Schroders",
       "score": 68,
       "market": "UK"
     },
@@ -247,24 +265,6 @@
       "name": "Organon & Co",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "JET2.L",
-      "name": "Jet2",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "PSON.L",
-      "name": "Pearson",
-      "score": 66,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -275,8 +275,14 @@
       "market": "UK"
     },
     {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
       "score": 68,
       "market": "UK"
     },
@@ -287,9 +293,15 @@
       "market": "UK"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 67,
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 64,
       "market": "UK"
     },
     {
@@ -299,37 +311,25 @@
       "market": "UK"
     },
     {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 61,
-      "market": "UK"
-    },
-    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 61,
+      "score": 63,
       "market": "UK"
     },
     {
       "ticker": "ML.PA",
       "name": "Michelin",
-      "score": 61,
+      "score": 63,
       "market": "FR"
     },
     {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 58,
+      "ticker": "VCT.L",
+      "name": "Victrex",
+      "score": 60,
       "market": "UK"
     }
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 242
+  "bearishAlertCount": 244
 }
