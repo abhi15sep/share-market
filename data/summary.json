@@ -15,6 +15,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "BXP",
+      "name": "BXP Inc",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
       "score": 74,
@@ -62,13 +69,6 @@
       "score": 73,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "GEN",
-      "name": "Gen Digital",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -136,11 +136,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
+      "ticker": "FMC",
+      "name": "FMC Corp",
       "score": 28,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
@@ -148,6 +148,12 @@
       "ticker": "SNOW",
       "name": "Snowflake",
       "score": 80,
+      "market": "US"
+    },
+    {
+      "ticker": "BXP",
+      "name": "BXP Inc",
+      "score": 75,
       "market": "US"
     },
     {
@@ -175,6 +181,12 @@
       "market": "UK"
     },
     {
+      "ticker": "MO",
+      "name": "Altria Group",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "GEN",
       "name": "Gen Digital",
       "score": 72,
@@ -191,18 +203,6 @@
       "name": "Standard Chartered",
       "score": 72,
       "market": "UK"
-    },
-    {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 72,
-      "market": "FR"
-    },
-    {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 72,
-      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -287,16 +287,16 @@
       "market": "UK"
     },
     {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 67,
+      "market": "FR"
+    },
+    {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
       "score": 66,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 66,
-      "market": "FR"
     },
     {
       "ticker": "BYIT.L",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 860,
   "avgScore": 53,
-  "bearishAlertCount": 251
+  "bearishAlertCount": 255
 }
