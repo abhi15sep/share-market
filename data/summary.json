@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 80,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "CURY.L",
       "name": "Currys",
       "score": 76,
@@ -8,18 +15,32 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
       "score": 74,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "LAMR",
+      "name": "Lamar Advertising",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "ADM.L",
@@ -43,42 +64,14 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
+      "ticker": "GEN",
+      "name": "Gen Digital",
       "score": 72,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "STAN.L",
-      "name": "Standard Chartered",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 72,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "8306.T",
-      "name": "Mitsubishi UFJ Financial",
-      "score": 72,
-      "market": "JP",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "ASTS",
       "name": "AST SpaceMobile",
@@ -87,37 +80,44 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 24,
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "OPEN",
       "name": "Opendoor Technologies",
-      "score": 25,
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "QS",
+      "name": "QuantumScape",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "JOBY",
+      "name": "Joby Aviation",
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 25,
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "ISRG",
       "name": "Intuitive Surgical",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 27,
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
@@ -136,18 +136,36 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "FMC",
-      "name": "FMC Corp",
+      "ticker": "DKNG",
+      "name": "DraftKings",
       "score": 28,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "SNOW",
       "name": "Snowflake",
-      "score": 74,
+      "score": 80,
+      "market": "US"
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "LAMR",
+      "name": "Lamar Advertising",
+      "score": 73,
       "market": "US"
     },
     {
@@ -157,8 +175,14 @@
       "market": "UK"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
+      "ticker": "GEN",
+      "name": "Gen Digital",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "GRMN",
+      "name": "Garmin",
       "score": 72,
       "market": "US"
     },
@@ -179,30 +203,6 @@
       "name": "Mitsubishi UFJ Financial",
       "score": 72,
       "market": "JP"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "GEN",
-      "name": "Gen Digital",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "GRMN",
-      "name": "Garmin",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "TSCO.L",
-      "name": "Tesco",
-      "score": 71,
-      "market": "UK"
     }
   ],
   "topMidCap": [
@@ -225,6 +225,12 @@
       "market": "UK"
     },
     {
+      "ticker": "LEA",
+      "name": "Lear Corp",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "PSON.L",
       "name": "Pearson",
       "score": 70,
@@ -233,12 +239,6 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "LEA",
-      "name": "Lear Corp",
       "score": 69,
       "market": "US"
     },
@@ -281,18 +281,6 @@
       "market": "UK"
     },
     {
-      "ticker": "F",
-      "name": "Ford Motor",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "MONY.L",
       "name": "Moneysupermarket.com",
       "score": 67,
@@ -327,9 +315,21 @@
       "name": "Watches of Switzerland",
       "score": 64,
       "market": "UK"
+    },
+    {
+      "ticker": "DOM.L",
+      "name": "Domino's Pizza Group",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "VCT.L",
+      "name": "Victrex",
+      "score": 63,
+      "market": "UK"
     }
   ],
   "totalStocks": 860,
-  "avgScore": 52,
-  "bearishAlertCount": 239
+  "avgScore": 53,
+  "bearishAlertCount": 251
 }
