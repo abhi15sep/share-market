@@ -1,10 +1,24 @@
 {
   "topOverall": [
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
+      "ticker": "CURY.L",
+      "name": "Currys",
       "score": 76,
-      "market": "US",
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 74,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ADM.L",
+      "name": "Admiral Group",
+      "score": 73,
+      "market": "UK",
       "capCategory": "Large"
     },
     {
@@ -15,18 +29,25 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
+      "ticker": "SCT.L",
+      "name": "Softcat",
       "score": 73,
       "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "SCT.L",
-      "name": "Softcat",
+      "ticker": "STAN.L",
+      "name": "Standard Chartered",
       "score": 72,
       "market": "UK",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 72,
+      "market": "FR",
+      "capCategory": "Large"
     },
     {
       "ticker": "8306.T",
@@ -43,30 +64,9 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "STAN.L",
-      "name": "Standard Chartered",
+      "ticker": "SNOW",
+      "name": "Snowflake",
       "score": 71,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 70,
       "market": "US",
       "capCategory": "Large"
     }
@@ -82,42 +82,21 @@
     {
       "ticker": "ASTS",
       "name": "AST SpaceMobile",
-      "score": 22,
+      "score": 23,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "QS",
       "name": "QuantumScape",
-      "score": 23,
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "UPST",
       "name": "Upstart",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "FMC",
-      "name": "FMC Corp",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 25,
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -136,19 +115,52 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "DKNG",
       "name": "DraftKings",
       "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 76,
-      "market": "US"
+      "ticker": "ADM.L",
+      "name": "Admiral Group",
+      "score": 73,
+      "market": "UK"
+    },
+    {
+      "ticker": "STAN.L",
+      "name": "Standard Chartered",
+      "score": 72,
+      "market": "UK"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 72,
+      "market": "FR"
     },
     {
       "ticker": "8306.T",
@@ -163,10 +175,22 @@
       "market": "US"
     },
     {
-      "ticker": "STAN.L",
-      "name": "Standard Chartered",
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "TSCO.L",
+      "name": "Tesco",
       "score": 71,
       "market": "UK"
+    },
+    {
+      "ticker": "1398.HK",
+      "name": "ICBC",
+      "score": 71,
+      "market": "HK"
     },
     {
       "ticker": "ALL",
@@ -175,37 +199,19 @@
       "market": "US"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "PSX",
       "name": "Phillips 66",
       "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
-      "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "NBIX",
-      "name": "Neurocrine Biosciences",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 69,
-      "market": "JP"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 74,
+      "market": "UK"
+    },
     {
       "ticker": "GRG.L",
       "name": "Greggs",
@@ -213,32 +219,44 @@
       "market": "UK"
     },
     {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 73,
-      "market": "UK"
-    },
-    {
       "ticker": "SCT.L",
       "name": "Softcat",
-      "score": 72,
-      "market": "UK"
-    },
-    {
-      "ticker": "FRAS.L",
-      "name": "Frasers Group",
-      "score": 68,
+      "score": 73,
       "market": "UK"
     },
     {
       "ticker": "PSON.L",
       "name": "Pearson",
-      "score": 68,
+      "score": 70,
+      "market": "UK"
+    },
+    {
+      "ticker": "FRAS.L",
+      "name": "Frasers Group",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "LAND.L",
+      "name": "Land Securities",
+      "score": 69,
       "market": "UK"
     },
     {
       "ticker": "BNZL.L",
       "name": "Bunzl",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "MKS.L",
+      "name": "Marks & Spencer",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "HIK.L",
+      "name": "Hikma Pharmaceuticals",
       "score": 68,
       "market": "UK"
     },
@@ -247,89 +265,71 @@
       "name": "Organon & Co",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "LAND.L",
-      "name": "Land Securities",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 65,
-      "market": "US"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 69,
+      "score": 76,
       "market": "UK"
     },
     {
       "ticker": "HMSO.L",
       "name": "Hammerson",
-      "score": 67,
+      "score": 69,
       "market": "UK"
     },
     {
       "ticker": "MONY.L",
       "name": "Moneysupermarket.com",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 64,
-      "market": "FR"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "VCT.L",
-      "name": "Victrex",
-      "score": 61,
+      "score": 67,
       "market": "UK"
     },
     {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
-      "score": 61,
+      "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 60,
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 66,
+      "market": "FR"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "DOM.L",
+      "name": "Domino's Pizza Group",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "VCT.L",
+      "name": "Victrex",
+      "score": 63,
       "market": "UK"
     }
   ],
   "totalStocks": 860,
-  "avgScore": 51,
-  "bearishAlertCount": 229
+  "avgScore": 52,
+  "bearishAlertCount": 236
 }
