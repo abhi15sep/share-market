@@ -43,25 +43,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "FME.DE",
-      "name": "Fresenius Medical Care",
-      "score": 73,
-      "market": "DE",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 73,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 72,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
     },
     {
       "ticker": "TENB",
@@ -69,15 +55,43 @@
       "score": 72,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "STAN.L",
+      "name": "Standard Chartered",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GRG.L",
+      "name": "Greggs",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
+    {
+      "ticker": "SOUN",
+      "name": "SoundHound AI",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Mid"
+    },
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
       "score": 22,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "ASTS",
@@ -87,9 +101,9 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 24,
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
@@ -108,18 +122,11 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
+      "ticker": "UPST",
+      "name": "Upstart",
       "score": 26,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "DKNG",
@@ -134,13 +141,6 @@
       "score": 28,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "QS",
-      "name": "QuantumScape",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -175,22 +175,16 @@
       "market": "US"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 73,
-      "market": "FR"
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 72,
+      "market": "US"
     },
     {
       "ticker": "STAN.L",
       "name": "Standard Chartered",
       "score": 72,
       "market": "UK"
-    },
-    {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 71,
-      "market": "US"
     },
     {
       "ticker": "DDOG",
@@ -201,6 +195,12 @@
     {
       "ticker": "TRV",
       "name": "Travelers",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 71,
       "market": "US"
     }
@@ -243,6 +243,12 @@
       "market": "US"
     },
     {
+      "ticker": "LEA",
+      "name": "Lear Corp",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "JD.L",
       "name": "JD Sports Fashion",
       "score": 69,
@@ -259,12 +265,6 @@
       "name": "Softcat",
       "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 68,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -275,61 +275,61 @@
       "market": "UK"
     },
     {
-      "ticker": "FME.DE",
-      "name": "Fresenius Medical Care",
-      "score": 73,
-      "market": "DE"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "JDW.L",
       "name": "J D Wetherspoon",
       "score": 69,
       "market": "UK"
     },
     {
-      "ticker": "MRK.DE",
-      "name": "Merck KGaA",
-      "score": 68,
-      "market": "DE"
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 67,
+      "market": "UK"
     },
     {
-      "ticker": "ACA.PA",
-      "name": "Credit Agricole",
-      "score": 68,
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 67,
       "market": "FR"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 67,
-      "market": "US"
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 66,
+      "market": "UK"
     },
     {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
-      "score": 67,
-      "market": "US"
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 65,
+      "market": "UK"
     },
     {
-      "ticker": "EMN",
-      "name": "Eastman Chemical",
-      "score": 67,
-      "market": "US"
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "TSTL.L",
+      "name": "Tristel",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "FDEV.L",
+      "name": "Frontier Developments",
+      "score": 62,
+      "market": "UK"
     }
   ],
   "totalStocks": 860,
-  "avgScore": 52,
-  "bearishAlertCount": 256
+  "avgScore": 53,
+  "bearishAlertCount": 258
 }
