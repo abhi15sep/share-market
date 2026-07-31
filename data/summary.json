@@ -10,7 +10,21 @@
     {
       "ticker": "NBIX",
       "name": "Neurocrine Biosciences",
-      "score": 75,
+      "score": 78,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 76,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol-Myers Squibb",
+      "score": 74,
       "market": "US",
       "capCategory": "Large"
     },
@@ -22,6 +36,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 72,
@@ -29,30 +50,9 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
+      "ticker": "PCG",
+      "name": "PG&E",
       "score": 72,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
@@ -73,6 +73,20 @@
   ],
   "bottomOverall": [
     {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "score": 18,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
       "score": 22,
@@ -87,25 +101,18 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "DRX.L",
+      "name": "Drax Group",
+      "score": 24,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "TSLA",
       "name": "Tesla",
-      "score": 23,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "ASTS",
-      "name": "AST SpaceMobile",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "BYND",
@@ -115,6 +122,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "ISRG",
       "name": "Intuitive Surgical",
       "score": 26,
@@ -122,25 +136,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 28,
-      "market": "US",
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 27,
+      "market": "DE",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "QS",
-      "name": "QuantumScape",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "UPST",
-      "name": "Upstart",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -153,7 +153,13 @@
     {
       "ticker": "NBIX",
       "name": "Neurocrine Biosciences",
-      "score": 75,
+      "score": 78,
+      "market": "US"
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol-Myers Squibb",
+      "score": 74,
       "market": "US"
     },
     {
@@ -163,15 +169,15 @@
       "market": "US"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 71,
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 71,
+      "ticker": "PCG",
+      "name": "PG&E",
+      "score": 72,
       "market": "US"
     },
     {
@@ -193,12 +199,6 @@
       "market": "US"
     },
     {
-      "ticker": "BMY",
-      "name": "Bristol-Myers Squibb",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 70,
@@ -207,15 +207,9 @@
   ],
   "topMidCap": [
     {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
-      "score": 72,
+      "score": 76,
       "market": "UK"
     },
     {
@@ -225,10 +219,22 @@
       "market": "US"
     },
     {
-      "ticker": "EMN",
-      "name": "Eastman Chemical",
+      "ticker": "CROX",
+      "name": "Crocs",
       "score": 68,
       "market": "US"
+    },
+    {
+      "ticker": "JD.L",
+      "name": "JD Sports Fashion",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "IGG.L",
+      "name": "IG Group",
+      "score": 68,
+      "market": "UK"
     },
     {
       "ticker": "EZJ.L",
@@ -237,34 +243,28 @@
       "market": "UK"
     },
     {
-      "ticker": "JD.L",
-      "name": "JD Sports Fashion",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "IGG.L",
-      "name": "IG Group",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "QLYS",
-      "name": "Qualys",
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 66,
       "market": "US"
-    },
-    {
-      "ticker": "BME.L",
-      "name": "B&M European",
-      "score": 66,
-      "market": "UK"
     },
     {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 66,
       "market": "UK"
+    },
+    {
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
+      "score": 65,
+      "market": "US"
+    },
+    {
+      "ticker": "QLYS",
+      "name": "Qualys",
+      "score": 65,
+      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -277,6 +277,12 @@
     {
       "ticker": "CURY.L",
       "name": "Currys",
+      "score": 71,
+      "market": "UK"
+    },
+    {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
       "score": 71,
       "market": "UK"
     },
@@ -299,12 +305,6 @@
       "market": "US"
     },
     {
-      "ticker": "GRG.L",
-      "name": "Greggs",
-      "score": 68,
-      "market": "UK"
-    },
-    {
       "ticker": "JDW.L",
       "name": "J D Wetherspoon",
       "score": 68,
@@ -317,19 +317,19 @@
       "market": "US"
     },
     {
-      "ticker": "BLND.L",
-      "name": "British Land",
+      "ticker": "EMN",
+      "name": "Eastman Chemical",
       "score": 67,
-      "market": "UK"
+      "market": "US"
     },
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
+      "ticker": "BLND.L",
+      "name": "British Land",
       "score": 67,
       "market": "UK"
     }
   ],
   "totalStocks": 859,
   "avgScore": 52,
-  "bearishAlertCount": 255
+  "bearishAlertCount": 257
 }
