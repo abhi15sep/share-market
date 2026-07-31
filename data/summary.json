@@ -8,6 +8,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 77,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "AMZN",
       "name": "Amazon",
       "score": 76,
@@ -33,12 +40,19 @@
       "name": "Hammerson",
       "score": 75,
       "market": "UK",
-      "capCategory": "Mid"
+      "capCategory": "Small"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
       "score": 74,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
@@ -48,20 +62,6 @@
       "score": 73,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 73,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "ALL",
@@ -80,9 +80,16 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "BLDR",
       "name": "Builders FirstSource",
-      "score": 25,
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -108,6 +115,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "CPNG",
+      "name": "Coupang",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "RHM.DE",
       "name": "Rheinmetall",
       "score": 28,
@@ -127,20 +141,6 @@
       "score": 28,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
@@ -163,21 +163,15 @@
       "market": "UK"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 74,
-      "market": "US"
-    },
-    {
       "ticker": "BNP.PA",
       "name": "BNP Paribas",
-      "score": 73,
+      "score": 74,
       "market": "FR"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 73,
       "market": "US"
     },
     {
@@ -187,20 +181,26 @@
       "market": "US"
     },
     {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
+      "ticker": "GLE.PA",
+      "name": "Societe Generale",
       "score": 72,
-      "market": "US"
+      "market": "FR"
     },
     {
-      "ticker": "FME.DE",
-      "name": "Fresenius Medical Care",
-      "score": 72,
-      "market": "DE"
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "DXCM",
       "name": "DexCom",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital",
       "score": 71,
       "market": "US"
     }
@@ -210,12 +210,6 @@
       "ticker": "TATE.L",
       "name": "Tate & Lyle",
       "score": 76,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 75,
       "market": "UK"
     },
     {
@@ -265,9 +259,51 @@
       "name": "IG Group",
       "score": 68,
       "market": "UK"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 67,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 77,
+      "market": "US"
+    },
+    {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 75,
+      "market": "UK"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "FME.DE",
+      "name": "Fresenius Medical Care",
+      "score": 72,
+      "market": "DE"
+    },
+    {
+      "ticker": "ACA.PA",
+      "name": "Credit Agricole",
+      "score": 72,
+      "market": "FR"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 70,
+      "market": "FR"
+    },
     {
       "ticker": "JDW.L",
       "name": "J D Wetherspoon",
@@ -281,55 +317,19 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
+      "ticker": "ALV.DE",
+      "name": "Allianz",
       "score": 68,
-      "market": "FR"
+      "market": "DE"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
+      "ticker": "MU",
+      "name": "Micron",
       "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "FDEV.L",
-      "name": "Frontier Developments",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "TSTL.L",
-      "name": "Tristel",
-      "score": 62,
-      "market": "UK"
+      "market": "US"
     }
   ],
   "totalStocks": 859,
   "avgScore": 52,
-  "bearishAlertCount": 262
+  "bearishAlertCount": 259
 }
