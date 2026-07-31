@@ -1,39 +1,18 @@
 {
   "topOverall": [
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 78,
+      "ticker": "NWL",
+      "name": "Newell Brands",
+      "score": 74,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NBIX",
-      "name": "Neurocrine Biosciences",
-      "score": 78,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 76,
-      "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "BMY",
-      "name": "Bristol-Myers Squibb",
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
       "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
+      "market": "UK",
+      "capCategory": "Small"
     },
     {
       "ticker": "CRWD",
@@ -43,62 +22,83 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 72,
+      "score": 71,
       "market": "US",
       "capCategory": "Small"
     },
     {
-      "ticker": "PCG",
-      "name": "PG&E",
-      "score": 72,
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "score": 71,
       "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "NWG.L",
+      "name": "NatWest",
+      "score": 71,
+      "market": "UK",
       "capCategory": "Large"
     },
     {
       "ticker": "TRV",
       "name": "Travelers",
-      "score": 71,
+      "score": 70,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 71,
-      "market": "US",
+      "ticker": "0005.HK",
+      "name": "HSBC Holdings",
+      "score": 70,
+      "market": "HK",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "ASTS",
-      "name": "AST SpaceMobile",
-      "score": 18,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "BLDR",
       "name": "Builders FirstSource",
-      "score": 22,
+      "score": 19,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 22,
+      "ticker": "UPST",
+      "name": "Upstart",
+      "score": 20,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 22,
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 23,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Small"
     },
     {
       "ticker": "DRX.L",
@@ -108,66 +108,42 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
       "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "UPST",
-      "name": "Upstart",
-      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "ISRG",
       "name": "Intuitive Surgical",
-      "score": 26,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 27,
-      "market": "DE",
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "score": 25,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 78,
-      "market": "US"
-    },
-    {
-      "ticker": "NBIX",
-      "name": "Neurocrine Biosciences",
-      "score": 78,
-      "market": "US"
-    },
-    {
-      "ticker": "BMY",
-      "name": "Bristol-Myers Squibb",
-      "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 73,
-      "market": "US"
-    },
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
@@ -175,54 +151,72 @@
       "market": "US"
     },
     {
-      "ticker": "PCG",
-      "name": "PG&E",
-      "score": 72,
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 71,
       "market": "US"
+    },
+    {
+      "ticker": "NWG.L",
+      "name": "NatWest",
+      "score": 71,
+      "market": "UK"
     },
     {
       "ticker": "TRV",
       "name": "Travelers",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "DDOG",
-      "name": "Datadog",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "0005.HK",
+      "name": "HSBC Holdings",
       "score": 70,
-      "market": "US"
-    }
-  ],
-  "topMidCap": [
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 76,
-      "market": "UK"
+      "market": "HK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "SNOW",
+      "name": "Snowflake",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 68,
+      "ticker": "STAN.L",
+      "name": "Standard Chartered",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "BAJFINANCE.NS",
+      "name": "Bajaj Finance",
+      "score": 69,
+      "market": "IN"
+    },
+    {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 69,
+      "market": "FR"
+    },
+    {
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 69,
+      "market": "JP"
+    }
+  ],
+  "topMidCap": [
+    {
+      "ticker": "NWL",
+      "name": "Newell Brands",
+      "score": 74,
       "market": "US"
+    },
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 72,
+      "market": "UK"
     },
     {
       "ticker": "JD.L",
@@ -231,8 +225,8 @@
       "market": "UK"
     },
     {
-      "ticker": "IGG.L",
-      "name": "IG Group",
+      "ticker": "SCT.L",
+      "name": "Softcat",
       "score": 68,
       "market": "UK"
     },
@@ -243,53 +237,53 @@
       "market": "UK"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
+      "ticker": "LAND.L",
+      "name": "Land Securities",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 66,
       "market": "US"
     },
     {
-      "ticker": "SCT.L",
-      "name": "Softcat",
+      "ticker": "IGG.L",
+      "name": "IG Group",
       "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
+      "ticker": "JET2.L",
+      "name": "Jet2",
       "score": 65,
-      "market": "US"
+      "market": "UK"
     },
     {
-      "ticker": "QLYS",
-      "name": "Qualys",
+      "ticker": "FRAS.L",
+      "name": "Frasers Group",
       "score": 65,
-      "market": "US"
+      "market": "UK"
     }
   ],
   "topSmallCap": [
     {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 74,
+      "market": "UK"
+    },
+    {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 72,
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
       "score": 71,
-      "market": "UK"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 71,
-      "market": "UK"
-    },
-    {
-      "ticker": "LEA",
-      "name": "Lear Corp",
-      "score": 69,
       "market": "US"
     },
     {
@@ -299,37 +293,43 @@
       "market": "DE"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "JDW.L",
       "name": "J D Wetherspoon",
       "score": 68,
       "market": "UK"
     },
     {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "EMN",
-      "name": "Eastman Chemical",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "BLND.L",
-      "name": "British Land",
+      "ticker": "GRG.L",
+      "name": "Greggs",
       "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 65,
+      "market": "US"
     }
   ],
   "totalStocks": 859,
-  "avgScore": 52,
-  "bearishAlertCount": 257
+  "avgScore": 50,
+  "bearishAlertCount": 256
 }
