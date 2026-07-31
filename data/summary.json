@@ -22,8 +22,8 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
+      "ticker": "ALL",
+      "name": "Allstate",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -43,8 +43,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TRV",
-      "name": "Travelers",
+      "ticker": "SNOW",
+      "name": "Snowflake",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -73,32 +73,39 @@
   ],
   "bottomOverall": [
     {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "BLDR",
       "name": "Builders FirstSource",
-      "score": 20,
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "score": 20,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "SRPT",
       "name": "Sarepta Therapeutics",
-      "score": 23,
+      "score": 24,
       "market": "US",
       "capCategory": "Small"
     },
     {
-      "ticker": "SNPS",
-      "name": "Synopsys",
+      "ticker": "TSLA",
+      "name": "Tesla",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "QS",
+      "name": "QuantumScape",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "UPST",
@@ -115,13 +122,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "WING",
       "name": "Wingstop",
       "score": 26,
@@ -129,18 +129,18 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "CPNG",
+      "name": "Coupang",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "DKNG",
       "name": "DraftKings",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
@@ -151,8 +151,8 @@
       "market": "UK"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
+      "ticker": "ALL",
+      "name": "Allstate",
       "score": 73,
       "market": "US"
     },
@@ -163,8 +163,8 @@
       "market": "FR"
     },
     {
-      "ticker": "TRV",
-      "name": "Travelers",
+      "ticker": "SNOW",
+      "name": "Snowflake",
       "score": 72,
       "market": "US"
     },
@@ -175,8 +175,14 @@
       "market": "US"
     },
     {
-      "ticker": "ALL",
-      "name": "Allstate",
+      "ticker": "TRV",
+      "name": "Travelers",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 70,
       "market": "US"
     },
@@ -187,22 +193,16 @@
       "market": "US"
     },
     {
+      "ticker": "DXCM",
+      "name": "DexCom",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "STAN.L",
       "name": "Standard Chartered",
       "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "BAJFINANCE.NS",
-      "name": "Bajaj Finance",
-      "score": 69,
-      "market": "IN"
     }
   ],
   "topMidCap": [
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 859,
   "avgScore": 51,
-  "bearishAlertCount": 259
+  "bearishAlertCount": 254
 }
