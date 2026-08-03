@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 77,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "STAN.L",
       "name": "Standard Chartered",
       "score": 77,
@@ -15,15 +22,22 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 73,
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "score": 75,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "DDOG",
-      "name": "Datadog",
+      "ticker": "UAL",
+      "name": "United Airlines",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -50,34 +64,20 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
+      "ticker": "GEN",
+      "name": "Gen Digital",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
+      "ticker": "TSLA",
+      "name": "Tesla",
       "score": 24,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "DRX.L",
@@ -87,63 +87,69 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "QS",
+      "name": "QuantumScape",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "FMC",
       "name": "FMC Corp",
-      "score": 25,
+      "score": 27,
       "market": "US",
       "capCategory": "Small"
     },
     {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "UPST",
-      "name": "Upstart",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
       "score": 27,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "ZG",
       "name": "Zillow Group",
-      "score": 28,
+      "score": 29,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "DKNG",
       "name": "DraftKings",
-      "score": 28,
+      "score": 29,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 77,
+      "market": "US"
+    },
     {
       "ticker": "STAN.L",
       "name": "Standard Chartered",
@@ -151,14 +157,20 @@
       "market": "UK"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 73,
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "score": 75,
       "market": "US"
     },
     {
-      "ticker": "DDOG",
-      "name": "Datadog",
+      "ticker": "UAL",
+      "name": "United Airlines",
+      "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
       "score": 73,
       "market": "US"
     },
@@ -169,40 +181,28 @@
       "market": "UK"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "CVS",
-      "name": "CVS Health",
-      "score": 71,
-      "market": "US"
-    },
-    {
       "ticker": "GEN",
       "name": "Gen Digital",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
       "score": 71,
       "market": "US"
     },
     {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
-      "score": 70,
-      "market": "UK"
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "score": 71,
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -217,6 +217,18 @@
       "name": "JD Sports Fashion",
       "score": 73,
       "market": "UK"
+    },
+    {
+      "ticker": "NWL",
+      "name": "Newell Brands",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 72,
+      "market": "US"
     },
     {
       "ticker": "HMSO.L",
@@ -243,28 +255,16 @@
       "market": "UK"
     },
     {
-      "ticker": "BME.L",
-      "name": "B&M European",
-      "score": 69,
-      "market": "UK"
-    },
-    {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 68,
+      "score": 69,
       "market": "US"
     },
     {
       "ticker": "CROX",
       "name": "Crocs",
-      "score": 68,
+      "score": 69,
       "market": "US"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 68,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 859,
-  "avgScore": 52,
-  "bearishAlertCount": 222
+  "avgScore": 53,
+  "bearishAlertCount": 216
 }
