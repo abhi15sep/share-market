@@ -1,9 +1,16 @@
 {
   "topOverall": [
     {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 78,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 77,
+      "score": 78,
       "market": "US",
       "capCategory": "Large"
     },
@@ -12,11 +19,11 @@
       "name": "HP Inc",
       "score": 76,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
+      "ticker": "GEN",
+      "name": "Gen Digital",
       "score": 75,
       "market": "US",
       "capCategory": "Large"
@@ -43,8 +50,15 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "GEN",
-      "name": "Gen Digital",
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -52,46 +66,32 @@
     {
       "ticker": "UAL",
       "name": "United Airlines",
-      "score": 72,
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "SGRO.L",
-      "name": "Segro",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "FMC",
-      "name": "FMC Corp",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "TSLA",
       "name": "Tesla",
-      "score": 27,
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "FMC",
+      "name": "FMC Corp",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 28,
+      "market": "FR",
+      "capCategory": "Small"
     },
     {
       "ticker": "DRX.L",
@@ -103,30 +103,9 @@
     {
       "ticker": "DKNG",
       "name": "DraftKings",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 29,
-      "market": "FR",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
       "score": 29,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "OPEN",
@@ -136,23 +115,56 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 30,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "XPEV",
       "name": "XPeng",
-      "score": 29,
+      "score": 30,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 77,
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 78,
       "market": "US"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 78,
+      "market": "US"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 76,
+      "market": "US"
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital",
       "score": 75,
       "market": "US"
     },
@@ -169,40 +181,28 @@
       "market": "US"
     },
     {
-      "ticker": "GEN",
-      "name": "Gen Digital",
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
       "score": 73,
       "market": "US"
     },
     {
       "ticker": "UAL",
       "name": "United Airlines",
-      "score": 72,
+      "score": 73,
       "market": "US"
-    },
-    {
-      "ticker": "SGRO.L",
-      "name": "Segro",
-      "score": 72,
-      "market": "UK"
-    },
-    {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "score": 72,
-      "market": "DE"
     },
     {
       "ticker": "SNOW",
       "name": "Snowflake",
-      "score": 71,
+      "score": 72,
       "market": "US"
-    },
-    {
-      "ticker": "LLOY.L",
-      "name": "Lloyds Banking",
-      "score": 71,
-      "market": "UK"
     }
   ],
   "topMidCap": [
@@ -213,6 +213,12 @@
       "market": "UK"
     },
     {
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 73,
+      "market": "US"
+    },
+    {
       "ticker": "HMSO.L",
       "name": "Hammerson",
       "score": 72,
@@ -221,6 +227,24 @@
     {
       "ticker": "S",
       "name": "SentinelOne",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "QLYS",
+      "name": "Qualys",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 70,
       "market": "US"
     },
@@ -231,34 +255,10 @@
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "BME.L",
       "name": "B&M European",
       "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 68,
-      "market": "US"
     },
     {
       "ticker": "FRAS.L",
@@ -268,18 +268,6 @@
     }
   ],
   "topSmallCap": [
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 76,
-      "market": "US"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 71,
-      "market": "US"
-    },
     {
       "ticker": "DOM.L",
       "name": "Domino's Pizza Group",
@@ -299,37 +287,49 @@
       "market": "UK"
     },
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "GRG.L",
       "name": "Greggs",
       "score": 70,
       "market": "UK"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 70,
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 64,
       "market": "FR"
     },
     {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "MRK.DE",
-      "name": "Merck KGaA",
-      "score": 69,
-      "market": "DE"
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 63,
+      "market": "UK"
     }
   ],
   "totalStocks": 859,
   "avgScore": 53,
-  "bearishAlertCount": 215
+  "bearishAlertCount": 216
 }
