@@ -8,9 +8,23 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "score": 76,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 76,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 75,
       "market": "US",
       "capCategory": "Large"
     },
@@ -29,25 +43,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DDOG",
-      "name": "Datadog",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "DAL",
       "name": "Delta Air Lines",
       "score": 73,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Small"
     },
     {
       "ticker": "UAL",
@@ -61,37 +61,30 @@
       "name": "Match Group",
       "score": 73,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Small"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
+      "ticker": "SCT.L",
+      "name": "Softcat",
       "score": 73,
       "market": "UK",
-      "capCategory": "Small"
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 20,
-      "market": "FR",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 21,
-      "market": "DE",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "TSLA",
       "name": "Tesla",
-      "score": 23,
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 23,
+      "market": "FR",
+      "capCategory": "Small"
     },
     {
       "ticker": "RTO.L",
@@ -101,11 +94,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "FDM.L",
-      "name": "FDM Group",
-      "score": 27,
-      "market": "UK",
-      "capCategory": "Small"
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "score": 25,
+      "market": "DE",
+      "capCategory": "Large"
     },
     {
       "ticker": "DRX.L",
@@ -122,25 +115,32 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "RMS.PA",
-      "name": "Hermes",
+      "ticker": "FDM.L",
+      "name": "FDM Group",
+      "score": 28,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "DKNG",
+      "name": "DraftKings",
       "score": 29,
-      "market": "FR",
+      "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
       "score": 29,
-      "market": "IN",
-      "capCategory": "Large"
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
-      "ticker": "HINDUNILVR.NS",
-      "name": "Hindustan Unilever",
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics",
       "score": 29,
-      "market": "IN",
-      "capCategory": "Large"
+      "market": "US",
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
@@ -151,9 +151,15 @@
       "market": "US"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
+      "ticker": "DDOG",
+      "name": "Datadog",
       "score": 76,
+      "market": "US"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 75,
       "market": "US"
     },
     {
@@ -169,53 +175,41 @@
       "market": "US"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "DDOG",
-      "name": "Datadog",
-      "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 73,
-      "market": "US"
-    },
-    {
       "ticker": "UAL",
       "name": "United Airlines",
       "score": 73,
       "market": "US"
     },
     {
-      "ticker": "6971.T",
-      "name": "Kyocera",
-      "score": 72,
-      "market": "JP"
-    },
-    {
       "ticker": "CSCO",
       "name": "Cisco",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "DLTR",
+      "name": "Dollar Tree",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "HSIC",
+      "name": "Henry Schein",
       "score": 71,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 73,
-      "market": "US"
-    },
-    {
       "ticker": "SCT.L",
       "name": "Softcat",
-      "score": 72,
+      "score": 73,
       "market": "UK"
     },
     {
@@ -243,6 +237,24 @@
       "market": "US"
     },
     {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 70,
+      "market": "UK"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "GRG.L",
+      "name": "Greggs",
+      "score": 68,
+      "market": "UK"
+    },
+    {
       "ticker": "OZK",
       "name": "Bank OZK",
       "score": 67,
@@ -253,21 +265,27 @@
       "name": "Organon & Co",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "LAND.L",
-      "name": "Land Securities",
-      "score": 67,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 76,
+      "market": "US"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 73,
+      "market": "US"
+    },
     {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
@@ -275,61 +293,43 @@
       "market": "UK"
     },
     {
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "CDW",
+      "name": "CDW Corp",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 69,
+      "market": "FR"
+    },
+    {
+      "ticker": "FHN",
+      "name": "First Horizon",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "W",
+      "name": "Wayfair",
+      "score": 67,
+      "market": "US"
+    },
+    {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 61,
-      "market": "FR"
     }
   ],
   "totalStocks": 859,
   "avgScore": 53,
-  "bearishAlertCount": 233
+  "bearishAlertCount": 244
 }
