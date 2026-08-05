@@ -1,13 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "JET2.L",
       "name": "Jet2",
       "score": 75,
@@ -22,8 +15,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DDOG",
-      "name": "Datadog",
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "WBS",
+      "name": "Webster Financial",
       "score": 74,
       "market": "US",
       "capCategory": "Large"
@@ -50,8 +50,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "WBS",
-      "name": "Webster Financial",
+      "ticker": "NET",
+      "name": "Cloudflare",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -89,23 +89,9 @@
     {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
-      "score": 23,
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Small"
     },
     {
       "ticker": "FMC",
@@ -115,32 +101,46 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "DKNG",
+      "name": "DraftKings",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "OPEN",
       "name": "Opendoor Technologies",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
       "score": 28,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "XPEV",
-      "name": "XPeng",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HINDUNILVR.NS",
-      "name": "Hindustan Unilever",
+      "ticker": "FDM.L",
+      "name": "FDM Group",
       "score": 29,
-      "market": "IN",
-      "capCategory": "Large"
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "DRX.L",
+      "name": "Drax Group",
+      "score": 29,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -151,8 +151,8 @@
       "market": "UK"
     },
     {
-      "ticker": "DDOG",
-      "name": "Datadog",
+      "ticker": "WBS",
+      "name": "Webster Financial",
       "score": 74,
       "market": "US"
     },
@@ -163,8 +163,8 @@
       "market": "UK"
     },
     {
-      "ticker": "WBS",
-      "name": "Webster Financial",
+      "ticker": "NET",
+      "name": "Cloudflare",
       "score": 73,
       "market": "US"
     },
@@ -175,14 +175,8 @@
       "market": "UK"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "DDOG",
+      "name": "Datadog",
       "score": 72,
       "market": "US"
     },
@@ -195,12 +189,18 @@
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "SNOW",
       "name": "Snowflake",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 70,
       "market": "US"
     }
@@ -225,6 +225,12 @@
       "market": "UK"
     },
     {
+      "ticker": "QLYS",
+      "name": "Qualys",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 71,
@@ -245,33 +251,27 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 68,
+      "score": 69,
       "market": "US"
     },
     {
       "ticker": "S",
       "name": "SentinelOne",
-      "score": 68,
+      "score": 69,
       "market": "US"
     },
     {
-      "ticker": "QLYS",
-      "name": "Qualys",
-      "score": 68,
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 69,
       "market": "US"
-    },
-    {
-      "ticker": "BME.L",
-      "name": "B&M European",
-      "score": 68,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
     {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 75,
+      "score": 74,
       "market": "US"
     },
     {
@@ -285,6 +285,12 @@
       "name": "Publicis",
       "score": 72,
       "market": "FR"
+    },
+    {
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "FOUR.L",
@@ -311,9 +317,9 @@
       "market": "US"
     },
     {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts",
-      "score": 70,
+      "ticker": "RF",
+      "name": "Regions Financial",
+      "score": 69,
       "market": "US"
     },
     {
@@ -321,15 +327,9 @@
       "name": "Bytes Technology",
       "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "RF",
-      "name": "Regions Financial",
-      "score": 68,
-      "market": "US"
     }
   ],
   "totalStocks": 859,
-  "avgScore": 52,
-  "bearishAlertCount": 245
+  "avgScore": 53,
+  "bearishAlertCount": 240
 }
