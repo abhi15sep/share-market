@@ -1,13 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 74,
@@ -18,6 +11,13 @@
       "ticker": "WBS",
       "name": "Webster Financial",
       "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
@@ -43,6 +43,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "QLYS",
       "name": "Qualys",
       "score": 71,
@@ -62,29 +69,29 @@
       "score": 71,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "OPEN",
-      "name": "Opendoor Technologies",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "VIV.PA",
       "name": "Vivendi",
       "score": 23,
       "market": "FR",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
+      "score": 24,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RTO.L",
+      "name": "Rentokil Initial",
+      "score": 24,
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
       "ticker": "TSLA",
@@ -94,32 +101,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
-      "score": 25,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
       "score": 25,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "RTO.L",
-      "name": "Rentokil Initial",
-      "score": 26,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Small"
     },
     {
       "ticker": "DRX.L",
@@ -141,15 +127,23 @@
       "score": 28,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "DKNG",
+      "name": "DraftKings",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
-    {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 74,
-      "market": "US"
-    },
     {
       "ticker": "HPQ",
       "name": "HP Inc",
@@ -163,6 +157,12 @@
       "market": "US"
     },
     {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 73,
+      "market": "US"
+    },
+    {
       "ticker": "HST",
       "name": "Host Hotels & Resorts",
       "score": 72,
@@ -171,6 +171,12 @@
     {
       "ticker": "SNOW",
       "name": "Snowflake",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 71,
       "market": "US"
     },
@@ -195,12 +201,6 @@
     {
       "ticker": "RF",
       "name": "Regions Financial",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
       "score": 70,
       "market": "US"
     }
@@ -249,16 +249,16 @@
       "market": "US"
     },
     {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "JET2.L",
       "name": "Jet2",
       "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 68,
-      "market": "US"
     },
     {
       "ticker": "AJB.L",
