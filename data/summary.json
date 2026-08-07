@@ -15,6 +15,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "GEN",
+      "name": "Gen Digital",
+      "score": 76,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 76,
@@ -29,8 +36,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "GEN",
-      "name": "Gen Digital",
+      "ticker": "NTRA",
+      "name": "Natera",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "FROG",
+      "name": "JFrog",
       "score": 75,
       "market": "US",
       "capCategory": "Large"
@@ -43,32 +57,18 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NTRA",
-      "name": "Natera",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "FROG",
-      "name": "JFrog",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "JD.L",
       "name": "JD Sports Fashion",
       "score": 74,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -87,25 +87,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "XPEV",
-      "name": "XPeng",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "OPEN",
       "name": "Opendoor Technologies",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "RTO.L",
@@ -122,8 +115,8 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "SUI",
-      "name": "Sun Communities",
+      "ticker": "XPEV",
+      "name": "XPeng",
       "score": 28,
       "market": "US",
       "capCategory": "Large"
@@ -136,11 +129,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
+      "ticker": "SUI",
+      "name": "Sun Communities",
       "score": 29,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -151,38 +151,38 @@
       "market": "UK"
     },
     {
+      "ticker": "GEN",
+      "name": "Gen Digital",
+      "score": 76,
+      "market": "US"
+    },
+    {
       "ticker": "NET",
       "name": "Cloudflare",
       "score": 75,
       "market": "US"
     },
     {
-      "ticker": "GEN",
-      "name": "Gen Digital",
-      "score": 75,
-      "market": "US"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 74,
-      "market": "US"
-    },
-    {
       "ticker": "NTRA",
       "name": "Natera",
-      "score": 74,
+      "score": 75,
       "market": "US"
     },
     {
       "ticker": "FROG",
       "name": "JFrog",
-      "score": 74,
+      "score": 75,
       "market": "US"
     },
     {
       "ticker": "RVMD",
       "name": "Revolution Medicines",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
       "score": 72,
       "market": "US"
     },
@@ -225,8 +225,8 @@
       "market": "UK"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
+      "ticker": "RELY",
+      "name": "Remitly Global",
       "score": 72,
       "market": "US"
     },
@@ -243,16 +243,16 @@
       "market": "UK"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 71,
-      "market": "US"
-    },
-    {
       "ticker": "FRAS.L",
       "name": "Frasers Group",
       "score": 69,
       "market": "UK"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 68,
+      "market": "US"
     },
     {
       "ticker": "CROX",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 860,
   "avgScore": 53,
-  "bearishAlertCount": 230
+  "bearishAlertCount": 231
 }
