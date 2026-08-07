@@ -15,18 +15,18 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 76,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 76,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "WOSG.L",
@@ -36,6 +36,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "JD.L",
       "name": "JD Sports Fashion",
       "score": 74,
@@ -43,8 +50,15 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
+      "ticker": "NTRA",
+      "name": "Natera",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -55,23 +69,16 @@
       "score": 73,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 23,
+      "market": "FR",
+      "capCategory": "Small"
+    },
     {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals",
@@ -122,13 +129,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "OPEN",
       "name": "Opendoor Technologies",
       "score": 28,
@@ -136,8 +136,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "APP",
-      "name": "AppLovin",
+      "ticker": "SUI",
+      "name": "Sun Communities",
       "score": 28,
       "market": "US",
       "capCategory": "Large"
@@ -151,32 +151,26 @@
       "market": "UK"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 75,
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 74,
       "market": "US"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
+      "ticker": "NTRA",
+      "name": "Natera",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital",
       "score": 73,
       "market": "US"
     },
     {
       "ticker": "SNOW",
       "name": "Snowflake",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "NTRA",
-      "name": "Natera",
       "score": 72,
       "market": "US"
     },
@@ -193,16 +187,22 @@
       "market": "US"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 70,
+      "ticker": "FROG",
+      "name": "JFrog",
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "FROG",
-      "name": "JFrog",
+      "ticker": "HSBA.L",
+      "name": "HSBC",
       "score": 70,
-      "market": "US"
+      "market": "UK"
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "score": 70,
+      "market": "DE"
     }
   ],
   "topMidCap": [
@@ -249,12 +249,6 @@
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "BLND.L",
       "name": "British Land",
       "score": 68,
@@ -263,6 +257,12 @@
     {
       "ticker": "BBY.L",
       "name": "Balfour Beatty",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "QQ.L",
+      "name": "QinetiQ",
       "score": 68,
       "market": "UK"
     }
@@ -275,10 +275,28 @@
       "market": "UK"
     },
     {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 76,
+      "market": "US"
+    },
+    {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
       "score": 75,
       "market": "UK"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 70,
+      "market": "FR"
     },
     {
       "ticker": "CMCX.L",
@@ -287,8 +305,20 @@
       "market": "UK"
     },
     {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 67,
+      "market": "US"
+    },
+    {
       "ticker": "FOUR.L",
       "name": "4imprint",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
       "score": 67,
       "market": "UK"
     },
@@ -297,39 +327,9 @@
       "name": "Currys",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "SNR.L",
-      "name": "Senior plc",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 65,
-      "market": "FR"
-    },
-    {
-      "ticker": "GRG.L",
-      "name": "Greggs",
-      "score": 64,
-      "market": "UK"
     }
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 230
+  "bearishAlertCount": 229
 }
