@@ -1,25 +1,67 @@
 {
   "topOverall": [
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 80,
-      "market": "UK",
-      "capCategory": "Mid"
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 78,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital",
       "score": 74,
-      "market": "UK",
-      "capCategory": "Small"
+      "market": "US",
+      "capCategory": "Large"
     },
     {
-      "ticker": "HIK.L",
-      "name": "Hikma Pharmaceuticals",
-      "score": 72,
-      "market": "UK",
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 74,
+      "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "U",
+      "name": "Unity Software",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 73,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "SCT.L",
@@ -27,92 +69,22 @@
       "score": 72,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "U",
-      "name": "Unity Software",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GEN",
-      "name": "Gen Digital",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "TSLA",
       "name": "Tesla",
-      "score": 21,
+      "score": 22,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "VIV.PA",
       "name": "Vivendi",
-      "score": 24,
+      "score": 23,
       "market": "FR",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "RTO.L",
-      "name": "Rentokil Initial",
-      "score": 24,
-      "market": "UK",
-      "capCategory": "Mid"
     },
     {
       "ticker": "HDFCLIFE.NS",
@@ -122,101 +94,123 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OPEN",
-      "name": "Opendoor Technologies",
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZG",
-      "name": "Zillow Group",
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "FDM.L",
+      "name": "FDM Group",
+      "score": 26,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
       "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
+      "ticker": "DRX.L",
+      "name": "Drax Group",
+      "score": 27,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RTO.L",
+      "name": "Rentokil Initial",
+      "score": 27,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 70,
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 78,
       "market": "US"
     },
     {
-      "ticker": "U",
-      "name": "Unity Software",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 70,
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 75,
       "market": "US"
     },
     {
       "ticker": "GEN",
       "name": "Gen Digital",
-      "score": 70,
+      "score": 74,
       "market": "US"
     },
     {
-      "ticker": "6971.T",
-      "name": "Kyocera",
-      "score": 70,
-      "market": "JP"
-    },
-    {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 69,
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 73,
       "market": "US"
     },
     {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
-      "score": 69,
-      "market": "UK"
+      "ticker": "U",
+      "name": "Unity Software",
+      "score": 73,
+      "market": "US"
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "score": 69,
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 73,
+      "market": "FR"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "MRK.DE",
+      "name": "Merck KGaA",
+      "score": 72,
       "market": "DE"
     },
     {
-      "ticker": "6098.T",
-      "name": "Recruit Holdings",
-      "score": 69,
-      "market": "JP"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 68,
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 71,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 80,
-      "market": "UK"
-    },
-    {
-      "ticker": "HIK.L",
-      "name": "Hikma Pharmaceuticals",
-      "score": 72,
-      "market": "UK"
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 74,
+      "market": "US"
     },
     {
       "ticker": "SCT.L",
@@ -225,111 +219,117 @@
       "market": "UK"
     },
     {
-      "ticker": "WPP.L",
-      "name": "WPP",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "TATE.L",
-      "name": "Tate & Lyle",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "JD.L",
-      "name": "JD Sports Fashion",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "SDR.L",
-      "name": "Schroders",
-      "score": 68,
-      "market": "UK"
-    },
-    {
       "ticker": "OZK",
       "name": "Bank OZK",
-      "score": 67,
+      "score": 68,
       "market": "US"
     },
     {
       "ticker": "CROX",
       "name": "Crocs",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 67,
       "market": "US"
     },
     {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
+      "ticker": "JET2.L",
+      "name": "Jet2",
       "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "BME.L",
+      "name": "B&M European",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "TATE.L",
+      "name": "Tate & Lyle",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "S",
+      "name": "SentinelOne",
+      "score": 66,
+      "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 74,
-      "market": "UK"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 68,
+      "score": 67,
       "market": "UK"
     },
     {
-      "ticker": "MRK.DE",
-      "name": "Merck KGaA",
-      "score": 68,
-      "market": "DE"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 66,
-      "market": "US"
+      "market": "UK"
     },
     {
-      "ticker": "ALV.DE",
-      "name": "Allianz",
-      "score": 66,
-      "market": "DE"
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 65,
+      "market": "UK"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 66,
+      "ticker": "DOM.L",
+      "name": "Domino's Pizza Group",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "TRN.L",
+      "name": "Trainline",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 63,
       "market": "FR"
     },
     {
-      "ticker": "NUE",
-      "name": "Nucor",
-      "score": 65,
-      "market": "US"
+      "ticker": "FOUR.L",
+      "name": "4imprint",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 62,
+      "market": "UK"
     }
   ],
   "totalStocks": 859,
-  "avgScore": 51,
-  "bearishAlertCount": 270
+  "avgScore": 52,
+  "bearishAlertCount": 266
 }
