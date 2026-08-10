@@ -1,18 +1,11 @@
 {
   "topOverall": [
     {
-      "ticker": "STAN.L",
-      "name": "Standard Chartered",
-      "score": 79,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TRN.L",
-      "name": "Trainline",
+      "ticker": "FROG",
+      "name": "JFrog",
       "score": 78,
-      "market": "UK",
-      "capCategory": "Small"
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "GEN",
@@ -20,13 +13,6 @@
       "score": 77,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 76,
-      "market": "UK",
-      "capCategory": "Mid"
     },
     {
       "ticker": "NET",
@@ -43,25 +29,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "FROG",
-      "name": "JFrog",
-      "score": 75,
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 75,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "JD.L",
-      "name": "JD Sports Fashion",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Mid"
     },
     {
       "ticker": "HPQ",
@@ -69,28 +41,49 @@
       "score": 73,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
-      "score": 24,
-      "market": "IN",
-      "capCategory": "Large"
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 23,
+      "market": "FR",
+      "capCategory": "Small"
     },
     {
-      "ticker": "DRX.L",
-      "name": "Drax Group",
+      "ticker": "RTO.L",
+      "name": "Rentokil Initial",
       "score": 24,
       "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "OPEN",
-      "name": "Opendoor Technologies",
-      "score": 25,
-      "market": "US",
       "capCategory": "Mid"
     },
     {
@@ -101,8 +94,22 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RTO.L",
-      "name": "Rentokil Initial",
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
+      "score": 26,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "DRX.L",
+      "name": "Drax Group",
       "score": 27,
       "market": "UK",
       "capCategory": "Mid"
@@ -115,8 +122,8 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "XPEV",
-      "name": "XPeng",
+      "ticker": "SUI",
+      "name": "Sun Communities",
       "score": 28,
       "market": "US",
       "capCategory": "Large"
@@ -129,26 +136,19 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SUI",
-      "name": "Sun Communities",
+      "ticker": "LCID",
+      "name": "Lucid Group",
       "score": 29,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 30,
-      "market": "FR",
-      "capCategory": "Small"
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "STAN.L",
-      "name": "Standard Chartered",
-      "score": 79,
-      "market": "UK"
+      "ticker": "FROG",
+      "name": "JFrog",
+      "score": 78,
+      "market": "US"
     },
     {
       "ticker": "GEN",
@@ -169,9 +169,9 @@
       "market": "US"
     },
     {
-      "ticker": "FROG",
-      "name": "JFrog",
-      "score": 75,
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 73,
       "market": "US"
     },
     {
@@ -187,48 +187,30 @@
       "market": "US"
     },
     {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
-      "score": 72,
-      "market": "UK"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
+      "ticker": "MU",
+      "name": "Micron",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 71,
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "score": 69,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 76,
-      "market": "UK"
-    },
-    {
-      "ticker": "JD.L",
-      "name": "JD Sports Fashion",
-      "score": 74,
-      "market": "UK"
-    },
-    {
       "ticker": "ETSY",
       "name": "Etsy",
       "score": 73,
       "market": "US"
-    },
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 73,
-      "market": "UK"
     },
     {
       "ticker": "RELY",
@@ -237,20 +219,14 @@
       "market": "US"
     },
     {
-      "ticker": "JET2.L",
-      "name": "Jet2",
-      "score": 72,
-      "market": "UK"
+      "ticker": "GTLB",
+      "name": "GitLab",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "AJB.L",
       "name": "AJ Bell",
-      "score": 72,
-      "market": "UK"
-    },
-    {
-      "ticker": "FRAS.L",
-      "name": "Frasers Group",
       "score": 69,
       "market": "UK"
     },
@@ -265,42 +241,48 @@
       "name": "Crocs",
       "score": 68,
       "market": "US"
-    }
-  ],
-  "topSmallCap": [
-    {
-      "ticker": "TRN.L",
-      "name": "Trainline",
-      "score": 78,
-      "market": "UK"
     },
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 75,
-      "market": "UK"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
+      "ticker": "SCT.L",
+      "name": "Softcat",
       "score": 68,
       "market": "UK"
     },
     {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
+      "ticker": "LYFT",
+      "name": "Lyft",
       "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "JET2.L",
+      "name": "Jet2",
+      "score": 67,
+      "market": "UK"
+    }
+  ],
+  "topSmallCap": [
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 73,
       "market": "UK"
     },
     {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 67,
+      "score": 68,
       "market": "UK"
     },
     {
-      "ticker": "SNR.L",
-      "name": "Senior plc",
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 66,
       "market": "UK"
     },
@@ -311,25 +293,43 @@
       "market": "UK"
     },
     {
-      "ticker": "CKN.L",
-      "name": "Chemring Group",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 65,
-      "market": "FR"
+      "ticker": "WOLF",
+      "name": "Wolfspeed",
+      "score": 63,
+      "market": "US"
     },
     {
       "ticker": "GRG.L",
       "name": "Greggs",
-      "score": 64,
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "TRN.L",
+      "name": "Trainline",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "FOUR.L",
+      "name": "4imprint",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 62,
       "market": "UK"
     }
   ],
   "totalStocks": 860,
-  "avgScore": 53,
-  "bearishAlertCount": 229
+  "avgScore": 52,
+  "bearishAlertCount": 239
 }
