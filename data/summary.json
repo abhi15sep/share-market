@@ -8,13 +8,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "NET",
       "name": "Cloudflare",
       "score": 74,
@@ -43,6 +36,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 73,
@@ -64,9 +64,9 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "FROG",
-      "name": "JFrog",
-      "score": 72,
+      "ticker": "EXPE",
+      "name": "Expedia",
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     }
@@ -75,7 +75,7 @@
     {
       "ticker": "VIV.PA",
       "name": "Vivendi",
-      "score": 23,
+      "score": 22,
       "market": "FR",
       "capCategory": "Small"
     },
@@ -115,8 +115,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
+      "ticker": "XPEV",
+      "name": "XPeng",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
@@ -145,12 +145,6 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 75,
-      "market": "US"
-    },
-    {
       "ticker": "NET",
       "name": "Cloudflare",
       "score": 74,
@@ -159,6 +153,12 @@
     {
       "ticker": "SNOW",
       "name": "Snowflake",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
       "score": 73,
       "market": "US"
     },
@@ -181,20 +181,14 @@
       "market": "US"
     },
     {
-      "ticker": "FROG",
-      "name": "JFrog",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "EXPE",
       "name": "Expedia",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
+      "ticker": "COP",
+      "name": "ConocoPhillips",
       "score": 70,
       "market": "US"
     },
@@ -203,6 +197,12 @@
       "name": "DexCom",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "STAN.L",
+      "name": "Standard Chartered",
+      "score": 70,
+      "market": "UK"
     }
   ],
   "topMidCap": [
@@ -261,10 +261,10 @@
       "market": "US"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
+      "ticker": "BME.L",
+      "name": "B&M European",
       "score": 67,
-      "market": "US"
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -281,10 +281,40 @@
       "market": "UK"
     },
     {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "TRN.L",
       "name": "Trainline",
       "score": 69,
       "market": "UK"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 68,
+      "market": "FR"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 66,
+      "market": "US"
     },
     {
       "ticker": "FOUR.L",
@@ -297,39 +327,9 @@
       "name": "S4 Capital",
       "score": 66,
       "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 65,
-      "market": "FR"
-    },
-    {
-      "ticker": "RPD",
-      "name": "Rapid7",
-      "score": 64,
-      "market": "US"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "GRG.L",
-      "name": "Greggs",
-      "score": 63,
-      "market": "UK"
     }
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 243
+  "bearishAlertCount": 241
 }
