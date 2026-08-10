@@ -8,13 +8,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 74,
@@ -31,28 +24,28 @@
     {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 71,
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 71,
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
@@ -69,6 +62,13 @@
       "score": 71,
       "market": "UK",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -87,6 +87,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "RTO.L",
       "name": "Rentokil Initial",
       "score": 25,
@@ -101,45 +108,38 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "OPEN",
-      "name": "Opendoor Technologies",
+      "ticker": "SNPS",
+      "name": "Synopsys",
       "score": 25,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 26,
+      "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "HDFCLIFE.NS",
       "name": "HDFC Life Insurance",
-      "score": 26,
+      "score": 27,
       "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SUI",
-      "name": "Sun Communities",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "JOBY",
-      "name": "Joby Aviation",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ALB",
-      "name": "Albemarle",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 27,
-      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -147,36 +147,30 @@
     {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 71,
+      "score": 73,
       "market": "US"
     },
     {
       "ticker": "SNOW",
       "name": "Snowflake",
-      "score": 70,
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "NTRA",
-      "name": "Natera",
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
       "score": 70,
       "market": "US"
     },
@@ -203,15 +197,15 @@
       "name": "Deutsche Bank",
       "score": 70,
       "market": "DE"
+    },
+    {
+      "ticker": "ACA.PA",
+      "name": "Credit Agricole",
+      "score": 70,
+      "market": "FR"
     }
   ],
   "topMidCap": [
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 75,
-      "market": "US"
-    },
     {
       "ticker": "EZJ.L",
       "name": "easyJet",
@@ -229,6 +223,12 @@
       "name": "AJ Bell",
       "score": 71,
       "market": "UK"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "FRAS.L",
@@ -249,6 +249,12 @@
       "market": "UK"
     },
     {
+      "ticker": "S",
+      "name": "SentinelOne",
+      "score": 67,
+      "market": "US"
+    },
+    {
       "ticker": "BME.L",
       "name": "B&M European",
       "score": 67,
@@ -259,12 +265,6 @@
       "name": "Investec",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "S",
-      "name": "SentinelOne",
-      "score": 66,
-      "market": "US"
     }
   ],
   "topSmallCap": [
