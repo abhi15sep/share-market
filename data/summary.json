@@ -8,6 +8,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "NET",
       "name": "Cloudflare",
       "score": 74,
@@ -27,20 +34,6 @@
       "score": 74,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "VLO",
@@ -64,6 +57,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "EXPE",
       "name": "Expedia",
       "score": 71,
@@ -75,7 +75,7 @@
     {
       "ticker": "VIV.PA",
       "name": "Vivendi",
-      "score": 22,
+      "score": 23,
       "market": "FR",
       "capCategory": "Small"
     },
@@ -151,18 +151,6 @@
       "market": "US"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 73,
-      "market": "US"
-    },
-    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 73,
@@ -181,9 +169,21 @@
       "market": "US"
     },
     {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "EXPE",
       "name": "Expedia",
       "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "score": 70,
       "market": "US"
     },
     {
@@ -237,6 +237,18 @@
       "market": "UK"
     },
     {
+      "ticker": "S",
+      "name": "SentinelOne",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "JET2.L",
       "name": "Jet2",
       "score": 68,
@@ -249,22 +261,10 @@
       "market": "UK"
     },
     {
-      "ticker": "S",
-      "name": "SentinelOne",
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "QLYS",
-      "name": "Qualys",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "BME.L",
-      "name": "B&M European",
-      "score": 67,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -273,6 +273,12 @@
       "name": "Watches of Switzerland",
       "score": 76,
       "market": "UK"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 75,
+      "market": "US"
     },
     {
       "ticker": "CMCX.L",
@@ -319,12 +325,6 @@
     {
       "ticker": "FOUR.L",
       "name": "4imprint",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
       "score": 66,
       "market": "UK"
     }
