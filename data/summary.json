@@ -8,6 +8,20 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 74,
@@ -22,63 +36,42 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "SNOW",
       "name": "Snowflake",
-      "score": 72,
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 72,
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 72,
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "AJB.L",
-      "name": "AJ Bell",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 70,
+      "ticker": "FROG",
+      "name": "JFrog",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 21,
-      "market": "US",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "VIV.PA",
       "name": "Vivendi",
@@ -87,11 +80,11 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "score": 23,
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 24,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "RTO.L",
@@ -101,37 +94,9 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "FMC",
-      "name": "FMC Corp",
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
       "score": 25,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "score": 26,
       "market": "US",
       "capCategory": "Large"
     },
@@ -141,68 +106,103 @@
       "score": 27,
       "market": "IN",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "SUI",
+      "name": "Sun Communities",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "FMC",
+      "name": "FMC Corp",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "APP",
+      "name": "AppLovin",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 72,
+      "score": 75,
       "market": "US"
     },
     {
       "ticker": "NET",
       "name": "Cloudflare",
+      "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "FROG",
+      "name": "JFrog",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "EXPE",
+      "name": "Expedia",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "STAN.L",
-      "name": "Standard Chartered",
+      "ticker": "DXCM",
+      "name": "DexCom",
       "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "LGEN.L",
-      "name": "Legal & General",
-      "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
-      "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "score": 70,
-      "market": "DE"
-    },
-    {
-      "ticker": "ACA.PA",
-      "name": "Credit Agricole",
-      "score": 70,
-      "market": "FR"
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -219,16 +219,16 @@
       "market": "UK"
     },
     {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "AJB.L",
       "name": "AJ Bell",
       "score": 71,
       "market": "UK"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 69,
-      "market": "US"
     },
     {
       "ticker": "FRAS.L",
@@ -255,16 +255,16 @@
       "market": "US"
     },
     {
-      "ticker": "BME.L",
-      "name": "B&M European",
+      "ticker": "QLYS",
+      "name": "Qualys",
       "score": 67,
-      "market": "UK"
+      "market": "US"
     },
     {
-      "ticker": "INVP.L",
-      "name": "Investec",
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 67,
-      "market": "UK"
+      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -311,6 +311,12 @@
       "market": "FR"
     },
     {
+      "ticker": "RPD",
+      "name": "Rapid7",
+      "score": 64,
+      "market": "US"
+    },
+    {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
       "score": 64,
@@ -321,15 +327,9 @@
       "name": "Greggs",
       "score": 63,
       "market": "UK"
-    },
-    {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 63,
-      "market": "UK"
     }
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 240
+  "bearishAlertCount": 243
 }
