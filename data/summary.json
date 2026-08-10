@@ -31,14 +31,7 @@
     {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 72,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
@@ -69,6 +62,13 @@
       "score": 71,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
@@ -101,6 +101,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "HDFCLIFE.NS",
       "name": "HDFC Life Insurance",
       "score": 26,
@@ -110,14 +117,21 @@
     {
       "ticker": "SUI",
       "name": "Sun Communities",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "XPEV",
-      "name": "XPeng",
-      "score": 26,
+      "ticker": "JOBY",
+      "name": "Joby Aviation",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle",
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
@@ -127,33 +141,13 @@
       "score": 27,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "ZG",
-      "name": "Zillow Group",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 72,
+      "score": 71,
       "market": "US"
     },
     {
@@ -172,6 +166,18 @@
       "ticker": "RVMD",
       "name": "Revolution Medicines",
       "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "NTRA",
+      "name": "Natera",
+      "score": 70,
       "market": "US"
     },
     {
@@ -197,12 +203,6 @@
       "name": "Deutsche Bank",
       "score": 70,
       "market": "DE"
-    },
-    {
-      "ticker": "ACA.PA",
-      "name": "Credit Agricole",
-      "score": 70,
-      "market": "FR"
     }
   ],
   "topMidCap": [
@@ -249,12 +249,6 @@
       "market": "UK"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "BME.L",
       "name": "B&M European",
       "score": 67,
@@ -265,6 +259,12 @@
       "name": "Investec",
       "score": 67,
       "market": "UK"
+    },
+    {
+      "ticker": "S",
+      "name": "SentinelOne",
+      "score": 66,
+      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -275,15 +275,15 @@
       "market": "UK"
     },
     {
-      "ticker": "TRN.L",
-      "name": "Trainline",
-      "score": 69,
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 71,
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 68,
+      "ticker": "TRN.L",
+      "name": "Trainline",
+      "score": 69,
       "market": "UK"
     },
     {
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 860,
-  "avgScore": 51,
-  "bearishAlertCount": 242
+  "avgScore": 52,
+  "bearishAlertCount": 240
 }
