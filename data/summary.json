@@ -57,17 +57,17 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 70,
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "NWG.L",
-      "name": "NatWest",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 70,
-      "market": "UK",
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -87,13 +87,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "FMC",
       "name": "FMC Corp",
       "score": 25,
@@ -108,8 +101,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ALB",
-      "name": "Albemarle",
+      "ticker": "SNPS",
+      "name": "Synopsys",
       "score": 26,
       "market": "US",
       "capCategory": "Large"
@@ -117,6 +110,13 @@
     {
       "ticker": "XPEV",
       "name": "XPeng",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
@@ -169,6 +169,12 @@
       "market": "US"
     },
     {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "PSX",
       "name": "Phillips 66",
       "score": 70,
@@ -185,12 +191,6 @@
       "name": "Publicis",
       "score": 70,
       "market": "FR"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 69,
-      "market": "US"
     },
     {
       "ticker": "MU",
@@ -249,6 +249,12 @@
       "market": "US"
     },
     {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "FRAS.L",
       "name": "Frasers Group",
       "score": 68,
@@ -257,12 +263,6 @@
     {
       "ticker": "SDR.L",
       "name": "Schroders",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
       "score": 68,
       "market": "UK"
     }
@@ -301,7 +301,7 @@
     {
       "ticker": "RPD",
       "name": "Rapid7",
-      "score": 65,
+      "score": 66,
       "market": "US"
     },
     {
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 253
+  "bearishAlertCount": 257
 }
