@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 75,
@@ -43,13 +50,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "EXPE",
       "name": "Expedia",
       "score": 71,
@@ -64,8 +64,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "COP",
-      "name": "ConocoPhillips",
+      "ticker": "AMZN",
+      "name": "Amazon",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -80,17 +80,17 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "RTO.L",
+      "name": "Rentokil Initial",
+      "score": 24,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
       "score": 24,
       "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "RTO.L",
-      "name": "Rentokil Initial",
-      "score": 25,
-      "market": "UK",
       "capCategory": "Mid"
     },
     {
@@ -106,6 +106,13 @@
       "score": 26,
       "market": "IN",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "DRX.L",
+      "name": "Drax Group",
+      "score": 26,
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
       "ticker": "SUI",
@@ -134,16 +141,15 @@
       "score": 28,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 75,
+      "market": "US"
+    },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
@@ -169,15 +175,21 @@
       "market": "US"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
+      "ticker": "EXPE",
+      "name": "Expedia",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "EXPE",
-      "name": "Expedia",
-      "score": 71,
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 70,
       "market": "US"
     },
     {
@@ -191,18 +203,6 @@
       "name": "DexCom",
       "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "GLE.PA",
-      "name": "Societe Generale",
-      "score": 70,
-      "market": "FR"
     }
   ],
   "topMidCap": [
@@ -237,6 +237,12 @@
       "market": "US"
     },
     {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "JET2.L",
       "name": "Jet2",
       "score": 68,
@@ -257,12 +263,6 @@
     {
       "ticker": "QLYS",
       "name": "Qualys",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
       "score": 67,
       "market": "US"
     }
@@ -305,14 +305,20 @@
       "market": "US"
     },
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 65,
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 66,
+      "market": "FR"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
       "score": 65,
       "market": "UK"
     },
@@ -321,15 +327,9 @@
       "name": "Rapid7",
       "score": 64,
       "market": "US"
-    },
-    {
-      "ticker": "PHM",
-      "name": "PulteGroup",
-      "score": 64,
-      "market": "US"
     }
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 255
+  "bearishAlertCount": 251
 }
