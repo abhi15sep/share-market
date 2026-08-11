@@ -1,13 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 76,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 75,
@@ -15,36 +8,22 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 74,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "SNOW",
+      "name": "Snowflake",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -57,8 +36,22 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -69,15 +62,29 @@
       "score": 71,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "VIV.PA",
       "name": "Vivendi",
-      "score": 23,
+      "score": 20,
       "market": "FR",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "RTO.L",
+      "name": "Rentokil Initial",
+      "score": 24,
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
       "ticker": "CELH",
@@ -87,11 +94,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "RTO.L",
-      "name": "Rentokil Initial",
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
       "score": 25,
-      "market": "UK",
-      "capCategory": "Mid"
+      "market": "IN",
+      "capCategory": "Large"
     },
     {
       "ticker": "ALNY",
@@ -101,11 +108,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
+      "ticker": "DRX.L",
+      "name": "Drax Group",
       "score": 27,
-      "market": "IN",
-      "capCategory": "Large"
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "SUI",
@@ -122,43 +136,29 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "FMC",
-      "name": "FMC Corp",
+      "ticker": "HINDUNILVR.NS",
+      "name": "Hindustan Unilever",
       "score": 28,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "APP",
-      "name": "AppLovin",
-      "score": 28,
-      "market": "US",
+      "market": "IN",
       "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 73,
       "market": "US"
     },
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
       "score": 73,
       "market": "US"
     },
@@ -169,8 +169,8 @@
       "market": "US"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
+      "ticker": "NET",
+      "name": "Cloudflare",
       "score": 71,
       "market": "US"
     },
@@ -187,6 +187,12 @@
       "market": "US"
     },
     {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "COP",
       "name": "ConocoPhillips",
       "score": 70,
@@ -197,25 +203,13 @@
       "name": "DexCom",
       "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "STAN.L",
-      "name": "Standard Chartered",
-      "score": 70,
-      "market": "UK"
     }
   ],
   "topMidCap": [
     {
       "ticker": "EZJ.L",
       "name": "easyJet",
-      "score": 74,
-      "market": "UK"
-    },
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 74,
+      "score": 72,
       "market": "UK"
     },
     {
@@ -225,14 +219,20 @@
       "market": "US"
     },
     {
-      "ticker": "AJB.L",
-      "name": "AJ Bell",
+      "ticker": "SCT.L",
+      "name": "Softcat",
       "score": 71,
       "market": "UK"
     },
     {
-      "ticker": "FRAS.L",
-      "name": "Frasers Group",
+      "ticker": "BME.L",
+      "name": "B&M European",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
       "score": 69,
       "market": "UK"
     },
@@ -243,20 +243,8 @@
       "market": "US"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "JET2.L",
-      "name": "Jet2",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "IMI.L",
-      "name": "IMI",
+      "ticker": "JD.L",
+      "name": "JD Sports Fashion",
       "score": 68,
       "market": "UK"
     },
@@ -265,15 +253,21 @@
       "name": "Hims & Hers Health",
       "score": 67,
       "market": "US"
+    },
+    {
+      "ticker": "QLYS",
+      "name": "Qualys",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 67,
+      "market": "US"
     }
   ],
   "topSmallCap": [
-    {
-      "ticker": "WOSG.L",
-      "name": "Watches of Switzerland",
-      "score": 76,
-      "market": "UK"
-    },
     {
       "ticker": "HPQ",
       "name": "HP Inc",
@@ -281,9 +275,9 @@
       "market": "US"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 71,
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 73,
       "market": "UK"
     },
     {
@@ -293,27 +287,15 @@
       "market": "US"
     },
     {
-      "ticker": "TRN.L",
-      "name": "Trainline",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 68,
-      "market": "FR"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
+      "ticker": "NUE",
+      "name": "Nucor",
       "score": 67,
       "market": "US"
     },
     {
-      "ticker": "NUE",
-      "name": "Nucor",
-      "score": 67,
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "score": 66,
       "market": "US"
     },
     {
@@ -323,13 +305,31 @@
       "market": "US"
     },
     {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 66,
       "market": "UK"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 66,
+      "market": "FR"
+    },
+    {
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "RPD",
+      "name": "Rapid7",
+      "score": 64,
+      "market": "US"
     }
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 241
+  "bearishAlertCount": 253
 }
