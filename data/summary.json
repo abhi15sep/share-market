@@ -3,7 +3,7 @@
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 77,
+      "score": 78,
       "market": "US",
       "capCategory": "Large"
     },
@@ -22,20 +22,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 74,
@@ -50,6 +36,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
       "score": 73,
@@ -59,7 +52,7 @@
     {
       "ticker": "JPM",
       "name": "JPMorgan Chase",
-      "score": 72,
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
@@ -68,7 +61,14 @@
       "name": "Publicis",
       "score": 72,
       "market": "FR",
-      "capCategory": "Small"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -147,19 +147,19 @@
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 77,
-      "market": "US"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "score": 74,
+      "score": 78,
       "market": "US"
     },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 73,
       "market": "US"
     },
     {
@@ -171,12 +171,18 @@
     {
       "ticker": "JPM",
       "name": "JPMorgan Chase",
-      "score": 72,
+      "score": 73,
       "market": "US"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 72,
+      "market": "FR"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
       "score": 71,
       "market": "US"
     },
@@ -193,16 +199,10 @@
       "market": "UK"
     },
     {
-      "ticker": "NTRA",
-      "name": "Natera",
+      "ticker": "BAC",
+      "name": "Bank of America",
       "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "NWG.L",
-      "name": "NatWest",
-      "score": 70,
-      "market": "UK"
     }
   ],
   "topMidCap": [
@@ -217,12 +217,6 @@
       "name": "easyJet",
       "score": 76,
       "market": "UK"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 75,
-      "market": "US"
     },
     {
       "ticker": "AJB.L",
@@ -243,6 +237,12 @@
       "market": "UK"
     },
     {
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 70,
@@ -255,31 +255,19 @@
       "market": "US"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "OZK",
       "name": "Bank OZK",
       "score": 68,
       "market": "US"
-    },
-    {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 67,
-      "market": "US"
     }
   ],
   "topSmallCap": [
-    {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 72,
-      "market": "FR"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 71,
-      "market": "US"
-    },
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
@@ -305,31 +293,43 @@
       "market": "UK"
     },
     {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "MONY.L",
       "name": "Moneysupermarket.com",
       "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 65,
-      "market": "US"
-    },
-    {
       "ticker": "TRN.L",
       "name": "Trainline",
       "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "FOUR.L",
+      "name": "4imprint",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 64,
+      "market": "FR"
+    },
+    {
+      "ticker": "ITM.L",
+      "name": "ITM Power",
+      "score": 63,
       "market": "UK"
     }
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 275
+  "bearishAlertCount": 277
 }
