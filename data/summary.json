@@ -10,6 +10,13 @@
     {
       "ticker": "CSCO",
       "name": "Cisco",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
       "score": 74,
       "market": "US",
       "capCategory": "Large"
@@ -22,32 +29,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "BAC",
       "name": "Bank of America",
-      "score": 72,
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
     },
     {
       "ticker": "SCT.L",
@@ -55,6 +41,20 @@
       "score": 72,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 72,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "HPQ",
@@ -78,6 +78,13 @@
       "score": 18,
       "market": "FR",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "PAH3.DE",
+      "name": "Porsche Auto Holding",
+      "score": 23,
+      "market": "DE",
+      "capCategory": "Mid"
     },
     {
       "ticker": "CELH",
@@ -115,13 +122,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DRX.L",
-      "name": "Drax Group",
-      "score": 27,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "XPEV",
       "name": "XPeng",
       "score": 27,
@@ -153,6 +153,12 @@
     {
       "ticker": "CSCO",
       "name": "Cisco",
+      "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
       "score": 74,
       "market": "US"
     },
@@ -163,21 +169,21 @@
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "BAC",
       "name": "Bank of America",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
       "score": 72,
+      "market": "FR"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 71,
       "market": "US"
     },
     {
@@ -197,31 +203,13 @@
       "name": "Publicis",
       "score": 71,
       "market": "FR"
-    },
-    {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "score": 70,
-      "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 72,
-      "market": "UK"
-    },
-    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 72,
-      "market": "UK"
-    },
-    {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
-      "score": 71,
       "market": "UK"
     },
     {
@@ -235,6 +223,24 @@
       "name": "Organon & Co",
       "score": 69,
       "market": "US"
+    },
+    {
+      "ticker": "BME.L",
+      "name": "B&M European",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
+      "score": 69,
+      "market": "UK"
     },
     {
       "ticker": "HMSO.L",
@@ -259,15 +265,15 @@
       "name": "AJ Bell",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "INVP.L",
-      "name": "Investec",
-      "score": 67,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 68,
+      "market": "UK"
+    },
     {
       "ticker": "WOSG.L",
       "name": "Watches of Switzerland",
@@ -287,21 +293,15 @@
       "market": "UK"
     },
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 66,
-      "market": "UK"
-    },
-    {
       "ticker": "FOUR.L",
       "name": "4imprint",
-      "score": 65,
+      "score": 66,
       "market": "UK"
     },
     {
       "ticker": "RWS.L",
       "name": "RWS Holdings",
-      "score": 64,
+      "score": 65,
       "market": "UK"
     },
     {
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 282
+  "bearishAlertCount": 283
 }
