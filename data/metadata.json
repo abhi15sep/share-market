@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-08-13T20:51:09.606Z",
-  "stockCount": 860,
-  "bearishAlerts": 247,
-  "newsCount": 655,
+  "lastUpdated": "2026-08-13T21:52:29.153Z",
+  "stockCount": 859,
+  "bearishAlerts": 254,
+  "newsCount": 645,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
       "price": 7798.99,
-      "sma50": 7507.75,
-      "sma200": 7070.35,
+      "sma50": 7513.59,
+      "sma200": 7059.01,
       "changeFromHigh": 0,
       "distributionDays": 2,
       "regime": "bull",
@@ -17,8 +17,8 @@
     "uk": {
       "index": "FTSE 100",
       "price": 10772.67,
-      "sma50": 10601.65,
-      "sma200": 10274.88,
+      "sma50": 10579.55,
+      "sma200": 10259.01,
       "changeFromHigh": -1.26,
       "distributionDays": 2,
       "regime": "bull",
@@ -27,8 +27,8 @@
     "in": {
       "index": "Nifty 50",
       "price": 24395.85,
-      "sma50": 24045.31,
-      "sma200": 24750.5,
+      "sma50": 24002.23,
+      "sma200": 24770.75,
       "changeFromHigh": -7.34,
       "distributionDays": 1,
       "regime": "correction",
@@ -37,22 +37,22 @@
     "eu": {
       "index": "DAX 40",
       "price": 26299.74,
-      "sma50": 25239.49,
-      "sma200": 24487.24,
+      "sma50": 25220.87,
+      "sma200": 24472.04,
       "changeFromHigh": -0.35,
-      "distributionDays": 3,
+      "distributionDays": 4,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "asia": {
       "index": "Nikkei 225",
       "price": 68308.59,
-      "sma50": 67189.52,
-      "sma200": 57599.23,
+      "sma50": 67214.46,
+      "sma200": 57328.72,
       "changeFromHigh": -5.61,
-      "distributionDays": 7,
-      "regime": "correction",
-      "signal": "7 distribution days in 25 sessions — selling pressure"
+      "distributionDays": 4,
+      "regime": "bull",
+      "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "overall": "correction",
     "summary": "Markets showing weakness. Be selective, reduce position sizes, and tighten stops."
