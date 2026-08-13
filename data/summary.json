@@ -8,6 +8,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 76,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
       "score": 74,
@@ -15,18 +22,39 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TRN.L",
-      "name": "Trainline",
+      "ticker": "RELY",
+      "name": "Remitly Global",
       "score": 74,
-      "market": "UK",
-      "capCategory": "Small"
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
+      "ticker": "SCT.L",
+      "name": "Softcat",
       "score": 74,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 74,
+      "market": "FR",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 73,
+      "market": "DE",
+      "capCategory": "Large"
     },
     {
       "ticker": "BAC",
@@ -36,37 +64,9 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BBY.L",
-      "name": "Balfour Beatty",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
-      "score": 72,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 71,
       "market": "US",
       "capCategory": "Large"
     }
@@ -75,16 +75,9 @@
     {
       "ticker": "VIV.PA",
       "name": "Vivendi",
-      "score": 19,
+      "score": 21,
       "market": "FR",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "PAH3.DE",
-      "name": "Porsche Auto Holding",
-      "score": 24,
-      "market": "DE",
-      "capCategory": "Mid"
     },
     {
       "ticker": "FMC",
@@ -96,6 +89,13 @@
     {
       "ticker": "QS",
       "name": "QuantumScape",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
@@ -122,11 +122,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
+      "ticker": "PAH3.DE",
+      "name": "Porsche Auto Holding",
+      "score": 27,
+      "market": "DE",
+      "capCategory": "Mid"
     },
     {
       "ticker": "HDFCLIFE.NS",
@@ -136,11 +136,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
+      "ticker": "COIN",
+      "name": "Coinbase",
       "score": 28,
-      "market": "UK",
-      "capCategory": "Mid"
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -157,26 +157,44 @@
       "market": "US"
     },
     {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "score": 74,
+      "market": "FR"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 73,
+      "market": "DE"
+    },
+    {
       "ticker": "BAC",
       "name": "Bank of America",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "BNP.PA",
-      "name": "BNP Paribas",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 72,
-      "market": "FR"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "ADM.L",
+      "name": "Admiral Group",
+      "score": 72,
+      "market": "UK"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
       "score": 71,
       "market": "US"
     },
@@ -185,43 +203,25 @@
       "name": "Valero Energy",
       "score": 71,
       "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 71,
-      "market": "DE"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 70,
-      "market": "US"
     }
   ],
   "topMidCap": [
     {
       "ticker": "HMSO.L",
       "name": "Hammerson",
-      "score": 74,
+      "score": 76,
       "market": "UK"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 72,
-      "market": "UK"
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 74,
+      "market": "US"
     },
     {
       "ticker": "SCT.L",
       "name": "Softcat",
-      "score": 72,
+      "score": 74,
       "market": "UK"
     },
     {
@@ -231,15 +231,9 @@
       "market": "UK"
     },
     {
-      "ticker": "BME.L",
-      "name": "B&M European",
-      "score": 70,
-      "market": "UK"
-    },
-    {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
@@ -249,29 +243,47 @@
       "market": "US"
     },
     {
-      "ticker": "HIMS",
-      "name": "Hims & Hers Health",
-      "score": 67,
+      "ticker": "BME.L",
+      "name": "B&M European",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 68,
       "market": "US"
+    },
+    {
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
+      "score": 68,
+      "market": "UK"
     },
     {
       "ticker": "FNB",
       "name": "F.N.B. Corp",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "S",
-      "name": "SentinelOne",
-      "score": 67,
-      "market": "US"
     }
   ],
   "topSmallCap": [
     {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 69,
+      "market": "UK"
+    },
+    {
       "ticker": "TRN.L",
       "name": "Trainline",
-      "score": 74,
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 68,
       "market": "UK"
     },
     {
@@ -281,22 +293,10 @@
       "market": "UK"
     },
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 66,
-      "market": "UK"
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 65,
+      "market": "FR"
     },
     {
       "ticker": "FOUR.L",
@@ -305,31 +305,31 @@
       "market": "UK"
     },
     {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
-      "score": 64,
-      "market": "UK"
-    },
-    {
       "ticker": "MONY.L",
       "name": "Moneysupermarket.com",
-      "score": 63,
+      "score": 64,
       "market": "UK"
     },
     {
       "ticker": "CKN.L",
       "name": "Chemring Group",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
       "score": 62,
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
+      "ticker": "BREE.L",
+      "name": "Breedon Group",
       "score": 62,
-      "market": "FR"
+      "market": "UK"
     }
   ],
   "totalStocks": 860,
   "avgScore": 51,
-  "bearishAlertCount": 263
+  "bearishAlertCount": 267
 }
