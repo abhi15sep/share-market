@@ -10,7 +10,7 @@
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 75,
+      "score": 74,
       "market": "US",
       "capCategory": "Large"
     },
@@ -22,22 +22,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NTRA",
-      "name": "Natera",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -68,7 +61,14 @@
       "name": "HP Inc",
       "score": 71,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EXPE",
+      "name": "Expedia",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -94,13 +94,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HUBS",
-      "name": "HubSpot",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "FMC",
       "name": "FMC Corp",
       "score": 26,
@@ -122,13 +115,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
-      "score": 27,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "DRX.L",
       "name": "Drax Group",
       "score": 27,
@@ -138,6 +124,20 @@
     {
       "ticker": "XPEV",
       "name": "XPeng",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HUBS",
+      "name": "HubSpot",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
@@ -153,7 +153,7 @@
     {
       "ticker": "CSCO",
       "name": "Cisco",
-      "score": 75,
+      "score": 74,
       "market": "US"
     },
     {
@@ -163,20 +163,14 @@
       "market": "US"
     },
     {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "NTRA",
-      "name": "Natera",
-      "score": 73,
-      "market": "US"
-    },
-    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
       "score": 72,
       "market": "US"
     },
@@ -187,20 +181,26 @@
       "market": "US"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 70,
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 71,
       "market": "US"
+    },
+    {
+      "ticker": "EXPE",
+      "name": "Expedia",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 71,
+      "market": "FR"
     },
     {
       "ticker": "SMCI",
       "name": "Super Micro",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
       "score": 70,
       "market": "US"
     }
@@ -219,16 +219,22 @@
       "market": "UK"
     },
     {
+      "ticker": "BBY.L",
+      "name": "Balfour Beatty",
+      "score": 71,
+      "market": "UK"
+    },
+    {
       "ticker": "HIMS",
       "name": "Hims & Hers Health",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "BME.L",
-      "name": "B&M European",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 69,
-      "market": "UK"
+      "market": "US"
     },
     {
       "ticker": "HMSO.L",
@@ -237,14 +243,14 @@
       "market": "UK"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
+      "ticker": "OZK",
+      "name": "Bank OZK",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "OZK",
-      "name": "Bank OZK",
+      "ticker": "CROX",
+      "name": "Crocs",
       "score": 67,
       "market": "US"
     },
@@ -259,32 +265,20 @@
       "name": "Investec",
       "score": 67,
       "market": "UK"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 65,
-      "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 71,
-      "market": "US"
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 68,
+      "market": "UK"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 69,
-      "market": "FR"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 67,
-      "market": "US"
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 68,
+      "market": "UK"
     },
     {
       "ticker": "JDW.L",
@@ -293,16 +287,10 @@
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 67,
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 66,
       "market": "UK"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 65,
-      "market": "US"
     },
     {
       "ticker": "FOUR.L",
@@ -311,25 +299,37 @@
       "market": "UK"
     },
     {
+      "ticker": "RWS.L",
+      "name": "RWS Holdings",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "TRN.L",
+      "name": "Trainline",
+      "score": 63,
+      "market": "UK"
+    },
+    {
       "ticker": "CURY.L",
       "name": "Currys",
-      "score": 65,
+      "score": 63,
       "market": "UK"
     },
     {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 64,
-      "market": "US"
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 63,
+      "market": "UK"
     },
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 64,
-      "market": "UK"
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 62,
+      "market": "FR"
     }
   ],
-  "totalStocks": 859,
+  "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 283
+  "bearishAlertCount": 282
 }
