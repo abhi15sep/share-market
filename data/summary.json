@@ -43,22 +43,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MDB",
-      "name": "MongoDB",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -69,6 +55,20 @@
       "score": 72,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "MDB",
+      "name": "MongoDB",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -82,7 +82,7 @@
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
-      "score": 23,
+      "score": 24,
       "market": "DE",
       "capCategory": "Mid"
     },
@@ -91,6 +91,20 @@
       "name": "HDFC Life Insurance",
       "score": 24,
       "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "XPEV",
+      "name": "XPeng",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "LI",
+      "name": "Li Auto",
+      "score": 25,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -127,20 +141,6 @@
       "score": 26,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
-      "score": 27,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "LI",
-      "name": "Li Auto",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
@@ -163,21 +163,15 @@
       "market": "US"
     },
     {
-      "ticker": "MDB",
-      "name": "MongoDB",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 72,
+      "ticker": "MDB",
+      "name": "MongoDB",
+      "score": 71,
       "market": "US"
     },
     {
@@ -193,14 +187,20 @@
       "market": "US"
     },
     {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital",
       "score": 70,
       "market": "US"
     }
@@ -231,14 +231,26 @@
       "market": "UK"
     },
     {
-      "ticker": "GTLB",
-      "name": "GitLab",
-      "score": 70,
+      "ticker": "BIRK",
+      "name": "Birkenstock",
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "ETSY",
       "name": "Etsy",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "GTLB",
+      "name": "GitLab",
       "score": 70,
       "market": "US"
     },
@@ -249,21 +261,9 @@
       "market": "US"
     },
     {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
       "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "S",
-      "name": "SentinelOne",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "HMSO.L",
-      "name": "Hammerson",
-      "score": 68,
       "market": "UK"
     }
   ],
@@ -293,22 +293,16 @@
       "market": "UK"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 69,
-      "market": "FR"
-    },
-    {
-      "ticker": "TRN.L",
-      "name": "Trainline",
-      "score": 68,
-      "market": "UK"
-    },
-    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
       "score": 68,
       "market": "UK"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 68,
+      "market": "FR"
     },
     {
       "ticker": "FOUR.L",
@@ -317,19 +311,25 @@
       "market": "UK"
     },
     {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
+      "ticker": "RWS.L",
+      "name": "RWS Holdings",
       "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
+      "ticker": "TRN.L",
+      "name": "Trainline",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
       "score": 65,
       "market": "UK"
     }
   ],
-  "totalStocks": 859,
+  "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 248
+  "bearishAlertCount": 243
 }
