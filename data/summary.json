@@ -50,13 +50,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 72,
@@ -69,6 +62,13 @@
       "score": 72,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
@@ -82,9 +82,16 @@
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
-      "score": 24,
+      "score": 23,
       "market": "DE",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
+      "score": 24,
+      "market": "IN",
+      "capCategory": "Large"
     },
     {
       "ticker": "DRX.L",
@@ -108,6 +115,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "BRBY.L",
+      "name": "Burberry",
+      "score": 27,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "LI",
       "name": "Li Auto",
       "score": 27,
@@ -120,20 +134,6 @@
       "score": 27,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "SBILIFE.NS",
-      "name": "SBI Life Insurance",
-      "score": 28,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
-      "score": 28,
-      "market": "UK",
-      "capCategory": "Mid"
     },
     {
       "ticker": "XPEV",
@@ -169,12 +169,6 @@
       "market": "US"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 72,
@@ -184,6 +178,12 @@
       "ticker": "ZION",
       "name": "Zions Bancorporation",
       "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 71,
       "market": "US"
     },
     {
@@ -237,12 +237,6 @@
       "market": "US"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 71,
-      "market": "US"
-    },
-    {
       "ticker": "ESTC",
       "name": "Elastic NV",
       "score": 70,
@@ -251,6 +245,12 @@
     {
       "ticker": "GTLB",
       "name": "GitLab",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 70,
       "market": "US"
     },
@@ -311,15 +311,15 @@
       "market": "UK"
     },
     {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
+      "ticker": "FOUR.L",
+      "name": "4imprint",
       "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 65,
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 66,
       "market": "UK"
     },
     {
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 235
+  "bearishAlertCount": 238
 }
