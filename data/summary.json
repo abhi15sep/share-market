@@ -22,6 +22,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "BAC",
       "name": "Bank of America",
       "score": 72,
@@ -43,13 +50,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
       "score": 71,
@@ -57,21 +57,28 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "score": 71,
-      "market": "DE",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GLE.PA",
-      "name": "Societe Generale",
+      "ticker": "PUB.PA",
+      "name": "Publicis",
       "score": 71,
       "market": "FR",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 70,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 25,
+      "market": "FR",
+      "capCategory": "Small"
+    },
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
@@ -80,23 +87,16 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SNPS",
-      "name": "Synopsys",
+      "ticker": "FMC",
+      "name": "FMC Corp",
       "score": 25,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 26,
-      "market": "FR",
       "capCategory": "Small"
     },
     {
-      "ticker": "XPEV",
-      "name": "XPeng",
-      "score": 26,
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "score": 25,
       "market": "US",
       "capCategory": "Large"
     },
@@ -145,32 +145,26 @@
   ],
   "topLargeCap": [
     {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "BAC",
       "name": "Bank of America",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 71,
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "score": 71,
-      "market": "DE"
-    },
-    {
-      "ticker": "GLE.PA",
-      "name": "Societe Generale",
-      "score": 71,
-      "market": "FR"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 70,
       "market": "US"
     },
@@ -181,26 +175,32 @@
       "market": "UK"
     },
     {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "score": 70,
+      "market": "DE"
+    },
+    {
+      "ticker": "SNDK",
+      "name": "SanDisk",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "KEY",
+      "name": "KeyCorp",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "ZION",
       "name": "Zions Bancorporation",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "OVV",
-      "name": "Ovintiv",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 69,
-      "market": "DE"
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
+      "ticker": "EXPE",
+      "name": "Expedia",
       "score": 68,
       "market": "US"
     }
@@ -219,6 +219,12 @@
       "market": "UK"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "BLND.L",
       "name": "British Land",
       "score": 69,
@@ -231,8 +237,14 @@
       "market": "UK"
     },
     {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "OZK",
+      "name": "Bank OZK",
       "score": 68,
       "market": "US"
     },
@@ -249,22 +261,10 @@
       "market": "UK"
     },
     {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
+      "ticker": "BIRK",
+      "name": "Birkenstock",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 67,
-      "market": "US"
-    },
-    {
-      "ticker": "LAND.L",
-      "name": "Land Securities",
-      "score": 66,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -329,7 +329,7 @@
       "market": "UK"
     }
   ],
-  "totalStocks": 859,
+  "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 264
+  "bearishAlertCount": 258
 }
