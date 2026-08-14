@@ -8,6 +8,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 73,
@@ -20,13 +27,6 @@
       "score": 73,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "MU",
@@ -64,11 +64,11 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
+      "ticker": "PUB.PA",
+      "name": "Publicis",
       "score": 71,
-      "market": "DE",
-      "capCategory": "Large"
+      "market": "FR",
+      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
@@ -147,7 +147,7 @@
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 72,
+      "score": 73,
       "market": "US"
     },
     {
@@ -163,10 +163,10 @@
       "market": "US"
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "score": 71,
-      "market": "DE"
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "score": 70,
+      "market": "US"
     },
     {
       "ticker": "ADM.L",
@@ -175,34 +175,34 @@
       "market": "UK"
     },
     {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "score": 70,
+      "market": "DE"
+    },
+    {
       "ticker": "SNDK",
       "name": "SanDisk",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 69,
+      "ticker": "CFG",
+      "name": "Citizens Financial",
+      "score": 68,
       "market": "US"
     },
     {
-      "ticker": "RWE.DE",
-      "name": "RWE",
-      "score": 69,
-      "market": "DE"
+      "ticker": "KEY",
+      "name": "KeyCorp",
+      "score": 68,
+      "market": "US"
     },
     {
-      "ticker": "ACA.PA",
-      "name": "Credit Agricole",
+      "ticker": "FCNCA",
+      "name": "First Citizens BancShares",
       "score": 68,
-      "market": "FR"
-    },
-    {
-      "ticker": "6971.T",
-      "name": "Kyocera",
-      "score": 68,
-      "market": "JP"
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -217,6 +217,12 @@
       "name": "Softcat",
       "score": 73,
       "market": "UK"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "BLND.L",
@@ -255,15 +261,9 @@
       "market": "US"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "BIRK",
       "name": "Birkenstock",
-      "score": 66,
+      "score": 67,
       "market": "US"
     }
   ],
