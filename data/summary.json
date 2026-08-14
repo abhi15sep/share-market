@@ -3,16 +3,9 @@
     {
       "ticker": "RELY",
       "name": "Remitly Global",
-      "score": 75,
+      "score": 76,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "HPQ",
@@ -29,6 +22,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "MU",
       "name": "Micron",
       "score": 72,
@@ -43,15 +43,8 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -64,21 +57,21 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "score": 71,
+      "market": "DE",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GLE.PA",
+      "name": "Societe Generale",
       "score": 71,
       "market": "FR",
-      "capCategory": "Small"
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 25,
-      "market": "FR",
-      "capCategory": "Small"
-    },
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
@@ -94,18 +87,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "QS",
-      "name": "QuantumScape",
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
       "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "LI",
-      "name": "Li Auto",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
+      "market": "FR",
+      "capCategory": "Small"
     },
     {
       "ticker": "XPEV",
@@ -141,30 +127,50 @@
       "score": 27,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "QS",
+      "name": "QuantumScape",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "LI",
+      "name": "Li Auto",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 73,
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 71,
       "market": "US"
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "score": 71,
+      "market": "DE"
+    },
+    {
+      "ticker": "GLE.PA",
+      "name": "Societe Generale",
+      "score": 71,
+      "market": "FR"
     },
     {
       "ticker": "STT",
       "name": "State Street",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
       "score": 70,
       "market": "US"
     },
@@ -175,32 +181,26 @@
       "market": "UK"
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "score": 70,
-      "market": "DE"
-    },
-    {
-      "ticker": "SNDK",
-      "name": "SanDisk",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "CFG",
-      "name": "Citizens Financial",
-      "score": 68,
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "score": 69,
       "market": "US"
     },
     {
-      "ticker": "KEY",
-      "name": "KeyCorp",
-      "score": 68,
-      "market": "US"
+      "ticker": "RWE.DE",
+      "name": "RWE",
+      "score": 69,
+      "market": "DE"
     },
     {
-      "ticker": "FCNCA",
-      "name": "First Citizens BancShares",
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
       "score": 68,
       "market": "US"
     }
@@ -209,7 +209,7 @@
     {
       "ticker": "RELY",
       "name": "Remitly Global",
-      "score": 75,
+      "score": 76,
       "market": "US"
     },
     {
@@ -217,12 +217,6 @@
       "name": "Softcat",
       "score": 73,
       "market": "UK"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 69,
-      "market": "US"
     },
     {
       "ticker": "BLND.L",
@@ -235,6 +229,12 @@
       "name": "Bunzl",
       "score": 69,
       "market": "UK"
+    },
+    {
+      "ticker": "TENB",
+      "name": "Tenable Holdings",
+      "score": 68,
+      "market": "US"
     },
     {
       "ticker": "EZJ.L",
@@ -255,16 +255,16 @@
       "market": "US"
     },
     {
-      "ticker": "OZK",
-      "name": "Bank OZK",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 67,
       "market": "US"
     },
     {
-      "ticker": "BIRK",
-      "name": "Birkenstock",
-      "score": 67,
-      "market": "US"
+      "ticker": "LAND.L",
+      "name": "Land Securities",
+      "score": 66,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 859,
   "avgScore": 52,
-  "bearishAlertCount": 267
+  "bearishAlertCount": 264
 }
