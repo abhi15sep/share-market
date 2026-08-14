@@ -22,18 +22,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MU",
       "name": "Micron",
       "score": 72,
       "market": "US",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "FROG",
+      "name": "JFrog",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "BYIT.L",
@@ -50,6 +50,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "STT",
       "name": "State Street",
       "score": 71,
@@ -57,28 +64,14 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 25,
-      "market": "FR",
-      "capCategory": "Small"
-    },
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
@@ -94,11 +87,11 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "SNPS",
-      "name": "Synopsys",
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
       "score": 26,
-      "market": "US",
-      "capCategory": "Large"
+      "market": "FR",
+      "capCategory": "Small"
     },
     {
       "ticker": "9626.HK",
@@ -129,6 +122,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "DJT",
+      "name": "Trump Media",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "QS",
       "name": "QuantumScape",
       "score": 27,
@@ -145,8 +145,8 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
+      "ticker": "FROG",
+      "name": "JFrog",
       "score": 72,
       "market": "US"
     },
@@ -157,8 +157,20 @@
       "market": "US"
     },
     {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "STT",
       "name": "State Street",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
       "score": 71,
       "market": "US"
     },
@@ -169,20 +181,14 @@
       "market": "US"
     },
     {
-      "ticker": "EXPE",
-      "name": "Expedia",
-      "score": 70,
-      "market": "US"
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "score": 71,
+      "market": "DE"
     },
     {
       "ticker": "PSX",
       "name": "Phillips 66",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
       "score": 70,
       "market": "US"
     },
@@ -193,14 +199,8 @@
       "market": "UK"
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "score": 70,
-      "market": "DE"
-    },
-    {
-      "ticker": "SNDK",
-      "name": "SanDisk",
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
       "score": 69,
       "market": "US"
     }
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 860,
-  "avgScore": 52,
-  "bearishAlertCount": 258
+  "avgScore": 53,
+  "bearishAlertCount": 255
 }
