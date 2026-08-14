@@ -8,6 +8,13 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 77,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
       "score": 75,
@@ -20,13 +27,6 @@
       "score": 74,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "OGN",
@@ -101,6 +101,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "RTO.L",
+      "name": "Rentokil Initial",
+      "score": 26,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "FMC",
       "name": "FMC Corp",
       "score": 26,
@@ -115,6 +122,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "BRBY.L",
       "name": "Burberry",
       "score": 27,
@@ -125,20 +139,6 @@
       "ticker": "LI",
       "name": "Li Auto",
       "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "XPEV",
-      "name": "XPeng",
-      "score": 28,
       "market": "US",
       "capCategory": "Large"
     }
@@ -209,7 +209,7 @@
     {
       "ticker": "RELY",
       "name": "Remitly Global",
-      "score": 74,
+      "score": 77,
       "market": "US"
     },
     {
@@ -231,18 +231,6 @@
       "market": "UK"
     },
     {
-      "ticker": "BIRK",
-      "name": "Birkenstock",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "GTLB",
       "name": "GitLab",
       "score": 70,
@@ -261,10 +249,22 @@
       "market": "US"
     },
     {
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "S",
       "name": "SentinelOne",
       "score": 68,
       "market": "US"
+    },
+    {
+      "ticker": "HMSO.L",
+      "name": "Hammerson",
+      "score": 68,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -287,27 +287,27 @@
       "market": "US"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 68,
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 69,
       "market": "UK"
     },
     {
       "ticker": "PUB.PA",
       "name": "Publicis",
-      "score": 68,
+      "score": 69,
       "market": "FR"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 67,
-      "market": "UK"
     },
     {
       "ticker": "TRN.L",
       "name": "Trainline",
-      "score": 67,
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 68,
       "market": "UK"
     },
     {
@@ -329,7 +329,7 @@
       "market": "UK"
     }
   ],
-  "totalStocks": 860,
+  "totalStocks": 859,
   "avgScore": 52,
-  "bearishAlertCount": 238
+  "bearishAlertCount": 248
 }
