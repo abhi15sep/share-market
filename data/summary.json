@@ -1,18 +1,18 @@
 {
   "topOverall": [
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "RELY",
       "name": "Remitly Global",
-      "score": 73,
+      "score": 75,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Small"
     },
     {
       "ticker": "SCT.L",
@@ -29,6 +29,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
       "score": 72,
@@ -36,11 +43,18 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
+      "ticker": "BAC",
+      "name": "Bank of America",
       "score": 71,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "CMCX.L",
@@ -55,36 +69,15 @@
       "score": 71,
       "market": "DE",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "GLE.PA",
-      "name": "Societe Generale",
-      "score": 71,
-      "market": "FR",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 71,
-      "market": "FR",
-      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "HDFCLIFE.NS",
-      "name": "HDFC Life Insurance",
-      "score": 24,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 25,
+      "market": "FR",
+      "capCategory": "Small"
     },
     {
       "ticker": "PAH3.DE",
@@ -94,18 +87,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 26,
-      "market": "FR",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 26,
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "score": 25,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "QS",
@@ -129,6 +115,20 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "9626.HK",
+      "name": "Bilibili",
+      "score": 27,
+      "market": "HK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance",
+      "score": 27,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "DRX.L",
       "name": "Drax Group",
       "score": 27,
@@ -145,15 +145,21 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 73,
-      "market": "US"
-    },
-    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
       "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "score": 71,
       "market": "US"
     },
     {
@@ -163,32 +169,14 @@
       "market": "DE"
     },
     {
-      "ticker": "GLE.PA",
-      "name": "Societe Generale",
-      "score": 71,
-      "market": "FR"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "ADM.L",
       "name": "Admiral Group",
       "score": 70,
       "market": "UK"
     },
     {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
+      "ticker": "SNDK",
+      "name": "SanDisk",
       "score": 69,
       "market": "US"
     },
@@ -203,13 +191,25 @@
       "name": "RWE",
       "score": 69,
       "market": "DE"
+    },
+    {
+      "ticker": "ACA.PA",
+      "name": "Credit Agricole",
+      "score": 68,
+      "market": "FR"
+    },
+    {
+      "ticker": "6971.T",
+      "name": "Kyocera",
+      "score": 68,
+      "market": "JP"
     }
   ],
   "topMidCap": [
     {
       "ticker": "RELY",
       "name": "Remitly Global",
-      "score": 73,
+      "score": 75,
       "market": "US"
     },
     {
@@ -261,24 +261,30 @@
       "market": "US"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 67,
+      "ticker": "BIRK",
+      "name": "Birkenstock",
+      "score": 66,
       "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 72,
-      "market": "UK"
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 73,
+      "market": "US"
     },
     {
       "ticker": "MU",
       "name": "Micron",
-      "score": 71,
+      "score": 72,
       "market": "US"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 72,
+      "market": "UK"
     },
     {
       "ticker": "CMCX.L",
@@ -293,12 +299,6 @@
       "market": "FR"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "FOUR.L",
       "name": "4imprint",
       "score": 69,
@@ -307,19 +307,19 @@
     {
       "ticker": "TRN.L",
       "name": "Trainline",
-      "score": 68,
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "KNOS.L",
+      "name": "Kainos Group",
+      "score": 66,
       "market": "UK"
     },
     {
       "ticker": "RWS.L",
       "name": "RWS Holdings",
       "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "KNOS.L",
-      "name": "Kainos Group",
-      "score": 65,
       "market": "UK"
     },
     {
