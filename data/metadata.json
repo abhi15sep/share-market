@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-08-17T13:46:27.311Z",
+  "lastUpdated": "2026-08-17T14:34:00.997Z",
   "stockCount": 860,
-  "bearishAlerts": 267,
-  "newsCount": 625,
+  "bearishAlerts": 260,
+  "newsCount": 695,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
-      "price": 7777.52,
-      "sma50": 7516.25,
-      "sma200": 7079.34,
-      "changeFromHigh": -0.28,
+      "price": 7775.49,
+      "sma50": 7516.21,
+      "sma200": 7079.33,
+      "changeFromHigh": -0.3,
       "distributionDays": 3,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10729.23,
-      "sma50": 10616.41,
-      "sma200": 10284.7,
-      "changeFromHigh": -1.66,
+      "price": 10736.3,
+      "sma50": 10616.55,
+      "sma200": 10284.74,
+      "changeFromHigh": -1.6,
       "distributionDays": 3,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
@@ -36,10 +36,10 @@
     },
     "eu": {
       "index": "DAX 40",
-      "price": 26371,
-      "sma50": 25308.21,
-      "sma200": 24509.28,
-      "changeFromHigh": -0.26,
+      "price": 26394.85,
+      "sma50": 25308.69,
+      "sma200": 24509.4,
+      "changeFromHigh": -0.17,
       "distributionDays": 3,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
