@@ -22,18 +22,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "HPQ",
+      "name": "HP Inc",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 73,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
     },
     {
       "ticker": "CMCX.L",
@@ -64,34 +64,20 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 72,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 21,
-      "market": "FR",
-      "capCategory": "Small"
-    },
     {
       "ticker": "TTD",
       "name": "Trade Desk",
       "score": 22,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "SNPS",
@@ -106,6 +92,20 @@
       "score": 25,
       "market": "DE",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 26,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "HUBS",
@@ -157,8 +157,14 @@
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 73,
       "market": "US"
     },
@@ -181,27 +187,21 @@
       "market": "US"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "RVMD",
       "name": "Revolution Medicines",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "NUE",
-      "name": "Nucor",
+      "ticker": "TGT",
+      "name": "Target",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 70,
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 71,
       "market": "US"
     }
   ],
@@ -213,16 +213,16 @@
       "market": "US"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 72,
       "market": "UK"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 71,
-      "market": "US"
     },
     {
       "ticker": "GTLB",
@@ -231,16 +231,16 @@
       "market": "US"
     },
     {
+      "ticker": "S",
+      "name": "SentinelOne",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "S",
-      "name": "SentinelOne",
-      "score": 68,
-      "market": "US"
     },
     {
       "ticker": "BME.L",
@@ -269,22 +269,10 @@
   ],
   "topSmallCap": [
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 73,
-      "market": "US"
-    },
-    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
       "score": 73,
       "market": "UK"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 71,
-      "market": "US"
     },
     {
       "ticker": "RPI.L",
@@ -327,9 +315,21 @@
       "name": "Dr. Martens",
       "score": 61,
       "market": "UK"
+    },
+    {
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "CKN.L",
+      "name": "Chemring Group",
+      "score": 61,
+      "market": "UK"
     }
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 258
+  "bearishAlertCount": 255
 }
