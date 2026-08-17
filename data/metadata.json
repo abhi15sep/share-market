@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-17T08:02:41.366Z",
+  "lastUpdated": "2026-08-17T08:50:02.958Z",
   "stockCount": 860,
-  "bearishAlerts": 250,
-  "newsCount": 765,
+  "bearishAlerts": 254,
+  "newsCount": 670,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
@@ -16,30 +16,30 @@
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10781.53,
-      "sma50": 10596.07,
-      "sma200": 10270.17,
-      "changeFromHigh": -1.18,
+      "price": 10761.68,
+      "sma50": 10617.06,
+      "sma200": 10284.86,
+      "changeFromHigh": -1.36,
       "distributionDays": 3,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "in": {
       "index": "Nifty 50",
-      "price": 24353.25,
-      "sma50": 24103.83,
-      "sma200": 24728.06,
-      "changeFromHigh": -7.5,
+      "price": 24341.95,
+      "sma50": 24103.61,
+      "sma200": 24728,
+      "changeFromHigh": -7.55,
       "distributionDays": 2,
       "regime": "correction",
       "signal": "Price below SMA200 — trend weakening"
     },
     "eu": {
       "index": "DAX 40",
-      "price": 26460.44,
-      "sma50": 25280.48,
-      "sma200": 24494.31,
-      "changeFromHigh": 0,
+      "price": 26411.95,
+      "sma50": 25309.03,
+      "sma200": 24509.49,
+      "changeFromHigh": -0.11,
       "distributionDays": 3,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
@@ -47,12 +47,12 @@
     "asia": {
       "index": "Nikkei 225",
       "price": 69220.25,
-      "sma50": 67380.18,
-      "sma200": 57646.89,
+      "sma50": 67262.23,
+      "sma200": 57905.21,
       "changeFromHigh": -4.35,
-      "distributionDays": 6,
-      "regime": "correction",
-      "signal": "6 distribution days in 25 sessions — selling pressure"
+      "distributionDays": 5,
+      "regime": "bull",
+      "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "overall": "correction",
     "summary": "Markets showing weakness. Be selective, reduce position sizes, and tighten stops."
