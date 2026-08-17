@@ -1,8 +1,22 @@
 {
   "topOverall": [
     {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "HPQ",
       "name": "HP Inc",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EXPE",
+      "name": "Expedia",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -15,32 +29,11 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EXPE",
-      "name": "Expedia",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "SCT.L",
@@ -57,6 +50,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 71,
@@ -64,14 +64,21 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "PSX",
-      "name": "Phillips 66",
+      "ticker": "TGT",
+      "name": "Target",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 21,
+      "market": "FR",
+      "capCategory": "Small"
+    },
     {
       "ticker": "SNPS",
       "name": "Synopsys",
@@ -87,39 +94,18 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
       "score": 25,
       "market": "DE",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "FMC",
-      "name": "FMC Corp",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "ALB",
-      "name": "Albemarle",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 26,
-      "market": "FR",
-      "capCategory": "Small"
     },
     {
       "ticker": "HUBS",
@@ -136,11 +122,25 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TATACONSUM.NS",
-      "name": "Tata Consumer Products",
+      "ticker": "ALB",
+      "name": "Albemarle",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SBILIFE.NS",
+      "name": "SBI Life Insurance",
       "score": 28,
       "market": "IN",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "BRBY.L",
+      "name": "Burberry",
+      "score": 28,
+      "market": "UK",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -151,15 +151,9 @@
       "market": "US"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "EXPE",
       "name": "Expedia",
-      "score": 72,
+      "score": 73,
       "market": "US"
     },
     {
@@ -175,14 +169,20 @@
       "market": "US"
     },
     {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "PSX",
-      "name": "Phillips 66",
+      "ticker": "TGT",
+      "name": "Target",
       "score": 70,
       "market": "US"
     },
@@ -193,14 +193,14 @@
       "market": "US"
     },
     {
-      "ticker": "TGT",
-      "name": "Target",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
+      "ticker": "SNDK",
+      "name": "SanDisk",
       "score": 69,
       "market": "US"
     }
@@ -209,7 +209,7 @@
     {
       "ticker": "RELY",
       "name": "Remitly Global",
-      "score": 72,
+      "score": 74,
       "market": "US"
     },
     {
@@ -231,8 +231,26 @@
       "market": "UK"
     },
     {
+      "ticker": "GTLB",
+      "name": "GitLab",
+      "score": 67,
+      "market": "US"
+    },
+    {
       "ticker": "S",
       "name": "SentinelOne",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "QLYS",
+      "name": "Qualys",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 67,
       "market": "US"
     },
@@ -243,28 +261,10 @@
       "market": "US"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 66,
-      "market": "US"
-    },
-    {
       "ticker": "BNZL.L",
       "name": "Bunzl",
       "score": 66,
       "market": "UK"
-    },
-    {
-      "ticker": "INVP.L",
-      "name": "Investec",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 64,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 860,
   "avgScore": 51,
-  "bearishAlertCount": 261
+  "bearishAlertCount": 262
 }
