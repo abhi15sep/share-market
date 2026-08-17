@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T12:50:21.607Z",
+  "updatedAt": "2026-08-17T13:46:28.229Z",
   "picks": [
     {
       "id": "stocktwits:AAPL:2026-08-17:trending",
@@ -66,6 +66,22 @@
       "fetchedAt": "2026-08-17T12:49:20.508Z"
     },
     {
+      "id": "apewisdom:AAPL:2026-08-17:rank28",
+      "ticker": "AAPL",
+      "name": "Apple",
+      "market": "US",
+      "source": "ApeWisdom (Reddit)",
+      "sourceUrl": "https://apewisdom.io",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Reddit buzz: 11 mentions, 23 upvotes · #28 (was #37) · trending up",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
+    },
+    {
       "id": "apewisdom:AM:2026-08-17:rank28",
       "ticker": "AM",
       "name": "Antero Midstream",
@@ -96,6 +112,22 @@
       "upside": null,
       "headline": "Reddit buzz: 12 mentions, 39 upvotes · #23 (was #49) · trending up",
       "fetchedAt": "2026-08-17T12:49:20.508Z"
+    },
+    {
+      "id": "apewisdom:AM:2026-08-17:rank26",
+      "ticker": "AM",
+      "name": "Antero Midstream",
+      "market": "US",
+      "source": "ApeWisdom (Reddit)",
+      "sourceUrl": "https://apewisdom.io",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Reddit buzz: 12 mentions, 41 upvotes · #26 (was #50) · trending up",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
     },
     {
       "id": "stocktwits:AMD:2026-08-17:trending",
@@ -178,6 +210,22 @@
       "fetchedAt": "2026-08-17T12:49:20.508Z"
     },
     {
+      "id": "apewisdom:AMD:2026-08-17:rank9",
+      "ticker": "AMD",
+      "name": "AMD",
+      "market": "US",
+      "source": "ApeWisdom (Reddit)",
+      "sourceUrl": "https://apewisdom.io",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Reddit buzz: 36 mentions, 82 upvotes · #9 (was #19) · trending up",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
+    },
+    {
       "id": "stocktwits:AMGN:2026-08-17:trending",
       "ticker": "AMGN",
       "name": "AMGEN Inc.",
@@ -192,6 +240,22 @@
       "upside": null,
       "headline": "Trending on StockTwits — 14,886 watchlists",
       "fetchedAt": "2026-08-17T12:49:20.314Z"
+    },
+    {
+      "id": "apewisdom:AMZN:2026-08-17:rank30",
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "market": "US",
+      "source": "ApeWisdom (Reddit)",
+      "sourceUrl": "https://apewisdom.io",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Reddit buzz: 10 mentions, 28 upvotes · #30 (was #27)",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
     },
     {
       "id": "stocktwits:APP:2026-08-17:trending",
@@ -274,6 +338,22 @@
       "fetchedAt": "2026-08-17T11:31:01.618Z"
     },
     {
+      "id": "apewisdom:ASTS:2026-08-17:rank17",
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "market": "US",
+      "source": "ApeWisdom (Reddit)",
+      "sourceUrl": "https://apewisdom.io",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Reddit buzz: 18 mentions, 43 upvotes · #17 (was #14)",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
+    },
+    {
       "id": "stocktwits:AVGO:2026-08-17:trending",
       "ticker": "AVGO",
       "name": "Broadcom Inc",
@@ -286,8 +366,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 71,527 watchlists",
-      "fetchedAt": "2026-08-17T12:49:20.314Z"
+      "headline": "Trending on StockTwits — 71,541 watchlists",
+      "fetchedAt": "2026-08-17T13:45:22.336Z"
     },
     {
       "id": "apewisdom:AVGO:2026-08-17:rank29",
@@ -370,6 +450,38 @@
       "fetchedAt": "2026-08-17T10:38:19.731Z"
     },
     {
+      "id": "stocktwits:DASH:2026-08-17:trending",
+      "ticker": "DASH",
+      "name": "DoorDash Inc - Ordinary Shares - Class A",
+      "market": "US",
+      "source": "StockTwits",
+      "sourceUrl": "https://stocktwits.com/symbol/DASH",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Trending on StockTwits — 18,533 watchlists",
+      "fetchedAt": "2026-08-17T13:45:22.336Z"
+    },
+    {
+      "id": "stocktwits:DJT:2026-08-17:trending",
+      "ticker": "DJT",
+      "name": "Trump Media & Technology Group Corp.",
+      "market": "US",
+      "source": "StockTwits",
+      "sourceUrl": "https://stocktwits.com/symbol/DJT",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Trending on StockTwits — 115,522 watchlists",
+      "fetchedAt": "2026-08-17T13:45:22.336Z"
+    },
+    {
       "id": "stocktwits:FSLR:2026-08-17:trending",
       "ticker": "FSLR",
       "name": "First Solar Inc",
@@ -450,6 +562,22 @@
       "fetchedAt": "2026-08-17T12:49:20.508Z"
     },
     {
+      "id": "apewisdom:GOOGL:2026-08-17:rank20",
+      "ticker": "GOOGL",
+      "name": "Alphabet (Google)",
+      "market": "US",
+      "source": "ApeWisdom (Reddit)",
+      "sourceUrl": "https://apewisdom.io",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Reddit buzz: 16 mentions, 66 upvotes · #20 (was #43) · trending up",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
+    },
+    {
       "id": "marketbeat:HBAN:2026-08-17:WellsFargoCompanyInitiated",
       "ticker": "HBAN",
       "name": "Huntington Bancshares",
@@ -463,7 +591,7 @@
       "priceTarget": 23,
       "upside": null,
       "headline": "Wells Fargo & Company — Initiated by · Target $23",
-      "fetchedAt": "2026-08-17T12:49:20.467Z"
+      "fetchedAt": "2026-08-17T13:45:28.594Z"
     },
     {
       "id": "stocktwits:JOBY:2026-08-17:trending",
@@ -514,6 +642,70 @@
       "fetchedAt": "2026-08-17T07:59:51.916Z"
     },
     {
+      "id": "stocktwits:LUNR:2026-08-17:trending",
+      "ticker": "LUNR",
+      "name": "Intuitive Machines Inc",
+      "market": "US",
+      "source": "StockTwits",
+      "sourceUrl": "https://stocktwits.com/symbol/LUNR",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Trending on StockTwits — 38,900 watchlists",
+      "fetchedAt": "2026-08-17T13:45:22.336Z"
+    },
+    {
+      "id": "apewisdom:META:2026-08-17:rank24",
+      "ticker": "META",
+      "name": "Meta Platforms (Facebook)",
+      "market": "US",
+      "source": "ApeWisdom (Reddit)",
+      "sourceUrl": "https://apewisdom.io",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Reddit buzz: 13 mentions, 31 upvotes · #24 (was #77) · trending up",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
+    },
+    {
+      "id": "stocktwits:MRK:2026-08-17:trending",
+      "ticker": "MRK",
+      "name": "Merck & Co Inc",
+      "market": "US",
+      "source": "StockTwits",
+      "sourceUrl": "https://stocktwits.com/symbol/MRK",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Trending on StockTwits — 26,036 watchlists",
+      "fetchedAt": "2026-08-17T13:45:22.336Z"
+    },
+    {
+      "id": "apewisdom:MRVL:2026-08-17:rank32",
+      "ticker": "MRVL",
+      "name": "Marvell Technology Group",
+      "market": "US",
+      "source": "ApeWisdom (Reddit)",
+      "sourceUrl": "https://apewisdom.io",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Reddit buzz: 10 mentions, 24 upvotes · #32 (was #268) · trending up",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
+    },
+    {
       "id": "apewisdom:MSFT:2026-08-17:rank16",
       "ticker": "MSFT",
       "name": "Microsoft",
@@ -542,8 +734,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Reddit buzz: 17 mentions, 30 upvotes · #15 (was #11)",
-      "fetchedAt": "2026-08-17T10:38:19.695Z"
+      "headline": "Reddit buzz: 23 mentions, 49 upvotes · #15 (was #13)",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
     },
     {
       "id": "apewisdom:MSFT:2026-08-17:rank14",
@@ -642,6 +834,22 @@
       "fetchedAt": "2026-08-17T12:49:20.508Z"
     },
     {
+      "id": "stocktwits:MSTR:2026-08-17:trending",
+      "ticker": "MSTR",
+      "name": "Strategy",
+      "market": "US",
+      "source": "StockTwits",
+      "sourceUrl": "https://stocktwits.com/symbol/MSTR",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Trending on StockTwits — 81,564 watchlists",
+      "fetchedAt": "2026-08-17T13:45:22.336Z"
+    },
+    {
       "id": "stocktwits:MU:2026-08-17:trending",
       "ticker": "MU",
       "name": "Micron Technology Inc",
@@ -670,8 +878,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Reddit buzz: 155 mentions, 1,541 upvotes · #2 (was #3)",
-      "fetchedAt": "2026-08-17T12:49:20.508Z"
+      "headline": "Reddit buzz: 170 mentions, 1,635 upvotes · #2 (was #3)",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
     },
     {
       "id": "apewisdom:MU:2026-08-17:rank1",
@@ -734,8 +942,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Reddit buzz: 18 mentions, 58 upvotes · #16 (was #38) · trending up",
-      "fetchedAt": "2026-08-17T12:49:20.508Z"
+      "headline": "Reddit buzz: 18 mentions, 59 upvotes · #16 (was #38) · trending up",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
     },
     {
       "id": "apewisdom:NOW:2026-08-17:rank26",
@@ -786,6 +994,22 @@
       "fetchedAt": "2026-08-17T12:49:20.508Z"
     },
     {
+      "id": "apewisdom:NOW:2026-08-17:rank22",
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "market": "US",
+      "source": "ApeWisdom (Reddit)",
+      "sourceUrl": "https://apewisdom.io",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Reddit buzz: 13 mentions, 18 upvotes · #22 (was #33) · trending up",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
+    },
+    {
       "id": "stocktwits:NU:2026-08-17:trending",
       "ticker": "NU",
       "name": "Nu Holdings Ltd",
@@ -814,8 +1038,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Reddit buzz: 84 mentions, 999 upvotes · #4 (was #2)",
-      "fetchedAt": "2026-08-17T12:49:20.508Z"
+      "headline": "Reddit buzz: 87 mentions, 1,065 upvotes · #4 (was #2)",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
     },
     {
       "id": "stocktwits:NVDA:2026-08-17:trending",
@@ -847,7 +1071,7 @@
       "priceTarget": 180,
       "upside": null,
       "headline": "Wells Fargo & Company — Upgraded by · Target $180",
-      "fetchedAt": "2026-08-17T12:49:20.416Z"
+      "fetchedAt": "2026-08-17T13:45:28.548Z"
     },
     {
       "id": "stocktwits:OXY:2026-08-17:trending",
@@ -894,8 +1118,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 88,414 watchlists",
-      "fetchedAt": "2026-08-17T12:49:20.314Z"
+      "headline": "Trending on StockTwits — 88,415 watchlists",
+      "fetchedAt": "2026-08-17T13:45:22.336Z"
     },
     {
       "id": "apewisdom:RKLB:2026-08-17:rank19",
@@ -946,6 +1170,38 @@
       "fetchedAt": "2026-08-17T11:31:01.618Z"
     },
     {
+      "id": "apewisdom:RKLB:2026-08-17:rank18",
+      "ticker": "RKLB",
+      "name": "Rocket Lab USA",
+      "market": "US",
+      "source": "ApeWisdom (Reddit)",
+      "sourceUrl": "https://apewisdom.io",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Reddit buzz: 18 mentions, 41 upvotes · #18 (was #24) · trending up",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
+    },
+    {
+      "id": "stocktwits:RTX:2026-08-17:trending",
+      "ticker": "RTX",
+      "name": "Raytheon Technologies Corporation",
+      "market": "US",
+      "source": "StockTwits",
+      "sourceUrl": "https://stocktwits.com/symbol/RTX",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Trending on StockTwits — 24,256 watchlists",
+      "fetchedAt": "2026-08-17T13:45:22.336Z"
+    },
+    {
       "id": "stocktwits:RVMD:2026-08-17:trending",
       "ticker": "RVMD",
       "name": "Revolution Medicines Inc",
@@ -975,7 +1231,7 @@
       "priceTarget": null,
       "upside": null,
       "headline": "Trending on StockTwits — 31,782 watchlists",
-      "fetchedAt": "2026-08-17T12:49:20.314Z"
+      "fetchedAt": "2026-08-17T13:45:22.336Z"
     },
     {
       "id": "apewisdom:SMCI:2026-08-17:rank33",
@@ -994,6 +1250,22 @@
       "fetchedAt": "2026-08-17T12:49:20.508Z"
     },
     {
+      "id": "apewisdom:SMCI:2026-08-17:rank21",
+      "ticker": "SMCI",
+      "name": "Supermicro",
+      "market": "US",
+      "source": "ApeWisdom (Reddit)",
+      "sourceUrl": "https://apewisdom.io",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Reddit buzz: 14 mentions, 109 upvotes · #21 (was #86) · trending up",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
+    },
+    {
       "id": "stocktwits:SNAP:2026-08-17:trending",
       "ticker": "SNAP",
       "name": "Snap Inc",
@@ -1006,8 +1278,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Trending on StockTwits — 234,279 watchlists",
-      "fetchedAt": "2026-08-17T12:49:20.314Z"
+      "headline": "Trending on StockTwits — 234,296 watchlists",
+      "fetchedAt": "2026-08-17T13:45:22.336Z"
     },
     {
       "id": "apewisdom:SNAP:2026-08-17:rank34",
@@ -1024,6 +1296,22 @@
       "upside": null,
       "headline": "Reddit buzz: 10 mentions, 23 upvotes · #34 (was #352) · trending up",
       "fetchedAt": "2026-08-17T12:49:20.508Z"
+    },
+    {
+      "id": "apewisdom:SNAP:2026-08-17:rank33",
+      "ticker": "SNAP",
+      "name": "Snap",
+      "market": "US",
+      "source": "ApeWisdom (Reddit)",
+      "sourceUrl": "https://apewisdom.io",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Reddit buzz: 10 mentions, 22 upvotes · #33 (was #344) · trending up",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
     },
     {
       "id": "stocktwits:SNDK:2026-08-17:trending",
@@ -1054,8 +1342,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Reddit buzz: 160 mentions, 683 upvotes · #1 (was #9) · trending up",
-      "fetchedAt": "2026-08-17T12:49:20.508Z"
+      "headline": "Reddit buzz: 178 mentions, 727 upvotes · #1 (was #9) · trending up",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
     },
     {
       "id": "apewisdom:SNDK:2026-08-17:rank2",
@@ -1103,7 +1391,7 @@
       "priceTarget": 22,
       "upside": null,
       "headline": "Piper Sandler — Initiated by · Target $22",
-      "fetchedAt": "2026-08-17T12:49:20.467Z"
+      "fetchedAt": "2026-08-17T13:45:28.594Z"
     },
     {
       "id": "stocktwits:SOUN:2026-08-17:trending",
@@ -1136,6 +1424,22 @@
       "upside": null,
       "headline": "Trending on StockTwits — 26,670 watchlists",
       "fetchedAt": "2026-08-17T08:49:00.839Z"
+    },
+    {
+      "id": "stocktwits:TGT:2026-08-17:trending",
+      "ticker": "TGT",
+      "name": "Target Corp",
+      "market": "US",
+      "source": "StockTwits",
+      "sourceUrl": "https://stocktwits.com/symbol/TGT",
+      "sourceType": "community",
+      "date": "2026-08-17",
+      "callType": "Watch",
+      "analyst": null,
+      "priceTarget": null,
+      "upside": null,
+      "headline": "Trending on StockTwits — 50,062 watchlists",
+      "fetchedAt": "2026-08-17T13:45:22.336Z"
     },
     {
       "id": "apewisdom:TSLA:2026-08-17:rank17",
@@ -1182,8 +1486,8 @@
       "analyst": null,
       "priceTarget": null,
       "upside": null,
-      "headline": "Reddit buzz: 15 mentions, 40 upvotes · #19 (was #10) · fading",
-      "fetchedAt": "2026-08-17T12:49:20.508Z"
+      "headline": "Reddit buzz: 16 mentions, 47 upvotes · #19 (was #10) · fading",
+      "fetchedAt": "2026-08-17T13:45:21.436Z"
     },
     {
       "id": "apewisdom:TSLA:2026-08-17:rank18",
