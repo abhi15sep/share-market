@@ -1,13 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 73,
@@ -15,18 +8,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 73,
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 72,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "EZJ.L",
@@ -36,8 +22,29 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "STT",
       "name": "State Street",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -57,15 +64,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
+      "ticker": "BAC",
+      "name": "Bank of America",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -73,16 +73,37 @@
   ],
   "bottomOverall": [
     {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 19,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "FMC",
+      "name": "FMC Corp",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
-      "score": 23,
+      "score": 24,
       "market": "DE",
       "capCategory": "Mid"
     },
     {
       "ticker": "TTD",
       "name": "Trade Desk",
-      "score": 23,
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -92,13 +113,6 @@
       "score": 25,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "BRBY.L",
@@ -115,13 +129,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "TSLA",
       "name": "Tesla",
       "score": 26,
@@ -129,17 +136,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TATACONSUM.NS",
-      "name": "Tata Consumer Products",
-      "score": 28,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SBILIFE.NS",
-      "name": "SBI Life Insurance",
-      "score": 28,
-      "market": "IN",
+      "ticker": "APP",
+      "name": "AppLovin",
+      "score": 27,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -151,20 +151,26 @@
       "market": "US"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 73,
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "STT",
       "name": "State Street",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 71,
       "market": "US"
     },
@@ -175,26 +181,20 @@
       "market": "US"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "BAC",
       "name": "Bank of America",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
       "score": 69,
       "market": "US"
     },
@@ -209,7 +209,7 @@
     {
       "ticker": "RELY",
       "name": "Remitly Global",
-      "score": 74,
+      "score": 72,
       "market": "US"
     },
     {
@@ -225,10 +225,10 @@
       "market": "UK"
     },
     {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
+      "ticker": "BME.L",
+      "name": "B&M European",
       "score": 67,
-      "market": "US"
+      "market": "UK"
     },
     {
       "ticker": "OGN",
@@ -237,8 +237,8 @@
       "market": "US"
     },
     {
-      "ticker": "QLYS",
-      "name": "Qualys",
+      "ticker": "S",
+      "name": "SentinelOne",
       "score": 66,
       "market": "US"
     },
@@ -249,21 +249,21 @@
       "market": "US"
     },
     {
-      "ticker": "S",
-      "name": "SentinelOne",
-      "score": 65,
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
+      "score": 64,
       "market": "US"
+    },
+    {
+      "ticker": "INVP.L",
+      "name": "Investec",
+      "score": 64,
+      "market": "UK"
     },
     {
       "ticker": "LYFT",
       "name": "Lyft",
-      "score": 64,
-      "market": "US"
-    },
-    {
-      "ticker": "VRNS",
-      "name": "Varonis Systems",
-      "score": 64,
+      "score": 63,
       "market": "US"
     }
   ],
@@ -271,7 +271,7 @@
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 69,
+      "score": 70,
       "market": "UK"
     },
     {
@@ -323,13 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 59,
+      "ticker": "KNOS.L",
+      "name": "Kainos Group",
+      "score": 60,
       "market": "UK"
     }
   ],
   "totalStocks": 860,
-  "avgScore": 51,
-  "bearishAlertCount": 260
+  "avgScore": 50,
+  "bearishAlertCount": 265
 }
