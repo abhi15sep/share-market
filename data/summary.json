@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "RVMD",
       "name": "Revolution Medicines",
       "score": 74,
@@ -20,13 +27,6 @@
       "score": 73,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "MU",
@@ -57,28 +57,21 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "SNDK",
-      "name": "SanDisk",
-      "score": 70,
-      "market": "US",
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 71,
+      "market": "FR",
       "capCategory": "Large"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "SNDK",
+      "name": "SanDisk",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "PAH3.DE",
-      "name": "Porsche Auto Holding",
-      "score": 23,
-      "market": "DE",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "SNPS",
       "name": "Synopsys",
@@ -92,6 +85,13 @@
       "score": 25,
       "market": "FR",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "PAH3.DE",
+      "name": "Porsche Auto Holding",
+      "score": 25,
+      "market": "DE",
+      "capCategory": "Mid"
     },
     {
       "ticker": "FMC",
@@ -122,18 +122,18 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "TTD",
+      "name": "Trade Desk",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "TATACONSUM.NS",
       "name": "Tata Consumer Products",
       "score": 28,
       "market": "IN",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "TTD",
-      "name": "Trade Desk",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "FDM.L",
@@ -181,6 +181,12 @@
       "market": "US"
     },
     {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 71,
+      "market": "FR"
+    },
+    {
       "ticker": "SNDK",
       "name": "SanDisk",
       "score": 70,
@@ -197,19 +203,13 @@
       "name": "Marathon Petroleum",
       "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "NUE",
-      "name": "Nucor",
-      "score": 69,
-      "market": "US"
     }
   ],
   "topMidCap": [
     {
       "ticker": "RELY",
       "name": "Remitly Global",
-      "score": 73,
+      "score": 75,
       "market": "US"
     },
     {
@@ -217,12 +217,6 @@
       "name": "Softcat",
       "score": 72,
       "market": "UK"
-    },
-    {
-      "ticker": "OZK",
-      "name": "Bank OZK",
-      "score": 70,
-      "market": "US"
     },
     {
       "ticker": "OGN",
@@ -237,21 +231,27 @@
       "market": "UK"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 67,
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 66,
       "market": "US"
     },
     {
       "ticker": "NWL",
       "name": "Newell Brands",
-      "score": 67,
+      "score": 66,
       "market": "US"
     },
     {
@@ -269,51 +269,39 @@
   ],
   "topSmallCap": [
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 68,
-      "market": "FR"
-    },
-    {
       "ticker": "KNOS.L",
       "name": "Kainos Group",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "DOCS.L",
+      "name": "Dr. Martens",
       "score": 66,
       "market": "UK"
     },
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 65,
+      "score": 66,
       "market": "UK"
     },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "ALV.DE",
-      "name": "Allianz",
-      "score": 64,
-      "market": "DE"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 63,
+      "score": 66,
       "market": "UK"
     },
     {
       "ticker": "SFOR.L",
       "name": "S4 Capital",
-      "score": 63,
+      "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "DOCS.L",
-      "name": "Dr. Martens",
-      "score": 61,
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 63,
       "market": "UK"
     },
     {
@@ -327,9 +315,21 @@
       "name": "J D Wetherspoon",
       "score": 60,
       "market": "UK"
+    },
+    {
+      "ticker": "RWS.L",
+      "name": "RWS Holdings",
+      "score": 60,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 60,
+      "market": "FR"
     }
   ],
-  "totalStocks": 859,
+  "totalStocks": 860,
   "avgScore": 51,
-  "bearishAlertCount": 267
+  "bearishAlertCount": 268
 }
