@@ -1,23 +1,16 @@
 {
   "topOverall": [
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BAC",
-      "name": "Bank of America",
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
       "score": 74,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 74,
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
@@ -29,18 +22,18 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "MU",
       "name": "Micron",
       "score": 72,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Small"
     },
     {
       "ticker": "PSX",
@@ -57,41 +50,48 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 71,
+      "ticker": "SNDK",
+      "name": "SanDisk",
+      "score": 70,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 19,
-      "market": "FR",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "PAH3.DE",
-      "name": "Porsche Auto Holding",
-      "score": 23,
-      "market": "DE",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "SNPS",
       "name": "Synopsys",
       "score": 24,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 25,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "PAH3.DE",
+      "name": "Porsche Auto Holding",
+      "score": 26,
+      "market": "DE",
+      "capCategory": "Mid"
     },
     {
       "ticker": "BRBY.L",
@@ -115,6 +115,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "SBILIFE.NS",
+      "name": "SBI Life Insurance",
+      "score": 27,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "QS",
       "name": "QuantumScape",
       "score": 27,
@@ -134,26 +141,19 @@
       "score": 28,
       "market": "IN",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "SBILIFE.NS",
-      "name": "SBI Life Insurance",
-      "score": 28,
-      "market": "IN",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
       "score": 74,
       "market": "US"
     },
     {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
-      "score": 74,
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 73,
       "market": "US"
     },
     {
@@ -163,26 +163,14 @@
       "market": "US"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "PSX",
       "name": "Phillips 66",
       "score": 72,
       "market": "US"
     },
     {
-      "ticker": "ZION",
-      "name": "Zions Bancorporation",
+      "ticker": "STT",
+      "name": "State Street",
       "score": 71,
       "market": "US"
     },
@@ -203,13 +191,25 @@
       "name": "Marathon Petroleum",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "CFG",
+      "name": "Citizens Financial",
+      "score": 69,
+      "market": "US"
     }
   ],
   "topMidCap": [
     {
       "ticker": "RELY",
       "name": "Remitly Global",
-      "score": 75,
+      "score": 73,
       "market": "US"
     },
     {
@@ -219,40 +219,34 @@
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 71,
-      "market": "US"
-    },
-    {
       "ticker": "SCT.L",
       "name": "Softcat",
-      "score": 71,
+      "score": 72,
       "market": "UK"
-    },
-    {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
-      "score": 68,
-      "market": "US"
     },
     {
       "ticker": "OZK",
       "name": "Bank OZK",
-      "score": 68,
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 67,
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 69,
       "market": "US"
     },
     {
       "ticker": "BNZL.L",
       "name": "Bunzl",
-      "score": 67,
+      "score": 68,
       "market": "UK"
+    },
+    {
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
+      "score": 67,
+      "market": "US"
     },
     {
       "ticker": "CROX",
@@ -265,71 +259,77 @@
       "name": "Newell Brands",
       "score": 66,
       "market": "US"
+    },
+    {
+      "ticker": "LYFT",
+      "name": "Lyft",
+      "score": 65,
+      "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 67,
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 66,
+      "market": "FR"
+    },
+    {
+      "ticker": "KNOS.L",
+      "name": "Kainos Group",
+      "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 63,
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 65,
       "market": "UK"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "score": 62,
+      "market": "US"
+    },
+    {
+      "ticker": "HRL",
+      "name": "Hormel Foods",
+      "score": 62,
+      "market": "US"
+    },
+    {
+      "ticker": "ALV.DE",
+      "name": "Allianz",
+      "score": 62,
+      "market": "DE"
     },
     {
       "ticker": "ML.PA",
       "name": "Michelin",
       "score": 62,
       "market": "FR"
-    },
-    {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "KNOS.L",
-      "name": "Kainos Group",
-      "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
-      "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 58,
-      "market": "UK"
     }
   ],
-  "totalStocks": 860,
+  "totalStocks": 859,
   "avgScore": 51,
-  "bearishAlertCount": 256
+  "bearishAlertCount": 261
 }
