@@ -33,7 +33,7 @@
       "name": "Micron",
       "score": 72,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
     },
     {
       "ticker": "PSX",
@@ -41,13 +41,6 @@
       "score": 72,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
     },
     {
       "ticker": "SCT.L",
@@ -69,9 +62,23 @@
       "score": 70,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
+    {
+      "ticker": "PAH3.DE",
+      "name": "Porsche Auto Holding",
+      "score": 23,
+      "market": "DE",
+      "capCategory": "Mid"
+    },
     {
       "ticker": "SNPS",
       "name": "Synopsys",
@@ -87,32 +94,11 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "PAH3.DE",
-      "name": "Porsche Auto Holding",
-      "score": 26,
-      "market": "DE",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
-      "score": 26,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "FMC",
       "name": "FMC Corp",
       "score": 26,
       "market": "US",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "TTD",
-      "name": "Trade Desk",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "SBILIFE.NS",
@@ -141,6 +127,20 @@
       "score": 28,
       "market": "IN",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "TTD",
+      "name": "Trade Desk",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "FDM.L",
+      "name": "FDM Group",
+      "score": 29,
+      "market": "UK",
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
@@ -160,6 +160,12 @@
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 72,
       "market": "US"
     },
     {
@@ -197,12 +203,6 @@
       "name": "Nucor",
       "score": 69,
       "market": "US"
-    },
-    {
-      "ticker": "CFG",
-      "name": "Citizens Financial",
-      "score": 69,
-      "market": "US"
     }
   ],
   "topMidCap": [
@@ -211,12 +211,6 @@
       "name": "Remitly Global",
       "score": 73,
       "market": "US"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 72,
-      "market": "UK"
     },
     {
       "ticker": "SCT.L",
@@ -237,10 +231,16 @@
       "market": "US"
     },
     {
-      "ticker": "BNZL.L",
-      "name": "Bunzl",
-      "score": 68,
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 69,
       "market": "UK"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "score": 68,
+      "market": "US"
     },
     {
       "ticker": "FNB",
@@ -249,15 +249,9 @@
       "market": "US"
     },
     {
-      "ticker": "CROX",
-      "name": "Crocs",
-      "score": 66,
-      "market": "US"
-    },
-    {
       "ticker": "NWL",
       "name": "Newell Brands",
-      "score": 66,
+      "score": 67,
       "market": "US"
     },
     {
@@ -265,30 +259,30 @@
       "name": "Lyft",
       "score": 65,
       "market": "US"
+    },
+    {
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 65,
+      "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 66,
-      "market": "US"
-    },
-    {
       "ticker": "PUB.PA",
       "name": "Publicis",
-      "score": 66,
+      "score": 68,
       "market": "FR"
     },
     {
       "ticker": "KNOS.L",
       "name": "Kainos Group",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
       "score": 65,
       "market": "UK"
     },
@@ -299,37 +293,43 @@
       "market": "UK"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 62,
-      "market": "US"
-    },
-    {
-      "ticker": "HRL",
-      "name": "Hormel Foods",
-      "score": 62,
-      "market": "US"
-    },
-    {
       "ticker": "ALV.DE",
       "name": "Allianz",
-      "score": 62,
+      "score": 64,
       "market": "DE"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 62,
-      "market": "FR"
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "DOCS.L",
+      "name": "Dr. Martens",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 60,
+      "market": "UK"
+    },
+    {
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 60,
+      "market": "UK"
     }
   ],
   "totalStocks": 859,
   "avgScore": 51,
-  "bearishAlertCount": 261
+  "bearishAlertCount": 267
 }
