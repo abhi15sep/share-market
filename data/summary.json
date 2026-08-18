@@ -22,16 +22,9 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 74,
+      "score": 75,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -41,6 +34,20 @@
       "score": 74,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "PSX",
@@ -62,13 +69,6 @@
       "score": 72,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -87,16 +87,9 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "FMC",
       "name": "FMC Corp",
-      "score": 25,
+      "score": 24,
       "market": "US",
       "capCategory": "Small"
     },
@@ -129,11 +122,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
+      "ticker": "SNPS",
+      "name": "Synopsys",
       "score": 27,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "OPEN",
@@ -159,7 +159,13 @@
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 75,
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 72,
       "market": "US"
     },
     {
@@ -172,18 +178,6 @@
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "U",
-      "name": "Unity Software",
-      "score": 71,
       "market": "US"
     },
     {
@@ -203,13 +197,19 @@
       "name": "Snowflake",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "U",
+      "name": "Unity Software",
+      "score": 70,
+      "market": "US"
     }
   ],
   "topMidCap": [
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 74,
+      "score": 75,
       "market": "US"
     },
     {
@@ -233,18 +233,12 @@
     {
       "ticker": "S",
       "name": "SentinelOne",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "BRZE",
       "name": "Braze",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "QLYS",
-      "name": "Qualys",
       "score": 69,
       "market": "US"
     },
@@ -255,16 +249,22 @@
       "market": "UK"
     },
     {
-      "ticker": "PATH",
-      "name": "UiPath",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "FNB",
       "name": "F.N.B. Corp",
       "score": 68,
       "market": "US"
+    },
+    {
+      "ticker": "QLYS",
+      "name": "Qualys",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "BEZ.L",
+      "name": "Beazley",
+      "score": 68,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -279,6 +279,12 @@
       "name": "Kainos Group",
       "score": 71,
       "market": "UK"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 70,
+      "market": "FR"
     },
     {
       "ticker": "SFOR.L",
@@ -305,6 +311,12 @@
       "market": "UK"
     },
     {
+      "ticker": "ALV.DE",
+      "name": "Allianz",
+      "score": 64,
+      "market": "DE"
+    },
+    {
       "ticker": "MONY.L",
       "name": "Moneysupermarket.com",
       "score": 63,
@@ -315,21 +327,9 @@
       "name": "Senior plc",
       "score": 62,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 62,
-      "market": "FR"
-    },
-    {
-      "ticker": "RPD",
-      "name": "Rapid7",
-      "score": 61,
-      "market": "US"
     }
   ],
-  "totalStocks": 860,
+  "totalStocks": 859,
   "avgScore": 52,
-  "bearishAlertCount": 265
+  "bearishAlertCount": 263
 }
