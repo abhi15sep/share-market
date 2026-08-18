@@ -15,8 +15,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "EXPE",
-      "name": "Expedia",
+      "ticker": "SNOW",
+      "name": "Snowflake",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -27,13 +27,6 @@
       "score": 72,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "STT",
@@ -64,14 +57,28 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 71,
-      "market": "FR",
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 70,
+      "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
+    {
+      "ticker": "TTD",
+      "name": "Trade Desk",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Mid"
+    },
     {
       "ticker": "SNPS",
       "name": "Synopsys",
@@ -94,25 +101,18 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "TTD",
-      "name": "Trade Desk",
-      "score": 24,
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 25,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "VIV.PA",
       "name": "Vivendi",
-      "score": 25,
+      "score": 26,
       "market": "FR",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "LI",
@@ -129,17 +129,17 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "SBILIFE.NS",
       "name": "SBI Life Insurance",
       "score": 27,
       "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ALB",
-      "name": "Albemarle",
-      "score": 27,
-      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -151,15 +151,9 @@
       "market": "US"
     },
     {
-      "ticker": "EXPE",
-      "name": "Expedia",
+      "ticker": "SNOW",
+      "name": "Snowflake",
       "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 71,
       "market": "US"
     },
     {
@@ -187,22 +181,28 @@
       "market": "US"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 71,
-      "market": "FR"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "PSX",
       "name": "Phillips 66",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 69,
       "market": "US"
+    },
+    {
+      "ticker": "EXPE",
+      "name": "Expedia",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "score": 69,
+      "market": "JP"
     }
   ],
   "topMidCap": [
@@ -225,6 +225,12 @@
       "market": "US"
     },
     {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 69,
@@ -237,22 +243,16 @@
       "market": "US"
     },
     {
-      "ticker": "S",
-      "name": "SentinelOne",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 66,
-      "market": "US"
-    },
-    {
       "ticker": "WPP.L",
       "name": "WPP",
       "score": 66,
       "market": "UK"
+    },
+    {
+      "ticker": "S",
+      "name": "SentinelOne",
+      "score": 65,
+      "market": "US"
     },
     {
       "ticker": "NWL",
@@ -277,13 +277,25 @@
     {
       "ticker": "KNOS.L",
       "name": "Kainos Group",
-      "score": 68,
+      "score": 69,
       "market": "UK"
     },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 66,
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "DOCS.L",
+      "name": "Dr. Martens",
+      "score": 63,
       "market": "UK"
     },
     {
@@ -299,26 +311,8 @@
       "market": "UK"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "DOCS.L",
-      "name": "Dr. Martens",
-      "score": 62,
-      "market": "UK"
-    },
-    {
       "ticker": "FOUR.L",
       "name": "4imprint",
-      "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "CURY.L",
-      "name": "Currys",
       "score": 60,
       "market": "UK"
     },
@@ -327,9 +321,15 @@
       "name": "J D Wetherspoon",
       "score": 60,
       "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 60,
+      "market": "FR"
     }
   ],
   "totalStocks": 860,
   "avgScore": 51,
-  "bearishAlertCount": 266
+  "bearishAlertCount": 269
 }
