@@ -1,18 +1,11 @@
 {
   "topOverall": [
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 76,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 75,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
     },
     {
       "ticker": "EXPE",
@@ -22,11 +15,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 73,
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 74,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "MPC",
@@ -36,11 +29,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 73,
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 72,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
     },
     {
       "ticker": "PSX",
@@ -57,18 +50,25 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "U",
       "name": "Unity Software",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
@@ -84,6 +84,13 @@
       "name": "Trade Desk",
       "score": 23,
       "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "PAH3.DE",
+      "name": "Porsche Auto Holding",
+      "score": 24,
+      "market": "DE",
       "capCategory": "Mid"
     },
     {
@@ -106,13 +113,6 @@
       "score": 25,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "PAH3.DE",
-      "name": "Porsche Auto Holding",
-      "score": 26,
-      "market": "DE",
-      "capCategory": "Mid"
     },
     {
       "ticker": "SNPS",
@@ -145,21 +145,27 @@
   ],
   "topLargeCap": [
     {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 75,
+      "market": "US"
+    },
+    {
       "ticker": "EXPE",
       "name": "Expedia",
       "score": 75,
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 73,
       "market": "US"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 73,
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 72,
       "market": "US"
     },
     {
@@ -181,9 +187,15 @@
       "market": "US"
     },
     {
-      "ticker": "TRGP",
-      "name": "Targa Resources",
-      "score": 70,
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 71,
       "market": "US"
     },
     {
@@ -191,38 +203,26 @@
       "name": "EOG Resources",
       "score": 69,
       "market": "US"
-    },
-    {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 68,
-      "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 76,
-      "market": "US"
-    },
-    {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 73,
+      "score": 74,
       "market": "US"
     },
     {
-      "ticker": "QLYS",
-      "name": "Qualys",
-      "score": 71,
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 72,
       "market": "US"
+    },
+    {
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 72,
+      "market": "UK"
     },
     {
       "ticker": "ETSY",
@@ -243,6 +243,12 @@
       "market": "US"
     },
     {
+      "ticker": "QLYS",
+      "name": "Qualys",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 69,
@@ -259,50 +265,20 @@
       "name": "UiPath",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
-      "score": 67,
-      "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 75,
-      "market": "US"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 66,
-      "market": "FR"
-    },
-    {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 65,
+      "score": 66,
       "market": "UK"
     },
     {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 63,
-      "market": "US"
+      "ticker": "KNOS.L",
+      "name": "Kainos Group",
+      "score": 65,
+      "market": "UK"
     },
     {
       "ticker": "MONY.L",
@@ -317,19 +293,43 @@
       "market": "UK"
     },
     {
-      "ticker": "AMC",
-      "name": "AMC Entertainment",
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
       "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "RPD",
+      "name": "Rapid7",
+      "score": 61,
       "market": "US"
     },
     {
-      "ticker": "KNOS.L",
-      "name": "Kainos Group",
-      "score": 62,
+      "ticker": "ASHM.L",
+      "name": "Ashmore Group",
+      "score": 61,
       "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "TRN.L",
+      "name": "Trainline",
+      "score": 60,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 60,
+      "market": "FR"
     }
   ],
-  "totalStocks": 859,
+  "totalStocks": 860,
   "avgScore": 51,
   "bearishAlertCount": 273
 }
