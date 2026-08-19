@@ -29,13 +29,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "PSX",
       "name": "Phillips 66",
       "score": 72,
@@ -57,18 +50,25 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "U",
-      "name": "Unity Software",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
@@ -84,13 +84,6 @@
       "name": "Trade Desk",
       "score": 23,
       "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "PAH3.DE",
-      "name": "Porsche Auto Holding",
-      "score": 24,
-      "market": "DE",
       "capCategory": "Mid"
     },
     {
@@ -113,6 +106,13 @@
       "score": 25,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "PAH3.DE",
+      "name": "Porsche Auto Holding",
+      "score": 26,
+      "market": "DE",
+      "capCategory": "Mid"
     },
     {
       "ticker": "SNPS",
@@ -157,12 +157,6 @@
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "PSX",
       "name": "Phillips 66",
       "score": 72,
@@ -175,15 +169,15 @@
       "market": "US"
     },
     {
-      "ticker": "U",
-      "name": "Unity Software",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 70,
+      "ticker": "U",
+      "name": "Unity Software",
+      "score": 69,
       "market": "US"
     },
     {
@@ -196,6 +190,12 @@
       "ticker": "TRGP",
       "name": "Targa Resources",
       "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 68,
       "market": "US"
     },
     {
@@ -219,14 +219,8 @@
       "market": "US"
     },
     {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 72,
-      "market": "UK"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
+      "ticker": "GTLB",
+      "name": "GitLab",
       "score": 71,
       "market": "US"
     },
@@ -237,22 +231,16 @@
       "market": "US"
     },
     {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 70,
+      "market": "UK"
+    },
+    {
       "ticker": "BRZE",
       "name": "Braze",
       "score": 69,
       "market": "US"
-    },
-    {
-      "ticker": "QLYS",
-      "name": "Qualys",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 69,
-      "market": "UK"
     },
     {
       "ticker": "PATH",
@@ -263,6 +251,18 @@
     {
       "ticker": "FNB",
       "name": "F.N.B. Corp",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "QLYS",
+      "name": "Qualys",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 68,
       "market": "US"
     }
@@ -287,10 +287,10 @@
       "market": "US"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
+      "ticker": "TRN.L",
+      "name": "Trainline",
       "score": 69,
-      "market": "FR"
+      "market": "UK"
     },
     {
       "ticker": "BYIT.L",
@@ -301,20 +301,20 @@
     {
       "ticker": "KNOS.L",
       "name": "Kainos Group",
-      "score": 65,
+      "score": 66,
       "market": "UK"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 66,
+      "market": "FR"
     },
     {
       "ticker": "DAL",
       "name": "Delta Air Lines",
       "score": 63,
       "market": "US"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 63,
-      "market": "UK"
     },
     {
       "ticker": "CMCX.L",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 859,
   "avgScore": 51,
-  "bearishAlertCount": 268
+  "bearishAlertCount": 271
 }
