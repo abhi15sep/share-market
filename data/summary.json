@@ -8,16 +8,30 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "EXPE",
+      "name": "Expedia",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "HPQ",
       "name": "HP Inc",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 74,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "EXPE",
-      "name": "Expedia",
-      "score": 74,
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
     },
@@ -43,35 +57,28 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "ASHM.L",
       "name": "Ashmore Group",
       "score": 72,
       "market": "UK",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 71,
-      "market": "UK",
-      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "score": 21,
+      "market": "US",
+      "capCategory": "Mid"
+    },
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
@@ -94,8 +101,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "LI",
-      "name": "Li Auto",
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
       "score": 29,
       "market": "US",
       "capCategory": "Large"
@@ -129,15 +136,8 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
-      "score": 30,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ALB",
-      "name": "Albemarle",
+      "ticker": "LI",
+      "name": "Li Auto",
       "score": 30,
       "market": "US",
       "capCategory": "Large"
@@ -145,45 +145,33 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 74,
+      "ticker": "EXPE",
+      "name": "Expedia",
+      "score": 75,
       "market": "US"
     },
     {
-      "ticker": "EXPE",
-      "name": "Expedia",
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 74,
       "market": "US"
     },
     {
       "ticker": "MRNA",
       "name": "Moderna",
-      "score": 71,
+      "score": 73,
       "market": "US"
     },
     {
-      "ticker": "STT",
-      "name": "State Street",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 71,
-      "market": "FR"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
+      "ticker": "NTRA",
+      "name": "Natera",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 70,
+      "ticker": "U",
+      "name": "Unity Software",
+      "score": 69,
       "market": "US"
     },
     {
@@ -191,6 +179,12 @@
       "name": "Marathon Petroleum",
       "score": 69,
       "market": "US"
+    },
+    {
+      "ticker": "SHEL.L",
+      "name": "Shell",
+      "score": 69,
+      "market": "UK"
     },
     {
       "ticker": "TTE.PA",
@@ -203,6 +197,12 @@
       "name": "SoftBank Group",
       "score": 69,
       "market": "JP"
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 68,
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -225,16 +225,28 @@
       "market": "US"
     },
     {
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "IMAX",
+      "name": "IMAX Corp",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 71,
       "market": "UK"
-    },
-    {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
-      "score": 69,
-      "market": "US"
     },
     {
       "ticker": "GTLB",
@@ -243,28 +255,16 @@
       "market": "US"
     },
     {
-      "ticker": "WPP.L",
-      "name": "WPP",
-      "score": 67,
-      "market": "UK"
+      "ticker": "ELF",
+      "name": "Elf Beauty",
+      "score": 68,
+      "market": "US"
     },
     {
       "ticker": "BEZ.L",
       "name": "Beazley",
-      "score": 67,
+      "score": 68,
       "market": "UK"
-    },
-    {
-      "ticker": "TEP.PA",
-      "name": "Teleperformance",
-      "score": 67,
-      "market": "FR"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 66,
-      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -273,6 +273,12 @@
       "name": "Bytes Technology",
       "score": 76,
       "market": "UK"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 74,
+      "market": "US"
     },
     {
       "ticker": "ASHM.L",
@@ -285,6 +291,18 @@
       "name": "Kainos Group",
       "score": 71,
       "market": "UK"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 71,
+      "market": "FR"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 70,
+      "market": "US"
     },
     {
       "ticker": "CMCX.L",
@@ -305,31 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
       "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "RNWH.L",
-      "name": "Renew Holdings",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 63,
-      "market": "UK"
+      "market": "US"
     }
   ],
-  "totalStocks": 860,
-  "avgScore": 51,
-  "bearishAlertCount": 243
+  "totalStocks": 859,
+  "avgScore": 52,
+  "bearishAlertCount": 245
 }
