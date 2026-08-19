@@ -15,6 +15,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "TGT",
       "name": "Target",
       "score": 74,
@@ -24,13 +31,6 @@
     {
       "ticker": "MRNA",
       "name": "Moderna",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -64,11 +64,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
+      "ticker": "IMAX",
+      "name": "IMAX Corp",
       "score": 72,
-      "market": "UK",
-      "capCategory": "Small"
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
@@ -80,9 +80,16 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "TTD",
+      "name": "Trade Desk",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "SNPS",
       "name": "Synopsys",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
@@ -129,17 +136,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "TTD",
-      "name": "Trade Desk",
-      "score": 30,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "score": 30,
-      "market": "US",
+      "ticker": "HINDUNILVR.NS",
+      "name": "Hindustan Unilever",
+      "score": 31,
+      "market": "IN",
       "capCategory": "Large"
     }
   ],
@@ -148,6 +148,12 @@
       "ticker": "EXPE",
       "name": "Expedia",
       "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 74,
       "market": "US"
     },
     {
@@ -163,9 +169,9 @@
       "market": "US"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 73,
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 71,
       "market": "US"
     },
     {
@@ -181,26 +187,20 @@
       "market": "US"
     },
     {
+      "ticker": "BMY",
+      "name": "Bristol-Myers Squibb",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "SNOW",
       "name": "Snowflake",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "ALL",
-      "name": "Allstate",
       "score": 69,
       "market": "US"
     }
@@ -231,6 +231,12 @@
       "market": "UK"
     },
     {
+      "ticker": "IMAX",
+      "name": "IMAX Corp",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 71,
@@ -243,9 +249,9 @@
       "market": "US"
     },
     {
-      "ticker": "RARE",
-      "name": "Ultragenyx Pharmaceutical",
-      "score": 69,
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 68,
       "market": "US"
     },
     {
@@ -259,12 +265,6 @@
       "name": "Match Group",
       "score": 68,
       "market": "US"
-    },
-    {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 68,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
