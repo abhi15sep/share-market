@@ -5,7 +5,7 @@
       "name": "HP Inc",
       "score": 75,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Small"
     },
     {
       "ticker": "EXPE",
@@ -15,18 +15,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "CRWD",
@@ -117,16 +117,9 @@
     {
       "ticker": "SNPS",
       "name": "Synopsys",
-      "score": 27,
+      "score": 26,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "SMWH.L",
-      "name": "WH Smith",
-      "score": 28,
-      "market": "UK",
-      "capCategory": "Small"
     },
     {
       "ticker": "OPEN",
@@ -141,15 +134,16 @@
       "score": 28,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "LI",
+      "name": "Li Auto",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 75,
-      "market": "US"
-    },
     {
       "ticker": "EXPE",
       "name": "Expedia",
@@ -187,21 +181,27 @@
       "market": "US"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 71,
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "EOG",
-      "name": "EOG Resources",
+      "ticker": "ALL",
+      "name": "Allstate",
       "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "TRGP",
+      "name": "Targa Resources",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "score": 68,
       "market": "US"
     }
   ],
@@ -209,7 +209,7 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 74,
+      "score": 73,
       "market": "US"
     },
     {
@@ -255,19 +255,43 @@
       "market": "UK"
     },
     {
-      "ticker": "FNB",
-      "name": "F.N.B. Corp",
+      "ticker": "PATH",
+      "name": "UiPath",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "PATH",
-      "name": "UiPath",
-      "score": 67,
+      "ticker": "FNB",
+      "name": "F.N.B. Corp",
+      "score": 68,
       "market": "US"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 69,
+      "market": "FR"
+    },
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
@@ -279,6 +303,12 @@
       "name": "Kainos Group",
       "score": 65,
       "market": "UK"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "score": 63,
+      "market": "US"
     },
     {
       "ticker": "MONY.L",
@@ -293,43 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
       "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "RPD",
-      "name": "Rapid7",
-      "score": 61,
       "market": "US"
-    },
-    {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "TRN.L",
-      "name": "Trainline",
-      "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 60,
-      "market": "FR"
     }
   ],
-  "totalStocks": 860,
+  "totalStocks": 859,
   "avgScore": 51,
-  "bearishAlertCount": 273
+  "bearishAlertCount": 268
 }
