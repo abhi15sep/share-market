@@ -8,6 +8,20 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 74,
@@ -22,11 +36,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 73,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "BME.L",
@@ -43,32 +64,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "S",
+      "name": "SentinelOne",
       "score": 72,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "NTRA",
-      "name": "Natera",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
@@ -94,6 +94,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "LI",
+      "name": "Li Auto",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "TTD",
       "name": "Trade Desk",
       "score": 28,
@@ -105,13 +112,6 @@
       "name": "Tata Consumer Products",
       "score": 29,
       "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "APP",
-      "name": "AppLovin",
-      "score": 29,
-      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -145,15 +145,15 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "EXPE",
-      "name": "Expedia",
+      "ticker": "MRNA",
+      "name": "Moderna",
       "score": 74,
       "market": "US"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "score": 73,
+      "ticker": "EXPE",
+      "name": "Expedia",
+      "score": 74,
       "market": "US"
     },
     {
@@ -161,6 +161,18 @@
       "name": "Natera",
       "score": 71,
       "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "TTE.PA",
+      "name": "TotalEnergies",
+      "score": 70,
+      "market": "FR"
     },
     {
       "ticker": "BMY",
@@ -175,8 +187,8 @@
       "market": "US"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "FROG",
+      "name": "JFrog",
       "score": 69,
       "market": "US"
     },
@@ -187,25 +199,31 @@
       "market": "UK"
     },
     {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 69,
-      "market": "FR"
-    },
-    {
       "ticker": "9984.T",
       "name": "SoftBank Group",
       "score": 69,
       "market": "JP"
-    },
-    {
-      "ticker": "U",
-      "name": "Unity Software",
-      "score": 68,
-      "market": "US"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 73,
+      "market": "US"
+    },
     {
       "ticker": "BME.L",
       "name": "B&M European",
@@ -219,15 +237,9 @@
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "S",
+      "name": "SentinelOne",
       "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 71,
       "market": "US"
     },
     {
@@ -235,12 +247,6 @@
       "name": "easyJet",
       "score": 71,
       "market": "UK"
-    },
-    {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
-      "score": 69,
-      "market": "US"
     },
     {
       "ticker": "GTLB",
@@ -259,12 +265,6 @@
       "name": "Match Group",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "WPP.L",
-      "name": "WPP",
-      "score": 67,
-      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -329,7 +329,7 @@
       "market": "UK"
     }
   ],
-  "totalStocks": 859,
+  "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 243
+  "bearishAlertCount": 246
 }
