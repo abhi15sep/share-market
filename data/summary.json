@@ -8,13 +8,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 74,
@@ -43,15 +36,22 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 71,
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health",
+      "score": 70,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "OVV",
+      "name": "Ovintiv",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
@@ -94,13 +94,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "BRBY.L",
       "name": "Burberry",
       "score": 26,
@@ -110,7 +103,7 @@
     {
       "ticker": "BLDR",
       "name": "Builders FirstSource",
-      "score": 27,
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -129,17 +122,24 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
       "score": 28,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "TATACONSUM.NS",
-      "name": "Tata Consumer Products",
-      "score": 29,
-      "market": "IN",
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "score": 28,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -157,20 +157,20 @@
       "market": "US"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "OVV",
+      "name": "Ovintiv",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "EXPE",
-      "name": "Expedia",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "SJM",
+      "name": "J.M. Smucker",
       "score": 69,
       "market": "US"
     },
@@ -187,22 +187,22 @@
       "market": "US"
     },
     {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "WBS",
       "name": "Webster Financial",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "IQV",
-      "name": "IQVIA Holdings",
+      "ticker": "SHEL.L",
+      "name": "Shell",
       "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "OVV",
-      "name": "Ovintiv",
-      "score": 68,
-      "market": "US"
+      "market": "UK"
     }
   ],
   "topMidCap": [
@@ -213,16 +213,16 @@
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 74,
-      "market": "US"
-    },
-    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 74,
       "market": "UK"
+    },
+    {
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health",
+      "score": 70,
+      "market": "US"
     },
     {
       "ticker": "EZJ.L",
@@ -231,8 +231,14 @@
       "market": "UK"
     },
     {
-      "ticker": "HIMS",
-      "name": "Hims & Hers Health",
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "IMAX",
+      "name": "IMAX Corp",
       "score": 69,
       "market": "US"
     },
@@ -243,27 +249,21 @@
       "market": "UK"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 66,
-      "market": "US"
-    },
-    {
       "ticker": "PATH",
       "name": "UiPath",
-      "score": 65,
+      "score": 67,
       "market": "US"
     },
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 65,
+      "ticker": "GTLB",
+      "name": "GitLab",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "BRZE",
+      "name": "Braze",
+      "score": 67,
       "market": "US"
     }
   ],
@@ -275,16 +275,16 @@
       "market": "FR"
     },
     {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "KNOS.L",
       "name": "Kainos Group",
       "score": 70,
       "market": "UK"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 69,
-      "market": "US"
     },
     {
       "ticker": "HPQ",
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 859,
   "avgScore": 51,
-  "bearishAlertCount": 264
+  "bearishAlertCount": 265
 }
