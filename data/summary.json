@@ -15,9 +15,23 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "PSX",
       "name": "Phillips 66",
-      "score": 73,
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
@@ -26,7 +40,7 @@
       "name": "Publicis",
       "score": 72,
       "market": "FR",
-      "capCategory": "Small"
+      "capCategory": "Large"
     },
     {
       "ticker": "MRNA",
@@ -47,31 +61,24 @@
       "name": "Micron",
       "score": 70,
       "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "OVV",
-      "name": "Ovintiv",
-      "score": 70,
-      "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "KNOS.L",
-      "name": "Kainos Group",
-      "score": 70,
-      "market": "UK",
-      "capCategory": "Small"
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
+    },
     {
       "ticker": "TTD",
       "name": "Trade Desk",
@@ -101,11 +108,18 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
+      "ticker": "APP",
+      "name": "AppLovin",
       "score": 26,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "JOBY",
@@ -122,33 +136,31 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
+      "ticker": "ONON",
+      "name": "On Holding",
       "score": 28,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "META",
-      "name": "Meta Platforms",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "PSX",
       "name": "Phillips 66",
-      "score": 73,
+      "score": 72,
       "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 72,
+      "market": "FR"
     },
     {
       "ticker": "MRNA",
@@ -157,52 +169,40 @@
       "market": "US"
     },
     {
-      "ticker": "OVV",
-      "name": "Ovintiv",
+      "ticker": "MU",
+      "name": "Micron",
       "score": 70,
       "market": "US"
     },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "SJM",
-      "name": "J.M. Smucker",
-      "score": 69,
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "TTE.PA",
       "name": "TotalEnergies",
-      "score": 69,
+      "score": 70,
       "market": "FR"
+    },
+    {
+      "ticker": "PCG",
+      "name": "PG&E",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "EOG",
       "name": "EOG Resources",
       "score": 68,
       "market": "US"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "WBS",
-      "name": "Webster Financial",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "SHEL.L",
-      "name": "Shell",
-      "score": 68,
-      "market": "UK"
     }
   ],
   "topMidCap": [
@@ -219,6 +219,12 @@
       "market": "UK"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 73,
+      "market": "US"
+    },
+    {
       "ticker": "HIMS",
       "name": "Hims & Hers Health",
       "score": 70,
@@ -231,22 +237,16 @@
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "IMAX",
-      "name": "IMAX Corp",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "BME.L",
       "name": "B&M European",
       "score": 69,
       "market": "UK"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 68,
+      "market": "US"
     },
     {
       "ticker": "PATH",
@@ -255,48 +255,24 @@
       "market": "US"
     },
     {
-      "ticker": "GTLB",
-      "name": "GitLab",
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 67,
       "market": "US"
     },
     {
       "ticker": "BRZE",
       "name": "Braze",
-      "score": 67,
+      "score": 66,
       "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 72,
-      "market": "FR"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "KNOS.L",
       "name": "Kainos Group",
       "score": 70,
       "market": "UK"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 67,
-      "market": "US"
     },
     {
       "ticker": "TRN.L",
@@ -327,9 +303,33 @@
       "name": "CMC Markets",
       "score": 65,
       "market": "UK"
+    },
+    {
+      "ticker": "RPD",
+      "name": "Rapid7",
+      "score": 63,
+      "market": "US"
+    },
+    {
+      "ticker": "ONT.L",
+      "name": "Oxford Nanopore",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "RWS.L",
+      "name": "RWS Holdings",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 63,
+      "market": "FR"
     }
   ],
-  "totalStocks": 859,
+  "totalStocks": 860,
   "avgScore": 51,
-  "bearishAlertCount": 265
+  "bearishAlertCount": 263
 }
