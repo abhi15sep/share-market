@@ -8,13 +8,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 74,
@@ -24,16 +17,37 @@
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 72,
+      "score": 73,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "PATH",
+      "name": "UiPath",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Small"
     },
     {
       "ticker": "PUB.PA",
       "name": "Publicis",
       "score": 72,
       "market": "FR",
-      "capCategory": "Large"
+      "capCategory": "Small"
     },
     {
       "ticker": "MRNA",
@@ -43,30 +57,16 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "HIMS",
-      "name": "Hims & Hers Health",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BRZE",
-      "name": "Braze",
-      "score": 70,
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 71,
       "market": "US",
       "capCategory": "Mid"
     }
@@ -75,13 +75,6 @@
     {
       "ticker": "TTD",
       "name": "Trade Desk",
-      "score": 19,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
       "score": 23,
       "market": "US",
       "capCategory": "Mid"
@@ -94,13 +87,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "BRBY.L",
       "name": "Burberry",
       "score": 26,
@@ -108,8 +94,15 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "APP",
+      "name": "AppLovin",
       "score": 27,
       "market": "US",
       "capCategory": "Large"
@@ -122,8 +115,22 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "ONON",
-      "name": "On Holding",
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
       "score": 29,
       "market": "US",
       "capCategory": "Large"
@@ -134,27 +141,14 @@
       "score": 30,
       "market": "HK",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "ALB",
-      "name": "Albemarle",
-      "score": 30,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 72,
+      "score": 73,
       "market": "US"
-    },
-    {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 72,
-      "market": "FR"
     },
     {
       "ticker": "MRNA",
@@ -163,44 +157,50 @@
       "market": "US"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 71,
-      "market": "US"
-    },
-    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "TTE.PA",
-      "name": "TotalEnergies",
-      "score": 70,
-      "market": "FR"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 69,
+      "score": 71,
       "market": "US"
     },
     {
       "ticker": "PSX",
       "name": "Phillips 66",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "NTRA",
+      "name": "Natera",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "PCG",
+      "name": "PG&E",
       "score": 69,
       "market": "US"
     },
     {
       "ticker": "IQV",
       "name": "IQVIA Holdings",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "NDSN",
+      "name": "Nordson",
       "score": 69,
       "market": "US"
     }
@@ -213,27 +213,21 @@
       "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 75,
-      "market": "US"
-    },
-    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 74,
       "market": "UK"
     },
     {
-      "ticker": "HIMS",
-      "name": "Hims & Hers Health",
-      "score": 70,
+      "ticker": "PATH",
+      "name": "UiPath",
+      "score": 72,
       "market": "US"
     },
     {
-      "ticker": "BRZE",
-      "name": "Braze",
-      "score": 70,
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 71,
       "market": "US"
     },
     {
@@ -243,36 +237,66 @@
       "market": "UK"
     },
     {
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "BME.L",
       "name": "B&M European",
       "score": 69,
       "market": "UK"
     },
     {
-      "ticker": "PATH",
-      "name": "UiPath",
+      "ticker": "BRZE",
+      "name": "Braze",
       "score": 68,
       "market": "US"
     },
     {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 67,
+      "score": 68,
       "market": "US"
     },
     {
       "ticker": "RELY",
       "name": "Remitly Global",
-      "score": 67,
+      "score": 68,
       "market": "US"
     }
   ],
   "topSmallCap": [
     {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 72,
+      "market": "FR"
+    },
+    {
       "ticker": "KNOS.L",
       "name": "Kainos Group",
       "score": 70,
       "market": "UK"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 67,
+      "market": "US"
     },
     {
       "ticker": "TRN.L",
@@ -303,33 +327,9 @@
       "name": "CMC Markets",
       "score": 65,
       "market": "UK"
-    },
-    {
-      "ticker": "RPD",
-      "name": "Rapid7",
-      "score": 63,
-      "market": "US"
-    },
-    {
-      "ticker": "ONT.L",
-      "name": "Oxford Nanopore",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 63,
-      "market": "FR"
     }
   ],
-  "totalStocks": 860,
+  "totalStocks": 859,
   "avgScore": 51,
   "bearishAlertCount": 261
 }
