@@ -1,41 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "EXPE",
-      "name": "Expedia",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 73,
@@ -43,15 +8,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -69,6 +27,48 @@
       "score": 72,
       "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "RWS.L",
+      "name": "RWS Holdings",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
+      "score": 70,
+      "market": "HK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "2269.HK",
+      "name": "WuXi Biologics",
+      "score": 70,
+      "market": "HK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "KNOS.L",
+      "name": "Kainos Group",
+      "score": 69,
+      "market": "UK",
+      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
@@ -80,9 +80,23 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "VIV.PA",
       "name": "Vivendi",
-      "score": 24,
+      "score": 26,
       "market": "FR",
       "capCategory": "Small"
     },
@@ -94,18 +108,32 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 26,
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "score": 27,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "TTD",
       "name": "Trade Desk",
-      "score": 28,
+      "score": 27,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "TATACONSUM.NS",
@@ -113,83 +141,13 @@
       "score": 29,
       "market": "IN",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "SBILIFE.NS",
-      "name": "SBI Life Insurance",
-      "score": 30,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "HLMA.L",
-      "name": "Halma",
-      "score": 30,
-      "market": "UK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "APP",
-      "name": "AppLovin",
-      "score": 30,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 31,
-      "market": "FR",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "EXPE",
-      "name": "Expedia",
-      "score": 75,
-      "market": "US"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "BMY",
-      "name": "Bristol-Myers Squibb",
-      "score": 70,
       "market": "US"
     },
     {
@@ -203,18 +161,54 @@
       "name": "WuXi Biologics",
       "score": 70,
       "market": "HK"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "WBS",
+      "name": "Webster Financial",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "IQV",
+      "name": "IQVIA Holdings",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "SHEL.L",
+      "name": "Shell",
+      "score": 67,
+      "market": "UK"
     }
   ],
   "topMidCap": [
     {
       "ticker": "OGN",
       "name": "Organon & Co",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
       "score": 73,
       "market": "US"
     },
@@ -231,40 +225,46 @@
       "market": "UK"
     },
     {
-      "ticker": "GTLB",
-      "name": "GitLab",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "LTC",
-      "name": "LTC Properties",
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "PCVX",
-      "name": "Vaxcyte",
-      "score": 68,
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 66,
       "market": "US"
     },
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 68,
+      "ticker": "QLYS",
+      "name": "Qualys",
+      "score": 66,
       "market": "US"
     },
     {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 67,
+      "score": 66,
       "market": "US"
     },
     {
       "ticker": "RELY",
       "name": "Remitly Global",
-      "score": 67,
+      "score": 66,
       "market": "US"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
+      "score": 65,
+      "market": "US"
+    },
+    {
+      "ticker": "BME.L",
+      "name": "B&M European",
+      "score": 65,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -275,9 +275,33 @@
       "market": "UK"
     },
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "KNOS.L",
+      "name": "Kainos Group",
+      "score": 69,
+      "market": "UK"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
       "score": 66,
+      "market": "US"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 66,
+      "market": "FR"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 65,
       "market": "UK"
     },
     {
@@ -287,49 +311,25 @@
       "market": "UK"
     },
     {
-      "ticker": "KNOS.L",
-      "name": "Kainos Group",
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 64,
+      "market": "US"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
       "score": 64,
       "market": "UK"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 62,
-      "market": "FR"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "TRN.L",
-      "name": "Trainline",
-      "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "RPD",
-      "name": "Rapid7",
-      "score": 59,
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
+      "score": 63,
       "market": "US"
     }
   ],
-  "totalStocks": 860,
-  "avgScore": 52,
-  "bearishAlertCount": 247
+  "totalStocks": 859,
+  "avgScore": 50,
+  "bearishAlertCount": 246
 }
