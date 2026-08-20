@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-20T07:47:33.221Z",
-  "stockCount": 859,
-  "bearishAlerts": 244,
-  "newsCount": 610,
+  "lastUpdated": "2026-08-20T08:45:17.539Z",
+  "stockCount": 860,
+  "bearishAlerts": 245,
+  "newsCount": 715,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
@@ -16,30 +16,30 @@
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10712.5,
-      "sma50": 10616.49,
-      "sma200": 10284.72,
-      "changeFromHigh": -1.82,
+      "price": 10708.07,
+      "sma50": 10644.1,
+      "sma200": 10299.88,
+      "changeFromHigh": -1.86,
       "distributionDays": 3,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "in": {
       "index": "Nifty 50",
-      "price": 24248.65,
-      "sma50": 24160.56,
-      "sma200": 24701.65,
-      "changeFromHigh": -7.9,
+      "price": 24237.7,
+      "sma50": 24160.34,
+      "sma200": 24701.59,
+      "changeFromHigh": -7.94,
       "distributionDays": 2,
       "regime": "correction",
       "signal": "Price below SMA200 — trend weakening"
     },
     "eu": {
       "index": "DAX 40",
-      "price": 25979.33,
-      "sma50": 25355.62,
-      "sma200": 24521.14,
-      "changeFromHigh": -1.74,
+      "price": 25950.74,
+      "sma50": 25414.21,
+      "sma200": 24538.93,
+      "changeFromHigh": -1.85,
       "distributionDays": 3,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
@@ -47,12 +47,12 @@
     "asia": {
       "index": "Nikkei 225",
       "price": 66216.79,
-      "sma50": 67308.11,
-      "sma200": 57916.69,
+      "sma50": 67321.72,
+      "sma200": 58163.91,
       "changeFromHigh": -8.5,
-      "distributionDays": 5,
-      "regime": "bull",
-      "signal": "Price above SMA200 — uptrend intact"
+      "distributionDays": 6,
+      "regime": "correction",
+      "signal": "6 distribution days in 25 sessions — selling pressure"
     },
     "overall": "correction",
     "summary": "Markets showing weakness. Be selective, reduce position sizes, and tighten stops."

@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 76,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "EXPE",
       "name": "Expedia",
       "score": 75,
@@ -12,11 +19,18 @@
       "name": "HP Inc",
       "score": 74,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "GTLB",
+      "name": "GitLab",
       "score": 74,
       "market": "US",
       "capCategory": "Mid"
@@ -27,20 +41,6 @@
       "score": 73,
       "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "EZJ.L",
@@ -64,21 +64,14 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MRK",
-      "name": "Merck",
+      "ticker": "MU",
+      "name": "Micron",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
@@ -87,25 +80,53 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
-      "score": 25,
-      "market": "FR",
-      "capCategory": "Small"
+      "ticker": "BRBY.L",
+      "name": "Burberry",
+      "score": 26,
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
       "ticker": "SNPS",
       "name": "Synopsys",
-      "score": 26,
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 29,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "LI",
+      "name": "Li Auto",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TTD",
+      "name": "Trade Desk",
       "score": 29,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "TATACONSUM.NS",
+      "name": "Tata Consumer Products",
+      "score": 30,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SBILIFE.NS",
+      "name": "SBI Life Insurance",
+      "score": 30,
+      "market": "IN",
+      "capCategory": "Large"
     },
     {
       "ticker": "FDM.L",
@@ -119,28 +140,7 @@
       "name": "Halma",
       "score": 30,
       "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "BRBY.L",
-      "name": "Burberry",
-      "score": 30,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "APP",
-      "name": "AppLovin",
-      "score": 30,
-      "market": "US",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "TTD",
-      "name": "Trade Desk",
-      "score": 30,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -148,6 +148,18 @@
       "ticker": "EXPE",
       "name": "Expedia",
       "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 74,
       "market": "US"
     },
     {
@@ -163,8 +175,8 @@
       "market": "US"
     },
     {
-      "ticker": "MRK",
-      "name": "Merck",
+      "ticker": "MU",
+      "name": "Micron",
       "score": 70,
       "market": "US"
     },
@@ -181,41 +193,29 @@
       "market": "US"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "NTRA",
-      "name": "Natera",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "0939.HK",
       "name": "China Construction Bank",
-      "score": 69,
+      "score": 70,
       "market": "HK"
     },
     {
       "ticker": "2269.HK",
       "name": "WuXi Biologics",
-      "score": 69,
+      "score": 70,
       "market": "HK"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 74,
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 76,
       "market": "US"
     },
     {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
-      "score": 73,
+      "ticker": "GTLB",
+      "name": "GitLab",
+      "score": 74,
       "market": "US"
     },
     {
@@ -231,20 +231,32 @@
       "market": "UK"
     },
     {
-      "ticker": "GTLB",
-      "name": "GitLab",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "MTCH",
       "name": "Match Group",
       "score": 69,
       "market": "US"
     },
     {
+      "ticker": "LTC",
+      "name": "LTC Properties",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 68,
+      "market": "US"
+    },
+    {
       "ticker": "PCVX",
       "name": "Vaxcyte",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 67,
       "market": "US"
     },
@@ -253,51 +265,9 @@
       "name": "Remitly Global",
       "score": 67,
       "market": "US"
-    },
-    {
-      "ticker": "BME.L",
-      "name": "B&M European",
-      "score": 67,
-      "market": "UK"
-    },
-    {
-      "ticker": "DUOL",
-      "name": "Duolingo",
-      "score": 66,
-      "market": "US"
     }
   ],
   "topSmallCap": [
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 66,
-      "market": "FR"
-    },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
@@ -305,31 +275,61 @@
       "market": "UK"
     },
     {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
-      "score": 65,
+      "ticker": "TRN.L",
+      "name": "Trainline",
+      "score": 63,
       "market": "UK"
     },
     {
-      "ticker": "AMC",
-      "name": "AMC Entertainment",
-      "score": 64,
-      "market": "US"
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 63,
+      "market": "UK"
     },
     {
-      "ticker": "TRN.L",
-      "name": "Trainline",
-      "score": 64,
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 62,
+      "market": "FR"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 61,
       "market": "UK"
     },
     {
       "ticker": "MONY.L",
       "name": "Moneysupermarket.com",
-      "score": 63,
+      "score": 61,
       "market": "UK"
+    },
+    {
+      "ticker": "FDEV.L",
+      "name": "Frontier Developments",
+      "score": 60,
+      "market": "UK"
+    },
+    {
+      "ticker": "INSP",
+      "name": "Inspire Medical Systems",
+      "score": 59,
+      "market": "US"
     }
   ],
-  "totalStocks": 859,
+  "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 244
+  "bearishAlertCount": 245
 }
