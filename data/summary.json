@@ -1,8 +1,8 @@
 {
   "topOverall": [
     {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
+      "ticker": "RELY",
+      "name": "Remitly Global",
       "score": 76,
       "market": "US",
       "capCategory": "Mid"
@@ -15,30 +15,44 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 74,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Small"
     },
     {
       "ticker": "TGT",
       "name": "Target",
       "score": 74,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "GTLB",
-      "name": "GitLab",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Small"
     },
     {
       "ticker": "MRNA",
       "name": "Moderna",
       "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
@@ -55,23 +69,16 @@
       "score": 72,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "score": 22,
+      "market": "US",
+      "capCategory": "Mid"
+    },
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
@@ -87,6 +94,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 27,
+      "market": "FR",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "SNPS",
       "name": "Synopsys",
       "score": 27,
@@ -94,22 +108,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "VIV.PA",
-      "name": "Vivendi",
+      "ticker": "FDM.L",
+      "name": "FDM Group",
       "score": 29,
-      "market": "FR",
+      "market": "UK",
       "capCategory": "Small"
     },
     {
-      "ticker": "LI",
-      "name": "Li Auto",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TTD",
-      "name": "Trade Desk",
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
       "score": 29,
       "market": "US",
       "capCategory": "Mid"
@@ -129,18 +136,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "FDM.L",
-      "name": "FDM Group",
-      "score": 30,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "HLMA.L",
       "name": "Halma",
       "score": 30,
       "market": "UK",
-      "capCategory": "Large"
+      "capCategory": "Small"
     }
   ],
   "topLargeCap": [
@@ -151,33 +151,33 @@
       "market": "US"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 74,
-      "market": "US"
-    },
-    {
       "ticker": "MRNA",
       "name": "Moderna",
       "score": 73,
       "market": "US"
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck",
       "score": 71,
       "market": "US"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 70,
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 71,
       "market": "US"
     },
     {
@@ -207,15 +207,21 @@
   ],
   "topMidCap": [
     {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
+      "ticker": "RELY",
+      "name": "Remitly Global",
       "score": 76,
       "market": "US"
     },
     {
-      "ticker": "GTLB",
-      "name": "GitLab",
-      "score": 74,
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 73,
       "market": "US"
     },
     {
@@ -231,43 +237,73 @@
       "market": "UK"
     },
     {
+      "ticker": "GTLB",
+      "name": "GitLab",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "MTCH",
       "name": "Match Group",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "LTC",
-      "name": "LTC Properties",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "PCVX",
       "name": "Vaxcyte",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
       "score": 67,
       "market": "US"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 67,
+      "ticker": "DUOL",
+      "name": "Duolingo",
+      "score": 66,
       "market": "US"
+    },
+    {
+      "ticker": "BLND.L",
+      "name": "British Land",
+      "score": 66,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 68,
+      "market": "FR"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 65,
+      "market": "UK"
+    },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
@@ -275,61 +311,25 @@
       "market": "UK"
     },
     {
+      "ticker": "RWS.L",
+      "name": "RWS Holdings",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
+      "score": 64,
+      "market": "US"
+    },
+    {
       "ticker": "TRN.L",
       "name": "Trainline",
-      "score": 63,
+      "score": 64,
       "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 62,
-      "market": "FR"
-    },
-    {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "FDEV.L",
-      "name": "Frontier Developments",
-      "score": 60,
-      "market": "UK"
-    },
-    {
-      "ticker": "INSP",
-      "name": "Inspire Medical Systems",
-      "score": 59,
-      "market": "US"
     }
   ],
-  "totalStocks": 860,
+  "totalStocks": 859,
   "avgScore": 52,
-  "bearishAlertCount": 245
+  "bearishAlertCount": 247
 }
