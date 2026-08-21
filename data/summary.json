@@ -8,36 +8,15 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 73,
+      "score": 76,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -45,28 +24,49 @@
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 72,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "SCT.L",
       "name": "Softcat",
-      "score": 72,
+      "score": 71,
       "market": "UK",
       "capCategory": "Mid"
     },
     {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
+      "ticker": "1398.HK",
+      "name": "ICBC",
       "score": 71,
+      "market": "HK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 70,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
+      "score": 70,
+      "market": "HK",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "WBS",
+      "name": "Webster Financial",
+      "score": 69,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Robinhood",
+      "score": 68,
       "market": "US",
       "capCategory": "Large"
     }
@@ -80,15 +80,15 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
+      "ticker": "TTD",
+      "name": "Trade Desk",
       "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "TTD",
-      "name": "Trade Desk",
+      "ticker": "JOBY",
+      "name": "Joby Aviation",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
@@ -108,24 +108,10 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "TATACONSUM.NS",
       "name": "Tata Consumer Products",
       "score": 27,
       "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "APP",
-      "name": "AppLovin",
-      "score": 27,
-      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -136,8 +122,22 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "APTV",
-      "name": "Aptiv",
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
       "score": 29,
       "market": "US",
       "capCategory": "Mid"
@@ -147,48 +147,18 @@
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 73,
+      "score": 76,
       "market": "US"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 72,
       "market": "US"
     },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "NTRA",
-      "name": "Natera",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "OVV",
-      "name": "Ovintiv",
       "score": 71,
       "market": "US"
     },
@@ -199,40 +169,58 @@
       "market": "HK"
     },
     {
-      "ticker": "PSX",
-      "name": "Phillips 66",
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
       "score": 70,
+      "market": "HK"
+    },
+    {
+      "ticker": "WBS",
+      "name": "Webster Financial",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Robinhood",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "0002.HK",
+      "name": "CLP Holdings",
+      "score": 68,
+      "market": "HK"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 67,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 74,
-      "market": "US"
-    },
-    {
       "ticker": "SCT.L",
       "name": "Softcat",
-      "score": 72,
+      "score": 71,
       "market": "UK"
     },
     {
-      "ticker": "BRZE",
-      "name": "Braze",
-      "score": 69,
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "PATH",
-      "name": "UiPath",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health",
       "score": 68,
       "market": "US"
     },
@@ -243,27 +231,39 @@
       "market": "UK"
     },
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
+      "ticker": "GTLB",
+      "name": "GitLab",
       "score": 67,
       "market": "US"
     },
     {
-      "ticker": "RARE",
-      "name": "Ultragenyx Pharmaceutical",
+      "ticker": "ESTC",
+      "name": "Elastic NV",
       "score": 66,
       "market": "US"
     },
     {
-      "ticker": "GTLB",
-      "name": "GitLab",
+      "ticker": "PATH",
+      "name": "UiPath",
       "score": 65,
       "market": "US"
     },
     {
-      "ticker": "MUR",
-      "name": "Murphy Oil",
+      "ticker": "MTCH",
+      "name": "Match Group",
       "score": 65,
+      "market": "US"
+    },
+    {
+      "ticker": "BME.L",
+      "name": "B&M European",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 64,
       "market": "US"
     }
   ],
@@ -275,15 +275,21 @@
       "market": "UK"
     },
     {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 73,
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 68,
       "market": "US"
     },
     {
-      "ticker": "HPQ",
-      "name": "HP Inc",
+      "ticker": "MU",
+      "name": "Micron",
       "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 66,
       "market": "US"
     },
     {
@@ -293,22 +299,10 @@
       "market": "FR"
     },
     {
-      "ticker": "AMC",
-      "name": "AMC Entertainment",
-      "score": 65,
-      "market": "US"
-    },
-    {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
       "score": 65,
       "market": "UK"
-    },
-    {
-      "ticker": "RPD",
-      "name": "Rapid7",
-      "score": 64,
-      "market": "US"
     },
     {
       "ticker": "BYND",
@@ -323,6 +317,12 @@
       "market": "UK"
     },
     {
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
+      "score": 63,
+      "market": "US"
+    },
+    {
       "ticker": "MONY.L",
       "name": "Moneysupermarket.com",
       "score": 62,
@@ -330,6 +330,6 @@
     }
   ],
   "totalStocks": 859,
-  "avgScore": 52,
-  "bearishAlertCount": 264
+  "avgScore": 51,
+  "bearishAlertCount": 278
 }
