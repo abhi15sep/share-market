@@ -15,8 +15,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 74,
       "market": "US",
       "capCategory": "Large"
@@ -34,13 +34,6 @@
       "score": 74,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "VLO",
@@ -64,8 +57,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -115,29 +115,29 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "JOBY",
-      "name": "Joby Aviation",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "RBLX",
       "name": "Roblox",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
-      "score": 29,
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
     },
     {
       "ticker": "ONON",
       "name": "On Holding",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "JOBY",
+      "name": "Joby Aviation",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys",
       "score": 29,
       "market": "US",
       "capCategory": "Large"
@@ -151,8 +151,8 @@
       "market": "US"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 74,
       "market": "US"
     },
@@ -161,12 +161,6 @@
       "name": "Admiral Group",
       "score": 74,
       "market": "UK"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 73,
-      "market": "US"
     },
     {
       "ticker": "VLO",
@@ -187,9 +181,21 @@
       "market": "US"
     },
     {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "MU",
       "name": "Micron",
       "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 70,
       "market": "US"
     },
     {
@@ -197,12 +203,6 @@
       "name": "China Construction Bank",
       "score": 70,
       "market": "HK"
-    },
-    {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 69,
-      "market": "US"
     }
   ],
   "topMidCap": [
@@ -219,9 +219,9 @@
       "market": "UK"
     },
     {
-      "ticker": "GTLB",
-      "name": "GitLab",
-      "score": 71,
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 72,
       "market": "US"
     },
     {
@@ -231,22 +231,10 @@
       "market": "UK"
     },
     {
-      "ticker": "BRZE",
-      "name": "Braze",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "BNZL.L",
       "name": "Bunzl",
       "score": 69,
       "market": "UK"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 68,
-      "market": "US"
     },
     {
       "ticker": "PATH",
@@ -255,16 +243,28 @@
       "market": "US"
     },
     {
-      "ticker": "JET2.L",
-      "name": "Jet2",
-      "score": 66,
-      "market": "UK"
+      "ticker": "GTLB",
+      "name": "GitLab",
+      "score": 67,
+      "market": "US"
     },
     {
-      "ticker": "BME.L",
-      "name": "B&M European",
+      "ticker": "BRZE",
+      "name": "Braze",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health",
       "score": 66,
-      "market": "UK"
+      "market": "US"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 66,
+      "market": "US"
     }
   ],
   "topSmallCap": [
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 860,
   "avgScore": 52,
-  "bearishAlertCount": 261
+  "bearishAlertCount": 264
 }
