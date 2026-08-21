@@ -1,13 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 74,
@@ -29,11 +22,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "PATH",
-      "name": "UiPath",
-      "score": 72,
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 73,
       "market": "US",
-      "capCategory": "Mid"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Small"
     },
     {
       "ticker": "MU",
@@ -50,6 +50,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "TMO",
       "name": "Thermo Fisher",
       "score": 71,
@@ -59,13 +66,6 @@
     {
       "ticker": "MRNA",
       "name": "Moderna",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "NTRA",
-      "name": "Natera",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -101,13 +101,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "TATACONSUM.NS",
-      "name": "Tata Consumer Products",
-      "score": 26,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "BRBY.L",
       "name": "Burberry",
       "score": 26,
@@ -119,6 +112,13 @@
       "name": "Synopsys",
       "score": 26,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "TATACONSUM.NS",
+      "name": "Tata Consumer Products",
+      "score": 27,
+      "market": "IN",
       "capCategory": "Large"
     },
     {
@@ -145,12 +145,6 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 75,
-      "market": "US"
-    },
-    {
       "ticker": "TGT",
       "name": "Target",
       "score": 73,
@@ -159,6 +153,12 @@
     {
       "ticker": "VLO",
       "name": "Valero Energy",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
       "score": 73,
       "market": "US"
     },
@@ -213,9 +213,15 @@
       "market": "US"
     },
     {
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 72,
+      "market": "UK"
+    },
+    {
       "ticker": "PATH",
       "name": "UiPath",
-      "score": 72,
+      "score": 69,
       "market": "US"
     },
     {
@@ -243,12 +249,6 @@
       "market": "UK"
     },
     {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 68,
-      "market": "UK"
-    },
-    {
       "ticker": "MTCH",
       "name": "Match Group",
       "score": 67,
@@ -271,7 +271,7 @@
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 70,
+      "score": 73,
       "market": "UK"
     },
     {
@@ -285,6 +285,12 @@
       "name": "Beyond Meat",
       "score": 64,
       "market": "US"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 64,
+      "market": "UK"
     },
     {
       "ticker": "BYIT.L",
@@ -305,20 +311,14 @@
       "market": "UK"
     },
     {
-      "ticker": "VCT.L",
-      "name": "Victrex",
-      "score": 62,
-      "market": "UK"
-    },
-    {
       "ticker": "ML.PA",
       "name": "Michelin",
       "score": 62,
       "market": "FR"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
+      "ticker": "VCT.L",
+      "name": "Victrex",
       "score": 61,
       "market": "UK"
     },
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 860,
   "avgScore": 51,
-  "bearishAlertCount": 268
+  "bearishAlertCount": 265
 }
