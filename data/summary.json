@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 74,
@@ -22,18 +29,11 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
+      "ticker": "PATH",
+      "name": "UiPath",
       "score": 72,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
       "ticker": "MU",
@@ -50,22 +50,22 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 72,
-      "market": "UK",
-      "capCategory": "Mid"
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "MRNA",
       "name": "Moderna",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "NTRA",
+      "name": "Natera",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -75,7 +75,7 @@
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
-      "score": 23,
+      "score": 22,
       "market": "DE",
       "capCategory": "Mid"
     },
@@ -96,20 +96,13 @@
     {
       "ticker": "VIV.PA",
       "name": "Vivendi",
-      "score": 25,
+      "score": 26,
       "market": "FR",
       "capCategory": "Small"
     },
     {
       "ticker": "TATACONSUM.NS",
       "name": "Tata Consumer Products",
-      "score": 26,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "SBILIFE.NS",
-      "name": "SBI Life Insurance",
       "score": 26,
       "market": "IN",
       "capCategory": "Large"
@@ -136,14 +129,27 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "FDM.L",
-      "name": "FDM Group",
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
       "score": 28,
-      "market": "UK",
-      "capCategory": "Small"
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "APTV",
+      "name": "Aptiv",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 75,
+      "market": "US"
+    },
     {
       "ticker": "TGT",
       "name": "Target",
@@ -157,18 +163,6 @@
       "market": "US"
     },
     {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "MU",
       "name": "Micron",
       "score": 72,
@@ -178,6 +172,12 @@
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
+      "score": 71,
       "market": "US"
     },
     {
@@ -199,10 +199,10 @@
       "market": "US"
     },
     {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 70,
-      "market": "US"
+      "ticker": "1398.HK",
+      "name": "ICBC",
+      "score": 71,
+      "market": "HK"
     }
   ],
   "topMidCap": [
@@ -213,21 +213,9 @@
       "market": "US"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 72,
-      "market": "UK"
-    },
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 72,
-      "market": "UK"
-    },
-    {
       "ticker": "PATH",
       "name": "UiPath",
-      "score": 69,
+      "score": 72,
       "market": "US"
     },
     {
@@ -249,6 +237,18 @@
       "market": "US"
     },
     {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 68,
+      "market": "UK"
+    },
+    {
       "ticker": "MTCH",
       "name": "Match Group",
       "score": 67,
@@ -261,29 +261,17 @@
       "market": "US"
     },
     {
-      "ticker": "ELF",
-      "name": "Elf Beauty",
-      "score": 66,
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
+      "score": 65,
       "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 65,
-      "market": "UK"
-    },
-    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 65,
-      "market": "UK"
-    },
-    {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
-      "score": 65,
+      "score": 70,
       "market": "UK"
     },
     {
@@ -301,13 +289,25 @@
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 63,
+      "score": 62,
       "market": "UK"
     },
     {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 63,
+      "ticker": "TRN.L",
+      "name": "Trainline",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "VCT.L",
+      "name": "Victrex",
+      "score": 62,
       "market": "UK"
     },
     {
@@ -317,19 +317,19 @@
       "market": "FR"
     },
     {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
+      "ticker": "CURY.L",
+      "name": "Currys",
       "score": 61,
       "market": "UK"
     },
     {
-      "ticker": "KNOS.L",
-      "name": "Kainos Group",
-      "score": 59,
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 60,
       "market": "UK"
     }
   ],
   "totalStocks": 860,
   "avgScore": 51,
-  "bearishAlertCount": 263
+  "bearishAlertCount": 268
 }
