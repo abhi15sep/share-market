@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 78,
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
       "ticker": "OGN",
       "name": "Organon & Co",
       "score": 74,
@@ -8,18 +15,11 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "TGT",
       "name": "Target",
       "score": 73,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Small"
     },
     {
       "ticker": "VLO",
@@ -29,15 +29,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
+      "ticker": "MRNA",
+      "name": "Moderna",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -57,6 +50,13 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 72,
@@ -64,8 +64,8 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
       "score": 71,
       "market": "US",
       "capCategory": "Large"
@@ -89,7 +89,7 @@
     {
       "ticker": "TTD",
       "name": "Trade Desk",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -145,26 +145,14 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 73,
-      "market": "US"
-    },
-    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 73,
       "market": "US"
     },
     {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
+      "ticker": "MRNA",
+      "name": "Moderna",
       "score": 72,
       "market": "US"
     },
@@ -181,8 +169,14 @@
       "market": "US"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
       "score": 71,
       "market": "US"
     },
@@ -203,6 +197,12 @@
       "name": "ICBC",
       "score": 71,
       "market": "HK"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 70,
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -219,21 +219,15 @@
       "market": "UK"
     },
     {
-      "ticker": "PATH",
-      "name": "UiPath",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "HIMS",
-      "name": "Hims & Hers Health",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "BRZE",
       "name": "Braze",
       "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "PATH",
+      "name": "UiPath",
+      "score": 68,
       "market": "US"
     },
     {
@@ -261,8 +255,14 @@
       "market": "US"
     },
     {
-      "ticker": "AMC",
-      "name": "AMC Entertainment",
+      "ticker": "GTLB",
+      "name": "GitLab",
+      "score": 65,
+      "market": "US"
+    },
+    {
+      "ticker": "MUR",
+      "name": "Murphy Oil",
       "score": 65,
       "market": "US"
     }
@@ -271,7 +271,37 @@
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 74,
+      "score": 78,
+      "market": "UK"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 66,
+      "market": "FR"
+    },
+    {
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
+      "score": 65,
+      "market": "US"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 65,
       "market": "UK"
     },
     {
@@ -287,21 +317,9 @@
       "market": "US"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 64,
-      "market": "UK"
-    },
-    {
       "ticker": "TRN.L",
       "name": "Trainline",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 62,
+      "score": 64,
       "market": "UK"
     },
     {
@@ -309,27 +327,9 @@
       "name": "Moneysupermarket.com",
       "score": 62,
       "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 62,
-      "market": "FR"
-    },
-    {
-      "ticker": "VCT.L",
-      "name": "Victrex",
-      "score": 61,
-      "market": "UK"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 60,
-      "market": "UK"
     }
   ],
-  "totalStocks": 860,
-  "avgScore": 51,
-  "bearishAlertCount": 263
+  "totalStocks": 859,
+  "avgScore": 52,
+  "bearishAlertCount": 264
 }
