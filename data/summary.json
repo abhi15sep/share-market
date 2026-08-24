@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 77,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "HOOD",
       "name": "Robinhood",
       "score": 75,
@@ -22,15 +29,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
+      "ticker": "EZJ.L",
+      "name": "easyJet",
       "score": 73,
       "market": "UK",
       "capCategory": "Mid"
@@ -75,7 +75,7 @@
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
-      "score": 22,
+      "score": 21,
       "market": "DE",
       "capCategory": "Mid"
     },
@@ -103,8 +103,15 @@
     {
       "ticker": "SBILIFE.NS",
       "name": "SBI Life Insurance",
-      "score": 26,
+      "score": 27,
       "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 28,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -113,13 +120,6 @@
       "score": 28,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "TATACONSUM.NS",
-      "name": "Tata Consumer Products",
-      "score": 29,
-      "market": "IN",
-      "capCategory": "Large"
     },
     {
       "ticker": "FDM.L",
@@ -187,6 +187,12 @@
       "market": "US"
     },
     {
+      "ticker": "JSWSTEEL.NS",
+      "name": "JSW Steel",
+      "score": 71,
+      "market": "IN"
+    },
+    {
       "ticker": "SNOW",
       "name": "Snowflake",
       "score": 70,
@@ -197,24 +203,18 @@
       "name": "EOG Resources",
       "score": 70,
       "market": "US"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 70,
-      "market": "US"
     }
   ],
   "topMidCap": [
     {
       "ticker": "RELY",
       "name": "Remitly Global",
-      "score": 74,
+      "score": 77,
       "market": "US"
     },
     {
-      "ticker": "SCT.L",
-      "name": "Softcat",
+      "ticker": "EZJ.L",
+      "name": "easyJet",
       "score": 73,
       "market": "UK"
     },
@@ -225,27 +225,21 @@
       "market": "US"
     },
     {
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 71,
+      "market": "UK"
+    },
+    {
       "ticker": "BRZE",
       "name": "Braze",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
-      "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "NWL",
-      "name": "Newell Brands",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "PATH",
       "name": "UiPath",
-      "score": 67,
+      "score": 68,
       "market": "US"
     },
     {
@@ -265,6 +259,12 @@
       "name": "Jet2",
       "score": 66,
       "market": "UK"
+    },
+    {
+      "ticker": "BME.L",
+      "name": "B&M European",
+      "score": 66,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
@@ -281,12 +281,6 @@
       "market": "US"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 64,
-      "market": "UK"
-    },
-    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
       "score": 64,
@@ -299,16 +293,16 @@
       "market": "FR"
     },
     {
-      "ticker": "VCT.L",
-      "name": "Victrex",
-      "score": 61,
-      "market": "UK"
-    },
-    {
       "ticker": "RPD",
       "name": "Rapid7",
       "score": 60,
       "market": "US"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 60,
+      "market": "UK"
     },
     {
       "ticker": "MONY.L",
@@ -317,19 +311,25 @@
       "market": "UK"
     },
     {
-      "ticker": "KNOS.L",
-      "name": "Kainos Group",
-      "score": 59,
+      "ticker": "BREE.L",
+      "name": "Breedon Group",
+      "score": 60,
       "market": "UK"
     },
     {
-      "ticker": "FOUR.L",
-      "name": "4imprint",
-      "score": 58,
+      "ticker": "VCT.L",
+      "name": "Victrex",
+      "score": 60,
+      "market": "UK"
+    },
+    {
+      "ticker": "KNOS.L",
+      "name": "Kainos Group",
+      "score": 59,
       "market": "UK"
     }
   ],
   "totalStocks": 859,
   "avgScore": 52,
-  "bearishAlertCount": 262
+  "bearishAlertCount": 264
 }
