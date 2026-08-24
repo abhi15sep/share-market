@@ -87,13 +87,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
-      "score": 25,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "JOBY",
       "name": "Joby Aviation",
       "score": 26,
@@ -120,6 +113,13 @@
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "TTD",
@@ -181,16 +181,16 @@
       "market": "US"
     },
     {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "1398.HK",
       "name": "ICBC",
       "score": 69,
       "market": "HK"
-    },
-    {
-      "ticker": "SCHW",
-      "name": "Charles Schwab",
-      "score": 68,
-      "market": "US"
     },
     {
       "ticker": "HOOD",
@@ -199,8 +199,8 @@
       "market": "US"
     },
     {
-      "ticker": "DLTR",
-      "name": "Dollar Tree",
+      "ticker": "MU",
+      "name": "Micron",
       "score": 68,
       "market": "US"
     }
@@ -239,6 +239,12 @@
     {
       "ticker": "OGN",
       "name": "Organon & Co",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
       "score": 68,
       "market": "US"
     },
@@ -249,20 +255,14 @@
       "market": "UK"
     },
     {
-      "ticker": "NWL",
-      "name": "Newell Brands",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "ESTC",
       "name": "Elastic NV",
       "score": 66,
       "market": "US"
     },
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
+      "ticker": "GTLB",
+      "name": "GitLab",
       "score": 66,
       "market": "US"
     }
@@ -287,12 +287,6 @@
       "market": "UK"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "TGT",
       "name": "Target",
       "score": 68,
@@ -311,25 +305,31 @@
       "market": "FR"
     },
     {
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
+      "score": 65,
+      "market": "US"
+    },
+    {
       "ticker": "ALV.DE",
       "name": "Allianz",
       "score": 65,
       "market": "DE"
     },
     {
-      "ticker": "AMC",
-      "name": "AMC Entertainment",
-      "score": 64,
-      "market": "US"
-    },
-    {
       "ticker": "CURY.L",
       "name": "Currys",
       "score": 64,
       "market": "UK"
+    },
+    {
+      "ticker": "AMH",
+      "name": "American Homes 4 Rent",
+      "score": 63,
+      "market": "US"
     }
   ],
   "totalStocks": 859,
   "avgScore": 51,
-  "bearishAlertCount": 257
+  "bearishAlertCount": 254
 }
