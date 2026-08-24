@@ -1,9 +1,16 @@
 {
   "topOverall": [
     {
+      "ticker": "BRZE",
+      "name": "Braze",
+      "score": 76,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 74,
+      "score": 75,
       "market": "US",
       "capCategory": "Large"
     },
@@ -19,13 +26,6 @@
       "name": "Softcat",
       "score": 74,
       "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BRZE",
-      "name": "Braze",
-      "score": 73,
-      "market": "US",
       "capCategory": "Mid"
     },
     {
@@ -57,28 +57,21 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "JSWSTEEL.NS",
-      "name": "JSW Steel",
-      "score": 71,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BAC",
-      "name": "Bank of America",
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
       "score": 70,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 70,
+      "market": "FR",
+      "capCategory": "Small"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
@@ -94,32 +87,18 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "VIV.PA",
       "name": "Vivendi",
       "score": 27,
       "market": "FR",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "SBILIFE.NS",
-      "name": "SBI Life Insurance",
-      "score": 27,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "ONON",
-      "name": "On Holding",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "ALB",
-      "name": "Albemarle",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "TTD",
@@ -129,17 +108,38 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
+      "ticker": "TATACONSUM.NS",
+      "name": "Tata Consumer Products",
       "score": 28,
-      "market": "US",
+      "market": "IN",
       "capCategory": "Large"
     },
     {
-      "ticker": "TATACONSUM.NS",
-      "name": "Tata Consumer Products",
+      "ticker": "ONON",
+      "name": "On Holding",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "FDM.L",
+      "name": "FDM Group",
       "score": 29,
-      "market": "IN",
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "score": 29,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -147,7 +147,7 @@
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 74,
+      "score": 75,
       "market": "US"
     },
     {
@@ -163,26 +163,20 @@
       "market": "UK"
     },
     {
-      "ticker": "JSWSTEEL.NS",
-      "name": "JSW Steel",
-      "score": 71,
-      "market": "IN"
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "score": 70,
+      "market": "US"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 70,
+      "ticker": "DLTR",
+      "name": "Dollar Tree",
+      "score": 69,
       "market": "US"
     },
     {
       "ticker": "WBS",
       "name": "Webster Financial",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "RVMD",
-      "name": "Revolution Medicines",
       "score": 69,
       "market": "US"
     },
@@ -193,19 +187,31 @@
       "market": "HK"
     },
     {
-      "ticker": "HOOD",
-      "name": "Robinhood",
+      "ticker": "EXPE",
+      "name": "Expedia",
       "score": 68,
       "market": "US"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
+      "ticker": "AAL.L",
+      "name": "Anglo American",
       "score": 68,
-      "market": "US"
+      "market": "UK"
+    },
+    {
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
+      "score": 68,
+      "market": "HK"
     }
   ],
   "topMidCap": [
+    {
+      "ticker": "BRZE",
+      "name": "Braze",
+      "score": 76,
+      "market": "US"
+    },
     {
       "ticker": "EZJ.L",
       "name": "easyJet",
@@ -217,12 +223,6 @@
       "name": "Softcat",
       "score": 74,
       "market": "UK"
-    },
-    {
-      "ticker": "BRZE",
-      "name": "Braze",
-      "score": 73,
-      "market": "US"
     },
     {
       "ticker": "BEZ.L",
@@ -243,6 +243,12 @@
       "market": "US"
     },
     {
+      "ticker": "GTLB",
+      "name": "GitLab",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "MTCH",
       "name": "Match Group",
       "score": 68,
@@ -257,13 +263,7 @@
     {
       "ticker": "ESTC",
       "name": "Elastic NV",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "GTLB",
-      "name": "GitLab",
-      "score": 66,
+      "score": 67,
       "market": "US"
     }
   ],
@@ -273,6 +273,18 @@
       "name": "Michelin",
       "score": 70,
       "market": "FR"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "BYIT.L",
@@ -287,15 +299,9 @@
       "market": "UK"
     },
     {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "HPQ",
       "name": "HP Inc",
-      "score": 67,
+      "score": 68,
       "market": "US"
     },
     {
@@ -321,12 +327,6 @@
       "name": "Currys",
       "score": 64,
       "market": "UK"
-    },
-    {
-      "ticker": "AMH",
-      "name": "American Homes 4 Rent",
-      "score": 63,
-      "market": "US"
     }
   ],
   "totalStocks": 859,
