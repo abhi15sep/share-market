@@ -15,13 +15,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 74,
@@ -31,65 +24,65 @@
     {
       "ticker": "TGT",
       "name": "Target",
-      "score": 73,
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "BMY",
-      "name": "Bristol-Myers Squibb",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
       "score": 70,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
-      "ticker": "A",
-      "name": "Agilent Technologies",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "AMGN",
-      "name": "Amgen",
+      "ticker": "WBS",
+      "name": "Webster Financial",
       "score": 69,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "ALL",
-      "name": "Allstate",
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
       "score": 69,
-      "market": "US",
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "score": 69,
+      "market": "DE",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "TTD",
-      "name": "Trade Desk",
-      "score": 18,
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "ASTS",
-      "name": "AST SpaceMobile",
-      "score": 20,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
-      "score": 21,
+      "ticker": "TTD",
+      "name": "Trade Desk",
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -103,23 +96,9 @@
     {
       "ticker": "JOBY",
       "name": "Joby Aviation",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "score": 24,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "VIV.PA",
@@ -129,18 +108,39 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "LCID",
-      "name": "Lucid Group",
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
       "score": 26,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 27,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "SNPS",
-      "name": "Synopsys",
-      "score": 26,
+      "ticker": "MCHP",
+      "name": "Microchip Technology",
+      "score": 27,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -151,57 +151,57 @@
       "market": "UK"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 74,
-      "market": "US"
-    },
-    {
       "ticker": "TGT",
       "name": "Target",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "BMY",
-      "name": "Bristol-Myers Squibb",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "A",
-      "name": "Agilent Technologies",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "AMGN",
-      "name": "Amgen",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "ALL",
-      "name": "Allstate",
-      "score": 69,
+      "score": 72,
       "market": "US"
     },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "WBS",
+      "name": "Webster Financial",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "FROG",
-      "name": "JFrog",
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
       "score": 69,
+      "market": "DE"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "DLTR",
+      "name": "Dollar Tree",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 68,
       "market": "US"
     }
   ],
@@ -219,9 +219,15 @@
       "market": "UK"
     },
     {
-      "ticker": "IMAX",
-      "name": "IMAX Corp",
-      "score": 69,
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 68,
       "market": "US"
     },
     {
@@ -243,26 +249,20 @@
       "market": "UK"
     },
     {
-      "ticker": "PATH",
-      "name": "UiPath",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "BRZE",
-      "name": "Braze",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "NWL",
-      "name": "Newell Brands",
-      "score": 66,
-      "market": "US"
-    },
-    {
       "ticker": "JET2.L",
       "name": "Jet2",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
+      "score": 66,
+      "market": "UK"
+    },
+    {
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
       "score": 66,
       "market": "UK"
     }
@@ -331,5 +331,5 @@
   ],
   "totalStocks": 859,
   "avgScore": 51,
-  "bearishAlertCount": 274
+  "bearishAlertCount": 276
 }
