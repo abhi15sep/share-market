@@ -61,7 +61,7 @@
       "name": "Target",
       "score": 72,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
     },
     {
       "ticker": "SCT.L",
@@ -94,13 +94,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "JOBY",
       "name": "Joby Aviation",
       "score": 27,
@@ -111,6 +104,13 @@
       "ticker": "TTD",
       "name": "Trade Desk",
       "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ONON",
+      "name": "On Holding",
+      "score": 28,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -163,6 +163,12 @@
       "market": "US"
     },
     {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "DLTR",
       "name": "Dollar Tree",
       "score": 71,
@@ -193,15 +199,9 @@
       "market": "US"
     },
     {
-      "ticker": "EXPE",
-      "name": "Expedia",
-      "score": 70,
-      "market": "US"
-    },
-    {
       "ticker": "SCHW",
       "name": "Charles Schwab",
-      "score": 69,
+      "score": 70,
       "market": "US"
     }
   ],
@@ -269,40 +269,10 @@
   ],
   "topSmallCap": [
     {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "MONY.L",
-      "name": "Moneysupermarket.com",
-      "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
       "score": 68,
       "market": "UK"
-    },
-    {
-      "ticker": "AMC",
-      "name": "AMC Entertainment",
-      "score": 66,
-      "market": "US"
     },
     {
       "ticker": "JDW.L",
@@ -317,19 +287,49 @@
       "market": "UK"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 65,
-      "market": "FR"
-    },
-    {
       "ticker": "CURY.L",
       "name": "Currys",
       "score": 64,
       "market": "UK"
+    },
+    {
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "VCT.L",
+      "name": "Victrex",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 62,
+      "market": "FR"
+    },
+    {
+      "ticker": "BYND",
+      "name": "Beyond Meat",
+      "score": 61,
+      "market": "US"
+    },
+    {
+      "ticker": "KNOS.L",
+      "name": "Kainos Group",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "RPD",
+      "name": "Rapid7",
+      "score": 59,
+      "market": "US"
     }
   ],
   "totalStocks": 859,
   "avgScore": 52,
-  "bearishAlertCount": 246
+  "bearishAlertCount": 250
 }
