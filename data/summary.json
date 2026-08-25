@@ -94,13 +94,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "JOBY",
       "name": "Joby Aviation",
       "score": 27,
@@ -129,17 +122,24 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "TATACONSUM.NS",
-      "name": "Tata Consumer Products",
+      "ticker": "BRBY.L",
+      "name": "Burberry",
       "score": 29,
-      "market": "IN",
-      "capCategory": "Large"
+      "market": "UK",
+      "capCategory": "Mid"
     },
     {
-      "ticker": "SBILIFE.NS",
-      "name": "SBI Life Insurance",
+      "ticker": "ONON",
+      "name": "On Holding",
       "score": 29,
-      "market": "IN",
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle",
+      "score": 29,
+      "market": "US",
       "capCategory": "Large"
     }
   ],
@@ -169,6 +169,12 @@
       "market": "US"
     },
     {
+      "ticker": "V",
+      "name": "Visa",
+      "score": 71,
+      "market": "US"
+    },
+    {
       "ticker": "DLTR",
       "name": "Dollar Tree",
       "score": 71,
@@ -184,12 +190,6 @@
       "ticker": "RVMD",
       "name": "Revolution Medicines",
       "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "V",
-      "name": "Visa",
-      "score": 70,
       "market": "US"
     },
     {
@@ -281,14 +281,14 @@
       "market": "UK"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 64,
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
+      "ticker": "CURY.L",
+      "name": "Currys",
       "score": 64,
       "market": "UK"
     },
@@ -317,19 +317,19 @@
       "market": "US"
     },
     {
-      "ticker": "KNOS.L",
-      "name": "Kainos Group",
+      "ticker": "RPD",
+      "name": "Rapid7",
       "score": 60,
-      "market": "UK"
+      "market": "US"
     },
     {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
+      "ticker": "KNOS.L",
+      "name": "Kainos Group",
       "score": 60,
       "market": "UK"
     }
   ],
   "totalStocks": 859,
   "avgScore": 52,
-  "bearishAlertCount": 249
+  "bearishAlertCount": 250
 }
