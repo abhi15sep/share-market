@@ -17,7 +17,7 @@
     {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 76,
+      "score": 75,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -61,7 +61,7 @@
       "name": "Target",
       "score": 72,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Small"
     },
     {
       "ticker": "SCT.L",
@@ -92,6 +92,13 @@
       "score": 26,
       "market": "FR",
       "capCategory": "Small"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "JOBY",
@@ -134,13 +141,6 @@
       "score": 29,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "ONON",
-      "name": "On Holding",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -160,12 +160,6 @@
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 74,
-      "market": "US"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 72,
       "market": "US"
     },
     {
@@ -203,6 +197,12 @@
       "name": "Expedia",
       "score": 70,
       "market": "US"
+    },
+    {
+      "ticker": "SCHW",
+      "name": "Charles Schwab",
+      "score": 69,
+      "market": "US"
     }
   ],
   "topMidCap": [
@@ -215,7 +215,7 @@
     {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 76,
+      "score": 75,
       "market": "US"
     },
     {
@@ -269,10 +269,28 @@
   ],
   "topSmallCap": [
     {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "MONY.L",
       "name": "Moneysupermarket.com",
       "score": 70,
       "market": "UK"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "BYIT.L",
@@ -281,55 +299,37 @@
       "market": "UK"
     },
     {
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
+      "score": 66,
+      "market": "US"
+    },
+    {
       "ticker": "JDW.L",
       "name": "J D Wetherspoon",
       "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 64,
-      "market": "UK"
-    },
-    {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 64,
+      "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "VCT.L",
-      "name": "Victrex",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 62,
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 65,
       "market": "FR"
     },
     {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 61,
-      "market": "US"
-    },
-    {
-      "ticker": "KNOS.L",
-      "name": "Kainos Group",
-      "score": 61,
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 64,
       "market": "UK"
     }
   ],
   "totalStocks": 859,
   "avgScore": 52,
-  "bearishAlertCount": 248
+  "bearishAlertCount": 246
 }
