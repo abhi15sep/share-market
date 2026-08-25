@@ -1,13 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "SCHW",
-      "name": "Charles Schwab",
-      "score": 74,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 74,
@@ -50,8 +43,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ALL",
-      "name": "Allstate",
+      "ticker": "SCHW",
+      "name": "Charles Schwab",
       "score": 72,
       "market": "US",
       "capCategory": "Large"
@@ -64,21 +57,21 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
+      "ticker": "EZJ.L",
+      "name": "easyJet",
       "score": 72,
-      "market": "US",
+      "market": "UK",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "DLTR",
+      "name": "Dollar Tree",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "bottomOverall": [
-    {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
-      "score": 23,
-      "market": "US",
-      "capCategory": "Mid"
-    },
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
@@ -94,8 +87,8 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
@@ -108,13 +101,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "TTD",
-      "name": "Trade Desk",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "ASTS",
       "name": "AST SpaceMobile",
       "score": 27,
@@ -122,11 +108,25 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "TTD",
+      "name": "Trade Desk",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "TATACONSUM.NS",
       "name": "Tata Consumer Products",
       "score": 28,
       "market": "IN",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "score": 29,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "ISRG",
@@ -144,12 +144,6 @@
     }
   ],
   "topLargeCap": [
-    {
-      "ticker": "SCHW",
-      "name": "Charles Schwab",
-      "score": 74,
-      "market": "US"
-    },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
@@ -169,8 +163,8 @@
       "market": "UK"
     },
     {
-      "ticker": "ALL",
-      "name": "Allstate",
+      "ticker": "SCHW",
+      "name": "Charles Schwab",
       "score": 72,
       "market": "US"
     },
@@ -187,20 +181,26 @@
       "market": "US"
     },
     {
-      "ticker": "EOG",
-      "name": "EOG Resources",
+      "ticker": "A",
+      "name": "Agilent Technologies",
       "score": 70,
       "market": "US"
     },
     {
-      "ticker": "SJM",
-      "name": "J.M. Smucker",
-      "score": 70,
+      "ticker": "ALL",
+      "name": "Allstate",
+      "score": 69,
       "market": "US"
     },
     {
       "ticker": "BMY",
       "name": "Bristol-Myers Squibb",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "WBS",
+      "name": "Webster Financial",
       "score": 69,
       "market": "US"
     }
@@ -219,12 +219,6 @@
       "market": "UK"
     },
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 72,
@@ -239,7 +233,13 @@
     {
       "ticker": "MTCH",
       "name": "Match Group",
-      "score": 71,
+      "score": 70,
+      "market": "US"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 69,
       "market": "US"
     },
     {
