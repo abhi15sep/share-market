@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-24T21:37:11.224Z",
+  "lastUpdated": "2026-08-25T07:49:59.525Z",
   "stockCount": 859,
-  "bearishAlerts": 250,
-  "newsCount": 580,
+  "bearishAlerts": 253,
+  "newsCount": 565,
   "marketRegime": {
     "us": {
       "index": "S&P 500",
@@ -16,43 +16,43 @@
     },
     "uk": {
       "index": "FTSE 100",
-      "price": 10854.32,
-      "sma50": 10660.28,
-      "sma200": 10310.88,
-      "changeFromHigh": -0.52,
+      "price": 10882.08,
+      "sma50": 10668.04,
+      "sma200": 10316.87,
+      "changeFromHigh": -0.26,
       "distributionDays": 2,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "in": {
       "index": "Nifty 50",
-      "price": 24219.05,
-      "sma50": 24182.03,
-      "sma200": 24692.56,
-      "changeFromHigh": -8.01,
+      "price": 24133.4,
+      "sma50": 24199.54,
+      "sma200": 24676.32,
+      "changeFromHigh": -8.34,
       "distributionDays": 2,
       "regime": "correction",
       "signal": "Price below SMA200 — trend weakening"
     },
     "eu": {
       "index": "DAX 40",
-      "price": 26106.6,
-      "sma50": 25469.13,
-      "sma200": 24560.31,
-      "changeFromHigh": -1.26,
+      "price": 26211.54,
+      "sma50": 25495.15,
+      "sma200": 24572.7,
+      "changeFromHigh": -0.87,
       "distributionDays": 2,
       "regime": "bull",
       "signal": "Price > SMA50 > SMA200 — confirmed uptrend"
     },
     "asia": {
       "index": "Nikkei 225",
-      "price": 65528.09,
-      "sma50": 67358.47,
-      "sma200": 58247.49,
-      "changeFromHigh": -9.45,
-      "distributionDays": 6,
-      "regime": "correction",
-      "signal": "6 distribution days in 25 sessions — selling pressure"
+      "price": 65856.43,
+      "sma50": 67381.41,
+      "sma200": 58400.76,
+      "changeFromHigh": -9,
+      "distributionDays": 5,
+      "regime": "bull",
+      "signal": "Price above SMA200 — uptrend intact"
     },
     "overall": "correction",
     "summary": "Markets showing weakness. Be selective, reduce position sizes, and tighten stops."

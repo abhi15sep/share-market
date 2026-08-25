@@ -1,13 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 78,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "BRZE",
       "name": "Braze",
       "score": 77,
@@ -24,9 +17,23 @@
     {
       "ticker": "ETSY",
       "name": "Etsy",
+      "score": 76,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
       "score": 75,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "ADM.L",
+      "name": "Admiral Group",
+      "score": 75,
+      "market": "UK",
+      "capCategory": "Large"
     },
     {
       "ticker": "MPC",
@@ -45,14 +52,7 @@
     {
       "ticker": "EZJ.L",
       "name": "easyJet",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 74,
+      "score": 73,
       "market": "UK",
       "capCategory": "Mid"
     },
@@ -64,18 +64,18 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
+      "ticker": "SCT.L",
+      "name": "Softcat",
       "score": 72,
       "market": "UK",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
-      "score": 24,
+      "score": 21,
       "market": "DE",
       "capCategory": "Mid"
     },
@@ -89,7 +89,7 @@
     {
       "ticker": "VIV.PA",
       "name": "Vivendi",
-      "score": 27,
+      "score": 26,
       "market": "FR",
       "capCategory": "Small"
     },
@@ -101,15 +101,15 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "TTD",
-      "name": "Trade Desk",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "TATACONSUM.NS",
       "name": "Tata Consumer Products",
+      "score": 28,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SBILIFE.NS",
+      "name": "SBI Life Insurance",
       "score": 28,
       "market": "IN",
       "capCategory": "Large"
@@ -129,18 +129,18 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "TTD",
+      "name": "Trade Desk",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "FDM.L",
       "name": "FDM Group",
       "score": 29,
       "market": "UK",
       "capCategory": "Small"
-    },
-    {
-      "ticker": "ONON",
-      "name": "On Holding",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
@@ -151,16 +151,16 @@
       "market": "US"
     },
     {
+      "ticker": "ADM.L",
+      "name": "Admiral Group",
+      "score": 75,
+      "market": "UK"
+    },
+    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 74,
       "market": "US"
-    },
-    {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
-      "score": 72,
-      "market": "UK"
     },
     {
       "ticker": "DLTR",
@@ -181,6 +181,12 @@
       "market": "US"
     },
     {
+      "ticker": "V",
+      "name": "Visa",
+      "score": 70,
+      "market": "US"
+    },
+    {
       "ticker": "EXPE",
       "name": "Expedia",
       "score": 70,
@@ -193,12 +199,6 @@
       "market": "US"
     },
     {
-      "ticker": "V",
-      "name": "Visa",
-      "score": 69,
-      "market": "US"
-    },
-    {
       "ticker": "SCHW",
       "name": "Charles Schwab",
       "score": 69,
@@ -206,12 +206,6 @@
     }
   ],
   "topMidCap": [
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 78,
-      "market": "US"
-    },
     {
       "ticker": "BRZE",
       "name": "Braze",
@@ -221,6 +215,12 @@
     {
       "ticker": "ETSY",
       "name": "Etsy",
+      "score": 76,
+      "market": "US"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
       "score": 75,
       "market": "US"
     },
@@ -233,20 +233,20 @@
     {
       "ticker": "EZJ.L",
       "name": "easyJet",
-      "score": 74,
+      "score": 73,
       "market": "UK"
     },
     {
       "ticker": "SCT.L",
       "name": "Softcat",
-      "score": 74,
+      "score": 72,
       "market": "UK"
     },
     {
-      "ticker": "BEZ.L",
-      "name": "Beazley",
-      "score": 72,
-      "market": "UK"
+      "ticker": "IMAX",
+      "name": "IMAX Corp",
+      "score": 71,
+      "market": "US"
     },
     {
       "ticker": "GTLB",
@@ -275,16 +275,16 @@
       "market": "US"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
       "score": 70,
-      "market": "US"
+      "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 70,
-      "market": "FR"
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 69,
+      "market": "US"
     },
     {
       "ticker": "HPQ",
@@ -295,20 +295,8 @@
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 69,
-      "market": "UK"
-    },
-    {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
       "score": 67,
-      "market": "FR"
+      "market": "UK"
     },
     {
       "ticker": "AMC",
@@ -317,19 +305,31 @@
       "market": "US"
     },
     {
-      "ticker": "ALV.DE",
-      "name": "Allianz",
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
       "score": 65,
-      "market": "DE"
+      "market": "UK"
+    },
+    {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 65,
+      "market": "FR"
     },
     {
       "ticker": "CURY.L",
       "name": "Currys",
       "score": 64,
       "market": "UK"
+    },
+    {
+      "ticker": "ALV.DE",
+      "name": "Allianz",
+      "score": 64,
+      "market": "DE"
     }
   ],
   "totalStocks": 859,
   "avgScore": 52,
-  "bearishAlertCount": 250
+  "bearishAlertCount": 253
 }
