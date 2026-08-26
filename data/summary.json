@@ -1,8 +1,15 @@
 {
   "topOverall": [
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 75,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 74,
       "market": "US",
       "capCategory": "Large"
@@ -15,20 +22,6 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 74,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 73,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "VLO",
       "name": "Valero Energy",
       "score": 73,
@@ -36,10 +29,10 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 73,
-      "market": "UK",
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -50,15 +43,15 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "PSX",
-      "name": "Phillips 66",
+      "ticker": "RELY",
+      "name": "Remitly Global",
       "score": 72,
       "market": "US",
-      "capCategory": "Large"
+      "capCategory": "Mid"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
+      "ticker": "BME.L",
+      "name": "B&M European",
       "score": 72,
       "market": "UK",
       "capCategory": "Mid"
@@ -69,27 +62,27 @@
       "score": 71,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
     {
       "ticker": "PAH3.DE",
       "name": "Porsche Auto Holding",
-      "score": 24,
+      "score": 21,
       "market": "DE",
       "capCategory": "Mid"
     },
     {
-      "ticker": "FDM.L",
-      "name": "FDM Group",
-      "score": 25,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "BLDR",
       "name": "Builders FirstSource",
-      "score": 25,
+      "score": 23,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -101,6 +94,20 @@
       "capCategory": "Small"
     },
     {
+      "ticker": "TATACONSUM.NS",
+      "name": "Tata Consumer Products",
+      "score": 26,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BRBY.L",
+      "name": "Burberry",
+      "score": 27,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "ASTS",
       "name": "AST SpaceMobile",
       "score": 27,
@@ -108,18 +115,25 @@
       "capCategory": "Large"
     },
     {
+      "ticker": "SBILIFE.NS",
+      "name": "SBI Life Insurance",
+      "score": 28,
+      "market": "IN",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "TTD",
       "name": "Trade Desk",
-      "score": 27,
+      "score": 28,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "TATACONSUM.NS",
-      "name": "Tata Consumer Products",
-      "score": 28,
-      "market": "IN",
-      "capCategory": "Large"
+      "ticker": "FDM.L",
+      "name": "FDM Group",
+      "score": 29,
+      "market": "UK",
+      "capCategory": "Small"
     },
     {
       "ticker": "RGTI",
@@ -127,26 +141,18 @@
       "score": 29,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "LCID",
-      "name": "Lucid Group",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 75,
+      "market": "US"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 74,
       "market": "US"
     },
@@ -157,20 +163,14 @@
       "market": "US"
     },
     {
-      "ticker": "ADM.L",
-      "name": "Admiral Group",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 73,
-      "market": "UK"
+      "market": "US"
     },
     {
       "ticker": "SCHW",
       "name": "Charles Schwab",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
       "score": 72,
       "market": "US"
     },
@@ -187,20 +187,20 @@
       "market": "US"
     },
     {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "ALL",
       "name": "Allstate",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "BMY",
-      "name": "Bristol-Myers Squibb",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "WBS",
-      "name": "Webster Financial",
       "score": 69,
       "market": "US"
     }
@@ -213,14 +213,14 @@
       "market": "US"
     },
     {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 74,
-      "market": "UK"
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 72,
+      "market": "US"
     },
     {
-      "ticker": "EZJ.L",
-      "name": "easyJet",
+      "ticker": "BME.L",
+      "name": "B&M European",
       "score": 72,
       "market": "UK"
     },
@@ -233,25 +233,25 @@
     {
       "ticker": "MTCH",
       "name": "Match Group",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
       "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "BME.L",
-      "name": "B&M European",
-      "score": 69,
       "market": "UK"
     },
     {
-      "ticker": "JET2.L",
-      "name": "Jet2",
-      "score": 67,
+      "ticker": "RARE",
+      "name": "Ultragenyx Pharmaceutical",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 68,
       "market": "UK"
     },
     {
@@ -269,40 +269,16 @@
   ],
   "topSmallCap": [
     {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 71,
-      "market": "UK"
-    },
-    {
-      "ticker": "ALV.DE",
-      "name": "Allianz",
-      "score": 71,
-      "market": "DE"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 70,
-      "market": "UK"
-    },
-    {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 70,
-      "market": "FR"
-    },
-    {
       "ticker": "MU",
       "name": "Micron",
       "score": 69,
       "market": "US"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 69,
+      "market": "UK"
     },
     {
       "ticker": "AMC",
@@ -311,25 +287,49 @@
       "market": "US"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "ML.PA",
+      "name": "Michelin",
       "score": 68,
       "market": "FR"
     },
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
+      "ticker": "PUB.PA",
+      "name": "Publicis",
       "score": 66,
-      "market": "UK"
+      "market": "FR"
     },
     {
       "ticker": "HPQ",
       "name": "HP Inc",
       "score": 65,
       "market": "US"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 62,
+      "market": "UK"
     }
   ],
   "totalStocks": 859,
-  "avgScore": 52,
-  "bearishAlertCount": 269
+  "avgScore": 51,
+  "bearishAlertCount": 262
 }
