@@ -1,6 +1,13 @@
 {
   "topOverall": [
     {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 77,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "DBK.DE",
       "name": "Deutsche Bank",
       "score": 77,
@@ -8,8 +15,8 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
       "score": 76,
       "market": "US",
       "capCategory": "Large"
@@ -20,13 +27,6 @@
       "score": 76,
       "market": "UK",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Large"
     },
     {
       "ticker": "PSX",
@@ -43,6 +43,13 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 72,
@@ -52,44 +59,23 @@
     {
       "ticker": "TGT",
       "name": "Target",
-      "score": 70,
+      "score": 71,
       "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "FRAS.L",
-      "name": "Frasers Group",
+      "ticker": "HPQ",
+      "name": "HP Inc",
       "score": 70,
-      "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 70,
-      "market": "UK",
+      "market": "US",
       "capCategory": "Small"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "ASTS",
-      "name": "AST SpaceMobile",
-      "score": 18,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "BLDR",
       "name": "Builders FirstSource",
       "score": 22,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "JOBY",
-      "name": "Joby Aviation",
-      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
@@ -101,8 +87,22 @@
       "capCategory": "Mid"
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
+      "ticker": "CAVA",
+      "name": "Cava Group",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "JOBY",
+      "name": "Joby Aviation",
       "score": 25,
       "market": "US",
       "capCategory": "Mid"
@@ -122,13 +122,6 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "TATACONSUM.NS",
-      "name": "Tata Consumer Products",
-      "score": 27,
-      "market": "IN",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "FDM.L",
       "name": "FDM Group",
       "score": 27,
@@ -136,14 +129,27 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "CELH",
-      "name": "Celsius Holdings",
+      "ticker": "TTD",
+      "name": "Trade Desk",
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "score": 28,
+      "market": "US",
+      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 77,
+      "market": "US"
+    },
     {
       "ticker": "DBK.DE",
       "name": "Deutsche Bank",
@@ -151,15 +157,9 @@
       "market": "DE"
     },
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 76,
-      "market": "US"
-    },
-    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 75,
+      "score": 76,
       "market": "US"
     },
     {
@@ -171,14 +171,14 @@
     {
       "ticker": "TGT",
       "name": "Target",
-      "score": 70,
+      "score": 71,
       "market": "US"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
+      "ticker": "GEN",
+      "name": "Gen Digital",
       "score": 70,
-      "market": "FR"
+      "market": "US"
     },
     {
       "ticker": "2269.HK",
@@ -219,6 +219,12 @@
       "market": "UK"
     },
     {
+      "ticker": "OGN",
+      "name": "Organon & Co",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "EZJ.L",
       "name": "easyJet",
       "score": 72,
@@ -237,26 +243,14 @@
       "market": "US"
     },
     {
-      "ticker": "AMC",
-      "name": "AMC Entertainment",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "PATH",
       "name": "UiPath",
-      "score": 67,
+      "score": 68,
       "market": "US"
     },
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health",
       "score": 67,
       "market": "US"
     },
@@ -265,9 +259,21 @@
       "name": "Remitly Global",
       "score": 67,
       "market": "US"
+    },
+    {
+      "ticker": "JET2.L",
+      "name": "Jet2",
+      "score": 67,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 70,
+      "market": "US"
+    },
     {
       "ticker": "BYIT.L",
       "name": "Bytes Technology",
@@ -275,10 +281,28 @@
       "market": "UK"
     },
     {
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 70,
+      "market": "FR"
+    },
+    {
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
+      "score": 69,
+      "market": "US"
+    },
+    {
       "ticker": "JDW.L",
       "name": "J D Wetherspoon",
       "score": 69,
       "market": "UK"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 68,
+      "market": "US"
     },
     {
       "ticker": "VCT.L",
@@ -303,33 +327,9 @@
       "name": "Renew Holdings",
       "score": 66,
       "market": "UK"
-    },
-    {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 64,
-      "market": "US"
-    },
-    {
-      "ticker": "DOM.L",
-      "name": "Domino's Pizza Group",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "KNOS.L",
-      "name": "Kainos Group",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "CMCX.L",
-      "name": "CMC Markets",
-      "score": 64,
-      "market": "UK"
     }
   ],
   "totalStocks": 859,
-  "avgScore": 51,
-  "bearishAlertCount": 265
+  "avgScore": 52,
+  "bearishAlertCount": 266
 }
