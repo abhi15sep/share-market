@@ -1,13 +1,6 @@
 {
   "topOverall": [
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 74,
@@ -29,8 +22,22 @@
       "capCategory": "Mid"
     },
     {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "score": 74,
+      "market": "DE",
+      "capCategory": "Large"
+    },
+    {
       "ticker": "TGT",
       "name": "Target",
+      "score": 73,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 73,
       "market": "US",
       "capCategory": "Large"
@@ -59,13 +66,6 @@
     {
       "ticker": "ETSY",
       "name": "Etsy",
-      "score": 71,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "MTCH",
-      "name": "Match Group",
       "score": 71,
       "market": "US",
       "capCategory": "Mid"
@@ -101,13 +101,6 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "FDM.L",
-      "name": "FDM Group",
-      "score": 27,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "BRBY.L",
       "name": "Burberry",
       "score": 27,
@@ -120,6 +113,13 @@
       "score": 27,
       "market": "US",
       "capCategory": "Large"
+    },
+    {
+      "ticker": "FDM.L",
+      "name": "FDM Group",
+      "score": 28,
+      "market": "UK",
+      "capCategory": "Small"
     },
     {
       "ticker": "TTD",
@@ -145,20 +145,26 @@
   ],
   "topLargeCap": [
     {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "score": 75,
-      "market": "US"
-    },
-    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 74,
       "market": "US"
     },
     {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "score": 74,
+      "market": "DE"
+    },
+    {
       "ticker": "TGT",
       "name": "Target",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
       "score": 73,
       "market": "US"
     },
@@ -175,12 +181,6 @@
       "market": "US"
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "score": 71,
-      "market": "DE"
-    },
-    {
       "ticker": "SCHW",
       "name": "Charles Schwab",
       "score": 70,
@@ -193,8 +193,8 @@
       "market": "US"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
+      "ticker": "MRNA",
+      "name": "Moderna",
       "score": 69,
       "market": "US"
     },
@@ -233,7 +233,7 @@
     {
       "ticker": "MTCH",
       "name": "Match Group",
-      "score": 71,
+      "score": 70,
       "market": "US"
     },
     {
@@ -249,12 +249,6 @@
       "market": "UK"
     },
     {
-      "ticker": "AMC",
-      "name": "AMC Entertainment",
-      "score": 68,
-      "market": "US"
-    },
-    {
       "ticker": "FRAS.L",
       "name": "Frasers Group",
       "score": 68,
@@ -265,14 +259,26 @@
       "name": "Lyft",
       "score": 66,
       "market": "US"
+    },
+    {
+      "ticker": "BRZE",
+      "name": "Braze",
+      "score": 66,
+      "market": "US"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 70,
-      "market": "UK"
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 69,
+      "market": "US"
+    },
+    {
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
+      "score": 68,
+      "market": "US"
     },
     {
       "ticker": "MONY.L",
@@ -287,49 +293,43 @@
       "market": "UK"
     },
     {
-      "ticker": "ML.PA",
-      "name": "Michelin",
-      "score": 65,
+      "ticker": "PUB.PA",
+      "name": "Publicis",
+      "score": 66,
       "market": "FR"
     },
     {
-      "ticker": "CURY.L",
-      "name": "Currys",
-      "score": 64,
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 65,
+      "market": "US"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 65,
       "market": "UK"
     },
     {
       "ticker": "JDW.L",
       "name": "J D Wetherspoon",
-      "score": 64,
+      "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "KNOS.L",
-      "name": "Kainos Group",
-      "score": 63,
-      "market": "UK"
+      "ticker": "ALV.DE",
+      "name": "Allianz",
+      "score": 65,
+      "market": "DE"
     },
     {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 63,
-      "market": "UK"
-    },
-    {
-      "ticker": "ASHM.L",
-      "name": "Ashmore Group",
-      "score": 62,
-      "market": "UK"
-    },
-    {
-      "ticker": "BYND",
-      "name": "Beyond Meat",
-      "score": 61,
-      "market": "US"
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 65,
+      "market": "FR"
     }
   ],
   "totalStocks": 859,
   "avgScore": 52,
-  "bearishAlertCount": 266
+  "bearishAlertCount": 264
 }
