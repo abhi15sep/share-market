@@ -1,38 +1,24 @@
 {
   "topOverall": [
     {
-      "ticker": "AFRM",
-      "name": "Affirm",
-      "score": 83,
-      "market": "US",
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
+      "score": 78,
+      "market": "HK",
       "capCategory": "Large"
     },
     {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
-      "score": 75,
-      "market": "US",
+      "ticker": "1398.HK",
+      "name": "ICBC",
+      "score": 77,
+      "market": "HK",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 75,
-      "market": "US",
-      "capCategory": "Mid"
     },
     {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 74,
       "market": "UK",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "VRNS",
-      "name": "Varonis Systems",
-      "score": 73,
-      "market": "US",
       "capCategory": "Mid"
     },
     {
@@ -50,69 +36,97 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "score": 73,
-      "market": "DE",
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 72,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 72,
+      "market": "JP",
       "capCategory": "Large"
     },
     {
-      "ticker": "SCHW",
-      "name": "Charles Schwab",
-      "score": 72,
-      "market": "US",
+      "ticker": "BNZL.L",
+      "name": "Bunzl",
+      "score": 71,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ADM.L",
+      "name": "Admiral Group",
+      "score": 71,
+      "market": "UK",
       "capCategory": "Large"
     },
     {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 72,
-      "market": "US",
+      "ticker": "ICICIBANK.NS",
+      "name": "ICICI Bank",
+      "score": 71,
+      "market": "IN",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "CAVA",
-      "name": "Cava Group",
-      "score": 22,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "LCID",
       "name": "Lucid Group",
-      "score": 22,
+      "score": 20,
       "market": "US",
       "capCategory": "Small"
     },
     {
       "ticker": "BLDR",
       "name": "Builders FirstSource",
-      "score": 26,
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "JOBY",
       "name": "Joby Aviation",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "score": 24,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CAVA",
+      "name": "Cava Group",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
       "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "MNST",
-      "name": "Monster Beverage",
-      "score": 26,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "TATACONSUM.NS",
-      "name": "Tata Consumer Products",
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
       "score": 27,
-      "market": "IN",
-      "capCategory": "Large"
+      "market": "FR",
+      "capCategory": "Small"
     },
     {
       "ticker": "FDM.L",
@@ -122,107 +136,81 @@
       "capCategory": "Small"
     },
     {
-      "ticker": "BWXT",
-      "name": "BWX Technologies",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
+      "ticker": "ZG",
+      "name": "Zillow Group",
       "score": 27,
       "market": "US",
       "capCategory": "Mid"
-    },
-    {
-      "ticker": "ASTS",
-      "name": "AST SpaceMobile",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "AFRM",
-      "name": "Affirm",
-      "score": 83,
-      "market": "US"
-    },
-    {
-      "ticker": "ESTC",
-      "name": "Elastic NV",
-      "score": 75,
-      "market": "US"
-    },
-    {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "score": 73,
-      "market": "DE"
-    },
-    {
-      "ticker": "SCHW",
-      "name": "Charles Schwab",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "score": 72,
-      "market": "US"
+      "ticker": "0939.HK",
+      "name": "China Construction Bank",
+      "score": 78,
+      "market": "HK"
     },
     {
       "ticker": "1398.HK",
       "name": "ICBC",
-      "score": 72,
+      "score": 77,
       "market": "HK"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 71,
-      "market": "US"
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 72,
+      "market": "JP"
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
+      "ticker": "ADM.L",
+      "name": "Admiral Group",
       "score": 71,
+      "market": "UK"
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "name": "ICICI Bank",
+      "score": 71,
+      "market": "IN"
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "score": 71,
+      "market": "DE"
+    },
+    {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial",
+      "score": 71,
+      "market": "JP"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "score": 70,
       "market": "US"
     },
     {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 71,
+      "score": 70,
       "market": "US"
     },
     {
-      "ticker": "RJF",
-      "name": "Raymond James Financial",
-      "score": 71,
-      "market": "US"
+      "ticker": "NXT.L",
+      "name": "Next",
+      "score": 70,
+      "market": "UK"
     }
   ],
   "topMidCap": [
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 75,
-      "market": "US"
-    },
     {
       "ticker": "SCT.L",
       "name": "Softcat",
       "score": 74,
       "market": "UK"
-    },
-    {
-      "ticker": "VRNS",
-      "name": "Varonis Systems",
-      "score": 73,
-      "market": "US"
     },
     {
       "ticker": "EZJ.L",
@@ -237,8 +225,8 @@
       "market": "UK"
     },
     {
-      "ticker": "GTLB",
-      "name": "GitLab",
+      "ticker": "VRNS",
+      "name": "Varonis Systems",
       "score": 70,
       "market": "US"
     },
@@ -255,15 +243,27 @@
       "market": "US"
     },
     {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "score": 68,
-      "market": "US"
+      "ticker": "WISE.L",
+      "name": "Wise",
+      "score": 67,
+      "market": "UK"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
+      "ticker": "PSON.L",
+      "name": "Pearson",
       "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "AJB.L",
+      "name": "AJ Bell",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global",
+      "score": 66,
       "market": "US"
     }
   ],
@@ -281,16 +281,16 @@
       "market": "UK"
     },
     {
-      "ticker": "ALV.DE",
-      "name": "Allianz",
-      "score": 71,
-      "market": "DE"
-    },
-    {
       "ticker": "RNWH.L",
       "name": "Renew Holdings",
       "score": 70,
       "market": "UK"
+    },
+    {
+      "ticker": "ALV.DE",
+      "name": "Allianz",
+      "score": 70,
+      "market": "DE"
     },
     {
       "ticker": "PETS.L",
@@ -323,13 +323,13 @@
       "market": "UK"
     },
     {
-      "ticker": "PUB.PA",
-      "name": "Publicis",
-      "score": 65,
+      "ticker": "ML.PA",
+      "name": "Michelin",
+      "score": 66,
       "market": "FR"
     }
   ],
   "totalStocks": 859,
-  "avgScore": 53,
-  "bearishAlertCount": 250
+  "avgScore": 51,
+  "bearishAlertCount": 262
 }
