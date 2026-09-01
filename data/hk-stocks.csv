@@ -1,30 +1,30 @@
 ticker,name,market,sector,price,changePercent,marketCap,capCategory,pe,rsi,sma50,sma200,bearishScore,bullishScore,sentimentAvg,compositeScore
-0700.HK,Tencent,HK,Technology,441.4,-3.03,3977865854976,Large,14.87698,49.0,454.06,521.01,6,0,0.000,41
-9988.HK,Alibaba Group,HK,Technology,110.4,-3.07,2195302776832,Large,25.496536,44.3,112.67,134.10,6,2,0.000,39
-0939.HK,China Construction Bank,HK,Financials,9.6,5.03,2511363637248,Large,6.3157897,69.5,8.68,8.32,0,8,0.000,74
-1398.HK,ICBC,HK,Financials,7.685,3.22,2738982223872,Large,6.512712,65.0,7.08,6.70,0,8,0.000,73
-0941.HK,China Mobile,HK,Communication,79.5,0.13,1723853832192,Large,11.276595,33.9,80.44,82.02,6,1,0.000,46
-2318.HK,Ping An Insurance,HK,Financials,56.75,-0.26,1027608674304,Large,5.838477,52.6,55.21,61.31,3,4,0.000,57
-3690.HK,Meituan,HK,Technology,76.65,-1.10,428679561216,Large,,36.5,82.62,87.76,6,2,0.000,42
-0005.HK,HSBC Holdings,HK,Financials,160.6,-0.50,2751244009472,Large,14.626595,50.4,158.05,137.26,2,5,0.000,62
-1299.HK,AIA Group,HK,Financials,75.95,0.60,782523432960,Large,12.743288,56.3,74.67,80.93,3,2,0.000,50
-9618.HK,JD.com,HK,Technology,108.6,-1.72,296656240640,Large,18.469387,41.9,114.86,114.25,2,4,0.000,55
-9999.HK,NetEase,HK,Technology,188.8,-1.77,604396191744,Large,16.081772,43.9,199.17,197.18,2,6,0.000,59
-0388.HK,Hong Kong Exchanges,HK,Financials,405.6,-4.34,512677904384,Large,25.916933,68.3,397.93,408.05,3,2,0.000,52
-2020.HK,ANTA Sports,HK,Consumer Cyclical,78.35,1.23,217068634112,Large,13.991072,58.8,74.11,78.65,3,2,0.000,51
-0027.HK,Galaxy Entertainment,HK,Consumer Cyclical,33.08,-2.30,144865296384,Large,13.557378,51.5,32.58,36.06,5,0,0.000,44
-1810.HK,Xiaomi,HK,Technology,27.56,-0.93,709260279808,Large,19.408451,51.5,26.30,32.68,3,4,0.000,48
-0016.HK,Sun Hung Kai Properties,HK,Real Estate,113.6,-6.81,329187819520,Large,14.967061,39.9,118.99,120.50,6,0,0.000,41
-0002.HK,CLP Holdings,HK,Utilities,77.85,-1.08,196684185600,Large,18.18925,56.4,76.91,73.85,2,4,0.000,59
-0003.HK,Hong Kong & China Gas,HK,Utilities,7.08,-3.93,132111884288,Large,20.823528,55.8,6.88,7.17,3,2,0.000,48
-0066.HK,MTR Corporation,HK,Industrials,31.84,-1.97,197859508224,Large,8.675749,45.3,32.20,32.59,6,0,0.000,45
-0883.HK,CNOOC,HK,Energy,25.06,-1.49,1191100678144,Large,8.353333,63.0,23.17,24.35,5,2,0.000,49
-1038.HK,CK Infrastructure,HK,Utilities,64.2,-1.23,161759002624,Large,6.312684,62.9,62.04,61.28,0,5,0.000,65
-0006.HK,Power Assets Holdings,HK,Utilities,59.05,-1.58,125841760256,Large,7.0297623,54.2,58.71,58.92,5,0,0.000,49
-0012.HK,Henderson Land,HK,Real Estate,26.32,-9.18,127425306624,Large,19.496296,40.6,27.15,29.82,6,0,0.000,39
-0017.HK,New World Development,HK,Real Estate,6.41,-8.36,16131405824,Large,,41.0,6.76,8.09,7,0,0.000,30
-1113.HK,CK Asset Holdings,HK,Real Estate,45.24,-1.35,158329978880,Large,11.968254,40.5,46.34,45.33,2,4,0.000,57
-0288.HK,WH Group,HK,Consumer Defensive,7.53,-4.44,96611557376,Large,7.9263163,27.7,8.22,9.01,8,7,0.000,49
-2269.HK,WuXi Biologics,HK,Healthcare,49.48,-2.31,203177181184,Large,36.65185,60.0,40.97,36.22,2,4,0.000,57
-9626.HK,Bilibili,HK,Communication,125.4,-4.86,52480622592,Large,29.786222,40.4,137.68,182.48,7,0,0.000,31
-0241.HK,Alibaba Health,HK,Healthcare,3.07,-2.38,49658171392,Large,21.928572,34.0,3.35,4.70,8,2,0.000,32
+0700.HK,Tencent,HK,Technology,441.4,-2.56,0,Small,,43.4,454.23,519.99,6,0,0.000,36
+9988.HK,Alibaba Group,HK,Technology,110.4,-3.33,0,Small,,39.9,112.82,133.83,6,0,0.000,34
+0939.HK,China Construction Bank,HK,Financials,9.6,1.05,0,Small,,71.6,8.70,8.32,3,8,0.000,63
+1398.HK,ICBC,HK,Financials,7.685,1.52,0,Small,,69.2,7.09,6.71,0,6,0.000,63
+0941.HK,China Mobile,HK,Communication,79.5,0.32,0,Small,,36.5,80.44,81.99,6,3,0.000,44
+2318.HK,Ping An Insurance,HK,Financials,56.75,0.35,0,Small,,53.9,55.24,61.30,3,4,0.000,50
+3690.HK,Meituan,HK,Technology,76.65,-2.85,0,Small,,32.7,82.71,87.62,6,0,0.000,39
+0005.HK,HSBC Holdings,HK,Financials,160.6,-0.25,0,Small,,49.2,158.31,137.51,2,5,0.000,57
+1299.HK,AIA Group,HK,Financials,75.95,-0.39,0,Small,,54.9,74.70,80.91,5,2,0.000,41
+9618.HK,JD.com,HK,Technology,108.6,-3.21,0,Small,,36.7,114.88,114.16,2,2,0.000,47
+9999.HK,NetEase,HK,Technology,188.8,-1.87,0,Small,,40.1,199.15,197.02,2,4,0.000,51
+0388.HK,Hong Kong Exchanges,HK,Financials,405.6,-4.61,0,Small,,44.8,398.49,407.91,5,0,0.000,42
+2020.HK,ANTA Sports,HK,Consumer Cyclical,78.35,0.84,0,Small,,60.5,74.29,78.64,3,2,0.000,46
+0027.HK,Galaxy Entertainment,HK,Consumer Cyclical,33.08,-3.16,0,Small,,43.0,32.65,36.04,5,0,0.000,38
+1810.HK,Xiaomi,HK,Technology,27.56,-0.22,0,Small,,51.1,26.38,32.61,3,4,0.000,44
+0016.HK,Sun Hung Kai Properties,HK,Real Estate,113.6,-2.24,0,Small,,36.0,118.99,120.58,6,0,0.000,36
+0002.HK,CLP Holdings,HK,Utilities,77.85,-1.08,0,Small,,48.0,77.01,73.90,2,4,0.000,55
+0003.HK,Hong Kong & China Gas,HK,Utilities,7.08,-1.80,0,Small,,49.4,6.89,7.16,5,0,0.000,39
+0066.HK,MTR Corporation,HK,Industrials,31.84,-1.55,0,Small,,40.2,32.22,32.60,6,0,0.000,38
+0883.HK,CNOOC,HK,Energy,25.06,-0.95,0,Small,,59.3,23.23,24.37,3,2,0.000,45
+1038.HK,CK Infrastructure,HK,Utilities,64.2,-1.61,0,Small,,53.0,62.16,61.34,2,3,0.000,52
+0006.HK,Power Assets Holdings,HK,Utilities,59.05,-1.91,0,Small,,45.6,58.76,58.97,5,0,0.000,42
+0012.HK,Henderson Land,HK,Real Estate,26.32,-2.01,0,Small,,37.6,27.16,29.81,6,0,0.000,35
+0017.HK,New World Development,HK,Real Estate,6.41,-2.73,0,Small,,37.1,6.75,8.09,7,0,0.000,30
+1113.HK,CK Asset Holdings,HK,Real Estate,45.24,-0.13,0,Small,,40.1,46.35,45.36,2,2,0.000,48
+0288.HK,WH Group,HK,Consumer Defensive,7.53,1.55,0,Small,,32.8,8.20,9.00,8,2,0.000,35
+2269.HK,WuXi Biologics,HK,Healthcare,49.48,1.31,0,Small,,61.6,41.34,36.29,2,5,0.000,60
+9626.HK,Bilibili,HK,Communication,125.4,-2.87,0,Small,,36.6,137.53,181.99,7,0,0.000,30
+0241.HK,Alibaba Health,HK,Healthcare,3.07,-0.65,0,Small,,33.1,3.35,4.69,8,2,0.000,30
