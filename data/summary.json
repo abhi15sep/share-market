@@ -1,88 +1,109 @@
 {
   "topOverall": [
     {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 75,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
       "ticker": "DUOL",
       "name": "Duolingo",
+      "score": 78,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
       "score": 74,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 74,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "score": 73,
+      "market": "DE",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 72,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "score": 71,
+      "market": "US",
+      "capCategory": "Large"
     },
     {
       "ticker": "VRNS",
       "name": "Varonis Systems",
-      "score": 72,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
       "score": 71,
-      "market": "UK",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 70,
       "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "MRK",
-      "name": "Merck",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "DE",
-      "name": "Deere & Co",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "GTLB",
-      "name": "GitLab",
-      "score": 70,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "FTNT",
-      "name": "Fortinet",
-      "score": 69,
-      "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Mid"
     }
   ],
   "bottomOverall": [
+    {
+      "ticker": "VIV.PA",
+      "name": "Vivendi",
+      "score": 24,
+      "market": "FR",
+      "capCategory": "Small"
+    },
     {
       "ticker": "JOBY",
       "name": "Joby Aviation",
       "score": 24,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CAVA",
+      "name": "Cava Group",
+      "score": 25,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "LCID",
       "name": "Lucid Group",
-      "score": 24,
+      "score": 25,
       "market": "US",
       "capCategory": "Small"
     },
@@ -91,59 +112,86 @@
       "name": "AST SpaceMobile",
       "score": 26,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "JMAT.L",
+      "name": "Johnson Matthey",
+      "score": 27,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ZG",
+      "name": "Zillow Group",
+      "score": 27,
+      "market": "US",
+      "capCategory": "Mid"
     },
     {
       "ticker": "OPEN",
       "name": "Opendoor Technologies",
       "score": 27,
       "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Mid"
     },
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
       "score": 27,
       "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "RKLB",
-      "name": "Rocket Lab",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "APLD",
-      "name": "Applied Digital",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "TTD",
-      "name": "Trade Desk",
-      "score": 28,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "XPEV",
-      "name": "XPeng",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Small"
-    },
-    {
-      "ticker": "APP",
-      "name": "AppLovin",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Small"
+      "capCategory": "Mid"
     }
   ],
   "topLargeCap": [
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "score": 74,
+      "market": "US"
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "score": 73,
+      "market": "DE"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 72,
+      "market": "US"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "score": 71,
+      "market": "JP"
+    },
+    {
+      "ticker": "1398.HK",
+      "name": "ICBC",
+      "score": 71,
+      "market": "HK"
+    },
     {
       "ticker": "SNOW",
       "name": "Snowflake",
@@ -151,109 +199,35 @@
       "market": "US"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "V",
-      "name": "Visa",
-      "score": 68,
-      "market": "US"
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "score": 65,
-      "market": "US"
-    },
-    {
-      "ticker": "MDB",
-      "name": "MongoDB",
-      "score": 64,
-      "market": "US"
-    },
-    {
-      "ticker": "SO",
-      "name": "Southern Co",
-      "score": 64,
-      "market": "US"
-    },
-    {
-      "ticker": "CRM",
-      "name": "Salesforce",
-      "score": 62,
-      "market": "US"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "score": 62,
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 70,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "RARE",
-      "name": "Ultragenyx Pharmaceutical",
-      "score": 66,
-      "market": "US"
-    },
-    {
-      "ticker": "SRPT",
-      "name": "Sarepta Therapeutics",
-      "score": 59,
-      "market": "US"
-    }
-  ],
-  "topSmallCap": [
-    {
-      "ticker": "SCT.L",
-      "name": "Softcat",
-      "score": 75,
-      "market": "UK"
-    },
-    {
       "ticker": "DUOL",
       "name": "Duolingo",
+      "score": 78,
+      "market": "US"
+    },
+    {
+      "ticker": "MTCH",
+      "name": "Match Group",
       "score": 74,
       "market": "US"
     },
     {
-      "ticker": "VRNS",
-      "name": "Varonis Systems",
-      "score": 72,
-      "market": "US"
-    },
-    {
-      "ticker": "JDW.L",
-      "name": "J D Wetherspoon",
-      "score": 71,
+      "ticker": "EZJ.L",
+      "name": "easyJet",
+      "score": 73,
       "market": "UK"
     },
     {
-      "ticker": "MRK",
-      "name": "Merck",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "DE",
-      "name": "Deere & Co",
-      "score": 70,
+      "ticker": "VRNS",
+      "name": "Varonis Systems",
+      "score": 71,
       "market": "US"
     },
     {
@@ -263,25 +237,99 @@
       "market": "US"
     },
     {
-      "ticker": "FTNT",
-      "name": "Fortinet",
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 70,
+      "market": "UK"
+    },
+    {
+      "ticker": "LTC",
+      "name": "LTC Properties",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "TENB",
-      "name": "Tenable Holdings",
+      "ticker": "OGN",
+      "name": "Organon & Co",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "MTCH",
-      "name": "Match Group",
+      "ticker": "ESTC",
+      "name": "Elastic NV",
       "score": 69,
       "market": "US"
+    },
+    {
+      "ticker": "BRZE",
+      "name": "Braze",
+      "score": 68,
+      "market": "US"
+    }
+  ],
+  "topSmallCap": [
+    {
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
+      "score": 70,
+      "market": "UK"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "RNWH.L",
+      "name": "Renew Holdings",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology",
+      "score": 64,
+      "market": "UK"
+    },
+    {
+      "ticker": "CARD.L",
+      "name": "Card Factory",
+      "score": 63,
+      "market": "UK"
+    },
+    {
+      "ticker": "RPD",
+      "name": "Rapid7",
+      "score": 62,
+      "market": "US"
+    },
+    {
+      "ticker": "KNOS.L",
+      "name": "Kainos Group",
+      "score": 62,
+      "market": "UK"
+    },
+    {
+      "ticker": "DOM.L",
+      "name": "Domino's Pizza Group",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 61,
+      "market": "UK"
+    },
+    {
+      "ticker": "MONY.L",
+      "name": "Moneysupermarket.com",
+      "score": 60,
+      "market": "UK"
     }
   ],
   "totalStocks": 859,
   "avgScore": 51,
-  "bearishAlertCount": 278
+  "bearishAlertCount": 282
 }
