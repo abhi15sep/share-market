@@ -1,38 +1,17 @@
 {
   "topOverall": [
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 80,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "0005.HK",
-      "name": "HSBC Holdings",
-      "score": 79,
-      "market": "HK",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
-      "score": 77,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 76,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 75,
+      "score": 76,
       "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 76,
+      "market": "UK",
       "capCategory": "Large"
     },
     {
@@ -43,11 +22,18 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "DUOL",
-      "name": "Duolingo",
+      "ticker": "JDW.L",
+      "name": "J D Wetherspoon",
       "score": 75,
-      "market": "US",
-      "capCategory": "Mid"
+      "market": "UK",
+      "capCategory": "Small"
+    },
+    {
+      "ticker": "0005.HK",
+      "name": "HSBC Holdings",
+      "score": 75,
+      "market": "HK",
+      "capCategory": "Large"
     },
     {
       "ticker": "8306.T",
@@ -57,61 +43,96 @@
       "capCategory": "Large"
     },
     {
-      "ticker": "1398.HK",
-      "name": "ICBC",
-      "score": 74,
-      "market": "HK",
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 73,
+      "market": "US",
       "capCategory": "Large"
     },
     {
-      "ticker": "HOOD",
-      "name": "Robinhood",
+      "ticker": "EZJ.L",
+      "name": "easyJet",
       "score": 73,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "CMCX.L",
+      "name": "CMC Markets",
+      "score": 73,
+      "market": "UK",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "score": 72,
       "market": "US",
       "capCategory": "Large"
     }
   ],
   "bottomOverall": [
     {
-      "ticker": "CAVA",
-      "name": "Cava Group",
-      "score": 25,
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies",
+      "score": 20,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "XPEV",
+      "name": "XPeng",
+      "score": 20,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "score": 21,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "BLDR",
       "name": "Builders FirstSource",
-      "score": 26,
+      "score": 22,
+      "market": "US",
+      "capCategory": "Mid"
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "score": 23,
+      "market": "US",
+      "capCategory": "Large"
+    },
+    {
+      "ticker": "CAVA",
+      "name": "Cava Group",
+      "score": 24,
       "market": "US",
       "capCategory": "Mid"
     },
     {
       "ticker": "LCID",
       "name": "Lucid Group",
-      "score": 26,
+      "score": 24,
       "market": "US",
       "capCategory": "Small"
     },
     {
-      "ticker": "SUI",
-      "name": "Sun Communities",
-      "score": 27,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
       "ticker": "CELH",
       "name": "Celsius Holdings",
-      "score": 27,
+      "score": 26,
       "market": "US",
       "capCategory": "Mid"
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "score": 28,
-      "market": "DE",
+      "ticker": "DKS",
+      "name": "Dick's Sporting Goods",
+      "score": 27,
+      "market": "US",
       "capCategory": "Large"
     },
     {
@@ -120,53 +141,20 @@
       "score": 28,
       "market": "IN",
       "capCategory": "Large"
-    },
-    {
-      "ticker": "ASTS",
-      "name": "AST SpaceMobile",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Large"
-    },
-    {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "score": 29,
-      "market": "US",
-      "capCategory": "Mid"
-    },
-    {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica",
-      "score": 30,
-      "market": "FR",
-      "capCategory": "Large"
     }
   ],
   "topLargeCap": [
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "score": 80,
-      "market": "US"
-    },
-    {
-      "ticker": "0005.HK",
-      "name": "HSBC Holdings",
-      "score": 79,
-      "market": "HK"
-    },
-    {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
-      "score": 77,
-      "market": "US"
-    },
-    {
       "ticker": "VLO",
       "name": "Valero Energy",
-      "score": 75,
+      "score": 76,
       "market": "US"
+    },
+    {
+      "ticker": "SMT.L",
+      "name": "Scottish Mortgage",
+      "score": 76,
+      "market": "UK"
     },
     {
       "ticker": "MPC",
@@ -175,161 +163,173 @@
       "market": "US"
     },
     {
+      "ticker": "0005.HK",
+      "name": "HSBC Holdings",
+      "score": 75,
+      "market": "HK"
+    },
+    {
       "ticker": "8306.T",
       "name": "Mitsubishi UFJ Financial",
       "score": 74,
       "market": "JP"
     },
     {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 73,
+      "market": "US"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "score": 72,
+      "market": "US"
+    },
+    {
       "ticker": "1398.HK",
       "name": "ICBC",
-      "score": 74,
+      "score": 72,
       "market": "HK"
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Robinhood",
-      "score": 73,
-      "market": "US"
-    },
-    {
-      "ticker": "GEN",
-      "name": "Gen Digital",
-      "score": 73,
-      "market": "US"
     },
     {
       "ticker": "MU",
       "name": "Micron",
-      "score": 72,
+      "score": 71,
+      "market": "US"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc",
+      "score": 71,
       "market": "US"
     }
   ],
   "topMidCap": [
     {
-      "ticker": "RELY",
-      "name": "Remitly Global",
-      "score": 76,
-      "market": "US"
-    },
-    {
-      "ticker": "DUOL",
-      "name": "Duolingo",
-      "score": 75,
-      "market": "US"
-    },
-    {
-      "ticker": "MTCH",
-      "name": "Match Group",
-      "score": 72,
-      "market": "US"
-    },
-    {
       "ticker": "EZJ.L",
       "name": "easyJet",
-      "score": 72,
+      "score": 73,
       "market": "UK"
     },
     {
       "ticker": "CMCX.L",
       "name": "CMC Markets",
-      "score": 72,
+      "score": 73,
+      "market": "UK"
+    },
+    {
+      "ticker": "JET2.L",
+      "name": "Jet2",
+      "score": 71,
       "market": "UK"
     },
     {
       "ticker": "QLYS",
       "name": "Qualys",
-      "score": 71,
-      "market": "US"
-    },
-    {
-      "ticker": "BRZE",
-      "name": "Braze",
-      "score": 70,
-      "market": "US"
-    },
-    {
-      "ticker": "PATH",
-      "name": "UiPath",
       "score": 69,
       "market": "US"
     },
     {
-      "ticker": "OGN",
-      "name": "Organon & Co",
-      "score": 69,
-      "market": "US"
-    },
-    {
-      "ticker": "LYFT",
-      "name": "Lyft",
+      "ticker": "LTC",
+      "name": "LTC Properties",
       "score": 68,
       "market": "US"
+    },
+    {
+      "ticker": "ESTC",
+      "name": "Elastic NV",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "NWL",
+      "name": "Newell Brands",
+      "score": 68,
+      "market": "US"
+    },
+    {
+      "ticker": "SCT.L",
+      "name": "Softcat",
+      "score": 68,
+      "market": "UK"
+    },
+    {
+      "ticker": "AMC",
+      "name": "AMC Entertainment",
+      "score": 67,
+      "market": "US"
+    },
+    {
+      "ticker": "FRAS.L",
+      "name": "Frasers Group",
+      "score": 67,
+      "market": "UK"
     }
   ],
   "topSmallCap": [
     {
-      "ticker": "BYIT.L",
-      "name": "Bytes Technology",
-      "score": 68,
-      "market": "UK"
-    },
-    {
-      "ticker": "RPD",
-      "name": "Rapid7",
-      "score": 67,
-      "market": "US"
-    },
-    {
       "ticker": "JDW.L",
       "name": "J D Wetherspoon",
-      "score": 67,
+      "score": 75,
       "market": "UK"
     },
     {
-      "ticker": "ONT.L",
-      "name": "Oxford Nanopore",
-      "score": 66,
-      "market": "UK"
-    },
-    {
-      "ticker": "FDEV.L",
-      "name": "Frontier Developments",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "RWS.L",
-      "name": "RWS Holdings",
-      "score": 64,
-      "market": "UK"
-    },
-    {
-      "ticker": "SFOR.L",
-      "name": "S4 Capital",
-      "score": 63,
+      "ticker": "CURY.L",
+      "name": "Currys",
+      "score": 70,
       "market": "UK"
     },
     {
       "ticker": "ML.PA",
       "name": "Michelin",
-      "score": 63,
+      "score": 68,
       "market": "FR"
+    },
+    {
+      "ticker": "CARD.L",
+      "name": "Card Factory",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "SFOR.L",
+      "name": "S4 Capital",
+      "score": 67,
+      "market": "UK"
+    },
+    {
+      "ticker": "FDEV.L",
+      "name": "Frontier Developments",
+      "score": 65,
+      "market": "UK"
     },
     {
       "ticker": "DOM.L",
       "name": "Domino's Pizza Group",
-      "score": 62,
+      "score": 65,
       "market": "UK"
     },
     {
-      "ticker": "RNWH.L",
-      "name": "Renew Holdings",
-      "score": 62,
+      "ticker": "ONT.L",
+      "name": "Oxford Nanopore",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "PETS.L",
+      "name": "Pets at Home",
+      "score": 65,
+      "market": "UK"
+    },
+    {
+      "ticker": "WOSG.L",
+      "name": "Watches of Switzerland",
+      "score": 64,
       "market": "UK"
     }
   ],
   "totalStocks": 859,
-  "avgScore": 53,
-  "bearishAlertCount": 276
+  "avgScore": 52,
+  "bearishAlertCount": 280
 }
